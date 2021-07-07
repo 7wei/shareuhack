@@ -1,42 +1,10 @@
-import Container from './container'
-import cn from 'classnames'
-import { EXAMPLE_PATH } from '../lib/constants'
+import {Box, Typography, Link} from '@material-ui/core'
 
-export default function Alert({ preview }) {
+
+export default function Alert() {
   return (
-    <div
-      className={cn('border-b', {
-        'bg-accent-7 border-accent-7 text-white': preview,
-        'bg-accent-1 border-accent-2': !preview,
-      })}
-    >
-      <Container>
-        <div className="py-2 text-center text-sm">
-          {preview ? (
-            <>
-              This page is a preview.{' '}
-              <a
-                href="/api/exit-preview"
-                className="underline hover:text-cyan duration-200 transition-colors"
-              >
-                Click here
-              </a>{' '}
-              to exit preview mode.
-            </>
-          ) : (
-            <>
-              The source code for this blog is{' '}
-              <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-success duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
-            </>
-          )}
-        </div>
-      </Container>
-    </div>
+    <Box textAlign='center'>
+      <Typography align='center'>Shareuhack是仰賴用戶支持而持續產生內容的，當您透過網站內的連結購買商品，我們可能因此收益。<Link href='#'>了解更多</Link></Typography>
+    </Box>
   )
 }
