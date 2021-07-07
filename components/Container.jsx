@@ -1,3 +1,5 @@
+import { Container as MuiContainer } from '@material-ui/core'
+
 export default function Container({ children }) {
-  return <div className="container mx-auto px-5">{children}</div>
+  return <MuiContainer maxWidth="md">{children}</MuiContainer>
 }
