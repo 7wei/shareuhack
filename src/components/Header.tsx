@@ -1,13 +1,14 @@
-import { Link, Box, Typography } from '@material-ui/core'
+import { Link, Typography } from '@material-ui/core'
+import Container from './Container'
 
 export default function Header() {
   return (
-    <Box height="140px">
+    <Container>
       <Typography variant="h2">
         <Link href="/" color="inherit">
           Shareuhack
         </Link>
       </Typography>
-    </Box>
+    </Container>
   )
 }

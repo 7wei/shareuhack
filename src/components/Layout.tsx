@@ -1,12 +1,13 @@
-import Alert from './Alert'
 import Footer from './Footer'
 import Meta from './Meta'
+import Header from './Header'
+import React from 'react'
 
-export default function Layout({ preview, children }) {
+export default function Layout({ children }: { children: JSX.Element }) {
   return (
     <>
       <Meta />
-      {/* <Alert preview={preview} /> */}
+      <Header />
       <main>{children}</main>
       <Footer />
     </>

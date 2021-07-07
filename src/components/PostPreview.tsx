@@ -2,7 +2,19 @@ import DateFormatter from './DateFormatter'
 import CoverImage from './CoverImage'
 import Link from 'next/link'
 
-export default function PostPreview({ title, coverImage, date, excerpt, author, slug }) {
+export default function PostPreview({
+  title,
+  coverImage,
+  date,
+  excerpt,
+  slug,
+}: {
+  title: string
+  coverImage: string
+  date: string
+  excerpt: string
+  slug: string
+}) {
   return (
     <div>
       <div className="mb-5">

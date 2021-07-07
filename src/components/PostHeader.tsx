@@ -2,7 +2,7 @@ import DateFormatter from './DateFormatter'
 import CoverImage from './CoverImage'
 import PostTitle from './PostTitle'
 
-export default function PostHeader({ title, coverImage, date, author }) {
+export default function PostHeader({ title, coverImage, date }: { title: string; coverImage: string; date: string }) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
