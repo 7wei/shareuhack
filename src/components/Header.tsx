@@ -1,14 +1,15 @@
 import { Link, Typography } from '@material-ui/core'
 import Container from './Container'
+import { TYPE } from 'theme/index'
 
 export default function Header() {
   return (
     <Container>
-      <Typography variant="h2">
-        <Link href="/" color="inherit">
-          Shareuhack
+      <TYPE.brand>
+        <Link href="/" color="inherit" underline="none">
+          Share.U.Hack
         </Link>
-      </Typography>
+      </TYPE.brand>
     </Container>
   )
 }
