@@ -27,7 +27,7 @@ const links = [
 
 const useStyles = makeStyles({
   navlink: {
-    fontSize: 18,
+    fontSize: 16,
     textDecoration: 'none',
     color: 'inherit',
     position: 'relative',
