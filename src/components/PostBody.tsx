@@ -13,11 +13,26 @@ const useStyles = makeStyles({
       fontSize: 16,
     },
     '& p a': {
-      color: theme.palette.primary.main,
+      color: '#d6363c',
       textDecoration: 'none',
     },
     '& p a:hover': {
-      color: theme.palette.primary.dark,
+      color: '#ED5A62',
+    },
+    '& hr': {
+      width: '60%',
+      height: 3,
+      backgroundColor: theme.palette.primary.main,
+      border: 'none',
+      margin: '50px auto',
+    },
+    '& p img': {
+      width: '100%',
+    },
+    '& ul,ol': {
+      margin: 0,
+      paddingLeft: 18,
+      fontSize: 16,
     },
   },
 })
