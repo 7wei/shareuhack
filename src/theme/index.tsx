@@ -149,6 +149,9 @@ export const TYPE = {
   body(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={16} textColor="text1" {...props} />
   },
+  primary(props: TextProps) {
+    return <TextWrapper fontWeight={600} fontSize={16} textColor="primary" {...props} />
+  },
 }
 
 export const HideOnMobile = styled('div')(({ theme, breakpoint }: { theme: Theme; breakpoint?: 'sm' | 'md' }) => ({
