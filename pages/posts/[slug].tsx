@@ -1,9 +1,7 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import Container from '../../src/components/Container'
 import PostBody from '../../src/components/PostBody'
 import PostHeader from '../../src/components/PostHeader'
-import Layout from '../../src/components/Layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../src/components/PostTitle'
 import Head from 'next/head'
@@ -16,26 +14,24 @@ export default function Post({ post, morePosts, preview }) {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <Layout preview={preview}>
-      <Container>
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>
-                  {post.title} | {CMS_NAME}
-                </title>
-                <meta property="og:image" content={post.ogImage.url} />
-              </Head>
-              <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} />
-              <PostBody content={post.content} />
-            </article>
-          </>
-        )}
-      </Container>
-    </Layout>
+    <>
+      {router.isFallback ? (
+        <PostTitle>Loading…</PostTitle>
+      ) : (
+        <>
+          <article className="mb-32">
+            <Head>
+              <title>
+                {post.title} | {CMS_NAME}
+              </title>
+              <meta property="og:image" content={post.ogImage.url} />
+            </Head>
+            <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} />
+            <PostBody content={post.content} />
+          </article>
+        </>
+      )}
+    </>
   )
 }
 

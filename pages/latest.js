@@ -1,29 +1,29 @@
 import Container from '../src/components/Container'
 import MoreStories from '../src/components/MoreStories'
 import HeroPost from '../src/components/HeroPost'
+import Intro from '../src/components/Intro'
+// import Layout from '../src/components/Layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
+import PostPreview from '../src/components/PostPreview'
 
-export default function Index({ allPosts }) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+export default function Latest({ allPosts }) {
   return (
     <>
       <Head>
-        <title>{CMS_NAME}</title>
+        <title>{CMS_NAME} | 最新文章</title>
       </Head>
-      {heroPost && (
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
+      {allPosts.map((post) => (
+        <PostPreview
+          key={post.slug}
+          title={post.title}
+          coverImage={post.coverImage}
+          date={post.date}
+          slug={post.slug}
+          excerpt={post.excerpt}
         />
-      )}
-      {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+      ))}
     </>
   )
 }

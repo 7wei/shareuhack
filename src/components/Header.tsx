@@ -2,28 +2,7 @@ import { Link, makeStyles, Box } from '@material-ui/core'
 import Container from './Container'
 import theme, { TYPE } from 'theme/index'
 
-const links = [
-  {
-    title: '熱門文章',
-    link: '/popular',
-  },
-  {
-    title: '數位學習',
-    link: '/knowledge',
-  },
-  {
-    title: '生活',
-    link: '/lifestyle',
-  },
-  {
-    title: '虛擬貨幣',
-    link: '/crypto',
-  },
-  {
-    title: '關於',
-    link: '/about',
-  },
-]
+import { NavLinks } from '../../lib/constants'
 
 const useStyles = makeStyles({
   navlink: {
@@ -63,7 +42,7 @@ export default function Header() {
           Share.U.Hack
         </Link>
         <Box display="flex" height="80px" alignItems="center" gridColumnGap="16px">
-          {links.map((link) => (
+          {NavLinks.map((link) => (
             <Link className={classes.navlink} href={link.link}>
               {link.title}
             </Link>
