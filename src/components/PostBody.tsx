@@ -3,6 +3,12 @@ import theme from 'theme'
 
 const useStyles = makeStyles({
   markdown: {
+    '& blockquote': {
+      color: theme.palette.primary.main,
+      borderLeft: `3px solid ${theme.palette.primary.main}`,
+      paddingLeft: 9,
+      margin: 0,
+    },
     '& p': {
       fontSize: 16,
     },
