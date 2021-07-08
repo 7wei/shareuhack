@@ -144,7 +144,7 @@ const TextWrapper = ({ textColor, ...props }: TextProps & { textColor?: keyof Te
 
 export const TYPE = {
   brand(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={60} {...props} />
+    return <TextWrapper fontWeight={700} fontSize={36} {...props} />
   },
   body(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={16} textColor="text1" {...props} />
