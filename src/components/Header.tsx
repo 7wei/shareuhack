@@ -43,7 +43,7 @@ export default function Header() {
         </Link>
         <Box display="flex" height="80px" alignItems="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
-            <Link className={classes.navlink} href={link.link}>
+            <Link key={link.title} className={classes.navlink} href={link.link}>
               {link.title}
             </Link>
           ))}

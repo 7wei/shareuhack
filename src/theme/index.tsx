@@ -1,4 +1,4 @@
-import { unstable_createMuiStrictModeTheme as createMuiTheme, Theme, useTheme, styled } from '@material-ui/core'
+import { createTheme, Theme, useTheme, styled } from '@material-ui/core'
 import { Text, TextProps } from 'rebass'
 
 interface TextColor {
@@ -19,37 +19,18 @@ interface BgColor {
   bg5: string
 }
 
-interface Gradient {
-  gradient1: string
-}
-
-interface Height {
-  header: string
-  mobileHeader: string
-}
-
-interface Gray {
-  main: string
-  dark: string
-}
-declare module '@material-ui/core/styles/createMuiTheme' {
+declare module '@material-ui/core/styles/createTheme' {
   interface ThemeOptions {
     textColor: TextColor
     bgColor: BgColor
-    gradient: Gradient
-    height: Height
-    gray: Gray
   }
   interface Theme {
     textColor: TextColor
     bgColor: BgColor
-    gradient: Gradient
-    height: Height
-    gray: Gray
   }
 }
 
-const theme: Theme = createMuiTheme({
+const theme: Theme = createTheme({
   palette: {
     primary: {
       light: '#2E2247',
@@ -101,19 +82,8 @@ const theme: Theme = createMuiTheme({
     bg4: '#303030',
     bg5: '#A1A1A1',
   },
-  gradient: {
-    gradient1: 'linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%), #000000',
-  },
-  height: {
-    header: '88px',
-    mobileHeader: '77px',
-  },
   shape: {
     borderRadius: 10,
-  },
-  gray: {
-    main: '#333333',
-    dark: '#262626',
   },
   overrides: {
     MuiCssBaseline: {
