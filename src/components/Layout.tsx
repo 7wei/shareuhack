@@ -9,9 +9,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
     <>
       <Meta />
       <Header />
-      <main>
-        <Container>{children}</Container>
-      </main>
+      <Container>{children}</Container>
       <Footer />
     </>
   )

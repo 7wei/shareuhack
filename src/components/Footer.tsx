@@ -1,30 +1,63 @@
+import { Link, makeStyles, Box } from '@material-ui/core'
+import { NavLinks } from '../../lib/constants'
 import Container from './Container'
-import { EXAMPLE_PATH } from '../../lib/constants'
+import theme, { TYPE } from 'theme/index'
+
+const useStyles = makeStyles({
+  root: {
+    backgroundColor: '#282729',
+    height: 260,
+  },
+  navlink: {
+    fontSize: 16,
+    textDecoration: 'none',
+    color: 'inherit',
+    position: 'relative',
+    '&:hover': {
+      textDecoration: 'none',
+      color: theme.palette.primary.main,
+    },
+    '&:after': {
+      position: 'absolute',
+      content: '""',
+      height: 3,
+      bottom: -4,
+      margin: '0 auto',
+      left: 0,
+      right: 0,
+      width: '100%',
+      background: theme.palette.primary.main,
+      transition: '.5s',
+    },
+    '&:hover:after': {
+      width: '80%',
+      background: theme.palette.primary.main,
+    },
+  },
+})
 
 export default function Footer() {
+  const classes = useStyles()
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
+    <Box className={classes.root}>
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
-          </div>
-        </div>
+        <Box display="flex" alignItems="center" gridColumnGap="16px" paddingTop="36px">
+          {NavLinks.map((link) => (
+            <Link key={link.title} className={classes.navlink} href={link.link}>
+              {link.title}
+            </Link>
+          ))}
+        </Box>
+        <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
+          <Link className={classes.navlink} href="#">
+            關於我Shareuhack
+          </Link>
+          <Link className={classes.navlink} href="#">
+            聯絡我們
+          </Link>
+        </Box>
+        <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
       </Container>
-    </footer>
+    </Box>
   )
 }

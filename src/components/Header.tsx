@@ -5,6 +5,9 @@ import theme, { TYPE } from 'theme/index'
 import { NavLinks } from '../../lib/constants'
 
 const useStyles = makeStyles({
+  root: {
+    height: 260,
+  },
   navlink: {
     fontSize: 16,
     textDecoration: 'none',
@@ -36,11 +39,14 @@ const useStyles = makeStyles({
 export default function Header() {
   const classes = useStyles()
   return (
-    <Container>
-      <TYPE.brand>
-        <Link href="/" color="inherit" underline="none">
-          Share.U.Hack
-        </Link>
+    <div className={classes.root}>
+      <Container>
+        <TYPE.brand>
+          <Link href="/" color="inherit" underline="none">
+            Share.U.Hack
+          </Link>
+        </TYPE.brand>
+
         <Box display="flex" height="80px" alignItems="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
             <Link key={link.title} className={classes.navlink} href={link.link}>
@@ -48,7 +54,7 @@ export default function Header() {
             </Link>
           ))}
         </Box>
-      </TYPE.brand>
-    </Container>
+      </Container>
+    </div>
   )
 }

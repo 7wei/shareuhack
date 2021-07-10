@@ -122,6 +122,9 @@ export const TYPE = {
   primary(props: TextProps) {
     return <TextWrapper fontWeight={600} fontSize={16} textColor="primary" {...props} />
   },
+  smallGray(props: TextProps) {
+    return <TextWrapper fontWeight={400} fontSize={14} textColor="text3" {...props} />
+  },
 }
 
 export const HideOnMobile = styled('div')(({ theme, breakpoint }: { theme: Theme; breakpoint?: 'sm' | 'md' }) => ({
