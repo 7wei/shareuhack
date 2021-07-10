@@ -116,11 +116,17 @@ export const TYPE = {
   brand(props: TextProps) {
     return <TextWrapper fontWeight={700} fontSize={36} {...props} />
   },
+  header(props: TextProps) {
+    return <TextWrapper fontWeight={400} fontSize={24} textColor="text1" {...props} />
+  },
   body(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={16} textColor="text1" {...props} />
   },
+  bold(props: TextProps) {
+    return <TextWrapper fontWeight={600} fontSize={16} textColor="text1" {...props} />
+  },
   primary(props: TextProps) {
-    return <TextWrapper fontWeight={600} fontSize={16} textColor="primary" {...props} />
+    return <TextWrapper fontWeight={400} fontSize={16} textColor="primary" {...props} />
   },
   smallGray(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={14} textColor="text3" {...props} />
