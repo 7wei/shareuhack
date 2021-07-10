@@ -71,7 +71,7 @@ export default function Index({ allPosts, heroPost, relatedPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
+  const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
   const heroPost = getPostBySlug('what-is-lifehacker', ['title', 'slug', 'coverImage', 'excerpt', 'related'])
   const relatedPosts = getPostsBySlugs(heroPost.related, ['title', 'slug'])
 

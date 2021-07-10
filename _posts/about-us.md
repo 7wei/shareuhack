@@ -1,5 +1,6 @@
 ---
 title: '我們是Shareuhack'
+category: 'life'
 excerpt: '我們是 Shareuhack，我們致力於發現、研究並分享有價值的知識、祕技，希望幫助每個人，成為自己的生活黑客。'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2021-06-07'
