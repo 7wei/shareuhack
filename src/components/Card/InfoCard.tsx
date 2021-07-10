@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     backgroundColor: theme.palette.primary.light,
     padding: 15,
     marginBottom: 15,
+    borderRadius: 5,
   },
 })
 

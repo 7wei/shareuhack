@@ -1,15 +1,14 @@
 import { Grid, Link, Box } from '@material-ui/core'
-import { getAllPosts } from '../lib/api'
+import { getAllPosts, getPostBySlug } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
-import InfoCard from '../src/components/InfoCard'
+import InfoCard from '../src/components/Card/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
+import HeroPost from '../src/components/Post/HeroPost'
 
-export default function Index({ allPosts }) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+export default function Index({ allPosts, heroPost }) {
   return (
     <>
       <Head>
@@ -25,7 +24,9 @@ export default function Index({ allPosts }) {
             </TYPE.body>
           </InfoCard>
           <Divider />
-          <TYPE.header mt="15px">最新文章</TYPE.header>
+          <TYPE.header mt="15px" mb="15px">
+            最新文章
+          </TYPE.header>
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
               <Link href={`/posts/${post.slug}`}>
@@ -36,7 +37,7 @@ export default function Index({ allPosts }) {
           </Box>
         </Grid>
         <Grid item sm={6}>
-          B
+          <HeroPost {...heroPost} />
         </Grid>
         <Grid item sm={3}>
           C
@@ -48,8 +49,9 @@ export default function Index({ allPosts }) {
 
 export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
+  const heroPost = getPostBySlug('what-is-lifehacker', ['title', 'slug', 'coverImage', 'excerpt', 'related'])
 
   return {
-    props: { allPosts },
+    props: { allPosts, heroPost },
   }
 }

@@ -116,6 +116,9 @@ export const TYPE = {
   brand(props: TextProps) {
     return <TextWrapper fontWeight={700} fontSize={36} {...props} />
   },
+  largeHeader(props: TextProps) {
+    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" {...props} />
+  },
   header(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={24} textColor="text1" {...props} />
   },

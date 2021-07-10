@@ -1,4 +1,4 @@
-import PostPreview from './PostPreview'
+import PostPreview from './Post/PostPreview'
 
 export default function MoreStories({
   posts,

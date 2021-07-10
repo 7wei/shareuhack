@@ -1,5 +1,5 @@
-import DateFormatter from './DateFormatter'
-import CoverImage from './CoverImage'
+import DateFormatter from '../DateFormatter'
+import CoverImage from '../Image/CoverImage'
 import Link from 'next/link'
 
 export default function PostPreview({
