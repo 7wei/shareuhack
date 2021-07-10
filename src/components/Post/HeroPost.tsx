@@ -19,16 +19,15 @@ export default function HeroPost({
   return (
     <section>
       <CoverImage title={title} src={coverImage} slug={slug} height={800} width={1200} />
-      <TYPE.largeHeader>{title}</TYPE.largeHeader>
-
+      <TYPE.largeHeader mb="8px">{title}</TYPE.largeHeader>
       <Grid container>
-        <Grid item sm={6}>
-          <Box padding="8px">
+        <Grid item sm={7}>
+          <Box mr="10px">
             <TYPE.body>{excerpt}</TYPE.body>
           </Box>
         </Grid>
-        <Grid item sm={6}>
-          <Box padding="8px">
+        <Grid item sm={5}>
+          <Box ml="10px">
             <Divider />
             <TYPE.header mt="15px" mb="15px">
               RELATED

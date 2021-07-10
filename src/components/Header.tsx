@@ -6,7 +6,8 @@ import { NavLinks } from '../../lib/constants'
 
 const useStyles = makeStyles({
   root: {
-    height: 260,
+    // height: 260,
+    paddingTop: 30,
   },
   navlink: {
     fontSize: 16,
@@ -41,19 +42,19 @@ export default function Header() {
   return (
     <div className={classes.root}>
       <Container>
-        <TYPE.brand>
+        <TYPE.brand textAlign="center">
           <Link href="/" color="inherit" underline="none">
-            Share.U.Hack
+            Share.You.Hack
           </Link>
         </TYPE.brand>
-        <Box display="flex" height="80px" alignItems="center" gridColumnGap="16px">
+        <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
             <Link key={link.title} className={classes.navlink} href={link.link}>
               {link.title}
             </Link>
           ))}
         </Box>
-        <TYPE.primary textAlign="center" marginTop="36px">
+        <TYPE.primary textAlign="center" fontSize="14px" mb="48px">
           Shareuhack是仰賴用戶支持而持續產生內容的，當您透過網站內的連結購買商品或課程，我們可能因此收益。
           <Link href="#" underline="always">
             了解更多
