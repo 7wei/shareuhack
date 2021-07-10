@@ -8,13 +8,13 @@ export default function HeroPost({
   coverImage,
   excerpt,
   slug,
-  related,
+  relatedPosts,
 }: {
   title: string
   coverImage: string
   excerpt: string
   slug: string
-  related: Array<any>
+  relatedPosts: Array<any>
 }) {
   return (
     <section>
@@ -30,11 +30,13 @@ export default function HeroPost({
         <Grid item sm={6}>
           <Box padding="8px">
             <Divider />
-            <TYPE.header mb="15px">相關文章</TYPE.header>
+            <TYPE.header mt="15px" mb="15px">
+              RELATED
+            </TYPE.header>
             <Box display="grid" gridGap="5px">
-              {related.map((post) => (
-                <Link href="#">
-                  <TYPE.bold>{post}</TYPE.bold>
+              {relatedPosts.map((post) => (
+                <Link key={post.slug} href={`/posts/${post.slug}`}>
+                  <TYPE.bold>{post.title}</TYPE.bold>
                 </Link>
               ))}
             </Box>
