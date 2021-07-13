@@ -39,9 +39,5 @@ const useStyles = makeStyles({
 
 export default function PostBody({ content }: { content: string }) {
   const classes = useStyles()
-  return (
-    <div className="max-w-2xl mx-auto">
-      <div className={classes.markdown} dangerouslySetInnerHTML={{ __html: content }} />
-    </div>
-  )
+  return <div className={classes.markdown} dangerouslySetInnerHTML={{ __html: content }} />
 }

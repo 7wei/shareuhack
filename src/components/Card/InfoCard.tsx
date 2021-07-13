@@ -8,6 +8,9 @@ const useStyles = makeStyles({
     padding: 15,
     marginBottom: 15,
     borderRadius: 5,
+    '& ol': {
+      paddingLeft: 15,
+    },
   },
 })
 

@@ -7,9 +7,9 @@ date: '2021-07-10'
 ogImage:
   url: '/assets/posts/what-is-lifehacker/cover.png'
 
-why: '我們參考了網路至少一百篇文章，以及實際訪談數位有相關經驗的專家，精煉出...'
-recommendations: [{ title: 'rec1', link: 'www.google.com' }, { title: 'rec2', link: 'www.google.com' }]
-references: [{ title: 'ref1', link: 'www.google.com' }, { title: 'ref2', link: 'www.google.com' }]
+credentials: ['我們參考了網路至少一百篇文章', '訪談5位有相關經驗的專家']
+recommendations: [{ title: 'rec1', link: 'https://www.google.com' }, { title: 'rec2', link: 'https://www.google.com' }]
+references: [{ title: 'ref1', link: 'https://www.google.com' }, { title: 'ref2', link: 'https://www.google.com' }]
 related: ['dummy1', 'dummy2', 'dummy3']
 ---
 

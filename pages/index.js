@@ -1,7 +1,7 @@
 import { Grid, Link, Box } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME, Highlight, Categories } from '../lib/constants'
+import { CMS_NAME, Categories, Routes } from '../lib/constants'
 import InfoCard from '../src/components/Card/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
@@ -43,7 +43,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
             <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
             <TYPE.body>
               我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
-              <Link href="#" underline="always">
+              <Link href={Routes.about} underline="always">
                 了解更多
               </Link>
             </TYPE.body>
@@ -82,7 +82,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
             <TYPE.body>
               每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的{' '}
               <br />
-              <Link href="#" underline="always">
+              <Link href={Routes.about} underline="always">
                 了解更多
               </Link>
             </TYPE.body>
