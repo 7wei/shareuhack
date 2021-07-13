@@ -1,6 +1,6 @@
 import { Link, makeStyles, Box } from '@material-ui/core'
 import { NavLinks } from '../../lib/constants'
-import Container from './Container'
+import Container from './Container/Container'
 import theme, { TYPE } from 'theme/index'
 
 const useStyles = makeStyles({
@@ -50,11 +50,11 @@ export default function Footer() {
         </Box>
         <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
           <Link className={classes.navlink} href="#">
-            關於我Shareuhack
+            關於Shareuhack
           </Link>
-          <Link className={classes.navlink} href="#">
+          {/* <Link className={classes.navlink} href="#">
             聯絡我們
-          </Link>
+          </Link> */}
         </Box>
         <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
       </Container>

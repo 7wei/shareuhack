@@ -1,6 +1,7 @@
-import DateFormatter from '../DateFormatter'
+import { Box, Link } from '@material-ui/core'
 import CoverImage from '../Image/CoverImage'
-import Link from 'next/link'
+import { TYPE } from 'theme/index'
+import { formattedDate } from '../../utils/index'
 
 export default function PostPreview({
   title,
@@ -16,19 +17,13 @@ export default function PostPreview({
   slug: string
 }) {
   return (
-    <div>
-      <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
-      </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
-          <a className="hover:underline">{title}</a>
-        </Link>
-      </h3>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
-      </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-    </div>
+    <Box maxWidth="300px">
+      <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
+      <Link href="#" underline="none">
+        <TYPE.bold mt="5px">{title}</TYPE.bold>
+        <TYPE.primary>{formattedDate(date)}</TYPE.primary>
+        <TYPE.body>{excerpt}</TYPE.body>
+      </Link>
+    </Box>
   )
 }

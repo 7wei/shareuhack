@@ -1,5 +1,5 @@
 import { Link, makeStyles, Box } from '@material-ui/core'
-import Container from './Container'
+import Container from './Container/Container'
 import theme, { TYPE } from 'theme/index'
 
 import { NavLinks } from '../../lib/constants'

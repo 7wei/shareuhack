@@ -1,14 +1,37 @@
 import { Grid, Link, Box } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import { CMS_NAME, Highlight, Categories } from '../lib/constants'
 import InfoCard from '../src/components/Card/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
+import PostPreview from '../src/components/Post/PostPreview'
 
-export default function Index({ allPosts, heroPost, relatedPosts }) {
+const CategorySection = ({ category, description, posts }) => {
+  return (
+    <>
+      <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
+      <Grid container>
+        <Grid item sm={6}>
+          <TYPE.body>{description}</TYPE.body>
+        </Grid>
+      </Grid>
+      <Box mt="10px">
+        <Grid container>
+          {posts.map((post) => (
+            <Grid key={post.title} item sm={4}>
+              <PostPreview {...post} />
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
+    </>
+  )
+}
+
+export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
   return (
     <>
       <Head>
@@ -66,6 +89,12 @@ export default function Index({ allPosts, heroPost, relatedPosts }) {
           </InfoCard>
         </Grid>
       </Grid>
+      {categories.map(({ title, description, posts }) => (
+        <Box key={title} mb="15px">
+          <Divider primary="true" />
+          <CategorySection category={title} description={description} posts={posts} />
+        </Box>
+      ))}
     </>
   )
 }
@@ -74,10 +103,16 @@ export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
   const heroPost = getPostBySlug('what-is-lifehacker', ['title', 'slug', 'coverImage', 'excerpt', 'related'])
   const relatedPosts = getPostsBySlugs(heroPost.related, ['title', 'slug'])
-
-  console.log(relatedPosts)
+  const categories = Categories.map(({ title, description, slugs }) => {
+    const posts = getPostsBySlugs(slugs, ['title', 'coverImage', 'date', 'excerpt', 'slug'])
+    return {
+      title,
+      description,
+      posts,
+    }
+  })
 
   return {
-    props: { allPosts, heroPost, relatedPosts },
+    props: { allPosts, heroPost, relatedPosts, categories },
   }
 }
