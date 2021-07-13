@@ -1,8 +1,3 @@
-import Container from '../src/components/Container'
-import MoreStories from '../src/components/MoreStories'
-import HeroPost from '../src/components/HeroPost'
-import Intro from '../src/components/Intro'
-// import Layout from '../src/components/Layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
