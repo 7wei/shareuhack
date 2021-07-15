@@ -34,7 +34,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
               <TYPE.body>
                 每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
                 <br />
-                <Link href={Routes.about}>了解更多</Link>
+                <Link href={Routes.about}>--了解更多</Link>
               </TYPE.body>
             </InfoCard>
           )}
