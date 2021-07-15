@@ -1,5 +1,4 @@
-import { Grid, Box } from '@material-ui/core'
-import Link from 'next/link'
+import { Grid, Box, styled, Link } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Categories, Routes } from '../lib/constants'
@@ -9,15 +8,24 @@ import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import PostPreview from '../src/components/Post/PostPreview'
+import useBreakpint from '../src/hooks/useBreakpoint'
+import theme from '../src/theme/index'
+
+const StyledLink = styled(Link)({
+  color: theme.palette.primary.main,
+  textDecoration: 'none',
+  '&:hover': {
+    color: theme.palette.primary.dark,
+    textDecoration: 'none',
+  },
+})
 
 const CategorySection = ({ category, description, posts, link }) => {
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
-        <Link href={link}>
-          <TYPE.primary>Show All</TYPE.primary>
-        </Link>
+        <StyledLink href={link}>Show All</StyledLink>
       </Box>
       <Grid container>
         <Grid item sm={6}>
@@ -38,6 +46,7 @@ const CategorySection = ({ category, description, posts, link }) => {
 }
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
+  const { matches } = useBreakpint()
   return (
     <>
       <Head>
@@ -49,18 +58,26 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
             <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
             <TYPE.body>
               我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
-              <Link href={Routes.about} underline="always">
-                了解更多
-              </Link>
+              <StyledLink href={Routes.about}>--了解更多</StyledLink>
             </TYPE.body>
           </InfoCard>
+          {matches && (
+            <InfoCard>
+              <TYPE.bold mb="15px">HOW WE DO</TYPE.bold>
+              <TYPE.body>
+                每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
+                <br />
+                <StyledLink href={Routes.about}>了解更多</StyledLink>
+              </TYPE.body>
+            </InfoCard>
+          )}
           <Divider />
           <TYPE.header mt="15px" mb="15px">
             LATEST
           </TYPE.header>
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`}>
+              <Link key={post.slug} href={`/posts/${post.slug}`} underline="none">
                 <>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
@@ -79,7 +96,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           </TYPE.header>
           <Box display="grid" gridGap="8px" mb="15px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`}>
+              <Link key={post.slug} href={`/posts/${post.slug}`} underline="none">
                 <>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
@@ -87,16 +104,16 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
               </Link>
             ))}
           </Box>
-          <InfoCard>
-            <TYPE.bold mb="15px">HOW WE DO</TYPE.bold>
-            <TYPE.body>
-              每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的{' '}
-              <br />
-              <Link href={Routes.about} underline="always">
-                了解更多
-              </Link>
-            </TYPE.body>
-          </InfoCard>
+          {!matches && (
+            <InfoCard>
+              <TYPE.bold mb="15px">HOW WE DO</TYPE.bold>
+              <TYPE.body>
+                每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
+                <br />
+                <StyledLink href={Routes.about}>--了解更多</StyledLink>
+              </TYPE.body>
+            </InfoCard>
+          )}
         </Grid>
       </Grid>
       {categories.map(({ title, description, posts, link }) => (
