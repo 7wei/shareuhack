@@ -50,38 +50,72 @@ export default function Post({ post, morePosts, preview }) {
                     </ol>
                   </InfoCard>
                 )}
-                <InfoCard>
-                  <TYPE.bold mb="5px">推薦資源</TYPE.bold>
-                  <ol>
-                    {post.recommendations.map((recommendation) => (
-                      <li>
-                        <Link href={recommendation.link}>{recommendation.title}</Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
+                {!matches && (
+                  <>
+                    <InfoCard>
+                      <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                      <ol>
+                        {post.recommendations.map((recommendation) => (
+                          <li>
+                            <Link href={recommendation.link}>{recommendation.title}</Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </InfoCard>
 
-                <InfoCard>
-                  <TYPE.bold mb="5px">相關資源</TYPE.bold>
-                  <ol>
-                    {post.references.map((reference) => (
-                      <li>
-                        <Link href={reference.link}>{reference.title}</Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
+                    <InfoCard>
+                      <TYPE.bold mb="5px">相關資源</TYPE.bold>
+                      <ol>
+                        {post.references.map((reference) => (
+                          <li>
+                            <Link href={reference.link}>{reference.title}</Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </InfoCard>
 
-                <Divider />
-                <EmailShareButton url="https://www.google.com">Email</EmailShareButton>
-                <FacebookShareButton url="https://www.google.com">Facebook</FacebookShareButton>
-                <LineShareButton url="https://www.google.com">Line</LineShareButton>
+                    <Divider />
+                    <EmailShareButton url="https://www.google.com">Email</EmailShareButton>
+                    <FacebookShareButton url="https://www.google.com">Facebook</FacebookShareButton>
+                    <LineShareButton url="https://www.google.com">Line</LineShareButton>
+                  </>
+                )}
               </Box>
             </Grid>
             <Grid item sm={9}>
               <PostBody content={post.content} />
             </Grid>
           </Grid>
+          {matches && (
+            <>
+              <InfoCard>
+                <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                <ol>
+                  {post.recommendations.map((recommendation) => (
+                    <li>
+                      <Link href={recommendation.link}>{recommendation.title}</Link>
+                    </li>
+                  ))}
+                </ol>
+              </InfoCard>
+
+              <InfoCard>
+                <TYPE.bold mb="5px">相關資源</TYPE.bold>
+                <ol>
+                  {post.references.map((reference) => (
+                    <li>
+                      <Link href={reference.link}>{reference.title}</Link>
+                    </li>
+                  ))}
+                </ol>
+              </InfoCard>
+
+              <Divider />
+              <EmailShareButton url="https://www.google.com">Email</EmailShareButton>
+              <FacebookShareButton url="https://www.google.com">Facebook</FacebookShareButton>
+              <LineShareButton url="https://www.google.com">Line</LineShareButton>
+            </>
+          )}
         </>
       )}
     </>

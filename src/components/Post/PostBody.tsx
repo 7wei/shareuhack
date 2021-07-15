@@ -4,8 +4,8 @@ import theme from 'theme'
 const useStyles = makeStyles({
   markdown: {
     '& blockquote': {
-      color: theme.palette.primary.main,
-      borderLeft: `3px solid ${theme.palette.primary.main}`,
+      color: theme.textColor.text2,
+      borderLeft: `3px solid ${theme.textColor.text2}`,
       paddingLeft: 9,
       margin: 0,
     },
@@ -13,16 +13,17 @@ const useStyles = makeStyles({
       fontSize: 16,
     },
     '& p a': {
-      color: '#d6363c',
-      textDecoration: 'none',
+      color: theme.textColor.text1,
+      fontWeight: 400,
+      textDecoration: 'underline',
     },
     '& p a:hover': {
-      color: '#ED5A62',
+      color: theme.palette.primary.main,
     },
     '& hr': {
       width: '60%',
       height: 3,
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: theme.textColor.text3,
       border: 'none',
       margin: '50px auto',
     },
