@@ -15,6 +15,7 @@ import { TYPE } from '../../src/theme/index'
 import InfoCard from '../../src/components/Card/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
+import { formattedDate } from '../../src/utils'
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
@@ -60,15 +61,15 @@ export default function Post({ post, morePosts, preview }) {
           </Head>
           <CoverImage title={post.title} src={post.coverImage} height={620} width={1240} />
           <TYPE.largeHeader mt="15px">{post.title}</TYPE.largeHeader>
-          <TYPE.primary mb="15px">UPDATED AT {post.date}</TYPE.primary>
+          <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
             <Grid item sm={3} xs={12}>
               <Box mr={matches ? '0px' : '45px'} pt={matches ? '0px' : '15px'}>
-                {post.credentials && (
+                {post.credentials && post.credentials.length > 0 && (
                   <InfoCard>
                     <TYPE.bold mb="5px">撰寫這篇文章前...</TYPE.bold>
                     <ol>
-                      {post.credentials.map((credential) => (
+                      {post.credentials?.map((credential) => (
                         <li>{credential}</li>
                       ))}
                     </ol>
@@ -76,27 +77,31 @@ export default function Post({ post, morePosts, preview }) {
                 )}
                 {!matches && (
                   <>
-                    <InfoCard>
-                      <TYPE.bold mb="5px">推薦資源</TYPE.bold>
-                      <ol>
-                        {post.recommendations.map((recommendation) => (
-                          <li>
-                            <Link href={recommendation.link}>{recommendation.title}</Link>
-                          </li>
-                        ))}
-                      </ol>
-                    </InfoCard>
+                    {post.recommendations && post.recommendations.length > 0 && (
+                      <InfoCard>
+                        <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                        <ol>
+                          {post.recommendations?.map((recommendation) => (
+                            <li>
+                              <Link href={recommendation.link}>{recommendation.title}</Link>
+                            </li>
+                          ))}
+                        </ol>
+                      </InfoCard>
+                    )}
 
-                    <InfoCard>
-                      <TYPE.bold mb="5px">相關資源</TYPE.bold>
-                      <ol>
-                        {post.references.map((reference) => (
-                          <li>
-                            <Link href={reference.link}>{reference.title}</Link>
-                          </li>
-                        ))}
-                      </ol>
-                    </InfoCard>
+                    {post.references && post.references.length > 0 && (
+                      <InfoCard>
+                        <TYPE.bold mb="5px">相關資源</TYPE.bold>
+                        <ol>
+                          {post.references?.map((reference) => (
+                            <li>
+                              <Link href={reference.link}>{reference.title}</Link>
+                            </li>
+                          ))}
+                        </ol>
+                      </InfoCard>
+                    )}
 
                     <Divider />
                     <TYPE.body mt="15px" mb="10px">
