@@ -1,49 +1,16 @@
-import { Grid, Box, styled, Link } from '@material-ui/core'
+import { Grid, Box } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Categories, Routes } from '../lib/constants'
-import InfoCard from '../src/components/Card/InfoCard'
+import InfoCard from '../src/components/InfoCard.tsx/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import PostPreview from '../src/components/Post/PostPreview'
 import useBreakpint from '../src/hooks/useBreakpoint'
-import theme from '../src/theme/index'
-
-const StyledLink = styled(Link)({
-  color: theme.palette.primary.main,
-  textDecoration: 'none',
-  '&:hover': {
-    color: theme.palette.primary.dark,
-    textDecoration: 'none',
-  },
-})
-
-const CategorySection = ({ category, description, posts, link }) => {
-  return (
-    <>
-      <Box display="flex" alignItems="center" justifyContent="space-between">
-        <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
-        <StyledLink href={link}>Show All</StyledLink>
-      </Box>
-      <Grid container>
-        <Grid item sm={6}>
-          <TYPE.body>{description}</TYPE.body>
-        </Grid>
-      </Grid>
-      <Box mt="10px">
-        <Grid container>
-          {posts.map((post) => (
-            <Grid key={post.title} item sm={4}>
-              <PostPreview {...post} />
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
-    </>
-  )
-}
+import Link from '../src/components/Link/Link'
+import PreviewRow from '../src/components/Post/PreviewRow'
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
   const { matches } = useBreakpint()
@@ -58,7 +25,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
             <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
             <TYPE.body>
               我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
-              <StyledLink href={Routes.about}>--了解更多</StyledLink>
+              <Link href={Routes.about}>--了解更多</Link>
             </TYPE.body>
           </InfoCard>
           {matches && (
@@ -67,7 +34,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
               <TYPE.body>
                 每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
                 <br />
-                <StyledLink href={Routes.about}>了解更多</StyledLink>
+                <Link href={Routes.about}>了解更多</Link>
               </TYPE.body>
             </InfoCard>
           )}
@@ -110,7 +77,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
               <TYPE.body>
                 每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
                 <br />
-                <StyledLink href={Routes.about}>--了解更多</StyledLink>
+                <Link href={Routes.about}>--了解更多</Link>
               </TYPE.body>
             </InfoCard>
           )}
@@ -119,7 +86,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
       {categories.map(({ title, description, posts, link }) => (
         <Box key={title} mb="15px">
           <Divider primary="true" />
-          <CategorySection category={title} description={description} posts={posts} link={link} />
+          <PreviewRow category={title} description={description} posts={posts} link={link} />
         </Box>
       ))}
     </>
