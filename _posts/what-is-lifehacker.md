@@ -1,6 +1,7 @@
 ---
 title: '什麼是Life Hacks？如何成為LifeHacker?'
-category: 'general'
+category: '一般'
+subCategory: '次分類A'
 excerpt: 'Life Hacks是當我們面臨日常生活的各種大小問題時，可採用的簡單、效率的各種策略。'
 coverImage: '/assets/posts/what-is-lifehacker/cover.png'
 date: '2021-07-10'

@@ -1,5 +1,6 @@
-import { Grid, Link, Box } from '@material-ui/core'
-import { getAllPosts, getPostBySlug, getPostsBySlugs } from '../lib/api'
+import { Grid, Box } from '@material-ui/core'
+import Link from 'next/link'
+import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Categories, Routes } from '../lib/constants'
 import InfoCard from '../src/components/Card/InfoCard'
@@ -9,10 +10,15 @@ import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import PostPreview from '../src/components/Post/PostPreview'
 
-const CategorySection = ({ category, description, posts }) => {
+const CategorySection = ({ category, description, posts, link }) => {
   return (
     <>
-      <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
+      <Box display="flex" alignItems="center" justifyContent="space-between">
+        <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
+        <Link href={link}>
+          <TYPE.primary>Show All</TYPE.primary>
+        </Link>
+      </Box>
       <Grid container>
         <Grid item sm={6}>
           <TYPE.body>{description}</TYPE.body>
@@ -55,8 +61,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`}>
-                <TYPE.bold>{post.title}</TYPE.bold>
-                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                <>
+                  <TYPE.bold>{post.title}</TYPE.bold>
+                  <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                </>
               </Link>
             ))}
           </Box>
@@ -72,8 +80,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           <Box display="grid" gridGap="8px" mb="15px">
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`}>
-                <TYPE.bold>{post.title}</TYPE.bold>
-                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                <>
+                  <TYPE.bold>{post.title}</TYPE.bold>
+                  <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                </>
               </Link>
             ))}
           </Box>
@@ -89,10 +99,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           </InfoCard>
         </Grid>
       </Grid>
-      {categories.map(({ title, description, posts }) => (
+      {categories.map(({ title, description, posts, link }) => (
         <Box key={title} mb="15px">
           <Divider primary="true" />
-          <CategorySection category={title} description={description} posts={posts} />
+          <CategorySection category={title} description={description} posts={posts} link={link} />
         </Box>
       ))}
     </>
@@ -103,12 +113,13 @@ export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
   const heroPost = getPostBySlug('what-is-lifehacker', ['title', 'slug', 'coverImage', 'excerpt', 'related'])
   const relatedPosts = getPostsBySlugs(heroPost.related, ['title', 'slug'])
-  const categories = Categories.map(({ title, description, slugs }) => {
-    const posts = getPostsBySlugs(slugs, ['title', 'coverImage', 'date', 'excerpt', 'slug'])
+  const categories = Categories.map(({ title, description, link }) => {
+    const posts = getCategoryPosts(title, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
     return {
       title,
       description,
       posts,
+      link,
     }
   })
 

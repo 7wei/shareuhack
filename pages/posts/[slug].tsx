@@ -28,7 +28,12 @@ export default function Post({ post, morePosts, preview }) {
   const Shares = () => {
     return (
       <Box display="flex" gridColumnGap="10px" justifyContent={matches ? 'center' : 'flex-start'}>
-        <EmailShareButton subject={post.title} body={`Shareuhack: ${post.title}`} separator=" --- " url={url}>
+        <EmailShareButton
+          subject={`Shareuhack: ${post.title}`}
+          body={`Shareuhack: ${post.title}`}
+          separator=" --- "
+          url={url}
+        >
           <EmailIcon fontSize="large" />
         </EmailShareButton>
         <FacebookShareButton url={url}>
