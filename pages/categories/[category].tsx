@@ -47,7 +47,7 @@ export default function CategoryPage({ category, subCategories }) {
         {subCategories.length === 0 && (
           <Box height="calc(100vh - 580px)" display="flex" justifyContent="center" alignItems="center">
             <TYPE.primary mb="15px" fontSize={18}>
-              近期即將更新！
+              近期即將更新文章，既請期待！
             </TYPE.primary>
           </Box>
         )}
