@@ -69,7 +69,6 @@ export async function getStaticProps({ params }) {
 
   const subCategories = SubCategories.filter((el) => el.category === category.title).map(({ title, description }) => {
     const subCategory = Object.keys(SubCategory).find((key) => SubCategory[key] === title)
-    // const posts = getSubCategoryPosts(subCategory, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
     const posts = categoryPosts.filter((post) => post.subCategory === subCategory)
     const link = process.env.NEXT_PUBLIC_BASE_URL + `/subCategories/${subCategory}`
     return {
