@@ -1,8 +1,7 @@
 export const CMS_NAME = 'Shareuhack'
-export const HOME_OG_IMAGE_URL =
-  'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'
+export const HOME_OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/share-you-hack.png'
 
-export const HERO_POST_SLUG = 'hero'
+export const HERO_POST_SLUG = 'about-us'
 
 export const Routes = {
   home: '/',

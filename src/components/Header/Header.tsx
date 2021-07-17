@@ -43,7 +43,7 @@ export default function Header() {
       <Container>
         <TYPE.brand textAlign="center">
           <Link href="/" color="inherit" underline="none">
-            Share.You.Hack
+            Shareuhack
           </Link>
         </TYPE.brand>
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">

@@ -18,9 +18,11 @@ export default function HeroPost({
 }) {
   return (
     <section>
-      <CoverImage title={title} src={coverImage} slug={slug} height={800} width={1200} />
+      <CoverImage title={title} src={coverImage} slug={slug} height={627} width={1200} />
       <Link href={`/posts/${slug}`}>
-        <TYPE.largeHeader mb="8px">{title}</TYPE.largeHeader>
+        <TYPE.largeHeader mt="8px" mb="8px">
+          {title}
+        </TYPE.largeHeader>
       </Link>
       <Box mb="15px">
         <Grid container>
