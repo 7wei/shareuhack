@@ -1,7 +1,6 @@
 import { Grid, Box } from '@material-ui/core'
-import { useRouter } from 'next/router'
 import { getSubCategoryPosts } from '../../lib/api'
-import { SubCategories, SubCategory, Routes } from '../../lib/constants'
+import { SubCategories, SubCategory, Routes, CMS_NAME } from '../../lib/constants'
 import { TYPE } from '../../src/theme/index'
 import PostReview from '../../src/components/Post/PostPreview'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
@@ -11,11 +10,13 @@ import Divider from '../../src/components/Divider/Divider'
 import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
 
 export default function SubCategoryPage({ subCategory, posts }) {
-  const router = useRouter()
   const { matches } = useBreakpoint()
 
   return (
     <>
+      <title>
+        {CMS_NAME} | {subCategory.title}
+      </title>
       <Disclaimer />
       <Grid container>
         <Grid item sm={9}>

@@ -55,7 +55,7 @@ export default function Post({ post, morePosts, preview }) {
         <>
           <Head>
             <title>
-              {post.title} | {CMS_NAME}
+              {CMS_NAME} | {post.title}
             </title>
             <meta property="og:image" content={post.ogImage.url} />
           </Head>

@@ -2,10 +2,14 @@ import { TYPE } from '../src/theme/index'
 import PostBody from '../src/components/Post/PostBody'
 import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
+import { CMS_NAME } from '../lib/constants'
 
 export default function About({ post }) {
   return (
     <>
+      <Head>
+        <title>{CMS_NAME} | About</title>
+      </Head>
       <TYPE.largeHeader>{post.title}</TYPE.largeHeader>
       <PostBody content={post.content} />
     </>

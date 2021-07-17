@@ -1,5 +1,6 @@
 import { Grid, Box } from '@material-ui/core'
-import { Category, Categories, Routes, SubCategory, SubCategories } from '../../lib/constants'
+import Head from 'next/head'
+import { Category, Categories, Routes, SubCategory, SubCategories, CMS_NAME } from '../../lib/constants'
 import { TYPE } from '../../src/theme/index'
 import { getCategoryPosts, getSubCategoryPosts } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
@@ -14,6 +15,11 @@ export default function CategoryPage({ category, subCategories }) {
 
   return (
     <>
+      <Head>
+        <title>
+          {CMS_NAME} | {category.title}
+        </title>
+      </Head>
       <Disclaimer />
       <Grid container>
         <Grid item sm={9}>
