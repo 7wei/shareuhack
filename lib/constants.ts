@@ -46,9 +46,9 @@ export const Category = {
 }
 
 export const SubCategory = {
-  ['frontend-dev']: '前端開發',
-  ['backend-dev']: '後端開發',
-  ['product-management']: '產品管理',
+  // ['frontend-dev']: '前端開發',
+  // ['backend-dev']: '後端開發',
+  // ['product-management']: '產品管理',
 }
 
 export const Categories = [
