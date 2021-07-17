@@ -1,8 +1,8 @@
 import { Grid, Box } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME, Categories, Routes } from '../lib/constants'
-import InfoCard from '../src/components/InfoCard.tsx/InfoCard'
+import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG } from '../lib/constants'
+import InfoCard from '../src/components/InfoCard/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
@@ -95,10 +95,11 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
 
 export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
-  const heroPost = getPostBySlug('what-is-lifehacker', ['title', 'slug', 'coverImage', 'excerpt', 'related'])
+  const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'])
   const relatedPosts = getPostsBySlugs(heroPost.related, ['title', 'slug'])
   const categories = Categories.map(({ title, description, link }) => {
-    const posts = getCategoryPosts(title, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
+    const category = Object.keys(Category).find((key) => Category[key] === title)
+    const posts = getCategoryPosts(category, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
     return {
       title,
       description,

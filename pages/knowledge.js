@@ -40,7 +40,7 @@ export default function Knowledge({ category, grouped }) {
                 category={key}
                 description={''}
                 posts={grouped[key]}
-                link={process.env.NEXT_PUBLIC_BASE_URL + `/subCategory/${key}`}
+                link={process.env.NEXT_PUBLIC_BASE_URL + `/subCategories/${key}`}
               />
             </Box>
           ))}
