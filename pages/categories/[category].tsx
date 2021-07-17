@@ -43,6 +43,14 @@ export default function CategoryPage({ category, subCategories }) {
             />
           </Box>
         ))}
+
+        {subCategories.length === 0 && (
+          <Box height="calc(100vh - 580px)" display="flex" justifyContent="center" alignItems="center">
+            <TYPE.primary mb="15px" fontSize={18}>
+              近期即將更新！
+            </TYPE.primary>
+          </Box>
+        )}
       </Box>
     </>
   )
@@ -50,9 +58,19 @@ export default function CategoryPage({ category, subCategories }) {
 
 export async function getStaticProps({ params }) {
   const category = Categories.find((category) => category.title === Category[params.category])
-  const subCategories = SubCategories.map(({ title, description }) => {
+  const categoryPosts = getCategoryPosts(category, [
+    'title',
+    'coverImage',
+    'date',
+    'excerpt',
+    'slug',
+    'subCategory',
+  ]).slice(0, 3)
+
+  const subCategories = SubCategories.filter((el) => el.category === category.title).map(({ title, description }) => {
     const subCategory = Object.keys(SubCategory).find((key) => SubCategory[key] === title)
-    const posts = getSubCategoryPosts(subCategory, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
+    // const posts = getSubCategoryPosts(subCategory, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
+    const posts = categoryPosts.filter((post) => post.subCategory === subCategory)
     const link = process.env.NEXT_PUBLIC_BASE_URL + `/subCategories/${subCategory}`
     return {
       title,

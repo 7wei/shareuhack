@@ -6,7 +6,7 @@ import theme, { TYPE } from 'theme/index'
 const useStyles = makeStyles({
   root: {
     backgroundColor: '#282729',
-    height: 260,
+    height: 180,
   },
   navlink: {
     fontSize: 16,

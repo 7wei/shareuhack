@@ -61,8 +61,7 @@ export const Categories = [
   },
   {
     title: Category.life,
-    description:
-      '高效率的學習非常的重要，尤其是你想做的事特別多時，Shareuhack幫你預覽50+個課程、閱讀100+評論和心得文章，精煉出達成目的，所需要的最短路徑',
+    description: '生活是人類活著的期間所做的一切行為的總稱。',
     link: Routes.life,
   },
   {
@@ -89,15 +88,19 @@ export const SubCategories = [
     title: SubCategory['frontend-dev'],
     description:
       'Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+    category: Category.knowledge,
   },
   {
     title: SubCategory['backend-dev'],
     description:
       'Back end Development refers to the server side of development where you are primarily focused on how the site works. Making updates and changes in addition to monitoring functionality of the site will be your primary responsibility.',
+    category: Category.knowledge,
   },
+
   {
     title: SubCategory['product-management'],
     description:
       'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
+    category: Category.knowledge,
   },
 ]
