@@ -54,7 +54,7 @@ export const SubCategory = {
 export const Categories = [
   {
     title: Category.knowledge,
-    description: '高效率的學習非常的重要，尤其是你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
+    description: '高效率的學習非常的重要，尤其是當你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
     link: Routes.knowledge,
   },
   {
