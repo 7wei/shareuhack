@@ -14,7 +14,10 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" /> */}
       {/* <link rel="alternate" type="application/rss+xml" href="/feed.xml" /> */}
-      <meta name="description" content={`A statically generated blog example using Next.js and ${CMS_NAME}.`} />
+      <meta
+        name="description"
+        content="我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！"
+      />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   )
