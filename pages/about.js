@@ -6,7 +6,7 @@ import markdownToHtml from '../lib/markdownToHtml'
 export default function About({ post }) {
   return (
     <>
-      <TYPE.largeHeader>關於Shareuhack</TYPE.largeHeader>
+      <TYPE.largeHeader>{post.title}</TYPE.largeHeader>
       <PostBody content={post.content} />
     </>
   )

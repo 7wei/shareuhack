@@ -1,40 +1,28 @@
 ---
-title: '我們是Shareuhack'
-category: 'life'
-subCategory: 'subCategoryA'
+title: '關於Shareuhack'
 excerpt: '我們是 Shareuhack，我們致力於發現、研究並分享有價值的知識、祕技，希望幫助每個人，成為自己的生活黑客。'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2021-06-07'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
-
-why: '我們參考了網路至少一百篇文章，以及實際訪談數位有相關經驗的專家，精煉出...'
-recommendations: [{ title: 'rec1', link: 'www.google.com' }, { title: 'rec2', link: 'www.google.com' }]
-references: [{ title: 'ref1', link: 'www.google.com' }, { title: 'ref2', link: 'www.google.com' }]
+  url: '/assets/cover.jpg'
 ---
 
-我們是 Shareuhack，我們致力於發現、研究並分享有價值的知識、祕技，希望幫助每個人，成為自己的生活黑客。
+## What We do?
 
-## Lorem Ipsum
+我們是 Shareuhack，我們致力於發現、研究並分享各種有價值的知識、祕技，協助大家破解人生，成為生活黑客。
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+現今網路資訊實在是太過氾濫，我們的目標是：無論你是要學習職場技能、培養興趣、或是優化生活，都可以透過我們的文章，了解到達到目的所需要的最小努力，有效率的訂定方向，減少學習新事物、新方法所帶來的壓力和時間成本。
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate. **[fake link](http://google.com)**
+Shareuhack 是一個持續成長型的專案，我們會竭盡所能的確保 Shareuhack 所有內容，會隨著你的蛻變，持續的更新和優化，
 
----
+## How We do?
 
-## 你知道嗎？
+1. 我們的每一篇文章，都會經過數天至數週的時間的研究，大量從可信資料來源收集資料並統整
+2. 我們介紹的產品和課程，都會是我們實際去測試、了解、或者是來自專家的實際經驗
+3. 除了依靠我們團隊成員自身的專業經驗，我們還會收集和各領域專家訪談所得到的回饋和資料，以確保資料的正確性。
+4. 我們會定期審核舊有的文章內容，是否與最新的事實符合，並做適當的更新
 
-約翰·W·約翰斯頓（1818 年－1889 年）是來自美國維吉尼亞州阿賓登的律師兼政治家，曾擔任維吉尼亞州參議員，維吉尼亞州在南北戰爭結束後重新加入聯邦，約翰斯頓以民主黨人身份當選該州聯邦參議員並任職 13 年。約翰斯頓的參議員生涯經歷過多個議題的洗禮。首先是有關阿靈頓宮的辯論。約翰斯頓還公開反對德克薩斯－太平洋法案。他置身供資者和重新調整者的爭鬥，主張各州應全額償還內戰前欠下的債務。約翰斯頓卸任參議員後，於 1889 年 2 月 27 日在里奇蒙去世，享年 70 歲。
+## 利益揭露
 
-- In mollis nunc sed id semper.
-- In mollis nunc sed id semper.
-- In mollis nunc sed id semper.
+當您透過網站內的連結購買商品或課程，我們可能因此收益。通常是聯盟行銷所帶來的佣金。這並不會成為我們推薦特定產品或課程的理由，一來，現在幾乎所有的產品都有參與聯盟行銷，因此，並不會造成選擇的偏見。二來，若讀者不滿意我們的推薦並退貨，我們也不會拿到任何佣金，因此，永遠會把讀者擺在第一位。此外，我們的文章作者和編輯做研究和寫作時，是不會去
+考量各種與收益相關的事情。
 
-1. In mollis nunc sed id semper.
-2. In mollis nunc sed id semper.
-3. In mollis nunc sed id semper.
-
-![San Juan Mountains are beautiful!](/assets/blog/hello-world/cover.jpg 'San Juan Mountains')
+Shareuhack 是仰賴用戶支持而持續產生內容的，我們有明確的資金再投計畫，將使用這些資金，去購買課程、產品，和安排和專家的訪談。
