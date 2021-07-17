@@ -54,30 +54,28 @@ export const SubCategory = {
 export const Categories = [
   {
     title: Category.knowledge,
-    description:
-      '高效率的學習非常的重要，尤其是你想做的事特別多時，Shareuhack幫你預覽50+個課程、閱讀100+評論和心得文章，精煉出達成目的，所需要的最短路徑',
+    description: '高效率的學習非常的重要，尤其是你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
     link: Routes.knowledge,
   },
   {
     title: Category.life,
-    description: '生活是人類活著的期間所做的一切行為的總稱。',
+    description: '人類活著的期間所做的一切行為皆是生活。勇於改善、優化生活，發現你從未想到的新鮮事！',
     link: Routes.life,
   },
   {
     title: Category.health,
-    description:
-      '對任何生物體，健康是一種動態平衡。這是一種平衡的狀態：均衡地輸入和輸出能量和物質（甚至允許生長）。健康也意味著有繼續生存的期望。對有情感的動物，例如人類，自演化以來就有追求生理面與物質面兩種更好的生活方式，所以對健康的認知與要求會有更廣的概念。',
+    description: '健康是一切的基礎，分享如何擁有更好的體態、保持健康，以及如何更了解你的身體和心靈。',
     link: Routes.health,
   },
   {
     title: Category.money,
-    description:
-      '通常，每個國家都只使用唯一的貨幣。貨幣由當局的中央銀行機構強制發行和控制，中央銀行有權決定本國貨幣的面值和發行量，但無權決定貨幣的市場購買力。不過也存在例外，亦即多個國家可以使用同一種貨幣。例在歐盟國家通用的歐元，在西非國家經濟共同體的西非法郎，以及在19世紀的拉丁貨幣同盟，名稱不同但能在聯盟內部自由流通的等值貨幣。',
+    description: '沒有錢萬萬不能，分享如何根據自身條件做適合的投資，以及如何實現財務獨立和提早退休。',
     link: Routes.money,
   },
   {
     title: Category.work,
-    description: '工作可指：就業崗位，如：找工作。職業，如：他的工作是銷售。勞動的過程或狀態，如：他正在工作中。',
+    description:
+      '大部分的人，每週工作至少40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
     link: Routes.health,
   },
 ]
