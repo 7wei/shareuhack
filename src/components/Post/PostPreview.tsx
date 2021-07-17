@@ -30,7 +30,7 @@ export default function PostPreview({
   return (
     <Box maxWidth="300px" className={classes.root}>
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
-      <Link href="#" underline="none">
+      <Link href={`/posts/${slug}`} underline="none">
         <TYPE.bold mt="5px" className={classes.title}>
           {title}
         </TYPE.bold>

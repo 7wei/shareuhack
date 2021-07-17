@@ -58,7 +58,7 @@ export default function CategoryPage({ category, subCategories }) {
 
 export async function getStaticProps({ params }) {
   const category = Categories.find((category) => category.title === Category[params.category])
-  const categoryPosts = getCategoryPosts(category, [
+  const categoryPosts = getCategoryPosts(params.category, [
     'title',
     'coverImage',
     'date',
