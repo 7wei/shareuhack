@@ -2,7 +2,7 @@ import { Grid, Box } from '@material-ui/core'
 import { Category, Categories, Routes } from '../lib/constants'
 import { TYPE } from '../src/theme/index'
 import { getCategoryPosts } from '../lib/api'
-import InfoCard from '../src/components/InfoCard.tsx/InfoCard'
+import InfoCard from '../src/components/InfoCard/InfoCard'
 import Link from '../src/components/Link/Link'
 import useBreakpoint from '../src/hooks/useBreakpoint'
 import PreviewRow from '../src/components/Post/PreviewRow'
@@ -23,7 +23,8 @@ export default function Knowledge({ category, grouped }) {
             <InfoCard>
               <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
               <TYPE.body>
-                我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
+                我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！
+                <br />
                 <Link href={Routes.about}>--了解更多</Link>
               </TYPE.body>
             </InfoCard>
@@ -35,7 +36,12 @@ export default function Knowledge({ category, grouped }) {
           Object.keys(grouped).map((key) => (
             <Box key={key} mb="15px">
               <Divider primary="true" />
-              <PreviewRow category={key} description={''} posts={grouped[key]} link={'#'} />
+              <PreviewRow
+                category={key}
+                description={''}
+                posts={grouped[key]}
+                link={process.env.NEXT_PUBLIC_BASE_URL + `/subCategory/${key}`}
+              />
             </Box>
           ))}
       </Box>

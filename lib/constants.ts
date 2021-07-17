@@ -1,4 +1,3 @@
-export const EXAMPLE_PATH = 'blog-starter'
 export const CMS_NAME = 'Shareuhack'
 export const HOME_OG_IMAGE_URL =
   'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'
@@ -37,12 +36,18 @@ export const NavLinks = [
   },
 ]
 
-export enum Category {
-  knowledge = '學習',
-  life = '生活',
-  health = '健康',
-  money = '金錢',
-  work = '工作',
+export const Category = {
+  knowledge: '學習',
+  life: '生活',
+  health: '健康',
+  money: '金錢',
+  work: '工作',
+}
+
+export const SubCategory = {
+  ['frontend-dev']: '前端開發',
+  ['backend-dev']: '後端開發',
+  ['product-management']: '產品管理',
 }
 
 export const Categories = [
@@ -74,5 +79,23 @@ export const Categories = [
     title: Category.work,
     description: '工作可指：就業崗位，如：找工作。職業，如：他的工作是銷售。勞動的過程或狀態，如：他正在工作中。',
     link: Routes.health,
+  },
+]
+
+export const SubCategories = [
+  {
+    title: SubCategory['frontend-dev'],
+    description:
+      'Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+  },
+  {
+    title: SubCategory['backend-dev'],
+    description:
+      'Back end Development refers to the server side of development where you are primarily focused on how the site works. Making updates and changes in addition to monitoring functionality of the site will be your primary responsibility.',
+  },
+  {
+    title: SubCategory['product-management'],
+    description:
+      'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
   },
 ]
