@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { TYPE } from '../src/theme/index'
 import PostBody from '../src/components/Post/PostBody'
 import { getPostBySlug } from '../lib/api'

@@ -74,8 +74,7 @@ export const Categories = [
   },
   {
     title: Category.work,
-    description:
-      '大部分的人，每週工作至少40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
+    description: '每週工作40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
     link: Routes.health,
   },
 ]

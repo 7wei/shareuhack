@@ -19,6 +19,8 @@ export default function CategoryPage({ category, subCategories }) {
         <title>
           {CMS_NAME} | {category.title}
         </title>
+        <meta name="description" content={category.description} />
+        <meta property="og:description" content={category.description} />
       </Head>
       <Disclaimer />
       <Grid container>

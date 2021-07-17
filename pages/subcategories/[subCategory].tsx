@@ -8,6 +8,7 @@ import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
 import Divider from '../../src/components/Divider/Divider'
 import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
+import Head from 'next/head'
 
 export default function SubCategoryPage({ subCategory, posts }) {
   const { matches } = useBreakpoint()
@@ -17,6 +18,8 @@ export default function SubCategoryPage({ subCategory, posts }) {
       <title>
         {CMS_NAME} | {subCategory.title}
       </title>
+      <meta name="description" content={subCategory.description} />
+      <meta property="og:description" content={subCategory.description} />
       <Disclaimer />
       <Grid container>
         <Grid item sm={9}>
