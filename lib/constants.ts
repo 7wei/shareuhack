@@ -2,7 +2,7 @@ export const CMS_NAME = 'Shareuhack'
 export const HOME_OG_IMAGE_URL =
   'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'
 
-export const HERO_POST_SLUG = 'what-is-lifehacker'
+export const HERO_POST_SLUG = 'hero'
 
 export const Routes = {
   home: '/',
@@ -84,23 +84,22 @@ export const Categories = [
 ]
 
 export const SubCategories = [
-  {
-    title: SubCategory['frontend-dev'],
-    description:
-      'Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
-    category: Category.knowledge,
-  },
-  {
-    title: SubCategory['backend-dev'],
-    description:
-      'Back end Development refers to the server side of development where you are primarily focused on how the site works. Making updates and changes in addition to monitoring functionality of the site will be your primary responsibility.',
-    category: Category.knowledge,
-  },
-
-  {
-    title: SubCategory['product-management'],
-    description:
-      'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
-    category: Category.knowledge,
-  },
+  // {
+  //   title: SubCategory['frontend-dev'],
+  //   description:
+  //     'Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+  //   category: Category.knowledge,
+  // },
+  // {
+  //   title: SubCategory['backend-dev'],
+  //   description:
+  //     'Back end Development refers to the server side of development where you are primarily focused on how the site works. Making updates and changes in addition to monitoring functionality of the site will be your primary responsibility.',
+  //   category: Category.knowledge,
+  // },
+  // {
+  //   title: SubCategory['product-management'],
+  //   description:
+  //     'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
+  //   category: Category.knowledge,
+  // },
 ]

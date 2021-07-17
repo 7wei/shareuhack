@@ -1,17 +1,16 @@
 ---
 title: '什麼是Life Hacks？如何成為LifeHacker?'
 category: 'general'
-subCategory: '次分類A'
+# subCategory: ''
 excerpt: 'Life Hacks是當我們面臨日常生活的各種大小問題時，可採用的簡單、效率的各種策略。'
-coverImage: '/assets/posts/what-is-lifehacker/cover.png'
+coverImage: '/assets/posts/hero/cover.png'
 date: '2021-07-10'
 ogImage:
-  url: '/assets/posts/what-is-lifehacker/cover.png'
-
-credentials: ['我們參考了網路至少一百篇文章', '訪談5位有相關經驗的專家']
-recommendations: [{ title: 'rec1', link: 'https://www.google.com' }, { title: 'rec2', link: 'https://www.google.com' }]
-references: [{ title: 'ref1', link: 'https://www.google.com' }, { title: 'ref2', link: 'https://www.google.com' }]
-related: ['dummy1', 'dummy2', 'dummy3']
+  url: '/assets/posts/hero/cover.png'
+# credentials: ['我們參考了網路至少一百篇文章', '訪談5位有相關經驗的專家']
+# recommendations: [{ title: 'rec1', link: 'https://www.google.com' }, { title: 'rec2', link: 'https://www.google.com' }]
+# references: [{ title: 'ref1', link: 'https://www.google.com' }, { title: 'ref2', link: 'https://www.google.com' }]
+# related: []
 ---
 
 我們是 Shareuhack，我們致力於發現、研究並分享有價值的知識、祕技，希望幫助每個人，成為自己的生活黑客。

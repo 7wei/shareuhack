@@ -97,7 +97,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
 export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'])
-  const relatedPosts = getPostsBySlugs(heroPost.related, ['title', 'slug'])
+  const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'])) || []
   const categories = Categories.map(({ title, description, link }) => {
     const category = Object.keys(Category).find((key) => Category[key] === title)
     const posts = getCategoryPosts(category, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)

@@ -22,28 +22,32 @@ export default function HeroPost({
       <Link href={`/posts/${slug}`}>
         <TYPE.largeHeader mb="8px">{title}</TYPE.largeHeader>
       </Link>
-      <Grid container>
-        <Grid item sm={7}>
-          <Box mr="10px">
-            <TYPE.body>{excerpt}</TYPE.body>
-          </Box>
-        </Grid>
-        <Grid item sm={5}>
-          <Box ml="10px">
-            <Divider />
-            <TYPE.header mt="15px" mb="15px">
-              RELATED
-            </TYPE.header>
-            <Box display="grid" gridGap="5px">
-              {relatedPosts.map((post) => (
-                <Link key={post.slug} href={`/posts/${post.slug}`}>
-                  <TYPE.bold>{post.title}</TYPE.bold>
-                </Link>
-              ))}
+      <Box mb="15px">
+        <Grid container>
+          <Grid item sm={relatedPosts.length > 0 ? 7 : 12}>
+            <Box mr="10px">
+              <TYPE.body>{excerpt}</TYPE.body>
             </Box>
-          </Box>
+          </Grid>
+          {relatedPosts.length > 0 && (
+            <Grid item sm={5}>
+              <Box ml="10px">
+                <Divider />
+                <TYPE.header mt="15px" mb="15px">
+                  RELATED
+                </TYPE.header>
+                <Box display="grid" gridGap="5px">
+                  {relatedPosts.map((post) => (
+                    <Link key={post.slug} href={`/posts/${post.slug}`}>
+                      <TYPE.bold>{post.title}</TYPE.bold>
+                    </Link>
+                  ))}
+                </Box>
+              </Box>
+            </Grid>
+          )}
         </Grid>
-      </Grid>
+      </Box>
     </section>
   )
 }

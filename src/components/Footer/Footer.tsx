@@ -1,5 +1,5 @@
 import { Link, makeStyles, Box } from '@material-ui/core'
-import { NavLinks } from '../../../lib/constants'
+import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 
@@ -49,7 +49,7 @@ export default function Footer() {
           ))}
         </Box>
         <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
-          <Link className={classes.navlink} href="#">
+          <Link className={classes.navlink} href={Routes.about}>
             關於Shareuhack
           </Link>
           {/* <Link className={classes.navlink} href="#">
