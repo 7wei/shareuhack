@@ -10,6 +10,7 @@ import HeroPost from '../src/components/Post/HeroPost'
 import useBreakpint from '../src/hooks/useBreakpoint'
 import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
+import Disclaimer from '../src/components/Disclaimer/Disclaimer'
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
   const { matches } = useBreakpint()
@@ -18,6 +19,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
       <Head>
         <title>{CMS_NAME}</title>
       </Head>
+      <Disclaimer />
       <Grid container spacing={3}>
         <Grid item sm={3}>
           <InfoCard>

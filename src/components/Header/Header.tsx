@@ -1,12 +1,12 @@
 import { Link, makeStyles, Box } from '@material-ui/core'
-import { NavLinks } from '../../lib/constants'
-import Container from './Container/Container'
+import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
+import { NavLinks, Routes } from '../../../lib/constants'
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: '#282729',
-    height: 180,
+    // height: 260,
+    paddingTop: 30,
   },
   navlink: {
     fontSize: 16,
@@ -36,28 +36,24 @@ const useStyles = makeStyles({
   },
 })
 
-export default function Footer() {
+export default function Header() {
   const classes = useStyles()
   return (
-    <Box className={classes.root}>
+    <div className={classes.root}>
       <Container>
-        <Box display="flex" alignItems="center" gridColumnGap="16px" paddingTop="36px">
+        <TYPE.brand textAlign="center">
+          <Link href="/" color="inherit" underline="none">
+            Share.You.Hack
+          </Link>
+        </TYPE.brand>
+        <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
             <Link key={link.title} className={classes.navlink} href={link.link}>
               {link.title}
             </Link>
           ))}
         </Box>
-        <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
-          <Link className={classes.navlink} href="#">
-            關於Shareuhack
-          </Link>
-          {/* <Link className={classes.navlink} href="#">
-            聯絡我們
-          </Link> */}
-        </Box>
-        <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
       </Container>
-    </Box>
+    </div>
   )
 }

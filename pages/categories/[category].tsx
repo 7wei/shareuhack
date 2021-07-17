@@ -7,12 +7,14 @@ import Link from '../../src/components/Link/Link'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
+import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
 
 export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
 
   return (
     <>
+      <Disclaimer />
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{category.title}</TYPE.extraLargeHeader>
@@ -70,7 +72,7 @@ export async function getStaticProps({ params }) {
   const subCategories = SubCategories.filter((el) => el.category === category.title).map(({ title, description }) => {
     const subCategory = Object.keys(SubCategory).find((key) => SubCategory[key] === title)
     const posts = categoryPosts.filter((post) => post.subCategory === subCategory)
-    const link = process.env.NEXT_PUBLIC_BASE_URL + `/subCategories/${subCategory}`
+    const link = process.env.NEXT_PUBLIC_BASE_URL + `/subcategories/${subCategory}`
     return {
       title,
       description,

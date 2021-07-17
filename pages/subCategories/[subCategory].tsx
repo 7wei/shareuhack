@@ -8,6 +8,7 @@ import useBreakpoint from '../../src/hooks/useBreakpoint'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
 import Divider from '../../src/components/Divider/Divider'
+import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
 
 export default function SubCategoryPage({ subCategory, posts }) {
   const router = useRouter()
@@ -15,6 +16,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
 
   return (
     <>
+      <Disclaimer />
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{subCategory.title}</TYPE.extraLargeHeader>

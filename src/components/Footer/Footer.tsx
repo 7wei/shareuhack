@@ -1,12 +1,12 @@
 import { Link, makeStyles, Box } from '@material-ui/core'
-import Container from './Container/Container'
+import { NavLinks } from '../../../lib/constants'
+import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
-import { NavLinks, Routes } from '../../lib/constants'
 
 const useStyles = makeStyles({
   root: {
-    // height: 260,
-    paddingTop: 30,
+    backgroundColor: '#282729',
+    height: 180,
   },
   navlink: {
     fontSize: 16,
@@ -36,30 +36,28 @@ const useStyles = makeStyles({
   },
 })
 
-export default function Header() {
+export default function Footer() {
   const classes = useStyles()
   return (
-    <div className={classes.root}>
+    <Box className={classes.root}>
       <Container>
-        <TYPE.brand textAlign="center">
-          <Link href="/" color="inherit" underline="none">
-            Share.You.Hack
-          </Link>
-        </TYPE.brand>
-        <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
+        <Box display="flex" alignItems="center" gridColumnGap="16px" paddingTop="36px">
           {NavLinks.map((link) => (
             <Link key={link.title} className={classes.navlink} href={link.link}>
               {link.title}
             </Link>
           ))}
         </Box>
-        <TYPE.primary textAlign="center" fontSize="14px" mb="48px">
-          Shareuhack是仰賴用戶支持而持續產生內容的，當您透過網站內的連結購買商品或課程，我們可能因此收益。
-          <Link href={Routes.about} underline="always">
-            了解更多
+        <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
+          <Link className={classes.navlink} href="#">
+            關於Shareuhack
           </Link>
-        </TYPE.primary>
+          {/* <Link className={classes.navlink} href="#">
+            聯絡我們
+          </Link> */}
+        </Box>
+        <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
       </Container>
-    </div>
+    </Box>
   )
 }
