@@ -10,9 +10,11 @@ const useStyles = makeStyles({
       margin: 0,
     },
     '& p': {
-      fontSize: 16,
+      fontSize: 18,
+      lineHeight: '26px',
+      opacity: 0.9,
     },
-    '& p a': {
+    '& * a': {
       color: theme.textColor.text1,
       fontWeight: 400,
       textDecoration: 'underline',
@@ -33,7 +35,8 @@ const useStyles = makeStyles({
     '& ul,ol': {
       margin: 0,
       paddingLeft: 18,
-      fontSize: 16,
+      fontSize: 18,
+      lineHeight: '26px',
     },
   },
 })

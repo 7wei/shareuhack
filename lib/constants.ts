@@ -49,6 +49,7 @@ export const SubCategory = {
   // ['frontend-dev']: '前端開發',
   // ['backend-dev']: '後端開發',
   // ['product-management']: '產品管理',
+  ['project-management']: '專案管理',
 }
 
 export const Categories = [
@@ -98,4 +99,9 @@ export const SubCategories = [
   //     'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
   //   category: Category.knowledge,
   // },
+  {
+    title: SubCategory['project-management'],
+    description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
+    category: Category.knowledge,
+  },
 ]

@@ -69,8 +69,8 @@ export default function Post({ post, morePosts, preview }) {
                   <InfoCard>
                     <TYPE.bold mb="5px">撰寫這篇文章前...</TYPE.bold>
                     <ol>
-                      {post.credentials?.map((credential) => (
-                        <li>{credential}</li>
+                      {post.credentials?.map((credential, idx) => (
+                        <li key={idx}>{credential}</li>
                       ))}
                     </ol>
                   </InfoCard>
@@ -81,8 +81,8 @@ export default function Post({ post, morePosts, preview }) {
                       <InfoCard>
                         <TYPE.bold mb="5px">推薦資源</TYPE.bold>
                         <ol>
-                          {post.recommendations?.map((recommendation) => (
-                            <li>
+                          {post.recommendations?.map((recommendation, idx) => (
+                            <li key={idx}>
                               <Link href={recommendation.link}>{recommendation.title}</Link>
                             </li>
                           ))}
@@ -94,8 +94,8 @@ export default function Post({ post, morePosts, preview }) {
                       <InfoCard>
                         <TYPE.bold mb="5px">相關資源</TYPE.bold>
                         <ol>
-                          {post.references?.map((reference) => (
-                            <li>
+                          {post.references?.map((reference, idx) => (
+                            <li key={idx}>
                               <Link href={reference.link}>{reference.title}</Link>
                             </li>
                           ))}
@@ -121,8 +121,8 @@ export default function Post({ post, morePosts, preview }) {
               <InfoCard>
                 <TYPE.bold mb="5px">推薦資源</TYPE.bold>
                 <ol>
-                  {post.recommendations.map((recommendation) => (
-                    <li>
+                  {post.recommendations.map((recommendation, idx) => (
+                    <li key={idx}>
                       <Link href={recommendation.link}>{recommendation.title}</Link>
                     </li>
                   ))}
@@ -132,8 +132,8 @@ export default function Post({ post, morePosts, preview }) {
               <InfoCard>
                 <TYPE.bold mb="5px">相關資源</TYPE.bold>
                 <ol>
-                  {post.references.map((reference) => (
-                    <li>
+                  {post.references.map((reference, idx) => (
+                    <li key={idx}>
                       <Link href={reference.link}>{reference.title}</Link>
                     </li>
                   ))}
