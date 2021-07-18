@@ -7,7 +7,7 @@ import useBreakpoint from '../../src/hooks/useBreakpoint'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
 import Divider from '../../src/components/Divider/Divider'
-import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
+import Disclosure from '../../src/components/Disclosure/Disclosure'
 import Head from 'next/head'
 
 export default function SubCategoryPage({ subCategory, posts }) {
@@ -20,7 +20,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       </title>
       <meta name="description" content={subCategory.description} />
       <meta property="og:description" content={subCategory.description} />
-      <Disclaimer />
+      <Disclosure />
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{subCategory.title}</TYPE.extraLargeHeader>

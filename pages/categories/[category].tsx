@@ -8,7 +8,7 @@ import Link from '../../src/components/Link/Link'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
-import Disclaimer from '../../src/components/Disclaimer/Disclaimer'
+import Disclosure from '../../src/components/Disclosure/Disclosure'
 
 export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
@@ -22,7 +22,7 @@ export default function CategoryPage({ category, subCategories }) {
         <meta name="description" content={category.description} />
         <meta property="og:description" content={category.description} />
       </Head>
-      <Disclaimer />
+      <Disclosure />
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{category.title}</TYPE.extraLargeHeader>
