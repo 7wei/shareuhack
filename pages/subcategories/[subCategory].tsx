@@ -1,6 +1,6 @@
 import { Grid, Box } from '@material-ui/core'
 import { getSubCategoryPosts } from '../../lib/api'
-import { SubCategories, SubCategory, Routes, CMS_NAME } from '../../lib/constants'
+import { SubCategories, SubCategory, Routes, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
 import { TYPE } from '../../src/theme/index'
 import PostReview from '../../src/components/Post/PostPreview'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
@@ -20,6 +20,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       </title>
       <meta name="description" content={subCategory.description} />
       <meta property="og:description" content={subCategory.description} />
+      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       <Disclosure />
       <Grid container>
         <Grid item sm={9}>

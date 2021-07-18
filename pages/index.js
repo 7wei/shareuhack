@@ -1,7 +1,7 @@
 import { Grid, Box } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG } from '../lib/constants'
+import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
 import InfoCard from '../src/components/InfoCard/InfoCard'
 import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
@@ -18,6 +18,11 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
     <>
       <Head>
         <title>{CMS_NAME}</title>
+        <meta
+          name="description"
+          content="我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！"
+        />
+        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       <Disclosure />
       <Grid container spacing={3}>

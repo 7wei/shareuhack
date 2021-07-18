@@ -1,6 +1,14 @@
 import { Grid, Box } from '@material-ui/core'
 import Head from 'next/head'
-import { Category, Categories, Routes, SubCategory, SubCategories, CMS_NAME } from '../../lib/constants'
+import {
+  Category,
+  Categories,
+  Routes,
+  SubCategory,
+  SubCategories,
+  CMS_NAME,
+  HOME_OG_IMAGE_URL,
+} from '../../lib/constants'
 import { TYPE } from '../../src/theme/index'
 import { getCategoryPosts, getSubCategoryPosts } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
@@ -21,6 +29,7 @@ export default function CategoryPage({ category, subCategories }) {
         </title>
         <meta name="description" content={category.description} />
         <meta property="og:description" content={category.description} />
+        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       <Disclosure />
       <Grid container>
