@@ -6,7 +6,7 @@ excerpt: '有在關注這PMP個證照的人，可能會發現 PMP 考試在 2021
 coverImage: '/assets/posts/how-to-get-pmp-2021/how-to-get-pmp-2021.jpg'
 date: '2021-07-18'
 ogImage:
-  url: '/assets/share-you-hack.png'
+  url: '/assets/posts/how-to-get-pmp-2021/how-to-get-pmp-2021.jpg'
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
 recommendations:
   [

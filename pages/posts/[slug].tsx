@@ -59,7 +59,7 @@ export default function Post({ post, morePosts, preview }) {
             </title>
             <meta property="og:image" content={post.ogImage.url} />
           </Head>
-          <CoverImage title={post.title} src={post.coverImage} height={620} width={1240} />
+          <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
           <TYPE.largeHeader mt="15px">{post.title}</TYPE.largeHeader>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
