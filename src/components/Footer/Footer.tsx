@@ -2,6 +2,7 @@ import { Link, makeStyles, Box } from '@material-ui/core'
 import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
+import FacebookIcon from '@material-ui/icons/Facebook'
 
 const useStyles = makeStyles({
   root: {
@@ -52,9 +53,11 @@ export default function Footer() {
           <Link className={classes.navlink} href={Routes.about}>
             關於Shareuhack
           </Link>
-          {/* <Link className={classes.navlink} href="#">
-            聯絡我們
-          </Link> */}
+          <Link className={classes.navlink} href="https://www.facebook.com/shareuhack/">
+            <Box display="flex" alignItems="center">
+              <FacebookIcon /> 聯絡我們
+            </Box>
+          </Link>
         </Box>
         <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
       </Container>

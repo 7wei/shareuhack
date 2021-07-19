@@ -124,7 +124,7 @@ export default function Post({ post, morePosts, preview }) {
               <InfoCard>
                 <TYPE.bold mb="5px">推薦資源</TYPE.bold>
                 <ol>
-                  {post.recommendations.map((recommendation, idx) => (
+                  {post.recommendations?.map((recommendation, idx) => (
                     <li key={idx}>
                       <Link href={recommendation.link}>{recommendation.title}</Link>
                     </li>
@@ -135,7 +135,7 @@ export default function Post({ post, morePosts, preview }) {
               <InfoCard>
                 <TYPE.bold mb="5px">相關資源</TYPE.bold>
                 <ol>
-                  {post.references.map((reference, idx) => (
+                  {post.references?.map((reference, idx) => (
                     <li key={idx}>
                       <Link href={reference.link}>{reference.title}</Link>
                     </li>
@@ -144,6 +144,9 @@ export default function Post({ post, morePosts, preview }) {
               </InfoCard>
 
               <Shares />
+              <TYPE.body mt="5px" mb="10px" textAlign="center">
+                分享這篇文章
+              </TYPE.body>
             </>
           )}
         </>
