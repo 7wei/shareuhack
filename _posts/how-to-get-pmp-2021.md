@@ -33,6 +33,10 @@ references:
       title: 'PMP Exam Reference List',
       link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552',
     },
+    {
+      title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
+      link:'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
+    },
   ]
 # related: []
 ---
@@ -95,6 +99,8 @@ PMI 會持續的觀察和分析專案經理的工作內容和方式，並回顧�
 
 目前為止，官方還是以第六版作為考試的[參考清單](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)，且 PMBOK 本來就只是其中一個參考的書目，放心依照下列方式準備即可。
 
+PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過程的十個知識領域(Integration、Scope、Schedule、Cost、Quality、Resource、Communications、Risk、Procurement、Stakeholder)，第七版改為強調整整體的成效(Team、Stakeholders、Life cycle、Planning、Uncertainty and ambiguity、Delivery、Performance、Project work)
+
 ## 如何準備
 
 好了，來到本文的重點，如何應對新版考試，到底該如何準備呢，其實新版的考試，對於新考生來說，是沒有差別的，就是把該上的課程、該讀的材料，好好的給他唸一遍就是了，以下是我們推薦的準備方式：
@@ -141,3 +147,4 @@ PMI 會持續的觀察和分析專案經理的工作內容和方式，並回顧�
 
 4. [PTT- P_Management 版](https://www.ptt.cc/bbs/P_Management/index.html)
 5. [PMP Exam Reference List](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)
+6. [PMBOK 7 vs PMBOK 6: Top Differences You Need to Know](https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article)
