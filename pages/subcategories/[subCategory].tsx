@@ -19,6 +19,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
         {CMS_NAME} | {subCategory.title}
       </title>
       <meta name="description" content={subCategory.description} />
+      <meta property="og:title" content={`${CMS_NAME}- ${subCategory.title}`} />
       <meta property="og:description" content={subCategory.description} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       <Disclosure />

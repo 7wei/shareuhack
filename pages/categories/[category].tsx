@@ -28,6 +28,7 @@ export default function CategoryPage({ category, subCategories }) {
           {CMS_NAME} | {category.title}
         </title>
         <meta name="description" content={category.description} />
+        <meta property="og:title" content={`${CMS_NAME}- ${category.title}`} />
         <meta property="og:description" content={category.description} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>

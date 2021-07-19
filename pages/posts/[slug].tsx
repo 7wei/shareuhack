@@ -58,6 +58,7 @@ export default function Post({ post, morePosts, preview }) {
               {CMS_NAME} | {post.title}
             </title>
             <meta name="description" content={post.excerpt} />
+            <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
           </Head>
