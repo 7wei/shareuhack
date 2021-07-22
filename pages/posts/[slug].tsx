@@ -16,6 +16,7 @@ import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
 import { formattedDate } from '../../src/utils'
+import Disqus from '../../src/components/Disqus/Disqus'
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
@@ -117,6 +118,15 @@ export default function Post({ post, morePosts, preview }) {
             </Grid>
             <Grid item sm={9}>
               <PostBody content={post.content} />
+
+              {!matches && (
+                <>
+                  <TYPE.primary mt="48px">
+                    如果這篇文章對你有任何幫助，或者你也對這個主題有其他建議，歡迎留言讓大家知道！
+                  </TYPE.primary>
+                  <Disqus {...post} />
+                </>
+              )}
             </Grid>
           </Grid>
           {matches && (
@@ -144,11 +154,15 @@ export default function Post({ post, morePosts, preview }) {
                   ))}
                 </ol>
               </InfoCard>
-
+              <TYPE.primary mt="20px">
+                如果這篇文章對你有任何幫助，或者你也對這個主題有其他建議，歡迎留言讓大家知道！
+              </TYPE.primary>
+              <Disqus {...post} />
+              {/*
               <Shares />
               <TYPE.body mt="5px" mb="10px" textAlign="center">
                 分享這篇文章
-              </TYPE.body>
+              </TYPE.body> */}
             </>
           )}
         </>
