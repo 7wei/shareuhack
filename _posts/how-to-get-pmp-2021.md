@@ -3,10 +3,10 @@ title: '2021 PMP 揮別舊版，最新考取攻略！'
 category: 'knowledge'
 subCategory: 'project-management'
 excerpt: '有在關注這PMP個證照的人，可能會發現 PMP 考試在 2021 改版，所以現在搜尋到的關於分享 PMP 考照的就文章，可能會和最新狀況有所出入。不過別擔心，你不是已經找到這篇文章了嗎？'
-coverImage: '/assets/posts/how-to-get-pmp-2021/how-to-get-pmp-2021.jpg'
+coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
-  url: '/assets/posts/how-to-get-pmp-2021/how-to-get-pmp-2021.jpg'
+  url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
 recommendations:
   [

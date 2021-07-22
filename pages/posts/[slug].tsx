@@ -70,7 +70,7 @@ export default function Post({ post, morePosts, preview }) {
               <Box mr={matches ? '0px' : '45px'} pt={matches ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard>
-                    <TYPE.bold mb="5px">撰寫這篇文章前...</TYPE.bold>
+                    <TYPE.bold mb="5px">我們撰寫這篇文章前</TYPE.bold>
                     <ol>
                       {post.credentials?.map((credential, idx) => (
                         <li key={idx}>{credential}</li>
