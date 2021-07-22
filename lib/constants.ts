@@ -50,6 +50,7 @@ export const SubCategory = {
   // ['backend-dev']: '後端開發',
   // ['product-management']: '產品管理',
   ['project-management']: '專案管理',
+  ['e-learning']: '線上學習',
 }
 
 export const Categories = [
@@ -102,6 +103,11 @@ export const SubCategories = [
   {
     title: SubCategory['project-management'],
     description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
+    category: Category.knowledge,
+  },
+  {
+    title: SubCategory['e-learning'],
+    description: '線上學習，在2021已成顯學。',
     category: Category.knowledge,
   },
 ]
