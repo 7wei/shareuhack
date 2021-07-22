@@ -6,7 +6,7 @@ excerpt: '如果你有想到要學一個新東西，第一個的線上課程平�
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 date: '2021-07-22'
 ogImage:
-  url: /assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+  url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 credentials: ['購買30+Udemy課程', '閱讀20+篇網路上的文章']
 recommendations: []
 references:
