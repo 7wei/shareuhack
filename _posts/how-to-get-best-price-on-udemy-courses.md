@@ -29,6 +29,7 @@ references:
 最省錢的方式，就是直接去瀏覽 [Udemy 免費學習中心](https://tinyurl.com/yfbaghja)。免費的課程通常都不深入，建議可以當作免費的簡介或入門的課程資源庫，建議利用篩選條件，找高評價的課程，很多講師會教授不只一堂課程，可以先利用這個免費課程，試聽看看講師符不符合自己的 tone 調。
 
 **2. 等 Udemy 特價**
+
 「什麼？Udemy 不是隨時在特價嗎？」
 
 [Udemy](https://tinyurl.com/yhdgtddt)的確時常特價，但絕對會有恢復原價的時候，當你有感興趣的課程，卻看到價格是原價或者是一個相對高的價錢時，除非很急迫，先不要購入！
@@ -46,12 +47,15 @@ references:
 ![](https://i.imgur.com/NaVDSkb.png)
 
 **5. 30 天無條件退款機制**
+
 請參考[Udemy 使用條款](https://tinyurl.com/yzly7hek)，若課程不符合期待，是可以無條件退款的，這邊不鼓勵惡意的濫用退款機制，且 Udemy 也會審核是否有濫用的情形發生，到時後得不償失。不過如果真的有買到不符合期待、或是課程品質不佳的狀況，請大力的給他退款下去！
 
 **6. 訂閱 Udemy Pro**
+
 [Udemy Pro](https://tinyurl.com/yhgfsrwr)是專注在套裝學習，協助學生通過 IT 相關認證所設計，在訂閱的時間內，可以隨時存取所有內容，且有 7 天的免費試用，建議先到[Udemy Pro](https://tinyurl.com/yhgfsrwr)頁面看看有哪些有幸看的課程，排好進修計畫，在最短訂閱時間完成最多課程！
 
 **7. 請公司補助購買課程**
+
 問問公司有沒有補助學習的方案，或者是公司有參與[Udemy Business](https://tinyurl.com/ygzsqe9j)方案。有問有機會！
 
 **8. 找優惠碼**
@@ -60,6 +64,7 @@ references:
 [![image info](https://affsrc.com/track/imp/img/97032/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=)](https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F)
 
 **9. 使用無痕模式(incognito mode)、清除 cookie 新辦帳號贈禮**
+
 這招才是本文的重點。
 
 為了吸引新客戶，[Udemy](https://tinyurl.com/yhdgtddt)會提供特別折扣給新客戶，使用無痕模式和清除瀏覽器的 cookie，讓[Udemy](https://tinyurl.com/yhdgtddt)誤認你是新訪客，再註冊一個全新帳號，即可以使用新客優惠購買課程，並以贈禮的方式，將課程送給自己的主要帳號！
