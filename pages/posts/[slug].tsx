@@ -121,9 +121,7 @@ export default function Post({ post, morePosts, preview }) {
 
               {!matches && (
                 <>
-                  <TYPE.primary mt="48px">
-                    如果這篇文章對你有任何幫助，或者你也對這個主題有其他建議，歡迎留言讓大家知道！
-                  </TYPE.primary>
+                  <TYPE.primary mt="48px">如果你對這篇文章有任何建議，歡迎分享你的hack！</TYPE.primary>
                   <Disqus {...post} />
                 </>
               )}
@@ -154,9 +152,7 @@ export default function Post({ post, morePosts, preview }) {
                   ))}
                 </ol>
               </InfoCard>
-              <TYPE.primary mt="20px">
-                如果這篇文章對你有任何幫助，或者你也對這個主題有其他建議，歡迎留言讓大家知道！
-              </TYPE.primary>
+              <TYPE.primary mt="20px">如果你對這篇文章有任何建議，歡迎分享你的hack！</TYPE.primary>
               <Disqus {...post} />
               {/*
               <Shares />
