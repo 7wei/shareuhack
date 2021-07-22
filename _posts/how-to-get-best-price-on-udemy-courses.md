@@ -63,10 +63,10 @@ references:
 可以在網路上找找有沒有優惠碼，但很多網路上流傳的是過期的，可能會花點時間。若你是第一次購買，可以點擊下圖連結，[Udemy](https://tinyurl.com/yhdgtddt)會提供新客優惠！
 [![image info](https://affsrc.com/track/imp/img/97032/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=)](https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F)
 
-**9. 使用無痕模式(incognito mode)、清除 cookie 新辦帳號贈禮**
+**9. 偽裝成新客戶**
 
 這招才是本文的重點。
 
-為了吸引新客戶，[Udemy](https://tinyurl.com/yhdgtddt)會提供特別折扣給新客戶，使用無痕模式和清除瀏覽器的 cookie，讓[Udemy](https://tinyurl.com/yhdgtddt)誤認你是新訪客，再註冊一個全新帳號，即可以使用新客優惠購買課程，並以贈禮的方式，將課程送給自己的主要帳號！
+為了吸引新客戶，[Udemy](https://tinyurl.com/yhdgtddt)會提供特別折扣給新客戶，使用無痕模式(incognito mode)和清除瀏覽器的 cookie，讓[Udemy](https://tinyurl.com/yhdgtddt)誤認你是新訪客，再註冊一個全新帳號，即可以使用新客優惠購買課程，並以贈禮的方式，將課程送給自己的主要帳號！
 
 但買個課程，要不要這麼麻煩，就見仁見智囉 。
