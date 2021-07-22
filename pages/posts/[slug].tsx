@@ -121,16 +121,18 @@ export default function Post({ post, morePosts, preview }) {
           </Grid>
           {matches && (
             <>
-              <InfoCard>
-                <TYPE.bold mb="5px">推薦資源</TYPE.bold>
-                <ol>
-                  {post.recommendations?.map((recommendation, idx) => (
-                    <li key={idx}>
-                      <Link href={recommendation.link}>{recommendation.title}</Link>
-                    </li>
-                  ))}
-                </ol>
-              </InfoCard>
+              {post.recommendations && post.recommendations.length > 0 && (
+                <InfoCard>
+                  <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                  <ol>
+                    {post.recommendations?.map((recommendation, idx) => (
+                      <li key={idx}>
+                        <Link href={recommendation.link}>{recommendation.title}</Link>
+                      </li>
+                    ))}
+                  </ol>
+                </InfoCard>
+              )}
 
               <InfoCard>
                 <TYPE.bold mb="5px">相關資源</TYPE.bold>
