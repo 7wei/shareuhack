@@ -136,6 +136,7 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx)
 
 3. [PM Exam Simulator](https://free.pm-exam-simulator.com/)
+<!--
 
 ## Reference
 
@@ -147,4 +148,4 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 4. [PTT- P_Management 版](https://www.ptt.cc/bbs/P_Management/index.html)
 5. [PMP Exam Reference List](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)
-6. [PMBOK 7 vs PMBOK 6: Top Differences You Need to Know](https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article)
+6. [PMBOK 7 vs PMBOK 6: Top Differences You Need to Know](https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article) -->
