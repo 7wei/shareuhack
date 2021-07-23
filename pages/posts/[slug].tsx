@@ -11,7 +11,7 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
-import { TYPE } from '../../src/theme/index'
+import theme, { TYPE } from '../../src/theme/index'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
@@ -154,6 +154,7 @@ export default function Post({ post, morePosts, preview }) {
               </InfoCard>
               <TYPE.primary mt="20px">如果你對這篇文章有任何建議，歡迎分享你的hack！</TYPE.primary>
               <Disqus {...post} />
+
               {/*
               <Shares />
               <TYPE.body mt="5px" mb="10px" textAlign="center">
