@@ -35,7 +35,7 @@ references:
 
 直接去查看[前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96)，你就可以了解成為前端工程師的完整 roadmap。
 
-此外，也在人力銀行網站，搜尋前端工程師，大概看過 20 個職缺，重複出現 10 次以上的，就會應徵職缺必要的技術，主要會是 HTML、CSS、JavaScript、Ajax、React，和其他工具類的如 boostrap、jQuery 等等。
+此外，也在人力銀行網站，搜尋前端工程師，大概看過 20 個職缺，重複出現 10 次以上的，就會是應徵職缺必要的技術，主要會是 HTML、CSS、JavaScript、Ajax、React，和其他工具類的如 boostrap、jQuery 等等。
 
 ## 初步了解基本技能
 
