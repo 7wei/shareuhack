@@ -7,7 +7,7 @@ coverImage: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
 date: '2021-07-24'
 ogImage:
   url: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
-credentials: ['購買10+Udemy課程', '閱讀30+篇網路上的文章']
+credentials: ['購買10+Udemy課程', '閱讀30+篇網路上的文章', '訪問3+成功轉職的前端工程師']
 recommendations:
   [
     { title: '動畫互動網頁程式入門 (HTML/CSS/JS)', link: 'https://tinyurl.com/yjhxj55y' },
