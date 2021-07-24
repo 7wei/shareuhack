@@ -46,7 +46,7 @@ export const Category = {
 }
 
 export const SubCategory = {
-  // ['frontend-dev']: '前端開發',
+  ['frontend-dev']: '前端開發',
   // ['backend-dev']: '後端開發',
   // ['product-management']: '產品管理',
   ['project-management']: '專案管理',
@@ -82,12 +82,12 @@ export const Categories = [
 ]
 
 export const SubCategories = [
-  // {
-  //   title: SubCategory['frontend-dev'],
-  //   description:
-  //     'Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
-  //   category: Category.knowledge,
-  // },
+  {
+    title: SubCategory['frontend-dev'],
+    description:
+      '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
+    category: Category.knowledge,
+  },
   // {
   //   title: SubCategory['backend-dev'],
   //   description:

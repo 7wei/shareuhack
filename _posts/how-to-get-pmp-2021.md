@@ -136,16 +136,3 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx)
 
 3. [PM Exam Simulator](https://free.pm-exam-simulator.com/)
-<!--
-
-## Reference
-
-1. [一個月內考取 PMP 證照攻略，PMP 實際上有用嗎？](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)
-
-2. [How The PMP Exam is Changing in 2021](https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/)
-
-3. [2021 PMP 證照考試的資源整理 — 考照前](https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1)
-
-4. [PTT- P_Management 版](https://www.ptt.cc/bbs/P_Management/index.html)
-5. [PMP Exam Reference List](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)
-6. [PMBOK 7 vs PMBOK 6: Top Differences You Need to Know](https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article) -->

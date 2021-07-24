@@ -8,7 +8,13 @@ date: '2021-07-22'
 ogImage:
   url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 credentials: ['購買30+Udemy課程', '閱讀20+篇網路上的文章']
-recommendations: []
+recommendations:
+  [
+    {
+      title: 'Udemy官方新客優惠',
+      link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
+    },
+  ]
 references:
   [
     { title: 'Udemy官方網站', link: 'https://tinyurl.com/yhdgtddt' },
