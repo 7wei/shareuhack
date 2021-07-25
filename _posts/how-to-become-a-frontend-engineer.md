@@ -49,11 +49,11 @@ references:
 
 Hahow 的[動畫互動網頁程式入門 (HTML/CSS/JS)](https://tinyurl.com/yjhxj55y)是目前中文最推薦的學習前端基礎觀念的課程之一，完全沒經驗的也可以很舒適的跟著學習，學習曲線平滑，相對其他課程，學生完成課程的比率很高。跟著課程學習並實作，上完課後，對 HTML/CSS/JS 就會有一定的了解。
 
-對 HTML/CSS/JavaScript 有了一定的認識，可以先繼續專精 JavaScript。[JavaScript 全攻略：克服 JS 的奇怪部分](https://tinyurl.com/yzqn7yda)是不可或缺的神課，沒有理由不上這個課。藉由這課程，可以紮紮實實地瞭解 JS 的語言特性和底層知識，了解的越深，越能寫出高品質的 code，對於框架也會有更深的認識。
+對 HTML/CSS/JavaScript 有了一定的認識後，可以先繼續專精 JavaScript。網路上最推薦的是[JavaScript 全攻略：克服 JS 的奇怪部分](https://tinyurl.com/yzqn7yda)，很適合想要深入了解 JavaScript 的人，會講述很多物件原型、閉包等等進階觀念和許多 JavaScript 容易遇到的錯誤，和如何避免。藉由這課程，可以紮實地瞭解 JS 的語言特性和底層知識，也可以學會建立自己的框架、看懂知名框架的原始碼。
 
-打好基礎後，開始學習前端框架，這邊建議沒有想法的話，就學 React/Redux 吧。Stephen Grider 是目前最受好評的講師之一，他的[Modern React with Redux](https://tinyurl.com/yf8s5cl9)是最熱門必買的課程，透過這堂課課程，可以迅速的了解 React、Redux，並且可以快速的實作一個小專案，也可以在透過學習的知識，設計並實作屬於自己的作品。
+打好基礎後，開始學習前端框架，這邊建議沒有想法的話，就學 React/Redux 吧。[Stephen Grider](https://tinyurl.com/ydnr493j)是目前最受好評的講師之一，他的[Modern React with Redux](https://tinyurl.com/yf8s5cl9)是最熱門必買的課程，透過這堂課課程，可以迅速的了解 React、Redux，並且可以快速的實作一個小專案，也可以在透過學習的知識，設計並實作屬於自己的作品。
 
-如果想要學 Vue，不想學 React，可以選擇一樣是 Stephen Grider 出的[Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs)
+如果想要學 Vue，可以選擇一樣是[Stephen Grider](https://tinyurl.com/ydnr493j)出的[Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs)
 
 學完之後，先想想怎麼透過已經學到的技術，建造一個屬於自己的新作品，從頭來一遍，不要依賴太多課程提供的 sample code，同時，你會發現你的 css 的知識和觀念不夠扎實，建議透過[Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/yzx9vjqr)這堂課程加強，嘗試運用比較高階的技巧在專案上。
 
