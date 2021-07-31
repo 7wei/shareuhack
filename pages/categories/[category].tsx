@@ -85,7 +85,7 @@ export async function getStaticProps({ params }) {
     'excerpt',
     'slug',
     'subCategory',
-  ]).slice(0, 3)
+  ])
 
   const subCategories = SubCategories.filter((el) => el.category === category.title).map(({ title, description }) => {
     const subCategory = Object.keys(SubCategory).find((key) => SubCategory[key] === title)
