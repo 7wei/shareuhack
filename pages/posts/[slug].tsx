@@ -69,7 +69,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <Link href={category?.link}>{category?.title}</Link>
             <Link href={subCategory?.link}>{subCategory?.title}</Link>
           </Breadcrumbs>
-          <TYPE.largeHeader>{post.title}</TYPE.largeHeader>
+          <TYPE.largeHeader as="h2">{post.title}</TYPE.largeHeader>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
             <Grid item sm={3} xs={12}>
