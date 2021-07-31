@@ -65,11 +65,16 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <meta property="og:image" content={post.ogImage.url} />
           </Head>
           <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
-          <Breadcrumbs>
-            <Link href={category?.link}>{category?.title}</Link>
-            <Link href={subCategory?.link}>{subCategory?.title}</Link>
-          </Breadcrumbs>
-          <TYPE.largeHeader as="h2">{post.title}</TYPE.largeHeader>
+          {category && subCategory && (
+            <Breadcrumbs>
+              <Link href={category?.link}>{category?.title}</Link>
+              <Link href={subCategory?.link}>{subCategory?.title}</Link>
+            </Breadcrumbs>
+          )}
+
+          <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h2">
+            {post.title}
+          </TYPE.largeHeader>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
             <Grid item sm={3} xs={12}>
@@ -189,8 +194,8 @@ export async function getStaticProps({ params }) {
     'subCategory',
   ])
   const content = await markdownToHtml(post.content || '')
-  const category = Categories.find((category) => category.title === Category[post.category])
-  const subCategory = SubCategories.find((subCategory) => subCategory.title === SubCategory[post.subCategory])
+  const category = Categories.find((category) => category.title === Category[post.category]) || null
+  const subCategory = SubCategories.find((subCategory) => subCategory.title === SubCategory[post.subCategory]) || null
 
   return {
     props: {
