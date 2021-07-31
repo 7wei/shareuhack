@@ -114,28 +114,28 @@ const TextWrapper = ({ textColor, ...props }: TextProps & { textColor?: keyof Te
 
 export const TYPE = {
   brand(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={36} {...props} as="h1" />
+    return <TextWrapper fontWeight={700} fontSize={36} {...props} />
   },
   extraLargeHeader(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" as="h2" {...props} />
+    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" {...props} />
   },
   largeHeader(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" as="h2" {...props} />
+    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" {...props} />
   },
   header(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={24} textColor="text1" as="h2" {...props} />
+    return <TextWrapper fontWeight={400} fontSize={24} textColor="text1" {...props} />
   },
   body(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="text1" as="p" {...props} />
+    return <TextWrapper fontWeight={400} fontSize={14} textColor="text1" {...props} />
   },
   bold(props: TextProps) {
-    return <TextWrapper fontWeight={600} fontSize={16} textColor="text1" as="p" {...props} />
+    return <TextWrapper fontWeight={600} fontSize={16} textColor="text1" {...props} />
   },
   primary(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="primary" as="p" {...props} />
+    return <TextWrapper fontWeight={400} fontSize={14} textColor="primary" {...props} />
   },
   smallGray(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="text3" as="p" {...props} />
+    return <TextWrapper fontWeight={400} fontSize={14} textColor="text3" {...props} />
   },
 }
 
