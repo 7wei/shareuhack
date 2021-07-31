@@ -7,7 +7,7 @@ coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 date: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家']
+credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家', '閱讀5本相關書籍']
 recommendations:
   [
     { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/' },
