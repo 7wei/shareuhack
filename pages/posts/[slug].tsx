@@ -9,16 +9,17 @@ import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../../lib/constants'
+import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
-import theme, { TYPE } from '../../src/theme/index'
+import { TYPE } from '../../src/theme/index'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
 import { formattedDate } from '../../src/utils'
 import Disqus from '../../src/components/Disqus/Disqus'
+import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 
-export default function Post({ post, morePosts, preview }) {
+export default function Post({ post, morePosts, preview, category, subCategory }) {
   const router = useRouter()
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
@@ -64,7 +65,11 @@ export default function Post({ post, morePosts, preview }) {
             <meta property="og:image" content={post.ogImage.url} />
           </Head>
           <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
-          <TYPE.largeHeader mt="15px">{post.title}</TYPE.largeHeader>
+          <Breadcrumbs>
+            <Link href={category?.link}>{category?.title}</Link>
+            <Link href={subCategory?.link}>{subCategory?.title}</Link>
+          </Breadcrumbs>
+          <TYPE.largeHeader>{post.title}</TYPE.largeHeader>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
             <Grid item sm={3} xs={12}>
@@ -180,8 +185,12 @@ export async function getStaticProps({ params }) {
     'credentials',
     'recommendations',
     'references',
+    'category',
+    'subCategory',
   ])
   const content = await markdownToHtml(post.content || '')
+  const category = Categories.find((category) => category.title === Category[post.category])
+  const subCategory = SubCategories.find((subCategory) => subCategory.title === SubCategory[post.subCategory])
 
   return {
     props: {
@@ -189,6 +198,8 @@ export async function getStaticProps({ params }) {
         ...post,
         content,
       },
+      category: category,
+      subCategory: subCategory,
     },
   }
 }

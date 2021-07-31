@@ -87,6 +87,7 @@ export const SubCategories = [
     description:
       '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
     category: Category.knowledge,
+    link: `/subcategories/frontend-dev`,
   },
   // {
   //   title: SubCategory['backend-dev'],
@@ -104,10 +105,12 @@ export const SubCategories = [
     title: SubCategory['project-management'],
     description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
     category: Category.knowledge,
+    link: `/subcategories/project-management`,
   },
   {
     title: SubCategory['e-learning'],
     description: '線上學習，在2021已成顯學。',
     category: Category.knowledge,
+    link: `/subcategories/e-learning`,
   },
 ]
