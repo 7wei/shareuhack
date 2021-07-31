@@ -52,7 +52,7 @@ references:
 
 任何 PMP 報名相關的資訊，請一律先去[PMI 官方網站](https://www.pmi.org/)，以確保資訊是最新、最正確的。參考 PMI 官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)，簡言之，會需要先確認是否有資格報名考試，再到 PMI 註冊帳號並開始申請。
 
-**Step 1 確認是否夠資格**
+### Step 1 確認是否夠資格
 
 以下兩組條件符合其中一組即可：
 
@@ -68,7 +68,7 @@ references:
 2. 擁有 60 個月領導專案的經驗
 3. 接受過 35 小時的專案管理培訓
 
-**Step 2 註冊 pmi.org 的帳戶並開始申請流程**
+### Step 2 註冊 pmi.org 的帳戶並開始申請流程
 
 填表格或許很煩，但還是希望要考照的各位可以獨立遵循著網站的指示去申請，畢竟作為一個專業的專案經理，這應該是很基本的技能吧？
 
@@ -106,7 +106,7 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 好了，來到本文的重點，如何應對新版考試，到底該如何準備呢，其實新版的考試，對於新考生來說，是沒有差別的，就是把該上的課程、該讀的材料，好好的給他唸一遍就是了，以下是我們推薦的準備方式：
 
-**準備材料**
+### 準備材料
 
 1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668): PMP 官方提供的考試大綱，這文件會告訴你考試到底會包含哪些內內容。
 
@@ -118,7 +118,7 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 5. [深入淺出 PMP](https://tinyurl.com/y7yfcuov)：以視覺化較活潑生動的方式涵蓋 PMBOK 的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
-**準備方式**
+### 準備方式
 
 1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668)，了解考試的大綱和範圍，其實若你有一定的專案經理經驗，可能看完後，你就可以放心了，你會發現，這些問題都將難不了你。
 
@@ -130,7 +130,7 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yh8gdpev)做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
 
-**免費模擬測試資源**
+### 免費模擬測試資源
 
 1. [pmppracticeexam.org](https://www.pmppracticeexam.org/)
 

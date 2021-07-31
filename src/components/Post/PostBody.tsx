@@ -14,6 +14,12 @@ const useStyles = makeStyles({
       lineHeight: '26px',
       opacity: 0.9,
     },
+    '& h3': {
+      fontSize: 18,
+      lineHeight: '26px',
+      // fontWeight: 700,
+      opacity: 0.9,
+    },
     '& * a': {
       color: theme.textColor.text1,
       fontWeight: 400,
