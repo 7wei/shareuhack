@@ -25,7 +25,7 @@ const useStyles = makeStyles({
       fontWeight: 400,
       textDecoration: 'underline',
     },
-    '& p a:hover': {
+    '& * a:hover': {
       color: theme.palette.primary.main,
     },
     '& hr': {
@@ -43,6 +43,7 @@ const useStyles = makeStyles({
       paddingLeft: 18,
       fontSize: 18,
       lineHeight: '26px',
+      opacity: 0.9,
     },
   },
 })
