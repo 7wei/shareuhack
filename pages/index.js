@@ -89,12 +89,16 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           )}
         </Grid>
       </Grid>
-      {categories.map(({ title, description, posts, link }) => (
-        <Box key={title} mb="15px">
-          <Divider primary="true" />
-          <PreviewRow category={title} description={description} posts={posts} link={link} />
-        </Box>
-      ))}
+      {categories.map(({ title, description, posts, link }) => {
+        if (posts.length > 0) {
+          return (
+            <Box key={title} mb="15px">
+              <Divider primary="true" />
+              <PreviewRow category={title} description={description} posts={posts} link={link} />
+            </Box>
+          )
+        }
+      })}
     </>
   )
 }
