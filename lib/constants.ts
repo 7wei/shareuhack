@@ -77,7 +77,7 @@ export const Categories = [
   {
     title: Category.work,
     description: '每週工作40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
-    link: Routes.health,
+    link: Routes.work,
   },
 ]
 
@@ -86,7 +86,7 @@ export const SubCategories = [
     title: SubCategory['frontend-dev'],
     description:
       '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
-    category: Category.knowledge,
+    category: Category.work,
     link: `/subcategories/frontend-dev`,
   },
   // {
