@@ -3,6 +3,7 @@ import CoverImage from '../Image/CoverImage'
 import { TYPE } from 'theme/index'
 import { formattedDate } from '../../utils/index'
 import theme from '../../theme/index'
+import { useRouter } from 'next/router'
 
 const useStyles = makeStyles({
   root: {
@@ -27,10 +28,12 @@ export default function PostPreview({
   slug: string
 }) {
   const classes = useStyles()
+  const { locale } = useRouter()
+
   return (
     <Box maxWidth="300px" className={classes.root}>
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
-      <Link href={`/posts/${slug}`} underline="none">
+      <Link href={`${locale}/posts/${slug}`} underline="none">
         <TYPE.bold mt="5px" className={classes.title}>
           {title}
         </TYPE.bold>

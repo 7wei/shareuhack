@@ -11,9 +11,15 @@ import useBreakpint from '../src/hooks/useBreakpoint'
 import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import Disclosure from '../src/components/Disclosure/Disclosure'
+import { useRouter } from 'next/router'
+// import useTranslation from 'next-translate/useTranslation'
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
   const { matches } = useBreakpint()
+
+  const router = useRouter()
+  const { locale } = router
+
   return (
     <>
       <Head>
@@ -50,7 +56,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           </TYPE.header>
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} underline="none">
+              <Link key={post.slug} href={`/${locale}/posts/${post.slug}`} underline="none">
                 <>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
@@ -69,7 +75,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           </TYPE.header>
           <Box display="grid" gridGap="8px" mb="15px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} underline="none">
+              <Link key={post.slug} href={`/${locale}/posts/${post.slug}`} underline="none">
                 <>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
@@ -103,13 +109,13 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
   )
 }
 
-export async function getStaticProps() {
-  const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
-  const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'])
-  const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'])) || []
+export async function getStaticProps({ locale }) {
+  const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
+  const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
+  const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ title, description, link }) => {
     const category = Object.keys(Category).find((key) => Category[key] === title)
-    const posts = getCategoryPosts(category, ['title', 'coverImage', 'date', 'excerpt', 'slug']).slice(0, 3)
+    const posts = getCategoryPosts(category, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
     return {
       title,
       description,

@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
-import { getPostBySlug, getAllPosts } from '../../lib/api'
+import { getPostBySlug, getAllPosts, getAllPostPaths } from '../../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -23,6 +23,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
   const router = useRouter()
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
+  const { locale } = useRouter()
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -178,21 +179,25 @@ export default function Post({ post, morePosts, preview, category, subCategory }
   )
 }
 
-export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, [
-    'title',
-    'date',
-    'slug',
-    'author',
-    'content',
-    'ogImage',
-    'coverImage',
-    'credentials',
-    'recommendations',
-    'references',
-    'category',
-    'subCategory',
-  ])
+export async function getStaticProps({ params, locale }) {
+  const post = getPostBySlug(
+    params.slug,
+    [
+      'title',
+      'date',
+      'slug',
+      'author',
+      'content',
+      'ogImage',
+      'coverImage',
+      'credentials',
+      'recommendations',
+      'references',
+      'category',
+      'subCategory',
+    ],
+    locale
+  )
   const content = await markdownToHtml(post.content || '')
   const category = Categories.find((category) => category.title === Category[post.category]) || null
   const subCategory = SubCategories.find((subCategory) => subCategory.title === SubCategory[post.subCategory]) || null
@@ -209,17 +214,20 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export async function getStaticPaths() {
-  const posts = getAllPosts(['slug'])
+export async function getStaticPaths({ locales }) {
+  const paths = getAllPostPaths(locales)
+
+  // const posts = getAllPosts(['slug'], locales)
 
   return {
-    paths: posts.map((post) => {
-      return {
-        params: {
-          slug: post.slug,
-        },
-      }
-    }),
+    // paths: posts.map((post) => {
+    //   return {
+    //     params: {
+    //       slug: post.slug,
+    //     },
+    //   }
+    // }),
+    paths,
     fallback: false,
   }
 }
