@@ -2,6 +2,7 @@ import { Link, makeStyles, Box } from '@material-ui/core'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 import { NavLinks, Routes } from '../../../lib/constants'
+import { useTranslation } from 'next-i18next'
 
 const useStyles = makeStyles({
   root: {
@@ -38,6 +39,7 @@ const useStyles = makeStyles({
 
 export default function Header() {
   const classes = useStyles()
+  const { t } = useTranslation('common')
   return (
     <div className={classes.root}>
       <Container>
@@ -48,8 +50,8 @@ export default function Header() {
         </TYPE.brand>
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
-            <Link key={link.title} className={classes.navlink} href={link.link}>
-              {link.title}
+            <Link key={link.key} className={classes.navlink} href={link.link}>
+              {t(`${link.key}`)}
             </Link>
           ))}
         </Box>

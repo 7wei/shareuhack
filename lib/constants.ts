@@ -16,23 +16,23 @@ export const Routes = {
 
 export const NavLinks = [
   {
-    title: '學習',
+    key: 'knowledge',
     link: Routes.knowledge,
   },
   {
-    title: '生活',
+    key: 'life',
     link: Routes.life,
   },
   {
-    title: '健康',
+    key: 'health',
     link: Routes.health,
   },
   {
-    title: '金錢',
+    key: 'money',
     link: Routes.money,
   },
   {
-    title: '工作',
+    key: 'work',
     link: Routes.work,
   },
 ]

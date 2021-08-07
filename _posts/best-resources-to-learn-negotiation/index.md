@@ -1,5 +1,5 @@
 ---
-title: '[EN]2021 如何學談判？成為談判高手最佳學習資源'
+title: '2021 Best resources for learning negotiation'
 category: 'knowledge'
 subCategory: 'e-learning'
 excerpt: '人生無處不是談判，舉凡買賣、談薪水、評估商品或服務的市場價值、解決衝突等等，都會需要談判的，若學會了這更好的談判方式，那人生將可以躍進多少？這片文章彙整了2021學習談判這個技術，最推薦的資源，透過自學，你也可以成為談判專家！'

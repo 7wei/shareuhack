@@ -1,5 +1,5 @@
 ---
-title: '[EN] About Shareuhack'
+title: 'About Shareuhack'
 category: ''
 subCategory: ''
 date: '2021-07-17'
