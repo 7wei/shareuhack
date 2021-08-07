@@ -3,8 +3,9 @@ import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import theme from '../src/theme'
 import Layout from '../src/components/Layout/Layout'
+import { appWithTranslation } from 'next-i18next'
 
-export default function App({ Component, pageProps }) {
+export function App({ Component, pageProps }) {
   useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector('#jss-server-side')
@@ -25,3 +26,5 @@ export default function App({ Component, pageProps }) {
     </React.Fragment>
   )
 }
+
+export default appWithTranslation(App)

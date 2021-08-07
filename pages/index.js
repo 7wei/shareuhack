@@ -12,13 +12,15 @@ import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import Disclosure from '../src/components/Disclosure/Disclosure'
 import { useRouter } from 'next/router'
-// import useTranslation from 'next-translate/useTranslation'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
   const { matches } = useBreakpint()
 
   const router = useRouter()
   const { locale } = router
+  const { t } = useTranslation('common')
 
   return (
     <>
@@ -37,7 +39,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
             <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
             <TYPE.body>
               我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
-              <Link href={Routes.about}>--了解更多</Link>
+              <Link href={Routes.about}>--{t('learnMore')}</Link>
             </TYPE.body>
           </InfoCard>
           {matches && (
@@ -125,6 +127,12 @@ export async function getStaticProps({ locale }) {
   })
 
   return {
-    props: { allPosts, heroPost, relatedPosts, categories },
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      allPosts,
+      heroPost,
+      relatedPosts,
+      categories,
+    },
   }
 }
