@@ -202,8 +202,8 @@ export async function getStaticProps({ params, locale }) {
     locale
   )
   const content = await markdownToHtml(post.content || '')
-  const category = Categories.find((category) => category.title === Category[post.category]) || null
-  const subCategory = SubCategories.find((subCategory) => subCategory.title === SubCategory[post.subCategory]) || null
+  const category = Categories.find((category) => category.key === Category[post.category]) || null
+  const subCategory = SubCategories.find((subCategory) => subCategory.key === SubCategory[post.subCategory]) || null
 
   return {
     props: {
