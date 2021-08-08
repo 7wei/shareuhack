@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { TYPE } from '../src/theme/index'
 import PostBody from '../src/components/Post/PostBody'
 import { getPostBySlug } from '../lib/api'
@@ -22,7 +23,7 @@ export default function About({ post }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }) {
   const post = getPostBySlug('about-us', [
     'title',
     'date',
@@ -39,6 +40,7 @@ export async function getStaticProps() {
 
   return {
     props: {
+      ...(await serverSideTranslations(locale, ['common', 'footer'])),
       post: {
         ...post,
         content,

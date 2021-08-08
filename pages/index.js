@@ -8,7 +8,8 @@ import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import useBreakpint from '../src/hooks/useBreakpoint'
-import Link from '../src/components/Link/Link'
+import StyledLink from '../src/components/Link/Link'
+import Link from 'next/link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import Disclosure from '../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
@@ -35,7 +36,9 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
             <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
             <TYPE.body>
               {t('whatWeDoDescript')} <br />
-              <Link href={Routes.about}>--{t('learnMore')}</Link>
+              <Link href={Routes.about} locale={locale} passHref>
+                <StyledLink>--{t('learnMore')}</StyledLink>
+              </Link>
             </TYPE.body>
           </InfoCard>
           {matches && (
@@ -44,21 +47,23 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
               <TYPE.body>
                 {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about}>--{t('learnMore')}</Link>
+                <Link href={Routes.about} locale={locale} passHref>
+                  <StyledLink>--{t('learnMore')}</StyledLink>
+                </Link>
               </TYPE.body>
             </InfoCard>
           )}
           <Divider />
           <TYPE.header mt="15px" mb="15px">
-            LATEST
+            {t('latest')}
           </TYPE.header>
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/${locale}/posts/${post.slug}`} underline="none">
-                <>
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none" passHref>
+                <a>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
-                </>
+                </a>
               </Link>
             ))}
           </Box>
@@ -69,15 +74,15 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
         <Grid item sm={3}>
           <Divider />
           <TYPE.header mt="15px" mb="15px">
-            HOTTEST
+            {t('hottest')}
           </TYPE.header>
           <Box display="grid" gridGap="8px" mb="15px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/${locale}/posts/${post.slug}`} underline="none">
-                <>
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
+                <a>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
-                </>
+                </a>
               </Link>
             ))}
           </Box>
@@ -87,7 +92,9 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
               <TYPE.body>
                 {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about}>--{t('learnMore')}</Link>
+                <Link href={Routes.about} locale={locale} passHref>
+                  <StyledLink>--{t('learnMore')}</StyledLink>
+                </Link>
               </TYPE.body>
             </InfoCard>
           )}
@@ -110,14 +117,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
 export async function getStaticProps({ locale }) {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
-  console.log('hero')
-  console.log(heroPost)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ key, link }) => {
-    console.log(key)
     // const category = Object.keys(Category).find((key) => Category[key] === title)
     const posts = getCategoryPosts(key, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
-    console.log(posts)
     return {
       key,
       link,
@@ -127,7 +130,7 @@ export async function getStaticProps({ locale }) {
 
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(locale, ['common', 'footer'])),
       allPosts,
       heroPost,
       relatedPosts,

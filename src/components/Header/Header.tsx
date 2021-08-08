@@ -1,8 +1,10 @@
-import { Link, makeStyles, Box } from '@material-ui/core'
+import { makeStyles, Box } from '@material-ui/core'
+import Link from 'next/link'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 import { NavLinks, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
+import { useRouter } from 'next/router'
 
 const useStyles = makeStyles({
   root: {
@@ -40,18 +42,19 @@ const useStyles = makeStyles({
 export default function Header() {
   const classes = useStyles()
   const { t } = useTranslation('common')
+  const { locale } = useRouter()
+
   return (
     <div className={classes.root}>
       <Container>
-        <TYPE.brand textAlign="center">
-          <Link href="/" color="inherit" underline="none">
-            Shareuhack
-          </Link>
-        </TYPE.brand>
+        <Link href="/" locale={locale} passHref>
+          <TYPE.brand textAlign="center">Shareuhack</TYPE.brand>
+        </Link>
+
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
-            <Link key={link.key} className={classes.navlink} href={link.link}>
-              {t(`${link.key}`).toUpperCase()}
+            <Link key={link.key} href={link.link} passHref>
+              <a className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</a>
             </Link>
           ))}
         </Box>

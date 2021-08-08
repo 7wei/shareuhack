@@ -1,13 +1,16 @@
-import { Link, makeStyles, Box } from '@material-ui/core'
+import { Link as MuiLink, makeStyles, Box } from '@material-ui/core'
 import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 import FacebookIcon from '@material-ui/icons/Facebook'
+import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const useStyles = makeStyles({
   root: {
     backgroundColor: '#282729',
-    height: 180,
+    // height: 180,
   },
   navlink: {
     fontSize: 16,
@@ -39,27 +42,34 @@ const useStyles = makeStyles({
 
 export default function Footer() {
   const classes = useStyles()
+  const { t } = useTranslation(['footer'])
+  const { locale } = useRouter()
+
   return (
     <Box className={classes.root}>
       <Container>
         <Box display="flex" alignItems="center" gridColumnGap="16px" paddingTop="36px">
           {NavLinks.map((link) => (
-            <Link key={link.title} className={classes.navlink} href={link.link}>
-              {link.title}
+            <Link key={link.key} href={link.link} passHref locale={locale}>
+              <MuiLink className={classes.navlink}>{t(`${link.key}`)}</MuiLink>
             </Link>
           ))}
         </Box>
         <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
-          <Link className={classes.navlink} href={Routes.about}>
-            關於Shareuhack
+          <Link href={Routes.about} passHref locale={locale}>
+            <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
           </Link>
-          <Link className={classes.navlink} href="https://www.facebook.com/shareuhack/">
-            <Box display="flex" alignItems="center">
-              <FacebookIcon /> 聯絡我們
-            </Box>
+          <Link href="https://www.facebook.com/shareuhack/" passHref>
+            <MuiLink className={classes.navlink}>
+              <Box display="flex" alignItems="center">
+                <FacebookIcon /> {t('contact')}
+              </Box>
+            </MuiLink>
           </Link>
         </Box>
-        <TYPE.smallGray marginTop="40px">Copyright @ Shareuhack 2021. All Rights Reserved.</TYPE.smallGray>
+        <TYPE.smallGray mt="40px" pb="15px">
+          {t('copyright')}
+        </TYPE.smallGray>
       </Container>
     </Box>
   )

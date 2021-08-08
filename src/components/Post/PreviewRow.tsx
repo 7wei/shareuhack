@@ -1,7 +1,9 @@
 import { Grid, Box } from '@material-ui/core'
 import { TYPE } from 'theme/index'
 import PostPreview from './PostPreview'
-import Link from '../Link/Link'
+import StyledLink from '../Link/Link'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function CategorySection({
   category,
@@ -20,11 +22,14 @@ export default function CategorySection({
   }[]
   link: string
 }) {
+  const { locale } = useRouter()
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
-        <Link href={link}>Show All</Link>
+        <Link href={link} passHref locale={locale}>
+          <StyledLink>Show All</StyledLink>
+        </Link>
       </Box>
       <Grid container>
         <Grid item sm={6}>

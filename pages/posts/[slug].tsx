@@ -1,4 +1,5 @@
 import { Grid, Box, Link } from '@material-ui/core'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import EmailIcon from '@material-ui/icons/Email'
@@ -204,6 +205,7 @@ export async function getStaticProps({ params, locale }) {
 
   return {
     props: {
+      ...(await serverSideTranslations(locale, ['common', 'footer'])),
       post: {
         ...post,
         content,
