@@ -51,7 +51,7 @@ export default function Header() {
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
             <Link key={link.key} className={classes.navlink} href={link.link}>
-              {t(`${link.key}`)}
+              {t(`${link.key}`).toUpperCase()}
             </Link>
           ))}
         </Box>

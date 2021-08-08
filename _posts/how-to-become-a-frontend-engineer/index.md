@@ -1,70 +1,64 @@
 ---
-title: '[EN]2021 如何 3 個月轉職成為有競爭力的前端工程師'
+title: '2021 How to become a competitive front-end engineer in 3 months'
 category: 'work'
 subCategory: 'frontend-dev'
-excerpt: '這篇文章分享無經驗菜鳥，如何轉職成為一個前端工程師，這邊定義的前端工程師．是必須要有一定的程式碼品質，且熟悉一個前端框架，在求職市場上有一定競爭力的前端工程師。'
+excerpt: 'This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and be familiar with a front-end framework, and have a certain competitiveness in the job market.'
 coverImage: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
 date: '2021-07-24'
 ogImage:
   url: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
-credentials: ['購買10+Udemy課程', '閱讀30+篇網路上的文章', '訪問3+成功轉職的前端工程師']
+credentials:
+  [
+    'Took 10+ Udemy Courses',
+    'Read 30+ articles',
+    'Interview with 3+ front-end engineers who have successfully transferred',
+  ]
 recommendations:
   [
-    { title: '動畫互動網頁程式入門 (HTML/CSS/JS)', link: 'https://tinyurl.com/yjhxj55y' },
-    { title: 'JavaScript 全攻略：克服 JS 的奇怪部分', link: 'https://tinyurl.com/yzqn7yda' },
+    { title: 'The Complete Web Developer in 2021: Zero to Mastery', link: 'https://tinyurl.com/yk3pe8n5' },
+    { title: 'JavaScript: Understanding the Weird Parts', link: 'https://tinyurl.com/yhnrd2c4' },
     { title: 'Modern React with Redux', link: 'https://tinyurl.com/yf8s5cl9' },
     { title: 'Vue JS Essentials with Vuex and Vue Router', link: 'https://tinyurl.com/yjuz2mbs' },
     { title: 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!', link: 'https://tinyurl.com/yzx9vjqr' },
   ]
 references:
   [
-    {
-      title: '前端 Frontend 路線圖',
-      link: 'https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96',
-    },
-    { title: 'MDN', link: 'https://developer.mozilla.org/zh-TW/' },
-    { title: 'PTT-Soft_Job', link: 'https://www.ptt.cc/bbs/Soft_Job/index.html' },
-    { title: 'PTT-Oversea_Job', link: 'https://www.ptt.cc/bbs/Oversea_Job/index.html' },
+    { title: 'Frontend Roadmap', link: 'https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap' },
+    { title: 'MDN', link: 'https://developer.mozilla.org/en-US/' },
   ]
 # related: []
 ---
 
-這篇文章分享無經驗菜鳥，如何轉職成為一個前端工程師，這邊定義的前端工程師．是必須要有一定的程式碼品質，且熟悉一個前端框架，在求職市場上有一定競爭力的前端工程師。
+This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and be familiar with a front-end framework, and have a certain competitiveness in the job market.
 
 ## 確立技能需求
 
-直接去查看[前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96)，你就可以了解成為前端工程師的完整 roadmap。
+Check [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) and you can understand the complete roadmap of becoming a front-end engineer.
 
-此外，也在人力銀行網站，搜尋前端工程師，大概看過 20 個職缺，重複出現 10 次以上的，就會是應徵職缺必要的技術，主要會是 HTML、CSS、JavaScript、Ajax、React，和其他工具類的如 boostrap、jQuery 等等。
+In addition, can search for front-end engineers on the Human Bank website and found about 20 job vacancies. The ones that appeared repeatedly more than 10 times would be the necessary technologies for job vacancies, mainly HTML, CSS, JavaScript, Ajax, React, and Other tools such as boostrap, jQuery, etc.
 
-## 初步了解基本技能
+## Initial understanding of basic skills
 
-接著去了解這些技能的用途是什麼，若看文字覺得很難消化，建議使用 Youtube 搜尋，幾乎每個技術都可以在 Youtube 上找到優質的簡介教學，或者是去 [Udemy 免費學習中心](https://tinyurl.com/yfbaghja)找找免費的相關課程，找觀看次數最高、按讚數高、且講師講的方式符合你的胃口即可。
+Then go to understand the purpose of these skills. If you find it difficult to digest the text, it is recommended to search on Youtube. You can find high-quality introduction teaching on Youtube for almost every technology, or go to [Udemy Free Learning Center](https://tinyurl.com/yfbaghja) Find free related courses, find the highest number of views, the highest number of likes, and the way the instructor meets your appetite.
 
-## 正式學習
+## Start Learning
 
-你可能會聽到有些說，學習 HTML/CSS/JavaScript，自己看[MDN](https://developer.mozilla.org/zh-TW/)就好拉! 的確，軟體的世界，大部分技術都有豐富的資源可以自學，但是作為一個新手小白，當你點進去看看[MDN](https://developer.mozilla.org/zh-TW/)的文檔，很有機會你看不到 30 分鐘就放棄了。
+You may hear some sayings, learn HTML/CSS/JavaScript, just look at [MDN](https://developer.mozilla.org/en-US/) for yourself! Indeed, in the software world, most technologies are available Abundant resources are available for self-study, but as a novice novice, when you click in and look at the [MDN](https://developer.mozilla.org/en-US/) document, chances are you won’t see it for 30 minutes Just gave up.
 
-建議透過網路課程，讓講師領你進門。上課程好處是可以跟著講師操作、練習，實作的過程中，會累積到不少成就感，看到自己作出的畫面，將會更有想法。
+It is recommended to let the lecturer lead you through the online course. The advantage of taking the course is that you can follow the instructor to operate and practice. In the process of implementation, you will accumulate a lot of sense of accomplishment. Seeing the pictures you make, you will have more ideas.
 
-Hahow 的[動畫互動網頁程式入門 (HTML/CSS/JS)](https://tinyurl.com/yjhxj55y)是目前中文最推薦的學習前端基礎觀念的課程之一，完全沒經驗的也可以很舒適的跟著學習，學習曲線平滑，相對其他課程，學生完成課程的比率很高。跟著課程學習並實作，上完課後，對 HTML/CSS/JS 就會有一定的了解。
+[The Complete Web Developer in 2021: Zero to Mastery](https://tinyurl.com/yk3pe8n5) is currently one of the most recommended courses for learning front-end basic concepts. Those who are completely inexperienced can follow it comfortably. The learning curve is smooth. Compared with other courses, the rate of students completing the course is very high. Follow the course to learn and implement. After the course, you will have a certain understanding of HTML/CSS/JS.
 
-對 HTML/CSS/JavaScript 有了一定的認識後，可以先繼續專精 JavaScript。網路上最推薦的是[JavaScript 全攻略：克服 JS 的奇怪部分](https://tinyurl.com/yzqn7yda)，很適合想要深入了解 JavaScript 的人，會講述很多物件原型、閉包等等進階觀念和許多 JavaScript 容易遇到的錯誤，和如何避免。藉由這課程，可以紮實地瞭解 JS 的語言特性和底層知識，也可以學會建立自己的框架、看懂知名框架的原始碼。
+After you have a certain understanding of HTML/CSS/JavaScript, you can continue to specialize in JavaScript. The most recommended on the Internet is [JavaScript: Understanding the Weird Parts](https://tinyurl.com/yhnrd2c4), which is very suitable for people who want to understand JavaScript in depth, and will talk about many advanced object prototypes, closures, etc. Ideas and many errors that JavaScript is easy to encounter, and how to avoid them. Through this course, you can have a solid understanding of the language features and underlying knowledge of JS, and you can also learn to build your own framework and understand the source code of well-known frameworks.
 
-打好基礎後，開始學習前端框架，這邊建議沒有想法的話，就學 React/Redux 吧。[Stephen Grider](https://tinyurl.com/ydnr493j)是目前最受好評的講師之一，他的[Modern React with Redux](https://tinyurl.com/yf8s5cl9)是最熱門必買的課程，透過這堂課課程，可以迅速的了解 React、Redux，並且可以快速的實作一個小專案，也可以在透過學習的知識，設計並實作屬於自己的作品。
+After laying the foundation, start to learn the front-end framework. If you have no idea, I suggest you learn React/Redux. [Stephen Grider](https://tinyurl.com/ydnr493j) is currently one of the most acclaimed lecturers, and his [Modern React with Redux](https://tinyurl.com/yf8s5cl9) is the most popular and must-buy Course. Through this course, you can quickly understand React and Redux, and you can quickly implement a small project, or you can design and implement your own work through the knowledge you have learned.
 
-如果想要學 Vue，可以選擇一樣是[Stephen Grider](https://tinyurl.com/ydnr493j)出的[Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs)
+If you want to learn Vue, you can choose [Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs) from [Stephen Grider](https://tinyurl.com/ydnr493j)
 
-學完之後，先想想怎麼透過已經學到的技術，建造一個屬於自己的新作品，從頭來一遍，不要依賴太多課程提供的 sample code，同時，你會發現你的 css 的知識和觀念不夠扎實，建議透過[Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/yzx9vjqr)這堂課程加強，嘗試運用比較高階的技巧在專案上。
+After learning, think about how to build a new work of your own through the techniques you have learned. Start from scratch. Don't rely on the sample code provided by too many courses. At the same time, you will find that your CSS knowledge and concepts are not enough. Solid, it is recommended to strengthen this course through [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/yzx9vjqr), and try to use more advanced skills in the project.
 
 ## 準備面試
 
-走到這裡，你已經是個在市場很有競爭力的初階前端工程師了，開始撰寫履歷、整理作品、準備成功轉職吧！
+At this point, you are already a very competitive entry-level front-end engineer in the market. Start writing your resume, organizing your work, and preparing for a successful transfer!
 
-同時，可以回去看看[前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96)，了解現在的自己，會了什麼，還缺什麼。也盡可能的了解每個已經該學會、未來該學會的東西，那些技術的作用。這對持續的學習和面試的準備都會很有幫助的。
-
-<!-- ## Reference
-
-1. [前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96)
-2. [PTT-Soft_Job](https://www.ptt.cc/bbs/Soft_Job/index.html)
-3. [PTT-Oversea_Job](https://www.ptt.cc/bbs/Oversea_Job/index.html) -->
+At the same time, you can go back and see [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap), understand what you are now, what is missing. Also, as much as possible, understand everything that has been learned and the future should be learned, and the role of those technologies. This will be very helpful for continuous study and interview preparation.

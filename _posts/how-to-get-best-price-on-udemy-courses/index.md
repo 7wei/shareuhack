@@ -1,79 +1,79 @@
 ---
-title: '[EN] 如何以最便宜的價格購買Udemy課程？'
+title: 'How to buy Udemy courses at the best price?'
 category: 'knowledge'
 subCategory: 'e-learning'
-excerpt: '如果你有想到要學一個新東西，第一個的線上課程平台或許就是Udemy，幾乎你想像得到的課程，都可以在這邊找到，例如：語言、藝術、音樂、健身、程式設計、商業、教學、生產力等等。那麼，如何以最便宜的方式購買Udemy課程呢?'
+excerpt: 'If you want to learn a new thing, the first online course platform may be Udemy. You can find almost any courses you can imagine here, such as: language, art, music, fitness, programming, business, Teaching, productivity, etc. So, how to buy Udemy courses in the cheapest way?'
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 date: '2021-07-22'
 ogImage:
   url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
-credentials: ['購買30+Udemy課程', '閱讀20+篇網路上的文章']
+credentials: ['Took 30+Udemy courses', 'Read 20+ articles']
 recommendations:
   [
     {
-      title: 'Udemy官方新客優惠',
+      title: 'Udemy official new customer offer',
       link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
     },
   ]
 references:
   [
-    { title: 'Udemy官方網站', link: 'https://tinyurl.com/yhdgtddt' },
-    { title: 'Udemy使用條款', link: 'https://tinyurl.com/yzly7hek' },
+    { title: 'Udemy', link: 'https://tinyurl.com/yhdgtddt' },
+    { title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
   ]
 # related: []
 ---
 
-如果你有想到要學一個新東西，第一個的線上課程平台或許就是[Udemy](https://tinyurl.com/yhdgtddt)，幾乎你想像得到的課程，都可以在這邊找到，例如：語言、藝術、音樂、健身、程式設計、商業、教學、生產力等等。那麼，如何以最便宜的方式購買[Udemy](https://tinyurl.com/yhdgtddt)課程呢?
+If you want to learn a new thing, the first online course platform may be [Udemy](https://tinyurl.com/yhdgtddt). You can find almost any courses you can imagine here, for example: Language, art, music, fitness, programming, business, teaching, productivity, etc. So, how to buy [Udemy](https://tinyurl.com/yhdgtddt) courses in the cheapest way?
 
-## Udemy 定價方式
+## Udemy pricing
 
-[Udemy](https://tinyurl.com/yhdgtddt)課程的價錢從 10 幾塊美金到幾百塊美金都有，取決於個體講師的定價，但整體來說，課程的性價比是很高的，Udemy 課程都是可以終身觀看，也有 30 天不滿意退費機制，所以若有喜歡的課程有特價，就可以先買下來，當作自己的知識學習庫。
+[Udemy](https://tinyurl.com/yhdgtddt) The price of the course ranges from a few dollars to a few hundred dollars, depending on the pricing of the individual lecturer, but overall, the cost of the course is very high. Udemy courses can be watched for life, and there is also a 30-day unsatisfied refund mechanism, so if you have a special course you like, you can buy it first and use it as your own knowledge learning library.
 
-## Udemy 省錢攻略
+## Udemy saving strategy
 
-### 1. Udemy 免費學習中心
+### 1. Udemy Free Learning Center
 
-最省錢的方式，就是直接去瀏覽 [Udemy 免費學習中心](https://tinyurl.com/yfbaghja)。免費的課程通常都不深入，建議可以當作免費的簡介或入門的課程資源庫，建議利用篩選條件，找高評價的課程，很多講師會教授不只一堂課程，可以先利用這個免費課程，試聽看看講師符不符合自己的 tone 調。
+The most cost-effective way is to browse [Udemy Free Learning Center](https://tinyurl.com/yfbaghja). Free courses are usually not in-depth. It is recommended that they can be used as a free introduction or introductory course resource library. It is recommended to use the filter criteria to find highly-evaluated courses. Many lecturers will teach more than one course. You can use this free course first and try it out. Look at the lecturer symbol does not match your own tone.
 
-### 2. 等 Udemy 特價
+### 2. Udemy special offer
 
-「什麼？Udemy 不是隨時在特價嗎？」
+"What? Isn't Udemy on sale anytime?"
 
-[Udemy](https://tinyurl.com/yhdgtddt)的確時常特價，但絕對會有恢復原價的時候，當你有感興趣的課程，卻看到價格是原價或者是一個相對高的價錢時，除非很急迫，先不要購入！
+[Udemy](https://tinyurl.com/yhdgtddt) does have special prices from time to time, but there will definitely be times when the original price will be restored. Don't buy it unless it is urgent!
 
-把課程[加入願望清單](https://tinyurl.com/yf8sak6b)，改天再回來看看是否折扣回來了，也可以關注有沒有收到 Udemy 的特價提示信。
+Add the course [Add to Wish List](https://tinyurl.com/yf8sak6b) and come back another day to see if the discount is back. You can also pay attention to whether you have received Udemy's special offer reminder letter.
 
-### 3. 節日時購買
+### 3. Holiday special offer
 
-在一些節日時，[Udemy](https://tinyurl.com/yhdgtddt)通常會搭配檔期有些特價，情人節啊、教師節、黑色星期五等等，都可以來挖寶看看。
+During some festivals, [Udemy](https://tinyurl.com/yhdgtddt) usually has some specials with schedules. Valentine's Day, Teacher's Day, Black Friday, etc., can all be found.
 
-### 4. 打開 Udemy 的促銷活動通知
+### 4. Turn on Udemy's promotion notification
 
-打開促銷活動通知，以確保不會漏掉折扣的機會，同時，也建議開啟註冊過課程講師的公告，好的講師通常會隨時更新最新的相關知識和消息，是個很好的電子報。
+Open the promotion notification to ensure that discount opportunities are not missed. At the same time, it is also recommended to open the announcement of registered course lecturers. Good lecturers usually update the latest relevant knowledge and news at any time, which is a good newsletter.
 
-![打開 Udemy 的促銷活動通知](https://i.imgur.com/NaVDSkb.png)
+![Open Udemy's promotion notification](https://i.imgur.com/NaVDSkb.png)
 
-### 5. 30 天無條件退款機制
+### 5. 30-day unconditional refund
 
-請參考[Udemy 使用條款](https://tinyurl.com/yzly7hek)，若課程不符合期待，是可以無條件退款的，這邊不鼓勵惡意的濫用退款機制，且 Udemy 也會審核是否有濫用的情形發生，到時後得不償失。不過如果真的有買到不符合期待、或是課程品質不佳的狀況，請大力的給他退款下去！
+Please refer to [Udemy Terms of Use](https://tinyurl.com/yzly7hek). If the course does not meet expectations, it can be refunded unconditionally. Malicious abuse of the refund mechanism is not encouraged, and Udemy will also review whether there is any When the abuse occurs, the gain will not be worth the loss. However, if the purchase does not meet expectations or the quality of the course is not good, please give him a refund!
 
-### 6. 訂閱 Udemy Pro
+### 6. Subscribe Udemy Pro
 
-[Udemy Pro](https://tinyurl.com/yhgfsrwr)是專注在套裝學習，協助學生通過 IT 相關認證所設計，在訂閱的時間內，可以隨時存取所有內容，且有 7 天的免費試用，建議先到[Udemy Pro](https://tinyurl.com/yhgfsrwr)頁面看看有哪些有幸看的課程，排好進修計畫，在最短訂閱時間完成最多課程！
+[Udemy Pro](https://tinyurl.com/yhgfsrwr) is designed to focus on package learning and assist students to pass IT-related certifications. All content can be accessed at any time during the subscription period, and there is a 7-day free trial , It is recommended to first go to the [Udemy Pro](https://tinyurl.com/yhgfsrwr) page to see which courses are fortunate to watch, arrange the further study plan, and complete the most courses in the shortest subscription time!
 
-### 7. 請公司補助購買課程
+### 7. Ask the company to subsidize
 
-問問公司有沒有補助學習的方案，或者是公司有參與[Udemy Business](https://tinyurl.com/ygzsqe9j)方案。有問有機會！
+Ask if the company has a program to subsidize learning, or if the company participates in the [Udemy Business](https://tinyurl.com/ygzsqe9j) program. There is always a chance!
 
-### 8. 找優惠碼
+### 8. Hunting for coupon
 
-可以在網路上找找有沒有優惠碼，但很多網路上流傳的是過期的，可能會花點時間。若你是第一次購買，可以點擊下圖連結，[Udemy](https://tinyurl.com/yhdgtddt)會提供新客優惠！
+You can look for discount codes on the Internet, but many circulated on the Internet are expired, which may take some time. If you are buying for the first time, you can click on the link below, [Udemy](https://tinyurl.com/yhdgtddt) will provide new customer discounts!
 [![image info](https://affsrc.com/track/imp/img/97032/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=)](https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F)
 
-### 9. 偽裝成新客戶
+### 9. Pretend to be a new customer
 
-這招才是本文的重點。
+This trick is the focus of this article.
 
-為了吸引新客戶，[Udemy](https://tinyurl.com/yhdgtddt)會提供特別折扣給新客戶，使用無痕模式(incognito mode)和清除瀏覽器的 cookie，讓[Udemy](https://tinyurl.com/yhdgtddt)誤認你是新訪客，再註冊一個全新帳號，即可以使用新客優惠購買課程，並以贈禮的方式，將課程送給自己的主要帳號！
+In order to attract new customers, [Udemy](https://tinyurl.com/yhdgtddt) will provide special discounts to new customers, use incognito mode and clear browser cookies, let [Udemy](https:/ /tinyurl.com/yhdgtddt) mistakenly identify you as a new visitor and register for a new account, you can use the new customer discount to purchase courses, and give the course to your main account as a gift!
 
-但買個課程，要不要這麼麻煩，就見仁見智囉 。
+But if you want to buy a course, it’s a matter of opinion.

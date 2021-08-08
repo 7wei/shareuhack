@@ -11,44 +11,40 @@ import useBreakpint from '../src/hooks/useBreakpoint'
 import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import Disclosure from '../src/components/Disclosure/Disclosure'
-import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export default function Index({ allPosts, heroPost, relatedPosts, categories }) {
+export default function Index({ allPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
-  const router = useRouter()
-  const { locale } = router
+  // const router = useRouter()
+  // const { locale } = router
   const { t } = useTranslation('common')
 
   return (
     <>
       <Head>
         <title>{CMS_NAME}</title>
-        <meta
-          name="description"
-          content="我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！"
-        />
+        <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       <Disclosure />
       <Grid container spacing={3}>
         <Grid item sm={3}>
           <InfoCard>
-            <TYPE.bold mb="15px">WHAT WE DO</TYPE.bold>
+            <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
             <TYPE.body>
-              我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！ <br />
+              {t('whatWeDoDescript')} <br />
               <Link href={Routes.about}>--{t('learnMore')}</Link>
             </TYPE.body>
           </InfoCard>
           {matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">HOW WE DO</TYPE.bold>
+              <TYPE.bold mb="15px">{t('howWeDo')}</TYPE.bold>
               <TYPE.body>
-                每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
+                {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about}>--了解更多</Link>
+                <Link href={Routes.about}>--{t('learnMore')}</Link>
               </TYPE.body>
             </InfoCard>
           )}
@@ -87,11 +83,11 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories }) 
           </Box>
           {!matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">HOW WE DO</TYPE.bold>
+              <TYPE.bold mb="15px">{t('howWeDo')}</TYPE.bold>
               <TYPE.body>
-                每篇文章，我們都會做足功課，包括大量閱讀文章、實際觀看課程、專家訪談等等，確保我們產出的內容，是與時俱進的
+                {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about}>--了解更多</Link>
+                <Link href={Routes.about}>--{t('learnMore')}</Link>
               </TYPE.body>
             </InfoCard>
           )}
@@ -133,6 +129,7 @@ export async function getStaticProps({ locale }) {
       heroPost,
       relatedPosts,
       categories,
+      locale,
     },
   }
 }

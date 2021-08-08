@@ -2,12 +2,12 @@
 title: '2021 Best resources for learning negotiation'
 category: 'knowledge'
 subCategory: 'e-learning'
-excerpt: '人生無處不是談判，舉凡買賣、談薪水、評估商品或服務的市場價值、解決衝突等等，都會需要談判的，若學會了這更好的談判方式，那人生將可以躍進多少？這片文章彙整了2021學習談判這個技術，最推薦的資源，透過自學，你也可以成為談判專家！'
+excerpt: 'Negotiation is omnipresent in life. Negotiations are required for buying and selling, negotiating salaries, evaluating the market value of goods or services, resolving conflicts, etc. If you learn this better way of negotiation, how much can you leap forward in your life? This article summarizes the most recommended resources for learning negotiation technology in 2021. Through self-study, you can also become a negotiation expert!'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 date: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家', '閱讀5本相關書籍']
+credentials: ['Viewed 10+ courses', 'Read 30+ articles', 'Interview with 3 experts', 'Read 5 books']
 recommendations:
   [
     { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/' },
@@ -18,49 +18,58 @@ recommendations:
     { title: 'Successful Negotiation: Master Your Negotiating Skills', link: 'https://tinyurl.com/yec4ydmx' },
     { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/yeq5bpkt' },
     { title: 'Negotiation Fundamentals: How To Negotiate Effectively', link: 'https://tinyurl.com/ygvzgaat' },
-    { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf5pjd8d' },
-    { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yzet9asm' },
-    { title: 'FBI談判協商術', link: 'https://tinyurl.com/yen3b5km' },
+    {
+      title: 'Ask for More: 10 Questions to Negotiate Anything',
+      link: 'https://www.amazon.com/Ask-More-Questions-Negotiate-Anything-ebook/dp/B07Z44ZCJK',
+    },
+    {
+      title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
+      link: 'https://www.amazon.com/Getting-More-Negotiate-Succeed-Work/dp/0307716902',
+    },
+    {
+      title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
+      link: 'https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2',
+    },
   ]
 references: []
 # related: []
 # tags: ['negotiation', '談判', '職場', '個人成長', '議價', '線上學習']
 ---
 
-很多人不知道，談判是一門學問，且是一門像哈佛這類世界頂級的大學，會花一學期以上的時間教授的課程。人生無處不是談判，舉凡買賣、談薪水、評估市場價值、解決衝突等等，都會需要談判的，若學會了這更好的談判技巧，對於人生將會有多大的幫助？這片文章彙整了 2021 學習談判這個技術，最推薦的資源，透過自學，你也可以成為談判專家！
+Many people don't know that negotiation is a science, and it is a course that a world-class university like Harvard will spend more than a semester to teach. Negotiations are everywhere in life. Negotiations are required for all transactions, salary negotiations, market value evaluation, conflict resolution, etc. If you learn this better negotiation technique, how much help will it be in your life? This article summarizes the most recommended resource for learning negotiation technology in 2021. Through self-study, you can also become a negotiation expert!
 
-## 影集與文章
+## Albums and articles
 
-真的開始投入學習之前，或許可以先看個影集輕鬆一下，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是一部法律題材的影集，背景是在紐約一家法律事務所，故事以 Mike Ross 陰錯陽差，闖入 Harvey Specter 面試的會場，並在沒有任何律師證照的狀況下，說服 Harvey Specter 錄取他做開頭。
+Before you really start learning, maybe you can watch a photo album and relax. [SUITS](https://www.imdb.com/title/tt1632701/). It's a legal-themed photo album, set in a law firm in New York. The story starts with Mike Ross, who broke into the Harvey Specter interview venue, without any lawyer's license, persuading Harvey Specter to admit him as the beginning.
 
-雖然中翻是「無照律師」，但其實，主要的賣點還是各種的商業談判，以及 Harvey Specter 在談判中展現的氣場。雖然影集多少會偏離事實，但看 Harvey Specter 在談判桌上的各種表演，絕對會讓你對談判更有感覺。
+The main selling point is the various commercial negotiations and the aura that Harvey Specter showed in the negotiations. Although the series will deviate from the facts, watching the various performances of Harvey Specter at the negotiating table will definitely make you feel more about the negotiation.
 
-若沒有時間看影集，網路上也很多文章，分享如何學習像 Harvey 一樣談判。例如：
+If you don’t have time to watch the series, there are also many articles on the Internet, sharing how to learn to negotiate like Harvey. E.g:
 
 - [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
 - [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
 - [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
 
-其實跟談判有關的文章和影片不勝枚舉，大多數是條列出一些準則，你可能會覺得，啊？不是廢話嗎，是的，很多看起來是廢話，但平常你在談判時，有真的把這些準則和知識考量進去嗎？
+In fact, there are too many articles and videos related to negotiations. Most of them list some guidelines. You might think, huh? Isn't it nonsense? Yes, a lot of it seems to be nonsense, but do you really take these guidelines and knowledge into consideration when you negotiate?
 
-## 線上課程
+## Online course
 
-看過網路上各種文章和影片之後，對談判開始有點感覺了吧，此時建議可以參加這些有名望、熱門推薦的課程，更有系統地學習談判這個技術和知識。以下列出 2021 年最受大家推薦的談判線上課程：
+After reading various articles and videos on the Internet, I start to feel a little bit about negotiation. At this time, I suggest that you can participate in these prestigious and popular recommended courses to learn the technology and knowledge of negotiation more systematically. The following lists the most recommended online negotiation courses in 2021:
 
-- [Harvard Negotiation Course](https://online.hbs.edu/courses/negotiation/)：Michael Wheeler 教授的談判課，這應該是世界上眾多學生夢想中的最棒談判課了吧，哈佛也提供了這談判課的線上課程，為期 8 週，但要價 1600USD。
-- [Successful Negotiation: Essential Strategies and Skills(Coursera)](https://igamepark.biz/2qqTn?uid1=shareuhack)：密西根大學的 George Siedel 教授主講的課程，為期 7 週，每週 75 分鐘，這課程會把談判的過程拆解成 4 個步驟，從計劃策略開始，並找出關鍵因素，順利和平的完成談判，並評估談判的成效。
+- [Harvard Negotiation Course](https://online.hbs.edu/courses/negotiation/): Professor Michael Wheeler's negotiation class, this should be the best negotiation class dreamed by many students in the world. Harvard also provides an online course of this negotiation class, which lasts for 8 weeks, but the asking price is 1600 USD.
+- [Successful Negotiation: Essential Strategies and Skills(Coursera)](https://igamepark.biz/2qqTn?uid1=shareuhack): The course taught by Professor George Siedel of the University of Michigan. It lasts for 7 weeks and 75 minutes per week. This course will disassemble the negotiation process into 4 steps, starting from the planning strategy, and identifying the key factors to complete the negotiation smoothly and peacefully. , And evaluate the effectiveness of the negotiation.
 - [Successful Negotiation: Master Your Negotiating Skills(Udemy)](https://tinyurl.com/yec4ydmx)：短短 1.5H 的課程，但囊括了準備談判的基本技術，好好利用，可以幫助你克服焦慮，並成功完成談判，這堂課讓你可以很快地開始運用一些工具和技巧在現實生活中。
-- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/yeq5bpkt)：2 小時的課程，可以讓你精通 3 個達成雙贏談判得關鍵技術，並提供實際的練習範例。
-- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ygvzgaat)：1.5 小時的課程，讓你學會如何做決策、如何在談判中更有力量、如何辨識和利用談判中的壓力點、如何應對不同的談判風格，以及最重要的，如何達到雙贏！
+- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/yeq5bpkt): It is a short 1.5H course, but it includes the basic skills for preparing for negotiation. Using it well can help you overcome anxiety and successfully complete the negotiation. This course allows you to quickly start using some tools and techniques in real life.
+- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ygvzgaat): The 1.5-hour course allows you to learn how to make decisions, how to be more powerful in negotiations, how to identify and use pressure points in negotiations, how to deal with different negotiation styles, and most importantly, how to achieve a win-win situation!
 
-## 書籍
+## Books
 
-從課程吸收了大量知識，看看書沈澱一下吧，藉由了解更多實際案例，讓你對現實中的談判更有感覺，也可以順便整理一下思路，準備好做下一次的談判。
+Absorbed a lot of knowledge from the course, read the book to precipitate it. By learning more practical cases, you can feel more about the negotiation in reality. You can also sort out your ideas by the way and get ready for the next negotiation.
 
-- [鏡與窗談判課](https://tinyurl.com/yf5pjd8d)：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
-- [華頓商學院最受歡迎的談判課](https://tinyurl.com/yzet9asm)：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
-- [FBI 談判協商術](https://tinyurl.com/yen3b5km)：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
+- [Ask for More: 10 Questions to Negotiate Anything](https://www.amazon.com/Ask-More-Questions-Negotiate-Anything-ebook/dp/B07Z44ZCJK): This book mainly talks about how to deal with feelings in negotiations. During negotiations, there will always be changes in feelings, and feelings will directly affect our decision-making and negotiation performance. "Reflecting on ourselves in the mirror, looking out the window to understand others", This book is straightforward to read!
+- [Getting More: How You Can Negotiate to Succeed in Work and Life](https://www.amazon.com/Getting-More-Negotiate-Succeed-Work/dp/0307716902)：It mainly discusses 12 main negotiation skills, and provides various case simulations. The structure of the book is very clear and easy to understand.
+- [Never Split the Difference: Negotiating As If Your Life Depended On It](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2): This book is relatively approachable. It mainly states that emotions are an important factor in making decisions. Therefore, how to understand and master the emotions of oneself and the other party during the negotiation process is very important!
 
-## 結語
+## Conclusion
 
-以上的學習資源，或多或少都會有重複的內容和概念，但整體絕對是相輔相成的，也因此，實際去了解和學習完全部的資源，也不會太多時間，完成這些課程的學習和書籍的閱讀後，你應該對談判的技術和知識有了很深度的了解了！但這還是不夠的，試著在日常談判的過程中，就融入這些技巧，生活中無處不是談判，相信你很快就會成為談判高手！
+The above learning resources will have more or less repetitive content and concepts, but the whole is absolutely complementary. Therefore, it will not take too much time to actually understand and learn all the resources. After reading the books, you should have a deep understanding of negotiation techniques and knowledge! But this is not enough. Try to incorporate these skills in the process of daily negotiation. Negotiation is everywhere in your life. I believe you will soon become a master negotiator!
