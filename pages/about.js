@@ -24,18 +24,22 @@ export default function About({ post }) {
 }
 
 export async function getStaticProps({ locale }) {
-  const post = getPostBySlug('about-us', [
-    'title',
-    'date',
-    'slug',
-    'author',
-    'content',
-    'ogImage',
-    'coverImage',
-    'credentials',
-    'recommendations',
-    'references',
-  ])
+  const post = getPostBySlug(
+    'about-us',
+    [
+      'title',
+      'date',
+      'slug',
+      'author',
+      'content',
+      'ogImage',
+      'coverImage',
+      'credentials',
+      'recommendations',
+      'references',
+    ],
+    locale
+  )
   const content = await markdownToHtml(post.content || '')
 
   return {

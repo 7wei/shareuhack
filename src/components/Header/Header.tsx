@@ -37,6 +37,13 @@ const useStyles = makeStyles({
       background: theme.palette.primary.main,
     },
   },
+  brand: {
+    textAlign: 'center',
+    fontSize: 36,
+    fontWeight: 700,
+    color: theme.textColor.text1,
+    cursor: 'pointer',
+  },
 })
 
 export default function Header() {
@@ -48,7 +55,7 @@ export default function Header() {
     <div className={classes.root}>
       <Container>
         <Link href="/" locale={locale} passHref>
-          <TYPE.brand textAlign="center">Shareuhack</TYPE.brand>
+          <div className={classes.brand}>Shareuhack</div>
         </Link>
 
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">

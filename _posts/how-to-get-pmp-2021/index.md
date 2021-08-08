@@ -1,7 +1,7 @@
 ---
 title: '2021 PMP Say goodbye to the old version, the latest guide to pass!'
 category: 'knowledge'
-subCategory: 'project-management'
+subCategory: 'projectManagement'
 excerpt: '
 Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest status. But don’t worry, haven’t you found this article?'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'

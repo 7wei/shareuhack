@@ -46,46 +46,39 @@ export const Category = {
 }
 
 export const SubCategory = {
-  ['frontend-dev']: '前端開發',
-  // ['backend-dev']: '後端開發',
-  // ['product-management']: '產品管理',
-  ['project-management']: '專案管理',
-  ['e-learning']: '線上學習',
+  frontendDev: 'frontendDev',
+  projectManagement: 'projectManagement',
+  eLearning: 'eLearning',
 }
 
 export const Categories = [
   {
     key: Category.knowledge,
-    // description: '高效率的學習非常的重要，尤其是當你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
     link: Routes.knowledge,
   },
   {
     key: Category.life,
-    // description: '人類活著的期間所做的一切行為皆是生活。勇於改善、優化生活，發現你從未想到的新鮮事！',
     link: Routes.life,
   },
   {
     key: Category.health,
-    // description: '健康是一切的基礎，分享如何擁有更好的體態、保持健康，以及如何更了解你的身體和心靈。',
     link: Routes.health,
   },
   {
     key: Category.money,
-    // description: '沒有錢萬萬不能，分享如何根據自身條件做適合的投資，以及如何實現財務獨立和提早退休。',
     link: Routes.money,
   },
   {
     key: Category.work,
-    // description: '每週工作40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
     link: Routes.work,
   },
 ]
 
 export const SubCategories = [
   {
-    title: SubCategory['frontend-dev'],
-    description:
-      '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
+    key: SubCategory.frontendDev,
+    // description:
+    // '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
     category: Category.work,
     link: `/subcategories/frontend-dev`,
   },
@@ -102,14 +95,14 @@ export const SubCategories = [
   //   category: Category.knowledge,
   // },
   {
-    title: SubCategory['project-management'],
-    description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
+    key: SubCategory.projectManagement,
+    // description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
     category: Category.knowledge,
     link: `/subcategories/project-management`,
   },
   {
-    title: SubCategory['e-learning'],
-    description: '線上學習，在2021已成顯學。',
+    key: SubCategory.eLearning,
+    // description: '線上學習，在2021已成顯學。',
     category: Category.knowledge,
     link: `/subcategories/e-learning`,
   },

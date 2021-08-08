@@ -219,16 +219,7 @@ export async function getStaticProps({ params, locale }) {
 export async function getStaticPaths({ locales }) {
   const paths = getAllPostPaths(locales)
 
-  // const posts = getAllPosts(['slug'], locales)
-
   return {
-    // paths: posts.map((post) => {
-    //   return {
-    //     params: {
-    //       slug: post.slug,
-    //     },
-    //   }
-    // }),
     paths,
     fallback: false,
   }

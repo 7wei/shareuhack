@@ -4,6 +4,7 @@ import PostPreview from './PostPreview'
 import StyledLink from '../Link/Link'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
 
 export default function CategorySection({
   category,
@@ -23,12 +24,14 @@ export default function CategorySection({
   link: string
 }) {
   const { locale } = useRouter()
+  const { t } = useTranslation('common')
+
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
         <Link href={link} passHref locale={locale}>
-          <StyledLink>Show All</StyledLink>
+          <StyledLink>{t('showAll')}</StyledLink>
         </Link>
       </Box>
       <Grid container>
