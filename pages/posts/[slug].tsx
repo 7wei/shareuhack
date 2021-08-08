@@ -1,4 +1,5 @@
-import { Grid, Box, Link } from '@material-ui/core'
+import { Grid, Box, Link as StyledLink } from '@material-ui/core'
+import Link from 'next/link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
 import FacebookIcon from '@material-ui/icons/Facebook'
@@ -17,15 +18,15 @@ import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
 import { formattedDate } from '../../src/utils'
-import Disqus from '../../src/components/Disqus/Disqus'
+// import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 
 export default function Post({ post, morePosts, preview, category, subCategory }) {
   const router = useRouter()
+  const { locale } = router
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
-  const { locale } = useRouter()
   const { t } = useTranslation('common')
 
   if (!router.isFallback && !post?.slug) {
@@ -71,8 +72,12 @@ export default function Post({ post, morePosts, preview, category, subCategory }
           <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (
             <Breadcrumbs>
-              <Link href={category?.link}>{category?.title}</Link>
-              <Link href={subCategory?.link}>{subCategory?.title}</Link>
+              <Link href={category?.link} locale={locale} passHref>
+                <StyledLink>{category?.title}</StyledLink>
+              </Link>
+              <Link href={subCategory?.link} locale={locale} passHref>
+                <StyledLink>{subCategory?.title}</StyledLink>
+              </Link>
             </Breadcrumbs>
           )}
 
@@ -101,7 +106,9 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                         <ol>
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
-                              <Link href={recommendation.link}>{recommendation.title}</Link>
+                              <Link href={recommendation.link} passHref>
+                                <StyledLink>{recommendation.title}</StyledLink>
+                              </Link>
                             </li>
                           ))}
                         </ol>
@@ -114,7 +121,9 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                         <ol>
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
-                              <Link href={reference.link}>{reference.title}</Link>
+                              <Link href={reference.link} passHref>
+                                <StyledLink>{reference.title}</StyledLink>
+                              </Link>
                             </li>
                           ))}
                         </ol>
@@ -145,27 +154,33 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <>
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard>
-                  <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
+                  <TYPE.bold mb="5px">{t('Recommendations')}</TYPE.bold>
                   <ol>
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
-                        <Link href={recommendation.link}>{recommendation.title}</Link>
+                        <Link href={recommendation.link} passHref>
+                          <StyledLink>{recommendation.title}</StyledLink>
+                        </Link>
                       </li>
                     ))}
                   </ol>
                 </InfoCard>
               )}
 
-              <InfoCard>
-                <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
-                <ol>
-                  {post.references?.map((reference, idx) => (
-                    <li key={idx}>
-                      <Link href={reference.link}>{reference.title}</Link>
-                    </li>
-                  ))}
-                </ol>
-              </InfoCard>
+              {post.references && post.references.length > 0 && (
+                <InfoCard>
+                  <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
+                  <ol>
+                    {post.references?.map((reference, idx) => (
+                      <li key={idx}>
+                        <Link href={reference.link} passHref>
+                          <StyledLink>{reference.title}</StyledLink>
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
+                </InfoCard>
+              )}
               {/* <TYPE.primary mt="20px">如果你對這篇文章有任何建議，歡迎分享你的hack！</TYPE.primary>
               <Disqus {...post} /> */}
 
@@ -198,6 +213,7 @@ export async function getStaticProps({ params, locale }) {
       'references',
       'category',
       'subCategory',
+      'excerpt',
     ],
     locale
   )
