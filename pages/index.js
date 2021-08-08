@@ -29,7 +29,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
-      <Disclosure />
+      {/* <Disclosure /> */}
       <Grid container spacing={3}>
         <Grid item sm={3}>
           <InfoCard>

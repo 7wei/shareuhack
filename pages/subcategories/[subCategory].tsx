@@ -30,7 +30,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
         <meta property="og:description" content={subCategoryTrans(`${subCategory.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
-      <Disclosure />
+      {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{subCategoryTrans(subCategory.key)}</TYPE.extraLargeHeader>

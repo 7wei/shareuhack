@@ -31,7 +31,7 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:description" content={t(`${category.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
-      <Disclosure />
+      {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
           <TYPE.extraLargeHeader>{category.title}</TYPE.extraLargeHeader>
