@@ -93,12 +93,12 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
           )}
         </Grid>
       </Grid>
-      {categories.map(({ title, description, posts, link }) => {
+      {categories.map(({ key, posts, link }) => {
         if (posts.length > 0) {
           return (
-            <Box key={title} mb="15px">
+            <Box key={key} mb="15px">
               <Divider primary="true" />
-              <PreviewRow category={title} description={description} posts={posts} link={link} />
+              <PreviewRow category={t(`${key}`)} description={t(`${key}Descript`)} posts={posts} link={link} />
             </Box>
           )
         }
@@ -110,15 +110,18 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
 export async function getStaticProps({ locale }) {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
+  console.log('hero')
+  console.log(heroPost)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
-  const categories = Categories.map(({ title, description, link }) => {
-    const category = Object.keys(Category).find((key) => Category[key] === title)
-    const posts = getCategoryPosts(category, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
+  const categories = Categories.map(({ key, link }) => {
+    console.log(key)
+    // const category = Object.keys(Category).find((key) => Category[key] === title)
+    const posts = getCategoryPosts(key, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
+    console.log(posts)
     return {
-      title,
-      description,
-      posts,
+      key,
       link,
+      posts,
     }
   })
 

@@ -38,11 +38,11 @@ export const NavLinks = [
 ]
 
 export const Category = {
-  knowledge: '學習',
-  life: '生活',
-  health: '健康',
-  money: '金錢',
-  work: '工作',
+  knowledge: 'knowledge',
+  life: 'life',
+  health: 'health',
+  money: 'money',
+  work: 'work',
 }
 
 export const SubCategory = {
@@ -55,28 +55,28 @@ export const SubCategory = {
 
 export const Categories = [
   {
-    title: Category.knowledge,
-    description: '高效率的學習非常的重要，尤其是當你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
+    key: Category.knowledge,
+    // description: '高效率的學習非常的重要，尤其是當你想做的事特別多時，不要自己造輪子，直接站在巨人的肩膀上吧！',
     link: Routes.knowledge,
   },
   {
-    title: Category.life,
-    description: '人類活著的期間所做的一切行為皆是生活。勇於改善、優化生活，發現你從未想到的新鮮事！',
+    key: Category.life,
+    // description: '人類活著的期間所做的一切行為皆是生活。勇於改善、優化生活，發現你從未想到的新鮮事！',
     link: Routes.life,
   },
   {
-    title: Category.health,
-    description: '健康是一切的基礎，分享如何擁有更好的體態、保持健康，以及如何更了解你的身體和心靈。',
+    key: Category.health,
+    // description: '健康是一切的基礎，分享如何擁有更好的體態、保持健康，以及如何更了解你的身體和心靈。',
     link: Routes.health,
   },
   {
-    title: Category.money,
-    description: '沒有錢萬萬不能，分享如何根據自身條件做適合的投資，以及如何實現財務獨立和提早退休。',
+    key: Category.money,
+    // description: '沒有錢萬萬不能，分享如何根據自身條件做適合的投資，以及如何實現財務獨立和提早退休。',
     link: Routes.money,
   },
   {
-    title: Category.work,
-    description: '每週工作40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
+    key: Category.work,
+    // description: '每週工作40小時，無論是要找工作、轉職、提升工作效率、向上或向下管理，任何良好的改變，影響都非常巨大！',
     link: Routes.work,
   },
 ]
