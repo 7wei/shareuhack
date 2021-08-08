@@ -25,7 +25,7 @@ references:
     },
     {
       title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
-      link:'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
+      link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
     },
   ]
 # related: []
@@ -36,7 +36,7 @@ Those who are following these PMP licenses may find that the PMP exam will be re
 
 ## What is PMP？
 
-Please just check the official [PMP introduction](https://www.pmi.org/certifications/project-management-pmp)。
+Please just check the official [PMP introduction](https://www.pmi.org/certifications/project-management-pmp)
 
 ## How to apply for the PMP exam?
 

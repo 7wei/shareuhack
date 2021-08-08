@@ -1,4 +1,4 @@
-import { Link as MuiLink, makeStyles, Theme, createStyles, styled } from '@material-ui/core'
+import { styled } from '@material-ui/core'
 import theme from '../../theme/index'
 
 const Link = styled('a')({
