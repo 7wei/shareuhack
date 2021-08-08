@@ -2,8 +2,7 @@
 title: '2021 PMP Say goodbye to the old version, the latest guide to pass!'
 category: 'knowledge'
 subCategory: 'projectManagement'
-excerpt: '
-Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest status. But don’t worry, haven’t you found this article?'
+excerpt: 'Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest status. But don’t worry, haven’t you found this article?'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
@@ -12,7 +11,7 @@ credentials: ['Interview with 2+ PMP', 'Read 30+ articles', 'viewed 3+ online co
 recommendations:
   [
     { title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs', link: 'https://tinyurl.com/y2tweyuc' },
-    { title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam', link: 'https://tinyurl.com/yh8gdpev' }
+    { title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam', link: 'https://tinyurl.com/yh8gdpev' },
   ]
 references:
   [

@@ -26,7 +26,7 @@ references:
     },
     {
       title: '2021 PMP 證照考試的資源整理 — 考照前',
-      link:'https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1',
+      link: 'https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1',
     },
     { title: 'PTT- P_Management 版', link: 'https://www.ptt.cc/bbs/P_Management/index.html' },
     {
@@ -35,7 +35,7 @@ references:
     },
     {
       title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
-      link:'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
+      link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
     },
   ]
 # related: []
