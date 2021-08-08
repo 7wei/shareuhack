@@ -1,17 +1,9 @@
 import { Grid, Box } from '@material-ui/core'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
-import {
-  Category,
-  Categories,
-  Routes,
-  SubCategory,
-  SubCategories,
-  CMS_NAME,
-  HOME_OG_IMAGE_URL,
-} from '../../lib/constants'
+import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
 import { TYPE } from '../../src/theme/index'
-import { getCategoryPosts, getSubCategoryPosts, getAllCategoryPaths } from '../../lib/api'
+import { getCategoryPosts, getAllCategoryPaths } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import StyledLink from '../../src/components/Link/Link'
 import Link from 'next/link'
@@ -34,8 +26,8 @@ export default function CategoryPage({ category, subCategories }) {
         <title>
           {CMS_NAME} | {t(`${category.key}`)}
         </title>
-        <meta name="description" content={category.description} />
-        <meta property="og:title" content={`${CMS_NAME}- ${category.key}`} />
+        <meta name="description" content={t(`${category.key}Descript`)} />
+        <meta property="og:title" content={`${CMS_NAME}- ${t(`${category.key}`)}`} />
         <meta property="og:description" content={t(`${category.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
@@ -94,7 +86,6 @@ export async function getStaticProps({ params, locale }) {
   )
 
   const subCategories = SubCategories.filter((el) => el.category === category.key).map(({ key }) => {
-    // const subCategory = Object.keys(SubCategory).find((key) => SubCategory[key] === key)
     const posts = categoryPosts.filter((post) => post.subCategory === key)
     const link = `/subcategories/${key}`
     return {

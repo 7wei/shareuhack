@@ -19,12 +19,14 @@ import Divider from '../../src/components/Divider/Divider'
 import { formattedDate } from '../../src/utils'
 import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
+import { useTranslation } from 'next-i18next'
 
 export default function Post({ post, morePosts, preview, category, subCategory }) {
   const router = useRouter()
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
   const { locale } = useRouter()
+  const { t } = useTranslation('common')
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -83,7 +85,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
               <Box mr={matches ? '0px' : '45px'} pt={matches ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard>
-                    <TYPE.bold mb="5px">我們撰寫這篇文章前</TYPE.bold>
+                    <TYPE.bold mb="5px">{t('beforewriting')}</TYPE.bold>
                     <ol>
                       {post.credentials?.map((credential, idx) => (
                         <li key={idx}>{credential}</li>
@@ -95,7 +97,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                   <>
                     {post.recommendations && post.recommendations.length > 0 && (
                       <InfoCard>
-                        <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                        <TYPE.bold mb="5px">{t('Recommendations')}</TYPE.bold>
                         <ol>
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
@@ -108,7 +110,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
 
                     {post.references && post.references.length > 0 && (
                       <InfoCard>
-                        <TYPE.bold mb="5px">相關資源</TYPE.bold>
+                        <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
                         <ol>
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
@@ -121,7 +123,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
 
                     <Divider />
                     <TYPE.body mt="15px" mb="10px">
-                      分享這篇文章
+                      {t('sharePost')}
                     </TYPE.body>
                     <Shares />
                   </>
@@ -143,7 +145,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <>
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard>
-                  <TYPE.bold mb="5px">推薦資源</TYPE.bold>
+                  <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
                   <ol>
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
@@ -155,7 +157,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
               )}
 
               <InfoCard>
-                <TYPE.bold mb="5px">相關資源</TYPE.bold>
+                <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
                 <ol>
                   {post.references?.map((reference, idx) => (
                     <li key={idx}>

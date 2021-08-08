@@ -77,33 +77,18 @@ export const Categories = [
 export const SubCategories = [
   {
     key: SubCategory.frontendDev,
-    // description:
-    // '前端開發是通過HTML/CSS/JavsScript以及衍生的各種技術、框架、解決方案，創建網站、APP等介面，實現和網路產品用戶的互動。',
     category: Category.work,
-    link: `/subcategories/frontend-dev`,
+    link: `/subcategories/frontendDev`,
   },
-  // {
-  //   title: SubCategory['backend-dev'],
-  //   description:
-  //     'Back end Development refers to the server side of development where you are primarily focused on how the site works. Making updates and changes in addition to monitoring functionality of the site will be your primary responsibility.',
-  //   category: Category.knowledge,
-  // },
-  // {
-  //   title: SubCategory['product-management'],
-  //   description:
-  //     'Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle',
-  //   category: Category.knowledge,
-  // },
+
   {
     key: SubCategory.projectManagement,
-    // description: '專案管理是在各種限制下，帶領團隊，並達成專案目標的過程。',
     category: Category.knowledge,
-    link: `/subcategories/project-management`,
+    link: `/subcategories/projectManagement`,
   },
   {
     key: SubCategory.eLearning,
-    // description: '線上學習，在2021已成顯學。',
     category: Category.knowledge,
-    link: `/subcategories/e-learning`,
+    link: `/subcategories/eLearning`,
   },
 ]

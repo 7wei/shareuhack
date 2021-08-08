@@ -31,7 +31,7 @@ references:
 
 This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and be familiar with a front-end framework, and have a certain competitiveness in the job market.
 
-## 確立技能需求
+## In-demand skills
 
 Check [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) and you can understand the complete roadmap of becoming a front-end engineer.
 
@@ -57,7 +57,7 @@ If you want to learn Vue, you can choose [Vue JS Essentials with Vuex and Vue Ro
 
 After learning, think about how to build a new work of your own through the techniques you have learned. Start from scratch. Don't rely on the sample code provided by too many courses. At the same time, you will find that your CSS knowledge and concepts are not enough. Solid, it is recommended to strengthen this course through [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/yzx9vjqr), and try to use more advanced skills in the project.
 
-## 準備面試
+## Prepare for interviews
 
 At this point, you are already a very competitive entry-level front-end engineer in the market. Start writing your resume, organizing your work, and preparing for a successful transfer!
 
