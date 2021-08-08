@@ -60,10 +60,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none" passHref>
-                <a>
+                <StyledLink>
                   <TYPE.bold>{post.title}</TYPE.bold>
                   <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
-                </a>
+                </StyledLink>
               </Link>
             ))}
           </Box>

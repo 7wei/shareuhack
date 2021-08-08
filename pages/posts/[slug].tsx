@@ -1,5 +1,6 @@
-import { Grid, Box, Link as StyledLink } from '@material-ui/core'
+import { Grid, Box } from '@material-ui/core'
 import Link from 'next/link'
+import StyledLink from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
 import FacebookIcon from '@material-ui/icons/Facebook'
@@ -28,6 +29,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
   const { t } = useTranslation('common')
+  const { t: subCategoryTrans } = useTranslation('subCategory')
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -73,10 +75,10 @@ export default function Post({ post, morePosts, preview, category, subCategory }
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale} passHref>
-                <StyledLink>{category?.title}</StyledLink>
+                <StyledLink>{t(category?.key)}</StyledLink>
               </Link>
               <Link href={subCategory?.link} locale={locale} passHref>
-                <StyledLink>{subCategory?.title}</StyledLink>
+                <StyledLink>{subCategoryTrans(subCategory?.key)}</StyledLink>
               </Link>
             </Breadcrumbs>
           )}
@@ -223,7 +225,7 @@ export async function getStaticProps({ params, locale }) {
 
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'footer'])),
+      ...(await serverSideTranslations(locale, ['common', 'footer', 'subCategory'])),
       post: {
         ...post,
         content,
