@@ -5,6 +5,8 @@ import theme, { TYPE } from 'theme/index'
 import { NavLinks, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
+import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
+import useBreakpint from 'hooks/useBreakpoint'
 
 const useStyles = makeStyles({
   root: {
@@ -50,14 +52,25 @@ export default function Header() {
   const classes = useStyles()
   const { t } = useTranslation('common')
   const { locale } = useRouter()
+  const { matches } = useBreakpint()
 
   return (
     <div className={classes.root}>
       <Container>
+        {!matches && (
+          <Box position="relative">
+            <Box right={0} position="absolute">
+              <LanguageSelector />
+            </Box>
+          </Box>
+        )}
+
         <Link href="/" locale={locale} passHref>
           <div className={classes.brand}>Shareuhack</div>
         </Link>
-
+        <Box display="flex" justifyContent="center">
+          {matches && <LanguageSelector />}
+        </Box>
         <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
           {NavLinks.map((link) => (
             <Link key={link.key} href={link.link} passHref>

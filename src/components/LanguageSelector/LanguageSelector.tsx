@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import { Button, Dialog, DialogTitle, makeStyles, List, ListItem, ListItemText } from '@material-ui/core'
+import { Button, Dialog, DialogTitle, makeStyles, List, ListItem, Box } from '@material-ui/core'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
-// import { setLocale } from '../../../lib/api'
+import { Locales } from '../../../lib/constants'
+import LanguageIcon from '@material-ui/icons/Language'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -42,15 +43,33 @@ export default function LanguageSelector() {
     router.push(router.asPath, router.asPath, { locale: locale })
   }
 
+  const getLocaleData = (locale?: string) => {
+    const data = Locales.find((el) => el.key === locale)
+    if (!data) {
+      return Locales[0]
+    }
+    return data
+  }
+
   return (
     <>
-      <Button onClick={handleOpen}>{locale || 'en-US'}</Button>
+      <Button onClick={handleOpen} color="primary">
+        <LanguageIcon />
+        <Box ml="5px">
+          {getLocaleData(locale).language}({getLocaleData(locale).region})
+        </Box>
+      </Button>
       <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
-        <DialogTitle id="simple-dialog-title">{t('selectLocale')}</DialogTitle>
+        <DialogTitle id="simple-dialog-title">
+          <Box display="flex" alignItems="center">
+            <LanguageIcon />
+            <Box ml="5px">{t('selectLocale')}</Box>
+          </Box>
+        </DialogTitle>
         <List>
           {locales?.map((locale) => (
             <ListItem button onClick={() => onSelect(locale)} key={locale}>
-              <ListItemText primary={locale} />
+              {getLocaleData(locale).language}({getLocaleData(locale).region})
             </ListItem>
           ))}
         </List>

@@ -92,3 +92,31 @@ export const SubCategories = [
     link: `/subcategories/eLearning`,
   },
 ]
+
+export const Locales = [
+  {
+    key: 'en-US',
+    language: 'English',
+    region: 'United State',
+  },
+  {
+    key: 'zh-TW',
+    language: '繁體中文',
+    region: '台灣',
+  },
+  {
+    key: 'zh-MO',
+    language: '繁體中文',
+    region: '澳門',
+  },
+  {
+    key: 'zh-HK',
+    language: '繁體中文',
+    region: '香港',
+  },
+  {
+    key: 'zh-CN',
+    language: '简体中文',
+    region: '中国',
+  },
+]

@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
+import useBreakpint from 'hooks/useBreakpoint'
 
 const useStyles = makeStyles({
   root: {
@@ -45,6 +46,7 @@ export default function Footer() {
   const classes = useStyles()
   const { t } = useTranslation(['footer'])
   const { locale } = useRouter()
+  const { matches } = useBreakpint()
 
   return (
     <Box className={classes.root}>
@@ -69,8 +71,8 @@ export default function Footer() {
               </MuiLink>
             </Link>
           </Box>
-          <LanguageSelector />
         </Box>
+
         <TYPE.smallGray mt="40px" pb="15px">
           {t('copyright')}
         </TYPE.smallGray>
