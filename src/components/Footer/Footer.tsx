@@ -1,4 +1,4 @@
-import { Link as MuiLink, makeStyles, Box } from '@material-ui/core'
+import { Link as MuiLink, makeStyles, Box, Button } from '@material-ui/core'
 import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
@@ -6,6 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 
 const useStyles = makeStyles({
   root: {
@@ -55,17 +56,20 @@ export default function Footer() {
             </Link>
           ))}
         </Box>
-        <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start" marginTop="30px">
-          <Link href={Routes.about} passHref locale={locale}>
-            <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
-          </Link>
-          <Link href="https://www.facebook.com/shareuhack/" passHref>
-            <MuiLink className={classes.navlink}>
-              <Box display="flex" alignItems="center">
-                <FacebookIcon /> {t('contact')}
-              </Box>
-            </MuiLink>
-          </Link>
+        <Box display="flex" justifyContent="space-between" marginTop="30px">
+          <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start">
+            <Link href={Routes.about} passHref locale={locale}>
+              <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
+            </Link>
+            <Link href="https://www.facebook.com/shareuhack/" passHref>
+              <MuiLink className={classes.navlink}>
+                <Box display="flex" alignItems="center">
+                  <FacebookIcon /> {t('contact')}
+                </Box>
+              </MuiLink>
+            </Link>
+          </Box>
+          <LanguageSelector />
         </Box>
         <TYPE.smallGray mt="40px" pb="15px">
           {t('copyright')}
