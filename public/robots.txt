@@ -1,2 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://www.shareuhack.com
+
+# Sitemaps
+Sitemap: https://www.shareuhack.com/sitemap.xml
