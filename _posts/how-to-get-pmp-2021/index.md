@@ -10,8 +10,16 @@ ogImage:
 credentials: ['Interview with 2+ PMP', 'Read 30+ articles', 'viewed 3+ online courses']
 recommendations:
   [
-    { title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs', link: 'https://tinyurl.com/y2tweyuc' },
-    { title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam', link: 'https://tinyurl.com/yh8gdpev' },
+    {
+      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      link: 'https://tinyurl.com/yfen2p3g',
+      src: 'Udemy',
+    },
+    {
+      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      link: 'https://tinyurl.com/yzgyqkyg',
+      src: 'Udemy',
+    },
   ]
 references:
   [
@@ -100,21 +108,21 @@ Well, come to the focus of this article, how to deal with the new version of the
 
 2. PMI official PMBOK GUIDE 6: PMI project management knowledge system standard, PMI members can download the pdf file for free.
 
-3. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/y2tweyuc): Joseph Phillips course on Udemy, as long as you complete the course, assignments and experiments, you can get 35 PDUs, you can directly Meet the basic training requirements required to register for the PMP exam. This author will continue to update the latest PMP related content, so don’t worry about his content being out of date. We actually reviewed the course. The explanation of this course is clear. Even if you don't have a strong professional background, you can still have a good absorption, but if you are an experienced project manager, it may be a little boring. It is still recommended to read this course quickly, get PDUs, and have an overview of the entire knowledge structure.
+3. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g): Joseph Phillips course on Udemy, as long as you complete the course, assignments and experiments, you can get 35 PDUs, you can directly Meet the basic training requirements required to register for the PMP exam. This author will continue to update the latest PMP related content, so don’t worry about his content being out of date. We actually reviewed the course. The explanation of this course is clear. Even if you don't have a strong professional background, you can still have a good absorption, but if you are an experienced project manager, it may be a little boring. It is still recommended to read this course quickly, get PDUs, and have an overview of the entire knowledge structure.
 
-4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yh8gdpev): It is also Joseph's course, which is a bit like a sprint class before the exam, with 135 practice questions attached.
+4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg): It is also Joseph's course, which is a bit like a sprint class before the exam, with 135 practice questions attached.
 
 ### Preparation method
 
 1. I have read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668), understand the outline and scope of the exam. In fact, if you have a certain amount of project manager experience, you may be relieved after reading it. You will find that these questions will not be difficult for you.
 
-2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/y2tweyuc) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to scan it together PMBOK, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months you can complete this course
+2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to scan it together PMBOK, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months you can complete this course
 
 3. Go over PMBOK 6 again. In fact, after taking the online course, after reading the course, you have a high level of mastery of this knowledge system. It will not take too much time to see PMBOK.
 
 4. Start practicing mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be too constrained on the right or wrong of each question. The point is that you have to see these questions and be clear. If there is a vague part of the idea, go back to PMBOK as soon as possible, or you can discuss it on Facebook or LinkedIn related societies, usually the community will be willing to help. As for how many questions need to be done? In fact, the topic of the learning resources for this article is very sufficient. The additional exercises are mainly used to increase confidence and avoid tension.
 
-5. Before the exam, use [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yh8gdpev) to do the final review. After finishing the course and completing the test questions, you can go into battle calmly.
+5. Before the exam, use [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) to do the final review. After finishing the course and completing the test questions, you can go into battle calmly.
 
 ### Free mock PMP test resources
 

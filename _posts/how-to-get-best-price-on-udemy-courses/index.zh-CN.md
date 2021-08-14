@@ -17,7 +17,7 @@ recommendations:
   ]
 references:
   [
-    { title: 'Udemy官方网站', link: 'https://tinyurl.com/yhdgtddt' },
+    { title: 'Udemy官方网站', link: 'https://tinyurl.com/yzf5koxg' },
     { title: 'Udemy使用条款', link: 'https://tinyurl.com/yzly7hek' },
   ]
 # related: []

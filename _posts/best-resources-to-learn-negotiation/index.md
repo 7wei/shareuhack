@@ -10,25 +10,33 @@ ogImage:
 credentials: ['Viewed 10+ courses', 'Read 30+ articles', 'Interview with 3 experts', 'Read 5 books']
 recommendations:
   [
-    { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/' },
+    { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
     {
       title: 'Successful Negotiation: Essential Strategies and Skills',
-      link: 'https://igamepark.biz/2qqTn?uid1=shareuhack',
+      link: 'https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera',
+      src: 'Coursera',
     },
-    { title: 'Successful Negotiation: Master Your Negotiating Skills', link: 'https://tinyurl.com/yec4ydmx' },
-    { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/yeq5bpkt' },
-    { title: 'Negotiation Fundamentals: How To Negotiate Effectively', link: 'https://tinyurl.com/ygvzgaat' },
     {
-      title: 'Ask for More: 10 Questions to Negotiate Anything',
-      link: 'https://www.amazon.com/Ask-More-Questions-Negotiate-Anything-ebook/dp/B07Z44ZCJK',
+      title: 'Successful Negotiation: Master Your Negotiating Skills',
+      link: 'https://tinyurl.com/yzr9k6nr',
+      src: 'Udemy',
     },
+    { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/ygl3k6q6', src: 'Udemy' },
+    {
+      title: 'Negotiation Fundamentals: How To Negotiate Effectively',
+      link: 'https://tinyurl.com/ydu698gg',
+      src: 'Udemy',
+    },
+    { title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
     {
       title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
-      link: 'https://www.amazon.com/Getting-More-Negotiate-Succeed-Work/dp/0307716902',
+      link: 'https://amzn.to/37EUcVN',
+      src: 'Amazon',
     },
     {
       title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
-      link: 'https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2',
+      link: 'https://amzn.to/37EX3hA',
+      src: 'Amazon',
     },
   ]
 references: []
@@ -66,9 +74,9 @@ After reading various articles and videos on the Internet, I start to feel a lit
 
 Absorbed a lot of knowledge from the course, read the book to precipitate it. By learning more practical cases, you can feel more about the negotiation in reality. You can also sort out your ideas by the way and get ready for the next negotiation.
 
-- [Ask for More: 10 Questions to Negotiate Anything](https://www.amazon.com/Ask-More-Questions-Negotiate-Anything-ebook/dp/B07Z44ZCJK): This book mainly talks about how to deal with feelings in negotiations. During negotiations, there will always be changes in feelings, and feelings will directly affect our decision-making and negotiation performance. "Reflecting on ourselves in the mirror, looking out the window to understand others", This book is straightforward to read!
-- [Getting More: How You Can Negotiate to Succeed in Work and Life](https://www.amazon.com/Getting-More-Negotiate-Succeed-Work/dp/0307716902)：It mainly discusses 12 main negotiation skills, and provides various case simulations. The structure of the book is very clear and easy to understand.
-- [Never Split the Difference: Negotiating As If Your Life Depended On It](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2): This book is relatively approachable. It mainly states that emotions are an important factor in making decisions. Therefore, how to understand and master the emotions of oneself and the other party during the negotiation process is very important!
+- [Ask for More: 10 Questions to Negotiate Anything](https://amzn.to/3g0SsLc): This book mainly talks about how to deal with feelings in negotiations. During negotiations, there will always be changes in feelings, and feelings will directly affect our decision-making and negotiation performance. "Reflecting on ourselves in the mirror, looking out the window to understand others", This book is straightforward to read!
+- [Getting More: How You Can Negotiate to Succeed in Work and Life](https://amzn.to/37EUcVN)：It mainly discusses 12 main negotiation skills, and provides various case simulations. The structure of the book is very clear and easy to understand.
+- [Never Split the Difference: Negotiating As If Your Life Depended On It](https://amzn.to/37EX3hA): This book is relatively approachable. It mainly states that emotions are an important factor in making decisions. Therefore, how to understand and master the emotions of oneself and the other party during the negotiation process is very important!
 
 ## Conclusion
 

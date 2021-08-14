@@ -10,9 +10,22 @@ ogImage:
 credentials: ['访问2位考取PMP的专案经理', '阅读30+篇网路上的文章', '实际观看3+个线上课程']
 recommendations:
   [
-    { title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs', link: 'https://tinyurl.com/y2tweyuc' },
-    { title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam', link: 'https://tinyurl.com/yh8gdpev' },
-    { title: '深入浅出 PMP', link: 'https://tinyurl.com/y7yfcuov' },
+    {
+      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      link: 'https://tinyurl.com/yfen2p3g',
+      src: 'Udemy',
+    },
+    {
+      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      link: 'https://tinyurl.com/yzgyqkyg',
+      src: 'Udemy',
+    },
+    {
+      title: '深入浅出 PMP',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+      src: '博客來',
+    },
+    { title: '深入浅出 PMP', link: 'https://tinyurl.com/yz7j6xb5', src: '金石堂' },
   ]
 references:
   [

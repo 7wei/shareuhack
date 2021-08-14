@@ -108,8 +108,10 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                         <ol>
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
+                              {recommendation.title}
+                              <br />
                               <Link href={recommendation.link} passHref>
-                                <StyledLink target="_blank">{recommendation.title}</StyledLink>
+                                <StyledLink target="_blank">{` → ${recommendation.src}`}</StyledLink>
                               </Link>
                             </li>
                           ))}
@@ -160,8 +162,10 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                   <ol>
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
+                        {recommendation.title}
+                        <br />
                         <Link href={recommendation.link} passHref>
-                          <StyledLink target="_blank">{recommendation.title}</StyledLink>
+                          <StyledLink target="_blank">{` → ${recommendation.src}`}</StyledLink>
                         </Link>
                       </li>
                     ))}

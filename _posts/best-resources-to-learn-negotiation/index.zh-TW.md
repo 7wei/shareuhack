@@ -10,57 +10,92 @@ ogImage:
 credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家', '閱讀5本相關書籍']
 recommendations:
   [
-    { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/' },
+    { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
     {
       title: 'Successful Negotiation: Essential Strategies and Skills',
-      link: 'https://igamepark.biz/2qqTn?uid1=shareuhack',
+      link: 'https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera',
+      src: 'Coursera',
     },
-    { title: 'Successful Negotiation: Master Your Negotiating Skills', link: 'https://tinyurl.com/yec4ydmx' },
-    { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/yeq5bpkt' },
-    { title: 'Negotiation Fundamentals: How To Negotiate Effectively', link: 'https://tinyurl.com/ygvzgaat' },
-    { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf5pjd8d' },
-    { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yzet9asm' },
-    { title: 'FBI談判協商術', link: 'https://tinyurl.com/yen3b5km' },
+    {
+      title: 'Successful Negotiation: Master Your Negotiating Skills',
+      link: 'https://tinyurl.com/yzr9k6nr',
+      src: 'Udemy',
+    },
+    { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/ygl3k6q6', src: 'Udemy' },
+    {
+      title: 'Negotiation Fundamentals: How To Negotiate Effectively',
+      link: 'https://tinyurl.com/ydu698gg',
+      src: 'Udemy',
+    },
+    { title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
+    {
+      title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
+      link: 'https://amzn.to/37EUcVN',
+      src: 'Amazon',
+    },
+    {
+      title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
+      link: 'https://amzn.to/37EX3hA',
+      src: 'Amazon',
+    },
+    {
+      title: '鏡與窗談判課',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+      src: '金石堂',
+    },
+    { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf8mbvte', src: '博客來' },
+    { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
+    {
+      title: '華頓商學院最受歡迎的談判課',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+      src: '博客來',
+    },
+    { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
+    {
+      title: 'FBI談判協商術',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+      src: '博客來',
+    },
   ]
 references: []
 # related: []
 # tags: ['negotiation', '談判', '職場', '個人成長', '議價', '線上學習']
 ---
 
-很多人不知道，談判是一門學問，且是一門像哈佛這類世界頂級的大學，會花一學期以上的時間教授的課程。人生無處不是談判，舉凡買賣、談薪水、評估市場價值、解決衝突等等，都會需要談判的，若學會了這更好的談判技巧，對於人生將會有多大的幫助？這片文章彙整了 2021 學習談判這個技術，最推薦的資源，透過自學，你也可以成為談判專家！
+很多人不知道，谈判是一门学问，且是一门像哈佛这类世界顶级的大学，会花一学期以上的时间教授的课程。人生无处不是谈判，举凡买卖、谈薪水、评估市场价值、解决冲突等等，都会需要谈判的，若学会了这更好的谈判技巧，对于人生将会有多大的帮助？这片文章汇整了 2021 学习谈判这个技术，最推荐的资源，透过自学，你也可以成为谈判专家！
 
-## 影集與文章
+## 影集与文章
 
-真的開始投入學習之前，或許可以先看個影集輕鬆一下，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是一部法律題材的影集，背景是在紐約一家法律事務所，故事以 Mike Ross 陰錯陽差，闖入 Harvey Specter 面試的會場，並在沒有任何律師證照的狀況下，說服 Harvey Specter 錄取他做開頭。
+真的开始投入学习之前，或许可以先看个影集轻松一下，[SUITS 无照律师](https://www.imdb.com/title/tt1632701/)是一部法律题材的影集，背景是在纽约一家法律事务所，故事以 Mike Ross 阴错阳差，闯入 Harvey Specter 面试的会场，并在没有任何律师证照的状况下，说服 Harvey Specter 录取他做开头。
 
-雖然中翻是「無照律師」，但其實，主要的賣點還是各種的商業談判，以及 Harvey Specter 在談判中展現的氣場。雖然影集多少會偏離事實，但看 Harvey Specter 在談判桌上的各種表演，絕對會讓你對談判更有感覺。
+虽然中翻是「无照律师」，但其实，主要的卖点还是各种的商业谈判，以及 Harvey Specter 在谈判中展现的气场。虽然影集多少会偏离事实，但看 Harvey Specter 在谈判桌上的各种表演，绝对会让你对谈判更有感觉。
 
-若沒有時間看影集，網路上也很多文章，分享如何學習像 Harvey 一樣談判。例如：
+若没有时间看影集，网路上也很多文章，分享如何学习像 Harvey 一样谈判。例如：
 
 - [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
 - [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
 - [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
 
-其實跟談判有關的文章和影片不勝枚舉，大多數是條列出一些準則，你可能會覺得，啊？不是廢話嗎，是的，很多看起來是廢話，但平常你在談判時，有真的把這些準則和知識考量進去嗎？
+其实跟谈判有关的文章和影片不胜枚举，大多数是条列出一些准则，你可能会觉得，啊？不是废话吗，是的，很多看起来是废话，但平常你在谈判时，有真的把这些准则和知识考量进去吗？
 
-## 線上課程
+## 线上课程
 
-看過網路上各種文章和影片之後，對談判開始有點感覺了吧，此時建議可以參加這些有名望、熱門推薦的課程，更有系統地學習談判這個技術和知識。以下列出 2021 年最受大家推薦的談判線上課程：
+看过网路上各种文章和影片之后，对谈判开始有点感觉了吧，此时建议可以参加这些有名望、热门推荐的课程，更有系统地学习谈判这个技术和知识。以下列出 2021 年最受大家推荐的谈判线上课程：
 
-- [Harvard Negotiation Course](https://online.hbs.edu/courses/negotiation/)：Michael Wheeler 教授的談判課，這應該是世界上眾多學生夢想中的最棒談判課了吧，哈佛也提供了這談判課的線上課程，為期 8 週，但要價 1600USD。
-- [Successful Negotiation: Essential Strategies and Skills(Coursera)](https://igamepark.biz/2qqTn?uid1=shareuhack)：密西根大學的 George Siedel 教授主講的課程，為期 7 週，每週 75 分鐘，這課程會把談判的過程拆解成 4 個步驟，從計劃策略開始，並找出關鍵因素，順利和平的完成談判，並評估談判的成效。
-- [Successful Negotiation: Master Your Negotiating Skills(Udemy)](https://tinyurl.com/yec4ydmx)：短短 1.5H 的課程，但囊括了準備談判的基本技術，好好利用，可以幫助你克服焦慮，並成功完成談判，這堂課讓你可以很快地開始運用一些工具和技巧在現實生活中。
-- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/yeq5bpkt)：2 小時的課程，可以讓你精通 3 個達成雙贏談判得關鍵技術，並提供實際的練習範例。
-- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ygvzgaat)：1.5 小時的課程，讓你學會如何做決策、如何在談判中更有力量、如何辨識和利用談判中的壓力點、如何應對不同的談判風格，以及最重要的，如何達到雙贏！
+- [Harvard Negotiation Course](https://online.hbs.edu/courses/negotiation/)：Michael Wheeler 教授的谈判课，这应该是世界上众多学生梦想中的最棒谈判课了吧，哈佛也提供了这谈判课的线上课程，为期 8 周，但要价 1600USD。
+- [Successful Negotiation: Essential Strategies and Skills(Coursera)](https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera)：密西根大学的 George Siedel 教授主讲的课程，为期 7 周，每周 75 分钟，这课程会把谈判的过程拆解成 4 个步骤，从计划策略开始，并找出关键因素，顺利和平的完成谈判，并评估谈判的成效。
+- [Successful Negotiation: Master Your Negotiating Skills(Udemy)](https://tinyurl.com/yzr9k6nr)：短短 1.5H 的课程，但囊括了准备谈判的基本技术，好好利用，可以帮助你克服焦虑，并成功完成谈判，这堂课让你可以很快地开始运用一些工具和技巧在现实生活中。
+- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/ygl3k6q6)：2 小时的课程，可以让你精通 3 个达成双赢谈判得关键技术，并提供实际的练习范例。
+- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ydu698gg)：1.5 小时的课程，让你学会如何做决策、如何在谈判中更有力量、如何辨识和利用谈判中的压力点、如何应对不同的谈判风格，以及最重要的，如何达到双赢！
 
-## 書籍
+## 书籍
 
-從課程吸收了大量知識，看看書沈澱一下吧，藉由了解更多實際案例，讓你對現實中的談判更有感覺，也可以順便整理一下思路，準備好做下一次的談判。
+从课程吸收了大量知识，看看书沉淀一下吧，藉由了解更多实际案例，让你对现实中的谈判更有感觉，也可以顺便整理一下思路，准备好做下一次的谈判。
 
-- [鏡與窗談判課](https://tinyurl.com/yf5pjd8d)：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
-- [華頓商學院最受歡迎的談判課](https://tinyurl.com/yzet9asm)：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
-- [FBI 談判協商術](https://tinyurl.com/yen3b5km)：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
+- [镜与窗谈判课](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：这本书主要是聊如何在谈判中处理感受，谈判中，一直会有感受的变动，而感受又会直接影响我们的决策和谈判表现，「面对镜子反思自己，望向窗外看懂他人」，这本书直得一读！
+- [华顿商学院最受欢迎的谈判课](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：主要是讨论 12 个主要谈判技巧，有提供各种案例模拟，书的架构非常清楚好懂。
+- [FBI 谈判协商术](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：这本书相对平易近人，主要阐述情绪是影响类做决定的重要因素，所以谈判的过程中，如何了解、掌握自己和对方的情绪，非常关键！
 
-## 結語
+## 结语
 
-以上的學習資源，或多或少都會有重複的內容和概念，但整體絕對是相輔相成的，也因此，實際去了解和學習完全部的資源，也不會太多時間，完成這些課程的學習和書籍的閱讀後，你應該對談判的技術和知識有了很深度的了解了！但這還是不夠的，試著在日常談判的過程中，就融入這些技巧，生活中無處不是談判，相信你很快就會成為談判高手！
+以上的学习资源，或多或少都会有重复的内容和概念，但整体绝对是相辅相成的，也因此，实际去了解和学习完全部的资源，也不会太多时间，完成这些课程的学习和书籍的阅读后，你应该对谈判的技术和知识有了很深度的了解了！但这还是不够的，试着在日常谈判的过程中，就融入这些技巧，生活中无处不是谈判，相信你很快就会成为谈判高手！

@@ -13,11 +13,12 @@ recommendations:
     {
       title: 'Udemy official new customer offer',
       link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
+      src: 'Udemy',
     },
   ]
 references:
   [
-    { title: 'Udemy', link: 'https://tinyurl.com/yhdgtddt' },
+    { title: 'Udemy', link: 'https://tinyurl.com/yzf5koxg' },
     { title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
   ]
 # related: []

@@ -10,11 +10,15 @@ ogImage:
 credentials: ['观看10+Udemy课程', '阅读30+篇网路上的文章', '访问3+成功转职的前端工程师']
 recommendations:
   [
-    { title: '动画互动网页程式入门 (HTML/CSS/JS)', link: 'https://tinyurl.com/yjhxj55y' },
-    { title: 'JavaScript 全攻略：克服 JS 的奇怪部分', link: 'https://tinyurl.com/yzqn7yda' },
-    { title: 'Modern React with Redux', link: 'https://tinyurl.com/yf8s5cl9' },
-    { title: 'Vue JS Essentials with Vuex and Vue Router', link: 'https://tinyurl.com/yjuz2mbs' },
-    { title: 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!', link: 'https://tinyurl.com/yzx9vjqr' },
+    { title: '动画互动网页程式入门 (HTML/CSS/JS)', link: 'https://tinyurl.com/ye77kpm3', src: 'Hahow' },
+    { title: 'JavaScript 全攻略：克服 JS 的奇怪部分', link: 'https://tinyurl.com/yemfgsgj', src: 'Udemy' },
+    { title: 'Modern React with Redux', link: 'https://tinyurl.com/yehgynsv', src: 'Udemy' },
+    { title: 'Vue JS Essentials with Vuex and Vue Router', link: 'https://tinyurl.com/yzp53825', src: 'Udemy' },
+    {
+      title: 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!',
+      link: 'https://tinyurl.com/ykyldr97',
+      src: 'Udemy',
+    },
   ]
 references:
   [
@@ -47,15 +51,15 @@ references:
 
 建议透过网路课程，让讲师领你进门。上课程好处是可以跟着讲师操作、练习，实作的过程中，会累积到不少成就感，看到自己作出的画面，将会更有想法。
 
-Hahow 的[动画互动网页程式入门 (HTML/CSS/JS)](https://tinyurl.com/yjhxj55y)是目前中文最推荐的学习前端基础观念的课程之一，完全没经验的也可以很舒适的跟着学习，学习曲线平滑，相对其他课程，学生完成课程的比率很高。跟着课程学习并实作，上完课后，对 HTML/CSS/JS 就会有一定的了解。
+Hahow 的[动画互动网页程式入门 (HTML/CSS/JS)](https://tinyurl.com/ye77kpm3)是目前中文最推荐的学习前端基础观念的课程之一，完全没经验的也可以很舒适的跟着学习，学习曲线平滑，相对其他课程，学生完成课程的比率很高。跟着课程学习并实作，上完课后，对 HTML/CSS/JS 就会有一定的了解。
 
-对 HTML/CSS/JavaScript 有了一定的认识后，可以先继续专精 JavaScript。网路上最推荐的是[JavaScript 全攻略：克服 JS 的奇怪部分](https://tinyurl.com/yzqn7yda)，很适合想要深入了解 JavaScript 的人，会讲述很多物件原型、闭包等等进阶观念和许多 JavaScript 容易遇到的错误，和如何避免。藉由这课程，可以扎实地了解 JS 的语言特性和底层知识，也可以学会建立自己的框架、看懂知名框架的原始码。
+对 HTML/CSS/JavaScript 有了一定的认识后，可以先继续专精 JavaScript。网路上最推荐的是[JavaScript 全攻略：克服 JS 的奇怪部分](https://tinyurl.com/yemfgsgj)，很适合想要深入了解 JavaScript 的人，会讲述很多物件原型、闭包等等进阶观念和许多 JavaScript 容易遇到的错误，和如何避免。藉由这课程，可以扎实地了解 JS 的语言特性和底层知识，也可以学会建立自己的框架、看懂知名框架的原始码。
 
-打好基础后，开始学习前端框架，这边建议没有想法的话，就学 React/Redux 吧。 [Stephen Grider](https://tinyurl.com/ydnr493j)是目前最受好评的讲师之一，他的[Modern React with Redux](https://tinyurl.com/yf8s5cl9)是最热门必买的课程，透过这堂课课程，可以迅速的了解 React、Redux，并且可以快速的实作一个小专案，也可以在透过学习的知识，设计并实作属于自己的作品。
+打好基础后，开始学习前端框架，这边建议没有想法的话，就学 React/Redux 吧。 [Stephen Grider](https://tinyurl.com/ydnr493j)是目前最受好评的讲师之一，他的[Modern React with Redux](https://tinyurl.com/yehgynsv)是最热门必买的课程，透过这堂课课程，可以迅速的了解 React、Redux，并且可以快速的实作一个小专案，也可以在透过学习的知识，设计并实作属于自己的作品。
 
-如果想要学 Vue，可以选择一样是[Stephen Grider](https://tinyurl.com/ydnr493j)出的[Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs)
+如果想要学 Vue，可以选择一样是[Stephen Grider](https://tinyurl.com/ydnr493j)出的[Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yzp53825)
 
-学完之后，先想想怎么透过已经学到的技术，建造一个属于自己的新作品，从头来一遍，不要依赖太多课程提供的 sample code，同时，你会发现你的 css 的知识和观念不够扎实，建议透过[Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/yzx9vjqr)这堂课程加强，尝试运用比较高阶的技巧在专案上。
+学完之后，先想想怎么透过已经学到的技术，建造一个属于自己的新作品，从头来一遍，不要依赖太多课程提供的 sample code，同时，你会发现你的 css 的知识和观念不够扎实，建议透过[Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/ykyldr97)这堂课程加强，尝试运用比较高阶的技巧在专案上。
 
 ## 准备面试
 

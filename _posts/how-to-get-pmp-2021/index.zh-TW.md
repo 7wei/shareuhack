@@ -10,9 +10,22 @@ ogImage:
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
 recommendations:
   [
-    { title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs', link: 'https://tinyurl.com/y2tweyuc' },
-    { title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam', link: 'https://tinyurl.com/yh8gdpev' },
-    { title: '深入淺出 PMP', link: 'https://tinyurl.com/y7yfcuov' },
+    {
+      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      link: 'https://tinyurl.com/yfen2p3g',
+      src: 'Udemy',
+    },
+    {
+      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      link: 'https://tinyurl.com/yzgyqkyg',
+      src: 'Udemy',
+    },
+    {
+      title: '深入淺出 PMP',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+      src: '博客來',
+    },
+    { title: '深入淺出 PMP', link: 'https://tinyurl.com/yz7j6xb5', src: '金石堂' },
   ]
 references:
   [
@@ -112,23 +125,23 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 2. PMI 官方的 PMBOK GUIDE 6： PMI 專案管理知識體系的標準，PMI 的會員可以免費下載 pdf 檔案。
 
-3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/y2tweyuc)：Udemy 上的 Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得 35 PDUs，可以直接滿足報名 PMP 考試所需要的基本培訓需求。這位作者會持續的更新最新的 PMP 相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取 PDUs，也對整個知識架構有個概觀。
+3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)：Udemy 上的 Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得 35 PDUs，可以直接滿足報名 PMP 考試所需要的基本培訓需求。這位作者會持續的更新最新的 PMP 相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取 PDUs，也對整個知識架構有個概觀。
 
-4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yh8gdpev)：同樣也是 Joseph 的課程，有點像是考前衝刺班，裡面有附 135 題練習題。
+4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)：同樣也是 Joseph 的課程，有點像是考前衝刺班，裡面有附 135 題練習題。
 
-5. [深入淺出 PMP](https://tinyurl.com/y7yfcuov)：以視覺化較活潑生動的方式涵蓋 PMBOK 的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
+5. [深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：以視覺化較活潑生動的方式涵蓋 PMBOK 的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
 ### 準備方式
 
 1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668)，了解考試的大綱和範圍，其實若你有一定的專案經理經驗，可能看完後，你就可以放心了，你會發現，這些問題都將難不了你。
 
-2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/y2tweyuc)課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過 PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成 1.5x 速率來看完課程。每個人狀況不同，通常 1-2 個月內可以完成這課程的學習
+2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過 PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成 1.5x 速率來看完課程。每個人狀況不同，通常 1-2 個月內可以完成這課程的學習
 
 3. 把 PMBOK 6 再翻過一遍，其實上完線上課程，其實看完課程後，對這套知識體系掌握的程度就很高了，看 PMBOK 不會花上太多時間。
 
 4. 開始練習模擬考題，網路上有不少免費的測試資源，下面我們也列出了一些，做模擬試題時不用太拘泥於每題的對錯，重點是你要看到這些題目，有明確的想法，若有模糊的部分，趕快回去翻 PMBOK，或者可以在 facebook、linkedin 相關社團提出討論，通常社群都會願意協助的。至於需要做多少題目呢？其實把本文學習資源的題目已是非常足夠，額外的練習，主要是用來增加信心，避免緊張。
 
-5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yh8gdpev)做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
+5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
 
 ### 免費模擬測試資源
 
