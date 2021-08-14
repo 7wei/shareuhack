@@ -20,11 +20,7 @@ recommendations:
       link: 'https://tinyurl.com/yzgyqkyg',
       src: 'Udemy',
     },
-    {
-      title: `Head First PMP: A Learner's Companion to Passing the Project Management Professional Exam`,
-      link: 'https://amzn.to/3xWWA5j',
-      src: 'Amazon'
-    }
+    { title: 'Head First PMP', link: 'https://amzn.to/3xWWA5j', src: 'Amazon' },
   ]
 references:
   [
