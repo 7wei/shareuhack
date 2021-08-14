@@ -20,6 +20,11 @@ recommendations:
       link: 'https://tinyurl.com/yzgyqkyg',
       src: 'Udemy',
     },
+    {
+      title: 'Head First PMP: A Learner's Companion to Passing the Project Management Professional Exam',
+      link: 'https://amzn.to/3xWWA5j',
+      src: 'Amazon'
+    }
   ]
 references:
   [
@@ -110,7 +115,9 @@ Well, come to the focus of this article, how to deal with the new version of the
 
 3. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g): Joseph Phillips course on Udemy, as long as you complete the course, assignments and experiments, you can get 35 PDUs, you can directly Meet the basic training requirements required to register for the PMP exam. This author will continue to update the latest PMP related content, so don’t worry about his content being out of date. We actually reviewed the course. The explanation of this course is clear. Even if you don't have a strong professional background, you can still have a good absorption, but if you are an experienced project manager, it may be a little boring. It is still recommended to read this course quickly, get PDUs, and have an overview of the entire knowledge structure.
 
-4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg): It is also Joseph's course, which is a bit like a sprint class before the exam, with 135 practice questions attached.
+4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg): PMP Essentials for PMBOK. Guide Everything You Must Know to Pass the PMP Exam. It is also Joseph's course, which is a bit like a sprint class before the exam, with 135 practice questions attached.
+
+5. [Head First PMP: A Learner's Companion to Passing the Project Management Professional Exam](https://amzn.to/3xWWA5j): Head First PMP teaches you the latest principles and certification objectives in The PMBOK® Guide in a unique and inspiring way. By putting PMP concepts into context, you’ll be able to understand, remember, and apply them—not just on the exam, but on the job. No wonder so many people have used Head First PMP as their sole source for passing the PMP exam.
 
 ### Preparation method
 
