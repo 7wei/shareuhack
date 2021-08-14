@@ -109,7 +109,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
                               <Link href={recommendation.link} passHref>
-                                <StyledLink>{recommendation.title}</StyledLink>
+                                <StyledLink target="_blank">{recommendation.title}</StyledLink>
                               </Link>
                             </li>
                           ))}
@@ -124,7 +124,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
                               <Link href={reference.link} passHref>
-                                <StyledLink>{reference.title}</StyledLink>
+                                <StyledLink target="_blank">{reference.title}</StyledLink>
                               </Link>
                             </li>
                           ))}
@@ -161,7 +161,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
                         <Link href={recommendation.link} passHref>
-                          <StyledLink>{recommendation.title}</StyledLink>
+                          <StyledLink target="_blank">{recommendation.title}</StyledLink>
                         </Link>
                       </li>
                     ))}
@@ -176,7 +176,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                     {post.references?.map((reference, idx) => (
                       <li key={idx}>
                         <Link href={reference.link} passHref>
-                          <StyledLink>{reference.title}</StyledLink>
+                          <StyledLink target="_blank">{reference.title}</StyledLink>
                         </Link>
                       </li>
                     ))}
