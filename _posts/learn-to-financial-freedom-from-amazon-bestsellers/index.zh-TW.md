@@ -1,5 +1,5 @@
 ---
-title: '樸實地成為自己金錢和生活的主宰-從Amazon暢銷書學習適合平凡人的財富自由之路'
+title: '樸實地成為自己金錢和生活的主宰|從Amazon暢銷書學習適合平凡人的財富自由之路'
 category: 'money'
 subCategory: 'finance'
 date: '2021-08-15'
