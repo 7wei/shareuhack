@@ -37,7 +37,7 @@ references:
 # related: []
 ---
 
-This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and be familiar with a front-end framework, and have a certain competitiveness in the job market.
+This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and is familiar with a front-end framework, and have a certain competitiveness in the job market.
 
 ## In-demand skills
 
@@ -51,13 +51,13 @@ Then go to understand the purpose of these skills. If you find it difficult to d
 
 ## Start Learning
 
-You may hear some sayings, learn HTML/CSS/JavaScript, just look at [MDN](https://developer.mozilla.org/en-US/) for yourself! Indeed, in the software world, most technologies are available Abundant resources are available for self-study, but as a novice novice, when you click in and look at the [MDN](https://developer.mozilla.org/en-US/) document, chances are you won’t see it for 30 minutes Just gave up.
+You may hear some sayings, learn HTML/CSS/JavaScript, just look at [MDN](https://developer.mozilla.org/en-US/) for yourself! Indeed, in the software world, most technologies are available Abundant resources are available for self-study, but as a novice, when you click in and look at the [MDN](https://developer.mozilla.org/en-US/) document, chances are you won’t see it for 30 minutes Just gave up.
 
 It is recommended to let the lecturer lead you through the online course. The advantage of taking the course is that you can follow the instructor to operate and practice. In the process of implementation, you will accumulate a lot of sense of accomplishment. Seeing the pictures you make, you will have more ideas.
 
 [The Complete Web Developer in 2021: Zero to Mastery](https://tinyurl.com/ydv2xz2w) is currently one of the most recommended courses for learning front-end basic concepts. Those who are completely inexperienced can follow it comfortably. The learning curve is smooth. Compared with other courses, the rate of students completing the course is very high. Follow the course to learn and implement. After the course, you will have a certain understanding of HTML/CSS/JS.
 
-After you have a certain understanding of HTML/CSS/JavaScript, you can continue to specialize in JavaScript. The most recommended on the Internet is [JavaScript: Understanding the Weird Parts](https://tinyurl.com/yemfgsgj), which is very suitable for people who want to understand JavaScript in depth, and will talk about many advanced object prototypes, closures, etc. Ideas and many errors that JavaScript is easy to encounter, and how to avoid them. Through this course, you can have a solid understanding of the language features and underlying knowledge of JS, and you can also learn to build your own framework and understand the source code of well-known frameworks.
+After you have a certain understanding of HTML/CSS/JavaScript, you can continue to specialize in JavaScript. The most recommended on the Internet is [JavaScript: Understanding the Weird Parts](https://tinyurl.com/yemfgsgj), which is very suitable for people who want to understand JavaScript in-depth, and will talk about many advanced object prototypes, closures, etc. Ideas and many errors that JavaScript is easy to encounter, and how to avoid them. Through this course, you can have a solid understanding of the language features and underlying knowledge of JS, and you can also learn to build your own framework and understand the source code of well-known frameworks.
 
 After laying the foundation, start to learn the front-end framework. If you have no idea, I suggest you learn React/Redux. [Stephen Grider](https://tinyurl.com/ydnr493j) is currently one of the most acclaimed lecturers, and his [Modern React with Redux](https://tinyurl.com/yehgynsv) is the most popular and must-buy Course. Through this course, you can quickly understand React and Redux, and you can quickly implement a small project, or you can design and implement your own work through the knowledge you have learned.
 

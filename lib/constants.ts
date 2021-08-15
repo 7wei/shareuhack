@@ -49,6 +49,7 @@ export const SubCategory = {
   frontendDev: 'frontendDev',
   projectManagement: 'projectManagement',
   eLearning: 'eLearning',
+  finance: 'finance',
 }
 
 export const Categories = [
@@ -74,22 +75,29 @@ export const Categories = [
   },
 ]
 
+const subcategoryBasePath = '/subcategories'
+
 export const SubCategories = [
   {
     key: SubCategory.frontendDev,
     category: Category.work,
-    link: `/subcategories/frontendDev`,
+    link: `${subcategoryBasePath}/${SubCategory.frontendDev}`,
   },
 
   {
     key: SubCategory.projectManagement,
     category: Category.knowledge,
-    link: `/subcategories/projectManagement`,
+    link: `${subcategoryBasePath}/${SubCategory.projectManagement}`,
   },
   {
     key: SubCategory.eLearning,
     category: Category.knowledge,
-    link: `/subcategories/eLearning`,
+    link: `${subcategoryBasePath}/eLearning`,
+  },
+  {
+    key: SubCategory.finance,
+    category: Category.money,
+    link: `${subcategoryBasePath}/${SubCategory.finance}`,
   },
 ]
 

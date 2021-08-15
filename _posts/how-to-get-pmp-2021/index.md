@@ -2,7 +2,7 @@
 title: '2021 PMP Say goodbye to the old version, the latest guide to pass!'
 category: 'knowledge'
 subCategory: 'projectManagement'
-excerpt: 'Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest status. But don’t worry, haven’t you found this article?'
+excerpt: 'Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest situation. But don’t worry, haven’t you found this article?'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
@@ -73,13 +73,13 @@ It may be annoying to fill in the form, but I still hope that everyone who wants
 
 Among them, it is worth mentioning that you will need to fill in the project experience when registering for the exam. You can refer to PMI's [Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0), as a basis for data preparation.
 
-If you are sure you want to get a PMP license, We suggest joining a paid member after registering an account. You will need to pay a membership fee of US$129/year and a one-time application fee of US$10. The main advantage is that the exam fee for members is US It’s $405 instead of US$555 for non-members. In fact, it’s a bit less expensive to add members. In addition, the most important point is that members can download the pdf file of the PMBOK® Guide for free.
+If you are sure you want to get a PMP license, We suggest joining a paid member after registering an account. You will need to pay a membership fee of US$129/year and a one-time application fee of US$10. The main advantage is that the exam fee for members is the US It’s $405 instead of US$555 for non-members. In fact, it’s a bit less expensive to add members. In addition, the most important point is that members can download the pdf file of the PMBOK® Guide for free.
 
 ## What has changed in the 2021 PMP exam? Why?
 
-Because the role of the project manager and the way and thinking of project management have evolved over time.
+Because the role of the project manager and the way and thinking of project management has evolved over time.
 
-PMI will continue to observe and analyze the work content and methods of the project manager, and review whether the knowledge content of the exam is out of date and needs to be updated. For example, PMI wants to emphasize agile management more than the previous version, which only focused on predictive waterfall, and this is also reflected in the updated version of the exam.
+PMI will continue to observe and analyze the work content and methods of the project manager and review whether the knowledge content of the exam is out of date and needs to be updated. For example, PMI wants to emphasize agile management more than the previous version, which only focused on the predictive waterfall, and this is also reflected in the updated version of the exam.
 
 The old version of the exam content is more limited to the project cycle of project management. The new version of the exam content will focus on the following three domains:
 
@@ -117,13 +117,13 @@ Well, come to the focus of this article, how to deal with the new version of the
 
 ### Preparation method
 
-1. Read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) to understand the outline and scope of the exam. In fact, if you have a certain amount of project manager experience, you may be relieved after reading it. You will find that these questions will not be difficult for you.
+1. Read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) to understand the outline and scope of the exam. In fact, if you have a certain amount of project management experience, you may be relieved after reading it. You will find that these questions will not be difficult for you.
 
-2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to read PMBOK or [Head First PMP](https://amzn.to/3xWWA5j) at the same time, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months you can complete this course.
+2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to read PMBOK or [Head First PMP](https://amzn.to/3xWWA5j) at the same time, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months, you can complete this course.
 
-3. Go over PMBOK again. In fact, after taking the online course, after reading the course, you have a high level of mastery of this knowledge system. It will not take too much time to see PMBOK.
+3. Go over PMBOK again. In fact, after taking the online course, after reading course, you have a high level of mastery of this knowledge system. It will not take too much time to see PMBOK.
 
-4. Start practicing mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be too constrained on the right or wrong of each question. The point is that you have to see these questions and be clear. If there is a vague part of the idea, go back to PMBOK as soon as possible, or you can discuss it on Facebook or LinkedIn related societies, usually the community will be willing to help. As for how many questions need to be done? In fact, the topic of the learning resources for this article is very sufficient. The additional exercises are mainly used to increase confidence and avoid getting nervous.
+4. Start practising mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be too constrained on the right or wrong of each question. The point is that you have to see these questions and be clear. If there is a vague part of the idea, go back to PMBOK as soon as possible, or you can discuss it on Facebook or LinkedIn related societies, usually, the community will be willing to help. As for how many questions need to be done? In fact, the topic of the learning resources for this article is very sufficient. The additional exercises are mainly used to increase confidence and avoid getting nervous.
 
 5. Before the exam, use [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) to do the final review. After finishing the course and completing the test questions, you can go into battle calmly.
 
