@@ -46,6 +46,7 @@ module.exports = {
     await config.transform(config, '/posts/how-to-become-a-frontend-engineer'),
     await config.transform(config, '/posts/how-to-get-best-price-on-udemy-courses'),
     await config.transform(config, '/posts/how-to-get-pmp-2021'),
+    await config.transform(config, '/posts/learn-to-financial-freedom-from-amazon-bestsellers'),
   ],
   robotsTxtOptions: {
     policies: [
