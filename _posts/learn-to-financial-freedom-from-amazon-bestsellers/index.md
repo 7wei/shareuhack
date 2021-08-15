@@ -1,5 +1,5 @@
 ---
-title: 'Best tips for ordinary people to be the master of your own money and life|learning from Amazon finance bestsellers'
+title: 'Best tips for ordinary people to be the master of your own money and life | learning from Amazon finance bestsellers'
 category: 'money'
 subCategory: 'finance'
 date: '2021-08-15'

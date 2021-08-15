@@ -1,5 +1,5 @@
 ---
-title: '朴实地成为自己金钱和生活的主宰|从Amazon畅销书学习适合平凡人的财富自由之路'
+title: '朴实地成为自己金钱和生活的主宰 | 从Amazon畅销书学习适合平凡人的财富自由之路'
 category: 'money'
 subCategory: 'finance'
 date: '2021-08-15'
