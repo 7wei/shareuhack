@@ -128,3 +128,10 @@ export const Locales = [
     region: '中国',
   },
 ]
+
+export const HotPostSlugs = [
+  'how-to-get-pmp-2021',
+  'how-to-become-a-frontend-engineer',
+  'how-to-get-best-price-on-udemy-courses',
+  'learn-to-financial-freedom-from-amazon-bestsellers',
+]

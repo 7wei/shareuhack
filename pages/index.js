@@ -1,5 +1,5 @@
 import { Grid, Box } from '@material-ui/core'
-import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts } from '../lib/api'
+import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
 import InfoCard from '../src/components/InfoCard/InfoCard'
@@ -16,7 +16,7 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useRouter } from 'next/router'
 
-export default function Index({ allPosts, heroPost, relatedPosts, categories, locale }) {
+export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
   const { locales } = useRouter()
@@ -81,7 +81,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
             {t('hottest')}
           </TYPE.header>
           <Box display="grid" gridGap="8px" mb="15px">
-            {allPosts.slice(0, 5).map((post) => (
+            {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none" passHref>
                 <StyledLink>
                   <TYPE.bold>{post.title}</TYPE.bold>
@@ -121,6 +121,7 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
 export async function getStaticProps({ locale }) {
   const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
+  const hotPosts = getHotPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ key, link }) => {
     // const category = Object.keys(Category).find((key) => Category[key] === title)
@@ -140,6 +141,7 @@ export async function getStaticProps({ locale }) {
       relatedPosts,
       categories,
       locale,
+      hotPosts,
     },
   }
 }
