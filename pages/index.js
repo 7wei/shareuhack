@@ -14,12 +14,12 @@ import PreviewRow from '../src/components/Post/PreviewRow'
 import Disclosure from '../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useRouter } from 'next/router'
 
 export default function Index({ allPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
-  // const router = useRouter()
-  // const { locale } = router
+  const { locales } = useRouter()
   const { t } = useTranslation('common')
 
   return (
@@ -28,6 +28,10 @@ export default function Index({ allPosts, heroPost, relatedPosts, categories, lo
         <title>{CMS_NAME}</title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        {locales.map((locale) => (
+          <link rel="alternate" hreflang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
+        ))}
+        <link rel="alternate" hreflang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container spacing={3}>

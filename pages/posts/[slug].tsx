@@ -25,7 +25,7 @@ import { useTranslation } from 'next-i18next'
 
 export default function Post({ post, morePosts, preview, category, subCategory }) {
   const router = useRouter()
-  const { locale } = router
+  const { locale, locales } = router
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + router.asPath
   const { t } = useTranslation('common')
@@ -70,6 +70,13 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
+            {locales.map((locale) => (
+              <link
+                rel="alternate"
+                hrefLang={locale}
+                href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`}
+              />
+            ))}
           </Head>
           <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (

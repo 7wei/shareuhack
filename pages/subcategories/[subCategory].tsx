@@ -18,7 +18,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
-  const { locale } = useRouter()
+  const { locale, locales } = useRouter()
 
   return (
     <>
@@ -30,6 +30,13 @@ export default function SubCategoryPage({ subCategory, posts }) {
         <meta property="og:title" content={`${CMS_NAME}- ${subCategoryTrans(subCategory.key)}`} />
         <meta property="og:description" content={subCategoryTrans(`${subCategory.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        {locales.map((locale) => (
+          <link
+            rel="alternate"
+            hrefLang={locale}
+            href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`}
+          />
+        ))}
       </Head>
       {/* <Disclosure /> */}
       <Grid container>

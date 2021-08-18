@@ -18,7 +18,7 @@ export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
-  const { locale } = useRouter()
+  const { locale, locales } = useRouter()
 
   return (
     <>
@@ -30,6 +30,14 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:title" content={`${CMS_NAME}- ${t(`${category.key}`)}`} />
         <meta property="og:description" content={t(`${category.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        {locales.map((locale) => (
+          <link
+            rel="alternate"
+            hrefLang={locale}
+            href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/categories/${category.key}`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container>
