@@ -6,16 +6,16 @@ date: '2021-07-17'
 excerpt: 'We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!'
 coverImage: '/assets/share-you-hack.png'
 ogImage:
-url: '/assets/share-you-hack.png'
+  url: '/assets/share-you-hack.png'
 ---
 
 ## What We do?
 
 We are keen to research, share and actually test practical knowledge and life secrets to help you do everything efficiently and become a LifeHacker!
 
-Nowadays, Internet information is too flooded. Our goal is: whether you want to learn workplace skills, cultivate interest, or optimise your life, you can use our articles to understand the minimum effort required to achieve your goals and be efficient Set the direction of the company to reduce the pressure and time cost of learning new things and new methods.
+Nowadays, Internet information is too flooded. Our goal is: whether you want to learn workplace skills, cultivate interest, or optimize your life, you can use our articles to understand the minimum effort required to achieve your goals and be efficient Set the direction of the company to reduce the pressure and time cost of learning new things and new methods.
 
-Shareuhack is a continuously growing project. We will do our best to ensure that all content of Shareuhack will be continuously updated and optimised as you evolve.
+Shareuhack is a continuously growing project. We will do our best to ensure that all content of Shareuhack will be continuously updated and optimized as you evolve.
 
 ## How We do?
 

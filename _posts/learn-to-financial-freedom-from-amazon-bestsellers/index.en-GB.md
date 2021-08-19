@@ -3,31 +3,31 @@ title: 'Best tips for ordinary people to be the master of your own money and lif
 category: 'money'
 subCategory: 'finance'
 date: '2021-08-15'
-excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article summarises the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.'
+excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article summarizes the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.'
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:
-url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 recommendations:
-[
-{
-title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
-link: 'https://amzn.to/3iLlvUQ',
-src: 'Amazon',
-},
-{
-title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
-link: 'https://amzn.to/3siebmQ',
-src: 'Amazon',
-},
-{
-title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
-link: 'https://amzn.to/3m37K5U',
-src: 'Amazon',
-},
-]
+  [
+    {
+      title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
+      link: 'https://amzn.to/3iLlvUQ',
+      src: 'Amazon',
+    },
+    {
+      title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
+      link: 'https://amzn.to/3siebmQ',
+      src: 'Amazon',
+    },
+    {
+      title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
+      link: 'https://amzn.to/3m37K5U',
+      src: 'Amazon',
+    },
+  ]
 ---
 
-Instead of discussing the Holy Grail of Wealth Freedom, this article summarises the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.
+Instead of discussing the Holy Grail of Wealth Freedom, this article summarizes the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.
 
 ## The Total Money Makeover: A Proven Plan for Financial Fitness
 
@@ -38,9 +38,9 @@ This book provides 7 simple steps to take you to reverse your financial decline.
 
 > Fact: The typical millionaire lives in a middle-class home, drives a car that's paid off and is at least two years old and buys jeans at Wal-Mart
 
-The most important point of this book is: learn to live your own life. You may feel that people around you are doing better than you, leading to low self-esteem, jealousy, and nervousness, which can easily cause many misjudgements in your decision-making. But in fact, most people actually "look" better than they really are. Debt and leverage have created this situation, but these are definitely not without risks. You can't understand everyone's true situation, but you don't need to understand. Don't judge yourself by comparison. Don't compare with others, just compare with yourself!
+The most important point of this book is: learn to live your own life. You may feel that people around you are doing better than you, leading to low self-esteem, jealousy, and nervousness, which can easily cause many misjudgments in your decision-making. But in fact, most people actually "look" better than they really are. Debt and leverage have created this situation, but these are definitely not without risks. You can't understand everyone's true situation, but you don't need to understand. Don't judge yourself by comparison. Don't compare with others, just compare with yourself!
 
-In addition, it must be emphasised that many people now advocate borrowing money for investment, but in fact, more or less, there will be some survivor deviations. Compared with the huge risk, it will be more appropriate to repay large debts as soon as possible and shorten the loan time as much as possible. way of doing.
+In addition, it must be emphasized that many people now advocate borrowing money for investment, but in fact, more or less, there will be some survivor deviations. Compared with the huge risk, it will be more appropriate to repay large debts as soon as possible and shorten the loan time as much as possible. way of doing.
 
 ### Keynotes
 
@@ -67,7 +67,7 @@ It mentions a way to diversify investment: divide your funds into three buckets,
 2. Growth bucket: more risk, more rate of return, such as the stock market.
 3. Dream bucket: Put part of the income from other investments into the Dream bucket and try the life you want to experience more!
 
-> If you want to change your life, you have to change your strategy, you have to change your storey and you have to change your state
+> If you want to change your life, you have to change your strategy, you have to change your story and you have to change your state
 
 Most importantly, your goal is to live the life you want, not just to have large savings. If you do not configure the Dream bucket, your savings and investment will become meaningless. The most important thing is to exchange money for meaningful and valuable experience, and to continue to grow!
 
