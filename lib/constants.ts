@@ -137,6 +137,11 @@ export const Locales = [
     language: '简体中文',
     region: '中国',
   },
+  {
+    key: 'ja-JP',
+    language: '日本語',
+    region: '日本',
+  },
 ]
 
 export const HotPostSlugs = [

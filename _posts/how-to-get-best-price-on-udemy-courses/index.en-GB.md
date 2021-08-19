@@ -68,8 +68,7 @@ Ask if the company has a programme to subsidise learning, or if the company part
 
 ### 8. Hunting for coupon
 
-You can look for discount codes on the Internet, but many circulated on the Internet are expired, which may take some time. If you are buying for the first time, you can click on the link below, [Udemy](https://tinyurl.com/yhdgtddt) will provide new customer discounts!
-[![image info](https://affsrc.com/track/imp/img/97032/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=)](https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F)
+You can look for discount codes on the Internet, but many circulated on the Internet are expired, which may take some time. If you are buying for the first time, you can also click this: [Udemy](https://tinyurl.com/yhdgtddt) to get new customer discounts!
 
 ### 9. Pretend to be a new customer
 
