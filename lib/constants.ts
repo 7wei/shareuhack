@@ -103,14 +103,14 @@ export const SubCategories = [
 
 export const Locales = [
   {
-    key: 'en-GB',
-    language: 'English',
-    region: 'United Kingdom',
-  },
-  {
     key: 'en-US',
     language: 'English',
     region: 'United State',
+  },
+  {
+    key: 'en-GB',
+    language: 'English',
+    region: 'United Kingdom',
   },
   {
     key: 'en-SG',
