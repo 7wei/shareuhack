@@ -6,21 +6,21 @@ excerpt: 'If you want to learn a new thing, the first online course platform may
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 date: '2021-07-22'
 ogImage:
-url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+  url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 credentials: ['Took 30+Udemy courses', 'Read 20+ articles']
 recommendations:
-[
-{
-title: 'Udemy official new customer offer',
-link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
-src: 'Udemy',
-},
-]
+  [
+    {
+      title: 'Udemy official new customer offer',
+      link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
+      src: 'Udemy',
+    },
+  ]
 references:
-[
-{ title: 'Udemy', link: 'https://tinyurl.com/yzf5koxg' },
-{ title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
-]
+  [
+    { title: 'Udemy', link: 'https://tinyurl.com/yzf5koxg' },
+    { title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
+  ]
 # related: []
 ---
 
@@ -32,9 +32,9 @@ If you want to learn a new thing, the first online course platform may be [Udemy
 
 ## Udemy saving strategy
 
-### 1. Udemy Free Learning Centre
+### 1. Udemy Free Learning Center
 
-The most cost-effective way is to browse [Udemy Free Learning Centre](https://tinyurl.com/yfbaghja). Free courses are usually not in-depth. It is recommended that they can be used as a free introduction or introductory course resource library. It is recommended to use the filter criteria to find highly evaluated courses. Many lecturers will teach more than one course. You can use this free course first and try it out. Look at the lecturer symbol does not match your own tone.
+The most cost-effective way is to browse [Udemy Free Learning Center](https://tinyurl.com/yfbaghja). Free courses are usually not in-depth. It is recommended that they can be used as a free introduction or introductory course resource library. It is recommended to use the filter criteria to find highly evaluated courses. Many lecturers will teach more than one course. You can use this free course first and try it out. Look at the lecturer symbol does not match your own tone.
 
 ### 2. Udemy special offer
 
@@ -62,9 +62,9 @@ Please refer to [Udemy Terms of Use](https://tinyurl.com/yzly7hek). If the cours
 
 [Udemy Pro](https://tinyurl.com/yhgfsrwr) is designed to focus on package learning and assist students to pass IT-related certifications. All content can be accessed at any time during the subscription period, and there is a 7-day free trial, It is recommended to first go to the [Udemy Pro](https://tinyurl.com/yhgfsrwr) page to see which courses are fortunate to watch, arrange the further study plan, and complete the most courses in the shortest subscription time!
 
-### 7. Ask the company to subsidise
+### 7. Ask the company to subsidize
 
-Ask if the company has a programme to subsidise learning, or if the company participates in the [Udemy Business](https://tinyurl.com/ygzsqe9j) programme. There is always a chance!
+Ask if the company has a program to subsidize learning, or if the company participates in the [Udemy Business](https://tinyurl.com/ygzsqe9j) program. There is always a chance!
 
 ### 8. Hunting for coupon
 
