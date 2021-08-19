@@ -6,37 +6,37 @@ excerpt: 'Those who are following these PMP licences may find that the PMP exam 
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
-url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
+  url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['Interview with 2+ PMP', 'Read 30+ articles', 'viewed 3+ online courses']
 recommendations:
-[
-{
-title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
-link: 'https://tinyurl.com/yfen2p3g',
-src: 'Udemy',
-},
-{
-title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
-link: 'https://tinyurl.com/yzgyqkyg',
-src: 'Udemy',
-},
-{ title: 'Head First PMP', link: 'https://amzn.to/3xWWA5j', src: 'Amazon' },
-]
+  [
+    {
+      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      link: 'https://tinyurl.com/yfen2p3g',
+      src: 'Udemy',
+    },
+    {
+      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      link: 'https://tinyurl.com/yzgyqkyg',
+      src: 'Udemy',
+    },
+    { title: 'Head First PMP', link: 'https://amzn.to/3xWWA5j', src: 'Amazon' },
+  ]
 references:
-[
-{
-title: 'How The PMP Exam is Changing in 2021',
-link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
-},
-{
-title: 'PMP Exam Reference List',
-link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552',
-},
-{
-title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
-link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
-},
-]
+  [
+    {
+      title: 'How The PMP Exam is Changing in 2021',
+      link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
+    },
+    {
+      title: 'PMP Exam Reference List',
+      link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552',
+    },
+    {
+      title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
+      link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
+    },
+  ]
 # related: []
 # tags: []
 ---
@@ -87,7 +87,7 @@ The old version of the exam content is more limited to the project cycle of proj
 2. Process (50%): Emphasise the technology of project management
 3. Business Environment (8%): ​​Emphasise the link between the project and the organisational strategy
 
-This change is something we are happy to see. Faced with the current dynamic environment, the domain that the new version focuses on is indeed much closer to the status quo. We can expect that the new version of the exam will have more situational questions related to the above three domains, and there will also be more agile or hybrid concepts. According to the official statement, half of the questions will be predictive and the other half will be agile/ hybrid.
+This change is something we are happy to see. Faced with the current dynamic environment, the domain that the new version focuses on is indeed much closer t1o the status quo. We can expect that the new version of the exam will have more situational questions related to the above three domains, and there will also be more agile or hybrid concepts. According to the official statement, half of the questions will be predictive and the other half will be agile/ hybrid.
 
 ## PMBOK 6 vs PMBOK 7
 
@@ -131,6 +131,6 @@ Well, come to the focus of this article, how to deal with the new version of the
 
 1. [pmppracticeexam.org](https://www.pmppracticeexam.org/)
 
-2. [Edwel Programmes](https://www.edwel.com/Free-Resources/PMP-Certification-Practise-Exam.aspx)
+2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx)
 
 3. [PM Exam Simulator](https://free.pm-exam-simulator.com/)

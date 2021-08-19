@@ -72,6 +72,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             <meta property="og:image" content={post.ogImage.url} />
             {locales.map((locale) => (
               <link
+                key={locale}
                 rel="alternate"
                 hrefLang={locale}
                 href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`}

@@ -2,7 +2,7 @@
 title: '2021 PMP合格する最新のガイド、古いバージョンに別れを告げる！'
 category: 'knowledge'
 subCategory: 'projectManagement'
-excerpt: 'Those who are following these PMP licenses may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest situation. But don’t worry, haven’t you found this article?'
+excerpt: 'これらのPMPライセンスをフォローしている人は、PMP試験が2021年に改訂されることに気付くかもしれません。そのため、現在検索されているPMP試験の写真の共有に関する記事は最新の状況とは異なる場合があります。 しかし、心配しないでください、あなたはこの記事を見つけませんでしたか？'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
