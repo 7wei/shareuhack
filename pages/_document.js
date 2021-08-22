@@ -2,6 +2,7 @@ import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheets } from '@material-ui/core/styles'
 import theme from '../src/theme'
+import { useRouter } from 'next/router'
 
 export default class MyDocument extends Document {
   render() {
@@ -11,11 +12,11 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
           <meta property="og:site_name" content="Shareuhack: Hack Your Life" />
+
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           />
-
           <script
             dangerouslySetInnerHTML={{
               __html: `

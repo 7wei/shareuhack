@@ -19,7 +19,9 @@ import { useRouter } from 'next/router'
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
-  const { locales } = useRouter()
+  const router = useRouter()
+  const { locales } = router
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale
   const { t } = useTranslation('common')
 
   return (
@@ -32,6 +34,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <link rel="alternate" hreflang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
         ))}
         <link rel="alternate" hreflang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
+        <link rel="canonical" href={url} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container spacing={3}>

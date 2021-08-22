@@ -19,6 +19,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`
 
   return (
     <>
@@ -37,6 +38,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
             href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`}
           />
         ))}
+        <link rel="canonical" href={url} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container>

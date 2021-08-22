@@ -19,6 +19,7 @@ export default function CategoryPage({ category, subCategories }) {
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/categories/${category.key}`
 
   return (
     <>
@@ -38,6 +39,7 @@ export default function CategoryPage({ category, subCategories }) {
           />
         ))}
         <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
+        <link rel="canonical" href={url} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container>
