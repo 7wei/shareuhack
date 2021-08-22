@@ -51,13 +51,16 @@ export default function Footer() {
   return (
     <Box className={classes.root}>
       <Container>
-        <Box display="flex" alignItems="center" gridColumnGap="16px" paddingTop="36px">
+        <Box display="flex" alignItems="center" paddingTop="36px">
           {NavLinks.map((link) => (
-            <Link key={link.key} href={link.link} passHref locale={locale}>
-              <MuiLink className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</MuiLink>
-            </Link>
+            <Box margin="0 8px">
+              <Link key={link.key} href={link.link} passHref locale={locale}>
+                <MuiLink className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</MuiLink>
+              </Link>
+            </Box>
           ))}
         </Box>
+
         <Box display="flex" justifyContent="space-between" marginTop="30px">
           <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start">
             <Link href={Routes.about} passHref locale={locale}>
