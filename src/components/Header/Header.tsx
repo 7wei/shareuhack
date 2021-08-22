@@ -71,11 +71,13 @@ export default function Header() {
         <Box display="flex" justifyContent="center">
           {matches && <LanguageSelector />}
         </Box>
-        <Box display="flex" height="80px" alignItems="center" justifyContent="center" gridColumnGap="16px">
+        <Box display="flex" height="80px" alignItems="center" justifyContent="center">
           {NavLinks.map((link) => (
-            <Link key={link.key} href={link.link} passHref>
-              <a className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</a>
-            </Link>
+            <Box margin="0 8px">
+              <Link key={link.key} href={link.link} passHref>
+                <a className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</a>
+              </Link>
+            </Box>
           ))}
         </Box>
       </Container>
