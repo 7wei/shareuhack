@@ -150,6 +150,31 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                     <Shares />
                   </>
                 )}
+                {/* <a href="https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202109">
+                  <img src="https://ap.books.com.tw/web/apProductStick/0010825895/blue/0/7" />
+                </a> */}
+
+                {!matches && locale == 'zh-TW' && (
+                  <>
+                    <iframe
+                      src="https://www.books.com.tw/sticker/book66/"
+                      width="175"
+                      height="270"
+                      frameborder="0"
+                      scrolling="no"
+                      marginwidth="0"
+                      allowtransparency="true"
+                    ></iframe>
+                    <iframe
+                      height="370"
+                      frameborder="0"
+                      width="200"
+                      scrolling="no"
+                      marginwidth="0"
+                      src="http://www.books.com.tw/sticker/getSticker/home"
+                    ></iframe>
+                  </>
+                )}
               </Box>
             </Grid>
             <Grid item sm={9}>
@@ -204,6 +229,16 @@ export default function Post({ post, morePosts, preview, category, subCategory }
               <TYPE.body mt="5px" mb="10px" textAlign="center">
                 分享這篇文章
               </TYPE.body> */}
+              {locale == 'zh-TW' && (
+                <iframe
+                  height="370"
+                  frameborder="0"
+                  width="100%"
+                  scrolling="no"
+                  marginwidth="0"
+                  src="http://www.books.com.tw/sticker/getSticker/home"
+                ></iframe>
+              )}
             </>
           )}
         </>
