@@ -25,7 +25,7 @@ recommendations:
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
       src: '博客來',
     },
-    { title: '深入浅出 PMP', link: 'https://tinyurl.com/yz7j6xb5', src: '金石堂' },
+    { title: '深入浅出 PMP', link: 'https://joymall.co/2sAdt', src: '金石堂' },
   ]
 references:
   [
@@ -118,6 +118,18 @@ PMBOK 6 和 7 主要的差别在于，相对于第六版着重于专案管理过
 ## 如何准备
 
 好了，来到本文的重点，如何应对新版考试，到底该如何准备呢，其实新版的考试，对于新考生来说，是没有差别的，就是把该上的课程、该读的材料，好好的给他念一遍就是了，以下是我们推荐的准备方式：
+
+### 准备材料
+
+1.[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668): PMP 官方提供的考试大纲，这文件会告诉你考试到底会包含哪些内容。
+
+2. PMI 官方 PMBOK GUIDE 6：PMI 专案管理知识体系的标准，PMI 会员可以免费下载 pdf 档案。
+
+3.[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)：Udemy 上的 Joseph Phillips 课程，只要完成课程、作业和试验，即获得 35 个 PDU，可以直接满足美容 PMP 的基本培训需要这位作者会持续更新最新的 PMP 相关内容，所以不需要他的内容。专业背景，也都可以有很好的吸收，但如果是资深专长的专案经理，可能会略嫌无趣。还是建议快速浏览此课程，整个获取 PDU，也可以对知识财产进行概观。
+
+4.[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)：同样也是 Joseph 的课程，有点像考前冲刺班，里面有附 135 题练习题。
+
+5.[深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：即将诞生的方式完成 PMBOK 的内容，还提供了知识的练习题，帮助掌握相关的知识，了解专案管理经验尚浅的人，或者只是想先了解项目管理知识，还没有确定要踏入职业的这人，可以先看这本书了解整个专案管理的基本知识和脉络。
 
 ### 准备方式
 

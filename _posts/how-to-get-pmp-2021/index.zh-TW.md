@@ -25,7 +25,7 @@ recommendations:
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
       src: '博客來',
     },
-    { title: '深入淺出 PMP', link: 'https://tinyurl.com/yz7j6xb5', src: '金石堂' },
+    { title: '深入淺出 PMP', link: 'https://joymall.co/2sAdt', src: '金石堂' },
   ]
 references:
   [
@@ -127,9 +127,9 @@ PMBOK 6 和 7 主要的差別在於，相對於第六版著重於專案管理過
 
 3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)：Udemy 上的 Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得 35 PDUs，可以直接滿足報名 PMP 考試所需要的基本培訓需求。這位作者會持續的更新最新的 PMP 相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取 PDUs，也對整個知識架構有個概觀。
 
-4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)：同樣也是 Joseph 的課程，有點像是考前衝刺班，裡面有附 135 題練習題。
+4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)：同樣也是 Joseph 在 Udemy 上架的課程，有點像是考前衝刺班，裡面有附 135 題練習題。
 
-5. [深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：以視覺化較活潑生動的方式涵蓋 PMBOK 的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
+5. [深入淺出 PMP](https://joymall.co/2sAdt) ([博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108) | [金石堂](https://joymall.co/2sAdt))：以視覺化較活潑生動的方式涵蓋 PMBOK 的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
 ### 準備方式
 
