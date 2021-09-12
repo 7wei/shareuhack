@@ -8,8 +8,7 @@ date: '2021-07-18'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['访问2位考取PMP的专案经理', '阅读30+篇网路上的文章', '实际观看3+个线上课程']
-recommendations:
-  [
+recommendations: [
     {
       title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
       link: 'https://tinyurl.com/yfen2p3g',
@@ -25,7 +24,7 @@ recommendations:
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
       src: '博客來',
     },
-    { title: '深入浅出 PMP', link: 'https://joymall.co/2sAdt', src: '金石堂' },
+    # { title: '深入浅出 PMP', link: 'https://joymall.co/2sAdt', src: '金石堂' },
   ]
 references:
   [
