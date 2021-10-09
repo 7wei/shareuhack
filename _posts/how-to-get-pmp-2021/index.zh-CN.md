@@ -1,5 +1,5 @@
 ---
-title: '2021 PMP 挥别旧版，最新考取攻略！ '
+title: '2021 新版PMP证照考取攻略！'
 category: 'knowledge'
 subCategory: 'projectManagement'
 excerpt: '有在关注这PMP个证照的人，可能会发现 PMP 考试在 2021 改版，所以现在搜寻到的关于分享 PMP 考照的就文章，可能会和最新状况有所出入。不过别担心，你不是已经找到这篇文章了吗？让我们来看看新版PMP的考取攻略吧！'
