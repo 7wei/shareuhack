@@ -8,8 +8,7 @@ date: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家', '閱讀5本相關書籍']
-recommendations:
-  [
+recommendations: [
     { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
     {
       title: 'Successful Negotiation: Essential Strategies and Skills',
@@ -41,16 +40,16 @@ recommendations:
     {
       title: '鏡與窗談判課',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '金石堂',
+      src: '博客來',
     },
-    { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf8mbvte', src: '博客來' },
-    { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
+    { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
+    # { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
     {
       title: '華頓商學院最受歡迎的談判課',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
       src: '博客來',
     },
-    { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
+    # { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
     {
       title: 'FBI談判協商術',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',

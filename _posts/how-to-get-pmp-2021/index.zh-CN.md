@@ -36,10 +36,6 @@ references:
       title: 'How The PMP Exam is Changing in 2021',
       link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
     },
-    {
-      title: '2021 PMP 证照考试的资源整理 — 考照前',
-      link: 'https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1',
-    },
     { title: 'PTT- P_Management 版', link: 'https://www.ptt.cc/bbs/P_Management/index.html' },
     {
       title: 'PMP Exam Reference List',
@@ -84,7 +80,7 @@ references:
 
 填表格或许很烦，但还是希望要考照的各位可以独立遵循着网站的指示去申请，毕竟作为一个专业的专案经理，这应该是很基本的技能吧？
 
-其中值得一提的是，报名考试会需要填写专案经验，可参考 PMI 的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0)，作为资料准备的依据，也可以参考这篇中文文章-[2021 PMP 证照考试的资源整理 — 考照前](https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1)来填写专案经验。
+其中值得一提的是，报名考试会需要填写专案经验，可参考 PMI 的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0)，作为资料准备的依据。
 
 如果很确定要考取 PMP 证照，会建议注册帐户后，也加入付费会员，会需要支付 US$129/year 的会员费用，还有 US$10 一次性申请费用，主要的好处是，会员的考试费用为 US$405，而非会员要 US$555，因次加了会员，其实还是比较省一点，此外最重要的一点，会员可以免费下载 PMBOK® Guide 的 pdf 档案。
 

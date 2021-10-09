@@ -8,8 +8,7 @@ date: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['观看10+线上课程', '阅读30+篇网路上的文章', '访谈3位职场专家', '阅读5本相关书籍']
-recommendations:
-  [
+recommendations: [
     { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
     {
       title: 'Successful Negotiation: Essential Strategies and Skills',
@@ -41,16 +40,16 @@ recommendations:
     {
       title: '镜与窗谈判课',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '金石堂',
+      src: '博客來',
     },
-    { title: '镜与窗谈判课', link: 'https://tinyurl.com/yf8mbvte', src: '博客來' },
+    # { title: '镜与窗谈判课', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
     { title: '华顿商学院最受欢迎的谈判课', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
     {
       title: '华顿商学院最受欢迎的谈判课',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
       src: '博客來',
     },
-    { title: 'FBI谈判协商术', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
+    # { title: 'FBI谈判协商术', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
     {
       title: 'FBI谈判协商术',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',

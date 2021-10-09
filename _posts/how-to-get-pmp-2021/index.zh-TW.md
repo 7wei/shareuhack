@@ -36,10 +36,6 @@ references:
       title: 'How The PMP Exam is Changing in 2021',
       link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
     },
-    {
-      title: '2021 PMP 證照考試的資源整理 — 考照前',
-      link: 'https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1',
-    },
     { title: 'PTT- P_Management 版', link: 'https://www.ptt.cc/bbs/P_Management/index.html' },
     {
       title: 'PMP Exam Reference List',
@@ -84,7 +80,7 @@ references:
 
 填表格或許很煩，但還是希望要考照的各位可以獨立遵循著網站的指示去申請，畢竟作為一個專業的專案經理，這應該是很基本的技能吧？
 
-其中值得一提的是，報名考試會需要填寫專案經驗，可參考 PMI 的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0)，作為資料準備的依據，也可以參考這篇中文文章-[2021 PMP 證照考試的資源整理 — 考照前](https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/2021-pmp-%E8%AD%89%E7%85%A7%E6%BA%96%E5%82%99%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86-%E8%80%83%E7%85%A7%E5%89%8D-bf400a331cc1)來填寫專案經驗。
+其中值得一提的是，報名考試會需要填寫專案經驗，可參考 PMI 的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0)，作為資料準備的依據。
 
 如果很確定要考取 PMP 證照，會建議註冊帳戶後，也加入付費會員，會需要支付 US$129/year 的會員費用，還有 US$10 一次性申請費用，主要的好處是，會員的考試費用為 US$405，而非會員要 US$555，因次加了會員，其實還是比較省一點，此外最重要的一點，會員可以免費下載 PMBOK® Guide 的 pdf 檔案。
 
