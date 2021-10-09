@@ -90,7 +90,7 @@ references:
 
 PMI 會持續的觀察和分析專案經理的工作內容和方式，並回顧考試的知識內容，是否已經過時、需要更新。比如說，比起舊版只專注於預測型(predictive)的 waterfall，PMI 想要更強調些敏捷式(agile)的管理，也在更新版的考試反應了這點。
 
-舊版的考試內容，比較侷限於專案管理的專案週期，強調五大流程、十大知識領域，各個子流程，欲了解可以參考這篇[一個月內考取 PMP 證照攻略，PMP 實際上有用嗎？](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)，這是 2018 年的一篇考取證照的精闢心得，清楚明瞭的寫出準備考試的方式，很方便我們一探舊版考試的面貌。
+舊版的考試內容，比較侷限於專案管理的專案週期，強調五大流程、十大知識領域，各個子流程，欲了解可以參考這篇[一個月內考取 PMP 證照攻略，PMP 實際上有用嗎？](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)
 
 新版的考試內容，會著重於以下三個 domain:
 

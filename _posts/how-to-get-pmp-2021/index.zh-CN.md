@@ -90,7 +90,7 @@ references:
 
 PMI 会持续的观察和分析专案经理的工作内容和方式，并回顾考试的知识内容，是否已经过时、需要更新。比如说，比起旧版只专注于预测型(predictive)的 waterfall，PMI 想要更强调些敏捷式(agile)的管理，也在更新版的考试反应了这点。
 
-旧版的考试内容，比较局限于专案管理的专案周期，强调五大流程、十大知识领域，各个子流程，欲了解可以参考这篇[一个月内考取 PMP 证照攻略，PMP 实际上有用吗？ ](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)，这是 2018 年的一篇考取证照的精辟心得，清楚明了的写出准备考试的方式，很方便我们一探旧版考试的面貌。
+旧版的考试内容，比较局限于专案管理的专案周期，强调五大流程、十大知识领域，各个子流程，欲了解可以参考这篇[一个月内考取 PMP 证照攻略，PMP 实际上有用吗？ ](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)。
 
 新版的考试内容，会着重于以下三个 domain:
 
