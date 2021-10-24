@@ -6,25 +6,25 @@ date: '2021-08-15'
 excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article summarises the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.'
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:
-url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 recommendations:
-[
-{
-title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
-link: 'https://tinyurl.com/yj98jxjx',
-src: 'Kinokuniya',
-},
-{
-title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
-link: 'https://amzn.to/3siebmQ',
-src: 'Amazon',
-},
-{
-title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
-link: 'https://tinyurl.com/yjjpgqgh',
-src: 'Kinokuniya',
-},
-]
+  [
+    {
+      title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
+      link: 'https://tinyurl.com/yj98jxjx',
+      src: 'Kinokuniya',
+    },
+    {
+      title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
+      link: 'https://amzn.to/3siebmQ',
+      src: 'Amazon',
+    },
+    {
+      title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
+      link: 'https://tinyurl.com/yjjpgqgh',
+      src: 'Kinokuniya',
+    },
+  ]
 ---
 
 Instead of discussing the Holy Grail of Wealth Freedom, this article summarises the key messages from several reputable authors of Amazon’s finance bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.

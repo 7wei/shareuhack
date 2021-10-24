@@ -6,21 +6,21 @@ excerpt: 'If you want to learn a new thing, the first online course platform may
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 date: '2021-07-22'
 ogImage:
-url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+  url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 credentials: ['Took 30+Udemy courses', 'Read 20+ articles']
 recommendations:
-[
-{
-title: 'Udemy official new customer offer',
-link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
-src: 'Udemy',
-},
-]
+  [
+    {
+      title: 'Udemy official new customer offer',
+      link: 'https://abzcoupon.com/track/clicks/4546/ce2bc2b79e0123ddefcda67f8835ce13286c4ec17cebf0ab416db6006302?subid_1=&subid_2=&subid_3=&subid_4=&subid_5=&t=https%3A%2F%2Fwww.udemy.com%2F',
+      src: 'Udemy',
+    },
+  ]
 references:
-[
-{ title: 'Udemy', link: 'https://tinyurl.com/yzf5koxg' },
-{ title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
-]
+  [
+    { title: 'Udemy', link: 'https://tinyurl.com/yzf5koxg' },
+    { title: 'Udemy Terms of Use', link: 'https://tinyurl.com/yzly7hek' },
+  ]
 # related: []
 ---
 
@@ -51,8 +51,6 @@ During some festivals, [Udemy](https://tinyurl.com/yhdgtddt) usually has some sp
 ### 4. Turn on Udemy's promotion notification
 
 Open the promotion notification to ensure that discount opportunities are not missed. At the same time, it is also recommended to open the announcement of registered course lecturers. Good lecturers usually update the latest relevant knowledge and news at any time, which is a good newsletter.
-
-![Open Udemy's promotion notification](https://i.imgur.com/NaVDSkb.png)
 
 ### 5. 30-day unconditional refund
 

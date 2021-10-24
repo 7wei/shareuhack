@@ -6,7 +6,7 @@ date: '2021-07-17'
 excerpt: 'We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!'
 coverImage: '/assets/share-you-hack.png'
 ogImage:
-url: '/assets/share-you-hack.png'
+  url: '/assets/share-you-hack.png'
 ---
 
 ## What We do?

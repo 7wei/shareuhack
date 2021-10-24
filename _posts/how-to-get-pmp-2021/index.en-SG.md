@@ -6,37 +6,37 @@ excerpt: 'Those who are following these PMP licences may find that the PMP exam 
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
-url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
+  url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['Interview with 2+ PMP', 'Read 30+ articles', 'viewed 3+ online courses']
 recommendations:
-[
-{
-title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
-link: 'https://tinyurl.com/yfen2p3g',
-src: 'Udemy',
-},
-{
-title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
-link: 'https://tinyurl.com/yzgyqkyg',
-src: 'Udemy',
-},
-{ title: 'Head First PMP', link: 'https://tinyurl.com/ydms725t', src: 'Kinokuniya' },
-]
+  [
+    {
+      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      link: 'https://tinyurl.com/yfen2p3g',
+      src: 'Udemy',
+    },
+    {
+      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      link: 'https://tinyurl.com/yzgyqkyg',
+      src: 'Udemy',
+    },
+    { title: 'Head First PMP', link: 'https://tinyurl.com/ydms725t', src: 'Kinokuniya' },
+  ]
 references:
-[
-{
-title: 'How The PMP Exam is Changing in 2021',
-link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
-},
-{
-title: 'PMP Exam Reference List',
-link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552',
-},
-{
-title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
-link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
-},
-]
+  [
+    {
+      title: 'How The PMP Exam is Changing in 2021',
+      link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
+    },
+    {
+      title: 'PMP Exam Reference List',
+      link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552',
+    },
+    {
+      title: 'PMBOK 7 vs PMBOK 6: Top Differences You Need to Know',
+      link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
+    },
+  ]
 # related: []
 # tags: []
 ---

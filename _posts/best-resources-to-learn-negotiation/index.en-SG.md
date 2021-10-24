@@ -6,39 +6,39 @@ excerpt: 'Negotiation is omnipresent in life. Negotiations are required for buyi
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 date: '2021-07-31'
 ogImage:
-url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
+  url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['Viewed 10+ courses', 'Read 30+ articles', 'Interview with 3 experts', 'Read 5 books']
 recommendations:
-[
-{ title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
-{
-title: 'Successful Negotiation: Essential Strategies and Skills',
-link: 'https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera',
-src: 'Coursera',
-},
-{
-title: 'Successful Negotiation: Master Your Negotiating Skills',
-link: 'https://tinyurl.com/yzr9k6nr',
-src: 'Udemy',
-},
-{ title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/ygl3k6q6', src: 'Udemy' },
-{
-title: 'Negotiation Fundamentals: How To Negotiate Effectively',
-link: 'https://tinyurl.com/ydu698gg',
-src: 'Udemy',
-},
-{ title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
-{
-title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
-link: 'https://tinyurl.com/ygn4o8fg',
-src: 'Kinokuniya',
-},
-{
-title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
-link: 'https://tinyurl.com/ydme7ml7',
-src: 'Kinokuniya',
-},
-]
+  [
+    { title: 'Harvard Negotiation Course', link: 'https://online.hbs.edu/courses/negotiation/', src: 'Harvard' },
+    {
+      title: 'Successful Negotiation: Essential Strategies and Skills',
+      link: 'https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera',
+      src: 'Coursera',
+    },
+    {
+      title: 'Successful Negotiation: Master Your Negotiating Skills',
+      link: 'https://tinyurl.com/yzr9k6nr',
+      src: 'Udemy',
+    },
+    { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/ygl3k6q6', src: 'Udemy' },
+    {
+      title: 'Negotiation Fundamentals: How To Negotiate Effectively',
+      link: 'https://tinyurl.com/ydu698gg',
+      src: 'Udemy',
+    },
+    { title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
+    {
+      title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
+      link: 'https://tinyurl.com/ygn4o8fg',
+      src: 'Kinokuniya',
+    },
+    {
+      title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
+      link: 'https://tinyurl.com/ydme7ml7',
+      src: 'Kinokuniya',
+    },
+  ]
 references: []
 # related: []
 # tags: ['negotiation', '談判', '職場', '個人成長', '議價', '線上學習']
