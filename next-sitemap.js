@@ -28,6 +28,10 @@ module.exports = {
       href: `${siteUrl}/zh-MO`,
       hreflang: 'zh-MO',
     },
+    {
+      href: `${siteUrl}/en-SG`,
+      hreflang: 'en-SG',
+    },
   ],
   // Default transformation function
   transform: async (config, path) => {
