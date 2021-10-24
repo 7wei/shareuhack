@@ -11,8 +11,8 @@ recommendations:
 [
 {
 title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
-link: 'https://amzn.to/3iLlvUQ',
-src: 'Amazon',
+link: 'https://tinyurl.com/yj98jxjx',
+src: 'Kinokuniya',
 },
 {
 title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
@@ -21,8 +21,8 @@ src: 'Amazon',
 },
 {
 title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
-link: 'https://amzn.to/3m37K5U',
-src: 'Amazon',
+link: 'https://tinyurl.com/yjjpgqgh',
+src: 'Kinokuniya',
 },
 ]
 ---
@@ -32,7 +32,7 @@ Instead of discussing the Holy Grail of Wealth Freedom, this article summarises 
 ## The Total Money Makeover: A Proven Plan for Financial Fitness
 
 - Author: Dave Ramsey
-- Link: [Amazon](https://amzn.to/3iLlvUQ)
+- Link: [Amazon](https://tinyurl.com/yj98jxjx)
 
 This book provides 7 simple steps to take you to reverse your financial decline. Through these methods, you can regain a financially secure life and start planning for the future, moving towards a comfortable and meaningful life and retirement.
 
@@ -84,7 +84,7 @@ Most importantly, your goal is to live the life you want, not just to have large
 ## The Psychology of Money: Timeless lessons on wealth, greed, and happiness
 
 -Author: Housel, Morgan
--Link: [Amazon](https://amzn.to/3m37K5U)
+-Link: [Amazon](https://tinyurl.com/yjjpgqgh)
 
 In the real world, people’s financial decisions are always more irrational than expected. Many decisions, such as when you are about to go bankrupt, betting a lot of lotteries, using leveraged gambling, etc., are very irrational, but For the individual, this action seems to make some sense. The same is true for investment. People's investment is usually influenced by their own life experience and personality, rather than a calm analysis of the market situation. For example, those who have experienced financial turmoil and those who have been stable and long-term as soon as they entered the market have very different investment strategies and ideas. The total decision actually involves many psychological factors.
 

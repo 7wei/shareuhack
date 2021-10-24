@@ -30,13 +30,13 @@ src: 'Udemy',
 { title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
 {
 title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
-link: 'https://amzn.to/37EUcVN',
-src: 'Amazon',
+link: 'https://tinyurl.com/ygn4o8fg',
+src: 'Kinokuniya',
 },
 {
 title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
-link: 'https://amzn.to/37EX3hA',
-src: 'Amazon',
+link: 'https://tinyurl.com/ydme7ml7',
+src: 'Kinokuniya',
 },
 ]
 references: []
@@ -75,8 +75,8 @@ After reading various articles and videos on the Internet, I start to feel a lit
 Absorbed a lot of knowledge from the course, read the book to precipitate it. By learning more practical cases, you can feel more about the negotiation in reality. You can also sort out your ideas by the way and get ready for the next negotiation.
 
 - [Ask for More: 10 Questions to Negotiate Anything](https://amzn.to/3g0SsLc): This book mainly talks about how to deal with feelings in negotiations. During negotiations, there will always be changes in feelings, and feelings will directly affect our decision-making and negotiation performance. "Reflecting on ourselves in the mirror, looking out the window to understand others", This book is straightforward to read!
-- [Getting More: How You Can Negotiate to Succeed in Work and Life](https://amzn.to/37EUcVN)： It mainly discusses 12 main negotiation skills, and provides various case simulations. The structure of the book is very clear and easy to understand.
-- [Never Split the Difference: Negotiating As If Your Life Depended On It](https://amzn.to/37EX3hA): This book is relatively approachable. It mainly states that emotions are an important factor in making decisions. Therefore, how to understand and master the emotions of oneself and the other party during the negotiation process is very important!
+- [Getting More: How You Can Negotiate to Succeed in Work and Life](https://tinyurl.com/ygn4o8fg)： It mainly discusses 12 main negotiation skills, and provides various case simulations. The structure of the book is very clear and easy to understand.
+- [Never Split the Difference: Negotiating As If Your Life Depended On It](https://tinyurl.com/ydme7ml7): This book is relatively approachable. It mainly states that emotions are an important factor in making decisions. Therefore, how to understand and master the emotions of oneself and the other party during the negotiation process is very important!
 
 ## Conclusion
 

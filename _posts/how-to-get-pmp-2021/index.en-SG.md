@@ -20,7 +20,7 @@ title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
 link: 'https://tinyurl.com/yzgyqkyg',
 src: 'Udemy',
 },
-{ title: 'Head First PMP', link: 'https://amzn.to/3xWWA5j', src: 'Amazon' },
+{ title: 'Head First PMP', link: 'https://tinyurl.com/ydms725t', src: 'Kinokuniya' },
 ]
 references:
 [
@@ -113,13 +113,13 @@ Well, come to the focus of this article, how to deal with the new version of the
 
 4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg): PMP Essentials for PMBOK. Guide Everything You Must Know to Pass the PMP Exam. It is also Joseph's course, which is a bit like a sprint class before the exam, with 135 practise questions attached.
 
-5. [Head First PMP: A Learner's Companion to Passing the Project Management Professional Exam](https://amzn.to/3xWWA5j): Head First PMP teaches you the latest principles and certification objectives in The PMBOK® Guide in a unique and inspiring way. By putting PMP concepts into context, you’ll be able to understand, remember, and apply them—not just on the exam, but on the job. No wonder so many people have used Head First PMP as their sole source for passing the PMP exam.
+5. [Head First PMP: A Learner's Companion to Passing the Project Management Professional Exam](https://tinyurl.com/ydms725t): Head First PMP teaches you the latest principles and certification objectives in The PMBOK® Guide in a unique and inspiring way. By putting PMP concepts into context, you’ll be able to understand, remember, and apply them—not just on the exam, but on the job. No wonder so many people have used Head First PMP as their sole source for passing the PMP exam.
 
 ### Preparation method
 
 1. Read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) to understand the outline and scope of the exam. In fact, if you have a certain amount of project management experience, you may be relieved after reading it. You will find that these questions will not be difficult for you.
 
-2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to read PMBOK or [Head First PMP](https://amzn.to/3xWWA5j) at the same time, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months, you can complete this course.
+2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to read PMBOK or [Head First PMP](https://tinyurl.com/ydms725t) at the same time, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months, you can complete this course.
 
 3. Go over PMBOK again. In fact, after taking the online course, after reading course, you have a high level of mastery of this knowledge system. It will not take too much time to see PMBOK.
 
