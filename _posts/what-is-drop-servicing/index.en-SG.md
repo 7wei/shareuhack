@@ -43,7 +43,7 @@ Here is a small suggestion, that is, try to choose services with a clear scope o
 
 ### 2. Find a suitable service provider
 
-You can find suitable freelancers in various communities and receiving websites. The most convenient freelance service market in the world today should be [Fiverr](https://www.fiverr.com/), a variety of services , You can find someone to provide on it. However, for more localized and localized services, it is recommended to discuss the case through the local platform or directly to the local service provider.
+You can find suitable freelancers in various communities and receiving websites. The most convenient freelance service market in the world today should be [Fiverr](https://www.fiverr.com/), a variety of services , You can find someone to provide on it. However, for more localized and localized services, it is recommended to find a local service provider through the local case-receiving platform.
 
 ### 3. Define your target audience
 
