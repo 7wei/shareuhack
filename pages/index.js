@@ -27,7 +27,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
   return (
     <>
       <Head>
-        <title>{CMS_NAME}</title>
+        <title>
+          {CMS_NAME} | {t('pageTitle')}
+        </title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         {locales.map((locale) => (
