@@ -1,5 +1,5 @@
 ---
-title: 'What is Drop Servicing? The low-cost business model you mus try!'
+title: 'What is Drop Servicing? The low-cost business model you must try!'
 category: 'money'
 subCategory: 'business'
 date: '2021-10-26'
