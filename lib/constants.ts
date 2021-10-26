@@ -50,6 +50,7 @@ export const SubCategory = {
   projectManagement: 'projectManagement',
   eLearning: 'eLearning',
   finance: 'finance',
+  business: 'business',
 }
 
 export const Categories = [
@@ -98,6 +99,11 @@ export const SubCategories = [
     key: SubCategory.finance,
     category: Category.money,
     link: `${subcategoryBasePath}/${SubCategory.finance}`,
+  },
+  {
+    key: SubCategory.business,
+    category: Category.money,
+    link: `${subcategoryBasePath}/${SubCategory.business}`,
   },
 ]
 
