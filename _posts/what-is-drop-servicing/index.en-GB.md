@@ -37,13 +37,13 @@ Only the following steps are required:
 
 ### 1. Choose a niche - the service you want to sell
 
-First of all, you must choose a suitable niche market. What service will you provide? You can choose one or even multiple services and adopt the Drop Servicing model. As long as you can find the service provider, it will not be a problem what service you want to sell! . For example: You can set up a cleaning company website, claiming that the whole world can provide on-site cleaning services, and then appoint a local cleaning company to provide services when you receive an order. You can also set up a translation company to provide translation services in eighteen languages. When you receive a request, you can find a suitable translator from [Fiverr](https://www.fiverr.com/).
+First of all, you must choose a suitable niche market. What service will you provide? You can choose one or even multiple services and adopt the Drop Servicing model. As long as you can find the service provider, it will not be a problem what service you want to sell! . For example: You can set up a cleaning company website, claiming that the whole world can provide on-site cleaning services, and then appoint a local cleaning company to provide services when you receive an order. You can also set up a translation company to provide translation services in eighteen languages. When you receive a request, you can find a suitable translator from [Fiverr](https://go.fiverr.com/visit/?bta=298527&brand=fiverrcpa).
 
 Here is a small suggestion, that is, try to choose services with a clear scope of delivery to avoid the cost of two-way communication.
 
 ### 2. Find a suitable service provider
 
-You can find suitable freelancers in various communities and receiving websites. The most convenient freelance service market in the world today should be [Fiverr](https://www.fiverr.com/), a variety of services , You can find someone to provide on it. However, for more localized and localized services, it is recommended to find a local service provider through the local case-receiving platform.
+You can find suitable freelancers in various communities and receiving websites. The most convenient freelance service market in the world today should be [Fiverr](https://go.fiverr.com/visit/?bta=298527&brand=fiverrcpa), a variety of services , You can find someone to provide on it. However, for more localized and localized services, it is recommended to find a local service provider through the local case-receiving platform.
 
 ### 3. Define your target audience
 
