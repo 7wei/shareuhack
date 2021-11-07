@@ -1,5 +1,5 @@
 ---
-title: '帶狗狗出國玩！台灣->日本申請流程全攻略'
+title: '帶狗狗出國玩！台灣>>日本申請流程全攻略'
 category: 'life'
 subCategory: 'travel'
 date: '2021-11-07'
