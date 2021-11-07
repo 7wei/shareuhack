@@ -50,6 +50,8 @@ references:
 
 3. 汇检验费给日本的收件机构：去银行填水单，检验费及帐户名跟帐号在该收件机构的官网上有写明 13000 日币，汇好之后写 email 跟检验研究所说有寄血清过去做狂犬病抗体检查(可参考以下范例)，对方很快就会寄来空白的检查证明书跟血清进口日本证明书，基本资料都先写一写。
 
+Email 范例：
+
 > I had sent the serum RIAS through EMS on 寄出日期. Please continue to process with the assistance. Thank you. (信尾署名跟申请人一样)
 
 ![狂犬病抗体检查证明书](https://i.imgur.com/513u8jA.png)

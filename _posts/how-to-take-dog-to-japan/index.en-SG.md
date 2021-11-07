@@ -50,6 +50,8 @@ The Precautions for Exporting Dogs and Cats of the Bureau of Prevention and Quar
 
 3. Remit the inspection fee to the receiving institution in Japan: go to the bank and fill in the water form. The inspection fee and account name and account number are stated on the official website of the receiving institution for 13000 yen. After the remittance is completed, write an email to the inspection institute. Some people sent serum for rabies antibody test in the past (refer to the following example), and the other party will soon send a blank inspection certificate and a serum import certificate from Japan. The basic information is written first.
 
+Email sample:
+
 > I had sent the serum RIAS through EMS on the date of delivery. Please continue to process with the assistance. Thank you. (The signature at the end of the letter is the same as the applicant)
 
 ![Rabies Antibody Test Certificate](https://i.imgur.com/513u8jA.png)
