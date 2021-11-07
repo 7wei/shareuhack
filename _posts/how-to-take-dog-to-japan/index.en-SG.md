@@ -1,56 +1,77 @@
 ---
-title: 'What is Drop Servicing? The low-cost business model you must try!'
-category: 'money'
-subCategory: 'business'
-date: '2021-10-26'
-excerpt: 'You may have heard that drop shipping is a business model that does not stock goods and handle logistics. Sellers only need to live in marketing to have the opportunity to create high profits. This method has been popular for several years. Now, entrepreneurs realized that this business model can be applied to any service...'
-coverImage: '/assets/posts/what-is-drop-servicing/cover.jpg'
-ogImage: url:'/assets/posts/what-is-drop-servicing/cover.jpg'
-credentials: ['Interview 2+ entrepreneur', 'Built a Drop Servicing business']
+title: 'How to take the dog to Japan (from Taiwan)'
+category: 'life'
+subCategory: 'travel'
+date: '2021-11-07'
+excerpt: '
+The precautions for exporting dogs and cats of the Bureau of Prevention and Quarantine clearly stated that "exporting dogs and cats should comply with the regulations of the importing country." Because Taiwan is currently a rabies-endemic country, it takes more advances to travel to non-rabies-endemic countries like Japan. Preparation and standby time.'
+coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
+ogImage:
+  url: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
+credentials: ['Actually take the dog to Japan']
+references:
+  [
+    {
+      title: '行政院农业委员会动植物防疫检疫局',
+      link: 'https://www.baphiq.gov.tw/en/',
+    },
+    {
+      title: '一般财団法人生物科学安全研究所',
+      link: 'http://www.riasbt.or.jp/examination/rabies',
+    },
+    {
+      title: '输出试验研究用动物生物样材检疫作业程序',
+      link: 'https://www.baphiq.gov.tw/ws.php?id=9618',
+    },
+    {
+      title: 'IATA packing insturction 650',
+      link: 'https://www.maff.go.jp/aqs/animal/dog/packing.html'
+    },
+    {
+      title: '日本动物検疫所',
+      link: 'https://www.maff.go.jp/aqs/english/'
+    },
+    {
+      title: '输入手続の手引书(指定地域以外)',
+      link: 'https://www.maff.go.jp/aqs/animal/dog/import-other.html',
+    },
+    {
+      title: 'NACCS(动物検疫关连业务)',
+      link: 'https://www.maff.go.jp/aqs/tetuzuki/system/49.html'
+    }
+  ]
 ---
 
-You may have heard that drop shipping is a business model that does not stock goods and handle logistics. Sellers only need to live in marketing to have the opportunity to create high profits. This method has been popular for several years.
+The Precautions for Exporting Dogs and Cats of the Bureau of Prevention and Quarantine clearly stated that "exporting dogs and cats should comply with the regulations of the importing country." Because Taiwan is currently a rabies-endemic country, it requires more travel to non-rabies-endemic countries like Japan. Preparation and standby time in advance.
 
-Now, entrepreneurs realized that this business model can be applied to any service. Service is a product, just like selling goods to consumers through drop shipping, and Drop Servicing is selling services, whether it’s products or services. It does not need to be provided by the entrepreneurs themselves, but only plays the role of the "middleman", connecting the "service provider" and the "service demander".
+1. First, make sure that the dog has a chip and get the rabies vaccination on time every year. If it is not given regularly, you can give it as soon as 30 days before the blood draw.
+2. To apply for a serum export permit: Go to the [Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan](https://www.baphiq.gov.tw/en/) to download the serum export application form and declaration form. The recipient institution on the right side of the application form must write Japan designated inspection agency (there is currently no Taiwan agency, it is recommended to choose a local agency in Japan: [Research Institute for Animal Science in Biochemistry and Toxicology, RIAS](http://www.riasbt.or.jp/examination/rabies), send or fax Approximately two weeks later, the Bureau of Inspection and Quarantine will receive the official document of permission to export serum. Since August 2020, the export of serum for inspection is no longer necessary to apply for the permission document. Please refer to the [Operational Procedures for Quarantine of Animal Biological Samples for Experimental Research] (https ://www.baphiq.gov.tw/ws.php?id=9618).
+3. Remit the inspection fee to the receiving institution in Japan: go to the bank and fill in the water form. The inspection fee and account name and account number are stated on the official website of the receiving institution for 13000 yen. After the remittance is completed, write an email to the inspection institute. Some people sent serum for rabies antibody test in the past (refer to the following example), and the other party will soon send a blank inspection certificate and a serum import certificate from Japan. The basic information is written first.
 
-With a business model like this, you don’t need to have the ability to provide products or services, so you can "start" the Drop Servicing business at a very low cost. However, if you want to continue to "expand", you will need to be in marketing, SEO , Advertising, content, etc. put more effort and capital.
+> I had sent the serum RIAS through EMS on the date of delivery. Please continue to process with the assistance. Thank you. (The signature at the end of the letter is the same as the applicant)
 
-## Why create a Drop Servicing business
+![Rabies Antibody Test Certificate](https://i.imgur.com/513u8jA.png)
+![Certificate for serum of dogs to be imported into Japan](https://i.imgur.com/gzeyOH0.png)
 
-Maybe you are very good at business, marketing, operations, and have a great enthusiasm for creating a new business, but you are unlikely to be proficient in all skills, and the time at your disposal every day is even more limited. For example: if you don’t know how to design an exclusive logo for people, you won’t have time to drive a car for several hours to provide cleaning and moving services. But through this business model, you only need to receive an order after receiving an order. Can be delegated to the appropriate designer, the local cleaning company, there is no need to in-depth study of knowledge in various fields, nor to perform tasks physically.
+4. In accordance with the Japanese regulations, the pet name and chip number must be included in accordance with the [IATA packing insturction 650 packaging instruction](https://www.maff.go.jp/aqs/animal/dog/packing.html) , After the blood draw date is printed and printed, paste it on the serum bottle, find the glass pudding or cheese bottle and plug some cotton first, and paste the type of serum (dog serum), the name of the owner, and the name of the laboratory on the outside of the glass bottle, etc. After the blood is drawn in the next step, immediately put the serum bottle in the bottle to avoid overturning and leakage. The outer carton is a styrofoam box and then put the cryogen sold by Daiso (pre-cooling in the refrigerator). Paste dog serum, animal diagnostic materials-animal quarantine, IATA6505 guidelines triple packaging, country name Taiwan, the side of the carton should be affixed DIAGNOSTIC SPECIMEN packed in compliance with IATA. Packing instructions 650, and finally prepare an A4 size zipper bag file , To prevent the file from getting wet.
+5. Call the quarantine station of Taiwan's quarantine bureau to make an appointment for quarantine time.
+6. After 30 days from the previous rabies fight, you can prepare to go to the animal hospital to get another rabies vaccine and take the blood. Remember to bring the documents from step 2 with ice cubes and cold storage bags. You will get the serum and written documents. .
+7. Bring the serum, the rabies certificate, the official document of the serum export permit, the serum import certificate to Japan, and the rabies antibody test certificate signed by the doctor to the Bureau of Inspection and Quarantine, and you will get a quarantine certificate for exported animal products.
+   ![Export Animal Product Quarantine Certificate](https://i.imgur.com/IG3pJxk.jpg)
+8. Once you get the certificate, you can go straight to the post office to send the serum.
+   ![Post office to send serum](https://i.imgur.com/bHy6peh.png)
+9. After the laboratory receives it, it will receive an email to notify that the serum has been delivered successfully.
+10. Receive the rabies antibody inspection report and calculate the waiting date to book air tickets and pet consignment services with the airline: Japanese regulations ([動物検疫所](https://www.maff.go.jp/aqs/english/), [ Enter the hand quotes of hand 続の手 quotes (outside the designated area)] (https://www.maff.go.jp/aqs/animal/dog/import-other.html)) ** Counted from day 0 on the day of blood draw You can only leave for Japan** after the 180th day. The rabies antibody test report is valid within two years of the blood draw. Therefore, if the departure time has been determined, the aforementioned steps must be used to calculate the time. Otherwise, you will not be able to go abroad smoothly. . (p.s. If you cannot go abroad within two years, and you have regular rabies vaccination during this period, you do not need to wait for 180 days as long as you have another rabies antibody test within these two years.)
+    ![Quarantine procedures](https://i.imgur.com/YlzA3YT.png)
+11. 40 days before departure, register an account on [NACCSS (Animal Disease Related Services)](https://www.maff.go.jp/aqs/tetuzuki/system/49.html), and fill in the input declaration form online (required Fill in the departure date, flight, address), and you will get a letter of acceptance from the Japanese side and Japanese Form A and Form C.
+12. Download the dog and cat vaccination certificate from the official website of the Taiwan Inspection and Quarantine Bureau, plus the Form A and Form C in the preceding paragraph. Take the pet to the veterinarian first to fill in the form, and make an appointment with the veterinarian for an outpatient clinic within 7 days before the departure date. Call the quarantine office of the Bureau of Prevention and Quarantine to make an appointment for pre-national inspection within seven days before the departure date.
+    ![Canine and Cat Immunization Certificate](https://i.imgur.com/AtxHft0.png)
+13. Within 7 days before departure, go to the veterinarian to do the pre-national inspection, and then go to the quarantine office of Taiwan’s Bureau of Inspection and Quarantine to bring the acceptance letter of step 10, the rabies antibody inspection report, the latest rabies vaccination certificate, My passport, completed Form A and Form C, and Taiwanese dog and cat vaccination certificate will be issued with an export animal quarantine certificate.
+    ![Export Animal Quarantine Certificate](https://i.imgur.com/yl2xgJz.png)
 
-Through this method, it can be very efficient and low-cost to start, experiment, and further find expansion opportunities.
-
-## Disadvantages of Drop Servicing
-
-The following are the obvious disadvantages of Drop Servicing:
-
-1. The service is not provided by oneself, there is an extra layer of communication, and the response of the customer service cannot be very immediate
-2. As the service itself is non-professional, it is difficult to evaluate and control the quality and delivery time of the receiver
-3. Good replication, relatively low barriers to entry
-
-Depending on the service you choose, there will be different situations. Fortunately, the advantage of this business model is that the cost of experimenting is not high.
-
-## How to start a Drop Servicing business
-
-Only the following steps are required:
-
-### 1. Choose a niche - the service you want to sell
-
-First of all, you must choose a suitable niche market. What service will you provide? You can choose one or even multiple services and adopt the Drop Servicing model. As long as you can find the service provider, it will not be a problem what service you want to sell! . For example: You can set up a cleaning company website, claiming that the whole world can provide on-site cleaning services, and then appoint a local cleaning company to provide services when you receive an order. You can also set up a translation company to provide translation services in eighteen languages. When you receive a request, you can find a suitable translator from [Fiverr](https://go.fiverr.com/visit/?bta=298527&brand=fiverrcpa).
-
-Here is a small suggestion, that is, try to choose services with a clear scope of delivery to avoid the cost of two-way communication.
-
-### 2. Find a suitable service provider
-
-You can find suitable freelancers in various communities and receiving websites. The most convenient freelance service market in the world today should be [Fiverr](https://go.fiverr.com/visit/?bta=298527&brand=fiverrcpa), a variety of services , You can find someone to provide on it. However, for more localized and localized services, it is recommended to find a local service provider through the local case-receiving platform.
-
-### 3. Define your target audience
-
-You need to define your target audience, think about who needs your service, what pain points they have, and how to get their attention. With Drop Servicing, the key point is to proactively discover the pain points of customers, and then provide a convenient way for them to enjoy the service. You can earn the profits between the "service provider" and the "service demander".
-
-### 4. Start acquiring customers
-
-This is the most difficult part of starting a business. You must plan the way for customers to discover you and convert them into paying customers. It is recommended that you build an image website (Landing Page) and an order-receiving method (such as forms, shopping carts) at the beginning. , Test the water temperature through social media (Facebook/Instagram) and advertising (Google/Facebook) more exposure.
-
-Drop Servicing is a very easy to construct business model. Basically, you can start a new business through the simplest Landing Page, mobile phone, communication software, Email, etc. It is a very good way to create a one-person company. The pattern can be very simple or very complicated, and you are the person responsible for completing the entire puzzle!
+14. By plane: On the day of departure, check in your dog and luggage before boarding the plane.
+15. When you arrive at the Japanese airport where you plan to land, you will go to the animal quarantine station in the airport to hand in the export animal quarantine certificate, air waybill copy, import declaration form, and rabies antibody inspection report. The inspector will scan the dog first. Chip, make sure the chip number is correct, and it will be released after the above documents are correct!
+16. Remember to submit an application to the Taiwan Inspection and Quarantine Bureau on the 20th antenna before returning to Taiwan, prepare for step 13 to export the animal quarantine certificate, the valid rabies vaccine certificate, and a copy of the passport, and you will get a letter of consent for the import of dogs and cats.
+17. Seven days before departure and return to Taiwan, email to the animal quarantine station at the Japanese airport where the return trip is scheduled, or use NACCS to fill in the dog export inspection application form, and attach the dog and cat import consent letter in step 15 and the rabies antibody inspection report.
+18. On the day of departure back to Taiwan, submit the documents of step 17 at the animal quarantine station at the Japanese airport, and you will get a quarantine certificate.
+19. After the plane arrives in Taiwan, go to the airline to get the dog, take the quarantine certificate and the document of step 17 to the airport inspection bureau and you can pass in smoothly!
