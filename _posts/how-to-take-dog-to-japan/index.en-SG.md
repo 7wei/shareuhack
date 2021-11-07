@@ -36,7 +36,7 @@ references:
       link: 'https://www.maff.go.jp/aqs/animal/dog/import-other.html',
     },
     {
-      title: 'NACCSS (Animal Disease Related Services)',
+      title: 'NACCS (Animal Disease Related Services)',
       link: 'https://www.maff.go.jp/aqs/tetuzuki/system/49.html'
     }
   ]
@@ -74,7 +74,7 @@ Email sample:
 10. Receive the rabies antibody inspection report and calculate the waiting date to book air tickets and pet consignment services with the airline: Japanese regulations ([動物検疫所](https://www.maff.go.jp/aqs/english/), [輸入手続の手引書(指定地域以外)](https://www.maff.go.jp/aqs/animal/dog/import-other.html)) Counted from day 0 on the day of blood draw You can only leave for Japan after the 180th day. The rabies antibody test report is valid within two years of the blood draw. Therefore, if the departure time has been determined, the aforementioned steps must be used to calculate the time. Otherwise, you will not be able to go abroad smoothly. . (p.s. If you cannot go abroad within two years, and you have regular rabies vaccination during this period, you do not need to wait for 180 days as long as you have another rabies antibody test within these two years.)
     ![Quarantine procedures](https://i.imgur.com/YlzA3YT.png)
 
-11. 40 days before departure, register an account on [NACCSS (Animal Disease Related Services)](https://www.maff.go.jp/aqs/tetuzuki/system/49.html), and fill in the input declaration form online (required Fill in the departure date, flight, address), and you will get a letter of acceptance from the Japanese side and Japanese Form A and Form C.
+11. 40 days before departure, register an account on [NACCS (Animal Disease Related Services)](https://www.maff.go.jp/aqs/tetuzuki/system/49.html), and fill in the input declaration form online (required Fill in the departure date, flight, address), and you will get a letter of acceptance from the Japanese side and Japanese Form A and Form C.
 
 12. Download the dog and cat vaccination certificate from the official website of the Taiwan Inspection and Quarantine Bureau, plus the Form A and Form C in the preceding paragraph. Take the pet to the veterinarian first to fill in the form, and make an appointment with the veterinarian for an outpatient clinic within 7 days before the departure date. Call the quarantine office of the Bureau of Prevention and Quarantine to make an appointment for pre-national inspection within seven days before the departure date.
     ![Canine and Cat Immunization Certificate](https://i.imgur.com/AtxHft0.png)
