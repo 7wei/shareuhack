@@ -234,6 +234,7 @@ export async function getStaticProps({ params, locale }) {
       'category',
       'subCategory',
       'excerpt',
+      'widget',
     ],
     locale
   )

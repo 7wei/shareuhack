@@ -75,7 +75,9 @@ export default function Header() {
           {NavLinks.map((link) => (
             <Box margin="0 8px">
               <Link key={link.key} href={link.link} passHref>
-                <a className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</a>
+                <a id={`nav-category-${link.key}`} className={classes.navlink}>
+                  {t(`${link.key}`).toUpperCase()}
+                </a>
               </Link>
             </Box>
           ))}

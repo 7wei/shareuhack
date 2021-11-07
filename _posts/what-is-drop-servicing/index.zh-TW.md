@@ -8,6 +8,7 @@ coverImage: '/assets/posts/what-is-drop-servicing/cover.jpg'
 ogImage:
   url: '/assets/posts/what-is-drop-servicing/cover.jpg'
 credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
+widget: ['fiverr']
 ---
 
 你或許聽過 Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。
