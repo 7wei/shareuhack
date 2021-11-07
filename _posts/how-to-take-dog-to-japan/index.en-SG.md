@@ -12,11 +12,11 @@ credentials: ['Actually take the dog to Japan']
 references:
   [
     {
-      title: '行政院农业委员会动植物防疫检疫局',
+      title: 'Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan',
       link: 'https://www.baphiq.gov.tw/en/',
     },
     {
-      title: '一般财団法人生物科学安全研究所',
+      title: 'Research Institute for Animal Science in Biochemistry and Toxicology, RIAS',
       link: 'http://www.riasbt.or.jp/examination/rabies',
     },
     {
@@ -36,7 +36,7 @@ references:
       link: 'https://www.maff.go.jp/aqs/animal/dog/import-other.html',
     },
     {
-      title: 'NACCS(动物検疫关连业务)',
+      title: 'NACCSS (Animal Disease Related Services)',
       link: 'https://www.maff.go.jp/aqs/tetuzuki/system/49.html'
     }
   ]
@@ -46,7 +46,7 @@ The Precautions for Exporting Dogs and Cats of the Bureau of Prevention and Quar
 
 1. First, make sure that the dog has a chip and get the rabies vaccination on time every year. If it is not given regularly, you can give it as soon as 30 days before the blood draw.
 
-2. To apply for a serum export permit: Go to the [Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan](https://www.baphiq.gov.tw/en/) to download the serum export application form and declaration form. The recipient institution on the right side of the application form must write Japan designated inspection agency (there is currently no Taiwan agency, it is recommended to choose a local agency in Japan: [Research Institute for Animal Science in Biochemistry and Toxicology, RIAS](http://www.riasbt.or.jp/examination/rabies), send or fax Approximately two weeks later, the Bureau of Inspection and Quarantine will receive the official document of permission to export serum. Since August 2020, the export of serum for inspection is no longer necessary to apply for the permission document. Please refer to the [Operational Procedures for Quarantine of Animal Biological Samples for Experimental Research] (https ://www.baphiq.gov.tw/ws.php?id=9618).
+2. <del>To apply for a serum export permit: Go to the [Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan](https://www.baphiq.gov.tw/en/) to download the serum export application form and declaration form. The recipient institution on the right side of the application form must write Japan designated inspection agency (there is currently no Taiwan agency, it is recommended to choose a local agency in Japan: [Research Institute for Animal Science in Biochemistry and Toxicology, RIAS](http://www.riasbt.or.jp/examination/rabies), send or fax Approximately two weeks later, the Bureau of Inspection and Quarantine will receive the official document of permission to export serum.</del> Since August 2020, the export of serum for inspection is no longer necessary to apply for the permission document. Please refer to the [Operational Procedures for Quarantine of Animal Biological Samples for Experimental Research](https://www.baphiq.gov.tw/ws.php?id=9618).
 
 3. Remit the inspection fee to the receiving institution in Japan: go to the bank and fill in the water form. The inspection fee and account name and account number are stated on the official website of the receiving institution for 13000 yen. After the remittance is completed, write an email to the inspection institute. Some people sent serum for rabies antibody test in the past (refer to the following example), and the other party will soon send a blank inspection certificate and a serum import certificate from Japan. The basic information is written first.
 
@@ -69,7 +69,7 @@ The Precautions for Exporting Dogs and Cats of the Bureau of Prevention and Quar
 
 9. After the laboratory receives it, it will receive an email to notify that the serum has been delivered successfully.
 
-10. Receive the rabies antibody inspection report and calculate the waiting date to book air tickets and pet consignment services with the airline: Japanese regulations ([動物検疫所](https://www.maff.go.jp/aqs/english/), [ Enter the hand quotes of hand 続の手 quotes (outside the designated area)] (https://www.maff.go.jp/aqs/animal/dog/import-other.html)) ** Counted from day 0 on the day of blood draw You can only leave for Japan** after the 180th day. The rabies antibody test report is valid within two years of the blood draw. Therefore, if the departure time has been determined, the aforementioned steps must be used to calculate the time. Otherwise, you will not be able to go abroad smoothly. . (p.s. If you cannot go abroad within two years, and you have regular rabies vaccination during this period, you do not need to wait for 180 days as long as you have another rabies antibody test within these two years.)
+10. Receive the rabies antibody inspection report and calculate the waiting date to book air tickets and pet consignment services with the airline: Japanese regulations ([動物検疫所](https://www.maff.go.jp/aqs/english/), [輸入手続の手引書(指定地域以外)](https://www.maff.go.jp/aqs/animal/dog/import-other.html)) Counted from day 0 on the day of blood draw You can only leave for Japan after the 180th day. The rabies antibody test report is valid within two years of the blood draw. Therefore, if the departure time has been determined, the aforementioned steps must be used to calculate the time. Otherwise, you will not be able to go abroad smoothly. . (p.s. If you cannot go abroad within two years, and you have regular rabies vaccination during this period, you do not need to wait for 180 days as long as you have another rabies antibody test within these two years.)
     ![Quarantine procedures](https://i.imgur.com/YlzA3YT.png)
 
 11. 40 days before departure, register an account on [NACCSS (Animal Disease Related Services)](https://www.maff.go.jp/aqs/tetuzuki/system/49.html), and fill in the input declaration form online (required Fill in the departure date, flight, address), and you will get a letter of acceptance from the Japanese side and Japanese Form A and Form C.
