@@ -8,7 +8,7 @@ The precautions for exporting dogs and cats of the Bureau of Prevention and Quar
 coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 ogImage:
   url: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
-credentials: ['Actually take the dog to Japan']
+credentials: ['Actually take the dog to Japan', 'Read 20+ web pages and articles']
 references:
   [
     {

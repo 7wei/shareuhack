@@ -8,7 +8,7 @@ excerpt: '
 coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 ogImage:
   url: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
-credentials: ['実際に犬を日本に連れて行ってください']
+credentials: ['実際に犬を日本に連れて行ってください', '20以上のWebページと記事を読む']
 references:
   [
     {
