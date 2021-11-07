@@ -51,6 +51,7 @@ export const SubCategory = {
   eLearning: 'eLearning',
   finance: 'finance',
   business: 'business',
+  travel: 'travel',
 }
 
 export const Categories = [
@@ -104,6 +105,11 @@ export const SubCategories = [
     key: SubCategory.business,
     category: Category.money,
     link: `${subcategoryBasePath}/${SubCategory.business}`,
+  },
+  {
+    key: SubCategory.travel,
+    category: Category.life,
+    link: `${subcategoryBasePath}/${SubCategory.travel}`,
   },
 ]
 
