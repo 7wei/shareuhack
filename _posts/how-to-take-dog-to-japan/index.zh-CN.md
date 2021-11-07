@@ -1,5 +1,5 @@
 ---
-title: '带宝贝狗狗去日本玩！申请流程全攻略'
+title: '带狗狗去日本玩！申请流程全攻略'
 category: 'life'
 subCategory: 'travel'
 date: '2021-11-07'
