@@ -1,5 +1,5 @@
 ---
-title: 'How to take the dog to Japan (from Taiwan)'
+title: 'How to take your pet to go abroad (Taiwan>>Japan)'
 category: 'life'
 subCategory: 'travel'
 date: '2021-11-07'
@@ -44,7 +44,7 @@ references:
 
 The Precautions for Exporting Dogs and Cats of the Bureau of Prevention and Quarantine clearly stated that "exporting dogs and cats should comply with the regulations of the importing country." Because Taiwan is currently a rabies-endemic country, it requires more travel to non-rabies-endemic countries like Japan. Preparation and standby time in advance.
 
-1. First, make sure that the dog has a chip and get the rabies vaccination on time every year. If it is not given regularly, you can give it as soon as 30 days before the blood draw.
+1. First, make sure that the pet has a chip and get the rabies vaccination on time every year. If it is not given regularly, you can give it as soon as 30 days before the blood draw.
 
 2. <del>To apply for a serum export permit: Go to the [Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan](https://www.baphiq.gov.tw/en/) to download the serum export application form and declaration form. The recipient institution on the right side of the application form must write Japan designated inspection agency (there is currently no Taiwan agency, it is recommended to choose a local agency in Japan: [Research Institute for Animal Science in Biochemistry and Toxicology, RIAS](http://www.riasbt.or.jp/examination/rabies), send or fax Approximately two weeks later, the Bureau of Inspection and Quarantine will receive the official document of permission to export serum.</del> Since August 2020, the export of serum for inspection is no longer necessary to apply for the permission document. Please refer to the [Operational Procedures for Quarantine of Animal Biological Samples for Experimental Research](https://www.baphiq.gov.tw/ws.php?id=9618).
 
@@ -82,9 +82,9 @@ Email sample:
 13. Within 7 days before departure, go to the veterinarian to do the pre-national inspection, and then go to the quarantine office of Taiwan’s Bureau of Inspection and Quarantine to bring the acceptance letter of step 10, the rabies antibody inspection report, the latest rabies vaccination certificate, My passport, completed Form A and Form C, and Taiwanese dog and cat vaccination certificate will be issued with an export animal quarantine certificate.
     ![Export Animal Quarantine Certificate](https://i.imgur.com/yl2xgJz.png)
 
-14. By plane: On the day of departure, check in your dog and luggage before boarding the plane.
+14. By plane: On the day of departure, check in your pet and luggage before boarding the plane.
 
-15. When you arrive at the Japanese airport where you plan to land, you will go to the animal quarantine station in the airport to hand in the export animal quarantine certificate, air waybill copy, import declaration form, and rabies antibody inspection report. The inspector will scan the dog first. Chip, make sure the chip number is correct, and it will be released after the above documents are correct!
+15. When you arrive at the Japanese airport where you plan to land, you will go to the animal quarantine station in the airport to hand in the export animal quarantine certificate, air waybill copy, import declaration form, and rabies antibody inspection report. The inspector will scan the pet chip first. Make sure the chip number is correct, and it will be released after the above documents are correct!
 
 16. Remember to submit an application to the Taiwan Inspection and Quarantine Bureau on the 20th antenna before returning to Taiwan, prepare for step 13 to export the animal quarantine certificate, the valid rabies vaccine certificate, and a copy of the passport, and you will get a letter of consent for the import of dogs and cats.
 
@@ -92,4 +92,4 @@ Email sample:
 
 18. On the day of departure back to Taiwan, submit the documents of step 17 at the animal quarantine station at the Japanese airport, and you will get a quarantine certificate.
 
-19. After the plane arrives in Taiwan, go to the airline to get the dog, take the quarantine certificate and the document of step 17 to the airport inspection bureau and you can pass in smoothly!
+19. After the plane arrives in Taiwan, go to the airline to get the pet, take the quarantine certificate and the document of step 17 to the airport inspection bureau and you can pass in smoothly!

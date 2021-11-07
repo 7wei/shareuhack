@@ -1,50 +1,28 @@
 ---
-title: '帶狗狗出國玩！台灣>>日本申請流程全攻略'
+title: '帶毛小孩出國玩！台灣>>日本申請流程全攻略'
 category: 'life'
 subCategory: 'travel'
 date: '2021-11-07'
-excerpt: '
-在防檢局的輸出犬貓注意事項中有明確說明「輸出犬貓應符合輸入國之規定」，因為台灣目前屬於狂犬病疫區國家，若要前往像日本這些非狂犬病疫區國家需要比較多的事前準備及待機時間。'
+excerpt: '在防檢局的輸出犬貓注意事項中有明確說明「輸出犬貓應符合輸入國之規定」，因為台灣目前屬於狂犬病疫區國家，若要帶毛小孩前往像日本這些非狂犬病疫區國家需要比較多的事前準備及待機時間。此篇文章詳列帶毛小孩去日本的必要步驟：'
 coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 ogImage:
   url: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 credentials: ['實際帶狗狗去日本玩', '閱讀20+網頁和文章']
 references:
   [
-    {
-      title: '行政院農業委員會動植物防疫檢疫局',
-      link: 'https://www.baphiq.gov.tw/index.php',
-    },
-    {
-      title: '一般財団法人生物科学安全研究所',
-      link: 'http://www.riasbt.or.jp/examination/rabies',
-    },
-    {
-      title: '輸出試驗研究用動物生物樣材檢疫作業程序',
-      link: 'https://www.baphiq.gov.tw/ws.php?id=9618',
-    },
-    {
-      title: 'IATA packing insturction 650',
-      link: 'https://www.maff.go.jp/aqs/animal/dog/packing.html'
-    },
-    {
-      title: '日本動物検疫所',
-      link: 'https://www.maff.go.jp/aqs/'
-    },
-    {
-      title: '輸入手続の手引書(指定地域以外)',
-      link: 'https://www.maff.go.jp/aqs/animal/dog/import-other.html',
-    },
-    {
-      title: 'NACCS(動物検疫関連業務)',
-      link: 'https://www.maff.go.jp/aqs/tetuzuki/system/49.html'
-    }
+    { title: '行政院農業委員會動植物防疫檢疫局', link: 'https://www.baphiq.gov.tw/index.php' },
+    { title: '一般財団法人生物科学安全研究所', link: 'http://www.riasbt.or.jp/examination/rabies' },
+    { title: '輸出試驗研究用動物生物樣材檢疫作業程序', link: 'https://www.baphiq.gov.tw/ws.php?id=9618' },
+    { title: 'IATA packing insturction 650', link: 'https://www.maff.go.jp/aqs/animal/dog/packing.html' },
+    { title: '日本動物検疫所', link: 'https://www.maff.go.jp/aqs/' },
+    { title: '輸入手続の手引書(指定地域以外)', link: 'https://www.maff.go.jp/aqs/animal/dog/import-other.html' },
+    { title: 'NACCS(動物検疫関連業務)', link: 'https://www.maff.go.jp/aqs/tetuzuki/system/49.html' },
   ]
 ---
 
-在防檢局的輸出犬貓注意事項中有明確說明「輸出犬貓應符合輸入國之規定」，因為台灣目前屬於狂犬病疫區國家，若要前往像日本這些非狂犬病疫區國家需要比較多的事前準備及待機時間。
+在防檢局的輸出犬貓注意事項中有明確說明「輸出犬貓應符合輸入國之規定」，因為台灣目前屬於狂犬病疫區國家，若要帶毛小孩前往像日本這些非狂犬病疫區國家需要比較多的事前準備及待機時間。此篇文章詳列帶毛小孩去日本的必要步驟：
 
-1. 首先確定狗狗有晶片，並且每年都按時打狂犬病疫苗，如果沒有定期施打可以在抽血前 30 天趕快打。
+1. 首先確定寵物有晶片，並且每年都按時打狂犬病疫苗，如果沒有定期施打可以在抽血前 30 天趕快打。
 
 2. <del>申請血清出國許可：上[台灣防檢局網站](https://www.baphiq.gov.tw/index.php)下載血清輸出申請表跟聲明書，申請表右側的收件機構要寫日本指定的檢查機構(目前沒有台灣的機構，建議選擇日本當地的機構：[一般財團法人生物科學安全研究所](http://www.riasbt.or.jp/examination/rabies)，寄或傳真給防檢局約兩周後會收到輸出血清許可公文。</del>注意，自 2020 年 8 月輸出血清去檢驗已不需先申請許可公文。請參考[輸出試驗研究用動物生物樣材檢疫作業程序](https://www.baphiq.gov.tw/ws.php?id=9618)。
 
@@ -82,9 +60,9 @@ Email 範例：
 13. 出發前 7 日內，先去獸醫那邊做出國前檢查，再去台灣的防檢局檢疫所帶著步驟 10 的受理書、狂犬病抗體檢查報告、最近一期的狂犬病疫苗施打證書、本人的護照、填好的表格 A 跟表格 C 及台灣的犬貓免疫注射證明，會得到輸出動物檢疫證明。
     ![輸出動物檢疫證明](https://i.imgur.com/yl2xgJz.png)
 
-14. 坐飛機囉：到了出發日期當天，先託運狗狗跟行李再登機。
+14. 坐飛機囉：到了出發日期當天，先託運寵物跟行李再登機。
 
-15. 抵達預定降落的日本機場時，領好行李就去機場內的動物檢疫站繳交輸出動物檢疫證明書、空運提單影本、輸入申報書、狂犬病抗體檢查報告書，檢查人員會先掃狗狗晶片，確定晶片號碼正確，以上文件無誤後就會放行啦！
+15. 抵達預定降落的日本機場時，領好行李就去機場內的動物檢疫站繳交輸出動物檢疫證明書、空運提單影本、輸入申報書、狂犬病抗體檢查報告書，檢查人員會先掃寵物晶片，確定晶片號碼正確，以上文件無誤後就會放行啦！
 
 16. 記得在回台前 20 天線上向台灣防檢局提出回國申請，準備步驟 13 輸出動物檢疫證明、效期內的狂犬病疫苗證明書、護照影本，就會得到犬貓輸入同意函。
 
@@ -92,4 +70,4 @@ Email 範例：
 
 18. 出發回台灣當天，在日本機場的動物檢疫站繳交步驟 17 的文件，會得到疫檢證明書。
 
-19. 飛機到台灣後，去航空公司領到狗狗，拿著疫檢證明書及步驟 17 的文件去機場防檢局就可以順利過關進來啦！
+19. 飛機到台灣後，去航空公司領到寵物，拿著疫檢證明書及步驟 17 的文件去機場防檢局就可以順利過關進來啦！
