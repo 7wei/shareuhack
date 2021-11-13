@@ -99,7 +99,7 @@ PMBOK 6 と 7 の主な違いは、第 6 版のプロジェクト管理プロセ
 
 さて、この記事の焦点に来て、試験の新しいバージョンに対処する方法、実際には、新しい候補者のために試験の新しいバージョンを準備する方法、違いはありません、つまり、とるべきであり、読むべき資料です。それらすべてに目を通すだけで、以下は私たちが推奨する準備資料です。
 
-＃＃＃ 材料
+### 材料
 
 1. [PMP 試験内容の概要](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668)：PMP 公式試験の概要。このドキュメントでは、試験に含まれる内容について説明します。
 2. PMI 公式 PMBOK ガイド 6：PMI プロジェクト管理知識システム標準。PMI メンバーは PDF ファイルを無料でダウンロードできます
@@ -110,17 +110,16 @@ PMBOK 6 と 7 の主な違いは、第 6 版のプロジェクト管理プロセ
 
 5. [Head First PMP：プロジェクトマネジメントプロフェッショナル試験に合格するための学習者の仲間](https://amzn.to/3xWWA5j)：Head First PMP は、PMBOK® ガイドの最新の原則と認定目標を独自の刺激的な方法。 PMP の概念をコンテキストに組み込むことで、試験だけでなく仕事でも、PMP の概念を理解し、覚えて、適用することができます。多くの人が PMP 試験に合格するための唯一の情報源として HeadFirstPMP を使用しているのも不思議ではありません。
 
-### Preparation method
+### 方法
 
-1. Read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) to understand the outline and scope of the exam. In fact, if you have a certain amount of project management experience, you may be relieved after reading it. You will find that these questions will not be difficult for you.
+1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) 試験の概要と範囲を理解する。実際、ある程度のプロジェクト管理の経験があれば、読んで安心できるかもしれません。これらの質問はあなたにとって難しいことではないことがわかります。
 
-2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the whole knowledge framework, and get enough PDUs to apply for the exam, and it is recommended to read PMBOK or [Head First PMP](https://amzn.to/3xWWA5j) at the same time, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terminology of this system, and you can adjust it to 1.5x speed to finish the course. Everyone’s situation is different, usually within 1-2 months, you can complete this course.
+2. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)コースを完了し、知識フレームワーク全体を学び、試験に申し込むのに十分な PDU を取得することをお勧めします。 PMBOK または[Head First PMP](https://amzn.to/3xWWA5j) a を同時に読むには、経験豊富なプロジェクトマネージャーであれば、これらのコンテンツは簡単なものになりますが、それでも必要です。このシステムの用語に精通しており、コースを終了するために 1.5 倍の速度に調整できます。状況は人によって異なります。通常は 1〜2 か月以内に、このコースを修了できます。
+3. PMBOK をもう一度確認します。実際、オンラインコースを受講した後、コースを読んだ後は、この知識システムを高度に習得しています。 PMBOK を見るのにそれほど時間はかかりません。
 
-3. Go over PMBOK again. In fact, after taking the online course, after reading course, you have a high level of mastery of this knowledge system. It will not take too much time to see PMBOK.
+4. 模擬試験問題の練習を開始します。インターネット上には無料のテストリソースがたくさんあります。以下にいくつかリストします。模擬試験問題を行うときは、各問題の正誤に過度に制約される必要はありません。重要なのは、これらの質問を見て明確にする必要があるということです。アイデアのあいまいな部分がある場合は、できるだけ早く PMBOK に戻るか、Facebook または LinkedIn 関連の学会で話し合うことができます。通常、コミュニティは喜んで支援します。いくつの質問をする必要がありますか？実際、この記事の学習リソースのトピックは非常に十分です。追加のエクササイズは、主に自信を高め、緊張を避けるために使用されます。
 
-4. Start practising mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be too constrained on the right or wrong of each question. The point is that you have to see these questions and be clear. If there is a vague part of the idea, go back to PMBOK as soon as possible, or you can discuss it on Facebook or LinkedIn related societies, usually, the community will be willing to help. As for how many questions need to be done? In fact, the topic of the learning resources for this article is very sufficient. The additional exercises are mainly used to increase confidence and avoid getting nervous.
-
-5. Before the exam, use [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) to do the final review. After finishing the course and completing the test questions, you can go into battle calmly.
+5. 試験の前に、[PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) を使用して最終レビューを行います。コースを終了し、テストの質問を完了すると、落ち着いて戦闘に参加できます。
 
 ### 無料の模擬 PMP テストリソース
 
