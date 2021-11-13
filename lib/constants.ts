@@ -52,6 +52,7 @@ export const SubCategory = {
   finance: 'finance',
   business: 'business',
   travel: 'travel',
+  productivity: 'productivity',
 }
 
 export const Categories = [
@@ -110,6 +111,11 @@ export const SubCategories = [
     key: SubCategory.travel,
     category: Category.life,
     link: `${subcategoryBasePath}/${SubCategory.travel}`,
+  },
+  {
+    key: SubCategory.productivity,
+    category: Category.work,
+    link: `${subcategoryBasePath}/${SubCategory.productivity}`,
   },
 ]
 

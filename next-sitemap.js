@@ -53,6 +53,7 @@ module.exports = {
     await config.transform(config, '/posts/learn-to-financial-freedom-from-amazon-bestsellers'),
     await config.transform(config, '/posts/what-is-drop-servicing'),
     await config.transform(config, '/posts/how-to-take-dog-to-japan'),
+    await config.transform(config, '/posts/use-time-matrix-to-make-life-easier'),
   ],
   robotsTxtOptions: {
     policies: [

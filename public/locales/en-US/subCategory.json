@@ -10,5 +10,7 @@
   "business": "Business",
   "businessDescript": "Expand business vision and learn hacks of getting rich",
   "travel": "Travel",
-  "travelDescript": "Life is a journey. What you care about is not the destination, but the scenery and mood along the way."
+  "travelDescript": "Life is a journey. What you care about is not the destination, but the scenery and mood along the way.",
+  "productivity": "Productivity",
+  "productivityDescript": "Minimize input, maxmize ouput."
 }
