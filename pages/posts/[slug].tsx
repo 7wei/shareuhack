@@ -19,7 +19,7 @@ import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
 import { formattedDate } from '../../src/utils'
-// import Disqus from '../../src/components/Disqus/Disqus'
+import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 
@@ -160,8 +160,8 @@ export default function Post({ post, morePosts, preview, category, subCategory }
 
               {!matches && (
                 <>
-                  {/* <TYPE.primary mt="48px">如果你對這篇文章有任何建議，歡迎分享你的hack！</TYPE.primary>
-                  <Disqus {...post} /> */}
+                  <TYPE.primary mt="48px">Welcome to share your hack！</TYPE.primary>
+                  <Disqus {...post} />
                 </>
               )}
             </Grid>
