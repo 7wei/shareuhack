@@ -164,6 +164,7 @@ export const Locales = [
 
 export const HotPostSlugs = [
   'how-to-get-pmp-2021',
+  'use-time-matrix-to-make-life-easier',
   'how-to-become-a-frontend-engineer',
   'how-to-get-best-price-on-udemy-courses',
   'learn-to-financial-freedom-from-amazon-bestsellers',
