@@ -31,6 +31,9 @@ declare module '@material-ui/core/styles/createTheme' {
 }
 
 const theme: Theme = createTheme({
+  typography: {
+    fontFamily: ['Noto Sans TC', 'sans-serif'].join(','),
+  },
   palette: {
     primary: {
       light: '#2E2247',
