@@ -32,8 +32,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        {locales.map((locale) => (
-          <link rel="alternate" hreflang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
+        {locales.map((locale, idx) => (
+          <link key={idx} rel="alternate" hreflang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
         ))}
         <link rel="alternate" hreflang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
         <link rel="canonical" href={url} />

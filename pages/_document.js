@@ -11,7 +11,13 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
-          <meta property="og:site_name" content="Shareuhack: Hack Your Life" />
+          <meta property="og:site_name" content="Shareuhack: Hack Your Life" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+            rel="stylesheet"
+          />
 
           <script
             async
@@ -28,11 +34,12 @@ export default class MyDocument extends Document {
             }}
           />
 
-          <script
+          {/* Google Adsense */}
+          {/* <script
             data-ad-client="ca-pub-8686253077478682"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
+          ></script> */}
 
           <script
             dangerouslySetInnerHTML={{

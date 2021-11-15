@@ -52,8 +52,8 @@ export default function Footer() {
     <Box className={classes.root}>
       <Container>
         <Box display="flex" alignItems="center" paddingTop="36px">
-          {NavLinks.map((link) => (
-            <Box margin="0 8px">
+          {NavLinks.map((link, idx) => (
+            <Box key={idx} margin="0 8px">
               <Link key={link.key} href={link.link} passHref locale={locale}>
                 <MuiLink className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</MuiLink>
               </Link>

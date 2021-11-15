@@ -1,4 +1,4 @@
-import { makeStyles, Theme } from '@material-ui/core'
+import { makeStyles, Theme, Link as MuiLink } from '@material-ui/core'
 import React from 'react'
 // import theme from '../../theme/index'
 
@@ -19,12 +19,14 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }))
 
-export default function Link(props: Props) {
+const Link = React.forwardRef((props: Props, ref) => {
   const { href, target, children } = props
   const classes = useStyles()
   return (
-    <a className={classes.link} href={href} target={target}>
+    <MuiLink className={classes.link} href={href} target={target}>
       {children}
-    </a>
+    </MuiLink>
   )
-}
+})
+
+export default Link

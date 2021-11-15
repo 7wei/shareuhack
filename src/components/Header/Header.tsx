@@ -72,8 +72,8 @@ export default function Header() {
           {matches && <LanguageSelector />}
         </Box>
         <Box display="flex" height="80px" alignItems="center" justifyContent="center">
-          {NavLinks.map((link) => (
-            <Box margin="0 8px">
+          {NavLinks.map((link, idx) => (
+            <Box key={idx} margin="0 8px">
               <Link key={link.key} href={link.link} passHref>
                 <a id={`nav-category-${link.key}`} className={classes.navlink}>
                   {t(`${link.key}`).toUpperCase()}
