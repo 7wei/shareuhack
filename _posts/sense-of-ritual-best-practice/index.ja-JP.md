@@ -7,6 +7,12 @@ excerpt: '「私は毎日仕事に出勤し、仕事を辞めた後は家にい�
 coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
 ogImage:
   url: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+credentials:
+  [
+    'インターネットで30以上の記事を読む',
+    '人生に儀式の感覚を持っている5人以上の人々へのインタビュー',
+    '1ヶ月以上の個人的な経験と実践',
+  ]
 ---
 
 「私は毎日仕事に出勤し、仕事を辞めた後は家にいて携帯電話をスライドさせています。人生はとても退屈だと感じています。」これはあなたにとっても同じです。毎日目を覚ますと世界が疲れますか？

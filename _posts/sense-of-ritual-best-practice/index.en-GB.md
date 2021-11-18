@@ -9,7 +9,7 @@ In recent years, we have begun to explore the expression of the body, mind, and 
 coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
 ogImage:
   url: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
-
+credentials: ['Read 30+ posts', 'Interview 5+ people who do sense of ritual in life', 'practice in person 1+ month']
 ---
 
 "I clock into work every day and stay at home after getting off work to slide my phone. I really feel that life is so boring." Is this the same for you, waking up every day is full of world-weariness?
