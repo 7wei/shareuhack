@@ -12,5 +12,7 @@
   "travel": "Travel",
   "travelDescript": "Life is a journey. What you care about is not the destination, but the scenery and mood along the way.",
   "productivity": "Productivity",
-  "productivityDescript": "Minimize input, maxmize ouput."
+  "productivityDescript": "Minimize input, maxmize ouput.",
+  "lifeTip": "Life Tips",
+  "lifeTipDescript": "Little tips that can change your life."
 }
