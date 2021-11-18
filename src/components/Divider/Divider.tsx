@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 export default function Divider(props: Props) {
   const classes = useStyles(props)
-  const { orientation, extension } = props
 
-  return <MuiDivider className={classes.root} orientation={orientation} extension={extension} />
+  return <MuiDivider className={classes.root} />
 }
