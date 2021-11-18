@@ -53,7 +53,7 @@ export const SubCategory = {
   business: 'business',
   travel: 'travel',
   productivity: 'productivity',
-  lifeTip: 'lifeTip',
+  lifePhilosophy: 'lifePhilosophy',
 }
 
 export const Categories = [
@@ -119,9 +119,9 @@ export const SubCategories = [
     link: `${subcategoryBasePath}/${SubCategory.productivity}`,
   },
   {
-    key: SubCategory.lifeTip,
+    key: SubCategory.lifePhilosophy,
     category: Category.life,
-    link: `${subcategoryBasePath}/${SubCategory.lifeTip}`,
+    link: `${subcategoryBasePath}/${SubCategory.lifePhilosophy}`,
   },
 ]
 

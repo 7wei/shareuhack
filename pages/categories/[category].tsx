@@ -31,8 +31,9 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:title" content={`${CMS_NAME}- ${t(`${category.key}`)}`} />
         <meta property="og:description" content={t(`${category.key}Descript`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        {locales.map((locale) => (
+        {locales.map((locale, idx) => (
           <link
+            key={idx}
             rel="alternate"
             hrefLang={locale}
             href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/categories/${category.key}`}
