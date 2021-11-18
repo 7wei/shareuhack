@@ -1,4 +1,4 @@
-import { makeStyles, Theme, Link as MuiLink } from '@material-ui/core'
+import { makeStyles, Theme } from '@material-ui/core'
 import React from 'react'
 // import theme from '../../theme/index'
 
@@ -6,6 +6,7 @@ interface Props {
   href?: string
   target?: string
   children: React.ReactNode
+  noFollow?: boolean
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -20,12 +21,12 @@ const useStyles = makeStyles((theme: Theme) => ({
 }))
 
 const Link = React.forwardRef((props: Props, ref) => {
-  const { href, target, children } = props
+  const { href, target, children, noFollow } = props
   const classes = useStyles()
   return (
-    <MuiLink className={classes.link} href={href} target={target}>
+    <a className={classes.link} href={href} target={target} rel={noFollow ? 'nofollow' : ''}>
       {children}
-    </MuiLink>
+    </a>
   )
 })
 

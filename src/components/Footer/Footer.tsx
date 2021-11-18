@@ -1,4 +1,4 @@
-import { Link as MuiLink, makeStyles, Box, Button } from '@material-ui/core'
+import { Link as MuiLink, makeStyles, Box } from '@material-ui/core'
 import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
@@ -6,7 +6,6 @@ import FacebookIcon from '@material-ui/icons/Facebook'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
 
 const useStyles = makeStyles({
