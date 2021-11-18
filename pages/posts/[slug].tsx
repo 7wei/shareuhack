@@ -120,7 +120,10 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                               {recommendation.title}
                               <br />
                               <Link href={recommendation.link} passHref>
-                                <StyledLink target="_blank" noFollow>{` → ${recommendation.src}`}</StyledLink>
+                                <StyledLink
+                                  target="_blank"
+                                  rel="nofollow noopener noreferrer"
+                                >{` → ${recommendation.src}`}</StyledLink>
                               </Link>
                             </li>
                           ))}
@@ -135,7 +138,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
                               <Link href={reference.link} passHref>
-                                <StyledLink target="_blank" noFollow>
+                                <StyledLink target="_blank" rel="nofollow noopener noreferrer">
                                   {reference.title}
                                 </StyledLink>
                               </Link>
@@ -179,7 +182,10 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                         {recommendation.title}
                         <br />
                         <Link href={recommendation.link} passHref>
-                          <StyledLink target="_blank" noFollow>{` → ${recommendation.src}`}</StyledLink>
+                          <StyledLink
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                          >{` → ${recommendation.src}`}</StyledLink>
                         </Link>
                       </li>
                     ))}
@@ -194,7 +200,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                     {post.references?.map((reference, idx) => (
                       <li key={idx}>
                         <Link href={reference.link} passHref>
-                          <StyledLink target="_blank" noFollow>
+                          <StyledLink target="_blank" rel="nofollow noopener noreferrer">
                             {reference.title}
                           </StyledLink>
                         </Link>

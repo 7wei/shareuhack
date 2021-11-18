@@ -6,7 +6,7 @@ interface Props {
   href?: string
   target?: string
   children: React.ReactNode
-  noFollow?: boolean
+  rel?: string
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -21,10 +21,10 @@ const useStyles = makeStyles((theme: Theme) => ({
 }))
 
 const Link = React.forwardRef((props: Props, ref) => {
-  const { href, target, children, noFollow } = props
+  const { href, target, children, rel } = props
   const classes = useStyles()
   return (
-    <a className={classes.link} href={href} target={target} rel={noFollow ? 'nofollow' : ''}>
+    <a className={classes.link} href={href} target={target} rel={rel}>
       {children}
     </a>
   )
