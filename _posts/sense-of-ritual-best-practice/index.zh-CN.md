@@ -1,7 +1,7 @@
 ---
 title: '人生从生活仪式感开始转变—带你建立专属于自己的仪式感'
 category: 'life'
-subCategory: 'lifeTip'
+subCategory: 'lifePhilosophy'
 date: '2021-11-18'
 excerpt: '「每天打卡上班，下班就待在家滑手机，我真的觉得日子好苦闷」你是否也是这样，每天醒来就是充满着厌世感？近几年，我们开始探讨身心灵上的抒发，仪式感这个名词开始慢慢在生活上出现，我们开始追求心灵的富足，而仪式感即是追求此精神的表现，让我们不再是仅仅为了生存，而是为了生活而生活。'
 coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'

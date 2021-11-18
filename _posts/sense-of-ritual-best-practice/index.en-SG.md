@@ -1,7 +1,7 @@
 ---
 title: 'Life begins to change from the sense of ritual in life - Build one that belongs to you!'
 category: 'life'
-subCategory: 'lifeTip'
+subCategory: 'lifePhilosophy'
 date: '2021-11-18'
 excerpt: '"I clock into work every day and stay at home after getting off work to slide my phone. I really feel that life is so boring." Is this the same for you, waking up every day is full of world-weariness?
 

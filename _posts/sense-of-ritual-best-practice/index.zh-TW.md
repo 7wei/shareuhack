@@ -1,7 +1,7 @@
 ---
 title: '人生從生活儀式感開始轉變—帶你建立專屬於自己的儀式感'
 category: 'life'
-subCategory: 'lifeTip'
+subCategory: 'lifePhilosophy'
 date: '2021-11-18'
 excerpt: '「每天打卡上班，下班就待在家滑手機，我真的覺得日子好苦悶」你是否也是這樣，每天醒來就是充滿著厭世感？
 
