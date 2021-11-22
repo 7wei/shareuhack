@@ -53,7 +53,7 @@ export default class MyDocument extends Document {
           })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
             }}
           />
-
+          {/*
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(c,l,a,r,i,t,y){
@@ -62,7 +62,7 @@ export default class MyDocument extends Document {
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "8ie5om3g7d");`,
             }}
-          />
+          /> */}
 
           {/* Google Tag Manager */}
           <script
