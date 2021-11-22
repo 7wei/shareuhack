@@ -15,13 +15,14 @@ import Disclosure from '../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useRouter } from 'next/router'
+import { canonicalLocale } from '../src/utils/index'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
   const router = useRouter()
   const { locales } = router
-  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
   const { t } = useTranslation('common')
 
   return (

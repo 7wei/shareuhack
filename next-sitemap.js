@@ -16,22 +16,22 @@ module.exports = {
       href: `${siteUrl}/zh-TW`,
       hreflang: 'zh-TW',
     },
-    {
-      href: `${siteUrl}/zh-CN`,
-      hreflang: 'zh-CN',
-    },
-    {
-      href: `${siteUrl}/zh-HK`,
-      hreflang: 'zh-HK',
-    },
-    {
-      href: `${siteUrl}/zh-MO`,
-      hreflang: 'zh-MO',
-    },
-    {
-      href: `${siteUrl}/en-SG`,
-      hreflang: 'en-SG',
-    },
+    // {
+    //   href: `${siteUrl}/zh-CN`,
+    //   hreflang: 'zh-CN',
+    // },
+    // {
+    //   href: `${siteUrl}/zh-HK`,
+    //   hreflang: 'zh-HK',
+    // },
+    // {
+    //   href: `${siteUrl}/zh-MO`,
+    //   hreflang: 'zh-MO',
+    // },
+    // {
+    //   href: `${siteUrl}/en-SG`,
+    //   hreflang: 'en-SG',
+    // },
   ],
   // Default transformation function
   transform: async (config, path) => {

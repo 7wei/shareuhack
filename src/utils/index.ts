@@ -9,3 +9,15 @@ export function formattedDate(dateString: string) {
 
   return format(date, 'LLLL	d, yyyy')
 }
+
+export function canonicalLocale(locale: string) {
+  if (locale.includes('zh')) {
+    return 'zh-TW'
+  }
+
+  if (locale.includes('en')) {
+    return `en-US`
+  }
+
+  return locale
+}

@@ -22,12 +22,14 @@ import { formattedDate } from '../../src/utils'
 // import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
+import { canonicalLocale } from '../../src/utils/index'
 
 export default function Post({ post, morePosts, preview, category, subCategory }) {
   const router = useRouter()
   const { locale, locales } = router
   const { matches } = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
 
@@ -78,7 +80,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
                 href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`}
               />
             ))}
-            <link rel="canonical" href={url} />
+            <link rel="canonical" href={canonicalUrl} />
           </Head>
           <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (

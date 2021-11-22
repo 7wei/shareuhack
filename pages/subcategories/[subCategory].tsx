@@ -13,13 +13,14 @@ import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import { canonicalLocale } from '../../src/utils/index'
 
 export default function SubCategoryPage({ subCategory, posts }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
-  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/subcategories/${subCategory.key}`
 
   return (
     <>
@@ -38,6 +39,11 @@ export default function SubCategoryPage({ subCategory, posts }) {
             href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`}
           />
         ))}
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={process.env.NEXT_PUBLIC_BASE_URL + `/subcategories/${subCategory.key}`}
+        />
         <link rel="canonical" href={url} />
       </Head>
       {/* <Disclosure /> */}
