@@ -7,14 +7,16 @@ export default function CoverImage({
   slug,
   height,
   width,
+  alt,
 }: {
   title: string
   src: string
   slug?: string
   height: string | number
   width: string | number
+  alt: string
 }) {
-  const image = <Image src={src} alt={`Cover Image for ${title}`} layout="responsive" width={width} height={height} />
+  const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} />
   return (
     <div className="sm:mx-0">
       {slug ? (

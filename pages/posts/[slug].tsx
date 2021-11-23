@@ -82,7 +82,7 @@ export default function Post({ post, morePosts, preview, category, subCategory }
             ))}
             <link rel="canonical" href={canonicalUrl} />
           </Head>
-          <CoverImage title={post.title} src={post.coverImage} height={627} width={1200} />
+          <CoverImage title={post.title} alt={post.excerpt} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale} passHref>
