@@ -37,7 +37,12 @@ references:
       link: 'https://www.simplilearn.com/pmbok-7-vs-pmbok-6-article',
     },
   ]
-# related: []
+related:
+  [
+    'best-resources-to-learn-negotiation',
+    'use-time-matrix-to-make-life-easier',
+    'how-to-get-best-price-on-udemy-courses',
+  ]
 # tags: []
 ---
 
