@@ -7,11 +7,12 @@ interface Props {
   target?: string
   children: React.ReactNode
   rel?: string
+  color?: string
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
   link: {
-    color: theme.palette.primary.main,
+    color: (props: Props) => (props.color ? props.color : theme.palette.primary.main),
     textDecoration: 'none',
     '&:hover': {
       color: theme.palette.primary.dark,
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 const Link = React.forwardRef((props: Props, ref) => {
   const { href, target, children, rel } = props
-  const classes = useStyles()
+  const classes = useStyles(props)
   return (
     <a className={classes.link} href={href} target={target} rel={rel}>
       {children}

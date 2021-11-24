@@ -265,11 +265,9 @@ export async function getStaticProps({ params, locale }) {
   const content = await markdownToHtml(post.content || '')
   const category = Categories.find((category) => category.key === Category[post.category]) || null
   const subCategory = SubCategories.find((subCategory) => subCategory.key === SubCategory[post.subCategory]) || null
-  const categoryPosts = getCategoryPosts(
-    category.key,
-    ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'],
-    locale
-  )
+  const categoryPosts = category
+    ? getCategoryPosts(category.key, ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'], locale)
+    : []
   const relatedPosts = categoryPosts.filter((el) => el.slug !== post.slug)
 
   return {

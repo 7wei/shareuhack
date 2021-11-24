@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
+import StyledLink from '../../components/Link/Link'
 
 const useStyles = makeStyles({
   root: {
@@ -66,11 +67,11 @@ export default function Footer() {
               <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
             </Link>
             <Link href="https://www.facebook.com/shareuhack/" passHref>
-              <MuiLink className={classes.navlink}>
+              <StyledLink color="rgba(255,255,255, 0.6)" target="_blank">
                 <Box display="flex" alignItems="center">
-                  <FacebookIcon /> {t('contact')}
+                  <FacebookIcon />
                 </Box>
-              </MuiLink>
+              </StyledLink>
             </Link>
           </Box>
         </Box>
