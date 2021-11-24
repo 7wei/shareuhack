@@ -63,13 +63,13 @@ export default function Footer() {
 
         <Box display="flex" justifyContent="space-between" marginTop="30px">
           <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start">
-            <Link href={Routes.about} passHref locale={locale}>
+            {/* <Link href={Routes.about} passHref locale={locale}>
               <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
-            </Link>
+            </Link> */}
             <Link href="https://www.facebook.com/shareuhack/" passHref>
-              <StyledLink color="rgba(255,255,255, 0.6)" target="_blank">
+              <StyledLink color="#FFFFFF" target="_blank">
                 <Box display="flex" alignItems="center">
-                  <FacebookIcon />
+                  <FacebookIcon /> Let's be friend!
                 </Box>
               </StyledLink>
             </Link>
