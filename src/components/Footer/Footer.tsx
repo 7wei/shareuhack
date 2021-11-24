@@ -51,9 +51,9 @@ export default function Footer() {
   return (
     <Box className={classes.root}>
       <Container>
-        <Box display="flex" alignItems="center" paddingTop="36px">
+        <Box display="flex" alignItems="center" paddingTop="36px" gridGap="12px">
           {NavLinks.map((link, idx) => (
-            <Box key={idx} margin="0 8px">
+            <Box key={idx}>
               <Link key={link.key} href={link.link} passHref locale={locale}>
                 <MuiLink className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</MuiLink>
               </Link>
@@ -62,18 +62,13 @@ export default function Footer() {
         </Box>
 
         <Box display="flex" justifyContent="space-between" marginTop="30px">
-          <Box display="flex" flexDirection="column" gridGap="16px" alignItems="flex-start">
-            {/* <Link href={Routes.about} passHref locale={locale}>
-              <MuiLink className={classes.navlink}>{t('about')}</MuiLink>
-            </Link> */}
-            <Link href="https://www.facebook.com/shareuhack/" passHref>
-              <StyledLink color="#FFFFFF" target="_blank">
-                <Box display="flex" alignItems="center">
-                  Let's chat in <FacebookIcon />
-                </Box>
-              </StyledLink>
-            </Link>
-          </Box>
+          <Link href="https://www.facebook.com/shareuhack/" passHref>
+            <StyledLink color="#FFFFFF" target="_blank">
+              <Box display="flex" alignItems="center">
+                Let's chat in <FacebookIcon />
+              </Box>
+            </StyledLink>
+          </Link>
         </Box>
 
         <TYPE.smallGray mt="40px" pb="15px">
