@@ -34,7 +34,7 @@ export default function PostPreview({
 
   return (
     <Box maxWidth="300px" className={classes.root}>
-      <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
+      <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale} passHref>
         <StyledLink>
           <TYPE.bold mt="5px" className={classes.title}>
