@@ -40,7 +40,7 @@ export default function CategorySection({
         </Grid>
       </Grid>
       <Box mt="10px">
-        <Grid container>
+        <Grid spacing={3} container>
           {posts &&
             posts.map((post) => (
               <Grid key={post.title} item sm={4}>

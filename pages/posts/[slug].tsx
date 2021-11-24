@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
-import { getPostBySlug, getAllPosts, getAllPostPaths } from '../../lib/api'
+import { getPostBySlug, getAllPosts, getAllPostPaths, getCategoryPosts } from '../../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -23,8 +23,9 @@ import { formattedDate } from '../../src/utils'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import { canonicalLocale } from '../../src/utils/index'
+import PostPreview from '../../src/components/Post/PostPreview'
 
-export default function Post({ post, morePosts, preview, category, subCategory }) {
+export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, locales } = router
   const { matches } = useBreakpoint()
@@ -223,6 +224,17 @@ export default function Post({ post, morePosts, preview, category, subCategory }
               {/* )} */}
             </>
           )}
+          <Divider primary />
+          <Box mt="30px" mb="30px">
+            <TYPE.largeHeader marginBottom="15px">Discover more hacks</TYPE.largeHeader>
+            <Grid spacing={3} container>
+              {relatedPosts.map((post) => (
+                <Grid key={post.title} item xs={12} sm={4}>
+                  <PostPreview {...post} simple />
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
         </>
       )}
     </>
@@ -253,6 +265,12 @@ export async function getStaticProps({ params, locale }) {
   const content = await markdownToHtml(post.content || '')
   const category = Categories.find((category) => category.key === Category[post.category]) || null
   const subCategory = SubCategories.find((subCategory) => subCategory.key === SubCategory[post.subCategory]) || null
+  const categoryPosts = getCategoryPosts(
+    category.key,
+    ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'],
+    locale
+  )
+  const relatedPosts = categoryPosts.filter((el) => el.slug !== post.slug)
 
   return {
     props: {
@@ -263,6 +281,7 @@ export async function getStaticProps({ params, locale }) {
       },
       category: category,
       subCategory: subCategory,
+      relatedPosts: relatedPosts,
     },
   }
 }

@@ -22,18 +22,20 @@ export default function PostPreview({
   date,
   excerpt,
   slug,
+  simple,
 }: {
   title: string
   coverImage: string
   date: string
   excerpt: string
   slug: string
+  simple?: boolean
 }) {
   const classes = useStyles()
   const { locale } = useRouter()
 
   return (
-    <Box maxWidth="300px" className={classes.root}>
+    <Box className={classes.root} width="100%">
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale} passHref>
         <StyledLink>
@@ -41,7 +43,7 @@ export default function PostPreview({
             {title}
           </TYPE.bold>
           <TYPE.primary>{formattedDate(date)}</TYPE.primary>
-          <TYPE.body>{excerpt}</TYPE.body>
+          {!simple && <TYPE.body>{excerpt}</TYPE.body>}
         </StyledLink>
       </Link>
     </Box>
