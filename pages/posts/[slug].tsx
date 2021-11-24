@@ -226,7 +226,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           )}
           <Divider primary />
           <Box mt="30px" mb="30px">
-            <TYPE.largeHeader marginBottom="15px">Discover more hacks</TYPE.largeHeader>
+            <TYPE.largeHeader marginBottom="15px">More hacks</TYPE.largeHeader>
             <Grid spacing={3} container>
               {relatedPosts.map((post) => (
                 <Grid key={post.title} item xs={12} sm={4}>
