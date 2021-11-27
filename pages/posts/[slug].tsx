@@ -34,6 +34,36 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
 
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    image: [post.coverImage],
+    datePublished: post.date,
+    articleSection: subCategory,
+    keywords: post.keywords,
+    // author: [
+    //   {
+    //     '@type': 'Person',
+    //     name: 'Jane Doe',
+    //     url: 'http://example.com/profile/janedoe123',
+    //   },
+    // ],
+    publisher: [
+      {
+        '@type': 'Organization',
+        name: 'Shareuhack',
+        brand: 'Shareuhack',
+        url: 'https://www.shareuhack.com',
+        logo: {
+          url: '/assets/share-you-hack.png',
+        },
+      },
+    ],
+  }
+
+  const structuredJSON = JSON.stringify(structuredData)
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
@@ -69,10 +99,13 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <title>
               {CMS_NAME} | {post.title}
             </title>
-            <meta name="description" content={post.excerpt} />
+            <meta name="description" content={post.description ?? post.excerpt} />
             <meta property="og:title" content={post.title} />
-            <meta property="og:description" content={post.excerpt} />
+            <meta property="og:description" content={post.description ?? post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
+            <script className="structured-data" type="application/ld+json">
+              {structuredJSON}
+            </script>
             {locales.map((locale) => (
               <link
                 key={locale}
@@ -259,6 +292,8 @@ export async function getStaticProps({ params, locale }) {
       'subCategory',
       'excerpt',
       'widget',
+      'keywords',
+      'description',
     ],
     locale
   )

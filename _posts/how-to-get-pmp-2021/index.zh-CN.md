@@ -52,7 +52,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
-# tags: []
+keywords: 'PMP, Project Management, 專案管理師, 證照, PMI, PMBOK'
 ---
 
 有在关注这 PMP 个证照的人，可能会发现 PMP 考试在 2021 改版，所以现在搜寻到的关于分享 PMP 考照的就文章，可能会和最新状况有所出入。不过别担心，你不是已经找到这篇文章了吗？让我们来看看新版 PMP 的考取攻略吧！

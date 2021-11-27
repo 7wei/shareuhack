@@ -43,7 +43,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
-# tags: []
+keywords: 'PMP, Project Management, PMI, PMBOK'
 ---
 
 これらの PMP ライセンスをフォローしている人は、PMP 試験が 2021 年に改訂されることに気付くかもしれません。そのため、現在検索されている PMP 試験の写真の共有に関する記事は最新の状況とは異なる場合があります。しかし、心配しないでください、あなたはこの記事を見つけませんでしたか？

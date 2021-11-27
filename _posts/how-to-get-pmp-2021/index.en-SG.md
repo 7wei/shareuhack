@@ -43,7 +43,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
-# tags: []
+keywords: 'PMP, Project Management, PMI, PMBOK'
 ---
 
 Those who are following these PMP licences may find that the PMP exam will be revised in 2021, so the articles about sharing PMP exam photos that are searched now may be different from the latest situation. But don’t worry, haven’t you found this article?
