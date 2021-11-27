@@ -45,7 +45,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
     datePublished: post.date,
     articleSection: subCategoryTrans(subCategory?.key),
     keywords: post.keywords,
-    backstory: post.credentials.join(','),
+    backstory: post?.credentials?.join(','),
     author: [JSON.stringify(structuredDataOrganization)],
     publisher: [JSON.stringify(structuredDataOrganization)],
   }
