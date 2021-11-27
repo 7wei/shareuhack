@@ -24,6 +24,7 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import { canonicalLocale } from '../../src/utils/index'
 import PostPreview from '../../src/components/Post/PostPreview'
+import useStructuredData from '../../src/hooks/useStructuredData'
 
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -33,33 +34,20 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
+  const { structuredDataOrganization } = useStructuredData()
 
   const structuredData = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
-    image: [post.coverImage],
+    about: post.about,
+    image: post.coverImage,
     datePublished: post.date,
-    articleSection: subCategory,
+    articleSection: subCategoryTrans(subCategory?.key),
     keywords: post.keywords,
-    // author: [
-    //   {
-    //     '@type': 'Person',
-    //     name: 'Jane Doe',
-    //     url: 'http://example.com/profile/janedoe123',
-    //   },
-    // ],
-    publisher: [
-      {
-        '@type': 'Organization',
-        name: 'Shareuhack',
-        brand: 'Shareuhack',
-        url: 'https://www.shareuhack.com',
-        logo: {
-          url: '/assets/share-you-hack.png',
-        },
-      },
-    ],
+    backstory: post.credentials.join(','),
+    author: [JSON.stringify(structuredDataOrganization)],
+    publisher: [JSON.stringify(structuredDataOrganization)],
   }
 
   const structuredJSON = JSON.stringify(structuredData)
@@ -294,6 +282,7 @@ export async function getStaticProps({ params, locale }) {
       'widget',
       'keywords',
       'description',
+      'about',
     ],
     locale
   )
