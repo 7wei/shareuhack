@@ -10,7 +10,7 @@ import StyledLink from '../../components/Link/Link'
 const useStyles = makeStyles({
   root: {
     '&:hover $title': {
-      color: theme.textColor.text3,
+      color: theme.palette.primary.main,
     },
   },
   title: {},

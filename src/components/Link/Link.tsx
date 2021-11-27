@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   link: {
     color: (props: Props) => (props.color ? props.color : theme.palette.primary.main),
     textDecoration: 'none',
-    '&:hover *': {
+    '&:hover': {
       color: theme.palette.primary.main,
       textDecoration: 'none',
     },
