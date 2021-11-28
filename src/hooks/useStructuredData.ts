@@ -29,6 +29,7 @@ export default function useStructuredData() {
     inLanguage: locale,
     name: websiteName,
     url: websiteUrl,
+    about: description,
     description: description,
     keywords: keywords,
   }
