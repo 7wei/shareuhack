@@ -7,8 +7,14 @@ coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 date: '2021-07-18'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
-credentials: ['Visit 2 project managers who passed the PMP exam','read 30+ articles on the Internet','actually watch 3+ online courses']
-recommendations: [
+credentials:
+  [
+    'Visit 2 project managers who passed the PMP exam',
+    'Read 30+ articles on the Internet',
+    'Actually watch 3+ online courses',
+  ]
+recommendations:
+  [
     {
       title: 'PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs',
       link: 'https://tinyurl.com/yfen2p3g',
@@ -26,7 +32,6 @@ references:
       title: 'How The PMP Exam is Changing in 2021',
       link: 'https://www.girlsguidetopm.com/how-the-pmp-exam-is-changing-next-year/',
     },
-    {title: 'PTT- P_Management Edition', link:'https://www.ptt.cc/bbs/P_Management/index.html' },
     {
       title: 'PMP Exam Reference List',
       link: 'https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source =email-sendgrid&utm_medium=979552',
@@ -46,8 +51,6 @@ keywords: 'PMP, Project Management, project manager, certification, PMI, PMBOK'
 description: 'This article shares the information about the PMP exam: 1. The new version of the exam content 2. Preparation methods 3. Learning and simulation test resources'
 about: 'Project Management Professional'
 ---
-
-###### tags: `en-US`
 
 Those who are interested in taking the PMP certification should have found that the exam has been updated in 2021, so if you are trying to search for the related information, probably the information is outdated. Don't worry! This article will show you the revision of PMP and guide you to crack the new PMP exam!
 
@@ -113,7 +116,6 @@ The main difference between PMBOK 6 and 7 is that compared with the ten knowledg
 
 ## Preparation method
 
-
 How to deal with the new version of the exam, how to prepare?
 
 There is not much difference for new participants between new and old versions. Just take the necessary courses and materials, and these materials will also align with the latest update of PMI. The following is the recommended preparation method:
@@ -136,7 +138,7 @@ There is not much difference for new participants between new and old versions. 
 
 3. Go over the PMBOK again. In fact, after completing the course, you are already quite familiar with the knowledge framework. It will not take much time to watch PMBOK.
 
-4. Start practising mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be torn on the correctness of each question. The key is if you have clear ideas when seeing the questions. If there are uncertain parts, refer to PMBOK, or you can discuss in relevant community groups like [Facebook](https://www.facebook.com/groups/839989579444112), [Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP).  Usually, the community is willing to help. How many questions need to be done? The learning resources mentioned in this article is quite enough. The additional exercises are mainly for bringing in more confidence.
+4. Start practising mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be torn on the correctness of each question. The key is if you have clear ideas when seeing the questions. If there are uncertain parts, refer to PMBOK, or you can discuss in relevant community groups like [Facebook](https://www.facebook.com/groups/839989579444112), [Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP). Usually, the community is willing to help. How many questions need to be done? The learning resources mentioned in this article is quite enough. The additional exercises are mainly for bringing in more confidence.
 
 5. Before the exam, take [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) for the final sprint. After finishing the course and completing the quizzes, you are ready for the battle!
 
