@@ -12,17 +12,6 @@ export default function useStructuredData() {
   const keywords = 'Shareuhack, lifeHacks'
   const description = t('whatWeDoDescript')
 
-  const structuredDataOrganization = {
-    '@type': 'Organization',
-    name: websiteName,
-    brand: websiteName,
-    url: websiteUrl,
-    logo: {
-      '@type': 'ImageObject',
-      url: logoUrl,
-    },
-  }
-
   const structuredDataWebsite = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -32,6 +21,17 @@ export default function useStructuredData() {
     about: description,
     description: description,
     keywords: keywords,
+  }
+
+  const structuredDataOrganization = {
+    '@type': 'Organization',
+    name: websiteName,
+    brand: structuredDataWebsite,
+    url: websiteUrl,
+    logo: {
+      '@type': 'ImageObject',
+      url: logoUrl,
+    },
   }
 
   return {
