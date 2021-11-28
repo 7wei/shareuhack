@@ -39,7 +39,7 @@ references:
 #'related-post-slug-3',
 #]
 keywords: 'Blinkist, reading'
-description: 'Review for Blinkist - an app for efficient reading'
+description: 'APP Review: Blinkist - an app for efficient reading'
 about: 'Blinkist'
 ---
 

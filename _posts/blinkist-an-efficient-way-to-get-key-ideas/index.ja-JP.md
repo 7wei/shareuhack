@@ -39,7 +39,7 @@ references:
 #'related-post-slug-3',
 #]
 keywords: 'Blinkist, reading, 読む'
-description: 'Blinkistのレビュー-効率的な読書のためのアプリ'
+description: 'APPレビュー：Blinkist-超効率的な読書および学習ツール'
 about: 'Blinkist'
 ---
 

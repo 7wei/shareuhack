@@ -39,7 +39,7 @@ references:
 #     'related-post-slug-3',
 #   ]
 keywords: 'Blinkist, reading'
-description: '评论Blinkist - 效率阅读与学习的APP'
+description: 'APP评论: Blinkist-超高效率阅读学习工具'
 about: 'Blinkist'
 ---
 
