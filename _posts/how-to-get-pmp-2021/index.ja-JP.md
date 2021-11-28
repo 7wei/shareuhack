@@ -1,6 +1,6 @@
 ---
 title: '2021 PMP合格する最新のガイド、古いバージョンに別れを告げる！'
-category: 'knowledge'
+category: 'work'
 subCategory: 'projectManagement'
 excerpt: 'PMPの国際免許の取得に関心のある人は、2021年に試験が改訂されることを知っているはずです。そのため、PMP試験の共有に関する古い記事を検索することは、最新の状況とは異なる可能性があります。 しかし、心配しないでください。この記事では、改訂の概要と新しいPMP試験のガイドを紹介します。'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
@@ -41,7 +41,7 @@ related:
   [
     'best-resources-to-learn-negotiation',
     'use-time-matrix-to-make-life-easier',
-    'how-to-get-best-price-on-udemy-courses',
+    'blinkist-an-efficient-way-to-get-key-ideas',
   ]
 keywords: 'PMP, Project Management, PMI, PMBOK, プロジェクト管理'
 ---

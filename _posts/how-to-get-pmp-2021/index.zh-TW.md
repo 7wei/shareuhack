@@ -1,6 +1,6 @@
 ---
 title: '2021 新版PMP證照考取攻略！'
-category: 'knowledge'
+category: 'work'
 subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
@@ -49,7 +49,7 @@ related:
   [
     'best-resources-to-learn-negotiation',
     'use-time-matrix-to-make-life-easier',
-    'how-to-get-best-price-on-udemy-courses',
+    'blinkist-an-efficient-way-to-get-key-ideas',
   ]
 keywords: 'PMP, Project Management, 專案管理師, 證照, PMI, PMBOK'
 description: '此篇文章分享關於PMP證照: 1.新版考試內容 2. 準備方法 3. 學習與模擬測試資源'

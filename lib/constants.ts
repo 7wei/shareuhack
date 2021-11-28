@@ -48,7 +48,6 @@ export const Category = {
 export const SubCategory = {
   frontendDev: 'frontendDev',
   projectManagement: 'projectManagement',
-  eLearning: 'eLearning',
   finance: 'finance',
   business: 'business',
   travel: 'travel',
@@ -88,16 +87,10 @@ export const SubCategories = [
     category: Category.work,
     link: `${subcategoryBasePath}/${SubCategory.frontendDev}`,
   },
-
   {
     key: SubCategory.projectManagement,
-    category: Category.knowledge,
+    category: Category.work,
     link: `${subcategoryBasePath}/${SubCategory.projectManagement}`,
-  },
-  {
-    key: SubCategory.eLearning,
-    category: Category.knowledge,
-    link: `${subcategoryBasePath}/eLearning`,
   },
   {
     key: SubCategory.finance,
@@ -176,8 +169,8 @@ export const Locales = [
 
 export const HotPostSlugs = [
   'how-to-get-pmp-2021',
+  'blinkist-an-efficient-way-to-get-key-ideas',
   'use-time-matrix-to-make-life-easier',
   'how-to-become-a-frontend-engineer',
   'how-to-get-best-price-on-udemy-courses',
-  'learn-to-financial-freedom-from-amazon-bestsellers',
 ]

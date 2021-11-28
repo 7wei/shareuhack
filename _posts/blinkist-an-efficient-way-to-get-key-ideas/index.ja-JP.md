@@ -1,15 +1,15 @@
 ---
-title: 'Read a book in 15 minutes? Super efficient reading APP-Blinkist'
+title: '15分で本を読みますか？ 超効率的な読書APP-Blinkist'
 slug: 'blinkist-an-efficient-way-to-get-key-ideas'
 category: 'knowledge'
 subCategory: 'education'
-excerpt: 'If you like to read, do you often feel that there is not enough time? Do you prefer to read nonfiction works? This article shares an efficient reading APP-Blinkist, which allows you to read and absorb the knowledge of a whole book in just fifteen minutes.
+excerpt: '読書が好きなら、時間が足りないと感じることがよくありますか？ノンフィクション作品を読むのが好きですか？この記事では、効率的な読書APP-Blinkistを共有しています。これにより、本全体の知識をわずか15分で読んで吸収することができます。
 '
 coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
 date: '2021-11-28'
 ogImage:
   url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
-credentials: ['Use Blinkist Premium for half a year','Use Blinkist to read at least one book every day', '3+ Blinkist user interviews']
+credentials: ['BlinkistPremiumを半年間使用する'、'Blinkistを使用して毎日少なくとも1冊の本を読む'、'3回以上のBlinkistユーザーインタビュー']
 # recommendations: [
 # {
 # title:'title',
@@ -38,8 +38,8 @@ references:
 #'related-post-slug-2',
 #'related-post-slug-3',
 #]
-keywords: 'Blinkist, reading'
-description: 'Comment on Blinkist-an app for efficient reading and learning'
+keywords: 'Blinkist, reading, 読む'
+description: 'Blinkistのレビュー-効率的な読書のためのアプリ'
 about: 'Blinkist'
 ---
 
@@ -51,8 +51,8 @@ about: 'Blinkist'
 
 以下は、[Blinkist](http://blinki.st/1db2128ceb83)の公式ウェブページとAppStoreのタイトルです。
 
-* Blinkist：小さなパッケージの大きなアイデア
-* Blinkist：15分本の洞察
+* Blinkist: Big ideas in small packages
+* Blinkist: 15 min Book insights
 
 簡潔で理解しやすいBlinistは、本全体の内容を15分の焦点に凝縮するサービスです。
 
