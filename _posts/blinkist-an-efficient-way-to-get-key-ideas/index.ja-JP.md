@@ -9,7 +9,7 @@ coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
 date: '2021-11-28'
 ogImage:
   url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
-credentials: ['BlinkistPremiumを半年間使用する','Blinkistを使用して毎日少なくとも1冊の本を読む','3回以上のBlinkistユーザーインタビュー']
+credentials: ['Blinkist Premiumを半年間使用する','Blinkistを使用して毎日少なくとも1冊の本を読む','3回以上のBlinkistユーザーインタビュー']
 # recommendations: [
 # {
 # title:'title',
