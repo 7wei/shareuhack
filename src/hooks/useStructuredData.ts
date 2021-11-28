@@ -9,7 +9,7 @@ export default function useStructuredData() {
   const websiteName = 'Shareuhack'
   const websiteUrl = 'https://www.shareuhack.com'
   const logoUrl = '/assets/brand.png'
-  const keywords = 'Shareuhack, lifeHacks'
+  const keywords = 'Shareuhack, LifeHacks, LifeHacker'
   const description = t('whatWeDoDescript')
 
   const structuredDataWebsite = {

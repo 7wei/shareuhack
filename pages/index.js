@@ -35,10 +35,10 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        <script className="structured-data" type="application/ld+json">
+        <script id="structured-data-Website" className="structured-data" type="application/ld+json">
           {JSON.stringify(structuredDataWebsite)}
         </script>
-        <script className="structured-data" type="application/ld+json">
+        <script id="structured-data-Organization" className="structured-data" type="application/ld+json">
           {JSON.stringify(structuredDataOrganization)}
         </script>
         {locales.map((locale, idx) => (

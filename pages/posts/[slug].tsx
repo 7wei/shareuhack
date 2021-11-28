@@ -59,13 +59,13 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
         '@type': 'ListItem',
         position: 1,
         name: t(category?.key),
-        item: 'https://example.com/books',
+        item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + category?.link,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: subCategoryTrans(subCategory?.key),
-        item: 'https://example.com/books/sciencefiction',
+        item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + subCategory?.link,
       },
       {
         '@type': 'ListItem',
@@ -114,10 +114,10 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.description ?? post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
-            <script className="structured-data" type="application/ld+json">
+            <script id="structured-data-BreadcrumbList" className="structured-data" type="application/ld+json">
               {JSON.stringify(structuredDataBreadcrumb)}
             </script>
-            <script className="structured-data" type="application/ld+json">
+            <script id="structured-data-BlogPosting" className="structured-data" type="application/ld+json">
               {JSON.stringify(structuredDataPost)}
             </script>
 
