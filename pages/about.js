@@ -5,17 +5,24 @@ import PostBody from '../src/components/Post/PostBody'
 import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import { useTranslation } from 'next-i18next'
+import { canonicalLocale } from '../src/utils/index'
+import { useRouter } from 'next/router'
 
 export default function About({ post }) {
+  const { t } = useTranslation('common')
+  const { locale } = useRouter()
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
+
   return (
     <>
       <Head>
         <title>{CMS_NAME} | About</title>
-        <meta
-          name="description"
-          content="我們熱衷於研究、分享並實際測試實用的知識、生活密技，幫助你效率的做好每件事，成為LifeHacker！"
-        />
+        <meta name="description" content={t('whatWeDoDescript')} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
       <TYPE.largeHeader>{post.title}</TYPE.largeHeader>
       <PostBody content={post.content} />
