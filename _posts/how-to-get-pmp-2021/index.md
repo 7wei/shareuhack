@@ -1,4 +1,3 @@
-###### tags: `en-US`
 ---
 title: '2021 How to crack the PMP exam!'
 category: 'knowledge'
@@ -47,6 +46,8 @@ keywords: 'PMP, Project Management, project manager, certification, PMI, PMBOK'
 description: 'This article shares the information about the PMP exam: 1. The new version of the exam content 2. Preparation methods 3. Learning and simulation test resources'
 about: 'Project Management Professional'
 ---
+
+###### tags: `en-US`
 
 Those who are interested in taking the PMP certification should have found that the exam has been updated in 2021, so if you are trying to search for the related information, probably the information is outdated. Don't worry! This article will show you the revision of PMP and guide you to crack the new PMP exam!
 
