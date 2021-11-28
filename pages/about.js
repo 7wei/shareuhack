@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 export default function About({ post }) {
   const { t } = useTranslation('common')
   const { locale } = useRouter()
-  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
 
   return (
     <>
