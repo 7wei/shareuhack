@@ -7,32 +7,7 @@ module.exports = {
   sitemapSize: 5000,
   generateRobotsTxt: true,
   exclude: ['/server-sitemap.xml'],
-  alternateRefs: [
-    {
-      href: `${siteUrl}/en-US`,
-      hreflang: 'en-US',
-    },
-    {
-      href: `${siteUrl}/zh-TW`,
-      hreflang: 'zh-TW',
-    },
-    {
-      href: `${siteUrl}/zh-CN`,
-      hreflang: 'zh-CN',
-    },
-    {
-      href: `${siteUrl}/zh-HK`,
-      hreflang: 'zh-HK',
-    },
-    {
-      href: `${siteUrl}/zh-MO`,
-      hreflang: 'zh-MO',
-    },
-    {
-      href: `${siteUrl}/en-SG`,
-      hreflang: 'en-SG',
-    },
-  ],
+  alternateRefs: [],
   // Default transformation function
   transform: async (config, path) => {
     return {
@@ -43,20 +18,7 @@ module.exports = {
       alternateRefs: config.alternateRefs ?? [],
     }
   },
-  additionalPaths: async (config) => [
-    await config.transform(config, '/about'),
-    await config.transform(config, '/posts/about-us'),
-    await config.transform(config, '/posts/best-resources-to-learn-negotiation'),
-    await config.transform(config, '/posts/how-to-become-a-frontend-engineer'),
-    await config.transform(config, '/posts/how-to-get-best-price-on-udemy-courses'),
-    await config.transform(config, '/posts/how-to-get-pmp-2021'),
-    await config.transform(config, '/posts/learn-to-financial-freedom-from-amazon-bestsellers'),
-    await config.transform(config, '/posts/what-is-drop-servicing'),
-    await config.transform(config, '/posts/how-to-take-dog-to-japan'),
-    await config.transform(config, '/posts/use-time-matrix-to-make-life-easier'),
-    await config.transform(config, '/posts/sense-of-ritual-best-practice'),
-    await config.transform(config, '/posts/blinkist-an-efficient-way-to-get-key-ideas'),
-  ],
+  additionalPaths: async (config) => [],
   robotsTxtOptions: {
     policies: [
       {
