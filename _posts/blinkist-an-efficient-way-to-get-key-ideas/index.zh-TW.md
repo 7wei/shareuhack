@@ -61,7 +61,9 @@ Blinkist專注在Nonfiction的書籍，這類書籍通常是介紹方法、傳�
 這類型的服務，非常適合：
 
 1. 熱愛閱讀和學習新知識
+
 2. 忙碌沒時間閱讀
+
 3. 喜歡利用零碎時間閱讀的人。
 
 ## 關於Blinkist這家公司
@@ -104,7 +106,7 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 * 技術與未來(Technology & the Future)
 * 傳記與回憶錄(Biography & Memoir)
 
-## 價錢
+## 価格
 
 [![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://www.blinkist.com/en/nc/plans)
 
@@ -113,6 +115,7 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 一次訂閱一個月，每月$14.99的價格，相當於在[kindle商城](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011)買1-2本電子書，其實是尚可接受的，若符合自己的閱讀習慣，則可以一次訂閱一年，享有更划算的價格。
 
 此外，在一些特殊日子，例如黑五，會有高達50％的折扣！
+
 [![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](http://blinki.st/1db2128ceb83)
 
 ## 使用者體驗
@@ -120,12 +123,15 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 Blinkist的設計非常簡潔，使用這個APP，幾乎沒有學習成本，或需要搜尋教學文件的狀況，主要分功能為以下三塊：
 
 * For You: 客製化的推薦
+
 * Explore: 你可以搜尋、瀏覽27個類別，或是查看最新、當前最熱門書籍、作家提供的書單
+
 * Library: 你可以儲存書籍、查看已閱讀完成的書籍、歷史紀錄、已下載的書籍
 
 此外，Blinkist的社群媒體也經營的很細心，亦是發掘書籍、激發靈感的好地方
 
 * [Instagram](https://www.instagram.com/blinkist/?hl=en)
+
 * [Facebook](https://www.facebook.com/blinkist/)
 
 ## Pros & Cons
@@ -135,14 +141,19 @@ Blinkist的設計非常簡潔，使用這個APP，幾乎沒有學習成本，或
 ### Pros
 
 * 每本書被濃縮成15分鐘的內容，對於沒有習慣閱讀Nonfiction內容的讀者來說，是非常友善且有效率的。
+
 * 簡潔有力的統整key takeaways和actionable advice，讓人可以快速去嘗試新學到的知識。
+
 * 每本書都是有聲書，也有優質的podcast節目，運動、通勤時間用聽的也很方便。
+
 * 良好的使用者體驗，專注在讓人用最有效率的方式獲取新知識，方便掌握閱讀的進度。
+
 * 若習慣以電子書閱讀，也可以[將文章寄至kindle](https://support.blinkist.com/hc/en-us/articles/202801423-How-do-I-send-Blinks-to-my-Kindle-)，沒有任何跑版問題。
 
 ### Cons
 
 * Blinkist只擷取重點，所以大部分作者表達的情緒、幽默感，都無法在15min的內容看到，相對理性，失去了感性。
+
 * 有些書實在是無法濃縮成15min的內容，但只看Blinkist，會無法判斷是否漏掉了一些原作想要傳達的訊息。
 
 ## Blinkist可以取代既有的閱讀方式嗎？
