@@ -36,7 +36,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const { t: subCategoryTrans } = useTranslation('subCategory')
   const { structuredDataOrganization } = useStructuredData()
 
-  const structuredData = {
+  const structuredDataPost = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: post.title,
@@ -51,7 +51,29 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
     publisher: JSON.stringify(structuredDataOrganization),
   }
 
-  const structuredJSON = JSON.stringify(structuredData)
+  const structuredDataBreadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: t(category?.key),
+        item: 'https://example.com/books',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: subCategoryTrans(subCategory?.key),
+        item: 'https://example.com/books/sciencefiction',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: post.title,
+      },
+    ],
+  }
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -93,8 +115,12 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <meta property="og:description" content={post.description ?? post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
             <script className="structured-data" type="application/ld+json">
-              {structuredJSON}
+              {JSON.stringify(structuredDataBreadcrumb)}
             </script>
+            <script className="structured-data" type="application/ld+json">
+              {JSON.stringify(structuredDataPost)}
+            </script>
+
             {locales.map((locale) => (
               <link
                 key={locale}
