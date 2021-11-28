@@ -65,7 +65,7 @@ export default function Footer() {
           <Link href="https://www.facebook.com/shareuhack/" passHref>
             <StyledLink color="#FFFFFF" target="_blank">
               <Box display="flex" alignItems="center">
-                Let's chat in <FacebookIcon />
+                Let's chat at <FacebookIcon />
               </Box>
             </StyledLink>
           </Link>
