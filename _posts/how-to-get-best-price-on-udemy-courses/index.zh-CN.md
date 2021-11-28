@@ -1,7 +1,7 @@
 ---
 title: '如何以最便宜的价格购买Udemy课程？ '
 category: 'knowledge'
-subCategory: 'eLearning'
+subCategory: 'education'
 excerpt: '如果你有想到要学一个新东西，第一个的线上课程平台或许就是Udemy，几乎你想像得到的课程，都可以在这边找到，例如：语言、艺术、音乐、健身、程式设计、商业、教学、生产力等等。那么，如何以最便宜的方式购买Udemy课程呢?'
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 date: '2021-07-22'
