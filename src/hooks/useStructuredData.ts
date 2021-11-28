@@ -1,3 +1,4 @@
+import Email from '@material-ui/icons/Email'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 
@@ -11,6 +12,7 @@ export default function useStructuredData() {
   const logoUrl = '/assets/brand.png'
   const keywords = 'Shareuhack, LifeHacks, LifeHacker'
   const description = t('whatWeDoDescript')
+  const email = 'c@shareuhack.com'
 
   const structuredDataWebsite = {
     '@context': 'https://schema.org',
@@ -28,6 +30,7 @@ export default function useStructuredData() {
     name: websiteName,
     brand: structuredDataWebsite,
     url: websiteUrl,
+    email: email,
     logo: {
       '@type': 'ImageObject',
       url: logoUrl,
