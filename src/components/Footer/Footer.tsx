@@ -3,6 +3,7 @@ import { NavLinks, Routes } from '../../../lib/constants'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 import FacebookIcon from '@material-ui/icons/Facebook'
+import EmailIcon from '@material-ui/icons/Email'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -61,12 +62,15 @@ export default function Footer() {
           ))}
         </Box>
 
-        <Box display="flex" justifyContent="space-between" marginTop="30px">
+        <Box display="flex" gridGap="12px" marginTop="30px">
           <Link href="https://www.facebook.com/shareuhack/" passHref>
             <StyledLink color="#FFFFFF" target="_blank">
-              <Box display="flex" alignItems="center">
-                Let's chat at <FacebookIcon />
-              </Box>
+              <FacebookIcon />
+            </StyledLink>
+          </Link>
+          <Link href="mailto:c@shareuhack.com" passHref>
+            <StyledLink color="#FFFFFF" target="_blank">
+              <EmailIcon />
             </StyledLink>
           </Link>
         </Box>
