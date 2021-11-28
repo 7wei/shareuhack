@@ -121,15 +121,12 @@ Blinkist目前收录有5000本以上的Nonfiction书籍，涵盖了27个类别�
 Blinkist的设计非常简洁，使用这个APP，几乎没有学习成本，或需要搜寻教学文件的状况，主要分功能为以下三块：
 
 * For You: 客制化的推荐
-
 * Explore: 你可以搜寻、浏览27个类别，或是查看最新、当前最热门书籍、作家提供的书单
-
 * Library: 你可以储存书籍、查看已阅读完成的书籍、历史纪录、已下载的书籍
 
 此外，Blinkist的社群媒体也经营的很细心，亦是发掘书籍、激发灵感的好地方
 
 * [Instagram](https://www.instagram.com/blinkist/?hl=en)
-
 * [Facebook](https://www.facebook.com/blinkist/)
 
 ## Pros & Cons

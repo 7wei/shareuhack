@@ -61,9 +61,7 @@ Blinkist專注在Nonfiction的書籍，這類書籍通常是介紹方法、傳�
 這類型的服務，非常適合：
 
 1. 熱愛閱讀和學習新知識
-
 2. 忙碌沒時間閱讀
-
 3. 喜歡利用零碎時間閱讀的人。
 
 ## 關於Blinkist這家公司
@@ -106,7 +104,7 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 * 技術與未來(Technology & the Future)
 * 傳記與回憶錄(Biography & Memoir)
 
-## 価格
+## 價格
 
 [![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://www.blinkist.com/en/nc/plans)
 
@@ -123,15 +121,12 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 Blinkist的設計非常簡潔，使用這個APP，幾乎沒有學習成本，或需要搜尋教學文件的狀況，主要分功能為以下三塊：
 
 * For You: 客製化的推薦
-
 * Explore: 你可以搜尋、瀏覽27個類別，或是查看最新、當前最熱門書籍、作家提供的書單
-
 * Library: 你可以儲存書籍、查看已閱讀完成的書籍、歷史紀錄、已下載的書籍
 
 此外，Blinkist的社群媒體也經營的很細心，亦是發掘書籍、激發靈感的好地方
 
 * [Instagram](https://www.instagram.com/blinkist/?hl=en)
-
 * [Facebook](https://www.facebook.com/blinkist/)
 
 ## Pros & Cons
