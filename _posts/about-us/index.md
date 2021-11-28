@@ -21,7 +21,7 @@ Shareuhack is a continuously growing project. We will do our best to ensure that
 
 1. Each of our articles will be studied for several days to several weeks, and a large number of data will be collected from credible sources and consolidated
 2. The products and courses we introduce will be tested, understood, or actual experience from experts
-3. In addition to relying on the professional experience of our team members, we will also collect feedback and information obtained from interviews with experts in various fields to ensure the accuracy of the information.
+3. We also collect feedback and information obtained from interviews with experts in various fields to ensure the accuracy of the information.
 4. We will regularly review the content of the old articles and make appropriate updates to ensure that they are consistent with the latest facts
 
 ## Disclosure

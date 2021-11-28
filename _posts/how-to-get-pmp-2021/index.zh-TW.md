@@ -56,6 +56,8 @@ description: '此篇文章分享關於PMP證照: 1.新版考試內容 2. 準備�
 about: 'Project Management Professional'
 ---
 
+ <!-- zh-TW -->
+
 有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！
 
 ## 什麼是PMP？
@@ -67,7 +69,7 @@ about: 'Project Management Professional'
 請注意，任何PMP報名相關的資訊，請一律先去[PMI 官方網站](https://www.pmi.org/)，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)，簡言之，會需要：
 
 1. 確認是否有考試資格
-2. 到PMI註冊帳號並 
+2. 到PMI註冊帳號
 3. 開始申請
 
 ### Step 1 確認是否夠資格
