@@ -1,7 +1,7 @@
 ---
 title: '2021 如何学谈判？成为谈判高手最佳学习资源'
 category: 'knowledge'
-subCategory: 'eLearning'
+subCategory: 'education'
 excerpt: '人生无处不是谈判，举凡买卖、谈薪水、评估商品或服务的市场价值、解决冲突等等，都会需要谈判的，若学会了这更好的谈判方式，那人生将可以跃进多少？这片文章汇整了2021学习谈判这个技术，最推荐的资源，透过自学，你也可以成为谈判专家！'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 date: '2021-07-31'
