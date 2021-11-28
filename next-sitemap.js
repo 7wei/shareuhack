@@ -16,22 +16,22 @@ module.exports = {
       href: `${siteUrl}/zh-TW`,
       hreflang: 'zh-TW',
     },
-    // {
-    //   href: `${siteUrl}/zh-CN`,
-    //   hreflang: 'zh-CN',
-    // },
-    // {
-    //   href: `${siteUrl}/zh-HK`,
-    //   hreflang: 'zh-HK',
-    // },
-    // {
-    //   href: `${siteUrl}/zh-MO`,
-    //   hreflang: 'zh-MO',
-    // },
-    // {
-    //   href: `${siteUrl}/en-SG`,
-    //   hreflang: 'en-SG',
-    // },
+    {
+      href: `${siteUrl}/zh-CN`,
+      hreflang: 'zh-CN',
+    },
+    {
+      href: `${siteUrl}/zh-HK`,
+      hreflang: 'zh-HK',
+    },
+    {
+      href: `${siteUrl}/zh-MO`,
+      hreflang: 'zh-MO',
+    },
+    {
+      href: `${siteUrl}/en-SG`,
+      hreflang: 'en-SG',
+    },
   ],
   // Default transformation function
   transform: async (config, path) => {
@@ -55,6 +55,7 @@ module.exports = {
     await config.transform(config, '/posts/how-to-take-dog-to-japan'),
     await config.transform(config, '/posts/use-time-matrix-to-make-life-easier'),
     await config.transform(config, '/posts/sense-of-ritual-best-practice'),
+    await config.transform(config, '/posts/blinkist-an-efficient-way-to-get-key-ideas'),
   ],
   robotsTxtOptions: {
     policies: [
