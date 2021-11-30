@@ -86,7 +86,7 @@ export async function getStaticProps({ params, locale }) {
     getSubCategoryPosts(params.subCategory, ['title', 'date', 'excerpt', 'slug', 'coverImage'], locale) || []
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'subCategory', 'footer'])),
+      ...(await serverSideTranslations(locale, ['common'])),
       subCategory,
       posts,
     },

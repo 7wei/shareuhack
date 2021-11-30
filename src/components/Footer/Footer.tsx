@@ -45,7 +45,7 @@ const useStyles = makeStyles({
 
 export default function Footer() {
   const classes = useStyles()
-  const { t } = useTranslation(['common'])
+  const { t } = useTranslation('common')
   const { locale } = useRouter()
 
   return (

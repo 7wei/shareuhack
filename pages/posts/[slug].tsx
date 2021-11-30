@@ -323,7 +323,7 @@ export async function getStaticProps({ params, locale }) {
 
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'footer', 'subCategory'])),
+      ...(await serverSideTranslations(locale, ['common'])),
       post: {
         ...post,
         content,

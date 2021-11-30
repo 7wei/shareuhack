@@ -3,4 +3,7 @@ module.exports = {
     defaultLocale: 'en-US',
     locales: ['en-US', 'en-GB', 'en-SG', 'zh-TW', 'zh-CN', 'zh-MO', 'zh-HK', 'ja-JP'],
   },
+  react: {
+    useSuspense: false,
+  },
 }
