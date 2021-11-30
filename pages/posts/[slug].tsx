@@ -145,7 +145,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale} passHref>
-                <StyledLink>{t(category?.key)}</StyledLink>
+                <StyledLink>{t(`categories.${category?.key}.title`)}</StyledLink>
               </Link>
               <Link href={subCategory?.link} locale={locale} passHref>
                 <StyledLink>{t(`subCategories.${subCategory?.key}.title`)}</StyledLink>
