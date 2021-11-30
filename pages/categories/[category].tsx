@@ -25,11 +25,11 @@ export default function CategoryPage({ category, subCategories }) {
     <>
       <Head>
         <title>
-          {CMS_NAME} | {t(`${category.key}`)}
+          {CMS_NAME} | {t(`categories.${category.key}.title`)}
         </title>
-        <meta name="description" content={t(`${category.key}Descript`)} />
-        <meta property="og:title" content={`${CMS_NAME}- ${t(`${category.key}`)}`} />
-        <meta property="og:description" content={t(`${category.key}Descript`)} />
+        <meta name="description" content={t(`categories.${category.key}.description`)} />
+        <meta property="og:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
+        <meta property="og:description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         {locales.map((locale, idx) => (
           <link
@@ -49,8 +49,8 @@ export default function CategoryPage({ category, subCategories }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader>{category.title}</TYPE.extraLargeHeader>
-          <TYPE.body>{t(`${category.key}Descript`)}</TYPE.body>
+          <TYPE.extraLargeHeader>{t(`categories.${category.key}.title`)}</TYPE.extraLargeHeader>
+          <TYPE.body>{t(`categories.${category.key}.description`)}</TYPE.body>
         </Grid>
         <Grid item sm={3}>
           {!matches && (
