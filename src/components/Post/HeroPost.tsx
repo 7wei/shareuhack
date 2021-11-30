@@ -39,7 +39,7 @@ export default function HeroPost({
             </Box>
           </Grid>
           {relatedPosts.length > 0 && (
-            <Grid item sm={4}>
+            <Grid item sm={5}>
               <Box ml="10px" mt="7px">
                 <Divider />
                 <TYPE.header mt="15px" mb="15px">

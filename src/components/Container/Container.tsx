@@ -3,7 +3,7 @@ import { Container as MuiContainer, makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 1024,
+    maxWidth: 1048,
   },
 })
 

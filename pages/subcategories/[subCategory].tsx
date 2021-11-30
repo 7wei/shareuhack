@@ -69,7 +69,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       </Grid>
       <Divider primary />
       <Box mt="15px" mb="15px">
-        <Grid container>
+        <Grid spacing={3} container>
           {posts.map((post) => (
             <Grid item sm={4}>
               <PostReview {...post} />
