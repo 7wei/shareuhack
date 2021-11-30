@@ -282,6 +282,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               {/* )} */}
             </>
           )}
+          <Box pb="30px" maxWidth="540px" margin="0 auto">
+            <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
+          </Box>
           <Divider primary />
 
           <Box mt="30px" mb="30px" padding="0 20px">
@@ -293,9 +296,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                 </Grid>
               ))}
             </Grid>
-          </Box>
-          <Box pb="30px">
-            <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
           </Box>
         </>
       )}
