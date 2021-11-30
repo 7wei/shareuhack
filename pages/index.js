@@ -123,7 +123,12 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           return (
             <Box key={key} mb="15px">
               <Divider primary="true" />
-              <PreviewRow category={t(`${key}`)} description={t(`${key}Descript`)} posts={posts} link={link} />
+              <PreviewRow
+                category={t(`categories.${key}.title`)}
+                description={t(`categories.${key}.description`)}
+                posts={posts}
+                link={link}
+              />
             </Box>
           )
         }

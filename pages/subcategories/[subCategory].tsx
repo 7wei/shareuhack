@@ -18,7 +18,6 @@ import Head from 'next/head'
 export default function SubCategoryPage({ subCategory, posts }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
-  const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
   // const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/subcategories/${subCategory.key}`
 
@@ -49,8 +48,8 @@ export default function SubCategoryPage({ subCategory, posts }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader>{subCategoryTrans(subCategory.key)}</TYPE.extraLargeHeader>
-          <TYPE.body>{subCategoryTrans(`${subCategory.key}Descript`)}</TYPE.body>
+          <TYPE.extraLargeHeader>{t(`subCategories.${subCategory.key}.title`)}</TYPE.extraLargeHeader>
+          <TYPE.body>{t(`subCategories.${subCategory.key}.description`)}</TYPE.body>
         </Grid>
         <Grid item sm={3}>
           {!matches && (

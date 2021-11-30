@@ -45,9 +45,8 @@ const useStyles = makeStyles({
 
 export default function Footer() {
   const classes = useStyles()
-  const { t } = useTranslation(['footer'])
+  const { t } = useTranslation(['common'])
   const { locale } = useRouter()
-  const { matches } = useBreakpint()
 
   return (
     <Box className={classes.root}>
@@ -56,7 +55,7 @@ export default function Footer() {
           {NavLinks.map((link, idx) => (
             <Box key={idx}>
               <Link key={link.key} href={link.link} passHref locale={locale}>
-                <MuiLink className={classes.navlink}>{t(`${link.key}`).toUpperCase()}</MuiLink>
+                <MuiLink className={classes.navlink}> {t(`categories.${link.key}.title`)}</MuiLink>
               </Link>
             </Box>
           ))}
@@ -76,7 +75,7 @@ export default function Footer() {
         </Box>
 
         <TYPE.smallGray mt="40px" pb="15px">
-          {t('copyright')}
+          {t('footer.copyright')}
         </TYPE.smallGray>
       </Container>
     </Box>

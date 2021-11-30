@@ -46,7 +46,7 @@ export const Category = {
 }
 
 export const SubCategory = {
-  frontendDev: 'frontendDev',
+  softwareDevelopment: 'softwareDevelopment',
   projectManagement: 'projectManagement',
   investment: 'investment',
   entrepreneurship: 'entrepreneurship',
@@ -83,9 +83,9 @@ const subcategoryBasePath = '/subcategories'
 
 export const SubCategories = [
   {
-    key: SubCategory.frontendDev,
+    key: SubCategory.softwareDevelopment,
     category: Category.work,
-    link: `${subcategoryBasePath}/${SubCategory.frontendDev}`,
+    link: `${subcategoryBasePath}/${SubCategory.softwareDevelopment}`,
   },
   {
     key: SubCategory.projectManagement,

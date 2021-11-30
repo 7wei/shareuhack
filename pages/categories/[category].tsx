@@ -18,7 +18,6 @@ import { useRouter } from 'next/router'
 export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
-  const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/categories/${category.key}`
 
@@ -73,8 +72,8 @@ export default function CategoryPage({ category, subCategories }) {
           <Box key={subCategory.title} mb="15px">
             <Divider primary />
             <PreviewRow
-              category={subCategoryTrans(subCategory.key)}
-              description={subCategoryTrans(`${subCategory.key}Descript`)}
+              category={t(`subCategories.${subCategory.key}.title`)}
+              description={t(`subCategories.${subCategory.key}.description`)}
               posts={subCategory.posts}
               link={subCategory.link}
             />

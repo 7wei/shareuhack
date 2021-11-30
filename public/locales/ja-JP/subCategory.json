@@ -1,6 +1,6 @@
 {
-  "frontendDev": "フロントエンド開発",
-  "frontendDevDescript": "フロントエンドWeb開発は、HTML、CSS、およびJavaScriptを使用した、Webサイトのグラフィカルユーザーインターフェイスの開発であり、ユーザーはそのWebサイトを表示および操作できます。",
+  "softwareDevelopment": "フロントエンド開発",
+  "softwareDevelopmentDescript": "フロントエンドWeb開発は、HTML、CSS、およびJavaScriptを使用した、Webサイトのグラフィカルユーザーインターフェイスの開発であり、ユーザーはそのWebサイトを表示および操作できます。",
   "projectManagement": "プロジェクト管理",
   "projectManagementDescript": "プロジェクト管理は、さまざまな制約の下でチームを主導し、プロジェクトの目標を達成するプロセスです。",
   "eLearning": "E-Learning",

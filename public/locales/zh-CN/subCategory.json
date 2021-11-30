@@ -1,6 +1,6 @@
 {
-  "frontendDev": "前端开发",
-  "frontendDevDescript": "前端开发是通过HTML/CSS/JavsScript以及衍生的各种技术、框架、解决方案，创建网站、APP等介面，实现和网路产品用户的互动。",
+  "softwareDevelopment": "前端开发",
+  "softwareDevelopmentDescript": "前端开发是通过HTML/CSS/JavsScript以及衍生的各种技术、框架、解决方案，创建网站、APP等介面，实现和网路产品用户的互动。",
   "projectManagement": "专案管理",
   "projectManagementDescript": "专案管理是指在各种限制条件下，带领团队，合作并完成专案目标的过程",
   "eLearning": "线上学习",
