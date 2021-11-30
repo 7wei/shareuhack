@@ -13,14 +13,14 @@ import Divider from '../../src/components/Divider/Divider'
 import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { canonicalLocale } from '../../src/utils/index'
+// import { canonicalLocale } from '../../src/utils/index'
 
 export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { t: subCategoryTrans } = useTranslation('subCategory')
   const { locale, locales } = useRouter()
-  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/categories/${category.key}`
+  // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/categories/${category.key}`
 
   return (
     <>
@@ -45,7 +45,7 @@ export default function CategoryPage({ category, subCategories }) {
           hrefLang="x-default"
           href={process.env.NEXT_PUBLIC_BASE_URL + `/categories/${category.key}`}
         />
-        <link rel="canonical" href={canonicalUrl} />
+        {/* <link rel="canonical" href={canonicalUrl} /> */}
       </Head>
       {/* <Disclosure /> */}
       <Grid container>

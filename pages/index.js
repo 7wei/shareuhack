@@ -15,7 +15,7 @@ import PreviewRow from '../src/components/Post/PreviewRow'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useRouter } from 'next/router'
-import { canonicalLocale } from '../src/utils/index'
+// import { canonicalLocale } from '../src/utils/index'
 import useStructuredData from '../src/hooks/useStructuredData'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
@@ -23,7 +23,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
 
   const router = useRouter()
   const { locales } = router
-  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
+  // const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
   const { t } = useTranslation('common')
   const { structuredDataWebsite, structuredDataOrganization } = useStructuredData()
 
@@ -45,7 +45,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <link key={idx} rel="alternate" hrefLang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
         ))}
         <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
-        <link rel="canonical" href={url} />
+        {/* <link rel="canonical" href={url} /> */}
       </Head>
       {/* <Disclosure /> */}
       <Grid container spacing={3}>
