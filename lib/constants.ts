@@ -23,10 +23,6 @@ export const NavLinks = [
     key: 'life',
     link: Routes.life,
   },
-  // {
-  //   key: 'health',
-  //   link: Routes.health,
-  // },
   {
     key: 'money',
     link: Routes.money,
@@ -51,7 +47,6 @@ export const SubCategory = {
   investment: 'investment',
   entrepreneurship: 'entrepreneurship',
   travel: 'travel',
-  productivity: 'productivity',
   lifePhilosophy: 'lifePhilosophy',
   education: 'education',
   managementAndLeadership: 'managementAndLeadership',
@@ -107,11 +102,6 @@ export const SubCategories = [
     key: SubCategory.travel,
     category: Category.life,
     link: `${subcategoryBasePath}/${SubCategory.travel}`,
-  },
-  {
-    key: SubCategory.productivity,
-    category: Category.work,
-    link: `${subcategoryBasePath}/${SubCategory.productivity}`,
   },
   {
     key: SubCategory.lifePhilosophy,
