@@ -33,7 +33,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
-  const { t: subCategoryTrans } = useTranslation('subCategory')
   const { structuredDataOrganization } = useStructuredData()
 
   const structuredDataPost = {
@@ -44,7 +43,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
     about: post.about,
     image: post.coverImage,
     datePublished: post.date,
-    articleSection: subCategoryTrans(subCategory?.key),
+    articleSection: t(`subCategories.${subCategory?.key}.title`),
     keywords: post.keywords,
     backstory: post?.credentials?.join(','),
     author: structuredDataOrganization,
@@ -64,7 +63,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
       {
         '@type': 'ListItem',
         position: 2,
-        name: subCategoryTrans(subCategory?.key),
+        name: t(`subCategories.${subCategory?.key}.title`),
         item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + subCategory?.link,
       },
       {
@@ -149,7 +148,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                 <StyledLink>{t(category?.key)}</StyledLink>
               </Link>
               <Link href={subCategory?.link} locale={locale} passHref>
-                <StyledLink>{subCategoryTrans(subCategory?.key)}</StyledLink>
+                <StyledLink>{t(`subCategories.${subCategory?.key}.title`)}</StyledLink>
               </Link>
             </Breadcrumbs>
           )}

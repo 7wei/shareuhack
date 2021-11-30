@@ -25,11 +25,11 @@ export default function SubCategoryPage({ subCategory, posts }) {
     <>
       <Head>
         <title>
-          {CMS_NAME} | {subCategoryTrans(`${subCategory.key}`)}
+          {CMS_NAME} | {t(`subCategories.${subCategory.key}.title`)}
         </title>
-        <meta name="description" content={subCategoryTrans(`${subCategory.key}Descript`)} />
-        <meta property="og:title" content={`${CMS_NAME}- ${subCategoryTrans(subCategory.key)}`} />
-        <meta property="og:description" content={subCategoryTrans(`${subCategory.key}Descript`)} />
+        <meta name="description" content={t(`subCategories.${subCategory.key}.description`)} />
+        <meta property="og:title" content={`${CMS_NAME}-${t(`subCategories.${subCategory.key}.title`)}`} />
+        <meta property="og:description" content={t(`subCategories.${subCategory.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         {locales.map((locale) => (
           <link
