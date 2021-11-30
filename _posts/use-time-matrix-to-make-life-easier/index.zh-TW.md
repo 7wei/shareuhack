@@ -1,7 +1,7 @@
 ---
 title: '時間管理四象限；新手主管必修的急迫/重要法則'
 category: 'work'
-subCategory: 'productivity'
+subCategory: 'managementAndLeadership'
 date: '2021-11-13'
 excerpt: '從基層升上管理層之後，許多人面對手上做不完的工作，還要分擔時間照顧部屬，忙得焦頭爛額。但偏偏公司的培訓制度通常不會教導你該如何做好時間管理，因為這是每個員工自己的功課...'
 coverImage: '/assets/posts/use-time-matrix-to-make-life-easier/cover.jpg'

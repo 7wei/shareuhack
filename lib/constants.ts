@@ -54,6 +54,7 @@ export const SubCategory = {
   productivity: 'productivity',
   lifePhilosophy: 'lifePhilosophy',
   education: 'education',
+  managementAndLeadership: 'managementAndLeadership',
 }
 
 export const Categories = [
@@ -121,6 +122,11 @@ export const SubCategories = [
     key: SubCategory.education,
     category: Category.knowledge,
     link: `${subcategoryBasePath}/${SubCategory.education}`,
+  },
+  {
+    key: SubCategory.managementAndLeadership,
+    category: Category.work,
+    link: `${subcategoryBasePath}/${SubCategory.managementAndLeadership}`,
   },
 ]
 

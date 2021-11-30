@@ -65,6 +65,10 @@
     "education": {
       "title": "教育",
       "description": "促进知识、技能、价值、道德、信念的获得，与个人成长的过程"
+    },
+    "managementAndLeadership": {
+      "title": "管理和领导力",
+      "description": "发挥影响力，给组织带来最大价值。"
     }
   },
   "footer": {

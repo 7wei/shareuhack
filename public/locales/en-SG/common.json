@@ -65,6 +65,10 @@
     "education": {
       "title": "Education",
       "description": "Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development."
+    },
+    "managementAndLeadership": {
+      "title": "Management And Leadership",
+      "description": "To influence, motivate, and enable others to contribute toward organizational success and bring in the most value."
     }
   },
   "footer": {
