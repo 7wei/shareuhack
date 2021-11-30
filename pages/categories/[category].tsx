@@ -1,4 +1,4 @@
-import { Grid, Box } from '@material-ui/core'
+import { Grid, Box, Typography } from '@material-ui/core'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
@@ -49,7 +49,7 @@ export default function CategoryPage({ category, subCategories }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader>{t(`categories.${category.key}.title`)}</TYPE.extraLargeHeader>
+          <TYPE.extraLargeHeader as="h1">{t(`categories.${category.key}.title`)}</TYPE.extraLargeHeader>
           <TYPE.body>{t(`categories.${category.key}.description`)}</TYPE.body>
         </Grid>
         <Grid item sm={3}>

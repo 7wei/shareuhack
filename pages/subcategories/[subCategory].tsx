@@ -48,7 +48,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader>{t(`subCategories.${subCategory.key}.title`)}</TYPE.extraLargeHeader>
+          <TYPE.extraLargeHeader as="h1">{t(`subCategories.${subCategory.key}.title`)}</TYPE.extraLargeHeader>
           <TYPE.body>{t(`subCategories.${subCategory.key}.description`)}</TYPE.body>
         </Grid>
         <Grid item sm={3}>
