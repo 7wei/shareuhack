@@ -57,7 +57,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
       {
         '@type': 'ListItem',
         position: 1,
-        name: t(category?.key),
+        name: t(`categories.${category?.key}.title`),
         item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + category?.link,
       },
       {
@@ -153,7 +153,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Breadcrumbs>
           )}
 
-          <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h2">
+          <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h1">
             {post.title}
           </TYPE.largeHeader>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
