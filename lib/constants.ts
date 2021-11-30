@@ -48,8 +48,8 @@ export const Category = {
 export const SubCategory = {
   frontendDev: 'frontendDev',
   projectManagement: 'projectManagement',
-  finance: 'finance',
-  business: 'business',
+  investment: 'investment',
+  entrepreneurship: 'entrepreneurship',
   travel: 'travel',
   productivity: 'productivity',
   lifePhilosophy: 'lifePhilosophy',
@@ -93,14 +93,14 @@ export const SubCategories = [
     link: `${subcategoryBasePath}/${SubCategory.projectManagement}`,
   },
   {
-    key: SubCategory.finance,
+    key: SubCategory.investment,
     category: Category.money,
-    link: `${subcategoryBasePath}/${SubCategory.finance}`,
+    link: `${subcategoryBasePath}/${SubCategory.investment}`,
   },
   {
-    key: SubCategory.business,
+    key: SubCategory.entrepreneurship,
     category: Category.money,
-    link: `${subcategoryBasePath}/${SubCategory.business}`,
+    link: `${subcategoryBasePath}/${SubCategory.entrepreneurship}`,
   },
   {
     key: SubCategory.travel,
