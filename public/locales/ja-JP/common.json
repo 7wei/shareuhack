@@ -24,5 +24,60 @@
   "References": "参考文献",
   "sharePost": "この投稿を共有する",
   "selectLocale": "使用言語と地域を選択してください",
-  "pageTitle": "人生の秘密、戦略、知りたいこと"
+  "pageTitle": "人生の秘密、戦略、知りたいこと",
+  "categories": {
+    "knowledge": {
+      "title": "スマートラーニング",
+      "description": "効率的な学習は非常に重要です。特に、たくさんのことをしたいときは、自分で車輪を作らず、巨人の肩の上に直接立ってください。"
+    },
+    "life": {
+      "title": "人生の秘密",
+      "description": "All actions that humans do while they are alive are life. Have the courage to improve and optimize your life, and discover new things you never thought of!"
+    },
+    "money": {
+      "title": "お金",
+      "description": "賢く投資して富の自由を実現し、ビジネスの視野を広げ、金持ちになるという考えを育てましょう！"
+    },
+    "work": {
+      "title": "職場サバイバルガイド",
+      "workDescript": "仕事を探している、転職している、仕事の効率を改善している、上向きまたは下向きに管理しているなど、週40時間働くことは、どんな良い変化でも大きな影響を及ぼします！"
+    }
+  },
+  "subCategories": {
+    "softwareDevelopment": {
+      "title": "ソフトウェア開発",
+      "description": "世界を変えるためのコーディング！"
+    },
+    "projectManagement": {
+      "title": "プロジェクト管理",
+      "description": "プロジェクト管理は、与えられた制約内ですべてのプロジェクト目標を達成するためにチームの作業を主導するプロセスです。"
+    },
+    "investment": {
+      "title": "お金と投資",
+      "description": "投資するということは、投資または投資の評価から収入を生み出すことを目的とした資産またはアイテムを所有することを意味します。これは、一定期間にわたる資産の価値の増加です。"
+    },
+    "entrepreneurship": {
+      "title": "起業家精神",
+      "description": "承担风险、创造新製品品和服务。"
+    },
+    "travel": {
+      "title": "旅行",
+      "description": "人生は旅です。あなたが気にするのは目的地ではなく、途中の景色と気分です。"
+    },
+    "productivity": {
+      "title": "生産性",
+      "description": "最小限の労力で最大の価値を生み出します。"
+    },
+    "lifePhilosophy": {
+      "title": "人生哲学",
+      "description": "生き残るだけでなく、あなたの人生を現実の生活にしてください。"
+    },
+    "education": {
+      "title": "教育",
+      "description": "教育とは、学習を促進するプロセス、または知識、スキル、価値観、道徳、信念、習慣、および自己啓発の習得を促進するプロセスです。"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright @ Shareuhack 2021. All Rights Reserved."
+  }
 }

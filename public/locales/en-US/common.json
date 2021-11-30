@@ -1,16 +1,6 @@
 {
   "disclosure": "Shareuhack is reader-supported. When you buy through links on our site, we may earn an affiliate commission.",
   "learnMore": "Learn More",
-  "knowledge": "Knowledge",
-  "knowledgeDescript": "Efficient learning is very important, especially when you want to do a lot of things, don't make your own wheels, stand directly on the shoulders of giants!",
-  "life": "Life",
-  "lifeDescript": "All actions that humans do while they are alive are life. Have the courage to improve and optimize your life, and discover new things you never thought of!",
-  "health": "Health",
-  "healthDescript": "Health is the foundation of everything. Share how to have a better posture, stay healthy, and how to better understand your body and mind.",
-  "money": "Money",
-  "moneyDescript": "No money is absolutely impossible, sharing how to make suitable investments according to their own conditions, and how to achieve financial independence and early retirement.",
-  "work": "Work",
-  "workDescript": "Working is about 40 hours a week, whether it is looking for a job, changing jobs, improving work efficiency, managing upward or downward, any good change will have a huge impact!",
   "whatWeDo": "What We Do",
   "whatWeDoDescript": "We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!",
   "howWeDo": "How We Do",
@@ -24,5 +14,60 @@
   "References": "References",
   "sharePost": "Share this post",
   "selectLocale": "Please Select Language & Region",
-  "pageTitle": "Hacks for the real life"
+  "pageTitle": "Hacks for the real life",
+  "categories": {
+    "knowledge": {
+      "title": "Smart Learning",
+      "description": "Efficient learning is very important, especially when you want to do a lot of things, don't make your own wheels, stand directly on the shoulders of giants!"
+    },
+    "life": {
+      "title": "Life Hacks",
+      "description": "All actions that humans do while they are alive are life. Have the courage to improve and optimize your life, and discover new things you never thought of!"
+    },
+    "money": {
+      "title": "Money Game",
+      "description": "Invest smartly to realize the freedom of wealth; expand business horizons and cultivate the thinking of getting rich!"
+    },
+    "work": {
+      "title": "Career Survial Kit",
+      "workDescript": "Working 40 hours a week, whether it is looking for a job, changing jobs, improving work efficiency, managing upward or downward, any good change will have a huge impact!"
+    }
+  },
+  "subCategories": {
+    "softwareDevelopment": {
+      "title": "Software Development",
+      "description": "Coding to change world!"
+    },
+    "projectManagement": {
+      "title": "Project Management",
+      "description": "Project management is the process of leading the work of a team to achieve all project goals within the given constraints."
+    },
+    "investment": {
+      "title": "Money & Investment",
+      "description": "To invest means owning an asset or an item with the goal of generating income from the investment or the appreciation of your investment which is an increase in the value of the asset over a period of time."
+    },
+    "entrepreneurship": {
+      "title": "Entrepreneurship",
+      "description": "Entrepreneurship is the creation or extraction of value. "
+    },
+    "travel": {
+      "title": "Travel",
+      "description": "Life is a journey. What you care about is not the destination, but the scenery and mood along the way."
+    },
+    "productivity": {
+      "title": "Productivity",
+      "description": "Take the least effort and produce the greatest value."
+    },
+    "lifePhilosophy": {
+      "title": "Life Philosophy",
+      "description": "Make your life a real life, not just survival."
+    },
+    "education": {
+      "title": "Education",
+      "description": "Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development."
+    }
+  },
+  "footer": {
+    "copyright": "Copyright @ Shareuhack 2021. All Rights Reserved."
+  }
 }

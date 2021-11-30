@@ -23,10 +23,10 @@ export const NavLinks = [
     key: 'life',
     link: Routes.life,
   },
-  {
-    key: 'health',
-    link: Routes.health,
-  },
+  // {
+  //   key: 'health',
+  //   link: Routes.health,
+  // },
   {
     key: 'money',
     link: Routes.money,
