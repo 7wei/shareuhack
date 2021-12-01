@@ -1,4 +1,4 @@
-import { makeStyles, Box } from '@material-ui/core'
+import { makeStyles, Box, Typography } from '@material-ui/core'
 import Link from 'next/link'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
@@ -39,13 +39,13 @@ const useStyles = makeStyles({
       background: theme.palette.primary.main,
     },
   },
-  brand: {
-    textAlign: 'center',
-    fontSize: 36,
-    fontWeight: 700,
-    color: theme.textColor.text1,
-    cursor: 'pointer',
-  },
+  // brand: {
+  //   textAlign: 'center',
+  //   fontSize: 36,
+  //   fontWeight: 700,
+  //   color: theme.textColor.text1,
+  //   cursor: 'pointer',
+  // },
 })
 
 export default function Header() {
@@ -66,7 +66,9 @@ export default function Header() {
         )}
 
         <Link href="/" locale={locale} passHref>
-          <div className={classes.brand}>Shareuhack</div>
+          <TYPE.header fontSize={matches ? 24 : 36} textAlign="center" fontWeight={700}>
+            Shareuhack
+          </TYPE.header>
         </Link>
         <Box display="flex" justifyContent="center">
           {matches && <LanguageSelector />}
