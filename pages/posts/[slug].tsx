@@ -24,8 +24,7 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 // import { canonicalLocale } from '../../src/utils/index'
 import PostPreview from '../../src/components/Post/PostPreview'
-import useStructuredData from '../../src/hooks/useStructuredData'
-import { structuredDataFaq } from '../../src/utils/structuredData'
+import CommonStructuredData from '../../src/components/CommonStructuredData'
 
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -34,46 +33,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
-  const { structuredDataOrganization } = useStructuredData()
-
-  const structuredDataPost = {
-    '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    headline: post.title,
-    articleBody: post.content.replace(/<[^>]*>/g, ''),
-    about: post.about,
-    image: post.coverImage,
-    datePublished: post.date,
-    articleSection: t(`subCategories.${subCategory?.key}.title`),
-    keywords: post.keywords,
-    backstory: post?.credentials?.join(','),
-    author: structuredDataOrganization,
-    publisher: structuredDataOrganization,
-  }
-
-  const structuredDataBreadcrumb = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: t(`categories.${category?.key}.title`),
-        item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + category?.link,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: t(`subCategories.${subCategory?.key}.title`),
-        item: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + subCategory?.link,
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: post.title,
-      },
-    ],
-  }
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -114,17 +73,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.description ?? post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
-            <script id="structured-data-BreadcrumbList" className="structured-data" type="application/ld+json">
-              {JSON.stringify(structuredDataBreadcrumb)}
-            </script>
-            <script id="structured-data-BlogPosting" className="structured-data" type="application/ld+json">
-              {JSON.stringify(structuredDataPost)}
-            </script>
-            {post.faqs && (
-              <script id="structured-data-FAQ" className="structured-data" type="application/ld+json">
-                {JSON.stringify(structuredDataFaq(post.faqs))}
-              </script>
-            )}
 
             {locales.map((locale) => (
               <link
@@ -147,6 +95,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               }}
             />
           </Head>
+          <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
+
           <CoverImage title={post.title} alt={post.excerpt} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (
             <Breadcrumbs>

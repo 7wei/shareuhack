@@ -16,7 +16,7 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useRouter } from 'next/router'
 // import { canonicalLocale } from '../src/utils/index'
-import useStructuredData from '../src/hooks/useStructuredData'
+import CommonStructuredData from '../src/components/CommonStructuredData'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
@@ -25,7 +25,6 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
   const { locales } = router
   // const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
   const { t } = useTranslation('common')
-  const { structuredDataWebsite, structuredDataOrganization } = useStructuredData()
 
   return (
     <>
@@ -35,18 +34,13 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        <script id="structured-data-Website" className="structured-data" type="application/ld+json">
-          {JSON.stringify(structuredDataWebsite)}
-        </script>
-        <script id="structured-data-Organization" className="structured-data" type="application/ld+json">
-          {JSON.stringify(structuredDataOrganization)}
-        </script>
         {locales.map((locale, idx) => (
           <link key={idx} rel="alternate" hrefLang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
         ))}
         <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
         {/* <link rel="canonical" href={url} /> */}
       </Head>
+      <CommonStructuredData />
       {/* <Disclosure /> */}
       <Grid container spacing={3}>
         <Grid item sm={3}>
