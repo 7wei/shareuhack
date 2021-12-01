@@ -54,6 +54,17 @@ related:
 keywords: 'PMP, Project Management, 專案管理師, 證照, PMI, PMBOK'
 description: '此篇文章分享關於PMP證照: 1.新版考試內容 2. 準備方法 3. 學習與模擬測試資源'
 about: 'Project Management Professional'
+faqs:
+  [
+    {
+      question: '什麼是PMP',
+      answer: '項目管理專業人士是項目管理協會提供的國際公認的專業稱號。截至2020年7月31日，全球共有1,036,367人取得認證。'
+    },
+    {
+      question: 'PMP的作用',
+      answer: '它的作用在於可以幫助專案管理人員系統性學習項目管理思維，以及專案管理所用到的工具的方法，使工作能力得到提升，同時也是屬於含金量較高的證照之一，有助於求職升遷。'
+    },
+  ]
 ---
 
  <!-- zh-TW -->

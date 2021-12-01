@@ -25,6 +25,7 @@ import { useTranslation } from 'next-i18next'
 // import { canonicalLocale } from '../../src/utils/index'
 import PostPreview from '../../src/components/Post/PostPreview'
 import useStructuredData from '../../src/hooks/useStructuredData'
+import { structuredDataFaq } from '../../src/utils/structuredData'
 
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -119,6 +120,11 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <script id="structured-data-BlogPosting" className="structured-data" type="application/ld+json">
               {JSON.stringify(structuredDataPost)}
             </script>
+            {post.faqs && (
+              <script id="structured-data-FAQ" className="structured-data" type="application/ld+json">
+                {JSON.stringify(structuredDataFaq(post.faqs))}
+              </script>
+            )}
 
             {locales.map((locale) => (
               <link
@@ -324,6 +330,7 @@ export async function getStaticProps({ params, locale }) {
       'keywords',
       'description',
       'about',
+      'faqs',
     ],
     locale
   )
