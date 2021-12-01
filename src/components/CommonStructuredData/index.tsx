@@ -139,7 +139,7 @@ export default function CommonStructuredData(props: Props) {
           {JSON.stringify(structuredDataBreadcrumb())}
         </script>
       )}
-      {type === 'post' && (
+      {type === 'post' && post.faqs && (
         <script id="structured-data-FAQ" className="structured-data" type="application/ld+json">
           {JSON.stringify(structuredDataFaq())}
         </script>
