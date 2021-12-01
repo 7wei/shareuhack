@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { Button, Dialog, DialogTitle, makeStyles, List, ListItem, Box } from '@material-ui/core'
+import { IconButton, Dialog, DialogTitle, makeStyles, List, ListItem, Box } from '@material-ui/core'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import { Locales } from '../../../lib/constants'
 import LanguageIcon from '@material-ui/icons/Language'
+import useBreakpint from 'hooks/useBreakpoint'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -21,6 +22,7 @@ export default function LanguageSelector() {
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
   const router = useRouter()
+  const { matches } = useBreakpint()
 
   const [open, setOpen] = useState(false)
 
@@ -39,7 +41,6 @@ export default function LanguageSelector() {
   const onSelect = (locale: string) => {
     setLocale(locale)
     setOpen(false)
-    console.log()
     router.push(router.asPath, router.asPath, { locale: locale })
   }
 
@@ -53,12 +54,14 @@ export default function LanguageSelector() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
+      <IconButton onClick={handleOpen} color="primary">
         <LanguageIcon />
-        <Box ml="5px">
-          {getLocaleData(locale).language}({getLocaleData(locale).region})
-        </Box>
-      </Button>
+        {!matches && (
+          <Box ml="5px" fontSize={14}>
+            {getLocaleData(locale).language}({getLocaleData(locale).region})
+          </Box>
+        )}
+      </IconButton>
       <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
         <DialogTitle id="simple-dialog-title">
           <Box display="flex" alignItems="center">

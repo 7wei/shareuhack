@@ -63,7 +63,7 @@ export default function Footer() {
         </Box> */}
         <Box padding="30px 20px">
           <Box mb="15px" textAlign={matches ? 'center' : 'left'}>
-            <TYPE.largeHeader>Shareuhack</TYPE.largeHeader>
+            <TYPE.largeHeader fontStyle="italic">Shareuhack</TYPE.largeHeader>
             <TYPE.smallGray fontStyle="italic">Hacks for the real life</TYPE.smallGray>
           </Box>
 
