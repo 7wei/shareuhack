@@ -7,7 +7,7 @@ import EmailIcon from '@material-ui/icons/Email'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import useBreakpint from 'hooks/useBreakpoint'
+import useBreakpoint from 'hooks/useBreakpoint'
 import StyledLink from '../../components/Link/Link'
 
 const useStyles = makeStyles({
@@ -47,11 +47,12 @@ export default function Footer() {
   const classes = useStyles()
   const { t } = useTranslation('common')
   const { locale } = useRouter()
+  const { matches } = useBreakpoint()
 
   return (
     <Box className={classes.root}>
       <Container>
-        <Box display="flex" alignItems="center" paddingTop="36px" gridGap="12px">
+        {/* <Box display="flex" alignItems="center" paddingTop="36px" gridGap="12px">
           {NavLinks.map((link, idx) => (
             <Box key={idx}>
               <Link key={link.key} href={link.link} passHref locale={locale}>
@@ -59,24 +60,31 @@ export default function Footer() {
               </Link>
             </Box>
           ))}
-        </Box>
+        </Box> */}
+        <Box padding="30px 20px">
+          <Box mb="15px" textAlign={matches ? 'center' : 'left'}>
+            <TYPE.largeHeader>Shareuhack</TYPE.largeHeader>
+            <TYPE.smallGray fontStyle="italic">Hacks for the real life</TYPE.smallGray>
+          </Box>
 
-        <Box display="flex" gridGap="12px" marginTop="30px">
-          <Link href="https://www.facebook.com/shareuhack/" passHref>
-            <StyledLink color="#FFFFFF" target="_blank">
-              <FacebookIcon />
-            </StyledLink>
-          </Link>
-          <Link href="mailto:c@shareuhack.com" passHref>
-            <StyledLink color="#FFFFFF" target="_blank">
-              <EmailIcon />
-            </StyledLink>
-          </Link>
-        </Box>
+          <Box display="flex" gridGap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
+            <TYPE.bold>Let's chat at</TYPE.bold>
+            <Link href="https://www.facebook.com/shareuhack/" passHref>
+              <StyledLink color="#FFFFFF" target="_blank">
+                <FacebookIcon />
+              </StyledLink>
+            </Link>
+            <Link href="mailto:c@shareuhack.com" passHref>
+              <StyledLink color="#FFFFFF" target="_blank">
+                <EmailIcon />
+              </StyledLink>
+            </Link>
+          </Box>
 
-        <TYPE.smallGray mt="40px" pb="15px">
-          {t('footer.copyright')}
-        </TYPE.smallGray>
+          <TYPE.smallGray mt="28px" pb="15px" textAlign={matches ? 'center' : 'left'}>
+            {t('footer.copyright')}
+          </TYPE.smallGray>
+        </Box>
       </Container>
     </Box>
   )

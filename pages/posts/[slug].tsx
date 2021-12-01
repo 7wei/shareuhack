@@ -1,4 +1,4 @@
-import { Grid, Box } from '@material-ui/core'
+import { Grid, Box, styled } from '@material-ui/core'
 import Link from 'next/link'
 import StyledLink from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -12,9 +12,9 @@ import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
 import { getPostBySlug, getAllPosts, getAllPostPaths, getCategoryPosts } from '../../lib/api'
 import Head from 'next/head'
-import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
+import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
-import { TYPE } from '../../src/theme/index'
+import theme, { TYPE } from '../../src/theme/index'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
@@ -25,6 +25,22 @@ import { useTranslation } from 'next-i18next'
 // import { canonicalLocale } from '../../src/utils/index'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
+
+const CategoryCard = styled(Box)(({ theme }) => ({
+  display: 'flex',
+  alignItems: 'center',
+  textAlign: 'center',
+  justifyContent: 'center',
+  height: 160,
+  border: `2px solid ${theme.palette.primary.main}`,
+  color: theme.palette.primary.main,
+  fontSize: 24,
+  fontWeight: 700,
+  '&:hover': {
+    background: theme.palette.primary.main,
+    color: '#FFFFFF',
+  },
+}))
 
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -249,6 +265,20 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               {relatedPosts.map((post) => (
                 <Grid key={post.title} item xs={12} sm={4}>
                   <PostPreview {...post} simple />
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
+          <Box mt="30px" mb="30px" padding="0 20px">
+            <TYPE.largeHeader mb="30px">Discover More about...</TYPE.largeHeader>
+            <Grid spacing={1} container>
+              {NavLinks.map((link, idx) => (
+                <Grid item key={idx} xs={6} sm={3}>
+                  <Link href={link.link} passHref>
+                    <StyledLink>
+                      <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
+                    </StyledLink>
+                  </Link>
                 </Grid>
               ))}
             </Grid>
