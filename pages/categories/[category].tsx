@@ -68,8 +68,8 @@ export default function CategoryPage({ category, subCategories }) {
         </Grid>
       </Grid>
       <Box mt={matches ? '15px' : 0}>
-        {subCategories.map((subCategory) => (
-          <Box key={subCategory.title} mb="15px">
+        {subCategories.map((subCategory, idx) => (
+          <Box key={idx} mb="15px">
             <Divider primary />
             <PreviewRow
               category={t(`subCategories.${subCategory.key}.title`)}

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { makeStyles, Box, Typography, AppBar, Toolbar, IconButton, Drawer } from '@material-ui/core'
+import { makeStyles, Box, Typography, AppBar, Toolbar, IconButton } from '@material-ui/core'
 import Link from 'next/link'
 import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@material-ui/icons'
-import { SettingsInputComponent } from '@material-ui/icons'
+import Drawer from './Drawer'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -53,14 +53,14 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     padding: 0,
   },
-  drawer: {
-    width: '100%',
-    position: 'absolute',
-    top: 60,
-  },
-  drawerPaper: {
-    width: '100%',
-  },
+  // drawer: {
+  //   width: '100%',
+  //   position: 'absolute',
+  //   top: 60,
+  // },
+  // drawerPaper: {
+  //   width: '100%',
+  // },
   // drawerContainer: {
   //   overflow: 'auto',
   // },
@@ -71,7 +71,7 @@ export default function Header() {
   const { t } = useTranslation('common')
   const { locale } = useRouter()
   const { matches } = useBreakpint()
-  const [open, setOpen] = useState(false)
+  const [openDrawer, setOpenDrawer] = useState(false)
 
   return (
     <Container>
@@ -83,9 +83,9 @@ export default function Header() {
                 className={classes.menuButton}
                 color="inherit"
                 aria-label="Menu"
-                onClick={() => setOpen(!open)}
+                onClick={() => setOpenDrawer(!openDrawer)}
               >
-                {open ? <Close /> : <Menu />}
+                {openDrawer ? <Close /> : <Menu />}
               </IconButton>
             )}
 
@@ -108,7 +108,9 @@ export default function Header() {
             </Box>
             <LanguageSelector />
           </Toolbar>
-          {!matches && (
+          {matches ? (
+            <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} />
+          ) : (
             <Box display="flex" height="48px" mb="16px" alignItems="center" justifyContent="center" gridGap={16}>
               {NavLinks.map((link, idx) => (
                 <Link key={idx} href={link.link} passHref>
@@ -120,18 +122,6 @@ export default function Header() {
             </Box>
           )}
         </AppBar>
-        {matches && open && (
-          <Drawer
-            className={classes.drawer}
-            variant="permanent"
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-          >
-            <Toolbar />
-            <div className={classes.drawerContainer}></div>
-          </Drawer>
-        )}
       </div>
     </Container>
   )
