@@ -21,16 +21,13 @@ references:
   [
     {
       title: 'Blinkist',
-      link: 'http://blinki.st/1db2128ceb83',
+      link: 'https://blinkist.o6eiov.net/a1rd2N',
     },
         {
       title: 'Blinkist Instagram',
       link: 'https://www.instagram.com/blinkist/?hl=en',
     },
-        {
-      title: 'Blinkist Facebook',
-      link: 'https://www.facebook.com/blinkist/',
-    },
+
   ]
 # related:
 #   [
@@ -49,7 +46,7 @@ about: 'Blinkist'
 
 ## Blinkist是一款怎样的APP
 
-以下为[Blinkist](http://blinki.st/1db2128ceb83)官方网页和在AppStore的标题：
+以下为[Blinkist](https://blinkist.o6eiov.net/a1rd2N)官方网页和在AppStore的标题：
 
 * Blinkist: Big ideas in small packages
 * Blinkist: 15 min Book insights
@@ -72,7 +69,7 @@ Blinkist创立于2012年的一月，总部位于德国柏林，于2016、2017、
 
 ## Blinkist的资料库
 
-Blinkist目前收录有5000本以上的Nonfiction书籍，涵盖了27个类别。你可以轻易找到感兴趣的主题，也可以至[Blinkist](https://www.blinkist.com/en/nc/books)看看他们大致收录了哪些书籍。
+Blinkist目前收录有5000本以上的Nonfiction书籍，涵盖了27个类别。你可以轻易找到感兴趣的主题，也可以至[Blinkist](https://blinkist.o6eiov.net/gbadgg)看看他们大致收录了哪些书籍。
 
 ![blinkist-categories](https://i.imgur.com/0Cj9mn8.png)
 
@@ -106,15 +103,15 @@ Blinkist目前收录有5000本以上的Nonfiction书籍，涵盖了27个类别�
 
 ## 价钱
 
-[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://www.blinkist.com/en/nc/plans)
+[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
 
-你可以先[免费试用7天](http://blinki.st/1db2128ceb83)，试用期后，可选择一次订阅一个月($14.99USD/月；$179.88USD/年)，或者一次订阅一年($7.49USD/月；$89.88USD/年)。
+你可以先[免费试用7天](https://blinkist.o6eiov.net/a1rd2N)，试用期后，可选择一次订阅一个月($14.99USD/月；$179.88USD/年)，或者一次订阅一年($7.49USD/月；$89.88USD/年)。
 
 一次订阅一个月，每月$14.99的价格，相当于在[kindle商城](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011)买1-2本电子书，其实是尚可接受的，若符合自己的阅读习惯，则可以一次订阅一年，享有更划算的价格。
 
 此外，在一些特殊日子，例如黑五，会有高达50％的折扣！
 
-[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](http://blinki.st/1db2128ceb83)
+[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/a1rd2N)
 
 ## 使用者体验
 
@@ -127,7 +124,6 @@ Blinkist的设计非常简洁，使用这个APP，几乎没有学习成本，或
 此外，Blinkist的社群媒体也经营的很细心，亦是发掘书籍、激发灵感的好地方
 
 * [Instagram](https://www.instagram.com/blinkist/?hl=en)
-* [Facebook](https://www.facebook.com/blinkist/)
 
 ## Pros & Cons
 
@@ -143,7 +139,7 @@ Blinkist的设计非常简洁，使用这个APP，几乎没有学习成本，或
 
 * 良好的使用者体验，专注在让人用最有效率的方式获取新知识，方便掌握阅读的进度。
 
-* 若习惯以电子书阅读，也可以[将文章寄至kindle](https://support.blinkist.com/hc/en-us/articles/202801423-How-do-I-send-Blinks-to-my-Kindle-)，没有任何跑版问题。
+* 若习惯以电子书阅读，也可以[将文章寄至kindle](https://blinkist.o6eiov.net/zandr0)，没有任何跑版问题。
 
 ### Cons
 
