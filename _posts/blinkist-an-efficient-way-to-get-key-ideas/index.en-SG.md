@@ -21,15 +21,11 @@ references:
   [
     {
       title: 'Blinkist',
-      link: 'http://blinki.st/1db2128ceb83',
+      link: 'https://blinkist.o6eiov.net/Ry2VmX',
     },
         {
       title: 'Blinkist Instagram',
       link: 'https://www.instagram.com/blinkist/?hl=en',
-    },
-        {
-      title: 'Blinkist Facebook',
-      link: 'https://www.facebook.com/blinkist/',
     },
   ]
 # related:
@@ -49,7 +45,7 @@ If you like reading, do you often feel that there is not enough time? Do you pre
 
 ## Blinkist Introduction
 
-The following is the official webpage of [Blinkist](http://blinki.st/1db2128ceb83) and the title in the AppStore:
+The following is the official webpage of [Blinkist](https://blinkist.o6eiov.net/Ry2VmX) and the title in the AppStore:
 
 * Blinkist: Big ideas in small packages
 * Blinkist: 15 min Book insights
@@ -72,7 +68,7 @@ Such rapid growth also reflects people's demand for this new type of reading.
 
 ## Blinkist's library
 
-Blinkist currently contains more than 5,000 Nonfiction books, covering 27 categories. You can easily find the topics you are interested in or go to [Blinkist](https://www.blinkist.com/en/nc/books) to see which books they have included.
+Blinkist currently contains more than 5,000 Nonfiction books, covering 27 categories. You can easily find the topics you are interested in or go to [Blinkist](https://blinkist.o6eiov.net/gbadgg) to see which books they have included.
 
 ![blinkist-categories](https://i.imgur.com/0Cj9mn8.png)
 
@@ -106,15 +102,15 @@ Blinkist currently contains more than 5,000 Nonfiction books, covering 27 catego
 
 ## Pricing
 
-[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://www.blinkist.com/en/nc/plans)
+[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
 
-You can first [free trial for 7 days](http://blinki.st/1db2128ceb83). After the trial period, you can choose to subscribe for one month at a time ($14.99USD/month; $179.88USD/year), or subscribe for one year at a time ($7.49) USD/month; $89.88USD/year).
+You can first [free trial for 7 days](https://blinkist.o6eiov.net/Ry2VmX). After the trial period, you can choose to subscribe for one month at a time ($14.99USD/month; $179.88USD/year), or subscribe for one year at a time ($7.49) USD/month; $89.88USD/year).
 
 One month subscription at a price of $14.99 per month is equivalent to buying 1-2 e-books in [kindle mall](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011), in fact, It is acceptable. If you are in line with your reading habits, you can subscribe for one year at a time and enjoy a more cost-effective price.
 
 In addition, on some special days, such as Black Friday, there will be up to 50% discount!
 
-[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](http://blinki.st/1db2128ceb83)
+[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/Ry2VmX)
 
 ## User experience
 
@@ -127,7 +123,6 @@ The design of Blinkist is very simple. It takes no time to learn to use it. The 
 Besides, Blinkist's social media is also a nice place to discover books and get inspired.
 
 * [Instagram](https://www.instagram.com/blinkist/?hl=en)
-* [Facebook](https://www.facebook.com/blinkist/)
 
 ## Pros & Cons
 
@@ -143,7 +138,7 @@ I have subscribed to the yearly plan and used it for about half a year and had a
 
 * A good user experience, focusing on letting people acquire new knowledge in the most efficient way so that they can easily grasp the progress of reading.
 
-* If you are used to reading e-books, you can also [send the article to kindle](https://support.blinkist.com/hc/en-us/articles/202801423-How-do-I-send-Blinks-to-my-Kindle-), there is no running problem.
+* If you are used to reading e-books, you can also [send the article to kindle](https://blinkist.o6eiov.net/zandr0), there is no running problem.
 
 ### Cons
 
