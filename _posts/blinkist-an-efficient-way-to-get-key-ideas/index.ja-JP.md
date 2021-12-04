@@ -21,7 +21,7 @@ references:
   [
     {
       title: 'Blinkist',
-      link: 'https://blinkist.o6eiov.net/a1rd2N',
+      link: 'https://blinkist.o6eiov.net/Ry2VmX',
     },
         {
       title: 'Blinkist Instagram',
@@ -45,7 +45,7 @@ about: 'Blinkist'
 
 ## Blinkistとはどのようなアプリですか
 
-以下は、[Blinkist](https://blinkist.o6eiov.net/a1rd2N)の公式ウェブページとAppStoreのタイトルです。
+以下は、[Blinkist](https://blinkist.o6eiov.net/Ry2VmX)の公式ウェブページとAppStoreのタイトルです。
 
 * Blinkist: Big ideas in small packages
 * Blinkist: 15 min Book insights
@@ -104,13 +104,13 @@ Blinkistには現在、27のカテゴリをカバーする5,000冊以上のノ�
 
 [![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
 
-最初に[免費試用7天](https://blinkist.o6eiov.net/a1rd2N)を行うことができます。トライアル期間の後、一度に1か月間サブスクライブすることを選択できます（$14.99USD/月; $179.88USD/年）。または、一度に1年間サブスクライブします（$7.49USD/月; $ 9.88USD/年）。
+最初に[免費試用7天](https://blinkist.o6eiov.net/Ry2VmX)を行うことができます。トライアル期間の後、一度に1か月間サブスクライブすることを選択できます（$14.99USD/月; $179.88USD/年）。または、一度に1年間サブスクライブします（$7.49USD/月; $ 9.88USD/年）。
 
 月額$ 14.99の価格での1か月のサブスクリプションは、[kindle mall](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011)で1〜2冊の電子書籍を購入することに相当します。事実それは許容されます。あなたがあなたの読書習慣に沿っているならば、あなたは一度に1年間購読して、より費用対効果の高い価格を楽しむことができます。
 
 さらに、ブラックフライデーなどの特別な日には、最大50％の割引があります！
 
-[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/a1rd2N)
+[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/Ry2VmX)
 
 ## ユーザー体験
 

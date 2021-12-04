@@ -21,7 +21,7 @@ references:
   [
     {
       title: 'Blinkist',
-      link: 'https://blinkist.o6eiov.net/a1rd2N',
+      link: 'https://blinkist.o6eiov.net/Ry2VmX',
     },
         {
       title: 'Blinkist Instagram',
@@ -45,7 +45,7 @@ If you like reading, do you often feel that there is not enough time? Do you pre
 
 ## Blinkist Introduction
 
-The following is the official webpage of [Blinkist](https://blinkist.o6eiov.net/a1rd2N) and the title in the AppStore:
+The following is the official webpage of [Blinkist](https://blinkist.o6eiov.net/Ry2VmX) and the title in the AppStore:
 
 * Blinkist: Big ideas in small packages
 * Blinkist: 15 min Book insights
@@ -104,13 +104,13 @@ Blinkist currently contains more than 5,000 Nonfiction books, covering 27 catego
 
 [![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
 
-You can first [free trial for 7 days](https://blinkist.o6eiov.net/a1rd2N). After the trial period, you can choose to subscribe for one month at a time ($14.99USD/month; $179.88USD/year), or subscribe for one year at a time ($7.49) USD/month; $89.88USD/year).
+You can first [free trial for 7 days](https://blinkist.o6eiov.net/Ry2VmX). After the trial period, you can choose to subscribe for one month at a time ($14.99USD/month; $179.88USD/year), or subscribe for one year at a time ($7.49) USD/month; $89.88USD/year).
 
 One month subscription at a price of $14.99 per month is equivalent to buying 1-2 e-books in [kindle mall](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011), in fact, It is acceptable. If you are in line with your reading habits, you can subscribe for one year at a time and enjoy a more cost-effective price.
 
 In addition, on some special days, such as Black Friday, there will be up to 50% discount!
 
-[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/a1rd2N)
+[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/Ry2VmX)
 
 ## User experience
 

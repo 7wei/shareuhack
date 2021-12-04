@@ -21,7 +21,7 @@ references:
   [
     {
       title: 'Blinkist',
-      link: 'https://blinkist.o6eiov.net/a1rd2N',
+      link: 'https://blinkist.o6eiov.net/Ry2VmX',
     },
         {
       title: 'Blinkist Instagram',
@@ -46,7 +46,7 @@ about: 'Blinkist'
 
 ## Blinkist是一款怎样的APP
 
-以下为[Blinkist](https://blinkist.o6eiov.net/a1rd2N)官方网页和在AppStore的标题：
+以下为[Blinkist](https://blinkist.o6eiov.net/Ry2VmX)官方网页和在AppStore的标题：
 
 * Blinkist: Big ideas in small packages
 * Blinkist: 15 min Book insights
@@ -105,13 +105,13 @@ Blinkist目前收录有5000本以上的Nonfiction书籍，涵盖了27个类别�
 
 [![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
 
-你可以先[免费试用7天](https://blinkist.o6eiov.net/a1rd2N)，试用期后，可选择一次订阅一个月($14.99USD/月；$179.88USD/年)，或者一次订阅一年($7.49USD/月；$89.88USD/年)。
+你可以先[免费试用7天](https://blinkist.o6eiov.net/Ry2VmX)，试用期后，可选择一次订阅一个月($14.99USD/月；$179.88USD/年)，或者一次订阅一年($7.49USD/月；$89.88USD/年)。
 
 一次订阅一个月，每月$14.99的价格，相当于在[kindle商城](https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011)买1-2本电子书，其实是尚可接受的，若符合自己的阅读习惯，则可以一次订阅一年，享有更划算的价格。
 
 此外，在一些特殊日子，例如黑五，会有高达50％的折扣！
 
-[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/a1rd2N)
+[![get-50%-off-blinlist-premium](https://i.imgur.com/lyArJQZ.png)](https://blinkist.o6eiov.net/Ry2VmX)
 
 ## 使用者体验
 
