@@ -42,7 +42,7 @@ export default function DrawerComponent(props: Props) {
           <Box mt="20px" pl="12px" display="flex" flexDirection="column" gridGap={15} height="calc(100% - 80px)">
             {NavLinks.map((link, idx) => (
               <Link key={idx} href={link.link} onClick={onClick}>
-                <TYPE.header>{t(`categories.${link.key}.title`)}</TYPE.header>
+                <TYPE.header fontSize={18}>{t(`categories.${link.key}.title`)}</TYPE.header>
               </Link>
             ))}
           </Box>
