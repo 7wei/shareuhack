@@ -1,6 +1,5 @@
 import { Grid, Box, styled } from '@material-ui/core'
-import Link from 'next/link'
-import StyledLink from '../../src/components/Link/Link'
+import Link from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
 import FacebookIcon from '@material-ui/icons/Facebook'
@@ -117,10 +116,10 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale} passHref>
-                <StyledLink>{t(`categories.${category?.key}.title`)}</StyledLink>
+                {t(`categories.${category?.key}.title`)}
               </Link>
               <Link href={subCategory?.link} locale={locale} passHref>
-                <StyledLink>{t(`subCategories.${subCategory?.key}.title`)}</StyledLink>
+                {t(`subCategories.${subCategory?.key}.title`)}
               </Link>
             </Breadcrumbs>
           )}
@@ -152,11 +151,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                             <li key={idx}>
                               {recommendation.title}
                               <br />
-                              <Link href={recommendation.link} passHref>
-                                <StyledLink
-                                  target="_blank"
-                                  rel="nofollow noopener noreferrer"
-                                >{` → ${recommendation.src}`}</StyledLink>
+                              <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
+                                {` → ${recommendation.src}`}
                               </Link>
                             </li>
                           ))}
@@ -170,10 +166,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                         <ol>
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
-                              <Link href={reference.link} passHref>
-                                <StyledLink target="_blank" rel="nofollow noopener noreferrer">
-                                  {reference.title}
-                                </StyledLink>
+                              <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
+                                {reference.title}
                               </Link>
                             </li>
                           ))}
@@ -214,11 +208,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                       <li key={idx}>
                         {recommendation.title}
                         <br />
-                        <Link href={recommendation.link} passHref>
-                          <StyledLink
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                          >{` → ${recommendation.src}`}</StyledLink>
+                        <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
+                          {` → ${recommendation.src}`}
                         </Link>
                       </li>
                     ))}
@@ -232,10 +223,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                   <ol>
                     {post.references?.map((reference, idx) => (
                       <li key={idx}>
-                        <Link href={reference.link} passHref>
-                          <StyledLink target="_blank" rel="nofollow noopener noreferrer">
-                            {reference.title}
-                          </StyledLink>
+                        <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
+                          {reference.title}
                         </Link>
                       </li>
                     ))}
@@ -274,10 +263,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <Grid spacing={1} container>
               {NavLinks.map((link, idx) => (
                 <Grid item key={idx} xs={6} sm={3}>
-                  <Link href={link.link} passHref>
-                    <StyledLink>
-                      <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
-                    </StyledLink>
+                  <Link href={link.link}>
+                    <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
                   </Link>
                 </Grid>
               ))}

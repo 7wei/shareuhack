@@ -6,8 +6,7 @@ import { TYPE } from '../../src/theme/index'
 import PostReview from '../../src/components/Post/PostPreview'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
-import StyledLink from '../../src/components/Link/Link'
-import Link from 'next/link'
+import Link from '../../src/components/Link/Link'
 import Divider from '../../src/components/Divider/Divider'
 // import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
@@ -58,8 +57,8 @@ export default function SubCategoryPage({ subCategory, posts }) {
               <TYPE.body>
                 {t('whatWeDoDescript')}
                 <br />
-                <Link href={Routes.about} locale={locale} passHref>
-                  <StyledLink>--{t('learnMore')}</StyledLink>
+                <Link href={Routes.about} locale={locale}>
+                  --{t('learnMore')}
                 </Link>
               </TYPE.body>
             </InfoCard>

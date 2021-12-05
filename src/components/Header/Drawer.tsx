@@ -1,13 +1,14 @@
-import React, { useCallback } from 'react'
-import { Drawer, makeStyles, Box, ListItem, Typography } from '@material-ui/core'
+import React from 'react'
+import { Drawer, makeStyles, Box } from '@material-ui/core'
 import { NavLinks } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
-import { useRouter } from 'next/router'
-import Link from 'next/link'
+import Link from 'components/Link/Link'
+import { TYPE } from 'theme/index'
 
 interface Props {
   open: boolean
   onClose: () => void
+  onClick: () => void
 }
 
 const useStyles = makeStyles((theme) => ({
@@ -20,24 +21,23 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     width: '100%',
-    marginTop: 56,
+    marginTop: 80,
     background: theme.palette.background.default,
   },
 }))
 
 export default function DrawerComponent(props: Props) {
-  const { open, onClose } = props
+  const { open, onClose, onClick } = props
   const classes = useStyles()
   const { t } = useTranslation('common')
-  const router = useRouter()
 
   return (
     <>
       <Drawer classes={{ ...classes }} open={open} onClose={onClose}>
         <Box display="flex" flexDirection="column" gridGap={20} padding="40px">
           {NavLinks.map((link, idx) => (
-            <Link key={`menu-category-${link.key}`} href={link.link} passHref>
-              {t(`categories.${link.key}.title`)}
+            <Link key={idx} href={link.link} onClick={onClick}>
+              <TYPE.header>{t(`categories.${link.key}.title`)}</TYPE.header>
             </Link>
           ))}
         </Box>

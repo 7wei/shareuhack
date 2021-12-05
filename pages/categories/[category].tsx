@@ -5,8 +5,7 @@ import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_UR
 import { TYPE } from '../../src/theme/index'
 import { getCategoryPosts, getAllCategoryPaths } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
-import StyledLink from '../../src/components/Link/Link'
-import Link from 'next/link'
+import Link from '../../src/components/Link/Link'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
@@ -59,8 +58,8 @@ export default function CategoryPage({ category, subCategories }) {
               <TYPE.body>
                 {t('whatWeDoDescript')}
                 <br />
-                <Link href={Routes.about} locale={locale} passHref>
-                  <StyledLink>--{t('learnMore')}</StyledLink>
+                <Link href={Routes.about} locale={locale}>
+                  --{t('learnMore')}
                 </Link>
               </TYPE.body>
             </InfoCard>

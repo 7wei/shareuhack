@@ -1,13 +1,15 @@
-import { makeStyles, Theme } from '@material-ui/core'
 import React from 'react'
-// import theme from '../../theme/index'
+import NextLink from 'next/link'
+import { makeStyles, Theme, Link as MuiLink } from '@material-ui/core'
 
 interface Props {
-  href?: string
+  href: string
   target?: string
   children: React.ReactNode
   rel?: string
   color?: string
+  locale?: string
+  onClick?: () => void
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -21,14 +23,15 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }))
 
-const Link = React.forwardRef((props: Props, ref) => {
-  const { href, target, children, rel } = props
+export default function Link(props: Props) {
+  const { href, target, children, rel, locale, onClick } = props
   const classes = useStyles(props)
-  return (
-    <a className={classes.link} href={href} target={target} rel={rel}>
-      {children}
-    </a>
-  )
-})
 
-export default Link
+  return (
+    <NextLink href={href} locale={locale} passHref>
+      <MuiLink className={classes.link} target={target} rel={rel} onClick={onClick}>
+        {children}
+      </MuiLink>
+    </NextLink>
+  )
+}

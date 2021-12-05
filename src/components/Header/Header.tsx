@@ -1,7 +1,5 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import { makeStyles, Box, Typography, AppBar, Toolbar, IconButton } from '@material-ui/core'
-import Link from 'next/link'
-import Container from '../Container/Container'
 import theme, { TYPE } from 'theme/index'
 import { NavLinks, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
@@ -10,17 +8,28 @@ import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@material-ui/icons'
 import Drawer from './Drawer'
+import Link from 'components/Link/Link'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     // height: 260,
     // paddingTop: 30,
   },
-  appbar: { background: theme.palette.background.default, boxShadow: 'none' },
+  appbar: {
+    background: theme.palette.background.default,
+    boxShadow: 'none',
+    height: 140,
+    paddingTop: 20,
+    marginBottom: 15,
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 16,
+      height: 80,
+    },
+  },
   navlink: {
     fontSize: 16,
     textDecoration: 'none',
-    color: 'inherit',
+    color: theme.palette.primary.contrastText,
     position: 'relative',
     '&:hover': {
       textDecoration: 'none',
@@ -53,17 +62,6 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     padding: 0,
   },
-  // drawer: {
-  //   width: '100%',
-  //   position: 'absolute',
-  //   top: 60,
-  // },
-  // drawerPaper: {
-  //   width: '100%',
-  // },
-  // drawerContainer: {
-  //   overflow: 'auto',
-  // },
 }))
 
 export default function Header() {
@@ -73,56 +71,55 @@ export default function Header() {
   const { matches } = useBreakpint()
   const [openDrawer, setOpenDrawer] = useState(false)
 
-  return (
-    <Container>
-      <div className={classes.root}>
-        <AppBar position="static" className={classes.appbar}>
-          <Toolbar className={classes.toolbar}>
-            {matches && (
-              <IconButton
-                className={classes.menuButton}
-                color="inherit"
-                aria-label="Menu"
-                onClick={() => setOpenDrawer(!openDrawer)}
-              >
-                {openDrawer ? <Close /> : <Menu />}
-              </IconButton>
-            )}
+  const onClick = useCallback(() => {
+    setOpenDrawer(false)
+  }, [])
 
-            <Box
-              className={classes.brand}
-              display="flex"
-              alignItems="center"
-              justifyContent={matches ? 'center' : 'flex-start'}
+  return (
+    <div className={classes.root}>
+      <AppBar position="static" className={classes.appbar}>
+        <Toolbar className={classes.toolbar}>
+          {matches && (
+            <IconButton
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="Menu"
+              onClick={() => setOpenDrawer(!openDrawer)}
             >
-              <Link href="/" locale={locale} passHref>
-                <TYPE.header fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic">
-                  Shareuhack
-                </TYPE.header>
-              </Link>
-              {!matches && (
-                <TYPE.smallGray fontStyle="italic" ml={16} fontSize={16}>
-                  Hacks for the real life
-                </TYPE.smallGray>
-              )}
-            </Box>
-            <LanguageSelector />
-          </Toolbar>
-          {matches ? (
-            <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} />
-          ) : (
-            <Box display="flex" height="48px" mb="16px" alignItems="center" justifyContent="center" gridGap={16}>
-              {NavLinks.map((link, idx) => (
-                <Link key={idx} href={link.link} passHref>
-                  <a id={`nav-category-${link.key}`} className={classes.navlink}>
-                    {t(`categories.${link.key}.title`)}
-                  </a>
-                </Link>
-              ))}
-            </Box>
+              {openDrawer ? <Close /> : <Menu />}
+            </IconButton>
           )}
-        </AppBar>
-      </div>
-    </Container>
+
+          <Box
+            className={classes.brand}
+            display="flex"
+            alignItems="center"
+            justifyContent={matches ? 'center' : 'flex-start'}
+            flexDirection={matches ? 'column' : 'row'}
+          >
+            <Link href="/" locale={locale}>
+              <TYPE.header fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic">
+                Shareuhack
+              </TYPE.header>
+            </Link>
+            <TYPE.smallGray fontStyle="italic" ml={matches ? 0 : 16} fontSize={16} mt={matches ? 0 : 14}>
+              Hacks for the real life
+            </TYPE.smallGray>
+          </Box>
+          <LanguageSelector />
+        </Toolbar>
+        {matches ? (
+          <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
+        ) : (
+          <Box display="flex" alignItems="center" justifyContent="center" gridGap={24} mt="18px">
+            {NavLinks.map((link, idx) => (
+              <Link key={idx} href={link.link}>
+                <div className={classes.navlink}>{t(`categories.${link.key}.title`)}</div>
+              </Link>
+            ))}
+          </Box>
+        )}
+      </AppBar>
+    </div>
   )
 }

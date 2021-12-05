@@ -8,8 +8,10 @@ export default function Layout({ children }: { children: JSX.Element }) {
   return (
     <>
       <Meta />
-      <Header />
-      <Container>{children}</Container>
+      <Container>
+        <Header />
+        {children}
+      </Container>
       <Footer />
     </>
   )
