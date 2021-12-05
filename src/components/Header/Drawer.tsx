@@ -34,12 +34,17 @@ export default function DrawerComponent(props: Props) {
   return (
     <>
       <Drawer classes={{ ...classes }} open={open} onClose={onClose}>
-        <Box display="flex" flexDirection="column" gridGap={20} padding="40px">
-          {NavLinks.map((link, idx) => (
-            <Link key={idx} href={link.link} onClick={onClick}>
-              <TYPE.header>{t(`categories.${link.key}.title`)}</TYPE.header>
-            </Link>
-          ))}
+        <Box padding="24px 30px">
+          <TYPE.primary fontSize={24} fontWeight={700}>
+            Explore
+          </TYPE.primary>
+          <Box mt="20px" pl="12px" display="flex" flexDirection="column" gridGap={15}>
+            {NavLinks.map((link, idx) => (
+              <Link key={idx} href={link.link} onClick={onClick}>
+                <TYPE.header>{t(`categories.${link.key}.title`)}</TYPE.header>
+              </Link>
+            ))}
+          </Box>
         </Box>
       </Drawer>
     </>
