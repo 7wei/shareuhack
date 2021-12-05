@@ -55,10 +55,7 @@ const useStyles = makeStyles((theme) => ({
   brand: {
     flexGrow: 1,
   },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
-  },
+  menuButton: {},
   toolbar: {
     padding: 0,
   },
