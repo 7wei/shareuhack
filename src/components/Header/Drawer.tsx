@@ -16,13 +16,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     // boxShadow: 'none',
     '& .MuiBackdrop-root': {
-      backgroundColor: 'transparent',
+      backgroundColor: theme.palette.primary.main,
       boxShadow: 'none',
     },
   },
   paper: {
-    width: '100%',
-    background: 'transparent',
+    width: 'calc(100% - 1px)',
+    backgroundColor: theme.palette.background.default,
   },
 }))
 
@@ -35,7 +35,15 @@ export default function DrawerComponent(props: Props) {
   return (
     <>
       <Drawer classes={{ ...classes }} open={open} onClose={onClose}>
-        <Box padding="24px 30px" mt="80px" bgcolor={theme.palette.background.default} height="100%">
+        <Box display="flex" alignItems="center" justifyContent={'center'} flexDirection={'column'} paddingTop={'20px'}>
+          <TYPE.header fontSize={24} fontWeight={700} fontStyle="italic">
+            Shareuhack
+          </TYPE.header>
+          <TYPE.smallGray fontStyle="italic" fontSize={16}>
+            Hacks for the real life
+          </TYPE.smallGray>
+        </Box>
+        <Box padding="24px 30px" bgcolor={theme.palette.background.default} height="100%">
           <TYPE.primary fontSize={24} fontWeight={700}>
             Explore
           </TYPE.primary>
