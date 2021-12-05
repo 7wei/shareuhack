@@ -55,7 +55,9 @@ const useStyles = makeStyles((theme) => ({
   brand: {
     flexGrow: 1,
   },
-  menuButton: {},
+  menuButton: {
+    zIndex: 9999999,
+  },
   toolbar: {
     padding: 0,
   },
@@ -103,7 +105,9 @@ export default function Header() {
               Hacks for the real life
             </TYPE.smallGray>
           </Box>
-          <LanguageSelector />
+          <Box visibility={openDrawer ? 'hidden' : 'visible'}>
+            <LanguageSelector />
+          </Box>
         </Toolbar>
         {matches ? (
           <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />

@@ -53,7 +53,7 @@ export default function LanguageSelector() {
   }
 
   return (
-    <>
+    <Box zIndex={999999}>
       <IconButton onClick={handleOpen} color="primary">
         <LanguageIcon />
         {!matches && (
@@ -77,6 +77,6 @@ export default function LanguageSelector() {
           ))}
         </List>
       </Dialog>
-    </>
+    </Box>
   )
 }
