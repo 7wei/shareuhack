@@ -34,7 +34,7 @@ export default function DrawerComponent(props: Props) {
 
   return (
     <>
-      <Drawer classes={{ ...classes }} open={open} onClose={onClose}>
+      <Drawer classes={{ ...classes }} open={open} onClose={onClose} hideBackdrop={true}>
         <Box padding="24px 30px" mt="80px" bgcolor={theme.palette.background.default} height="100%">
           <TYPE.primary fontSize={24} fontWeight={700}>
             Explore

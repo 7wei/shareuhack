@@ -102,7 +102,7 @@ export default function Header() {
                 Shareuhack
               </TYPE.header>
             </Link>
-            <TYPE.smallGray fontStyle="italic" fontSize={16}>
+            <TYPE.smallGray fontStyle="italic" fontSize={16} mt={matches ? 0 : 14}>
               Hacks for the real life
             </TYPE.smallGray>
           </Box>
