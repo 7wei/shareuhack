@@ -95,13 +95,14 @@ export default function Header() {
             alignItems="center"
             justifyContent={matches ? 'center' : 'flex-start'}
             flexDirection={matches ? 'column' : 'row'}
+            gridGap={matches ? 0 : 12}
           >
             <Link href="/" locale={locale}>
               <TYPE.header fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic">
                 Shareuhack
               </TYPE.header>
             </Link>
-            <TYPE.smallGray fontStyle="italic" ml={matches ? 0 : 16} fontSize={16} mt={matches ? 0 : 14}>
+            <TYPE.smallGray fontStyle="italic" fontSize={16}>
               Hacks for the real life
             </TYPE.smallGray>
           </Box>
