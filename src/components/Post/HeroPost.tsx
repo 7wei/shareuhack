@@ -3,8 +3,7 @@ import CoverImage from '../Image/CoverImage'
 import { TYPE } from 'theme/index'
 import Divider from '../Divider/Divider'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
-import StyledLink from '../../components/Link/Link'
+import Link from '../../components/Link/Link'
 
 export default function HeroPost({
   title,
@@ -24,12 +23,10 @@ export default function HeroPost({
   return (
     <section>
       <CoverImage title={title} src={coverImage} slug={slug} height={627} width={1200} alt={excerpt} />
-      <Link href={`/posts/${slug}`} locale={locale} passHref>
-        <StyledLink>
-          <TYPE.largeHeader mt="8px" mb="8px">
-            {title}
-          </TYPE.largeHeader>
-        </StyledLink>
+      <Link href={`/posts/${slug}`} locale={locale}>
+        <TYPE.largeHeader mt="8px" mb="8px">
+          {title}
+        </TYPE.largeHeader>
       </Link>
       <Box mb="15px">
         <Grid container>
@@ -47,10 +44,8 @@ export default function HeroPost({
                 </TYPE.header>
                 <Box display="grid" gridGap="10px">
                   {relatedPosts.map((post) => (
-                    <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} passHref>
-                      <StyledLink>
-                        <TYPE.bold>{post.title}</TYPE.bold>
-                      </StyledLink>
+                    <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale}>
+                      <TYPE.bold>{post.title}</TYPE.bold>
                     </Link>
                   ))}
                 </Box>

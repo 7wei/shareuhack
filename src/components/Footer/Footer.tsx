@@ -5,10 +5,9 @@ import theme, { TYPE } from 'theme/index'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import EmailIcon from '@material-ui/icons/Email'
 import { useTranslation } from 'next-i18next'
-import Link from 'next/link'
+import Link from '../../components/Link/Link'
 import { useRouter } from 'next/router'
 import useBreakpoint from 'hooks/useBreakpoint'
-import StyledLink from '../../components/Link/Link'
 
 const useStyles = makeStyles({
   root: {
@@ -55,7 +54,7 @@ export default function Footer() {
         {/* <Box display="flex" alignItems="center" paddingTop="36px" gridGap="12px">
           {NavLinks.map((link, idx) => (
             <Box key={idx}>
-              <Link key={link.key} href={link.link} passHref locale={locale}>
+              <Link key={link.key} href={link.link}  locale={locale}>
                 <MuiLink className={classes.navlink}> {t(`categories.${link.key}.title`)}</MuiLink>
               </Link>
             </Box>
@@ -69,15 +68,11 @@ export default function Footer() {
 
           <Box display="flex" gridGap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
             <TYPE.bold>Let's chat at</TYPE.bold>
-            <Link href="https://www.facebook.com/shareuhack/" passHref>
-              <StyledLink color="#FFFFFF" target="_blank">
-                <FacebookIcon />
-              </StyledLink>
+            <Link href="https://www.facebook.com/shareuhack/">
+              <FacebookIcon />
             </Link>
-            <Link href="mailto:c@shareuhack.com" passHref>
-              <StyledLink color="#FFFFFF" target="_blank">
-                <EmailIcon />
-              </StyledLink>
+            <Link href="mailto:c@shareuhack.com">
+              <EmailIcon />
             </Link>
           </Box>
 

@@ -8,8 +8,7 @@ import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import useBreakpint from '../src/hooks/useBreakpoint'
-import StyledLink from '../src/components/Link/Link'
-import Link from 'next/link'
+import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 // import Disclosure from '../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
@@ -48,8 +47,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
             <TYPE.body>
               {t('whatWeDoDescript')} <br />
-              <Link href={Routes.about} locale={locale} passHref>
-                <StyledLink>--{t('learnMore')}</StyledLink>
+              <Link href={Routes.about} locale={locale}>
+                --{t('learnMore')}
               </Link>
             </TYPE.body>
           </InfoCard>
@@ -59,8 +58,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
               <TYPE.body>
                 {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about} locale={locale} passHref>
-                  <StyledLink>--{t('learnMore')}</StyledLink>
+                <Link href={Routes.about} locale={locale}>
+                  --{t('learnMore')}
                 </Link>
               </TYPE.body>
             </InfoCard>
@@ -71,11 +70,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           </TYPE.header>
           <Box display="grid" gridGap="8px">
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none" passHref>
-                <StyledLink>
-                  <TYPE.bold>{post.title}</TYPE.bold>
-                  <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
-                </StyledLink>
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
+                <TYPE.bold>{post.title}</TYPE.bold>
+                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
               </Link>
             ))}
           </Box>
@@ -90,11 +87,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           </TYPE.header>
           <Box display="grid" gridGap="8px" mb="15px">
             {hotPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none" passHref>
-                <StyledLink>
-                  <TYPE.bold>{post.title}</TYPE.bold>
-                  <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
-                </StyledLink>
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
+                <TYPE.bold>{post.title}</TYPE.bold>
+                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
               </Link>
             ))}
           </Box>
@@ -104,8 +99,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
               <TYPE.body>
                 {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about} locale={locale} passHref>
-                  <StyledLink>--{t('learnMore')}</StyledLink>
+                <Link href={Routes.about} locale={locale}>
+                  --{t('learnMore')}
                 </Link>
               </TYPE.body>
             </InfoCard>

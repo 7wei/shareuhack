@@ -115,10 +115,10 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           <CoverImage title={post.title} alt={post.excerpt} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (
             <Breadcrumbs>
-              <Link href={category?.link} locale={locale} passHref>
+              <Link href={category?.link} locale={locale}>
                 {t(`categories.${category?.key}.title`)}
               </Link>
-              <Link href={subCategory?.link} locale={locale} passHref>
+              <Link href={subCategory?.link} locale={locale}>
                 {t(`subCategories.${subCategory?.key}.title`)}
               </Link>
             </Breadcrumbs>

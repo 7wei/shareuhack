@@ -4,8 +4,7 @@ import { TYPE } from 'theme/index'
 import { formattedDate } from '../../utils/index'
 import theme from '../../theme/index'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
-import StyledLink from '../../components/Link/Link'
+import Link from '../../components/Link/Link'
 
 const useStyles = makeStyles({
   root: {
@@ -37,14 +36,12 @@ export default function PostPreview({
   return (
     <Box className={classes.root} width="100%">
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
-      <Link href={`/posts/${slug}`} locale={locale} passHref>
-        <StyledLink>
-          <TYPE.bold mt="5px" className={classes.title}>
-            {title}
-          </TYPE.bold>
-          <TYPE.primary>{formattedDate(date)}</TYPE.primary>
-          {!simple && <TYPE.body>{excerpt}</TYPE.body>}
-        </StyledLink>
+      <Link href={`/posts/${slug}`} locale={locale}>
+        <TYPE.bold mt="5px" className={classes.title}>
+          {title}
+        </TYPE.bold>
+        <TYPE.primary>{formattedDate(date)}</TYPE.primary>
+        {!simple && <TYPE.body>{excerpt}</TYPE.body>}
       </Link>
     </Box>
   )
