@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { useCallback } from 'react'
+import { useMemo } from 'react'
 
 interface Props {
   post?: any
@@ -22,7 +22,7 @@ export default function CommonStructuredData(props: Props) {
   const description = t('whatWeDoDescript')
   const email = 'c@shareuhack.com'
 
-  const structuredDataWebsite = useCallback(() => {
+  const structuredDataWebsite = useMemo(() => {
     return {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
@@ -35,7 +35,7 @@ export default function CommonStructuredData(props: Props) {
     }
   }, [])
 
-  const structuredDataOrganization = useCallback(() => {
+  const structuredDataOrganization = useMemo(() => {
     return {
       '@type': 'Organization',
       name: websiteName,
@@ -49,28 +49,32 @@ export default function CommonStructuredData(props: Props) {
     }
   }, [])
 
-  const structuredDataPost = useCallback(() => {
+  const structuredDataPost = useMemo(() => {
     if (!post) {
       return null
     }
 
     return {
       '@context': 'https://schema.org',
-      '@type': 'BlogPosting',
-      headline: post.title,
+      '@type': 'NewsArticle',
+      headline: post.title + '| Shareuhack',
+      name: post.title + '| Shareuhack',
       articleBody: post.content.replace(/<[^>]*>/g, ''),
       about: post.about,
       image: post.coverImage,
       datePublished: post.date,
+      dateModified: post.date,
       articleSection: t(`subCategories.${subCategory?.key}.title`),
       keywords: post.keywords,
       backstory: post?.credentials?.join(','),
       author: structuredDataOrganization,
       publisher: structuredDataOrganization,
+      url: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`,
+      description: post.excerpt,
     }
-  }, [])
+  }, [post])
 
-  const structuredDataBreadcrumb = useCallback(() => {
+  const structuredDataBreadcrumb = useMemo(() => {
     if (!post || !category || !subCategory) {
       return null
     }
@@ -98,9 +102,9 @@ export default function CommonStructuredData(props: Props) {
         },
       ],
     }
-  }, [])
+  }, [post, category, subCategory])
 
-  const structuredDataFaq = useCallback(() => {
+  const structuredDataFaq = useMemo(() => {
     if (!post?.faqs) {
       return null
     }
@@ -119,31 +123,15 @@ export default function CommonStructuredData(props: Props) {
         }
       }),
     }
-  }, [])
+  }, [post])
 
   return (
     <Head>
-      <script id="structured-data-Organization" className="structured-data" type="application/ld+json">
-        {JSON.stringify(structuredDataOrganization())}
-      </script>
-      <script id="structured-data-Website" className="structured-data" type="application/ld+json">
-        {JSON.stringify(structuredDataWebsite())}
-      </script>
-      {type === 'post' && (
-        <script id="structured-data-BlogPosting" className="structured-data" type="application/ld+json">
-          {JSON.stringify(structuredDataPost())}
-        </script>
-      )}
-      {type === 'post' && (
-        <script id="structured-data-BreadcrumbList" className="structured-data" type="application/ld+json">
-          {JSON.stringify(structuredDataBreadcrumb())}
-        </script>
-      )}
-      {type === 'post' && post.faqs && (
-        <script id="structured-data-FAQ" className="structured-data" type="application/ld+json">
-          {JSON.stringify(structuredDataFaq())}
-        </script>
-      )}
+      <script type="application/ld+json">{JSON.stringify(structuredDataOrganization)}</script>
+      <script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</script>
+      {type === 'post' && <script type="application/ld+json">{JSON.stringify(structuredDataPost)}</script>}
+      {type === 'post' && <script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</script>}
+      {type === 'post' && post.faqs && <script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</script>}
     </Head>
   )
 }
