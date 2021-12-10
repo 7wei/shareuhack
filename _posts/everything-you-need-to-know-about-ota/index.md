@@ -63,7 +63,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 ![booking.com-logo](https://i.imgur.com/t8Iwwha.jpg)
 
-靠著超強跨國併購，ActiveHotels.com與agoda分別於2004年和2007年年間和Booking.com合併，這使booking.com成為全球最大的酒店預訂網站。
+分別於2004年和2007年年間併購ActiveHotels.com與agoda，超強跨國併購，使得booking.com成為全球最大的酒店預訂網站。
 
 優點：
 
@@ -96,7 +96,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 ![expedia-logo](https://i.imgur.com/AEefYJC.png)
 
-### 找飯店？Trivago! 這句家喻戶曉的廣告詞正式Expedia的廣告，旗下品牌包括Hotels .com、Orbitz .com、Trivago等。
+找飯店？Trivago! 這句家喻戶曉的廣告詞正式Expedia的廣告，旗下品牌包括Hotels .com、Orbitz .com、Trivago等。
 
 優點：
 
