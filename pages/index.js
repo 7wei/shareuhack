@@ -1,4 +1,4 @@
-import { Grid, Box } from '@material-ui/core'
+import { Grid, Box, styled } from '@material-ui/core'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
@@ -16,6 +16,10 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useRouter } from 'next/router'
 // import { canonicalLocale } from '../src/utils/index'
 import CommonStructuredData from '../src/components/CommonStructuredData'
+
+const BreakWordBox = styled(Box)({
+  wordWrap: 'break-word',
+})
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
@@ -68,14 +72,14 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <TYPE.header mt="15px" mb="15px">
             {t('latest')}
           </TYPE.header>
-          <Box display="grid" gridGap="8px">
+          <BreakWordBox display="flex" gridGap="8px" flexDirection="column">
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
                 <TYPE.bold>{post.title}</TYPE.bold>
                 <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
               </Link>
             ))}
-          </Box>
+          </BreakWordBox>
         </Grid>
         <Grid item sm={6}>
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
@@ -85,14 +89,14 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <TYPE.header mt="15px" mb="15px">
             {t('hottest')}
           </TYPE.header>
-          <Box display="grid" gridGap="8px" mb="15px">
+          <BreakWordBox display="grid" gridGap="8px" mb="15px">
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
                 <TYPE.bold>{post.title}</TYPE.bold>
                 <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
               </Link>
             ))}
-          </Box>
+          </BreakWordBox>
           {!matches && (
             <InfoCard>
               <TYPE.bold mb="15px">{t('howWeDo')}</TYPE.bold>

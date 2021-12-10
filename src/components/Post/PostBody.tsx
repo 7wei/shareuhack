@@ -36,7 +36,7 @@ const useStyles = makeStyles({
       margin: '50px auto',
     },
     '& p img': {
-      width: '100%',
+      width: 'fit-content',
     },
     '& ul,ol': {
       margin: 0,
