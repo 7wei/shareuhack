@@ -131,9 +131,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 ### 針對優惠房價選擇訂房平台
 
-|  | Agoda | Booking.com | Ctrip | Expedia   |
-| -------- | -------- | --- | -------- | --- |
-|  優惠重點  |   回饋金   | Genius 房價優惠    | 自動比價串連各平台     | 會員獎勵制    |
+![compare-4-OTAs](https://i.imgur.com/kzYL9RR.png)
 
 ## 常見的訂房平台陷阱
 
