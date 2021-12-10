@@ -1,5 +1,5 @@
 ---
-title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip,Expedia)介紹與必注意的優惠陷阱'
+title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip/Expedia)介紹與必需注意的優惠陷阱'
 category: 'life'
 subCategory: 'travel'
 excerpt: '自由行的盛行，因映需求訂房網站越來越多，由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台'
@@ -11,11 +11,13 @@ credentials: ['飯店從業經驗', '親測四大平台訂房']
 recommendations: [
     {
         title: 'Agoda 優惠專區',
-        link: 'https://tinyurl.com/yxfuy2es'
+        link: 'https://tinyurl.com/yxfuy2es',
+        src: 'Agoda'
     },
         {
         title: 'Trip.com 今日特優專區',
-        link: 'https://tinyurl.com/y4q7neyf'
+        link: 'https://tinyurl.com/y4q7neyf',
+        src: 'Trip.com'
     }
 ]
 references:
@@ -68,7 +70,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 (目前網站也提供現場支付，訂單會自動串聯至同集團的booking.com處理)
 2. 客服雖開通亞洲線，但非常難接通
 
-## [Booking com](https://tinyurl.com/y3d9m8fk)
+## [Booking.com](https://tinyurl.com/y3d9m8fk)
 
 [![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
 
@@ -140,8 +142,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 ### 針對優惠房價選擇訂房平台
 
-![compare-4-OTAs](https://i.imgur.com/kzYL9RR.png)
-
+![比較4大OTA平台](https://i.imgur.com/kzYL9RR.png)
 
 ## 常見的訂房平台陷阱
 

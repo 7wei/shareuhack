@@ -41,6 +41,10 @@ const CategoryCard = styled(Box)(({ theme }) => ({
   },
 }))
 
+const BreakWordBox = styled(Box)({
+  wordWrap: 'break-word',
+})
+
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, locales } = router
@@ -124,9 +128,11 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Breadcrumbs>
           )}
 
-          <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h1">
-            {post.title}
-          </TYPE.largeHeader>
+          <BreakWordBox>
+            <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h1">
+              {post.title}
+            </TYPE.largeHeader>
+          </BreakWordBox>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
             <Grid item sm={3} xs={12}>

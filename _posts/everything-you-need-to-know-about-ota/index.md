@@ -1,5 +1,5 @@
 ---
-title: 'Most popular OTAs(Agoda/Booking.com/Ctrip,Expedia) and everything you need to know'
+title: 'Most popular OTAs(Agoda/Booking.com/Ctrip/Expedia) and everything you need to know'
 category: 'life'
 subCategory: 'travel'
 excerpt: 'The prevalence of free travel, because of the demand for more and more booking websites,
@@ -13,11 +13,13 @@ credentials: ['Hotel industry experience', 'Booking experience at platforms']
 recommendations: [
     {
         title: 'Agoda Special Offers',
-        link: 'https://tinyurl.com/yxfuy2es'
+        link: 'https://tinyurl.com/yxfuy2es',
+        src: 'Agoda'
     },
         {
         title: 'Trip.com Special Offers',
-        link: 'https://tinyurl.com/y4q7neyf'
+        link: 'https://tinyurl.com/y4q7neyf',
+        src: 'Trip.com'
     }
 ]
 references:
@@ -70,7 +72,7 @@ shortcoming:
 (Currently the website also provides on-site payment, and the order will be automatically connected to booking.com of the same group for processing)
 2. Although the customer service has opened the Asian line, it is very difficult to get through
 
-## [Booking com](https://tinyurl.com/y3d9m8fk)
+## [Booking.com](https://tinyurl.com/y3d9m8fk)
 
 [![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
 
@@ -139,11 +141,6 @@ After planning the itinerary, I believe that you already have a general preferen
 ### 3. Budget
 
 In addition to planning the itinerary first, the control of the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo, such as controlling the accommodation budget within the range of 3000-4000 yuan, and facing hundreds of different Under the preferential room rate, you can narrow the scope of selection to further select the hotel that suits you.
-
-### Choose a booking platform for preferential rates
-
-![compare-4-OTAs](https://i.imgur.com/kzYL9RR.png)
-
 
 ## Common booking platform traps
 
