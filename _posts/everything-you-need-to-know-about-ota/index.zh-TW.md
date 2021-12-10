@@ -1,5 +1,5 @@
 ---
-title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip/Expedia)介紹與必注意的優惠陷阱'
+title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip,Expedia)介紹與必注意的優惠陷阱'
 category: 'life'
 subCategory: 'travel'
 excerpt: '自由行的盛行，因映需求訂房網站越來越多，由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台'
@@ -8,20 +8,29 @@ date: '2021-12-11'
 ogImage:
   url: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
 credentials: ['飯店從業經驗', '親測四大平台訂房']
-recommendations: []
+recommendations: [
+    {
+        title: 'Agoda 優惠專區',
+        link: 'https://tinyurl.com/yxfuy2es'
+    },
+        {
+        title: 'Trip.com 今日特優專區',
+        link: 'https://tinyurl.com/y4q7neyf'
+    }
+]
 references:
   [
     {
       title: 'Agoda',
-      link: 'https://www.agoda.com/',
+      link: 'https://tinyurl.com/y3o7l83o',
     },
     {
       title: 'Booking.com',
-      link: 'https://www.booking.com/',
+      link: 'https://tinyurl.com/y3d9m8fk',
     },
     {
       title: 'Ctrip',
-      link: 'https://www.ctrip.com/',
+      link: 'https://tinyurl.com/y2mzx952',
     },
     {
       title: 'Expedia',
@@ -41,9 +50,9 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？
 我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台
 
-## Agoda
+## [Agoda](https://tinyurl.com/y3o7l83o)
 
-![agoda-logo](https://i.imgur.com/8P9czO5.png)
+[![agoda-logo](https://i.imgur.com/AC0aCWV.png)](https://tinyurl.com/y3o7l83o)
 
 美國著名旅遊品牌 Priceline 旗下專業酒店預訂網站(2007年收購)，號稱亞洲最強訂房平台，業務範圍：中國、日本、韓國、澳大利亞等。
 
@@ -59,11 +68,11 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 (目前網站也提供現場支付，訂單會自動串聯至同集團的booking.com處理)
 2. 客服雖開通亞洲線，但非常難接通
 
-## Booking com
+## [Booking com](https://tinyurl.com/y3d9m8fk)
 
-![booking.com-logo](https://i.imgur.com/t8Iwwha.jpg)
+[![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
 
-分別於2004年和2007年年間併購ActiveHotels.com與agoda，超強跨國併購，使得booking.com成為全球最大的酒店預訂網站。
+靠著超強跨國併購，分別於2004年和2007年年間併購ActiveHotels.com與[agoda](https://tinyurl.com/y3o7l83o)，這使booking.com成為全球最大的酒店預訂網站。
 
 優點：
 
@@ -76,11 +85,11 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 1. 現場付款須提供信用卡訂房擔保，防盜刷機制較不完善
 
-## Ctrip
+## [Ctrip](https://tinyurl.com/y2mzx952)
 
-![ctrip-logo](https://i.imgur.com/9RfB0Z4.png)
+[![go-to-ctrip](https://i.imgur.com/pIuYjuf.png)](https://tinyurl.com/y2mzx952)
 
-### 來自內地的訂房網站品牌，特色為包羅萬象的旅遊代辦，旗下品牌包含飯店(Trip.com)，機票等交通車票(Skyscanner)都可包辦，為所有訂房網站中功能性最高的
+來自內地的訂房網站品牌，即為我們熟知的[Trip.com](https://tinyurl.com/y2mzx952)，特色為包羅萬象的旅遊代辦、機票等交通車票(Skyscanner)都可包辦，為所有訂房網站中功能性最高的。
 
 優點：
 
@@ -92,11 +101,11 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 1. 房價顯示會使用人民幣顯示，操作上較不變
 2. 在台灣、香港、內地等價位相對便宜，但如預訂其他國家價位會比較貴
 
-## Expedia
+## [Expedia](https://www.expedia.com/)
 
-![expedia-logo](https://i.imgur.com/AEefYJC.png)
+[![go-to-expedia](https://i.imgur.com/ZYxOSpB.png)](https://www.expedia.com/)
 
-找飯店？Trivago! 這句家喻戶曉的廣告詞正式Expedia的廣告，旗下品牌包括Hotels .com、Orbitz .com、Trivago等。
+找飯店？Trivago! 這句家喻戶曉的廣告詞正是Expedia的廣告，旗下品牌包括[Hotels.com](https://tinyurl.com/yyg69zbt)、[Orbitz.com](https://www.orbitz.com/)、[Trivago](https://www.trivago.com.tw/)等。
 
 優點：
 
@@ -133,6 +142,7 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 
 ![compare-4-OTAs](https://i.imgur.com/kzYL9RR.png)
 
+
 ## 常見的訂房平台陷阱
 
 ### 房價是否已含服務費及稅金
@@ -158,4 +168,5 @@ about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘
 在訂房網站的優惠上，廉價房費的取消政策往往是無法取消的，如取消就會收取全額房費，就像是廉價航空推出的便宜機票，無法做取消一樣，這是消費者與訂房網最常見的一項消費糾紛，故在預訂飯店時也必須將取消政策納入篩選範圍內。
 
 ---
+
 在近期的報復型旅遊出現，對於訂房網的基本認識與操作已經成為出門旅遊一個重要的技能，訂房網站的削價競爭，推出五花八門的優惠房價，只要對其有所了解，且善用各個訂房網站的特性及優惠活動，訂房網站的確是一個非常好的工具幫助我們預訂到最符合自身需求的飯店。

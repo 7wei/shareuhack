@@ -187,7 +187,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                 </a> */}
               </Box>
             </Grid>
-            <Grid item sm={9}>
+            <Grid item sm={9} xs={12}>
               <PostBody content={post.content} />
 
               {!matches && (

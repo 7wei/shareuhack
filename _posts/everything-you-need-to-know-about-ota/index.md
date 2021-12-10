@@ -1,27 +1,38 @@
 ---
-title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip/Expedia)介紹與必注意的優惠陷阱'
+title: 'Most popular OTAs(Agoda/Booking.com/Ctrip,Expedia) and everything you need to know'
 category: 'life'
 subCategory: 'travel'
-excerpt: '自由行的盛行，因映需求訂房網站越來越多，由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台'
+excerpt: 'The prevalence of free travel, because of the demand for more and more booking websites,
+Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites?
+We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.'
 coverImage: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
 date: '2021-12-11'
 ogImage:
   url: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
-credentials: ['飯店從業經驗', '親測四大平台訂房']
-recommendations: []
+credentials: ['Hotel industry experience', 'Booking experience at platforms']
+recommendations: [
+    {
+        title: 'Agoda Special Offers',
+        link: 'https://tinyurl.com/yxfuy2es'
+    },
+        {
+        title: 'Trip.com Special Offers',
+        link: 'https://tinyurl.com/y4q7neyf'
+    }
+]
 references:
   [
     {
       title: 'Agoda',
-      link: 'https://www.agoda.com/',
+      link: 'https://tinyurl.com/y3o7l83o',
     },
     {
       title: 'Booking.com',
-      link: 'https://www.booking.com/',
+      link: 'https://tinyurl.com/y64eevxl',
     },
     {
       title: 'Ctrip',
-      link: 'https://www.ctrip.com/',
+      link: 'https://tinyurl.com/y3ngues8',
     },
     {
       title: 'Expedia',
@@ -31,131 +42,133 @@ references:
 related:
   []
 keywords: 'OTA, agoda, booking.com, ctrip, expedia'
-description: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
-about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
+description: 'This article introduces the four major OTA platforms, teaches you the secrets of choosing the ideal booking platform, and platform booking traps you need to pay attention to.'
+about: 'This article introduces the four major OTA platforms, teaches you the secrets of choosing the ideal booking platform, and platform booking traps you need to pay attention to.'
 ---
 
-<!-- zh-TW -->
+<!-- en-US -->
 
-自由行的盛行，因映需求訂房網站越來越多，
-由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？
-我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台
+The prevalence of free travel, because of the demand for more and more booking websites,
+Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites?
+We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.
 
-## Agoda
+## [Agoda](https://tinyurl.com/y3o7l83o)
 
-![agoda-logo](https://i.imgur.com/8P9czO5.png)
+[![agoda-logo](https://i.imgur.com/AC0aCWV.png)](https://tinyurl.com/y3o7l83o)
 
-美國著名旅遊品牌 Priceline 旗下專業酒店預訂網站(2007年收購)，號稱亞洲最強訂房平台，業務範圍：中國、日本、韓國、澳大利亞等。
+A professional hotel booking website under Priceline, a famous American travel brand (acquired in 2007), is known as the strongest booking platform in Asia, with business scope: China, Japan, South Korea, Australia, etc.
 
-優點：
+advantage:
 
-1. 常與各類信用卡配合，推出的回饋通常較比其他訂房網站多
-2. 房費直付Agoda,避免許多盜刷問題
-3. 禮金券制度，下次預訂可使用抵扣房費
+1. Often cooperate with all kinds of credit cards, and usually provide more feedback than other booking websites
+2. The room rate is paid directly to Agoda to avoid many fraud problems
+3. Gift voucher system, which can be used to deduct room charges for the next booking
 
-缺點：
+shortcoming:
 
-1. 入住前需支付全額房費，對希望到店付費的人來說不方便
-(目前網站也提供現場支付，訂單會自動串聯至同集團的booking.com處理)
-2. 客服雖開通亞洲線，但非常難接通
+1. The full room rate must be paid before check-in, which is inconvenient for those who wish to pay at the store
+(Currently the website also provides on-site payment, and the order will be automatically connected to booking.com of the same group for processing)
+2. Although the customer service has opened the Asian line, it is very difficult to get through
 
-## Booking com
+## [Booking com](https://tinyurl.com/y3d9m8fk)
 
-![booking.com-logo](https://i.imgur.com/t8Iwwha.jpg)
+[![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
 
-分別於2004年和2007年年間併購ActiveHotels.com與agoda，超強跨國併購，使得booking.com成為全球最大的酒店預訂網站。
+Relying on super-strong cross-border mergers and acquisitions, ActiveHotels.com and [agoda](https://tinyurl.com/y3o7l83o) were acquired in 2004 and 2007 respectively, which made booking.com the world's largest hotel reservation website.
 
-優點：
+advantage:
 
-1. 由飯店收款，到店付款，可於飯店更改現金付款
-2. 飯店選擇為所有訂房平台最多樣，網羅飯店、民宿等都有
-3. 操作頁面較簡單，完成訂單之手續較簡便
-4. Genius Program 會員房價約9折優惠
+1. The payment is collected by the hotel, paid at the hotel, and the cash payment can be changed at the hotel
+2. Hotel selection is the most diverse of all booking platforms, including hotels, homestays, etc.
+3. The operation page is relatively simple, and the procedures for completing the order are relatively simple
+4. Approximately 10% discount on room rates for Genius Program members
 
-缺點：
+shortcoming:
 
-1. 現場付款須提供信用卡訂房擔保，防盜刷機制較不完善
+1. On-site payment must provide a credit card reservation guarantee, and the anti-theft brush mechanism is relatively incomplete
 
-## Ctrip
+## [Ctrip](https://tinyurl.com/y2mzx952)
 
-![ctrip-logo](https://i.imgur.com/9RfB0Z4.png)
+[![go-to-ctrip](https://i.imgur.com/pIuYjuf.png)](https://tinyurl.com/y2mzx952)
 
-### 來自內地的訂房網站品牌，特色為包羅萬象的旅遊代辦，旗下品牌包含飯店(Trip.com)，機票等交通車票(Skyscanner)都可包辦，為所有訂房網站中功能性最高的
+The booking website brand from the mainland is known as [Trip.com](https://tinyurl.com/y2mzx952). It features all-inclusive travel agencies, air tickets and other transportation tickets (Skyscanner), which can be arranged for all reservations. The most functional of the website.
 
-優點：
+advantage:
 
-1. 線上客服之回覆速度較其他訂房網站之速度快
-2. 訂房網與比價網同步串連，可使用Ctrip訂到當下時間點最便宜的房間
+1. The response speed of online customer service is faster than that of other booking websites
+2. The room reservation network and the price comparison network are connected simultaneously, and you can use Ctrip to book the cheapest room at the current time
 
-缺點：
+shortcoming:
 
-1. 房價顯示會使用人民幣顯示，操作上較不變
-2. 在台灣、香港、內地等價位相對便宜，但如預訂其他國家價位會比較貴
+1. The price display will be displayed in RMB, which is relatively unchanged in operation
+2. The price is relatively cheap in Taiwan, Hong Kong, and the mainland, but the price in other countries will be more expensive
 
-## Expedia
+## [Expedia](https://www.expedia.com/)
 
-![expedia-logo](https://i.imgur.com/AEefYJC.png)
+[![go-to-expedia](https://i.imgur.com/ZYxOSpB.png)](https://www.expedia.com/)
 
-找飯店？Trivago! 這句家喻戶曉的廣告詞正式Expedia的廣告，旗下品牌包括Hotels .com、Orbitz .com、Trivago等。
+Looking for a restaurant? Trivago! This well-known ad word is Expedia’s ad. Its brands include [Hotels.com](https://tinyurl.com/yyg69zbt), [Orbitz.com](https://www.orbitz.com/ ), [Trivago](https://www.trivago.com.tw/), etc.
 
-優點：
+advantage:
 
-* 會員制度：會員有獎勵點數，可換取免費旅行，而且無限制日期，部分飯店支援expedia會員有折扣或服務。
-* 「機票+酒店」套票價格優惠。
+* Membership system: Members have reward points, which can be exchanged for free travel and unlimited dates. Some hotels support expedia members with discounts or services.
+* "Flight + Hotel" package price discount.
 
-缺點：
+shortcoming:
 
-* 雖有會員制度換取免費旅行，但單次之預訂價位皆較高
+* Although there is a membership system in exchange for free travel, the price of a single booking is higher
 
-## 如何選擇理想的訂房網站
+## How to choose the ideal booking website
 
-首先必須先了解自身對飯店的需求，針對各種需求所選擇的訂房平台不同
+First of all, you must first understand your own needs for the hotel, and choose different booking platforms for various needs.
 
-### 1. 規劃行程
+### 1. Plan your trip
 
-我們第一步必須先了解此趟行程的目的，比如是長期的出差旅行或者單次的家族旅遊，這對於在選擇訂房網站之選擇是最重要的，包含**行程之目的地、交通、三餐**等。
+We must first understand the purpose of this itinerary, such as a long-term business trip or a single family trip. This is the most important choice when choosing a booking website, including the destination of the itinerary, transportation, and three Meals** etc.
 
-* 偶爾出去玩並且追求低價－Ctrip , Agoda
-* 經常性或出差旅行的會員制度-Booking. com , Expedia
-* 包含機票與酒店等套裝行程一起預訂-Ctrip , Expedia
+* Occasionally go out to play and pursue low prices-Ctrip, Agoda
+* Membership system for frequent or business trips-Booking. com, Expedia
+* Include air tickets and hotel packages together booking-Ctrip, Expedia
 
-### 2.飯店種類
+### 2. Types of restaurants
 
-規劃好行程，相信對於飯店的選擇已經有大概偏好，例如本次的行程為親子行程或出差行程，即可篩選出度假村/親子飯店或商務飯店類別。
+After planning the itinerary, I believe that you already have a general preference for the choice of hotels. For example, if the itinerary is a parent-child trip or a business trip, you can filter out the resort/family hotel or business hotel category.
 
-* 飯店種類較多樣選擇(渡假村、飯店、民宿、背包客棧)- Booking. com
+* There are more types of hotels to choose from (resorts, restaurants, homestays, backpackers)-Booking. com
 
-### 3.預算
+### 3. Budget
 
-除了必須先規劃好行程，預算的掌控會讓在面對各種選擇這上清晰許多，如規劃一趟去東京的旅行，如掌握住宿預算控制在3000-4000元區間，在面對百百種的優惠房價之下，即能縮小篩選範圍進一步選到適合自己的飯店。
+In addition to planning the itinerary first, the control of the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo, such as controlling the accommodation budget within the range of 3000-4000 yuan, and facing hundreds of different Under the preferential room rate, you can narrow the scope of selection to further select the hotel that suits you.
 
-### 針對優惠房價選擇訂房平台
+### Choose a booking platform for preferential rates
 
 ![compare-4-OTAs](https://i.imgur.com/kzYL9RR.png)
 
-## 常見的訂房平台陷阱
 
-### 房價是否已含服務費及稅金
+## Common booking platform traps
 
-訂房網站的削價競爭，常會存在消費者因為未看清楚價格，預訂完成後才發現原本的優惠價未包含稅金及服務費。
-一般來說服務費會收取房費之10%，稅金為房費＋服務費之5%，種種費用加總實際加總費用高達房費之15.5%，所以在預訂時一定要看清楚價格。
+### Does the room rate include service charge and tax?
 
-### 入住人數的文字陷阱
+In the competition of price cuts on reservation websites, consumers often find that the original discounted price does not include taxes and service fees because they do not see the price clearly.
+Generally speaking, the service fee will be charged at 10% of the room fee, and the tax is the room fee + 5% of the service fee. The actual total cost of all kinds of fees is up to 15.5% of the room fee, so be sure to read the price when making a reservation.
 
-除了服務費及稅金外，價位低廉的房價也可能顯示為人數入住的文字陷阱，
-如：可能兩位入住與一位入住的金額不同，但為了廣告效益，或許先會以最低價的一位入住房費顯示，而消費者在入住時才被飯店多收取人頭費用，加價的費用往往會比預訂時就選擇入住兩位時的房價要高
+### The text trap of the number of occupants
 
-### 浮動房價
+In addition to service fees and taxes, low-priced house prices may also be displayed as a text trap for the number of people staying.
+For example, the amount of two stays may be different from that of one stay, but for the benefit of advertising, the lowest price may be displayed first, and the consumer will be charged by the hotel at the time of check-in. The cost is often higher than the room rate when you choose to stay for two at the time of booking
 
-在訂房網站上的房價，和購買機票的概念相同，並非以固定價格顯示，在連假期間或者入住率較高的日期，房價會往上飆漲，故網站上會顯示$1,999元起，故在結帳付款時，務必要確認價格
+### Floating house prices
 
-### 飯店的交通位置
+The room rate on the booking website is the same as the concept of buying air tickets. It is not displayed at a fixed price. During holidays or on dates with a high occupancy rate, the room rate will rise soaring. Therefore, the website will display starting from $1,999. When paying at checkout, be sure to confirm the price
 
-選定飯店時交通位置也是非常重要的一環，有些飯店雖然價格低廉，但卻沒有停車位置或，消費者需要另外找付費停車場停車，試想在熱區中找停車場入住一晚之停車費也是非常可觀的金額，或者因交通不便，而需要額外開支的交通費用，不止是一筆開銷且舟車勞頓，也毀了整趟行程的好心情。
+### Hotel transportation location
 
-### 取消政策
+When choosing a hotel, the transportation location is also very important. Although some hotels have low prices, they do not have parking spaces. Consumers need to find a paid parking lot for parking. Just imagine that the parking fee for a one-night stay in a hot zone is also very considerable. The amount, or the additional transportation expenses due to the inconvenience of transportation, is not only a cost and a lot of trouble, but also ruined the good mood of the whole trip.
 
-在訂房網站的優惠上，廉價房費的取消政策往往是無法取消的，如取消就會收取全額房費，就像是廉價航空推出的便宜機票，無法做取消一樣，這是消費者與訂房網最常見的一項消費糾紛，故在預訂飯店時也必須將取消政策納入篩選範圍內。
+### Cancellation Policy
+
+In terms of discounts on booking websites, the cancellation policy of cheap room rates is often impossible to cancel. If cancelled, the full room rate will be charged, just like cheap air tickets launched by low-cost airlines, which cannot be cancelled. This is the consumer and booking network. One of the most common consumer disputes, so the cancellation policy must also be included in the screening range when booking a hotel.
 
 ---
-在近期的報復型旅遊出現，對於訂房網的基本認識與操作已經成為出門旅遊一個重要的技能，訂房網站的削價競爭，推出五花八門的優惠房價，只要對其有所了解，且善用各個訂房網站的特性及優惠活動，訂房網站的確是一個非常好的工具幫助我們預訂到最符合自身需求的飯店。
+
+With the recent emergence of retaliatory tourism, the basic knowledge and operation of booking websites has become an important skill for traveling. The price reduction competition of booking websites has launched a wide range of preferential prices. As long as you understand them, and make good use of the various booking websites With the characteristics and preferential activities, the booking website is indeed a very good tool to help us book the hotel that best meets our needs.
