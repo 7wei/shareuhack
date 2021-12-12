@@ -3,7 +3,7 @@ const siteUrl = 'https://www.shareuhack.com'
 module.exports = {
   siteUrl,
   changefreq: 'daily',
-  priority: 0.7,
+  // priority: 0.7,
   sitemapSize: 5000,
   generateRobotsTxt: true,
   exclude: ['/server-sitemap.xml'],
