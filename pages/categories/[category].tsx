@@ -9,16 +9,14 @@ import Link from '../../src/components/Link/Link'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
-import Disclosure from '../../src/components/Disclosure/Disclosure'
+// import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-// import { canonicalLocale } from '../../src/utils/index'
 
 export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
-  // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/categories/${category.key}`
 
   return (
     <>

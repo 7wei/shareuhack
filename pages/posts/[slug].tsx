@@ -21,7 +21,6 @@ import { formattedDate } from '../../src/utils'
 // import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
-// import { canonicalLocale } from '../../src/utils/index'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 
@@ -135,8 +134,8 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           </BreakWordBox>
           <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
           <Grid container>
-            <Grid item sm={3} xs={12}>
-              <Box mr={matches ? '0px' : '45px'} pt={matches ? '0px' : '15px'}>
+            <Grid item md={3} xs={12} sm={12}>
+              <Box mr={matches ? '15px' : '45px'} pt={matches ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard>
                     <TYPE.bold mb="5px">{t('beforewriting')}</TYPE.bold>
