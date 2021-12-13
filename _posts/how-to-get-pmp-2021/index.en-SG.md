@@ -59,15 +59,15 @@ about: 'Project Management Professional'
 
 <!-- en-SG -->
 
-Those who are interested in taking the PMP certification should have found that the exam has been updated in 2021, so if you are trying to search for the related information, probably the information is outdated. Don't worry! This article will show you the revision of PMP and guide you to crack the new PMP exam!
+The PMP certification exam was last updated in 2021. Therefore, if you're trying to find information related to it, it's probably outdated. No worries. The article will guide you through the revision of PMP and help you prepare for the PMP exam!
 
 ## What is PMP?
 
-I assume you already knew and are interested in this certification so I don't need to deep into the details about what is PMP. If it's the first time you heard this exam, please refer to the official PMI [Introduction](https://www.pmi.org/certifications/project-management-pmp).
+It assumes you already know and is interested in this certification, so I won't go into too much detail about it. Those who are unfamiliar with this exam may want to consult the official PMI [Introduction](https://www.pmi.org/certifications/project-management-pmp).
 
 ## How to apply for the PMP exam?
 
-The rules changes. Please check the [PMI official website](https://www.pmi.org/) by yourself to ensure the information is up-to-date. You can refer to the official PMI [How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply), in brief, you need to:
+Rules change. For the latest information, Please check the [PMI official website](https://www.pmi.org/). PMI has a [how-to guide]((https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)) on how to apply for the PMP. In short, you need to:
 
 1. Confirm whether you are eligible for the exam
 2. Go to PMI to register an account and
@@ -91,7 +91,8 @@ Second Group:
 
 ### Step 2 Register an account at pmi.org and start the application process
 
-It may be annoying to fill in the form, but I still suggest that everyone who wants to take the exam can independently follow the instructions on the website to apply. After all, as a professional project manager, this should be a very basic skill, right?
+Although filling out the form may be bothersome, I still recommend all applicants follow the instructions on the website to apply independently. As a professional project manager, shouldn't this be a basic skill?
+
 
 Please note that you will need to fill in the project experience when registering for the exam. You can refer to PMI's [Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0), as the reference for data preparation.
 
