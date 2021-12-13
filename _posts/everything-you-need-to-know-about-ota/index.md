@@ -93,12 +93,12 @@ Relying on super-strong cross-border mergers and acquisitions, ActiveHotels.com 
 
 The booking website brand from the mainland is known as [Trip.com](https://tinyurl.com/y2mzx952). It features all-inclusive travel agencies, air tickets and other transportation tickets (Skyscanner), which can be arranged for all reservations. The most functional of the website.
 
-advantage:
+### Pros
 
 1. The response speed of online customer service is faster than that of other booking websites
 2. The room reservation network and the price comparison network are connected simultaneously, and you can use Ctrip to book the cheapest room at the current time
 
-shortcoming:
+### Cons
 
 1. The price display will be displayed in RMB, which is relatively unchanged in operation
 2. The price is relatively cheap in Taiwan, Hong Kong, and the mainland, but the price in other countries will be more expensive
