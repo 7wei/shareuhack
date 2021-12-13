@@ -32,6 +32,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         {locales.map((locale) => (
           <link
+            key={locale}
             rel="alternate"
             hrefLang={locale}
             href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`}

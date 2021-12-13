@@ -1,4 +1,4 @@
-import { Box, makeStyles } from '@material-ui/core'
+import { Box, makeStyles, styled } from '@material-ui/core'
 import CoverImage from '../Image/CoverImage'
 import { TYPE } from 'theme/index'
 import { formattedDate } from '../../utils/index'
@@ -13,6 +13,10 @@ const useStyles = makeStyles({
     },
   },
   title: {},
+})
+
+const BreakWordBox = styled(Box)({
+  wordWrap: 'break-word',
 })
 
 export default function PostPreview({
@@ -37,9 +41,12 @@ export default function PostPreview({
     <Box className={classes.root} width="100%">
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale}>
-        <TYPE.bold mt="5px" className={classes.title}>
-          {title}
-        </TYPE.bold>
+        <BreakWordBox>
+          <TYPE.bold mt="5px" className={classes.title}>
+            {title}
+          </TYPE.bold>
+        </BreakWordBox>
+
         <TYPE.primary>{formattedDate(date)}</TYPE.primary>
         {!simple && <TYPE.body>{excerpt}</TYPE.body>}
       </Link>
