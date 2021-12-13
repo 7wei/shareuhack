@@ -2,7 +2,7 @@
 title: '2021 How to become a competitive front-end engineer in 3 months'
 category: 'work'
 subCategory: 'frontendDev'
-excerpt: 'This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and be familiar with a front-end framework, and have a certain competitiveness in the job market.'
+excerpt: 'In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, have familiarity with a front-end framework, and be popular in the job market.'
 coverImage: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
 date: '2021-07-24'
 ogImage:
@@ -37,7 +37,7 @@ references:
 # related: []
 ---
 
-This article shares how an inexperienced rookie can become a front-end engineer, the front-end engineer defined here. It is a front-end engineer who must have a certain code quality, and is familiar with a front-end framework, and have a certain competitiveness in the job market.
+In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, have familiarity with a front-end framework, and be popular in the job market.
 
 ## In-demand skills
 
