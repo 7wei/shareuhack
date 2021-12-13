@@ -10,10 +10,10 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
           <meta property="og:site_name" content="Shareuhack: Hacks for the real life" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin /> */}
           <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=optional"
             rel="stylesheet"
           />
 
@@ -63,7 +63,7 @@ export default class MyDocument extends Document {
           /> */}
 
           {/* Google Tag Manager */}
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -71,11 +71,11 @@ export default class MyDocument extends Document {
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-T32Z3BT');`,
             }}
-          />
+          /> */}
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
-          <noscript
+          {/* <noscript
             dangerouslySetInnerHTML={{
               __html: `          <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-T32Z3BT"
@@ -84,7 +84,7 @@ export default class MyDocument extends Document {
               style="display:none;visibility:hidden"
             ></iframe>`,
             }}
-          ></noscript>
+          ></noscript> */}
           {/* End Google Tag Manager (noscript) */}
           <Main />
           <NextScript />
