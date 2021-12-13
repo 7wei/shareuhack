@@ -50,9 +50,7 @@ about: 'This article introduces the four major OTA platforms, teaches you the se
 
 <!-- en-US -->
 
-The prevalence of free travel, because of the demand for more and more booking websites,
-Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites?
-We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.
+The prevalence of free travel, because of the demand for more and more booking websites, Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites? We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.
 
 ## [Agoda](https://tinyurl.com/y3o7l83o)
 
@@ -60,32 +58,32 @@ We will introduce each of the four most popular online travel agencies (OTAs) an
 
 A professional hotel booking website under Priceline, a famous American travel brand (acquired in 2007), is known as the strongest booking platform in Asia, with business scope: China, Japan, South Korea, Australia, etc.
 
-advantage:
+### Pros
 
 1. Often cooperate with all kinds of credit cards, and usually provide more feedback than other booking websites
 2. The room rate is paid directly to Agoda to avoid many fraud problems
 3. Gift voucher system, which can be used to deduct room charges for the next booking
 
-shortcoming:
+### Cons
 
 1. The full room rate must be paid before check-in, which is inconvenient for those who wish to pay at the store
-(Currently the website also provides on-site payment, and the order will be automatically connected to booking.com of the same group for processing)
+(Currently, the website also provides on-site payment, and the order will be automatically connected to booking.com of the same group for processing)
 2. Although the customer service has opened the Asian line, it is very difficult to get through
 
 ## [Booking.com](https://tinyurl.com/y3d9m8fk)
 
 [![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
 
-Relying on super-strong cross-border mergers and acquisitions, ActiveHotels.com and [agoda](https://tinyurl.com/y3o7l83o) were acquired in 2004 and 2007 respectively, which made booking.com the world's largest hotel reservation website.
+Relying on super-strong cross-border mergers and acquisitions, ActiveHotels.com and [agoda](https://tinyurl.com/y3o7l83o) was acquired in 2004 and 2007 respectively, which made booking.com the world's largest hotel reservation website.
 
-advantage:
+### Pros
 
 1. The payment is collected by the hotel, paid at the hotel, and the cash payment can be changed at the hotel
 2. Hotel selection is the most diverse of all booking platforms, including hotels, homestays, etc.
 3. The operation page is relatively simple, and the procedures for completing the order are relatively simple
 4. Approximately 10% discount on room rates for Genius Program members
 
-shortcoming:
+### Cons
 
 1. On-site payment must provide a credit card reservation guarantee, and the anti-theft brush mechanism is relatively incomplete
 
@@ -111,22 +109,22 @@ shortcoming:
 
 Looking for a restaurant? Trivago! This well-known ad word is Expedia’s ad. Its brands include [Hotels.com](https://tinyurl.com/yyg69zbt), [Orbitz.com](https://www.orbitz.com/ ), [Trivago](https://www.trivago.com.tw/), etc.
 
-advantage:
+### Pros
 
-* Membership system: Members have reward points, which can be exchanged for free travel and unlimited dates. Some hotels support expedia members with discounts or services.
+* Membership system: Members have reward points, which can be exchanged for free travel and unlimited dates. Some hotels support Expedia members with discounts or services.
 * "Flight + Hotel" package price discount.
 
-shortcoming:
+### Cons
 
 * Although there is a membership system in exchange for free travel, the price of a single booking is higher
 
 ## How to choose the ideal booking website
 
-First of all, you must first understand your own needs for the hotel, and choose different booking platforms for various needs.
+First of all, you must first understand your own needs for the hotel and choose different booking platforms for various needs.
 
 ### 1. Plan your trip
 
-We must first understand the purpose of this itinerary, such as a long-term business trip or a single family trip. This is the most important choice when choosing a booking website, including the destination of the itinerary, transportation, and three Meals** etc.
+We must first understand the purpose of this itinerary, such as a long-term business trip or a single-family trip. This is the most important choice when choosing a booking website, including the destination of the itinerary, transportation, and three Meals** etc.
 
 * Occasionally go out to play and pursue low prices-Ctrip, Agoda
 * Membership system for frequent or business trips-Booking. com, Expedia
@@ -140,7 +138,7 @@ After planning the itinerary, I believe that you already have a general preferen
 
 ### 3. Budget
 
-In addition to planning the itinerary first, the control of the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo, such as controlling the accommodation budget within the range of 3000-4000 yuan, and facing hundreds of different Under the preferential room rate, you can narrow the scope of selection to further select the hotel that suits you.
+In addition to planning the itinerary first, the control of the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo, such as controlling the accommodation budget within the specific range and facing hundreds of different Under the preferential room rate, you can narrow the scope of selection to further select the hotel that suits you.
 
 ## Common booking platform traps
 
@@ -156,7 +154,7 @@ For example, the amount of two stays may be different from that of one stay, but
 
 ### Floating house prices
 
-The room rate on the booking website is the same as the concept of buying air tickets. It is not displayed at a fixed price. During holidays or on dates with a high occupancy rate, the room rate will rise soaring. Therefore, the website will display starting from $1,999. When paying at checkout, be sure to confirm the price
+The room rate on the booking website is the same as the concept of buying air tickets. It is not displayed at a fixed price. During holidays or on dates with a high occupancy rate, the room rate will rise soaring. Therefore, the website will display "starting from ...". When paying at the checkout, be sure to confirm the price
 
 ### Hotel transportation location
 
@@ -168,4 +166,4 @@ In terms of discounts on booking websites, the cancellation policy of cheap room
 
 ---
 
-With the recent emergence of retaliatory tourism, the basic knowledge and operation of booking websites has become an important skill for traveling. The price reduction competition of booking websites has launched a wide range of preferential prices. As long as you understand them, and make good use of the various booking websites With the characteristics and preferential activities, the booking website is indeed a very good tool to help us book the hotel that best meets our needs.
+With the recent emergence of retaliatory tourism, the basic knowledge and operation of booking websites have become an important skill for travelling. The price reduction competition of booking websites has launched a wide range of preferential prices. As long as you understand them, and make good use of the various booking websites With the characteristics and preferential activities, the booking website is indeed a very good tool to help us book the hotel that best meets our needs.
