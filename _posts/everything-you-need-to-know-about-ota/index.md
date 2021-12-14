@@ -2,9 +2,7 @@
 title: 'Most popular OTAs(Agoda/Booking.com/Ctrip/Expedia) and everything you need to know'
 category: 'life'
 subCategory: 'travel'
-excerpt: 'The prevalence of free travel, because of the demand for more and more booking websites,
-Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites?
-We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.'
+excerpt: 'Due to the prevalence of independent travel, the demands of booking websites, services, and discounts are on the rise. How to use the websites, how do I find the hotel that best fits my needs? Following is an introduction to the four most popular online travel agencies (OTAs). We will compare their advantages and disadvantages to find the most suitable site to book a hotel with.'
 coverImage: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
 date: '2021-12-11'
 ogImage:
@@ -44,13 +42,13 @@ references:
 related:
   []
 keywords: 'OTA, agoda, booking.com, ctrip, expedia'
-description: 'This article introduces the four major OTA platforms, teaches you the secrets of choosing the ideal booking platform, and platform booking traps you need to pay attention to.'
-about: 'This article introduces the four major OTA platforms, teaches you the secrets of choosing the ideal booking platform, and platform booking traps you need to pay attention to.'
+description: 'This article provides an overview of the four major OTA platforms, teaches you how to choose the ideal booking platform, and highlights platform booking pitfalls to avoid.'
+about: 'This article provides an overview of the four major OTA platforms, teaches you how to choose the ideal booking platform, and highlights platform booking pitfalls to avoid.'
 ---
 
 <!-- en-US -->
 
-The prevalence of free travel, because of the demand for more and more booking websites, Since everyone has different booking needs, the services and discounts provided by each website are also different for individuals. How do you find the hotel that best meets your needs among the various booking websites? We will introduce each of the four most popular online travel agencies (OTAs) and compare their advantages and disadvantages from the following to find the most suitable booking platform.
+Due to the prevalence of independent travel, the demands of booking websites, services, and discounts are on the rise. How to use the websites, how do I find the hotel that best fits my needs? Following is an introduction to the four most popular online travel agencies (OTAs). We will compare their advantages and disadvantages to find the most suitable site to book a hotel with.
 
 ## [Agoda](https://tinyurl.com/y3o7l83o)
 
@@ -93,12 +91,12 @@ Relying on super-strong cross-border mergers and acquisitions, ActiveHotels.com 
 
 The booking website brand from the mainland is known as [Trip.com](https://tinyurl.com/y2mzx952). It features all-inclusive travel agencies, air tickets and other transportation tickets (Skyscanner), which can be arranged for all reservations. The most functional of the website.
 
-### Pros
+advantage:
 
 1. The response speed of online customer service is faster than that of other booking websites
 2. The room reservation network and the price comparison network are connected simultaneously, and you can use Ctrip to book the cheapest room at the current time
 
-### Cons
+shortcoming:
 
 1. The price display will be displayed in RMB, which is relatively unchanged in operation
 2. The price is relatively cheap in Taiwan, Hong Kong, and the mainland, but the price in other countries will be more expensive
@@ -109,12 +107,12 @@ The booking website brand from the mainland is known as [Trip.com](https://tinyu
 
 Looking for a restaurant? Trivago! This well-known ad word is Expedia’s ad. Its brands include [Hotels.com](https://tinyurl.com/yyg69zbt), [Orbitz.com](https://www.orbitz.com/ ), [Trivago](https://www.trivago.com.tw/), etc.
 
-### Pros
+advantage:
 
 * Membership system: Members have reward points, which can be exchanged for free travel and unlimited dates. Some hotels support Expedia members with discounts or services.
 * "Flight + Hotel" package price discount.
 
-### Cons
+shortcoming:
 
 * Although there is a membership system in exchange for free travel, the price of a single booking is higher
 
@@ -124,11 +122,11 @@ First of all, you must first understand your own needs for the hotel and choose 
 
 ### 1. Plan your trip
 
-We must first understand the purpose of this itinerary, such as a long-term business trip or a single-family trip. This is the most important choice when choosing a booking website, including the destination of the itinerary, transportation, and three Meals** etc.
+To begin, we must define the purpose of the trip, such as a long-term business trip or a family vacation. Your choice of OTA platform largely depends on your purpose.
 
-* Occasionally go out to play and pursue low prices-Ctrip, Agoda
-* Membership system for frequent or business trips-Booking. com, Expedia
-* Include air tickets and hotel packages together booking-Ctrip, Expedia
+* Occasionally go out to play and look for low prices - Ctrip, Agoda
+* A membership system for frequent or business travellers - booking.com, Expedia
+* Book flight and hotel packages together - Ctrip, Expedia
 
 ### 2. Types of restaurants
 
@@ -138,32 +136,32 @@ After planning the itinerary, I believe that you already have a general preferen
 
 ### 3. Budget
 
-In addition to planning the itinerary first, the control of the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo, such as controlling the accommodation budget within the specific range and facing hundreds of different Under the preferential room rate, you can narrow the scope of selection to further select the hotel that suits you.
+As well as planning the itinerary first, controlling the budget will make it clearer in the face of various choices, such as planning a trip to Tokyo and controlling the accommodation budget within a specific range, as well as narrowing the choice of hotels under the preferential room rate.
 
 ## Common booking platform traps
 
 ### Does the room rate include service charge and tax?
 
-In the competition of price cuts on reservation websites, consumers often find that the original discounted price does not include taxes and service fees because they do not see the price clearly.
-Generally speaking, the service fee will be charged at 10% of the room fee, and the tax is the room fee + 5% of the service fee. The actual total cost of all kinds of fees is up to 15.5% of the room fee, so be sure to read the price when making a reservation.
+In the competition of price cuts on reservation websites, consumers often find that the original discounted price does not include taxes and service fees. This is because they do not see the price clearly.
+The service fee is generally 10% of the room fee, and the tax is 5% of the room fee. When you make a reservation, be sure to read the price that includes all fees since it could add up to 15.5% of the room charge.
 
 ### The text trap of the number of occupants
 
 In addition to service fees and taxes, low-priced house prices may also be displayed as a text trap for the number of people staying.
-For example, the amount of two stays may be different from that of one stay, but for the benefit of advertising, the lowest price may be displayed first, and the consumer will be charged by the hotel at the time of check-in. The cost is often higher than the room rate when you choose to stay for two at the time of booking
+For example, the amount of two stays may be different from that of one stay, but for the benefit of advertising, the lowest price may be displayed first, and the consumer will be charged by the hotel at the time of check-in. The cost is often higher than the room rate when you choose to stay for two at the time of booking.
 
 ### Floating house prices
 
-The room rate on the booking website is the same as the concept of buying air tickets. It is not displayed at a fixed price. During holidays or on dates with a high occupancy rate, the room rate will rise soaring. Therefore, the website will display "starting from ...". When paying at the checkout, be sure to confirm the price
+The room rate on the booking website is the same as the concept of buying air tickets. It is not displayed at a fixed price. During holidays and on dates with a high occupancy rate, the room rate will rise dramatically. Therefore, the website will display "starting fromXXX". When paying at the checkout, be sure to confirm the price.
 
 ### Hotel transportation location
 
-When choosing a hotel, the transportation location is also very important. Although some hotels have low prices, they do not have parking spaces. Consumers need to find a paid parking lot for parking. Just imagine that the parking fee for a one-night stay in a hot zone is also very considerable. The amount, or the additional transportation expenses due to the inconvenience of transportation, is not only a cost and a lot of trouble, but also ruined the good mood of the whole trip.
+The location of the hotel with respect to transportation is also very critical. Although some hotels have low prices, they do not have parking spaces. Consumers need to find a paid parking lot for parking. Just imagine that the parking fee for a one-night stay in a hot zone is also very considerable. Inconvenient transportation is not only an additional expense and a lot of hassle, but it also ruined the good mood of the trip.
 
 ### Cancellation Policy
 
-In terms of discounts on booking websites, the cancellation policy of cheap room rates is often impossible to cancel. If cancelled, the full room rate will be charged, just like cheap air tickets launched by low-cost airlines, which cannot be cancelled. This is the consumer and booking network. One of the most common consumer disputes, so the cancellation policy must also be included in the screening range when booking a hotel.
+In terms of discounts on booking websites, the cancellation policy of cheap room rates is often impossible to cancel. If cancelled, the full room rate will be charged, just like cheap air tickets launched by low-cost airlines, which cannot be refunded. This is the consumer and booking network. As one of the most common consumer disputes, the cancellation policy should also be taken into consideration when booking a hotel.
 
 ---
 
-With the recent emergence of retaliatory tourism, the basic knowledge and operation of booking websites have become an important skill for travelling. The price reduction competition of booking websites has launched a wide range of preferential prices. As long as you understand them, and make good use of the various booking websites With the characteristics and preferential activities, the booking website is indeed a very good tool to help us book the hotel that best meets our needs.
+With the recent emergence of revenge tourism, the basic knowledge and operation of booking websites have become an important skill for travelling. A price reduction competition between booking websites has resulted in a wide range of preferential prices. Booking websites are indeed a very good tool to help us find the hotel that meets our needs if you understand them and make good use of them. With their characteristics and preferred activities, it is in fact very effective in helping us find the right hotel for us.
