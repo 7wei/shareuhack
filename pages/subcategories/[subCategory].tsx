@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 export default function SubCategoryPage({ subCategory, posts }) {
-  const { matches } = useBreakpoint()
+  const matches = useBreakpoint()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
 

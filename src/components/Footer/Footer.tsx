@@ -1,15 +1,15 @@
 import { Box, Typography } from '@mui/material'
 import Container from '../Container/Container'
 import theme from 'theme/index'
-import FacebookIcon from '@material-ui/icons/Facebook'
-import EmailIcon from '@material-ui/icons/Email'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import EmailIcon from '@mui/icons-material/Email'
 import { useTranslation } from 'next-i18next'
 import Link from '../../components/Link/Link'
 import useBreakpoint from 'hooks/useBreakpoint'
 
 export default function Footer() {
   const { t } = useTranslation('common')
-  const { matches } = useBreakpoint()
+  const matches = useBreakpoint()
 
   return (
     <Box

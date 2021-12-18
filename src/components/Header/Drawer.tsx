@@ -3,7 +3,6 @@ import { Drawer, Box, useTheme, Typography } from '@mui/material'
 import { NavLinks } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import Link from 'components/Link/Link'
-import { Close } from '@material-ui/icons'
 
 interface Props {
   open: boolean

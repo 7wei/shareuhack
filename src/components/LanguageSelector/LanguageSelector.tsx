@@ -1,10 +1,9 @@
 import { useState, useCallback } from 'react'
-import { IconButton, Dialog, DialogTitle, List, ListItem, Box } from '@material-ui/core'
+import { IconButton, Dialog, DialogTitle, List, ListItem, Box } from '@mui/material'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import { Locales } from '../../../lib/constants'
-import LanguageIcon from '@material-ui/icons/Language'
-import useBreakpint from 'hooks/useBreakpoint'
+import { Language as LanguageIcon } from '@mui/icons-material'
 
 export default function LanguageSelector() {
   const { t } = useTranslation('common')

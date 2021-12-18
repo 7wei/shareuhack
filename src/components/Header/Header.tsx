@@ -5,14 +5,15 @@ import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
-import { Menu, Close } from '@material-ui/icons'
+import { Menu, Close } from '@mui/icons-material'
+
 import Drawer from './Drawer'
 import Link from 'components/Link/Link'
 
 export default function Header() {
   const { t } = useTranslation('common')
   const { locale } = useRouter()
-  const { matches } = useBreakpint()
+  const matches = useBreakpint()
   const [openDrawer, setOpenDrawer] = useState(false)
   const theme = useTheme()
 

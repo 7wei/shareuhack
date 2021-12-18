@@ -1,9 +1,9 @@
-import { useMediaQuery, useTheme } from '@material-ui/core'
-import { Breakpoint } from '@material-ui/core/styles/createBreakpoints'
+import { useMediaQuery, useTheme } from '@mui/material'
+import { Breakpoint } from '@mui/material/styles'
 
-export default function useBreakpoint(breakpoint: Breakpoint = 'md') {
+export default function useBreakpoint(breakpoint: Breakpoint = 'sm') {
   const theme = useTheme()
   const matches = useMediaQuery(theme.breakpoints.down(breakpoint))
 
-  return { matches }
+  return matches
 }

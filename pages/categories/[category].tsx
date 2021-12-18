@@ -13,7 +13,7 @@ import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 
 export default function CategoryPage({ category, subCategories }) {
-  const { matches } = useBreakpoint()
+  const matches = useBreakpoint()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
   const theme = useTheme()

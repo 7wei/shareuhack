@@ -87,7 +87,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <Typography variant="h3" mt="15px" mb="15px">
             {t('hottest')}
           </Typography>
-          <BreakWordBox display="grid" gridGap="8px" mb="15px">
+          <Box display="grid" gridGap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
                 <Typography fontWeight={500}>{post.title}</Typography>
@@ -96,7 +96,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                 </Typography>
               </Link>
             ))}
-          </BreakWordBox>
+          </Box>
           {!matches && (
             <InfoCard>
               <Typography fontWeight={500} mb={15}>

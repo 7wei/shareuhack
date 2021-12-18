@@ -1,23 +1,22 @@
+import Head from 'next/head'
+import { formattedDate } from '../../src/utils'
+import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
+import { getPostBySlug, getAllPostPaths, getCategoryPosts } from '../../lib/api'
 import { Grid, Box, styled, useTheme, Typography } from '@mui/material'
 import Link from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
-import FacebookIcon from '@material-ui/icons/Facebook'
-import EmailIcon from '@material-ui/icons/Email'
-import TwitterIcon from '@material-ui/icons/Twitter'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import EmailIcon from '@mui/icons-material/Email'
+import TwitterIcon from '@mui/icons-material/Twitter'
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
-import { getPostBySlug, getAllPosts, getAllPostPaths, getCategoryPosts } from '../../lib/api'
-import Head from 'next/head'
-import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
-import { formattedDate } from '../../src/utils'
-// import Disqus from '../../src/components/Disqus/Disqus'
 import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
@@ -46,7 +45,7 @@ const BreakWordBox = styled(Box)({
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, locales } = router
-  const { matches } = useBreakpoint()
+  const matches = useBreakpoint()
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
