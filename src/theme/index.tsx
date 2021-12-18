@@ -95,7 +95,7 @@ export const theme = {
     },
     text: {
       primary: '#FFFFFF',
-      secondary: '#333333',
+      secondary: 'rgba(255,255,255,0.6)',
       disabled: '#999999',
     },
     action: {
@@ -133,7 +133,9 @@ export const theme = {
   },
   shape: {
     border: '1px solid',
-    borderRadius: 10,
+    borderRadius: () => {
+      return '5px'
+    },
   },
   spacing: (factor: number) => `${1 * factor}px`,
   // gray: {

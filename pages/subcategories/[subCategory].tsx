@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 export default function SubCategoryPage({ subCategory, posts }) {
-  const matches = useBreakpoint()
+  const isDownMd = useBreakpoint('md')
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
 
@@ -43,16 +43,15 @@ export default function SubCategoryPage({ subCategory, posts }) {
       </Head>
       {/* <Disclosure /> */}
       <Grid container>
-        <Grid item sm={9}>
-          <Typography variant="h1">{t(`subCategories.${subCategory.key}.title`)}</Typography>
+        <Grid item sm={9} mb={isDownMd ? 15 : 0}>
+          <Typography fontSize={36} fontWeight={700} component="h2">
+            {t(`subCategories.${subCategory.key}.title`)}
+          </Typography>
           <Typography variant="body1">{t(`subCategories.${subCategory.key}.description`)}</Typography>
         </Grid>
         <Grid item sm={3}>
-          {!matches && (
-            <InfoCard>
-              <Typography fontWeight={500} mb="15px">
-                {t('whatWeDo')}
-              </Typography>
+          {!isDownMd && (
+            <InfoCard title={t('whatWeDo')}>
               <Typography fontWeight={500}>
                 {t('whatWeDoDescript')}
                 <br />
@@ -66,7 +65,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       </Grid>
       <Divider primary />
       <Box mt="15px" mb="15px">
-        <Grid spacing={3} container>
+        <Grid spacing={15} container>
           {posts.map((post, idx) => (
             <Grid key={idx} item sm={4}>
               <PostReview {...post} />

@@ -36,11 +36,11 @@ export default function CategorySection({
       </Box>
       <Grid container>
         <Grid item sm={6}>
-          <Typography variant="body1">{description}</Typography>
+          <Typography>{description}</Typography>
         </Grid>
       </Grid>
       <Box mt="10px">
-        <Grid spacing={3} container>
+        <Grid spacing={15} container>
           {posts &&
             posts.map((post) => (
               <Grid key={post.title} item sm={4}>

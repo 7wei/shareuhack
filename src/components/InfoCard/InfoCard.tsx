@@ -1,10 +1,17 @@
 import React from 'react'
-import { Card } from '@mui/material'
-import theme from 'theme/index'
+import { Box, Typography, useTheme } from '@mui/material'
 
-export default function InfoCard({ children }: { children: React.ReactNode }) {
+interface Props {
+  title?: string
+  children?: React.ReactNode
+}
+
+export default function InfoCard(props: Props) {
+  const { title, children } = props
+  const theme = useTheme()
+
   return (
-    <Card
+    <Box
       sx={{
         backgroundColor: theme.palette.primary.light,
         padding: 15,
@@ -15,7 +22,12 @@ export default function InfoCard({ children }: { children: React.ReactNode }) {
         },
       }}
     >
+      {title && (
+        <Typography fontWeight={500} mb={5}>
+          {title}
+        </Typography>
+      )}
       {children}
-    </Card>
+    </Box>
   )
 }

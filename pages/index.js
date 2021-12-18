@@ -39,12 +39,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       </Head>
       <CommonStructuredData />
       {/* <Disclosure /> */}
-      <Grid container spacing={3}>
+      <Grid container spacing={15}>
         <Grid item sm={3}>
-          <InfoCard>
-            <Typography variant="h3" mb="15px">
-              {t('whatWeDo')}
-            </Typography>
+          <InfoCard title={t('whatWeDo')}>
             <Typography variant="body1">
               {t('whatWeDoDescript')} <br />
               <Link href={Routes.about} locale={locale}>
@@ -53,10 +50,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             </Typography>
           </InfoCard>
           {matches && (
-            <InfoCard>
-              <Typography variant="h3" mb="15px">
-                {t('howWeDo')}
-              </Typography>
+            <InfoCard title={t('howWeDo')}>
               <Typography variant="body1">
                 {t('howWeDoDescript')}
                 <br />
@@ -67,12 +61,18 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             </InfoCard>
           )}
           <Divider />
-          <Typography variant="h3" mt="15px" mb="15px">
+          <Typography variant="h4" mt="15px" mb="15px">
             {t('latest')}
           </Typography>
-          <Box display="flex" gridGap="8px" flexDirection="column" sx={{ wordWrap: 'break-word' }}>
+          <Box display="flex" gap={8} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
+              <Link
+                key={post.slug}
+                href={`/posts/${post.slug}`}
+                locale={locale}
+                underline="none"
+                color={theme.palette.text.primary}
+              >
                 <Typography fontWeight={500}>{post.title}</Typography>
                 <Typography color={theme.palette.primary.main}>{formattedDate(post.date)}</Typography>
               </Link>
@@ -84,12 +84,18 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={3}>
           <Divider />
-          <Typography variant="h3" mt="15px" mb="15px">
+          <Typography variant="h4" mt="15px" mb="15px">
             {t('hottest')}
           </Typography>
-          <Box display="grid" gridGap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
+          <Box display="grid" gap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
+              <Link
+                key={post.slug}
+                href={`/posts/${post.slug}`}
+                locale={locale}
+                underline="none"
+                color={theme.palette.text.primary}
+              >
                 <Typography fontWeight={500}>{post.title}</Typography>
                 <Typography variant="body1" color={theme.palette.primary.main}>
                   {formattedDate(post.date)}
@@ -98,10 +104,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
           {!matches && (
-            <InfoCard>
-              <Typography fontWeight={500} mb={15}>
-                {t('howWeDo')}
-              </Typography>
+            <InfoCard title={t('howWeDo')}>
               <Typography variant="body1">
                 {t('howWeDoDescript')}
                 <br />

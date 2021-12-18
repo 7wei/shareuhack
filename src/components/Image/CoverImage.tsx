@@ -18,7 +18,7 @@ export default function CoverImage({
 }) {
   const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} />
   return (
-    <div className="sm:mx-0">
+    <div>
       {slug ? (
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a aria-label={title}>{image}</a>

@@ -5,14 +5,11 @@ import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
-// import { canonicalLocale } from '../src/utils/index'
 import { useRouter } from 'next/router'
 import { Typography } from '@mui/material'
 
 export default function About({ post }) {
   const { t } = useTranslation('common')
-  const { locale } = useRouter()
-  // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
 
   return (
     <>
@@ -22,9 +19,10 @@ export default function About({ post }) {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        {/* <link rel="canonical" href={canonicalUrl} /> */}
       </Head>
-      <Typography component="h2">{post.title}</Typography>
+      <Typography component="h2" fontSize={36} fontWeight={500}>
+        {post.title}
+      </Typography>
       <PostBody content={post.content} />
     </>
   )

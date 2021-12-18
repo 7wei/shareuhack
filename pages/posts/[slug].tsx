@@ -38,10 +38,6 @@ const CategoryCard = styled(Box)(({ theme }) => ({
   },
 }))
 
-const BreakWordBox = styled(Box)({
-  wordWrap: 'break-word',
-})
-
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, locales } = router
@@ -126,9 +122,11 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Breadcrumbs>
           )}
 
-          <BreakWordBox>
-            <Typography variant="h2">{post.title}</Typography>
-          </BreakWordBox>
+          <Box sx={{ wordWrap: 'break-word' }}>
+            <Typography component="h2" fontSize={36} fontWeight={600}>
+              {post.title}
+            </Typography>
+          </Box>
           <Typography color={theme.palette.primary.main} mb="15px">
             Updated at {formattedDate(post.date)}
           </Typography>
@@ -136,10 +134,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <Grid item md={3} xs={12} sm={12}>
               <Box mr={matches ? '15px' : '45px'} pt={matches ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
-                  <InfoCard>
-                    <Typography fontWeight={500} mb="5px">
-                      {t('beforewriting')}
-                    </Typography>
+                  <InfoCard title={t('beforewriting')}>
                     <ol>
                       {post.credentials?.map((credential, idx) => (
                         <li key={idx}>{credential}</li>
@@ -150,10 +145,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                 {!matches && (
                   <>
                     {post.recommendations && post.recommendations.length > 0 && (
-                      <InfoCard>
-                        <Typography fontWeight={500} mb="5px">
-                          {t('Recommendations')}
-                        </Typography>
+                      <InfoCard title={t('Recommendations')}>
                         <ol>
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
@@ -169,10 +161,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                     )}
 
                     {post.references && post.references.length > 0 && (
-                      <InfoCard>
-                        <Typography fontWeight={500} mb="5px">
-                          {t('References')}
-                        </Typography>
+                      <InfoCard title={t('References')}>
                         <ol>
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
@@ -204,10 +193,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           {matches && (
             <>
               {post.recommendations && post.recommendations.length > 0 && (
-                <InfoCard>
-                  <Typography fontWeight={500} mb="5px">
-                    {t('Recommendations')}
-                  </Typography>
+                <InfoCard title={t('Recommendations')}>
                   <ol>
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
@@ -223,10 +209,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               )}
 
               {post.references && post.references.length > 0 && (
-                <InfoCard>
-                  <Typography fontWeight={500} mb="5px">
-                    {t('References')}
-                  </Typography>
+                <InfoCard title={t('References')}>
                   <ol>
                     {post.references?.map((reference, idx) => (
                       <li key={idx}>
@@ -240,13 +223,13 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               )}
             </>
           )}
-          <Box pb="30px" maxWidth="540px" margin="0 auto">
+          <Box pb="30px" maxWidth={580} margin="0 auto">
             <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
           </Box>
-          <Divider primary />
+          <Divider color={theme.palette.primary.main} />
 
           <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={48} mb="15px">
+            <Typography fontSize={36} fontWeight={500} mb="15px">
               More hacks
             </Typography>
             <Grid spacing={3} container>
@@ -258,10 +241,10 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Grid>
           </Box>
           <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={48} mb="30px">
-              Discover More about...
+            <Typography fontSize={36} fontWeight={500} mb="30px">
+              Discover More...
             </Typography>
-            <Grid spacing={1} container>
+            <Grid spacing={10} container>
               {NavLinks.map((link, idx) => (
                 <Grid item key={idx} xs={6} sm={3}>
                   <Link href={link.link}>

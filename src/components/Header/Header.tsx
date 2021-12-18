@@ -52,8 +52,8 @@ export default function Header() {
         </Box>
 
         <Box display="flex" alignItems="center" justifyContent={'center'} flexDirection={'column'} gap={0} flexGrow={1}>
-          <Link href="/" locale={locale}>
-            <Typography fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic">
+          <Link href="/" locale={locale} color={theme.palette.text.primary}>
+            <Typography fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic" component="h1">
               Shareuhack
             </Typography>
           </Link>

@@ -8,7 +8,6 @@ import Link from '../../src/components/Link/Link'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
-// import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 
@@ -46,15 +45,14 @@ export default function CategoryPage({ category, subCategories }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <Typography as="h1">{t(`categories.${category.key}.title`)}</Typography>
-          <Typography variant="body1">{t(`categories.${category.key}.description`)}</Typography>
+          <Typography fontSize={36} fontWeight={700} component="h2">
+            {t(`categories.${category.key}.title`)}
+          </Typography>
+          <Typography fontSize={16}>{t(`categories.${category.key}.description`)}</Typography>
         </Grid>
         <Grid item sm={3}>
           {!matches && (
-            <InfoCard>
-              <Typography fontWeight={500} mb="15px">
-                {t('whatWeDo')}
-              </Typography>
+            <InfoCard title={t('whatWeDo')}>
               <Typography variant="body1">
                 {t('whatWeDoDescript')}
                 <br />

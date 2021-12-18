@@ -20,7 +20,7 @@ export default function Footer() {
       <Container>
         <Box padding="30px 20px">
           <Box mb="15px" textAlign={matches ? 'center' : 'left'}>
-            <Typography variant="h1" fontStyle="italic">
+            <Typography fontWeight={500} fontSize={24} fontStyle="italic">
               Shareuhack
             </Typography>
             <Typography color={theme.palette.text.secondary} fontStyle="italic">

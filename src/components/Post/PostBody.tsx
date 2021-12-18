@@ -1,7 +1,8 @@
-import { Box } from '@mui/material'
-import theme from 'theme'
+import { Box, useTheme } from '@mui/material'
 
 export default function PostBody({ content }: { content: string }) {
+  const theme = useTheme()
+
   return (
     <Box
       sx={{
