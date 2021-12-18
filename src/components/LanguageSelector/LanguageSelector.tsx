@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { IconButton, Dialog, DialogTitle, makeStyles, List, ListItem, Box } from '@material-ui/core'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
@@ -22,7 +22,7 @@ export default function LanguageSelector() {
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
   const router = useRouter()
-  const { matches } = useBreakpint()
+  const { matches } = useBreakpint('md')
 
   const [open, setOpen] = useState(false)
 
@@ -44,23 +44,20 @@ export default function LanguageSelector() {
     router.push(router.asPath, router.asPath, { locale: locale })
   }
 
-  const getLocaleData = (locale?: string) => {
-    const data = Locales.find((el) => el.key === locale)
-    if (!data) {
-      return Locales[0]
-    }
-    return data
-  }
+  const getLocaleData = useCallback(
+    (locale?: string) => {
+      return Locales.find((el) => el.key === locale) || Locales[0]
+    },
+    [locale]
+  )
 
   return (
     <Box zIndex={999999}>
       <IconButton onClick={handleOpen} color="primary">
         <LanguageIcon />
-        {!matches && (
-          <Box ml="5px" fontSize={14}>
-            {getLocaleData(locale).language}({getLocaleData(locale).region})
-          </Box>
-        )}
+        {/* <Box ml="5px" fontSize={14} display={matches ? 'none' : 'block'}>
+          {getLocaleData(locale).language}({getLocaleData(locale).region})
+        </Box> */}
       </IconButton>
       <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
         <DialogTitle id="simple-dialog-title">
