@@ -50,7 +50,7 @@ export default function LanguageSelector() {
       <Dialog
         sx={{
           '& .MuiPaper-root': {
-            borderRadius: 15,
+            borderRadius: '15px',
             width: isDownMd ? '100%' : '480px',
             padding: 15,
           },
