@@ -16,7 +16,7 @@ export default function CoverImage({
   width: string | number
   alt: string
 }) {
-  const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} priority />
+  const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} />
   return (
     <div>
       {slug ? (
