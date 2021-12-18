@@ -133,9 +133,7 @@ export const theme = {
   },
   shape: {
     border: '1px solid',
-    borderRadius: () => {
-      return '5px'
-    },
+    borderRadius: 5,
   },
   spacing: (factor: number) => `${1 * factor}px`,
   // gray: {

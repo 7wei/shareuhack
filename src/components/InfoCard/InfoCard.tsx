@@ -16,7 +16,7 @@ export default function InfoCard(props: Props) {
         backgroundColor: theme.palette.primary.light,
         padding: 15,
         marginBottom: 15,
-        borderRadius: 5,
+        borderRadius: '5px',
         '& ol': {
           paddingLeft: 15,
         },
