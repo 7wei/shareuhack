@@ -1,28 +1,15 @@
 import { useState, useCallback } from 'react'
-import { IconButton, Dialog, DialogTitle, makeStyles, List, ListItem, Box } from '@material-ui/core'
+import { IconButton, Dialog, DialogTitle, List, ListItem, Box } from '@material-ui/core'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import { Locales } from '../../../lib/constants'
 import LanguageIcon from '@material-ui/icons/Language'
 import useBreakpint from 'hooks/useBreakpoint'
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    position: 'absolute',
-    width: 400,
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-  },
-}))
-
 export default function LanguageSelector() {
-  const classes = useStyles()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
   const router = useRouter()
-  const { matches } = useBreakpint('md')
 
   const [open, setOpen] = useState(false)
 

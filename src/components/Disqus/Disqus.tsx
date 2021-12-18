@@ -1,16 +1,7 @@
 import { DiscussionEmbed } from 'disqus-react'
-import { makeStyles } from '@material-ui/core'
-
-const useStyles = makeStyles({
-  root: {
-    '& * a': {
-      color: 'white !important',
-    },
-  },
-})
+import { Box } from '@mui/material'
 
 const Disqus = ({ title, slug }: { title: string; slug: string }) => {
-  const classes = useStyles()
   const disqusShortname = `${process.env.NEXT_PUBLIC_DISQUS_NAME}`
   const disqusConfig = {
     url: `${process.env.NEXT_PUBLIC_BASE_URL}/${slug}`,
@@ -18,9 +9,15 @@ const Disqus = ({ title, slug }: { title: string; slug: string }) => {
     title: title,
   }
   return (
-    <div className={classes.root}>
+    <Box
+      sx={{
+        '& * a': {
+          color: 'white !important',
+        },
+      }}
+    >
       <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
-    </div>
+    </Box>
   )
 }
 export default Disqus

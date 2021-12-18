@@ -1,19 +1,9 @@
-import { Box, makeStyles, styled } from '@material-ui/core'
+import { Box, styled, Typography } from '@mui/material'
 import CoverImage from '../Image/CoverImage'
-import { TYPE } from 'theme/index'
 import { formattedDate } from '../../utils/index'
 import theme from '../../theme/index'
 import { useRouter } from 'next/router'
 import Link from '../../components/Link/Link'
-
-const useStyles = makeStyles({
-  root: {
-    '&:hover $title': {
-      color: theme.palette.primary.main,
-    },
-  },
-  title: {},
-})
 
 const BreakWordBox = styled(Box)({
   wordWrap: 'break-word',
@@ -34,21 +24,27 @@ export default function PostPreview({
   slug: string
   simple?: boolean
 }) {
-  const classes = useStyles()
   const { locale } = useRouter()
 
   return (
-    <Box className={classes.root} width="100%">
+    <Box
+      sx={{
+        '&:hover $title': {
+          color: theme.palette.primary.main,
+        },
+      }}
+      width="100%"
+    >
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale}>
         <BreakWordBox>
-          <TYPE.bold mt="5px" className={classes.title}>
+          <Typography fontWeight={500} mt="5px">
             {title}
-          </TYPE.bold>
+          </Typography>
         </BreakWordBox>
 
-        <TYPE.primary>{formattedDate(date)}</TYPE.primary>
-        {!simple && <TYPE.body>{excerpt}</TYPE.body>}
+        <Typography color={theme.palette.primary.main}>{formattedDate(date)}</Typography>
+        {!simple && <Typography variant="body1">{excerpt}</Typography>}
       </Link>
     </Box>
   )

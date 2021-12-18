@@ -1,33 +1,27 @@
-import { Grid, Box, styled } from '@material-ui/core'
-import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
-import { CMS_NAME, Categories, Category, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { Grid, Box, styled, Typography, useTheme } from '@mui/material'
+import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
+import { CMS_NAME, Categories, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
 import InfoCard from '../src/components/InfoCard/InfoCard'
-import { TYPE } from 'theme/index'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
 import useBreakpint from '../src/hooks/useBreakpoint'
 import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
-// import Disclosure from '../src/components/Disclosure/Disclosure'
-import { useTranslation } from 'next-i18next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { useRouter } from 'next/router'
-// import { canonicalLocale } from '../src/utils/index'
 import CommonStructuredData from '../src/components/CommonStructuredData'
-
-const BreakWordBox = styled(Box)({
-  wordWrap: 'break-word',
-})
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const { matches } = useBreakpint()
 
   const router = useRouter()
   const { locales } = router
-  // const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale)
   const { t } = useTranslation('common')
+
+  const theme = useTheme()
 
   return (
     <>
@@ -48,65 +42,73 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <Grid container spacing={3}>
         <Grid item sm={3}>
           <InfoCard>
-            <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
-            <TYPE.body>
+            <Typography variant="h3" mb="15px">
+              {t('whatWeDo')}
+            </Typography>
+            <Typography variant="body1">
               {t('whatWeDoDescript')} <br />
               <Link href={Routes.about} locale={locale}>
                 --{t('learnMore')}
               </Link>
-            </TYPE.body>
+            </Typography>
           </InfoCard>
           {matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">{t('howWeDo')}</TYPE.bold>
-              <TYPE.body>
+              <Typography variant="h3" mb="15px">
+                {t('howWeDo')}
+              </Typography>
+              <Typography variant="body1">
                 {t('howWeDoDescript')}
                 <br />
                 <Link href={Routes.about} locale={locale}>
                   --{t('learnMore')}
                 </Link>
-              </TYPE.body>
+              </Typography>
             </InfoCard>
           )}
           <Divider />
-          <TYPE.header mt="15px" mb="15px">
+          <Typography variant="h3" mt="15px" mb="15px">
             {t('latest')}
-          </TYPE.header>
-          <BreakWordBox display="flex" gridGap="8px" flexDirection="column">
+          </Typography>
+          <Box display="flex" gridGap="8px" flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
-                <TYPE.bold>{post.title}</TYPE.bold>
-                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                <Typography fontWeight={500}>{post.title}</Typography>
+                <Typography color={theme.palette.primary.main}>{formattedDate(post.date)}</Typography>
               </Link>
             ))}
-          </BreakWordBox>
+          </Box>
         </Grid>
         <Grid item sm={6}>
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
         <Grid item sm={3}>
           <Divider />
-          <TYPE.header mt="15px" mb="15px">
+          <Typography variant="h3" mt="15px" mb="15px">
             {t('hottest')}
-          </TYPE.header>
+          </Typography>
           <BreakWordBox display="grid" gridGap="8px" mb="15px">
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} underline="none">
-                <TYPE.bold>{post.title}</TYPE.bold>
-                <TYPE.primary>{formattedDate(post.date)}</TYPE.primary>
+                <Typography fontWeight={500}>{post.title}</Typography>
+                <Typography variant="body1" color={theme.palette.primary.main}>
+                  {formattedDate(post.date)}
+                </Typography>
               </Link>
             ))}
           </BreakWordBox>
           {!matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">{t('howWeDo')}</TYPE.bold>
-              <TYPE.body>
+              <Typography fontWeight={500} mb={15}>
+                {t('howWeDo')}
+              </Typography>
+              <Typography variant="body1">
                 {t('howWeDoDescript')}
                 <br />
                 <Link href={Routes.about} locale={locale}>
                   --{t('learnMore')}
                 </Link>
-              </TYPE.body>
+              </Typography>
             </InfoCard>
           )}
         </Grid>

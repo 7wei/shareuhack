@@ -1,5 +1,14 @@
-import { createTheme, Theme, useTheme, styled } from '@material-ui/core'
-import { Text, TextProps } from 'rebass'
+import { createTheme, styled, ThemeProvider as MuiThemeProvider, StyledEngineProvider } from '@mui/material/styles'
+
+interface Gradient {
+  gradient1: string
+}
+
+interface Height {
+  header: string
+  mobileHeader: string
+  footer: string
+}
 
 interface TextColor {
   text1: string
@@ -8,7 +17,6 @@ interface TextColor {
   text4: string
   text5: string
   primary: string
-  highlight: string
 }
 
 interface BgColor {
@@ -19,21 +27,43 @@ interface BgColor {
   bg5: string
 }
 
-declare module '@material-ui/core/styles/createTheme' {
+declare module '@mui/material/styles' {
+  interface Theme {
+    textColor: TextColor
+    bgColor: BgColor
+    gradient: Gradient
+    height: Height
+  }
+  interface DeprecatedThemeOptions {
+    textColor: TextColor
+    bgColor: BgColor
+    gradient: Gradient
+    height: Height
+  }
+}
+
+declare module '@mui/material/styles/createTheme' {
+  interface DeprecatedThemeOptions {
+    textColor: TextColor
+    bgColor: BgColor
+    gradient: Gradient
+    height: Height
+  }
   interface ThemeOptions {
     textColor: TextColor
     bgColor: BgColor
+    gradient: Gradient
+    height: Height
   }
   interface Theme {
     textColor: TextColor
     bgColor: BgColor
+    gradient: Gradient
+    height: Height
   }
 }
 
-const theme: Theme = createTheme({
-  // typography: {
-  //   fontFamily: ['Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans JP', 'sans-serif'].join(','),
-  // },
+export const theme = {
   palette: {
     primary: {
       light: '#2E2247',
@@ -60,14 +90,22 @@ const theme: Theme = createTheme({
       main: '#2DAB50',
     },
     background: {
-      default: '#131315',
-      paper: '#252525',
+      default: '#1C1C1F',
+      paper: '#191919',
     },
     text: {
       primary: '#FFFFFF',
+      secondary: '#333333',
+      disabled: '#999999',
     },
     action: {
       disabledOpacity: 0.8,
+    },
+    grey: {
+      A700: '#191919',
+      A400: '#252525',
+      A200: '#303030',
+      A100: '#A1A1A1',
     },
   },
   textColor: {
@@ -77,7 +115,6 @@ const theme: Theme = createTheme({
     text4: '#727272',
     text5: '#333333',
     primary: '#9867FF',
-    highlight: '#24ff00',
   },
   bgColor: {
     bg1: '#000000',
@@ -86,72 +123,178 @@ const theme: Theme = createTheme({
     bg4: '#303030',
     bg5: '#A1A1A1',
   },
+  gradient: {
+    gradient1: '#000000 linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
+  },
+  height: {
+    header: '88px',
+    mobileHeader: '77px',
+    footer: '60px',
+  },
   shape: {
+    border: '1px solid',
     borderRadius: 10,
   },
-  overrides: {
-    MuiCssBaseline: {
-      '@global': {
-        '*::-webkit-scrollbar': {
-          width: '6px',
-          height: '6px',
-        },
-        '*::-webkit-scrollbar-thumb': {
-          backgroundColor: '#303030',
-          outline: 'none',
-          borderRadius: 3,
-        },
-        '*::-webkit-scrollbar-corner': {
-          background: 'transparent',
+  spacing: (factor: number) => `${1 * factor}px`,
+  // gray: {
+  //   main: '#333333',
+  //   dark: '#262626',
+  // },
+}
+
+export const override: any = {
+  MuiCssBaseline: {
+    styleOverrides: {
+      body: { backgroundColor: '#1C1C1F', fontSize: 16 },
+      'html, input, textarea, button': {
+        fontFamily: 'Roboto, sans-serif',
+        fontDisplay: 'fallback',
+      },
+      '@supports (font-variation-settings: normal)': {
+        'html, input, textarea, button ': {
+          fontFamily: 'Roboto, sans-serif',
+          fontDisplay: 'fallback',
         },
       },
     },
   },
-})
-
-export default theme
-
-const TextWrapper = ({ textColor, ...props }: TextProps & { textColor?: keyof TextColor }) => {
-  const theme = useTheme()
-  return <Text {...props} color={textColor ? theme.textColor[textColor as keyof TextColor] : undefined} />
+  MuiButton: {
+    styleOverrides: {
+      root: {
+        color: theme.palette.primary.contrastText,
+        fontWeight: 500,
+        borderRadius: theme.shape.borderRadius,
+        transition: '.3s',
+        textTransform: 'none' as const,
+      },
+      contained: {
+        backgroundColor: theme.palette.primary.main,
+        color: theme.palette.primary.contrastText,
+        boxShadow: 'unset',
+        '&:hover, :active': {
+          boxShadow: 'unset',
+          backgroundColor: theme.palette.primary.dark,
+        },
+        '&:disabled': {
+          backgroundColor: theme.palette.primary.light,
+          color: '#464647',
+        },
+      },
+      containedSecondary: {
+        backgroundColor: theme.palette.secondary.main,
+        color: theme.palette.secondary.contrastText,
+        boxShadow: 'unset',
+        '&:hover, :active': {
+          boxShadow: 'unset',
+          backgroundColor: theme.palette.secondary.dark,
+        },
+        '&:disabled': {
+          backgroundColor: theme.palette.secondary.light,
+          color: '#412E6A',
+        },
+      },
+      outlined: {
+        borderColor: theme.palette.primary.contrastText,
+        color: theme.palette.primary.contrastText,
+        '&:hover, :active': {
+          backgroundColor: 'transparent',
+          borderColor: theme.palette.primary.main,
+          color: theme.palette.primary.main,
+        },
+      },
+      outlinedPrimary: {
+        backgroundColor: 'transparent',
+        borderColor: theme.palette.primary.main,
+        color: theme.palette.primary.main,
+        '&:hover, :active': {
+          backgroundColor: 'transparent',
+          borderColor: theme.palette.primary.dark,
+          color: theme.palette.primary.dark,
+        },
+      },
+      text: {
+        backgroundColor: 'transparent',
+        color: theme.palette.primary.contrastText,
+        '&:hover, :active': {
+          backgroundColor: 'transparent',
+          color: theme.palette.primary.main,
+        },
+      },
+      textPrimary: {
+        color: theme.palette.primary.main,
+        backgroundColor: 'transparent',
+        '&:hover, :active': {
+          backgroundColor: 'transparent',
+          color: theme.palette.primary.dark,
+        },
+      },
+      textSecondary: {
+        color: theme.palette.secondary.main,
+        backgroundColor: 'transparent',
+        '&:hover, :active': {
+          backgroundColor: 'transparent',
+          color: theme.palette.secondary.dark,
+        },
+      },
+    },
+  },
+  MuiTypography: {
+    styleOverrides: {
+      root: {
+        fontFamily: 'Roboto',
+      },
+      body1: {
+        fontSize: 14,
+      },
+      body2: {
+        fontSize: 12,
+      },
+      h5: {
+        fontFamily: 'Futura PT',
+        fontSize: 28,
+      },
+      h6: {
+        fontFamily: 'Futura PT',
+        fontSize: 22,
+      },
+      caption: {
+        fontSize: 12,
+        color: theme.textColor.text3,
+      },
+      subtitle1: {},
+      subtitle2: {},
+    },
+  },
 }
 
-export const TYPE = {
-  brand(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={36} {...props} />
-  },
-  extraLargeHeader(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={36} textColor="text1" {...props} />
-  },
-  largeHeader(props: TextProps) {
-    return <TextWrapper fontWeight={700} fontSize={30} textColor="text1" {...props} />
-  },
-  header(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={24} textColor="text1" {...props} />
-  },
-  body(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="text1" {...props} />
-  },
-  bold(props: TextProps) {
-    return <TextWrapper fontWeight={600} fontSize={16} textColor="text1" {...props} />
-  },
-  primary(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="primary" {...props} />
-  },
-  smallGray(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} textColor="text3" {...props} />
-  },
-}
-
-export const HideOnMobile = styled('div')(({ theme, breakpoint }: { theme: Theme; breakpoint?: 'sm' | 'md' }) => ({
-  [theme.breakpoints.down(breakpoint ?? 'md')]: {
+export const HideOnMobile = styled('div', {
+  shouldForwardProp: () => true,
+})<{ breakpoint?: 'sm' | 'md' }>(({ theme, breakpoint }) => ({
+  [theme.breakpoints.down(breakpoint ?? 'sm')]: {
     display: 'none',
   },
 }))
 
-export const ShowOnMobile = styled('div')(({ theme, breakpoint }: { theme: Theme; breakpoint?: 'sm' | 'md' }) => ({
+export const ShowOnMobile = styled('div', {
+  shouldForwardProp: () => true,
+})<{ breakpoint?: 'sm' | 'md' }>(({ theme, breakpoint }) => ({
   display: 'none',
-  [theme.breakpoints.down(breakpoint ?? 'md')]: {
+  [theme.breakpoints.down(breakpoint ?? 'sm')]: {
     display: 'block',
   },
 }))
+
+export default createTheme({
+  ...theme,
+  components: {
+    ...override,
+  },
+})
+
+export function ThemeProvider({ children, theme }: any) {
+  return (
+    <StyledEngineProvider injectFirst>
+      <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>
+    </StyledEngineProvider>
+  )
+}

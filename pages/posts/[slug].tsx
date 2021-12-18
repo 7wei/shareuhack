@@ -1,4 +1,4 @@
-import { Grid, Box, styled } from '@material-ui/core'
+import { Grid, Box, styled, useTheme, Typography } from '@mui/material'
 import Link from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
@@ -13,7 +13,6 @@ import { getPostBySlug, getAllPosts, getAllPostPaths, getCategoryPosts } from '.
 import Head from 'next/head'
 import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
-import theme, { TYPE } from '../../src/theme/index'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
@@ -51,6 +50,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
+  const theme = useTheme()
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -58,7 +58,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
 
   const Shares = () => {
     return (
-      <Box display="flex" gridColumnGap="10px" justifyContent={matches ? 'center' : 'flex-start'}>
+      <Box display="flex" gap="10px" justifyContent={matches ? 'center' : 'flex-start'}>
         <EmailShareButton
           subject={`Shareuhack: ${post.title}`}
           body={`Shareuhack: ${post.title}`}
@@ -80,7 +80,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
   return (
     <>
       {router.isFallback ? (
-        <TYPE.largeHeader>Loading…</TYPE.largeHeader>
+        <Typography fontSize={48}>Loading…</Typography>
       ) : (
         <>
           <Head>
@@ -128,17 +128,19 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           )}
 
           <BreakWordBox>
-            <TYPE.largeHeader mt={category && subCategory ? 0 : '15px'} as="h1">
-              {post.title}
-            </TYPE.largeHeader>
+            <Typography variant="h2">{post.title}</Typography>
           </BreakWordBox>
-          <TYPE.primary mb="15px">Updated at {formattedDate(post.date)}</TYPE.primary>
+          <Typography color={theme.palette.primary.main} mb="15px">
+            Updated at {formattedDate(post.date)}
+          </Typography>
           <Grid container>
             <Grid item md={3} xs={12} sm={12}>
               <Box mr={matches ? '15px' : '45px'} pt={matches ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard>
-                    <TYPE.bold mb="5px">{t('beforewriting')}</TYPE.bold>
+                    <Typography fontWeight={500} mb="5px">
+                      {t('beforewriting')}
+                    </Typography>
                     <ol>
                       {post.credentials?.map((credential, idx) => (
                         <li key={idx}>{credential}</li>
@@ -150,7 +152,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                   <>
                     {post.recommendations && post.recommendations.length > 0 && (
                       <InfoCard>
-                        <TYPE.bold mb="5px">{t('Recommendations')}</TYPE.bold>
+                        <Typography fontWeight={500} mb="5px">
+                          {t('Recommendations')}
+                        </Typography>
                         <ol>
                           {post.recommendations?.map((recommendation, idx) => (
                             <li key={idx}>
@@ -167,7 +171,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
 
                     {post.references && post.references.length > 0 && (
                       <InfoCard>
-                        <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
+                        <Typography fontWeight={500} mb="5px">
+                          {t('References')}
+                        </Typography>
                         <ol>
                           {post.references?.map((reference, idx) => (
                             <li key={idx}>
@@ -181,9 +187,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                     )}
 
                     <Divider />
-                    <TYPE.body mt="15px" mb="10px">
+                    <Typography variant="body1" mt="15px" mb="10px">
                       {t('sharePost')}
-                    </TYPE.body>
+                    </Typography>
                     <Shares />
                   </>
                 )}
@@ -194,20 +200,15 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Grid>
             <Grid item sm={9} xs={12}>
               <PostBody content={post.content} />
-
-              {!matches && (
-                <>
-                  {/* <TYPE.primary mt="48px">Welcome to share your hack！</TYPE.primary>
-                  <Disqus {...post} /> */}
-                </>
-              )}
             </Grid>
           </Grid>
           {matches && (
             <>
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard>
-                  <TYPE.bold mb="5px">{t('Recommendations')}</TYPE.bold>
+                  <Typography fontWeight={500} mb="5px">
+                    {t('Recommendations')}
+                  </Typography>
                   <ol>
                     {post.recommendations?.map((recommendation, idx) => (
                       <li key={idx}>
@@ -224,7 +225,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
 
               {post.references && post.references.length > 0 && (
                 <InfoCard>
-                  <TYPE.bold mb="5px">{t('References')}</TYPE.bold>
+                  <Typography fontWeight={500} mb="5px">
+                    {t('References')}
+                  </Typography>
                   <ol>
                     {post.references?.map((reference, idx) => (
                       <li key={idx}>
@@ -236,16 +239,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                   </ol>
                 </InfoCard>
               )}
-              {/* <TYPE.primary mt="20px">Welcome to share your hack！</TYPE.primary>
-              <Disqus {...post} /> */}
-
-              {/*
-              <Shares />
-              <TYPE.body mt="5px" mb="10px" textAlign="center">
-                分享這篇文章
-              </TYPE.body> */}
-
-              {/* )} */}
             </>
           )}
           <Box pb="30px" maxWidth="540px" margin="0 auto">
@@ -254,7 +247,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           <Divider primary />
 
           <Box mt="30px" mb="30px" padding="0 20px">
-            <TYPE.largeHeader marginBottom="15px">More hacks</TYPE.largeHeader>
+            <Typography fontSize={48} mb="15px">
+              More hacks
+            </Typography>
             <Grid spacing={3} container>
               {relatedPosts.map((post) => (
                 <Grid key={post.title} item xs={12} sm={4}>
@@ -264,7 +259,9 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Grid>
           </Box>
           <Box mt="30px" mb="30px" padding="0 20px">
-            <TYPE.largeHeader mb="30px">Discover More about...</TYPE.largeHeader>
+            <Typography fontSize={48} mb="30px">
+              Discover More about...
+            </Typography>
             <Grid spacing={1} container>
               {NavLinks.map((link, idx) => (
                 <Grid item key={idx} xs={6} sm={3}>

@@ -1,5 +1,4 @@
-import { Grid, Box } from '@material-ui/core'
-import { TYPE } from 'theme/index'
+import { Grid, Box, Typography } from '@mui/material'
 import PostPreview from './PostPreview'
 import Link from '../Link/Link'
 import { useRouter } from 'next/router'
@@ -28,14 +27,16 @@ export default function CategorySection({
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
-        <TYPE.largeHeader mt="15px">{category}</TYPE.largeHeader>
+        <Typography fontWeight={500} fontSize={28} mt="15px">
+          {category}
+        </Typography>
         <Link href={link} locale={locale}>
           {t('showAll')}
         </Link>
       </Box>
       <Grid container>
         <Grid item sm={6}>
-          <TYPE.body>{description}</TYPE.body>
+          <Typography variant="body1">{description}</Typography>
         </Grid>
       </Grid>
       <Box mt="10px">

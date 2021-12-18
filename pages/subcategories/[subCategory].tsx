@@ -1,24 +1,20 @@
-import { Grid, Box } from '@material-ui/core'
+import { Grid, Box, Typography } from '@mui/material'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { getSubCategoryPosts, getAllSubCategoryPaths } from '../../lib/api'
 import { SubCategories, SubCategory, Routes, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
-import { TYPE } from '../../src/theme/index'
 import PostReview from '../../src/components/Post/PostPreview'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
 import Divider from '../../src/components/Divider/Divider'
-// import Disclosure from '../../src/components/Disclosure/Disclosure'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-// import { canonicalLocale } from '../../src/utils/index'
 
 export default function SubCategoryPage({ subCategory, posts }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
-  // const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/subcategories/${subCategory.key}`
 
   return (
     <>
@@ -48,20 +44,22 @@ export default function SubCategoryPage({ subCategory, posts }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader as="h1">{t(`subCategories.${subCategory.key}.title`)}</TYPE.extraLargeHeader>
-          <TYPE.body>{t(`subCategories.${subCategory.key}.description`)}</TYPE.body>
+          <Typography variant="h1">{t(`subCategories.${subCategory.key}.title`)}</Typography>
+          <Typography variant="body1">{t(`subCategories.${subCategory.key}.description`)}</Typography>
         </Grid>
         <Grid item sm={3}>
           {!matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
-              <TYPE.body>
+              <Typography fontWeight={500} mb="15px">
+                {t('whatWeDo')}
+              </Typography>
+              <Typography fontWeight={500}>
                 {t('whatWeDoDescript')}
                 <br />
                 <Link href={Routes.about} locale={locale}>
                   --{t('learnMore')}
                 </Link>
-              </TYPE.body>
+              </Typography>
             </InfoCard>
           )}
         </Grid>

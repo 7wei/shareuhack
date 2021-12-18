@@ -1,8 +1,7 @@
-import { Grid, Box, Typography } from '@material-ui/core'
+import { Grid, Box, Typography, useTheme } from '@mui/material'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
-import { TYPE } from '../../src/theme/index'
 import { getCategoryPosts, getAllCategoryPaths } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
@@ -17,6 +16,7 @@ export default function CategoryPage({ category, subCategories }) {
   const { matches } = useBreakpoint()
   const { t } = useTranslation('common')
   const { locale, locales } = useRouter()
+  const theme = useTheme()
 
   return (
     <>
@@ -46,20 +46,22 @@ export default function CategoryPage({ category, subCategories }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <TYPE.extraLargeHeader as="h1">{t(`categories.${category.key}.title`)}</TYPE.extraLargeHeader>
-          <TYPE.body>{t(`categories.${category.key}.description`)}</TYPE.body>
+          <Typography as="h1">{t(`categories.${category.key}.title`)}</Typography>
+          <Typography variant="body1">{t(`categories.${category.key}.description`)}</Typography>
         </Grid>
         <Grid item sm={3}>
           {!matches && (
             <InfoCard>
-              <TYPE.bold mb="15px">{t('whatWeDo')}</TYPE.bold>
-              <TYPE.body>
+              <Typography fontWeight={500} mb="15px">
+                {t('whatWeDo')}
+              </Typography>
+              <Typography variant="body1">
                 {t('whatWeDoDescript')}
                 <br />
                 <Link href={Routes.about} locale={locale}>
                   --{t('learnMore')}
                 </Link>
-              </TYPE.body>
+              </Typography>
             </InfoCard>
           )}
         </Grid>
@@ -79,9 +81,9 @@ export default function CategoryPage({ category, subCategories }) {
 
         {subCategories.length === 0 && (
           <Box height="calc(100vh - 580px)" display="flex" justifyContent="center" alignItems="center">
-            <TYPE.primary mb="15px" fontSize={18}>
+            <Typography color={theme.palette.primary.main} mb="15px" fontSize={18}>
               {t('stayTuned')}
-            </TYPE.primary>
+            </Typography>
           </Box>
         )}
       </Box>

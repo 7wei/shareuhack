@@ -1,13 +1,6 @@
 import React from 'react'
-import { Container as MuiContainer, makeStyles } from '@material-ui/core'
-
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 1048,
-  },
-})
+import { Container as MuiContainer } from '@mui/material'
 
 export default function Container({ children }: { children: any }) {
-  const classes = useStyles()
-  return <MuiContainer className={classes.root}>{children}</MuiContainer>
+  return <MuiContainer sx={{ maxWidth: 1048 }}>{children}</MuiContainer>
 }

@@ -1,23 +1,23 @@
-import { Divider as MuiDivider, makeStyles, Theme } from '@material-ui/core'
+import { Divider as MuiDivider, DividerProps, useTheme } from '@mui/material'
 
 interface Props {
   orientation?: 'horizontal' | 'vertical'
   extension?: number
-  primary?: boolean
 }
 
-const useStyles = makeStyles((theme: Theme) => ({
-  root: {
-    border: 'none',
-    height: (props: Props) => (props.orientation === 'vertical' ? '100%' : '1px'),
-    backgroundColor: (props: Props) => (props.primary ? theme.palette.primary.main : '#FFFFFF'),
-    margin: (props: Props) => (props.extension ? `0 -${props.extension}px` : '0'),
-    width: (props: Props) => (props.extension ? `calc(100% + ${props.extension * 2}px` : 'auto'),
-  },
-}))
+export default function Divider({ extension, orientation, ...props }: Props & DividerProps) {
+  const theme = useTheme()
 
-export default function Divider(props: Props) {
-  const classes = useStyles(props)
-
-  return <MuiDivider className={classes.root} />
+  return (
+    <MuiDivider
+      {...props}
+      sx={{
+        width: extension ? `calc(100% + ${extension * 2}px)` : orientation === 'vertical' ? 1 : '100%',
+        border: 'none',
+        height: orientation === 'vertical' ? '100%' : '1px',
+        backgroundColor: orientation === 'vertical' ? theme.textColor.text1 : theme.bgColor.bg4,
+        margin: extension ? `0 -${extension}px` : '0',
+      }}
+    />
+  )
 }

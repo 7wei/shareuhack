@@ -1,6 +1,6 @@
 import React from 'react'
 import NextLink from 'next/link'
-import { makeStyles, Theme, Link as MuiLink } from '@material-ui/core'
+import { Link as MuiLink, useTheme } from '@mui/material'
 
 interface Props {
   href: string
@@ -12,24 +12,25 @@ interface Props {
   onClick?: () => void
 }
 
-const useStyles = makeStyles((theme: Theme) => ({
-  link: {
-    color: (props: Props) => (props.color ? props.color : theme.palette.primary.main),
-    textDecoration: 'none',
-    '&:hover': {
-      color: theme.palette.primary.main,
-      textDecoration: 'none',
-    },
-  },
-}))
-
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick } = props
-  const classes = useStyles(props)
+  const { href, target, children, rel, locale, onClick, color } = props
+  const theme = useTheme()
 
   return (
     <NextLink href={href} locale={locale} passHref>
-      <MuiLink className={classes.link} target={target} rel={rel} onClick={onClick}>
+      <MuiLink
+        target={target}
+        rel={rel}
+        onClick={onClick}
+        sx={{
+          color: color || theme.palette.primary.main,
+          textDecoration: 'none',
+          '&:hover': {
+            color: theme.palette.primary.main,
+            textDecoration: 'none',
+          },
+        }}
+      >
         {children}
       </MuiLink>
     </NextLink>
