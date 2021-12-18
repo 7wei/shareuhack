@@ -68,8 +68,8 @@ export default function LanguageSelector() {
         <List>
           <Grid container>
             {locales?.map((locale) => (
-              <Grid item xs={12} md={6}>
-                <ListItem button onClick={() => onSelect(locale)} key={locale}>
+              <Grid key={locale} item xs={12} md={6}>
+                <ListItem button onClick={() => onSelect(locale)}>
                   {getLocaleData(locale).language}({getLocaleData(locale).region})
                 </ListItem>
               </Grid>

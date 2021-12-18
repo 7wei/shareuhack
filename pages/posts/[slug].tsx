@@ -41,7 +41,7 @@ const CategoryCard = styled(Box)(({ theme }) => ({
 export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, locales } = router
-  const matches = useBreakpoint()
+  const isDownMd = useBreakpoint('md')
   const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
   const { t } = useTranslation('common')
@@ -53,7 +53,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
 
   const Shares = () => {
     return (
-      <Box display="flex" gap="10px" justifyContent={matches ? 'center' : 'flex-start'}>
+      <Box display="flex" gap="10px" justifyContent={isDownMd ? 'center' : 'flex-start'}>
         <EmailShareButton
           subject={`Shareuhack: ${post.title}`}
           body={`Shareuhack: ${post.title}`}
@@ -123,7 +123,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           )}
 
           <Box sx={{ wordWrap: 'break-word' }}>
-            <Typography component="h2" fontSize={36} fontWeight={600}>
+            <Typography component="h2" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
               {post.title}
             </Typography>
           </Box>
@@ -132,7 +132,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           </Typography>
           <Grid container>
             <Grid item md={3} xs={12} sm={12}>
-              <Box mr={matches ? '15px' : '45px'} pt={matches ? '0px' : '15px'}>
+              <Box mr={isDownMd ? '15px' : '45px'} pt={isDownMd ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard title={t('beforewriting')}>
                     <ol>
@@ -142,7 +142,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                     </ol>
                   </InfoCard>
                 )}
-                {!matches && (
+                {!isDownMd && (
                   <>
                     {post.recommendations && post.recommendations.length > 0 && (
                       <InfoCard title={t('Recommendations')}>
@@ -190,7 +190,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
               <PostBody content={post.content} />
             </Grid>
           </Grid>
-          {matches && (
+          {isDownMd && (
             <>
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard title={t('Recommendations')}>
@@ -229,10 +229,10 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           <Divider color={theme.palette.primary.main} />
 
           <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={36} fontWeight={500} mb="15px">
+            <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="15px">
               More hacks
             </Typography>
-            <Grid spacing={3} container>
+            <Grid spacing={15} container>
               {relatedPosts.map((post) => (
                 <Grid key={post.title} item xs={12} sm={4}>
                   <PostPreview {...post} simple />
@@ -241,7 +241,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             </Grid>
           </Box>
           <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={36} fontWeight={500} mb="30px">
+            <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="30px">
               Discover More...
             </Typography>
             <Grid spacing={10} container>
