@@ -70,7 +70,7 @@ export default function Header() {
       {matches ? (
         <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
       ) : (
-        <Box display="flex" alignItems="center" justifyContent="center" gap={24} mt="18px">
+        <Box display="flex" alignItems="center" justifyContent="center" gap={24} mt={20} mb={15}>
           {NavLinks.map((link, idx) => (
             <Link key={idx} href={link.link}>
               <Box
