@@ -142,21 +142,26 @@ export const theme = {
   // },
 }
 
+// font-family: 'Noto Sans', sans-serif;
+// font-family: 'Noto Sans JP', sans-serif;
+// font-family: 'Noto Sans SC', sans-serif;
+// font-family: 'Noto Sans TC', sans-serif;
+
 export const override: any = {
   MuiCssBaseline: {
-    styleOverrides: {
-      body: { backgroundColor: '#1C1C1F', fontSize: 16 },
-      'html, input, textarea, button': {
-        fontFamily: 'Roboto, sans-serif',
-        fontDisplay: 'fallback',
-      },
-      '@supports (font-variation-settings: normal)': {
-        'html, input, textarea, button ': {
-          fontFamily: 'Roboto, sans-serif',
-          fontDisplay: 'fallback',
-        },
-      },
-    },
+    // styleOverrides: {
+    //   body: { backgroundColor: '#1C1C1F', fontSize: 16 },
+    //   'html, input, textarea, button': {
+    //     fontFamily: 'Noto Sans, sans-serif',
+    //     fontDisplay: 'fallback',
+    //   },
+    //   '@supports (font-variation-settings: normal)': {
+    //     'html, input, textarea, button ': {
+    //       fontFamily: 'Noto Sans, sans-serif',
+    //       fontDisplay: 'fallback',
+    //     },
+    //   },
+    // },
   },
   MuiButton: {
     styleOverrides: {
@@ -240,29 +245,24 @@ export const override: any = {
   },
   MuiTypography: {
     styleOverrides: {
-      root: {
-        fontFamily: 'Roboto',
-      },
-      body1: {
-        fontSize: 14,
-      },
-      body2: {
-        fontSize: 12,
-      },
-      h5: {
-        fontFamily: 'Futura PT',
-        fontSize: 28,
-      },
-      h6: {
-        fontFamily: 'Futura PT',
-        fontSize: 22,
-      },
-      caption: {
-        fontSize: 12,
-        color: theme.textColor.text3,
-      },
-      subtitle1: {},
-      subtitle2: {},
+      // root: {},
+      // body1: {
+      //   fontSize: 14,
+      // },
+      // body2: {
+      //   fontSize: 12,
+      // },
+      // h5: {
+      //   fontSize: 28,
+      // },
+      // h6: {
+      //   fontSize: 22,
+      // },
+      // caption: {
+      //   fontSize: 12,
+      // },
+      // subtitle1: {},
+      // subtitle2: {},
     },
   },
 }

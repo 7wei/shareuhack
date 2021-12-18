@@ -23,18 +23,11 @@ export default function PostPreview({
   const { locale } = useRouter()
 
   return (
-    <Box
-      sx={{
-        '&:hover $title': {
-          color: theme.palette.primary.main,
-        },
-      }}
-      width="100%"
-    >
+    <>
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
         <Box sx={{ wordWrap: 'break-word' }}>
-          <Typography fontWeight={500} mt="5px">
+          <Typography fontSize={18} fontWeight={500} mt="5px">
             {title}
           </Typography>
         </Box>
@@ -52,6 +45,6 @@ export default function PostPreview({
           {!simple && <Typography variant="body1">{excerpt}</Typography>}
         </Box>
       </Link>
-    </Box>
+    </>
   )
 }
