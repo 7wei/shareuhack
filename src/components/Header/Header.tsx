@@ -57,6 +57,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     zIndex: 9999999,
+    display: 'absolute',
   },
   toolbar: {
     padding: 0,
@@ -78,7 +79,7 @@ export default function Header() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar className={classes.toolbar}>
-          {matches && (
+          <Box visibility={matches ? 'visible' : 'hidden'}>
             <IconButton
               className={classes.menuButton}
               color="inherit"
@@ -87,15 +88,15 @@ export default function Header() {
             >
               {openDrawer ? <Close /> : <Menu />}
             </IconButton>
-          )}
+          </Box>
 
           <Box
             className={classes.brand}
             display="flex"
             alignItems="center"
-            justifyContent={matches ? 'center' : 'flex-start'}
-            flexDirection={matches ? 'column' : 'row'}
-            gridGap={matches ? 0 : 12}
+            justifyContent={'center'}
+            flexDirection={'column'}
+            gridGap={0}
           >
             <Link href="/" locale={locale}>
               <TYPE.header fontSize={matches ? 24 : 36} fontWeight={700} fontStyle="italic">
@@ -103,7 +104,7 @@ export default function Header() {
               </TYPE.header>
             </Link>
             {!matches && (
-              <TYPE.smallGray fontStyle="italic" fontSize={16} mt={matches ? 0 : 14}>
+              <TYPE.smallGray fontStyle="italic" fontSize={16}>
                 Hacks for the real life
               </TYPE.smallGray>
             )}
