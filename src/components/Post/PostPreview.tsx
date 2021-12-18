@@ -39,7 +39,7 @@ export default function PostPreview({
           </Typography>
         </Box>
 
-        <Typography color={theme.palette.primary.main}>{formattedDate(date)}</Typography>
+        <Typography color={theme.palette.text.secondary}>{formattedDate(date)}</Typography>
         <Box
           sx={{
             display: '-webkit-box',

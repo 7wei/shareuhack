@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { Grid, Box, styled, Typography, useTheme } from '@mui/material'
+import { Grid, Box, Typography, useTheme } from '@mui/material'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
 import { CMS_NAME, Categories, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
 import InfoCard from '../src/components/InfoCard/InfoCard'
@@ -15,7 +15,7 @@ import PreviewRow from '../src/components/Post/PreviewRow'
 import CommonStructuredData from '../src/components/CommonStructuredData'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
-  const { matches } = useBreakpint()
+  const isDownMd = useBreakpint()
 
   const router = useRouter()
   const { locales } = router
@@ -37,7 +37,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
         {/* <link rel="canonical" href={url} /> */}
       </Head>
-      <CommonStructuredData />
+      <CommonStructuredData type="home" />
       {/* <Disclosure /> */}
       <Grid container spacing={15}>
         <Grid item sm={3}>
@@ -49,7 +49,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
               </Link>
             </Typography>
           </InfoCard>
-          {matches && (
+          {isDownMd && (
             <InfoCard title={t('howWeDo')}>
               <Typography variant="body1">
                 {t('howWeDoDescript')}
@@ -66,15 +66,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           </Typography>
           <Box display="flex" gap={8} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
-              <Link
-                key={post.slug}
-                href={`/posts/${post.slug}`}
-                locale={locale}
-                underline="none"
-                color={theme.palette.text.primary}
-              >
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
                 <Typography fontWeight={500}>{post.title}</Typography>
-                <Typography color={theme.palette.primary.main}>{formattedDate(post.date)}</Typography>
+                <Typography color={theme.palette.text.secondary}>{formattedDate(post.date)}</Typography>
               </Link>
             ))}
           </Box>
@@ -89,21 +83,15 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           </Typography>
           <Box display="grid" gap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
-              <Link
-                key={post.slug}
-                href={`/posts/${post.slug}`}
-                locale={locale}
-                underline="none"
-                color={theme.palette.text.primary}
-              >
+              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
                 <Typography fontWeight={500}>{post.title}</Typography>
-                <Typography variant="body1" color={theme.palette.primary.main}>
+                <Typography variant="body1" color={theme.palette.text.secondary}>
                   {formattedDate(post.date)}
                 </Typography>
               </Link>
             ))}
           </Box>
-          {!matches && (
+          {!isDownMd && (
             <InfoCard title={t('howWeDo')}>
               <Typography variant="body1">
                 {t('howWeDoDescript')}
@@ -120,7 +108,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         if (posts.length > 0) {
           return (
             <Box key={key} mb="15px">
-              <Divider primary="true" />
+              <Divider primary />
               <PreviewRow
                 category={t(`categories.${key}.title`)}
                 description={t(`categories.${key}.description`)}
