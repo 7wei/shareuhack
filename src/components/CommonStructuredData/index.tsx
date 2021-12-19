@@ -33,7 +33,7 @@ export default function CommonStructuredData(props: Props) {
       description: description,
       keywords,
     }
-  }, [])
+  }, [locale])
 
   const structuredDataOrganization = useMemo(() => {
     return {
@@ -72,7 +72,7 @@ export default function CommonStructuredData(props: Props) {
       url: process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`,
       description: post.excerpt,
     }
-  }, [post])
+  }, [post, subCategory, locale])
 
   const structuredDataBreadcrumb = useMemo(() => {
     if (!post || !category || !subCategory) {
@@ -102,7 +102,7 @@ export default function CommonStructuredData(props: Props) {
         },
       ],
     }
-  }, [post, category, subCategory])
+  }, [post, category, subCategory, locale])
 
   const structuredDataFaq = useMemo(() => {
     if (!post?.faqs) {
@@ -129,9 +129,15 @@ export default function CommonStructuredData(props: Props) {
     <Head>
       <script type="application/ld+json">{JSON.stringify(structuredDataOrganization)}</script>
       <script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</script>
-      {type === 'post' && <script type="application/ld+json">{JSON.stringify(structuredDataPost)}</script>}
-      {type === 'post' && <script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</script>}
-      {type === 'post' && post.faqs && <script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</script>}
+      {type === 'post' && structuredDataPost && (
+        <script type="application/ld+json">{JSON.stringify(structuredDataPost)}</script>
+      )}
+      {type === 'post' && structuredDataBreadcrumb && (
+        <script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</script>
+      )}
+      {type === 'post' && structuredDataFaq && (
+        <script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</script>
+      )}
     </Head>
   )
 }
