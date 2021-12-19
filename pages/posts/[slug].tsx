@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { formattedDate } from '../../src/utils'
 import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
-import { getPostBySlug, getAllPostPaths, getCategoryPosts } from '../../lib/api'
+import { getPostBySlug, getAllPostPaths, getCategoryPosts, getPostsBySlugs } from '../../lib/api'
 import { Grid, Box, styled, useTheme, Typography } from '@mui/material'
 import Link from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -282,6 +282,7 @@ export async function getStaticProps({ params, locale }) {
       'description',
       'about',
       'faqs',
+      'related',
     ],
     locale
   )
@@ -291,7 +292,10 @@ export async function getStaticProps({ params, locale }) {
   const categoryPosts = category
     ? getCategoryPosts(category.key, ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'], locale)
     : []
-  const relatedPosts = categoryPosts.filter((el) => el.slug !== post.slug)
+  const relatedPosts =
+    post.related && post.related.length > 0
+      ? getPostsBySlugs(post.related, ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'], locale)
+      : categoryPosts.filter((el) => el.slug !== post.slug)
 
   return {
     props: {
@@ -300,9 +304,9 @@ export async function getStaticProps({ params, locale }) {
         ...post,
         content,
       },
-      category: category,
-      subCategory: subCategory,
-      relatedPosts: relatedPosts,
+      category,
+      subCategory,
+      relatedPosts,
     },
   }
 }

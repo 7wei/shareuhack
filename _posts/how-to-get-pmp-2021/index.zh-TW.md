@@ -47,7 +47,7 @@ references:
   ]
 related:
   [
-    'best-resources-to-learn-negotiation',
+    'nice-free-tools-for-managing-your-work-and-life',
     'use-time-matrix-to-make-life-easier',
     'blinkist-an-efficient-way-to-get-key-ideas',
   ]

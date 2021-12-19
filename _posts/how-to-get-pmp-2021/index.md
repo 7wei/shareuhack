@@ -43,7 +43,7 @@ references:
   ]
 related:
   [
-    'best-resources-to-learn-negotiation',
+    'nice-free-tools-for-managing-your-work-and-life',
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
