@@ -107,7 +107,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       {categories.map(({ key, posts, link }) => {
         if (posts.length > 0) {
           return (
-            <Box key={key} mb="15px">
+            <Box key={key} mb="15px" mt="15px">
               <Divider primary />
               <PreviewRow
                 category={t(`categories.${key}.title`)}
