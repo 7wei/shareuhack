@@ -230,7 +230,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
 
           <Box mt="30px" mb="30px" padding="0 20px">
             <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="15px">
-              More hacks
+              Related hacks
             </Typography>
             <Grid spacing={15} container>
               {relatedPosts.map((post) => (
