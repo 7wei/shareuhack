@@ -1,5 +1,5 @@
 ---
-title: 'Reveal tips of Slack/Trello/Todoist｜PM must know!'
+title: 'Free and nice project management tools you must know-Slack/Trello/Todoist'
 slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'
 subCategory: 'projectManagement'

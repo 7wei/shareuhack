@@ -1,5 +1,5 @@
 ---
-title: 'Slack/Trello/Todoist使用功能及進階秘訣大公開｜PM不得不知的小技巧'
+title: '你不能不知道的免費實用專案管理工具-Slack/Trello/Todoist'
 slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'
 subCategory: 'projectManagement'
