@@ -36,6 +36,8 @@ export default function CommonStructuredData(props: Props) {
   }, [locale])
 
   const structuredDataOrganization = useMemo(() => {
+    if (!structuredDataWebsite) return null
+
     return {
       '@type': 'Organization',
       name: websiteName,
@@ -47,7 +49,7 @@ export default function CommonStructuredData(props: Props) {
         url: logoUrl,
       },
     }
-  }, [])
+  }, [structuredDataWebsite])
 
   const structuredDataPost = useMemo(() => {
     if (!post) {
