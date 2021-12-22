@@ -20,7 +20,7 @@ export default function About({ post }) {
         <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
-      <Typography component="h2" fontSize={36} fontWeight={500}>
+      <Typography component="h1" fontSize={36} fontWeight={500}>
         {post.title}
       </Typography>
       <PostBody content={post.content} />
