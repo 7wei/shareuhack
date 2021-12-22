@@ -24,7 +24,7 @@ export default function HeroPost({
     <section>
       <CoverImage title={title} src={coverImage} slug={slug} height={627} width={1200} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
-        <Typography variant="h4" mt="8px" mb="8px">
+        <Typography variant="h4" mt="8px" mb="8px" component="h3">
           {title}
         </Typography>
       </Link>
@@ -39,7 +39,7 @@ export default function HeroPost({
             <Grid item sm={5}>
               <Box ml="10px" mt="7px">
                 <Divider />
-                <Typography variant="h4" mt="15px" mb="15px">
+                <Typography variant="h4" mt="15px" mb="15px" component="h3">
                   RELATED
                 </Typography>
                 <Box display="grid" gap="10px">
@@ -50,7 +50,9 @@ export default function HeroPost({
                       locale={locale}
                       color={theme.palette.text.primary}
                     >
-                      <Typography fontWeight={500}>{post.title}</Typography>
+                      <Typography fontWeight={500} component="h4">
+                        {post.title}
+                      </Typography>
                     </Link>
                   ))}
                 </Box>

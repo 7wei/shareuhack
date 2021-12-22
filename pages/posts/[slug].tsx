@@ -123,7 +123,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
           )}
 
           <Box sx={{ wordWrap: 'break-word' }}>
-            <Typography component="h2" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
+            <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
               {post.title}
             </Typography>
           </Box>

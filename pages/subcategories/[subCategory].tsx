@@ -44,7 +44,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9} mb={isDownMd ? 15 : 0}>
-          <Typography fontSize={36} fontWeight={700} component="h2">
+          <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`subCategories.${subCategory.key}.title`)}
           </Typography>
           <Typography variant="body1">{t(`subCategories.${subCategory.key}.description`)}</Typography>

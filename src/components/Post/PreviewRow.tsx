@@ -27,7 +27,7 @@ export default function CategorySection({
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
-        <Typography fontWeight={500} fontSize={28} mt="15px">
+        <Typography fontWeight={500} fontSize={28} mt="15px" component="h2">
           {category}
         </Typography>
         <Link href={link} locale={locale}>

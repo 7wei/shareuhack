@@ -23,7 +23,7 @@ export default function InfoCard(props: Props) {
       }}
     >
       {title && (
-        <Typography fontSize={16} fontWeight={500} mb={5}>
+        <Typography fontSize={16} fontWeight={700} mb={5} component="h3">
           {title}
         </Typography>
       )}

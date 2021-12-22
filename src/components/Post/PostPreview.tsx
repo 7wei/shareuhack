@@ -27,7 +27,7 @@ export default function PostPreview({
       <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
         <Box sx={{ wordWrap: 'break-word' }}>
-          <Typography fontSize={18} fontWeight={500} mt="5px">
+          <Typography fontSize={18} fontWeight={500} mt="5px" component="h3">
             {title}
           </Typography>
         </Box>

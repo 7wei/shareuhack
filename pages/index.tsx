@@ -61,13 +61,15 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             </InfoCard>
           )}
           <Divider />
-          <Typography variant="h4" mt="15px" mb="15px">
+          <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('latest')}
           </Typography>
           <Box display="flex" gap={8} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography fontWeight={500}>{post.title}</Typography>
+                <Typography fontWeight={500} component="h3">
+                  {post.title}
+                </Typography>
                 <Typography color={theme.palette.text.secondary}>{formattedDate(post.date)}</Typography>
               </Link>
             ))}
@@ -78,13 +80,15 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={3}>
           <Divider />
-          <Typography variant="h4" mt="15px" mb="15px">
+          <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('hottest')}
           </Typography>
           <Box display="grid" gap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography fontWeight={500}>{post.title}</Typography>
+                <Typography fontWeight={500} component="h3">
+                  {post.title}
+                </Typography>
                 <Typography variant="body1" color={theme.palette.text.secondary}>
                   {formattedDate(post.date)}
                 </Typography>

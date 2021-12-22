@@ -45,7 +45,7 @@ export default function CategoryPage({ category, subCategories }) {
       {/* <Disclosure /> */}
       <Grid container>
         <Grid item sm={9}>
-          <Typography fontSize={36} fontWeight={700} component="h2">
+          <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`categories.${category.key}.title`)}
           </Typography>
           <Typography fontSize={16}>{t(`categories.${category.key}.description`)}</Typography>
