@@ -82,10 +82,14 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <title>
               {CMS_NAME} | {post.title}
             </title>
-            <meta name="description" content={post.description ?? post.excerpt} />
+            <meta name="description" content={post.description || post.excerpt} />
             <meta property="og:title" content={post.title} />
-            <meta property="og:description" content={post.description ?? post.excerpt} />
+            <meta property="og:description" content={post.description || post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
+            <meta property="og:locale" content={locale} />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content={url} />
+            <meta property="og:site_name" content="Shareuhack" />
 
             {locales.map((locale) => (
               <link
@@ -95,6 +99,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
                 href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`}
               />
             ))}
+
             {/* <link rel="canonical" href={canonicalUrl} /> */}
             <script
               dangerouslySetInnerHTML={{
