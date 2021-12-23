@@ -15,7 +15,7 @@ import PreviewRow from '../src/components/Post/PreviewRow'
 import CommonStructuredData from '../src/components/CommonStructuredData'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
-  const isDownMd = useBreakpint()
+  const isDownMd = useBreakpint('md')
 
   const router = useRouter()
   const { locales } = router
@@ -46,26 +46,18 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <CommonStructuredData type="home" />
       {/* <Disclosure /> */}
       <Grid container spacing={15}>
-        <Grid item sm={3}>
-          <InfoCard title={t('whatWeDo')}>
-            <Typography variant="body1">
-              {t('whatWeDoDescript')} <br />
-              <Link href={Routes.about} locale={locale}>
-                --{t('learnMore')}
-              </Link>
-            </Typography>
-          </InfoCard>
-          {isDownMd && (
-            <InfoCard title={t('howWeDo')}>
+        <Grid item sm={3} order={isDownMd ? 1 : 0}>
+          {!isDownMd && (
+            <InfoCard title={t('whatWeDo')}>
               <Typography variant="body1">
-                {t('howWeDoDescript')}
-                <br />
+                {t('whatWeDoDescript')} <br />
                 <Link href={Routes.about} locale={locale}>
                   --{t('learnMore')}
                 </Link>
               </Typography>
             </InfoCard>
           )}
+
           <Divider />
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('latest')}
@@ -81,10 +73,20 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
         </Grid>
-        <Grid item sm={6}>
+        <Grid item sm={6} order={isDownMd ? 0 : 1}>
+          {isDownMd && (
+            <InfoCard sm>
+              <Typography fontSize={12} variant="body1">
+                {t('whatWeDoDescript')} <br />
+                <Link href={Routes.about} locale={locale}>
+                  --{t('learnMore')}
+                </Link>
+              </Typography>
+            </InfoCard>
+          )}
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
-        <Grid item sm={3}>
+        <Grid item sm={3} order={2}>
           <Divider />
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('hottest')}
