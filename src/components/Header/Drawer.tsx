@@ -21,25 +21,27 @@ export default function DrawerComponent(props: Props) {
       <Drawer
         sx={{
           '& .MuiBackdrop-root': {
-            backgroundColor: theme.palette.primary.main,
+            // backgroundColor: theme.palette.primary.main,
             boxShadow: 'none',
+            backgroundColor: 'transparent',
           },
           '& .MuiPaper-root': {
             width: 'calc(100% - 1px)',
             backgroundColor: theme.palette.background.default,
+            marginTop: 80,
           },
         }}
         open={open}
         onClose={onClose}
       >
-        <Box display="flex" alignItems="center" justifyContent={'center'} flexDirection={'column'} paddingTop={'20px'}>
+        {/* <Box display="flex" alignItems="center" justifyContent={'center'} flexDirection={'column'} paddingTop={'20px'}>
           <Typography fontSize={24} fontWeight={700} fontStyle="italic">
             Shareuhack
           </Typography>
           <Typography color={theme.palette.text.secondary} fontStyle="italic" fontSize={16}>
             Hacks for the real life
           </Typography>
-        </Box>
+        </Box> */}
         <Box padding="24px 30px" bgcolor={theme.palette.background.default} height="100%">
           <Typography fontSize={24} fontWeight={700} color={theme.palette.primary.main}>
             Explore
