@@ -26,6 +26,7 @@ export default function DrawerComponent(props: Props) {
           },
           '& .MuiPaper-root': {
             width: 'calc(100% - 1px)',
+            backgroundColor: theme.palette.background.default,
           },
         }}
         open={open}
