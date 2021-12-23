@@ -29,7 +29,7 @@ export default function CommonStructuredData(props: Props) {
       inLanguage: locale || 'en-US',
       name: websiteName,
       url: websiteUrl,
-      about: description,
+      about: 'This website focused on sharing lifehacks for the real life.',
       description: description,
       keywords,
     }
@@ -129,16 +129,22 @@ export default function CommonStructuredData(props: Props) {
 
   return (
     <Head>
-      <script type="application/ld+json">{JSON.stringify(structuredDataOrganization)}</script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataOrganization) }}
+      />
       <script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</script>
       {type === 'post' && structuredDataPost && (
-        <script type="application/ld+json">{JSON.stringify(structuredDataPost)}</script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataPost) }} />
       )}
       {type === 'post' && structuredDataBreadcrumb && (
-        <script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataBreadcrumb) }}
+        />
       )}
       {type === 'post' && structuredDataFaq && (
-        <script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFaq) }} />
       )}
     </Head>
   )
