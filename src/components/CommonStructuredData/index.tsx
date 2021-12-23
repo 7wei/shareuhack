@@ -29,7 +29,7 @@ export default function CommonStructuredData(props: Props) {
       inLanguage: locale || 'en-US',
       name: websiteName,
       url: websiteUrl,
-      about: 'This website focused on sharing lifehacks for the real life.',
+      about: 'This website shares lifehacks for the real life.',
       description: description,
       keywords,
     }
