@@ -133,7 +133,7 @@ export default function CommonStructuredData(props: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataOrganization) }}
       />
-      <script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</script>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataWebsite) }} />
       {type === 'post' && structuredDataPost && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataPost) }} />
       )}
