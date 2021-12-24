@@ -23,6 +23,7 @@ export default function CategoryPage({ category, subCategories }) {
         <title>
           {CMS_NAME} | {t(`categories.${category.key}.title`)}
         </title>
+        <meta name="robots" content="noindex" />
         <meta name="description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
         <meta property="og:description" content={t(`categories.${category.key}.description`)} />

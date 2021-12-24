@@ -22,6 +22,7 @@ export default function SubCategoryPage({ subCategory, posts }) {
         <title>
           {CMS_NAME} | {t(`subCategories.${subCategory.key}.title`)}
         </title>
+        <meta name="robots" content="noindex" />
         <meta name="description" content={t(`subCategories.${subCategory.key}.description`)} />
         <meta property="og:title" content={`${CMS_NAME}-${t(`subCategories.${subCategory.key}.title`)}`} />
         <meta property="og:description" content={t(`subCategories.${subCategory.key}.description`)} />
