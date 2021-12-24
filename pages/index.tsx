@@ -18,7 +18,6 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
   const isDownMd = useBreakpint('md')
 
   const router = useRouter()
-  const { locales } = router
   const { t } = useTranslation('common')
 
   const theme = useTheme()
@@ -34,11 +33,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME} | ${t('pageTitle')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
-
-        {/* <link rel="canonical" href={url} /> */}
       </Head>
       <CommonStructuredData type="home" />
-      {/* <Disclosure /> */}
       <Grid container spacing={15}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
