@@ -5,8 +5,7 @@ import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
-import { useRouter } from 'next/router'
-import { Typography } from '@mui/material'
+import { Typography, Button, Box } from '@mui/material'
 
 export default function About({ post }) {
   const { t } = useTranslation('common')
@@ -24,6 +23,21 @@ export default function About({ post }) {
         {post.title}
       </Typography>
       <PostBody content={post.content} />
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: {
+            xs: 'center',
+            md: 'flex-start',
+          },
+          mt: 30,
+          mb: 60,
+        }}
+      >
+        <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
+          Start Exploring
+        </Button>
+      </Box>
     </>
   )
 }
