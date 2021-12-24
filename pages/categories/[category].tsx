@@ -1,4 +1,4 @@
-import { Grid, Box, Typography, useTheme } from '@mui/material'
+import { Grid, Box, Typography, useTheme, Button } from '@mui/material'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
@@ -71,6 +71,21 @@ export default function CategoryPage({ category, subCategories }) {
             </Typography>
           </Box>
         )}
+      </Box>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: {
+            xs: 'center',
+            md: 'flex-start',
+          },
+          mt: 60,
+          mb: 60,
+        }}
+      >
+        <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
+          Explore More
+        </Button>
       </Box>
     </>
   )

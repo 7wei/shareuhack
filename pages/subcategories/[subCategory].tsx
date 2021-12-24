@@ -1,4 +1,4 @@
-import { Grid, Box, Typography } from '@mui/material'
+import { Grid, Box, Typography, Button } from '@mui/material'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { getSubCategoryPosts, getAllSubCategoryPaths } from '../../lib/api'
 import { SubCategories, SubCategory, Routes, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
@@ -59,6 +59,21 @@ export default function SubCategoryPage({ subCategory, posts }) {
             </Grid>
           ))}
         </Grid>
+      </Box>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: {
+            xs: 'center',
+            md: 'flex-start',
+          },
+          mt: 60,
+          mb: 60,
+        }}
+      >
+        <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
+          Explore More
+        </Button>
       </Box>
     </>
   )

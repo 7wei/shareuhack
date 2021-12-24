@@ -30,7 +30,7 @@ export default function About({ post }) {
             xs: 'center',
             md: 'flex-start',
           },
-          mt: 30,
+          mt: 60,
           mb: 60,
         }}
       >
