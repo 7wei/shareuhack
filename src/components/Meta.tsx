@@ -1,18 +1,33 @@
 import Head from 'next/head'
 
+import { useRouter } from 'next/router'
+
+const localeWhiteList = ['zh-TW', 'en-US', 'ja-JP']
+
 export default function Meta() {
+  const { locale, locales, asPath } = useRouter()
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + asPath
+
   return (
     <Head>
-      {/* <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" /> */}
-      {/* <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" /> */}
-      {/* <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" /> */}
-      <link rel="manifest" href="/favicon/site.webmanifest" />
-      {/* <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000" /> */}
+      <meta property="og:site_name" content="Shareuhack" />
+      <meta property="og:locale" content={locale} />
+      <meta property="og:url" content={canonicalUrl} />
+
+      {locale && !localeWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
+      {/* <link rel="manifest" href="/favicon/site.webmanifest" /> */}
       <link rel="shortcut icon" href="/assets/favicon.ico" />
-      {/* <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-      <meta name="theme-color" content="#000" /> */}
-      {/* <link rel="alternate" type="application/rss+xml" href="/feed.xml" /> */}
+      {locales?.map((locale) => (
+        <link
+          key={locale}
+          rel="alternate"
+          hrefLang={locale}
+          href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
+        />
+      ))}
+
+      <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
+      <link rel="canonical" href={canonicalUrl} />
     </Head>
   )
 }

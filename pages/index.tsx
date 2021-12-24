@@ -31,16 +31,10 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </title>
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        <meta property="og:locale" content={locale} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME} | ${t('pageTitle')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
-        <meta property="og:url" content={process.env.NEXT_PUBLIC_BASE_URL} />
-        <meta property="og:site_name" content="Shareuhack" />
-        {locales.map((locale, idx) => (
-          <link key={idx} rel="alternate" hrefLang={locale} href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale} />
-        ))}
-        <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_BASE_URL} />
+
         {/* <link rel="canonical" href={url} /> */}
       </Head>
       <CommonStructuredData type="home" />

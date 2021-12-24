@@ -38,12 +38,11 @@ const CategoryCard = styled(Box)(({ theme }) => ({
   },
 }))
 
-export default function Post({ post, morePosts, preview, category, subCategory, relatedPosts }) {
+export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
-  const { locale, locales } = router
+  const { locale, locales, asPath, pathname } = router
   const isDownMd = useBreakpoint('md')
-  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`
-  // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/' + canonicalLocale(locale) + `/posts/${post.slug}`
+  const url = asPath + '/' + locale + pathname
   const { t } = useTranslation('common')
   const theme = useTheme()
 
@@ -82,6 +81,7 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <title>
               {CMS_NAME} | {post.title}
             </title>
+
             <meta name="description" content={post.description || post.excerpt} />
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.description || post.excerpt} />
@@ -91,16 +91,6 @@ export default function Post({ post, morePosts, preview, category, subCategory, 
             <meta property="og:url" content={url} />
             <meta property="og:site_name" content="Shareuhack" />
 
-            {locales.map((locale) => (
-              <link
-                key={locale}
-                rel="alternate"
-                hrefLang={locale}
-                href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/posts/${post.slug}`}
-              />
-            ))}
-
-            {/* <link rel="canonical" href={canonicalUrl} /> */}
             <script
               dangerouslySetInnerHTML={{
                 __html: `(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){

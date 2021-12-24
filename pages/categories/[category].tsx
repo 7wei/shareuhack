@@ -14,7 +14,7 @@ import { useRouter } from 'next/router'
 export default function CategoryPage({ category, subCategories }) {
   const matches = useBreakpoint()
   const { t } = useTranslation('common')
-  const { locale, locales } = useRouter()
+  const { locale } = useRouter()
   const theme = useTheme()
 
   return (
@@ -27,20 +27,6 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
         <meta property="og:description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        {locales.map((locale, idx) => (
-          <link
-            key={idx}
-            rel="alternate"
-            hrefLang={locale}
-            href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/categories/${category.key}`}
-          />
-        ))}
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={process.env.NEXT_PUBLIC_BASE_URL + `/categories/${category.key}`}
-        />
-        {/* <link rel="canonical" href={canonicalUrl} /> */}
       </Head>
       {/* <Disclosure /> */}
       <Grid container>

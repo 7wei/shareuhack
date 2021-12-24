@@ -26,20 +26,6 @@ export default function SubCategoryPage({ subCategory, posts }) {
         <meta property="og:title" content={`${CMS_NAME}-${t(`subCategories.${subCategory.key}.title`)}`} />
         <meta property="og:description" content={t(`subCategories.${subCategory.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        {locales.map((locale) => (
-          <link
-            key={locale}
-            rel="alternate"
-            hrefLang={locale}
-            href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + `/subcategories/${subCategory.key}`}
-          />
-        ))}
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={process.env.NEXT_PUBLIC_BASE_URL + `/subcategories/${subCategory.key}`}
-        />
-        {/* <link rel="canonical" href={url} /> */}
       </Head>
       {/* <Disclosure /> */}
       <Grid container>
