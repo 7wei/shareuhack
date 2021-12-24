@@ -22,8 +22,16 @@ module.exports = {
   alternateRefs: [],
   // Default transformation function
   transform: async (config, path) => {
+    // if (path.includes('zh-MO') || path.includes('zh-HK') || path.includes('en-GB') || path.includes('en-SG')) {
+    //   return
+    // }
+
+    if (path !== '/' && !path.includes('zh-TW')) {
+      return
+    }
+
     return {
-      loc: path, // => this will be exported as http(s)://<config.siteUrl>/<path>
+      loc: path.replace('/zh-TW', ''), // => this will be exported as http(s)://<config.siteUrl>/<path>
       changefreq: config.changefreq,
       priority: getPriority(path),
       lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
