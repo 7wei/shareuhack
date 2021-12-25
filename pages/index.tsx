@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -17,9 +16,7 @@ import CommonStructuredData from '../src/components/CommonStructuredData'
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const isDownMd = useBreakpint('md')
 
-  const router = useRouter()
   const { t } = useTranslation('common')
-
   const theme = useTheme()
 
   return (
@@ -65,7 +62,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={6} order={isDownMd ? 0 : 1}>
           {isDownMd && (
-            <InfoCard sm>
+            <InfoCard>
               <Typography fontSize={12} variant="body1">
                 {t('whatWeDoDescript')} <br />
                 <Link href={Routes.about} locale={locale}>

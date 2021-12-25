@@ -175,7 +175,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </a> */}
               </Box>
             </Grid>
-            <Grid item sm={9} xs={12} order={isDownMd ? 0 : 1}>
+            <Grid item md={9} xs={12} order={isDownMd ? 0 : 1}>
               <Box sx={{ wordWrap: 'break-word' }}>
                 <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
                   {post.title}

@@ -4,6 +4,7 @@ import { formattedDate } from '../../utils/index'
 import theme from '../../theme/index'
 import { useRouter } from 'next/router'
 import Link from '../../components/Link/Link'
+import useBreakpoint from 'hooks/useBreakpoint'
 
 export default function PostPreview({
   title,
@@ -21,10 +22,18 @@ export default function PostPreview({
   simple?: boolean
 }) {
   const { locale } = useRouter()
+  const isDownMd = useBreakpoint('md')
 
   return (
     <>
-      <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} alt={excerpt} />
+      <CoverImage
+        slug={slug}
+        title={title}
+        src={coverImage}
+        height={isDownMd ? 165 : 194}
+        width={isDownMd ? 330 : 388}
+        alt={excerpt}
+      />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
         <Box sx={{ wordWrap: 'break-word' }}>
           <Typography fontSize={18} fontWeight={500} mt="5px" component="h3">
