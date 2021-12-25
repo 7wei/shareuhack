@@ -25,10 +25,10 @@ export default function Link(props: Props) {
         sx={{
           color: color || theme.palette.primary.main,
           textDecoration: 'none',
-          '&:hover': {
-            color: theme.palette.primary.main,
-            textDecoration: 'none',
-          },
+          // '&:hover': {
+          //   color: theme.palette.primary.main,
+          //   textDecoration: 'none',
+          // },
         }}
       >
         {children}
