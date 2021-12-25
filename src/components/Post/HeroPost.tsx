@@ -4,6 +4,7 @@ import Divider from '../Divider/Divider'
 import { useRouter } from 'next/router'
 import Link from '../../components/Link/Link'
 import { theme } from 'theme'
+import useBreakpoint from 'hooks/useBreakpoint'
 
 export default function HeroPost({
   title,
@@ -19,10 +20,19 @@ export default function HeroPost({
   relatedPosts: Array<any>
 }) {
   const { locale } = useRouter()
+  const isDownMd = useBreakpoint('md')
 
   return (
     <section>
-      <CoverImage title={title} src={coverImage} slug={slug} height={627} width={1200} alt={excerpt} />
+      <CoverImage
+        title={title}
+        src={coverImage}
+        slug={slug}
+        height={isDownMd ? 172 : 308}
+        width={isDownMd ? 330 : 590}
+        alt={excerpt}
+        priority
+      />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
         <Typography variant="h4" mt="8px" mb="8px" component="h3">
           {title}

@@ -8,6 +8,7 @@ export default function CoverImage({
   height,
   width,
   alt,
+  priority,
 }: {
   title: string
   src: string
@@ -15,8 +16,9 @@ export default function CoverImage({
   height: string | number
   width: string | number
   alt: string
+  priority?: boolean
 }) {
-  const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} />
+  const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} priority={priority} />
   return (
     <div>
       {slug ? (

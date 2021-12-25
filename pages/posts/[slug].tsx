@@ -108,7 +108,6 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           </Head>
           <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
 
-          <CoverImage title={post.title} alt={post.excerpt} src={post.coverImage} height={627} width={1200} />
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale}>
@@ -120,16 +119,8 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             </Breadcrumbs>
           )}
 
-          <Box sx={{ wordWrap: 'break-word' }}>
-            <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
-              {post.title}
-            </Typography>
-          </Box>
-          <Typography color={theme.palette.primary.main} mb="15px">
-            Updated at {formattedDate(post.date)}
-          </Typography>
           <Grid container>
-            <Grid item md={3} xs={12} sm={12}>
+            <Grid item md={3} xs={12} sm={12} order={isDownMd ? 1 : 0}>
               <Box mr={isDownMd ? '15px' : '45px'} pt={isDownMd ? '0px' : '15px'}>
                 {post.credentials && post.credentials.length > 0 && (
                   <InfoCard title={t('beforewriting')}>
@@ -140,55 +131,69 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                     </ol>
                   </InfoCard>
                 )}
-                {!isDownMd && (
-                  <>
-                    {post.recommendations && post.recommendations.length > 0 && (
-                      <InfoCard title={t('Recommendations')}>
-                        <ol>
-                          {post.recommendations?.map((recommendation, idx) => (
-                            <li key={idx}>
-                              {recommendation.title}
-                              <br />
-                              <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
-                                {` → ${recommendation.src}`}
-                              </Link>
-                            </li>
-                          ))}
-                        </ol>
-                      </InfoCard>
-                    )}
 
-                    {post.references && post.references.length > 0 && (
-                      <InfoCard title={t('References')}>
-                        <ol>
-                          {post.references?.map((reference, idx) => (
-                            <li key={idx}>
-                              <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
-                                {reference.title}
-                              </Link>
-                            </li>
-                          ))}
-                        </ol>
-                      </InfoCard>
-                    )}
-
-                    <Divider />
-                    <Typography variant="body1" mt="15px" mb="10px">
-                      {t('sharePost')}
-                    </Typography>
-                    <Shares />
-                  </>
+                {post.recommendations && post.recommendations.length > 0 && (
+                  <InfoCard title={t('Recommendations')}>
+                    <ol>
+                      {post.recommendations?.map((recommendation, idx) => (
+                        <li key={idx}>
+                          {recommendation.title}
+                          <br />
+                          <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
+                            {` → ${recommendation.src}`}
+                          </Link>
+                        </li>
+                      ))}
+                    </ol>
+                  </InfoCard>
                 )}
+
+                {post.references && post.references.length > 0 && (
+                  <InfoCard title={t('References')}>
+                    <ol>
+                      {post.references?.map((reference, idx) => (
+                        <li key={idx}>
+                          <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
+                            {reference.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ol>
+                  </InfoCard>
+                )}
+
+                <Divider />
+                <Typography variant="body1" mt="15px" mb="10px">
+                  {t('sharePost')}
+                </Typography>
+                <Shares />
+
                 {/* <a href="https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202109">
                   <img src="https://ap.books.com.tw/web/apProductStick/0010825895/blue/0/7" />
                 </a> */}
               </Box>
             </Grid>
-            <Grid item sm={9} xs={12}>
+            <Grid item sm={9} xs={12} order={isDownMd ? 0 : 1}>
+              <Box sx={{ wordWrap: 'break-word' }}>
+                <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
+                  {post.title}
+                </Typography>
+              </Box>
+              <Typography color={theme.palette.primary.main} mb="15px">
+                Updated at {formattedDate(post.date)}
+              </Typography>
+              <CoverImage
+                title={post.title}
+                alt={post.excerpt}
+                src={post.coverImage}
+                height={isDownMd ? 172 : 330}
+                width={isDownMd ? 330 : 895}
+              />
+
               <PostBody content={post.content} />
             </Grid>
           </Grid>
-          {isDownMd && (
+          {/* {isDownMd && (
             <>
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard title={t('Recommendations')}>
@@ -220,7 +225,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </InfoCard>
               )}
             </>
-          )}
+          )} */}
           <Box pb="30px" maxWidth={580} margin="0 auto">
             <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
           </Box>
