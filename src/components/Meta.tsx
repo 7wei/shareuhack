@@ -13,6 +13,7 @@ export default function Meta() {
       <meta property="og:site_name" content="Shareuhack" />
       <meta property="og:locale" content={locale} />
       <meta property="og:url" content={canonicalUrl} />
+      <meta property="article:publisher" content="https://www.facebook.com/shareuhack" />
 
       {locale && !localeWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
       {/* <link rel="manifest" href="/favicon/site.webmanifest" /> */}
