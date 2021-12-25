@@ -92,7 +92,9 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="og:site_name" content="Shareuhack" />
 
             {post.keywords &&
-              post.keywords.split(', ').map((keyword) => <meta property="article:tag" content={keyword} />)}
+              post.keywords
+                .split(', ')
+                .map((keyword) => <meta key={keyword} property="article:tag" content={keyword} />)}
 
             <script
               dangerouslySetInnerHTML={{
@@ -188,6 +190,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 src={post.coverImage}
                 height={isDownMd ? 172 : 468}
                 width={isDownMd ? 330 : 896}
+                priority
               />
 
               <PostBody content={post.content} />
