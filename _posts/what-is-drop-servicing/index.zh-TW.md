@@ -9,6 +9,24 @@ ogImage:
   url: '/assets/posts/what-is-drop-servicing/cover.jpg'
 credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
 widget: ['fiverr']
+faqs:
+  [
+    {
+      question: '什麼是Drop servicing?',
+      answer: 'Drop Servicing主旨是販售服務，無論是產品或服務，都不用創業者自己提供，僅僅扮演著「中間人」的角色，將「服務提供方」和「服務需求方」串連起來。'
+    },
+    {
+      question: 'Drop servicing的優點',
+      answer: '1.可以很有效率、低成本的啟動、實驗新的事業
+               2.專注在行銷，不需投注太多心力在產品或服務的提供'
+    },
+    {
+      question: 'Drop servicing的缺點',
+      answer: '1.服務非自己提供，多一層溝通，客服的反應無法很即時
+               2. 針對服務本身非專業，較難評估和管控接案者的品質和交付時間
+               3. 好複製、門檻相對低'
+    },
+  ]
 ---
 
 你或許聽過 Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。

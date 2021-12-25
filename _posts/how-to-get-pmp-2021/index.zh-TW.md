@@ -64,6 +64,10 @@ faqs:
       question: 'PMP的作用',
       answer: '它的作用在於可以幫助專案管理人員系統性學習項目管理思維，以及專案管理所用到的工具的方法，使工作能力得到提升，同時也是屬於含金量較高的證照之一，有助於求職升遷。'
     },
+    {
+      question: '如何考取PMP證照?',
+      answer: '1. 確認是否夠資格 2. 確認PMI提供的官方考試資訊 3. 成為PMI會員獲取免費PMBOK檔案 4. 透過線上課程獲取必要的35 PDUs 5. 多練習和做模擬試題 6. 詢問已經通過PMP考試的人'
+    },
   ]
 ---
 
@@ -134,7 +138,6 @@ PMI會持續的觀察和分析專案經理的工作內容和方式，並回顧�
 PMBOK 6和7主要的差別在於，相對於第六版著重於專案管理過程的十個知識領域(Integration、Scope、Schedule、Cost、Quality、Resource、Communications、Risk、Procurement、Stakeholder)，第七版改為強調整整體的成效(Team、Stakeholders、Life cycle、Planning、Uncertainty and ambiguity、Delivery、Performance、Project work)
 
 ## 準備方法
-
 
 如何應對新版考試，該如何準備呢?
 

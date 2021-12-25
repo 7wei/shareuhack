@@ -36,7 +36,51 @@ references:
 #   ]
 keywords: 'Blinkist, reading'
 description: 'APP評論: Blinkist-超高效率閱讀學習工具'
-about: 'Blinkist'
+about: '這篇文章介紹Blinkist - 一個可讓你花15分鐘，獲得一整本書精華的APP'
+faqs: [
+    {
+      question: 'Blinkist適合怎樣的人',
+      answer: '1. 熱愛閱讀和學習新知識 2. 忙碌沒時間閱讀 3. 喜歡利用零碎時間閱讀的人'
+    },
+    {
+      question: 'Blinkist有些分類',
+      answer: '* 職場與成功 (Career & Success)
+* 正念與幸福 (Mindfulness & Happiness)
+* 育兒 (Parenting)
+* 社會與文化 (Society & Culture)
+* 性與關係 (Sex & Relationships)
+* 科學 (Science)
+* 宗教與心靈 (Religion & Spirituality)
+* 心理學 (Psychology)
+* 生產力 (Productivity)
+* 政治 (Politics)
+* 管理與領導力 (Management & Leadership)
+* 個人成長 (Personal Development)
+* 自然與環境 (Nature & Environment)
+* 動機與靈感 (Motivation & Inspiration)
+* 金錢與投資 (Money & Investments)
+* 市場與銷售 (Marketing & Sales)
+* 哲學 (Philosophy)
+* 歷史 (Philosophy)
+* 健康與營養 (Health & Nutrition)
+* 創業 (Entrepreneurship)
+* 教育 (Education)
+* 經濟學 (Economics)
+* 創造力 (Creativity)
+* 企業文化 (Corporate Culture)
+* 溝通技巧 (Communication skills)
+* 技術與未來 (Technology & the Future)
+* 傳記與回憶錄 (Biography & Memoir)'
+    },
+    {
+      question: 'Blinkist的優點',
+      answer: '1.每本書被濃縮成15分鐘的內容，非常有效率。 2.簡潔有力的統整key takeaways和actionable advice 3.每本書都是有聲書，也有優質的podcast節目，運動、通勤時間用聽的也很方便。 4.良好的使用者體驗。 5.可以將文章寄至kindle'
+    }
+    {
+      question: 'Blinkist的缺點',
+      answer: '1.只擷取重點，移除了感性的內容，相對理性。 2.有些書實在是無法濃縮成15min的內容，但只看Blinkist，會無法判斷是否漏掉了一些原作想要傳達的訊息。'
+    }
+]
 ---
 
 <!-- zh-TW -->
