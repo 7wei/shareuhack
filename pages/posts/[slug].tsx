@@ -186,8 +186,8 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 title={post.title}
                 alt={post.excerpt}
                 src={post.coverImage}
-                height={isDownMd ? 172 : 330}
-                width={isDownMd ? 330 : 895}
+                height={isDownMd ? 172 : 468}
+                width={isDownMd ? 330 : 896}
               />
 
               <PostBody content={post.content} />
