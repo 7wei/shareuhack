@@ -44,6 +44,7 @@ related:
 keywords: 'OTA, agoda, booking.com, ctrip, expedia'
 description: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
 about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
+faqs:
   [
     {
       question: '什麼是OTA',
