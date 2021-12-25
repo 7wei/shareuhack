@@ -34,7 +34,7 @@ references:
 #     'related-post-slug-2',
 #     'related-post-slug-3',
 #   ]
-keywords: 'Blinkist, reading'
+keywords: 'Blinkist, reading APP, 閱讀APP'
 description: 'APP評論: Blinkist-超高效率閱讀學習工具'
 about: '這篇文章介紹Blinkist - 一個可讓你花15分鐘，獲得一整本書精華的APP'
 faqs:

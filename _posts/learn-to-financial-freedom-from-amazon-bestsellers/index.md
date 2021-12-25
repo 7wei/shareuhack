@@ -7,6 +7,7 @@ excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article s
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:
   url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+keywords: '財富自由, financial, 財務管理技巧'
 recommendations:
   [
     {

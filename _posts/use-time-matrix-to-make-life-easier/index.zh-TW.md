@@ -7,6 +7,7 @@ excerpt: '從基層升上管理層之後，許多人面對手上做不完的工�
 coverImage: '/assets/posts/use-time-matrix-to-make-life-easier/cover.jpg'
 ogImage:
   url: '/assets/posts/use-time-matrix-to-make-life-easier/cover.jpg'
+keywords: 'Time matrix, Management, 管理, 生產力'
 recommendations:
   [
     {

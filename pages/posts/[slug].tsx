@@ -91,6 +91,9 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="og:url" content={url} />
             <meta property="og:site_name" content="Shareuhack" />
 
+            {post.keywords &&
+              post.keywords.split(', ').map((keyword) => <meta property="article:tag" content={keyword} />)}
+
             <script
               dangerouslySetInnerHTML={{
                 __html: `(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){

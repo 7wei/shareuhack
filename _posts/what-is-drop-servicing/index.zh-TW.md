@@ -9,6 +9,7 @@ ogImage:
   url: '/assets/posts/what-is-drop-servicing/cover.jpg'
 credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
 widget: ['fiverr']
+keywords: 'Drop servicing, entrepreneurship, 創業, 一人公司'
 faqs:
   [
     {

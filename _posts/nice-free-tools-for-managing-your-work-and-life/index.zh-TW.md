@@ -34,7 +34,7 @@ related:
     'blinkist-an-efficient-way-to-get-key-ideas',
     'use-time-matrix-to-make-life-easier',
   ]
-keywords: '專案管理, PM, Slack, Trello, project management tools, '
+keywords: '專案管理, PM, Slack, Trello, 專案管理工具'
 description: '這篇文章介紹免費且實用的專案管理工具，無論是職場上、管理規劃自己的生活，都非常好用！'
 about: '這篇文章介紹免費且實用的專案管理工具，無論是職場上、管理規劃自己的生活，都非常好用！'
 ---

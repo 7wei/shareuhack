@@ -31,6 +31,7 @@ references:
     { title: 'PTT-Oversea_Job', link: 'https://www.ptt.cc/bbs/Oversea_Job/index.html' },
   ]
 # related: []
+keywords: 'Front-end development, 前端開發, 前端工程師, 前端課程'
 ---
 
 這篇文章分享無經驗菜鳥，如何轉職成為一個前端工程師，這邊定義的前端工程師．是必須要有一定的程式碼品質，且熟悉一個前端框架，在求職市場上有一定競爭力的前端工程師。
