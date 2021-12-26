@@ -41,9 +41,9 @@ const CategoryCard = styled(Box)(({ theme }) => ({
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
-  const { locale, locales, asPath, pathname } = router
+  const { locale, asPath } = router
   const isDownMd = useBreakpoint('md')
-  const url = asPath + '/' + locale + pathname
+  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath
   const { t } = useTranslation('common')
   const theme = useTheme()
 
@@ -87,10 +87,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.description || post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
-            <meta property="og:locale" content={locale} />
             <meta property="og:type" content="article" />
-            <meta property="og:url" content={url} />
-            <meta property="og:site_name" content="Shareuhack" />
 
             {post.keywords &&
               post.keywords
