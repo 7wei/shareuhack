@@ -6,14 +6,15 @@ import { useRouter } from 'next/router'
 import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@mui/icons-material'
-
-import Drawer from './Drawer'
+import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
+
+const Drawer = dynamic(() => import('./Drawer'))
 
 export default function Header() {
   const { t } = useTranslation('common')
   const { locale } = useRouter()
-  const matches = useBreakpint()
+  const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
   const theme = useTheme()
 
@@ -37,7 +38,7 @@ export default function Header() {
       }}
     >
       <Toolbar sx={{ padding: 0 }}>
-        <Box visibility={matches ? 'visible' : 'hidden'}>
+        <Box visibility={isDownMd ? 'visible' : 'hidden'}>
           <IconButton
             color="inherit"
             aria-label="Menu"
@@ -53,11 +54,11 @@ export default function Header() {
 
         <Box display="flex" alignItems="center" flexDirection={'column'} gap={0} flexGrow={1}>
           <Link href="/" locale={locale} color={theme.palette.text.primary}>
-            <Typography fontSize={matches ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
+            <Typography fontSize={isDownMd ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
               Shareuhack
             </Typography>
           </Link>
-          {!matches && (
+          {!isDownMd && (
             <Typography color={theme.palette.text.secondary} fontStyle="italic" fontSize={16}>
               Hacks for the real life
             </Typography>
@@ -67,7 +68,7 @@ export default function Header() {
           <LanguageSelector />
         </Box>
       </Toolbar>
-      {matches ? (
+      {isDownMd ? (
         <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
       ) : (
         <Box display="flex" alignItems="center" justifyContent="center" gap={24} mt={20} mb={15}>

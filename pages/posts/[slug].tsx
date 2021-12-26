@@ -21,6 +21,7 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
+import ReactLazyHydrate from 'react-lazy-hydration'
 
 const CategoryCard = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -229,37 +230,43 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               )}
             </>
           )} */}
-          <Box pb="30px" maxWidth={580} margin="0 auto">
-            <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
-          </Box>
-          <Divider color={theme.palette.primary.main} />
+          <ReactLazyHydrate whenVisible>
+            <Box pb="30px" maxWidth={580} margin="0 auto">
+              <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
+            </Box>
+          </ReactLazyHydrate>
+          <ReactLazyHydrate whenVisible>
+            <>
+              <Divider color={theme.palette.primary.main} />
 
-          <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="15px">
-              Related hacks
-            </Typography>
-            <Grid spacing={15} container>
-              {relatedPosts.map((post) => (
-                <Grid key={post.title} item xs={12} sm={4}>
-                  <PostPreview {...post} simple />
+              <Box mt="30px" mb="30px" padding="0 20px">
+                <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="15px">
+                  Related hacks
+                </Typography>
+                <Grid spacing={15} container>
+                  {relatedPosts.map((post) => (
+                    <Grid key={post.title} item xs={12} sm={4}>
+                      <PostPreview {...post} simple />
+                    </Grid>
+                  ))}
                 </Grid>
-              ))}
-            </Grid>
-          </Box>
-          <Box mt="30px" mb="30px" padding="0 20px">
-            <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="30px">
-              Discover More...
-            </Typography>
-            <Grid spacing={10} container>
-              {NavLinks.map((link, idx) => (
-                <Grid item key={idx} xs={6} sm={3}>
-                  <Link href={link.link}>
-                    <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
-                  </Link>
+              </Box>
+              <Box mt="30px" mb="30px" padding="0 20px">
+                <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="30px">
+                  Discover More...
+                </Typography>
+                <Grid spacing={10} container>
+                  {NavLinks.map((link, idx) => (
+                    <Grid item key={idx} xs={6} sm={3}>
+                      <Link href={link.link}>
+                        <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
+                      </Link>
+                    </Grid>
+                  ))}
                 </Grid>
-              ))}
-            </Grid>
-          </Box>
+              </Box>
+            </>
+          </ReactLazyHydrate>
         </>
       )}
     </>

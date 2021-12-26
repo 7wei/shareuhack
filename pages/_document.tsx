@@ -7,7 +7,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta property="og:site_name" content="Shareuhack: Hacks for the real life" />
           {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link
@@ -37,7 +36,8 @@ export default class MyDocument extends Document {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script> */}
 
-          <script
+          {/* Hotjar */}
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `(function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}
@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
             a.appendChild(r);
           })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
             }}
-          />
+          /> */}
           {/*
           <script
             dangerouslySetInnerHTML={{

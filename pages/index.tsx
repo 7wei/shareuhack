@@ -12,6 +12,7 @@ import useBreakpint from '../src/hooks/useBreakpoint'
 import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import CommonStructuredData from '../src/components/CommonStructuredData'
+import ReactLazyHydrate from 'react-lazy-hydration'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const isDownMd = useBreakpint('md')
@@ -106,15 +107,17 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       {categories.map(({ key, posts, link }) => {
         if (posts.length > 0) {
           return (
-            <Box key={key} mb="15px" mt="15px">
-              <Divider primary />
-              <PreviewRow
-                category={t(`categories.${key}.title`)}
-                description={t(`categories.${key}.description`)}
-                posts={posts}
-                link={link}
-              />
-            </Box>
+            <ReactLazyHydrate key={key} whenVisible>
+              <Box mb="15px" mt="15px">
+                <Divider primary />
+                <PreviewRow
+                  category={t(`categories.${key}.title`)}
+                  description={t(`categories.${key}.description`)}
+                  posts={posts}
+                  link={link}
+                />
+              </Box>
+            </ReactLazyHydrate>
           )
         }
       })}
