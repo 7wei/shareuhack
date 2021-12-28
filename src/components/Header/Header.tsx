@@ -8,6 +8,7 @@ import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@mui/icons-material'
 import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
+import Image from 'next/image'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
@@ -54,12 +55,13 @@ export default function Header() {
 
         <Box display="flex" alignItems="center" flexDirection={'column'} gap={0} flexGrow={1}>
           <Link href="/" locale={locale} color={theme.palette.text.primary}>
-            <Typography fontSize={isDownMd ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
+            {/* <Typography fontSize={isDownMd ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
               Shareuhack
-            </Typography>
+            </Typography> */}
+            <Image src="/assets/brand/shareuhack.svg" width={240} height={42} />
           </Link>
           {!isDownMd && (
-            <Typography color={theme.palette.text.secondary} fontStyle="italic" fontSize={16}>
+            <Typography color={theme.palette.primary.main} fontStyle="italic" fontSize={16}>
               Hacks for the real life
             </Typography>
           )}
@@ -78,7 +80,7 @@ export default function Header() {
                 sx={{
                   fontSize: 16,
                   textDecoration: 'none',
-                  color: theme.palette.primary.contrastText,
+                  color: theme.palette.text.primary,
                   position: 'relative',
                   '&:hover': {
                     textDecoration: 'none',

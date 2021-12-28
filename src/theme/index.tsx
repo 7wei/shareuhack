@@ -10,33 +10,33 @@ interface Height {
   footer: string
 }
 
-interface TextColor {
-  text1: string
-  text2: string
-  text3: string
-  text4: string
-  text5: string
-  primary: string
-}
+// interface TextColor {
+//   text1: string
+//   text2: string
+//   text3: string
+//   text4: string
+//   text5: string
+//   primary: string
+// }
 
-interface BgColor {
-  bg1: string
-  bg2: string
-  bg3: string
-  bg4: string
-  bg5: string
-}
+// interface BgColor {
+//   bg1: string
+//   bg2: string
+//   bg3: string
+//   bg4: string
+//   bg5: string
+// }
 
 declare module '@mui/material/styles' {
   interface Theme {
-    textColor: TextColor
-    bgColor: BgColor
+    // textColor: TextColor
+    // bgColor: BgColor
     gradient: Gradient
     height: Height
   }
   interface DeprecatedThemeOptions {
-    textColor: TextColor
-    bgColor: BgColor
+    // textColor: TextColor
+    // bgColor: BgColor
     gradient: Gradient
     height: Height
   }
@@ -44,20 +44,20 @@ declare module '@mui/material/styles' {
 
 declare module '@mui/material/styles/createTheme' {
   interface DeprecatedThemeOptions {
-    textColor: TextColor
-    bgColor: BgColor
+    // textColor: TextColor
+    // bgColor: BgColor
     gradient: Gradient
     height: Height
   }
   interface ThemeOptions {
-    textColor: TextColor
-    bgColor: BgColor
+    // textColor: TextColor
+    // bgColor: BgColor
     gradient: Gradient
     height: Height
   }
   interface Theme {
-    textColor: TextColor
-    bgColor: BgColor
+    // textColor: TextColor
+    // bgColor: BgColor
     gradient: Gradient
     height: Height
   }
@@ -67,7 +67,7 @@ export const theme = {
   palette: {
     primary: {
       light: '#2E2247',
-      main: '#9867FF',
+      main: '#00a651',
       dark: '#7433FF',
       contrastText: '#FFFFFF',
     },
@@ -75,16 +75,16 @@ export const theme = {
       light: '#1D152D',
       main: '#211735',
       dark: '#3E276B',
-      contrastText: '#9867FF',
+      contrastText: '#00a651',
     },
     error: {
       main: '#F53030',
     },
     warning: {
-      main: '#9867FF',
+      main: '#00a651',
     },
     info: {
-      main: '#9867FF',
+      main: '#00a651',
     },
     success: {
       main: '#2DAB50',
@@ -92,11 +92,15 @@ export const theme = {
     background: {
       default: '#1C1C1F',
       paper: '#191919',
+      // default: '#FFFFFF',
+      // paper: 'rgba(255,255,255,0.6)',
     },
     text: {
       primary: '#FFFFFF',
       secondary: 'rgba(255,255,255,0.6)',
-      disabled: '#999999',
+      // disabled: '#999999',
+      // primary: '#1C1C1F',
+      // secondary: '#191919',
     },
     action: {
       disabledOpacity: 0.8,
@@ -114,15 +118,15 @@ export const theme = {
     text3: '#999999',
     text4: '#727272',
     text5: '#333333',
-    primary: '#9867FF',
+    primary: '#00a651',
   },
-  bgColor: {
-    bg1: '#000000',
-    bg2: '#191919',
-    bg3: '#252525',
-    bg4: '#303030',
-    bg5: '#A1A1A1',
-  },
+  // bgColor: {
+  //   bg1: '#000000',
+  //   bg2: '#191919',
+  //   bg3: '#252525',
+  //   bg4: '#303030',
+  //   bg5: '#A1A1A1',
+  // },
   gradient: {
     gradient1: '#000000 linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
   },
@@ -149,19 +153,19 @@ export const theme = {
 
 export const override: any = {
   MuiCssBaseline: {
-    // styleOverrides: {
-    //   body: { backgroundColor: '#1C1C1F', fontSize: 16 },
-    //   'html, input, textarea, button': {
-    //     fontFamily: 'Noto Sans, sans-serif',
-    //     fontDisplay: 'fallback',
-    //   },
-    //   '@supports (font-variation-settings: normal)': {
-    //     'html, input, textarea, button ': {
-    //       fontFamily: 'Noto Sans, sans-serif',
-    //       fontDisplay: 'fallback',
-    //     },
-    //   },
-    // },
+    styleOverrides: {
+      body: { backgroundColor: '#FFFFFF', fontSize: 16 },
+      'html, input, textarea, button': {
+        fontFamily: 'Noto Sans, sans-serif',
+        fontDisplay: 'fallback',
+      },
+      '@supports (font-variation-settings: normal)': {
+        'html, input, textarea, button ': {
+          fontFamily: 'Noto Sans, sans-serif',
+          fontDisplay: 'fallback',
+        },
+      },
+    },
   },
   MuiButton: {
     styleOverrides: {

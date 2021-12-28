@@ -39,14 +39,14 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             <InfoCard title={t('whatWeDo')}>
               <Typography variant="body1">
                 {t('whatWeDoDescript')} <br />
-                <Link href={Routes.about} locale={locale}>
+                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
                   --{t('learnMore')}
                 </Link>
               </Typography>
             </InfoCard>
           )}
 
-          <Divider />
+          {/* <Divider primary /> */}
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('latest')}
           </Typography>
@@ -66,7 +66,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             <InfoCard>
               <Typography fontSize={12} variant="body1">
                 {t('whatWeDoDescript')} <br />
-                <Link href={Routes.about} locale={locale}>
+                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
                   --{t('learnMore')}
                 </Link>
               </Typography>
@@ -75,7 +75,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
         <Grid item sm={3} order={2}>
-          <Divider />
+          {/* <Divider primary /> */}
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('hottest')}
           </Typography>
@@ -96,7 +96,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
               <Typography variant="body1">
                 {t('howWeDoDescript')}
                 <br />
-                <Link href={Routes.about} locale={locale}>
+                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
                   --{t('learnMore')}
                 </Link>
               </Typography>

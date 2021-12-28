@@ -13,7 +13,7 @@ export default function InfoCard(props: Props) {
   return (
     <Box
       sx={{
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: theme.palette.primary.main,
         padding: 15,
         marginBottom: 15,
         borderRadius: '5px',
