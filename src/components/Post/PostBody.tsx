@@ -7,8 +7,8 @@ export default function PostBody({ content }: { content: string }) {
     <Box
       sx={{
         '& blockquote': {
-          color: theme.textColor.text2,
-          borderLeft: `3px solid ${theme.textColor.text2}`,
+          color: theme.palette.text.secondary,
+          borderLeft: `3px solid ${theme.palette.text.secondary}`,
           paddingLeft: 9,
           margin: 0,
         },
@@ -23,7 +23,7 @@ export default function PostBody({ content }: { content: string }) {
           opacity: 0.9,
         },
         '& * a': {
-          color: theme.textColor.text1,
+          color: theme.palette.text.primary,
           fontWeight: 400,
           textDecoration: 'underline',
         },
@@ -33,7 +33,7 @@ export default function PostBody({ content }: { content: string }) {
         '& hr': {
           width: '60%',
           height: 3,
-          backgroundColor: theme.textColor.text3,
+          backgroundColor: theme.palette.text.secondary,
           border: 'none',
           margin: '50px auto',
         },

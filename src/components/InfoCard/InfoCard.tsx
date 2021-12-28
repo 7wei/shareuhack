@@ -35,7 +35,7 @@ export default function InfoCard(props: Props) {
           {title}
         </Typography>
       )}
-      <Typography fontSize={isDownMd ? 12 : 14} mb={12}>
+      <Typography fontSize={isDownMd ? 12 : 14} mb={12} component="div">
         {children}
       </Typography>
       {link && linkText && (

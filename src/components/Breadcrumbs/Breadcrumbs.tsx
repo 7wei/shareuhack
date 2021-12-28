@@ -13,8 +13,8 @@ export default function Breadcrumbs(props: Props) {
       sx={{
         mt: 15,
         '& li': {
-          '& a': { color: theme.textColor.text2 },
-          '&:last-child a': { color: theme.textColor.text1 },
+          '& a': { color: theme.palette.text.secondary },
+          '&:last-child a': { color: theme.palette.text.primary },
         },
       }}
     >
