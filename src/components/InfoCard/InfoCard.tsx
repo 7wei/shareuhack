@@ -20,8 +20,8 @@ export default function InfoCard(props: Props) {
   return (
     <Box
       sx={{
-        // backgroundColor: theme.palette.primary.dark,
-        border: `1px solid ${theme.palette.primary.main}`,
+        backgroundColor: theme.palette.primary.main,
+        // border: `1px solid ${theme.palette.primary.main}`,
         padding: 15,
         marginBottom: 15,
         borderRadius: '5px',
@@ -35,9 +35,11 @@ export default function InfoCard(props: Props) {
           {title}
         </Typography>
       )}
-      <Typography fontSize={isDownMd ? 12 : 14}>{children}</Typography>
+      <Typography fontSize={isDownMd ? 12 : 14} mb={12}>
+        {children}
+      </Typography>
       {link && linkText && (
-        <Link href={link} locale={locale} color={theme.palette.primary.main}>
+        <Link href={link} locale={locale} color={theme.palette.text.primary}>
           <Typography fontSize={12}>{linkText}</Typography>
         </Link>
       )}

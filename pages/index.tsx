@@ -41,7 +41,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             </InfoCard>
           )}
 
-          {/* <Divider primary /> */}
+          <Divider primary />
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('latest')}
           </Typography>
@@ -65,7 +65,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
         <Grid item sm={3} order={2}>
-          {/* <Divider primary /> */}
+          <Divider primary />
           <Typography variant="h4" mt="15px" mb="15px" component="h2">
             {t('hottest')}
           </Typography>

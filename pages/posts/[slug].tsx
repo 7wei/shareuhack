@@ -137,7 +137,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                     <ol>
                       {post.recommendations?.map((recommendation, idx) => (
                         <li key={idx}>
-                          {recommendation.title}
+                          {/* {recommendation.title}
                           <br />
                           <Link
                             href={recommendation.link}
@@ -146,6 +146,14 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                             color={theme.palette.primary.main}
                           >
                             {` → ${recommendation.src}`}
+                          </Link> */}
+                          <Link
+                            href={recommendation.link}
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            color={theme.palette.primary.contrastText}
+                          >
+                            [{recommendation.src}] {recommendation.title}
                           </Link>
                         </li>
                       ))}
