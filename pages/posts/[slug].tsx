@@ -139,7 +139,12 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                         <li key={idx}>
                           {recommendation.title}
                           <br />
-                          <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
+                          <Link
+                            href={recommendation.link}
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            color={theme.palette.primary.main}
+                          >
                             {` → ${recommendation.src}`}
                           </Link>
                         </li>
@@ -153,7 +158,12 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                     <ol>
                       {post.references?.map((reference, idx) => (
                         <li key={idx}>
-                          <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
+                          <Link
+                            href={reference.link}
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            color={theme.palette.primary.contrastText}
+                          >
                             {reference.title}
                           </Link>
                         </li>
@@ -179,7 +189,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   {post.title}
                 </Typography>
               </Box>
-              <Typography color={theme.palette.primary.main} mb="15px">
+              <Typography color={theme.palette.text.secondary} mb="15px">
                 Updated at {formattedDate(post.date)}
               </Typography>
               <CoverImage

@@ -68,7 +68,7 @@ export const theme = {
     primary: {
       light: '#2E2247',
       main: '#00a651',
-      dark: '#7433FF',
+      dark: '#036935',
       contrastText: '#FFFFFF',
     },
     secondary: {
@@ -153,19 +153,19 @@ export const theme = {
 
 export const override: any = {
   MuiCssBaseline: {
-    styleOverrides: {
-      body: { backgroundColor: '#FFFFFF', fontSize: 16 },
-      'html, input, textarea, button': {
-        fontFamily: 'Noto Sans, sans-serif',
-        fontDisplay: 'fallback',
-      },
-      '@supports (font-variation-settings: normal)': {
-        'html, input, textarea, button ': {
-          fontFamily: 'Noto Sans, sans-serif',
-          fontDisplay: 'fallback',
-        },
-      },
-    },
+    // styleOverrides: {
+    //   body: { backgroundColor: theme.palette.background.default, fontSize: 14 },
+    //   'html, input, textarea, button': {
+    //     fontFamily: 'Noto Sans, sans-serif',
+    //     fontDisplay: 'fallback',
+    //   },
+    //   '@supports (font-variation-settings: normal)': {
+    //     'html, input, textarea, button ': {
+    //       fontFamily: 'Noto Sans, sans-serif',
+    //       fontDisplay: 'fallback',
+    //     },
+    //   },
+    // },
   },
   MuiButton: {
     styleOverrides: {

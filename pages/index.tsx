@@ -36,13 +36,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <Grid container spacing={15}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
-            <InfoCard title={t('whatWeDo')}>
-              <Typography variant="body1">
-                {t('whatWeDoDescript')} <br />
-                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
-                  --{t('learnMore')}
-                </Link>
-              </Typography>
+            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+              {t('whatWeDoDescript')}
             </InfoCard>
           )}
 
@@ -63,13 +58,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={6} order={isDownMd ? 0 : 1}>
           {isDownMd && (
-            <InfoCard>
-              <Typography fontSize={12} variant="body1">
-                {t('whatWeDoDescript')} <br />
-                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
-                  --{t('learnMore')}
-                </Link>
-              </Typography>
+            <InfoCard link={Routes.about} linkText={`--${t('learnMore')}`}>
+              {t('whatWeDoDescript')}
             </InfoCard>
           )}
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
@@ -92,14 +82,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
           {!isDownMd && (
-            <InfoCard title={t('howWeDo')}>
-              <Typography variant="body1">
-                {t('howWeDoDescript')}
-                <br />
-                <Link href={Routes.about} locale={locale} color={theme.palette.primary.contrastText}>
-                  --{t('learnMore')}
-                </Link>
-              </Typography>
+            <InfoCard title={t('howWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+              {t('howWeDoDescript')}
             </InfoCard>
           )}
         </Grid>

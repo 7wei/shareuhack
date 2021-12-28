@@ -58,7 +58,7 @@ export default function Header() {
             {/* <Typography fontSize={isDownMd ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
               Shareuhack
             </Typography> */}
-            <Image src="/assets/brand/shareuhack.svg" width={240} height={42} />
+            <Image src="/assets/brand/shareuhack.svg" width={isDownMd ? 140 : 240} height={isDownMd ? 24.5 : 42} />
           </Link>
           {!isDownMd && (
             <Typography color={theme.palette.primary.main} fontStyle="italic" fontSize={16}>

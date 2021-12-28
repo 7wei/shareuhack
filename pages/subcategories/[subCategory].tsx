@@ -38,14 +38,8 @@ export default function SubCategoryPage({ subCategory, posts }) {
         </Grid>
         <Grid item sm={3}>
           {!isDownMd && (
-            <InfoCard title={t('whatWeDo')}>
-              <Typography fontWeight={500}>
-                {t('whatWeDoDescript')}
-                <br />
-                <Link href={Routes.about} locale={locale}>
-                  --{t('learnMore')}
-                </Link>
-              </Typography>
+            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+              {t('whatWeDoDescript')}
             </InfoCard>
           )}
         </Grid>

@@ -39,14 +39,8 @@ export default function CategoryPage({ category, subCategories }) {
         </Grid>
         <Grid item sm={3}>
           {!matches && (
-            <InfoCard title={t('whatWeDo')}>
-              <Typography variant="body1">
-                {t('whatWeDoDescript')}
-                <br />
-                <Link href={Routes.about} locale={locale}>
-                  --{t('learnMore')}
-                </Link>
-              </Typography>
+            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+              {t('whatWeDoDescript')}
             </InfoCard>
           )}
         </Grid>

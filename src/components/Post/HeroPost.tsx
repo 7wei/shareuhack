@@ -48,7 +48,7 @@ export default function HeroPost({
           {relatedPosts.length > 0 && (
             <Grid item sm={5}>
               <Box ml="10px" mt="7px">
-                <Divider />
+                <Divider primary />
                 <Typography variant="h4" mt="15px" mb="15px" component="h3">
                   RELATED
                 </Typography>
