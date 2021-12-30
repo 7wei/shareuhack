@@ -9,10 +9,11 @@ interface Props {
   children?: React.ReactNode
   linkText?: string
   link?: string
+  bgColor?: string
 }
 
 export default function InfoCard(props: Props) {
-  const { title, children, linkText, link } = props
+  const { title, children, linkText, link, bgColor } = props
   const theme = useTheme()
   const { locale } = useRouter()
   const isDownMd = useBreakpoint('md')
@@ -20,7 +21,7 @@ export default function InfoCard(props: Props) {
   return (
     <Box
       sx={{
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: bgColor ?? theme.palette.primary.main,
         // border: `1px solid ${theme.palette.primary.main}`,
         padding: 15,
         marginBottom: 15,
@@ -31,16 +32,18 @@ export default function InfoCard(props: Props) {
       }}
     >
       {title && (
-        <Typography fontSize={isDownMd ? 14 : 16} fontWeight={isDownMd ? 500 : 700} mb={5} component="h3">
+        <Typography fontSize={isDownMd ? 14 : 16} fontWeight={isDownMd ? 500 : 700} mb={5} component="h3" variant="h5">
           {title}
         </Typography>
       )}
-      <Typography fontSize={isDownMd ? 12 : 14} mb={12} component="div">
+      <Typography fontSize={isDownMd ? 12 : 14} mb={12} component="div" variant="body1">
         {children}
       </Typography>
       {link && linkText && (
         <Link href={link} locale={locale} color={theme.palette.text.primary}>
-          <Typography fontSize={12}>{linkText}</Typography>
+          <Typography variant="h6" color="primary" fontSize={12}>
+            {linkText}
+          </Typography>
         </Link>
       )}
     </Box>

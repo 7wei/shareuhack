@@ -34,7 +34,7 @@ export default function HeroPost({
         priority
       />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
-        <Typography variant="h4" mt="8px" mb="8px" component="h3">
+        <Typography variant="h4" mt="8px" mb="8px" component="h3" variant="h1">
           {title}
         </Typography>
       </Link>
@@ -49,7 +49,7 @@ export default function HeroPost({
             <Grid item sm={5}>
               <Box ml="10px" mt="7px">
                 <Divider primary />
-                <Typography variant="h4" mt="15px" mb="15px" component="h3">
+                <Typography variant="h4" mt="15px" mb="15px" component="h3" color="primary">
                   RELATED
                 </Typography>
                 <Box display="grid" gap="10px">
@@ -60,7 +60,7 @@ export default function HeroPost({
                       locale={locale}
                       color={theme.palette.text.primary}
                     >
-                      <Typography fontWeight={500} component="h4">
+                      <Typography fontWeight={500} component="h4" variant="h6">
                         {post.title}
                       </Typography>
                     </Link>

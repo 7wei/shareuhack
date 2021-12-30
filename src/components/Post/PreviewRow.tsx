@@ -27,11 +27,13 @@ export default function CategorySection({
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="space-between">
-        <Typography fontWeight={500} fontSize={28} mt="15px" component="h2">
+        <Typography variant="h5" mt="15px" component="h2" color="primary">
           {category}
         </Typography>
         <Link href={link} locale={locale}>
-          {t('showAll')}
+          <Typography variant="h6" fontSize="12px">
+            {t('showAll')}
+          </Typography>
         </Link>
       </Box>
       <Grid container>
@@ -40,7 +42,7 @@ export default function CategorySection({
         </Grid>
       </Grid>
       <Box mt="10px">
-        <Grid spacing={15} container>
+        <Grid spacing={30} container>
           {posts &&
             posts.map((post) => (
               <Grid key={post.title} item sm={4}>

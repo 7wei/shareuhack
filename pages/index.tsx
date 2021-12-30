@@ -33,25 +33,27 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <meta property="og:description" content={t('whatWeDoDescript')} />
       </Head>
       <CommonStructuredData type="home" />
-      <Grid container spacing={15}>
+      <Grid container spacing={{ lg: 30, xl: 35 }}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
-            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`} bgColor="transparent">
               {t('whatWeDoDescript')}
             </InfoCard>
           )}
 
           <Divider primary />
-          <Typography variant="h4" mt="15px" mb="15px" component="h2">
+          <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
             {t('latest')}
           </Typography>
           <Box display="flex" gap={8} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography fontWeight={500} component="h3">
+                <Typography component="h3" variant="h6">
                   {post.title}
                 </Typography>
-                <Typography color={theme.palette.text.secondary}>{formattedDate(post.date)}</Typography>
+                <Typography color={theme.palette.text.secondary} variant="body2">
+                  {formattedDate(post.date)}
+                </Typography>
               </Link>
             ))}
           </Box>
@@ -66,25 +68,28 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={3} order={2}>
           <Divider primary />
-          <Typography variant="h4" mt="15px" mb="15px" component="h2">
+          <Typography variant="h6" mt="15px" mb="15px" component="h1" color="primary">
             {t('hottest')}
           </Typography>
           <Box display="grid" gap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography fontWeight={500} component="h3">
+                <Typography component="h3" variant="h6">
                   {post.title}
                 </Typography>
-                <Typography variant="body1" color={theme.palette.text.secondary}>
+                <Typography variant="body2" color={theme.palette.text.secondary}>
                   {formattedDate(post.date)}
                 </Typography>
               </Link>
             ))}
           </Box>
           {!isDownMd && (
-            <InfoCard title={t('howWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
-              {t('howWeDoDescript')}
-            </InfoCard>
+            <>
+              <Divider primary />
+              <InfoCard title={t('howWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`} bgColor="transparent">
+                {t('howWeDoDescript')}
+              </InfoCard>
+            </>
           )}
         </Grid>
       </Grid>
@@ -93,7 +98,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           return (
             <ReactLazyHydrate key={key} whenVisible>
               <Box mb="15px" mt="15px">
-                <Divider primary />
+                <Divider color="#00000020" />
                 <PreviewRow
                   category={t(`categories.${key}.title`)}
                   description={t(`categories.${key}.description`)}

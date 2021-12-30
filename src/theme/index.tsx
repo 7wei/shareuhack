@@ -90,17 +90,17 @@ export const theme = {
       main: '#2DAB50',
     },
     background: {
-      default: '#1C1C1F',
-      paper: '#191919',
+      default: '#ffffff',
+      paper: '#ffffff',
       // default: '#FFFFFF',
       // paper: 'rgba(255,255,255,0.6)',
     },
     text: {
-      primary: '#FFFFFF',
-      secondary: 'rgba(255,255,255,0.6)',
-      // disabled: '#999999',
-      // primary: '#1C1C1F',
-      // secondary: '#191919',
+      // primary: '#FFFFFF',
+      // secondary: 'rgba(255,255,255,0.6)',
+      disabled: '#999999',
+      primary: '#1C1C1F',
+      secondary: '#191919',
     },
     action: {
       disabledOpacity: 0.8,
@@ -146,30 +146,37 @@ export const theme = {
   // },
 }
 
-// font-family: 'Noto Sans', sans-serif;
 // font-family: 'Noto Sans JP', sans-serif;
 // font-family: 'Noto Sans SC', sans-serif;
 // font-family: 'Noto Sans TC', sans-serif;
+// font-family: 'Noto Serif JP', serif;
+// font-family: 'Noto Serif SC', serif;
+// font-family: 'Noto Serif TC', serif;
+const FONTS = {
+  title: 'Noto Serif TC, Noto Serif JP, Noto Serif SC, serif',
+  content: 'Noto Sans TC, Noto Sans JP, Noto Sans SC,, sans-serif',
+}
 
 export const override: any = {
   MuiCssBaseline: {
-    // styleOverrides: {
-    //   body: { backgroundColor: theme.palette.background.default, fontSize: 14 },
-    //   'html, input, textarea, button': {
-    //     fontFamily: 'Noto Sans, sans-serif',
-    //     fontDisplay: 'fallback',
-    //   },
-    //   '@supports (font-variation-settings: normal)': {
-    //     'html, input, textarea, button ': {
-    //       fontFamily: 'Noto Sans, sans-serif',
-    //       fontDisplay: 'fallback',
-    //     },
-    //   },
-    // },
+    styleOverrides: {
+      body: { backgroundColor: theme.palette.background.default, fontSize: 14 },
+      'html, input, textarea, button': {
+        fontFamily: FONTS.title,
+        fontDisplay: 'fallback',
+      },
+      '@supports (font-variation-settings: normal)': {
+        'html, input, textarea, button ': {
+          fontFamily: FONTS.title,
+          fontDisplay: 'fallback',
+        },
+      },
+    },
   },
   MuiButton: {
     styleOverrides: {
       root: {
+        fontFamily: 'Noto Sans, sans-serif',
         color: theme.palette.primary.contrastText,
         fontWeight: 500,
         borderRadius: theme.shape.borderRadius,
@@ -249,19 +256,37 @@ export const override: any = {
   },
   MuiTypography: {
     styleOverrides: {
-      // root: {},
-      // body1: {
-      //   fontSize: 14,
-      // },
-      // body2: {
-      //   fontSize: 12,
-      // },
-      // h5: {
-      //   fontSize: 28,
-      // },
-      // h6: {
-      //   fontSize: 22,
-      // },
+      root: {
+        fontWeight: 300,
+        fontFamily: FONTS.content,
+      },
+      body1: {
+        fontFamily: FONTS.content,
+        fontSize: 14,
+      },
+      body2: {
+        fontFamily: FONTS.content,
+        fontSize: 12,
+      },
+      h1: {
+        fontWeight: 700,
+        fontSize: 40,
+        fontFamily: FONTS.title,
+      },
+      h4: {
+        fontWeight: 700,
+        fontSize: 14,
+        fontFamily: FONTS.title,
+      },
+      h5: {
+        fontWeight: 700,
+        fontFamily: FONTS.title,
+      },
+      h6: {
+        fontWeight: 700,
+        fontSize: 16,
+        fontFamily: FONTS.title,
+      },
       // caption: {
       //   fontSize: 12,
       // },
