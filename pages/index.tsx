@@ -36,9 +36,12 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <Grid container spacing={{ lg: 30, xl: 35 }}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
-            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
-              {t('whatWeDoDescript')}
-            </InfoCard>
+            <InfoCard
+              title={t('whatWeDo')}
+              content={t('whatWeDoDescript')}
+              link={Routes.about}
+              linkText={`--${t('learnMore')}`}
+            />
           )}
           <Divider primary />
           <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
@@ -59,9 +62,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         </Grid>
         <Grid item sm={6} order={isDownMd ? 0 : 1}>
           {isDownMd && (
-            <InfoCard link={Routes.about} linkText={`--${t('learnMore')}`}>
-              {t('whatWeDoDescript')}
-            </InfoCard>
+            <InfoCard link={Routes.about} content={t('whatWeDoDescript')} linkText={`--${t('learnMore')}`} />
           )}
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
@@ -85,9 +86,13 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           {!isDownMd && (
             <>
               <Divider primary />
-              <InfoCard title={t('howWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`} bgColor="transparent">
-                {t('howWeDoDescript')}
-              </InfoCard>
+              <InfoCard
+                title={t('howWeDo')}
+                content={t('howWeDoDescript')}
+                link={Routes.about}
+                linkText={`--${t('learnMore')}`}
+                bgColor="transparent"
+              />
             </>
           )}
         </Grid>

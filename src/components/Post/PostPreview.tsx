@@ -37,12 +37,14 @@ export default function PostPreview({
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
         <Box display="grid" gap="10px">
           <Box sx={{ wordWrap: 'break-word' }}>
-            <Typography fontSize={18} fontWeight={500} mt="5px" component="h3" variant="h6">
+            <Typography fontWeight={500} mt="5px" component="h3" variant="h6">
               {title}
             </Typography>
           </Box>
 
-          <Typography color={theme.palette.text.secondary}>{formattedDate(date)}</Typography>
+          <Typography variant="body2" color={theme.palette.text.secondary}>
+            {formattedDate(date)}
+          </Typography>
           <Box
             sx={{
               display: '-webkit-box',

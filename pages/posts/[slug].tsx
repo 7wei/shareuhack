@@ -119,10 +119,10 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               </Link>
             </Breadcrumbs>
           )}
-          <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
+          <Typography component="h1" variant="h1" fontWeight={600}>
             {post.title}
           </Typography>
-          <Typography color={theme.palette.text.secondary} mb="15px">
+          <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
             Updated at {formattedDate(post.date)}
           </Typography>
           <CoverImage
@@ -134,14 +134,16 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             priority
           />
 
-          <Grid spacing={30} container mt={30}>
-            <Grid item md={3} xs={12} sm={12}>
+          <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 } }}>
+            <Grid item md={3} xs={12}>
               <Divider primary />
               {post.credentials && post.credentials.length > 0 && (
                 <InfoCard title={t('beforewriting')}>
                   <ol>
                     {post.credentials?.map((credential, idx) => (
-                      <li key={idx}>{credential}</li>
+                      <li key={idx}>
+                        <Typography variant="body2">{credential}</Typography>
+                      </li>
                     ))}
                   </ol>
                 </InfoCard>
@@ -170,7 +172,9 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           color={theme.palette.text.primary}
                           title={recommendation.title}
                         >
-                          [{recommendation.src}] {recommendation.title}
+                          <Typography variant="body2">
+                            [{recommendation.src}] {recommendation.title}
+                          </Typography>
                         </Link>
                       </li>
                     ))}
@@ -189,7 +193,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           color={theme.palette.text.primary}
                           title={reference.title}
                         >
-                          {reference.title}
+                          <Typography variant="body2">{reference.title}</Typography>
                         </Link>
                       </li>
                     ))}

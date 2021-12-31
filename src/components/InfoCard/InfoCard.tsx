@@ -6,14 +6,15 @@ import useBreakpoint from 'hooks/useBreakpoint'
 
 interface Props {
   title?: string
-  children?: React.ReactNode
+  content?: string
   linkText?: string
   link?: string
   bgColor?: string
+  children?: React.ReactNode
 }
 
 export default function InfoCard(props: Props) {
-  const { title, children, linkText, link, bgColor } = props
+  const { title, content, linkText, link, bgColor, children } = props
   const theme = useTheme()
   const { locale } = useRouter()
   const isDownMd = useBreakpoint('md')
@@ -23,7 +24,6 @@ export default function InfoCard(props: Props) {
       sx={{
         backgroundColor: bgColor ?? 'transparent',
         padding: 15,
-        marginBottom: 15,
         borderRadius: '5px',
         '& ol': {
           paddingLeft: 15,
@@ -35,9 +35,12 @@ export default function InfoCard(props: Props) {
           {title}
         </Typography>
       )}
-      <Typography fontSize={isDownMd ? 12 : 14} mb={12} component="div" variant="body1">
-        {children}
-      </Typography>
+      {content && (
+        <Typography fontSize={isDownMd ? 12 : 14} component="div" variant="body1">
+          {content}
+        </Typography>
+      )}
+      {children}
       {link && linkText && (
         <Link href={link} locale={locale} color={theme.palette.text.primary}>
           <Typography variant="h6" color="primary" fontSize={12}>
