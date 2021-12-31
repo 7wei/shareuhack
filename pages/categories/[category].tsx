@@ -30,7 +30,7 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       {/* <Disclosure /> */}
-      <Grid container>
+      <Grid container mt={theme.height.header}>
         <Grid item sm={9}>
           <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`categories.${category.key}.title`)}
@@ -45,42 +45,39 @@ export default function CategoryPage({ category, subCategories }) {
           )}
         </Grid>
       </Grid>
-      <Box mt={matches ? '15px' : 0}>
-        {subCategories.map((subCategory, idx) => (
-          <Box key={idx} mb="15px">
-            <Divider primary />
-            <PreviewRow
-              category={t(`subCategories.${subCategory.key}.title`)}
-              description={t(`subCategories.${subCategory.key}.description`)}
-              posts={subCategory.posts}
-              link={subCategory.link}
-            />
-          </Box>
-        ))}
+      <Grid mt={matches ? '15px' : 0} container spacing={30}>
+        <Grid item xs={12} md={9}>
+          {subCategories.map((subCategory, idx) => (
+            <Box key={idx} mb="15px">
+              <Divider primary />
+              <PreviewRow
+                category={t(`subCategories.${subCategory.key}.title`)}
+                description={t(`subCategories.${subCategory.key}.description`)}
+                posts={subCategory.posts}
+              />
+            </Box>
+          ))}
+        </Grid>
 
-        {subCategories.length === 0 && (
-          <Box height="calc(100vh - 580px)" display="flex" justifyContent="center" alignItems="center">
-            <Typography color={theme.palette.primary.main} mb="15px" fontSize={18}>
-              {t('stayTuned')}
-            </Typography>
-          </Box>
-        )}
-      </Box>
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: {
-            xs: 'center',
-            md: 'flex-start',
-          },
-          mt: 60,
-          mb: 60,
-        }}
-      >
-        <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
-          Explore More
-        </Button>
-      </Box>
+        <Grid item xs={12} md={3}>
+          <Divider primary />
+          <Typography mb="15px" variant="h6" mt={30}>
+            Discover More...
+          </Typography>
+          <Grid spacing={10} container>
+            {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
+              <Grid item key={idx} xs={12}>
+                <Link href={link.link}>
+                  <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
+                </Link>
+                <Typography mt={15} variant="body2">
+                  {t(`categories.${link.key}.description`)}
+                </Typography>
+              </Grid>
+            ))}
+          </Grid>
+        </Grid>
+      </Grid>
     </>
   )
 }

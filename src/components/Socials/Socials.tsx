@@ -12,6 +12,8 @@ export default function Socials({ primary }: { primary?: boolean }) {
         href="https://www.facebook.com/shareuhack/"
         title="Shareuhack|Facebook Page"
         disableHover
+        target="_blank"
+        rel="nofollow noopener noreferrer"
       >
         <FacebookIcon fontSize="small" />
       </Link>
@@ -20,6 +22,8 @@ export default function Socials({ primary }: { primary?: boolean }) {
         href="mailto:c@shareuhack.com"
         title="Shareuhack|Contact Email"
         disableHover
+        target="_blank"
+        rel="nofollow noopener noreferrer"
       >
         <EmailIcon fontSize="small" />
       </Link>

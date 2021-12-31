@@ -19,7 +19,7 @@ export default function CategorySection({
     excerpt: string
     slug: string
   }[]
-  link: string
+  link?: string
 }) {
   const { locale } = useRouter()
   const { t } = useTranslation('common')
@@ -30,18 +30,16 @@ export default function CategorySection({
         <Typography variant="h5" mt="15px" component="h2" color="primary">
           {category}
         </Typography>
-        <Link href={link} locale={locale} title={`Shareuhack|${category}`}>
-          <Typography variant="h6" fontSize="12px">
-            {t('showAll')}
-          </Typography>
-        </Link>
+        {link && (
+          <Link href={link} locale={locale} title={`Shareuhack|${category}`}>
+            <Typography variant="h6" fontSize="12px">
+              {t('showAll')}
+            </Typography>
+          </Link>
+        )}
       </Box>
-      <Grid container>
-        <Grid item sm={6}>
-          <Typography>{description}</Typography>
-        </Grid>
-      </Grid>
-      <Box mt="10px">
+      <Typography mt={15}>{description}</Typography>
+      <Box mt="15px">
         <Grid spacing={30} container>
           {posts &&
             posts.map((post) => (

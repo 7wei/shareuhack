@@ -131,7 +131,7 @@ export const theme = {
     gradient1: '#000000 linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
   },
   height: {
-    header: '88px',
+    header: '48px',
     mobileHeader: '77px',
     footer: '60px',
   },

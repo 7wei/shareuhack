@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { formattedDate } from '../../src/utils'
-import { CMS_NAME, Category, Categories, SubCategory, SubCategories, NavLinks } from '../../lib/constants'
+import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
 import { getPostBySlug, getAllPostPaths, getCategoryPosts, getPostsBySlugs } from '../../lib/api'
 import { Grid, Box, styled, useTheme, Typography } from '@mui/material'
 import Link from '../../src/components/Link/Link'
@@ -229,7 +229,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   Discover More...
                 </Typography>
                 <Grid spacing={10} container>
-                  {NavLinks.map((link, idx) => (
+                  {Categories.map((link, idx) => (
                     <Grid item key={idx} xs={12}>
                       <Link href={link.link}>
                         <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
