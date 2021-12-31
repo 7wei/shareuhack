@@ -157,6 +157,12 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </Typography>
                 <Shares />
               </Box>
+              <Box display="flex" alignItems="center">
+                <Typography variant="body1" mt="15px" mb="10px" sx={{ transform: 'translateY(-8px)' }}>
+                  {t('subscribe')}
+                </Typography>
+                <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5224628:i3c0y2"></div>
+              </Box>
             </Grid>
             <Grid item md={3} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
               <Divider primary />
@@ -202,11 +208,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               )}
             </Grid>
           </Grid>
-          <ReactLazyHydrate whenVisible>
-            <Box pb="30px" maxWidth={580} margin="0 auto">
-              <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
-            </Box>
-          </ReactLazyHydrate>
+
           <ReactLazyHydrate whenVisible>
             <Grid container spacing={30}>
               <Grid item xs={12} md={9}>
@@ -229,7 +231,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   Discover More...
                 </Typography>
                 <Grid spacing={10} container>
-                  {Categories.map((link, idx) => (
+                  {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
                     <Grid item key={idx} xs={12}>
                       <Link href={link.link}>
                         <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>

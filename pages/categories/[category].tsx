@@ -17,17 +17,20 @@ export default function CategoryPage({ category, subCategories }) {
   const { locale } = useRouter()
   const theme = useTheme()
 
+  const getSubCategoryStr = () =>
+    subCategories.map((subCategory) => t(`subCategories.${subCategory.key}.title`)).join(', ')
+
   return (
     <>
       <Head>
         <title>
           {CMS_NAME} | {t(`categories.${category.key}.title`)}
         </title>
-        <meta name="robots" content="noindex" />
         <meta name="description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
         <meta property="og:description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <meta name="keywords" content={t(`categories.${category.key}.title`) + ', ' + getSubCategoryStr()} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container mt={theme.height.header}>
