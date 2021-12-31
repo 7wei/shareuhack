@@ -86,15 +86,19 @@ export default function DrawerComponent(props: Props) {
               {t('selectLocale')}
             </Typography>
             <Box display="flex" flexDirection="column" alignItems="flex-start" mt={5}>
-              {locales?.map((locale) => (
+              {locales?.map((loc) => (
                 <Button
                   size="small"
-                  key={locale}
-                  onClick={() => setLocale(locale)}
-                  title={`Shareuhack|${getLocaleData(locale).language}(${getLocaleData(locale).region})`}
+                  key={loc}
+                  onClick={() => setLocale(loc)}
+                  title={`Shareuhack|${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
                 >
-                  <Typography fontSize={10} color={theme.palette.text.primary}>
-                    {getLocaleData(locale).language}({getLocaleData(locale).region})
+                  <Typography
+                    fontSize={10}
+                    fontWeight={loc === locale ? 700 : 400}
+                    color={loc === locale ? theme.palette.primary.main : theme.palette.text.primary}
+                  >
+                    {getLocaleData(loc).language}({getLocaleData(loc).region})
                   </Typography>
                 </Button>
               ))}
