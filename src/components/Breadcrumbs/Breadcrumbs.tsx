@@ -11,7 +11,6 @@ export default function Breadcrumbs(props: Props) {
   return (
     <MuiBreadcrumbs
       sx={{
-        mt: 15,
         '& li': {
           '& a': { color: theme.palette.text.secondary },
           '&:last-child a': { color: theme.palette.text.primary, fontWeight: 500 },

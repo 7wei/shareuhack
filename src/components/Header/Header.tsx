@@ -1,6 +1,5 @@
 import { useCallback, useState } from 'react'
 import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/material'
-import { NavLinks } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
@@ -24,18 +23,19 @@ export default function Header() {
 
   return (
     <AppBar
-      position="sticky"
       sx={{
         background: theme.palette.background.default,
         boxShadow: 'none',
-        height: 48,
+        height: theme.height.header,
+        position: 'sticky',
       }}
     >
       <Toolbar
         sx={{
           background: theme.palette.background.default,
           boxShadow: 'none',
-          height: 48,
+          minHeight: theme.height.header,
+          padding: 0,
         }}
       >
         <IconButton sx={{ zIndex: 9 }} color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>

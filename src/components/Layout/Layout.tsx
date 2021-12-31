@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
       <Meta />
       <Container>
         <Header />
-        <Box mt={theme.height.header}>{children}</Box>
+        {children}
       </Container>
       <Footer />
     </>

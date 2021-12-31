@@ -33,7 +33,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <meta property="og:description" content={t('whatWeDoDescript')} />
       </Head>
       <CommonStructuredData type="home" />
-      <Grid container spacing={{ lg: 30, xl: 35 }}>
+      <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
             <InfoCard
