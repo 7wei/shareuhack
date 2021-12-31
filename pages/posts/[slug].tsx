@@ -119,7 +119,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               </Link>
             </Breadcrumbs>
           )}
-          <Typography component="h1" variant="h1" fontWeight={600}>
+          <Typography component="h1" variant="h1" mt={8}>
             {post.title}
           </Typography>
           <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
