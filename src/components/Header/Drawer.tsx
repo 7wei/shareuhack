@@ -34,6 +34,7 @@ export default function DrawerComponent(props: Props) {
       }}
       open={open}
       onClose={onClose}
+      anchor="right"
     >
       <Box padding="18px 24px" bgcolor={theme.palette.background.default}>
         <Box mt="20px" pl="12px" display="flex" flexDirection="column" gap={12} height="calc(100% - 80px)">

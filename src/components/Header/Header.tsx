@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/material'
+import { Box, AppBar, Toolbar, IconButton, Container, useTheme } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
@@ -23,40 +23,33 @@ export default function Header() {
 
   return (
     <AppBar
+      position="sticky"
       sx={{
         background: theme.palette.background.default,
         boxShadow: 'none',
         height: theme.height.header,
-        position: 'sticky',
       }}
     >
-      <Toolbar
-        sx={{
-          background: theme.palette.background.default,
-          boxShadow: 'none',
-          minHeight: theme.height.header,
-          padding: 0,
-        }}
-      >
-        <IconButton sx={{ zIndex: 9 }} color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
-          {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
-        </IconButton>
-
-        <Box
+      <Container maxWidth="lg">
+        <Toolbar
           sx={{
-            position: 'absolute',
-            margin: '0 auto',
-            left: 0,
-            right: 0,
-            textAlign: 'center',
+            background: theme.palette.background.default,
+            boxShadow: 'none',
+            minHeight: theme.height.header,
+            padding: '15px 15px',
+            display: 'flex',
+            justifyContent: 'space-between',
+            borderBottom: theme.palette.text.secondary,
           }}
         >
           <Link href="/" locale={locale} color={theme.palette.text.primary} title="Shareuhack|Home">
-            <Image src="/assets/brand/shareuhack.svg" width={114.3} height={20} />
+            <Image src="/assets/brand/logo.svg" width={86} height={58.5} />
           </Link>
-        </Box>
-      </Toolbar>
-
+          <IconButton sx={{ zIndex: 9 }} color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+            {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
+          </IconButton>
+        </Toolbar>
+      </Container>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
     </AppBar>
   )
