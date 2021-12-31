@@ -5,5 +5,5 @@ import useBreakpoint from 'hooks/useBreakpoint'
 export default function Container({ children }: { children: any }) {
   const isDownMd = useBreakpoint('md')
 
-  return <MuiContainer sx={{ maxWidth: 1048, padding: isDownMd ? '0 15px' : 0 }}>{children}</MuiContainer>
+  return <MuiContainer maxWidth="md">{children}</MuiContainer>
 }
