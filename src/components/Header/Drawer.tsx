@@ -1,12 +1,13 @@
-import React from 'react'
-import { Drawer, Box, useTheme, Typography } from '@mui/material'
+import React, { useCallback } from 'react'
+import { Drawer, Box, useTheme, Typography, Button } from '@mui/material'
 import { Categories, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import Link from 'components/Link/Link'
-import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import Divider from 'components/Divider/Divider'
 import { useRouter } from 'next/router'
 import Socials from 'components/Socials/Socials'
+import { Locales } from '../../../lib/constants'
+import useBreakpoint from 'hooks/useBreakpoint'
 
 interface Props {
   open: boolean
@@ -18,7 +19,23 @@ export default function DrawerComponent(props: Props) {
   const { open, onClose, onClick } = props
   const { t } = useTranslation('common')
   const theme = useTheme()
-  const { locale } = useRouter()
+  const { locale, locales } = useRouter()
+  const router = useRouter()
+
+  const getLocaleData = useCallback(
+    (locale?: string) => {
+      return Locales.find((el) => el.key === locale) || Locales[0]
+    },
+    [locale]
+  )
+
+  const setLocale = useCallback(
+    (locale: string) => {
+      document.cookie = `NEXT_LOCALE=${locale}; expires=Fri, 31 Dec 9999 23:59:59 GMT`
+      router.push(router.asPath, router.asPath, { locale: locale })
+    },
+    [locale, router.asPath]
+  )
 
   return (
     <Drawer
@@ -28,7 +45,7 @@ export default function DrawerComponent(props: Props) {
           backgroundColor: 'transparent',
         },
         '& .MuiPaper-root': {
-          width: 180,
+          width: 240,
           backgroundColor: theme.palette.background.default,
         },
       }}
@@ -50,9 +67,9 @@ export default function DrawerComponent(props: Props) {
             </Typography>
           </Link>
           <Divider primary />
-          {Categories.map((link, idx) => (
+          {Categories.map((link) => (
             <Link
-              key={idx}
+              key={link.key}
               href={link.link}
               onClick={onClick}
               color={theme.palette.primary.contrastText}
@@ -63,6 +80,27 @@ export default function DrawerComponent(props: Props) {
               </Typography>
             </Link>
           ))}
+          <Divider primary />
+          <Box>
+            <Typography variant="body1" color={theme.palette.text.primary}>
+              {t('selectLocale')}
+            </Typography>
+            <Box display="flex" flexDirection="column" alignItems="flex-start" mt={5}>
+              {locales?.map((locale) => (
+                <Button
+                  size="small"
+                  key={locale}
+                  onClick={() => setLocale(locale)}
+                  title={`Shareuhack|${getLocaleData(locale).language}(${getLocaleData(locale).region})`}
+                >
+                  <Typography fontSize={10} color={theme.palette.text.primary}>
+                    {getLocaleData(locale).language}({getLocaleData(locale).region})
+                  </Typography>
+                </Button>
+              ))}
+            </Box>
+          </Box>
+
           <Divider primary />
           <Link
             href={Routes.about}
