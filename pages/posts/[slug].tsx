@@ -60,13 +60,13 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           separator=" --- "
           url={url}
         >
-          <EmailIcon fontSize="large" />
+          <EmailIcon fontSize="medium" />
         </EmailShareButton>
         <FacebookShareButton url={url}>
-          <FacebookIcon fontSize="large" />
+          <FacebookIcon fontSize="medium" />
         </FacebookShareButton>
         <TwitterShareButton url={url}>
-          <TwitterIcon fontSize="large" />
+          <TwitterIcon fontSize="medium" />
         </TwitterShareButton>
       </Box>
     )

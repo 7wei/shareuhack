@@ -14,7 +14,7 @@ export default function Breadcrumbs(props: Props) {
         mt: 15,
         '& li': {
           '& a': { color: theme.palette.text.secondary },
-          '&:last-child a': { color: theme.palette.text.primary },
+          '&:last-child a': { color: theme.palette.text.primary, fontWeight: 500 },
         },
       }}
     >
