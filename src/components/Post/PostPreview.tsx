@@ -49,7 +49,7 @@ export default function PostPreview({
             sx={{
               display: '-webkit-box',
               WebkitBoxOrient: 'vertical',
-              WebkitLineClamp: 5,
+              WebkitLineClamp: 3,
               overflow: 'hidden',
               textOverflow: 'ellipsis',
             }}
