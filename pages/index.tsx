@@ -36,11 +36,10 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <Grid container spacing={{ lg: 30, xl: 35 }}>
         <Grid item sm={3} order={isDownMd ? 1 : 0}>
           {!isDownMd && (
-            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`} bgColor="transparent">
+            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
               {t('whatWeDoDescript')}
             </InfoCard>
           )}
-
           <Divider primary />
           <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
             {t('latest')}

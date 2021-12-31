@@ -10,10 +10,11 @@ interface Props {
   color?: string
   locale?: string
   onClick?: () => void
+  title?: string
 }
 
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick, color } = props
+  const { href, target, children, rel, locale, onClick, color, title } = props
   const theme = useTheme()
 
   return (
@@ -22,13 +23,14 @@ export default function Link(props: Props) {
         target={target}
         rel={rel}
         onClick={onClick}
+        title={title}
         sx={{
           color: color || theme.palette.primary.main,
           textDecoration: 'none',
-          // '&:hover': {
-          //   color: theme.palette.primary.main,
-          //   textDecoration: 'none',
-          // },
+          '&:hover': {
+            color: theme.palette.primary.main,
+            textDecoration: 'underline',
+          },
         }}
       >
         {children}

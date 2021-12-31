@@ -21,8 +21,7 @@ export default function InfoCard(props: Props) {
   return (
     <Box
       sx={{
-        backgroundColor: bgColor ?? theme.palette.primary.main,
-        // border: `1px solid ${theme.palette.primary.main}`,
+        backgroundColor: bgColor ?? 'transparent',
         padding: 15,
         marginBottom: 15,
         borderRadius: '5px',

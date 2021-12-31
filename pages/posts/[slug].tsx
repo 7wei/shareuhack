@@ -137,21 +137,12 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                     <ol>
                       {post.recommendations?.map((recommendation, idx) => (
                         <li key={idx}>
-                          {/* {recommendation.title}
-                          <br />
                           <Link
                             href={recommendation.link}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
-                            color={theme.palette.primary.main}
-                          >
-                            {` → ${recommendation.src}`}
-                          </Link> */}
-                          <Link
-                            href={recommendation.link}
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                            color={theme.palette.primary.contrastText}
+                            color={theme.palette.text.primary}
+                            title={recommendation.title}
                           >
                             [{recommendation.src}] {recommendation.title}
                           </Link>
@@ -170,7 +161,8 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                             href={reference.link}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
-                            color={theme.palette.primary.contrastText}
+                            color={theme.palette.text.primary}
+                            title={reference.title}
                           >
                             {reference.title}
                           </Link>
@@ -185,10 +177,6 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   {t('sharePost')}
                 </Typography>
                 <Shares />
-
-                {/* <a href="https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202109">
-                  <img src="https://ap.books.com.tw/web/apProductStick/0010825895/blue/0/7" />
-                </a> */}
               </Box>
             </Grid>
             <Grid item md={9} xs={12} order={isDownMd ? 0 : 1}>
@@ -212,39 +200,6 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               <PostBody content={post.content} />
             </Grid>
           </Grid>
-          {/* {isDownMd && (
-            <>
-              {post.recommendations && post.recommendations.length > 0 && (
-                <InfoCard title={t('Recommendations')}>
-                  <ol>
-                    {post.recommendations?.map((recommendation, idx) => (
-                      <li key={idx}>
-                        {recommendation.title}
-                        <br />
-                        <Link href={recommendation.link} target="_blank" rel="nofollow noopener noreferrer">
-                          {` → ${recommendation.src}`}
-                        </Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
-              )}
-
-              {post.references && post.references.length > 0 && (
-                <InfoCard title={t('References')}>
-                  <ol>
-                    {post.references?.map((reference, idx) => (
-                      <li key={idx}>
-                        <Link href={reference.link} target="_blank" rel="nofollow noopener noreferrer">
-                          {reference.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
-              )}
-            </>
-          )} */}
           <ReactLazyHydrate whenVisible>
             <Box pb="30px" maxWidth={580} margin="0 auto">
               <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5089298:o0h6s5"></div>
