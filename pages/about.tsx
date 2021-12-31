@@ -5,7 +5,7 @@ import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
-import { Typography, Button, Box } from '@mui/material'
+import { Typography, Button, Box, Grid } from '@mui/material'
 
 export default function About({ post }) {
   const { t } = useTranslation('common')
@@ -19,25 +19,26 @@ export default function About({ post }) {
         <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
-      <Typography component="h1" fontSize={36} fontWeight={500}>
-        {post.title}
-      </Typography>
-      <PostBody content={post.content} />
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: {
-            xs: 'center',
-            md: 'flex-start',
-          },
-          mt: 60,
-          mb: 60,
-        }}
-      >
-        <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
-          Start Exploring
-        </Button>
-      </Box>
+      <Grid container justifyContent="center">
+        <Grid xs={12} md={6} item>
+          <Typography component="h1" fontSize={36} fontWeight={500}>
+            {post.title}
+          </Typography>
+          <PostBody content={post.content} />
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              mt: 60,
+              mb: 60,
+            }}
+          >
+            <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
+              Keep Exploring
+            </Button>
+          </Box>
+        </Grid>
+      </Grid>
     </>
   )
 }
