@@ -28,9 +28,10 @@ export default function Header() {
         background: theme.palette.background.default,
         boxShadow: 'none',
         height: theme.height.header,
+        borderBottom: `1px solid rgba(0,0,0,0.1)`,
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="md">
         <Toolbar
           sx={{
             background: theme.palette.background.default,
