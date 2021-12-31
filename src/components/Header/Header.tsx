@@ -46,7 +46,7 @@ export default function Header() {
           <Link href="/" locale={locale} color={theme.palette.text.primary} title="Shareuhack|Home">
             <Image src="/assets/brand/logo.svg" width={86} height={58.5} />
           </Link>
-          <IconButton sx={{ zIndex: 9 }} color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+          <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
           </IconButton>
         </Toolbar>

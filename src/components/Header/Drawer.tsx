@@ -7,7 +7,6 @@ import Divider from 'components/Divider/Divider'
 import { useRouter } from 'next/router'
 import Socials from 'components/Socials/Socials'
 import { Locales } from '../../../lib/constants'
-import useBreakpoint from 'hooks/useBreakpoint'
 
 interface Props {
   open: boolean
@@ -53,10 +52,17 @@ export default function DrawerComponent(props: Props) {
       onClose={onClose}
       anchor="right"
     >
-      <Box padding="18px 24px" bgcolor={theme.palette.background.default}>
-        <Box mt="20px" pl="12px" display="flex" flexDirection="column" gap={12} height="calc(100% - 80px)">
+      <Box padding={15} bgcolor={theme.palette.background.default}>
+        <Box
+          mt={theme.height.header}
+          pl="12px"
+          display="flex"
+          flexDirection="column"
+          gap={12}
+          height="calc(100% - 80px)"
+        >
           <Link
-            href={Routes.about}
+            href={Routes.home}
             locale={locale}
             onClick={onClick}
             color={theme.palette.primary.contrastText}
