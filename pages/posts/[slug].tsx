@@ -23,22 +23,6 @@ import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import ReactLazyHydrate from 'react-lazy-hydration'
 
-const CategoryCard = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  alignItems: 'center',
-  textAlign: 'center',
-  justifyContent: 'center',
-  height: 160,
-  border: `2px solid ${theme.palette.primary.main}`,
-  color: theme.palette.primary.main,
-  fontSize: 24,
-  fontWeight: 700,
-  '&:hover': {
-    background: theme.palette.primary.main,
-    color: '#FFFFFF',
-  },
-}))
-
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, asPath } = router
@@ -53,19 +37,35 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
 
   const Shares = () => {
     return (
-      <Box display="flex" gap="10px" justifyContent={isDownMd ? 'center' : 'flex-start'}>
+      <Box display="flex" gap="10px" alignItems="center" justifyContent={isDownMd ? 'center' : 'flex-start'}>
         <EmailShareButton
           subject={`Shareuhack: ${post.title}`}
           body={`Shareuhack: ${post.title}`}
           separator=" --- "
           url={url}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+          }}
         >
           <EmailIcon fontSize="medium" />
         </EmailShareButton>
-        <FacebookShareButton url={url}>
+        <FacebookShareButton
+          url={url}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
           <FacebookIcon fontSize="medium" />
         </FacebookShareButton>
-        <TwitterShareButton url={url}>
+        <TwitterShareButton
+          url={url}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
           <TwitterIcon fontSize="medium" />
         </TwitterShareButton>
       </Box>
@@ -119,86 +119,83 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               </Link>
             </Breadcrumbs>
           )}
+          <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
+            {post.title}
+          </Typography>
+          <Typography color={theme.palette.text.secondary} mb="15px">
+            Updated at {formattedDate(post.date)}
+          </Typography>
+          <CoverImage
+            title={post.title}
+            alt={post.excerpt}
+            src={post.coverImage}
+            height={isDownMd ? 172 : 468}
+            width={isDownMd ? 330 : 896}
+            priority
+          />
 
-          <Grid container>
-            <Grid item md={3} xs={12} sm={12} order={isDownMd ? 1 : 0}>
-              <Box mr={isDownMd ? '15px' : '45px'} pt={isDownMd ? '0px' : '15px'}>
-                {post.credentials && post.credentials.length > 0 && (
-                  <InfoCard title={t('beforewriting')}>
-                    <ol>
-                      {post.credentials?.map((credential, idx) => (
-                        <li key={idx}>{credential}</li>
-                      ))}
-                    </ol>
-                  </InfoCard>
-                )}
-
-                {post.recommendations && post.recommendations.length > 0 && (
-                  <InfoCard title={t('Recommendations')}>
-                    <ol>
-                      {post.recommendations?.map((recommendation, idx) => (
-                        <li key={idx}>
-                          <Link
-                            href={recommendation.link}
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                            color={theme.palette.text.primary}
-                            title={recommendation.title}
-                          >
-                            [{recommendation.src}] {recommendation.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ol>
-                  </InfoCard>
-                )}
-
-                {post.references && post.references.length > 0 && (
-                  <InfoCard title={t('References')}>
-                    <ol>
-                      {post.references?.map((reference, idx) => (
-                        <li key={idx}>
-                          <Link
-                            href={reference.link}
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                            color={theme.palette.text.primary}
-                            title={reference.title}
-                          >
-                            {reference.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ol>
-                  </InfoCard>
-                )}
-
-                <Divider />
+          <Grid spacing={30} container mt={30}>
+            <Grid item md={3} xs={12} sm={12}>
+              <Divider primary />
+              {post.credentials && post.credentials.length > 0 && (
+                <InfoCard title={t('beforewriting')}>
+                  <ol>
+                    {post.credentials?.map((credential, idx) => (
+                      <li key={idx}>{credential}</li>
+                    ))}
+                  </ol>
+                </InfoCard>
+              )}
+            </Grid>
+            <Grid item md={6} xs={12}>
+              <PostBody content={post.content} />
+              <Box display="flex" alignItems="center" gap={15}>
                 <Typography variant="body1" mt="15px" mb="10px">
                   {t('sharePost')}
                 </Typography>
                 <Shares />
               </Box>
             </Grid>
-            <Grid item md={9} xs={12} order={isDownMd ? 0 : 1}>
-              <Box sx={{ wordWrap: 'break-word' }}>
-                <Typography component="h1" fontSize={isDownMd ? 28 : 36} fontWeight={600}>
-                  {post.title}
-                </Typography>
-              </Box>
-              <Typography color={theme.palette.text.secondary} mb="15px">
-                Updated at {formattedDate(post.date)}
-              </Typography>
-              <CoverImage
-                title={post.title}
-                alt={post.excerpt}
-                src={post.coverImage}
-                height={isDownMd ? 172 : 468}
-                width={isDownMd ? 330 : 896}
-                priority
-              />
-
-              <PostBody content={post.content} />
+            <Grid item md={3} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
+              <Divider primary />
+              {post.recommendations && post.recommendations.length > 0 && (
+                <InfoCard title={t('Recommendations')}>
+                  <ol>
+                    {post.recommendations?.map((recommendation, idx) => (
+                      <li key={idx}>
+                        <Link
+                          href={recommendation.link}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          color={theme.palette.text.primary}
+                          title={recommendation.title}
+                        >
+                          [{recommendation.src}] {recommendation.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
+                </InfoCard>
+              )}
+              {post.references && post.references.length > 0 && (
+                <InfoCard title={t('References')}>
+                  <ol>
+                    {post.references?.map((reference, idx) => (
+                      <li key={idx}>
+                        <Link
+                          href={reference.link}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          color={theme.palette.text.primary}
+                          title={reference.title}
+                        >
+                          {reference.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
+                </InfoCard>
+              )}
             </Grid>
           </Grid>
           <ReactLazyHydrate whenVisible>
@@ -207,36 +204,40 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             </Box>
           </ReactLazyHydrate>
           <ReactLazyHydrate whenVisible>
-            <>
-              <Divider color={theme.palette.primary.main} />
+            <Grid container spacing={30}>
+              <Grid item xs={12} md={9}>
+                <Divider primary />
 
-              <Box mt="30px" mb="30px" padding="0 20px">
-                <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="15px">
+                <Typography mb="15px" variant="h6" mt={30}>
                   Related hacks
                 </Typography>
-                <Grid spacing={15} container>
+                <Grid spacing={30} container>
                   {relatedPosts.map((post) => (
                     <Grid key={post.title} item xs={12} sm={4}>
                       <PostPreview {...post} simple />
                     </Grid>
                   ))}
                 </Grid>
-              </Box>
-              <Box mt="30px" mb="30px" padding="0 20px">
-                <Typography fontSize={isDownMd ? 28 : 36} fontWeight={500} mb="30px">
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <Divider primary />
+                <Typography mb="15px" variant="h6" mt={30}>
                   Discover More...
                 </Typography>
                 <Grid spacing={10} container>
                   {NavLinks.map((link, idx) => (
-                    <Grid item key={idx} xs={6} sm={3}>
+                    <Grid item key={idx} xs={12}>
                       <Link href={link.link}>
-                        <CategoryCard>{t(`categories.${link.key}.title`)}</CategoryCard>
+                        <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
                       </Link>
+                      <Typography mt={15} variant="body2">
+                        {t(`categories.${link.key}.description`)}
+                      </Typography>
                     </Grid>
                   ))}
                 </Grid>
-              </Box>
-            </>
+              </Grid>
+            </Grid>
           </ReactLazyHydrate>
         </>
       )}
