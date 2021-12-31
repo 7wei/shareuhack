@@ -84,6 +84,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             </title>
 
             <meta name="description" content={post.description || post.excerpt} />
+            <meta name="keywords" content={post.keywords} />
             <meta property="og:title" content={post.title} />
             <meta property="og:description" content={post.description || post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
