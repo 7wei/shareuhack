@@ -30,7 +30,7 @@ export default function CategorySection({
         <Typography variant="h5" mt="15px" component="h2" color="primary">
           {category}
         </Typography>
-        <Link href={link} locale={locale}>
+        <Link href={link} locale={locale} title={`Shareuhack|${category}`}>
           <Typography variant="h6" fontSize="12px">
             {t('showAll')}
           </Typography>

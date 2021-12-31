@@ -19,21 +19,12 @@ export default function Footer() {
     >
       <Container>
         <Box padding="30px 20px">
-          {/* <Box mb="15px" textAlign={matches ? 'center' : 'left'}> */}
-          {/* <Typography fontWeight={500} fontSize={24} fontStyle="italic">
-              Shareuhack
-            </Typography> */}
-          {/* <Typography color={theme.palette.text.secondary} fontStyle="italic">
-              Hacks for the real life
-            </Typography>
-          </Box> */}
-
           <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
             <Typography fontWeight={500}>Let's chat at</Typography>
-            <Link href="https://www.facebook.com/shareuhack/">
+            <Link href="https://www.facebook.com/shareuhack/" title="Shareuhack|Facebook Page">
               <FacebookIcon />
             </Link>
-            <Link href="mailto:c@shareuhack.com">
+            <Link href="mailto:c@shareuhack.com" title="Shareuhack|Contact Email">
               <EmailIcon />
             </Link>
           </Box>

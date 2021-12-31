@@ -34,7 +34,7 @@ export default function PostPreview({
         width={isDownMd ? 330 : 388}
         alt={excerpt}
       />
-      <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
+      <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
         <Box display="grid" gap="10px">
           <Box sx={{ wordWrap: 'break-word' }}>
             <Typography fontSize={18} fontWeight={500} mt="5px" component="h3" variant="h6">

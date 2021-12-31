@@ -11,16 +11,17 @@ export default function Meta() {
   return (
     <Head>
       {locale && !localeWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
-      {/* <link rel="manifest" href="/favicon/site.webmanifest" /> */}
       <link rel="shortcut icon" href="/assets/favicon.ico" />
-      {locales?.map((locale) => (
-        <link
-          key={locale}
-          rel="alternate"
-          hrefLang={locale}
-          href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
-        />
-      ))}
+      {locales
+        ?.filter((el) => el !== 'zh-TW')
+        .map((locale) => (
+          <link
+            key={locale}
+            rel="alternate"
+            hrefLang={locale}
+            href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
+          />
+        ))}
 
       <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
       <link rel="canonical" href={canonicalUrl} />

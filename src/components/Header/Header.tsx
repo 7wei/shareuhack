@@ -54,10 +54,7 @@ export default function Header() {
         </Box>
 
         <Box display="flex" alignItems="center" flexDirection={'column'} gap={0} flexGrow={1}>
-          <Link href="/" locale={locale} color={theme.palette.text.primary}>
-            {/* <Typography fontSize={isDownMd ? 24 : 28} fontWeight={700} fontStyle="italic" component="div">
-              Shareuhack
-            </Typography> */}
+          <Link href="/" locale={locale} color={theme.palette.text.primary} title="Shareuhack|Home">
             <Image src="/assets/brand/shareuhack.svg" width={isDownMd ? 140 : 240} height={isDownMd ? 24.5 : 42} />
           </Link>
           {!isDownMd && (
@@ -75,7 +72,7 @@ export default function Header() {
       ) : (
         <Box display="flex" alignItems="center" justifyContent="center" gap={24} mt={20} mb={15}>
           {NavLinks.map((link, idx) => (
-            <Link key={idx} href={link.link}>
+            <Link key={idx} href={link.link} disableUnderline title={'Shareuhack|' + t(`categories.${link.key}.title`)}>
               <Box
                 sx={{
                   fontSize: 16,

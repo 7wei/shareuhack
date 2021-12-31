@@ -11,10 +11,11 @@ interface Props {
   locale?: string
   onClick?: () => void
   title?: string
+  disableUnderline?: boolean
 }
 
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick, color, title } = props
+  const { href, target, children, rel, locale, onClick, color, title, disableUnderline } = props
   const theme = useTheme()
 
   return (
@@ -29,7 +30,7 @@ export default function Link(props: Props) {
           textDecoration: 'none',
           '&:hover': {
             color: theme.palette.primary.main,
-            textDecoration: 'underline',
+            textDecoration: disableUnderline ? 'none' : 'underline',
           },
         }}
       >

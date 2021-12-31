@@ -33,8 +33,8 @@ export default function HeroPost({
         alt={excerpt}
         priority
       />
-      <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary}>
-        <Typography variant="h4" mt="8px" mb="8px" component="h3" variant="h1">
+      <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
+        <Typography mt="8px" mb="8px" component="h3" variant="h1">
           {title}
         </Typography>
       </Link>
