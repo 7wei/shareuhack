@@ -14,29 +14,9 @@ export const Routes = {
   life: '/categories/life',
 }
 
-export const NavLinks = [
-  {
-    key: 'knowledge',
-    link: Routes.knowledge,
-  },
-  {
-    key: 'life',
-    link: Routes.life,
-  },
-  {
-    key: 'money',
-    link: Routes.money,
-  },
-  {
-    key: 'work',
-    link: Routes.work,
-  },
-]
-
 export const Category = {
   knowledge: 'knowledge',
   life: 'life',
-  health: 'health',
   money: 'money',
   work: 'work',
 }
@@ -60,10 +40,6 @@ export const Categories = [
   {
     key: Category.life,
     link: Routes.life,
-  },
-  {
-    key: Category.health,
-    link: Routes.health,
   },
   {
     key: Category.money,

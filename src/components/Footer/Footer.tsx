@@ -1,11 +1,8 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import Container from '../Container/Container'
-import theme from 'theme/index'
-import FacebookIcon from '@mui/icons-material/Facebook'
-import EmailIcon from '@mui/icons-material/Email'
 import { useTranslation } from 'next-i18next'
-import Link from '../../components/Link/Link'
 import useBreakpoint from 'hooks/useBreakpoint'
+import Socials from 'components/Socials/Socials'
 
 export default function Footer() {
   const { t } = useTranslation('common')
@@ -25,20 +22,7 @@ export default function Footer() {
             <Typography color={theme.palette.primary.contrastText} fontWeight={500}>
               Let's chat at
             </Typography>
-            <Link
-              color={theme.palette.primary.contrastText}
-              href="https://www.facebook.com/shareuhack/"
-              title="Shareuhack|Facebook Page"
-            >
-              <FacebookIcon fontSize="small" />
-            </Link>
-            <Link
-              color={theme.palette.primary.contrastText}
-              href="mailto:c@shareuhack.com"
-              title="Shareuhack|Contact Email"
-            >
-              <EmailIcon fontSize="small" />
-            </Link>
+            <Socials />
           </Box>
 
           <Typography fontSize={12} color={theme.palette.primary.contrastText} textAlign={matches ? 'center' : 'left'}>

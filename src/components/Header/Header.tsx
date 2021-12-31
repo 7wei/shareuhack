@@ -31,17 +31,15 @@ export default function Header() {
         height: 48,
       }}
     >
-      <Toolbar>
-        <IconButton
-          color="primary"
-          aria-label="Menu"
-          onClick={() => setOpenDrawer(!openDrawer)}
-          sx={{
-            zIndex: 9,
-            display: 'absolute',
-          }}
-        >
-          {openDrawer ? <Close /> : <Menu />}
+      <Toolbar
+        sx={{
+          background: theme.palette.background.default,
+          boxShadow: 'none',
+          height: 48,
+        }}
+      >
+        <IconButton sx={{ zIndex: 9 }} color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+          {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
         </IconButton>
 
         <Box
@@ -59,46 +57,7 @@ export default function Header() {
         </Box>
       </Toolbar>
 
-      {isDownMd ? (
-        <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
-      ) : (
-        <Box display="flex" alignItems="center" justifyContent="center" gap={24} mt={20} mb={15}>
-          {NavLinks.map((link, idx) => (
-            <Link key={idx} href={link.link} disableUnderline title={'Shareuhack|' + t(`categories.${link.key}.title`)}>
-              <Box
-                sx={{
-                  fontSize: 16,
-                  textDecoration: 'none',
-                  color: theme.palette.text.primary,
-                  position: 'relative',
-                  '&:hover': {
-                    textDecoration: 'none',
-                    color: theme.palette.primary.main,
-                  },
-                  '&:after': {
-                    position: 'absolute',
-                    content: '""',
-                    height: 3,
-                    bottom: -4,
-                    margin: '0 auto',
-                    left: 0,
-                    right: 0,
-                    width: '100%',
-                    background: theme.palette.primary.main,
-                    transition: '.5s',
-                  },
-                  '&:hover:after': {
-                    width: '80%',
-                    background: theme.palette.primary.main,
-                  },
-                }}
-              >
-                {t(`categories.${link.key}.title`)}
-              </Box>
-            </Link>
-          ))}
-        </Box>
-      )}
+      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
     </AppBar>
   )
 }
