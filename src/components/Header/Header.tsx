@@ -3,7 +3,6 @@ import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/mat
 import { NavLinks } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@mui/icons-material'
 import dynamic from 'next/dynamic'
@@ -25,48 +24,41 @@ export default function Header() {
 
   return (
     <AppBar
-      position="static"
+      position="sticky"
       sx={{
         background: theme.palette.background.default,
         boxShadow: 'none',
-        height: 140,
-        paddingTop: 20,
-        marginBottom: 15,
-        [theme.breakpoints.down('sm')]: {
-          paddingTop: 16,
-          height: 80,
-        },
+        height: 48,
       }}
     >
-      <Toolbar sx={{ padding: 0 }}>
-        <Box visibility={isDownMd ? 'visible' : 'hidden'}>
-          <IconButton
-            color="inherit"
-            aria-label="Menu"
-            onClick={() => setOpenDrawer(!openDrawer)}
-            sx={{
-              zIndex: 9999999,
-              display: 'absolute',
-            }}
-          >
-            {openDrawer ? <Close /> : <Menu />}
-          </IconButton>
-        </Box>
+      <Toolbar>
+        <IconButton
+          color="primary"
+          aria-label="Menu"
+          onClick={() => setOpenDrawer(!openDrawer)}
+          sx={{
+            zIndex: 9,
+            display: 'absolute',
+          }}
+        >
+          {openDrawer ? <Close /> : <Menu />}
+        </IconButton>
 
-        <Box display="flex" alignItems="center" flexDirection={'column'} gap={0} flexGrow={1}>
+        <Box
+          sx={{
+            position: 'absolute',
+            margin: '0 auto',
+            left: 0,
+            right: 0,
+            textAlign: 'center',
+          }}
+        >
           <Link href="/" locale={locale} color={theme.palette.text.primary} title="Shareuhack|Home">
-            <Image src="/assets/brand/shareuhack.svg" width={isDownMd ? 140 : 240} height={isDownMd ? 24.5 : 42} />
+            <Image src="/assets/brand/shareuhack.svg" width={114.3} height={20} />
           </Link>
-          {!isDownMd && (
-            <Typography color={theme.palette.primary.main} fontStyle="italic" fontSize={16}>
-              Hacks for the real life
-            </Typography>
-          )}
-        </Box>
-        <Box visibility={openDrawer ? 'hidden' : 'visible'}>
-          <LanguageSelector />
         </Box>
       </Toolbar>
+
       {isDownMd ? (
         <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
       ) : (

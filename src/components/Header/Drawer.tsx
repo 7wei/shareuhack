@@ -3,6 +3,7 @@ import { Drawer, Box, useTheme, Typography } from '@mui/material'
 import { NavLinks } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import Link from 'components/Link/Link'
+import LanguageSelector from 'components/LanguageSelector/LanguageSelector'
 
 interface Props {
   open: boolean
@@ -25,8 +26,8 @@ export default function DrawerComponent(props: Props) {
           },
           '& .MuiPaper-root': {
             width: 'calc(100% - 1px)',
-            backgroundColor: theme.palette.background.default,
-            marginTop: 80,
+            backgroundColor: 'transparent',
+            marginTop: 48,
           },
         }}
         open={open}
