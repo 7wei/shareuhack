@@ -129,8 +129,8 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             title={post.title}
             alt={post.excerpt}
             src={post.coverImage}
-            height={isDownMd ? 172 : 468}
-            width={isDownMd ? 330 : 896}
+            height={isDownMd ? 172 : 630}
+            width={isDownMd ? 330 : 1200}
             priority
           />
 

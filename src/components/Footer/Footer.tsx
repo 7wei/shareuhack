@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 import Container from '../Container/Container'
 import theme from 'theme/index'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -10,32 +10,38 @@ import useBreakpoint from 'hooks/useBreakpoint'
 export default function Footer() {
   const { t } = useTranslation('common')
   const matches = useBreakpoint()
+  const theme = useTheme()
 
   return (
     <Box
       sx={{
-        backgroundColor: '#282729',
+        backgroundColor: theme.palette.primary.main,
+        mt: 30,
       }}
     >
       <Container>
         <Box padding="30px 20px">
           <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
-            <Typography fontWeight={500}>Let's chat at</Typography>
-            <Link href="https://www.facebook.com/shareuhack/" title="Shareuhack|Facebook Page">
-              <FacebookIcon />
+            <Typography color={theme.palette.primary.contrastText} fontWeight={500}>
+              Let's chat at
+            </Typography>
+            <Link
+              color={theme.palette.primary.contrastText}
+              href="https://www.facebook.com/shareuhack/"
+              title="Shareuhack|Facebook Page"
+            >
+              <FacebookIcon fontSize="small" />
             </Link>
-            <Link href="mailto:c@shareuhack.com" title="Shareuhack|Contact Email">
-              <EmailIcon />
+            <Link
+              color={theme.palette.primary.contrastText}
+              href="mailto:c@shareuhack.com"
+              title="Shareuhack|Contact Email"
+            >
+              <EmailIcon fontSize="small" />
             </Link>
           </Box>
 
-          <Typography
-            fontSize={12}
-            color={theme.palette.text.secondary}
-            mt="28px"
-            pb="15px"
-            textAlign={matches ? 'center' : 'left'}
-          >
+          <Typography fontSize={12} color={theme.palette.primary.contrastText} textAlign={matches ? 'center' : 'left'}>
             {t('footer.copyright')}
           </Typography>
         </Box>
