@@ -14,6 +14,7 @@ export default function Footer() {
       sx={{
         backgroundColor: theme.palette.primary.main,
         mt: 30,
+        height: theme.height.footer,
       }}
     >
       <Container>

@@ -228,7 +228,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               <Grid item xs={12} md={3}>
                 <Divider primary />
                 <Typography mb="15px" variant="h6" mt={30}>
-                  Discover More...
+                  Discover More
                 </Typography>
                 <Grid spacing={10} container>
                   {Categories.filter((el) => el.key !== category.key).map((link, idx) => (

@@ -108,6 +108,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                   description={t(`categories.${key}.description`)}
                   posts={posts}
                   link={link}
+                  simple
                 />
               </Box>
             </ReactLazyHydrate>

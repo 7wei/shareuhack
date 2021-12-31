@@ -23,7 +23,7 @@ export default function InfoCard(props: Props) {
     <Box
       sx={{
         backgroundColor: bgColor ?? 'transparent',
-        padding: 15,
+        // padding: 15,
         borderRadius: '5px',
         '& ol': {
           paddingLeft: 15,
@@ -31,7 +31,7 @@ export default function InfoCard(props: Props) {
       }}
     >
       {title && (
-        <Typography fontSize={isDownMd ? 14 : 16} fontWeight={isDownMd ? 500 : 700} mb={5} component="h3" variant="h5">
+        <Typography mb={5} variant="h6">
           {title}
         </Typography>
       )}

@@ -133,7 +133,7 @@ export const theme = {
   height: {
     header: '48px',
     mobileHeader: '77px',
-    footer: '60px',
+    footer: '120px',
   },
   shape: {
     border: '1px solid',

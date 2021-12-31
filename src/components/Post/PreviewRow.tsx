@@ -9,6 +9,7 @@ export default function CategorySection({
   description,
   posts,
   link,
+  simple,
 }: {
   category: string
   description: string
@@ -20,6 +21,7 @@ export default function CategorySection({
     slug: string
   }[]
   link?: string
+  simple?: boolean
 }) {
   const { locale } = useRouter()
   const { t } = useTranslation('common')
@@ -44,7 +46,7 @@ export default function CategorySection({
           {posts &&
             posts.map((post) => (
               <Grid key={post.title} item sm={4}>
-                <PostPreview {...post} />
+                <PostPreview {...post} simple={simple} />
               </Grid>
             ))}
         </Grid>

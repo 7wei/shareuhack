@@ -14,8 +14,6 @@ import { useRouter } from 'next/router'
 export default function CategoryPage({ category, subCategories }) {
   const matches = useBreakpoint()
   const { t } = useTranslation('common')
-  const { locale } = useRouter()
-  const theme = useTheme()
 
   const getSubCategoryStr = () =>
     subCategories.map((subCategory) => t(`subCategories.${subCategory.key}.title`)).join(', ')
@@ -33,20 +31,20 @@ export default function CategoryPage({ category, subCategories }) {
         <meta name="keywords" content={t(`categories.${category.key}.title`) + ', ' + getSubCategoryStr()} />
       </Head>
       {/* <Disclosure /> */}
-      <Grid container mt={theme.height.header}>
+      <Grid container spacing={30}>
         <Grid item sm={9}>
           <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`categories.${category.key}.title`)}
           </Typography>
           <Typography fontSize={16}>{t(`categories.${category.key}.description`)}</Typography>
         </Grid>
-        <Grid item sm={3}>
-          {!matches && (
+        {!matches && (
+          <Grid item sm={3}>
             <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
               {t('whatWeDoDescript')}
             </InfoCard>
-          )}
-        </Grid>
+          </Grid>
+        )}
       </Grid>
       <Grid mt={matches ? '15px' : 0} container spacing={30}>
         <Grid item xs={12} md={9}>
@@ -65,7 +63,7 @@ export default function CategoryPage({ category, subCategories }) {
         <Grid item xs={12} md={3}>
           <Divider primary />
           <Typography mb="15px" variant="h6" mt={30}>
-            Discover More...
+            Discover More
           </Typography>
           <Grid spacing={10} container>
             {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
