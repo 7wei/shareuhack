@@ -4,9 +4,9 @@ category: ''
 subCategory: ''
 date: '2021-07-17'
 excerpt: '我们是 Shareuhack，我们致力于发现、研究并分享有价值的知识、秘技，希望帮助每个人，成为自己的生活黑客。'
-coverImage: '/assets/share-you-hack.png'
+coverImage: '/assets/brand/1200x627.jpg'
 ogImage:
-  url: '/assets/share-you-hack.png'
+  url: '/assets/brand/1200x627.jpg'
 ---
 
 ## What We do?

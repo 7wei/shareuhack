@@ -4,9 +4,9 @@ category: ''
 subCategory: ''
 date: '2021-07-17'
 excerpt: 'We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!'
-coverImage: '/assets/share-you-hack.png'
+coverImage: '/assets/brand/1200x627.jpg'
 ogImage:
-  url: '/assets/share-you-hack.png'
+  url: '/assets/brand/1200x627.jpg'
 ---
 
 ## What We do?

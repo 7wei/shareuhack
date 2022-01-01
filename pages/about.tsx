@@ -6,9 +6,12 @@ import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
 import { Typography, Button, Box, Grid } from '@mui/material'
+import CoverImage from '../src/components/Image/CoverImage'
+import useBreakpoint from '../src/hooks/useBreakpoint'
 
 export default function About({ post }) {
   const { t } = useTranslation('common')
+  const isDownMd = useBreakpoint('md')
 
   return (
     <>
@@ -21,6 +24,14 @@ export default function About({ post }) {
       </Head>
       <Grid container justifyContent="center">
         <Grid xs={12} md={6} item>
+          <CoverImage
+            title={post.title}
+            alt={post.excerpt}
+            src={post.coverImage}
+            height={isDownMd ? 172 : 630}
+            width={isDownMd ? 330 : 1200}
+            priority
+          />
           <Typography component="h1" fontSize={36} fontWeight={500}>
             {post.title}
           </Typography>

@@ -4,9 +4,9 @@ category: ''
 subCategory: ''
 date: '2021-07-17'
 excerpt: '私たちは、すべてを効率的に行うために、実用的な技術とハックを調査、共有、テストすることに熱心です。 あなたがLifehackerになるのを手伝ってください！'
-coverImage: '/assets/share-you-hack.png'
+coverImage: '/assets/brand/1200x627.jpg'
 ogImage:
-  url: '/assets/share-you-hack.png'
+  url: '/assets/brand/1200x627.jpg'
 ---
 
 ## What We do?

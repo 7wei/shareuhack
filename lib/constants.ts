@@ -1,5 +1,5 @@
 export const CMS_NAME = 'Shareuhack'
-export const HOME_OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/share-you-hack.png'
+export const HOME_OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/brand/1200x627.jpg'
 
 export const HERO_POST_SLUG = 'how-to-get-pmp-2021'
 
