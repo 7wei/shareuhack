@@ -25,7 +25,7 @@ export default function PostPreview({
   const isDownMd = useBreakpoint('md')
 
   return (
-    <Box display="grid" gap="10px">
+    <Box>
       <CoverImage
         slug={slug}
         title={title}
@@ -35,27 +35,25 @@ export default function PostPreview({
         alt={excerpt}
       />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
-        <Box display="grid" gap="10px">
-          <Box sx={{ wordWrap: 'break-word' }}>
-            <Typography fontWeight={500} mt="5px" component="h3" variant="h6">
-              {title}
-            </Typography>
-          </Box>
-
-          <Typography variant="body2" color={theme.palette.text.secondary}>
-            {formattedDate(date)}
+        <Box sx={{ wordWrap: 'break-word' }}>
+          <Typography fontWeight={500} mt="5px" component="h3" variant="h6">
+            {title}
           </Typography>
-          <Box
-            sx={{
-              display: '-webkit-box',
-              WebkitBoxOrient: 'vertical',
-              WebkitLineClamp: 3,
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-            }}
-          >
-            {!simple && <Typography variant="body1">{excerpt}</Typography>}
-          </Box>
+        </Box>
+
+        <Typography variant="body2" color={theme.palette.text.secondary}>
+          {formattedDate(date)}
+        </Typography>
+        <Box
+          sx={{
+            display: '-webkit-box',
+            WebkitBoxOrient: 'vertical',
+            WebkitLineClamp: 3,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+          }}
+        >
+          {!simple && <Typography variant="body1">{excerpt}</Typography>}
         </Box>
       </Link>
     </Box>

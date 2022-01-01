@@ -34,11 +34,11 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       </Head>
       <CommonStructuredData type="home" />
       <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }}>
-        <Grid item xs={9}>
+        <Grid item xs={12} md={9}>
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
 
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <Divider primary />
           <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
             {t('latest')}
@@ -56,7 +56,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
         </Grid>
-        <Grid item xs={9}>
+        <Grid item xs={12} md={9}>
           <Divider primary />
           <Typography variant="h6" mt="15px" mb="15px" color="primary">
             {t('hottest')}
@@ -86,7 +86,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <Divider primary />
           <InfoCard
             title={t('whatWeDo')}
