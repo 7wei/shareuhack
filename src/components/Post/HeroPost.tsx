@@ -38,9 +38,6 @@ export default function HeroPost({
           {title}
         </Typography>
       </Link>
-      {/* <Box mb="15px"> */}
-      {/* <Grid container> */}
-      {/* <Grid item sm={relatedPosts.length > 0 ? 7 : 12}> */}
       <Box
         mr="10px"
         sx={{
@@ -53,33 +50,6 @@ export default function HeroPost({
       >
         <Typography variant="body1">{excerpt}</Typography>
       </Box>
-      {/* </Grid> */}
-      {/* {relatedPosts.length > 0 && (
-            <Grid item sm={5}>
-              <Box ml="10px" mt="7px">
-                <Divider primary />
-                <Typography variant="h4" mt="15px" mb="15px" component="h3" color="primary">
-                  RELATED
-                </Typography>
-                <Box display="grid" gap="10px">
-                  {relatedPosts.map((post) => (
-                    <Link
-                      key={post.slug}
-                      href={`/posts/${post.slug}`}
-                      locale={locale}
-                      color={theme.palette.text.primary}
-                    >
-                      <Typography fontWeight={500} component="h4" variant="h6">
-                        {post.title}
-                      </Typography>
-                    </Link>
-                  ))}
-                </Box>
-              </Box>
-            </Grid>
-          )} */}
-      {/* </Grid> */}
-      {/* </Box> */}
     </Box>
   )
 }

@@ -11,8 +11,9 @@ export default function Footer() {
   return (
     <Box
       sx={{
-        mt: 30,
+        mt: 88,
         height: theme.height.footer,
+        pt: 30,
       }}
     >
       <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
