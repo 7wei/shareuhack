@@ -44,7 +44,7 @@ export default function DrawerComponent(props: Props) {
           backgroundColor: 'transparent',
         },
         '& .MuiPaper-root': {
-          width: 240,
+          width: 228,
           backgroundColor: theme.palette.background.default,
         },
       }}
@@ -53,14 +53,7 @@ export default function DrawerComponent(props: Props) {
       anchor="right"
     >
       <Box padding={15} bgcolor={theme.palette.background.default}>
-        <Box
-          mt={theme.height.header}
-          pl="12px"
-          display="flex"
-          flexDirection="column"
-          gap={12}
-          height="calc(100% - 80px)"
-        >
+        <Box pl="12px" display="flex" flexDirection="column" gap={12}>
           <Link
             href={Routes.home}
             locale={locale}
@@ -72,7 +65,7 @@ export default function DrawerComponent(props: Props) {
               {t('home')}
             </Typography>
           </Link>
-          <Divider primary />
+          <Divider />
           {Categories.map((link) => (
             <Link
               key={link.key}
@@ -86,7 +79,7 @@ export default function DrawerComponent(props: Props) {
               </Typography>
             </Link>
           ))}
-          <Divider primary />
+          <Divider />
           <Box>
             <Typography variant="body1" color={theme.palette.text.primary}>
               {t('selectLocale')}
@@ -110,7 +103,7 @@ export default function DrawerComponent(props: Props) {
               ))}
             </Box>
           </Box>
-          <Divider primary />
+          <Divider />
           <Link
             href={Routes.about}
             locale={locale}
@@ -122,7 +115,7 @@ export default function DrawerComponent(props: Props) {
               {t('about')}
             </Typography>
           </Link>
-          <Socials primary />
+          <Socials />
         </Box>
       </Box>
     </Drawer>
