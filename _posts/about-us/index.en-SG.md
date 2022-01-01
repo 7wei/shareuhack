@@ -1,12 +1,12 @@
 ---
 title: 'About Shareuhack'
-category: ''
-subCategory: ''
+# category: ''
+# subCategory: ''
 date: '2021-07-17'
 excerpt: 'We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!'
-coverImage: '/assets/brand/1200x627.jpg'
+coverImage: '/assets/brand/shareuhack.jpg'
 ogImage:
-  url: '/assets/brand/1200x627.jpg'
+  url: '/assets/brand/shareuhack.jpg'
 ---
 
 ## What We do?

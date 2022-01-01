@@ -91,6 +91,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="og:type" content="article" />
 
             {post.keywords &&
+              post.keywords !== '' &&
               post.keywords
                 .split(', ')
                 .map((keyword) => <meta key={keyword} property="article:tag" content={keyword} />)}
@@ -231,7 +232,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   Discover More
                 </Typography>
                 <Grid spacing={10} container>
-                  {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
+                  {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
                     <Grid item key={idx} xs={12}>
                       <Link href={link.link}>
                         <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>

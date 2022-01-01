@@ -42,8 +42,6 @@ export default function CategoryPage({ category, subCategories }) {
             {t('whatWeDoDescript')}
           </InfoCard>
         </Grid>
-      </Grid>
-      <Grid container spacing={30}>
         <Grid item xs={12} md={9}>
           {subCategories.map((subCategory, idx) => (
             <Box key={idx} mb="15px">

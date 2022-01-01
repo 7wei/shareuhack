@@ -5,9 +5,10 @@ import { getPostBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
-import { Typography, Button, Box, Grid } from '@mui/material'
+import { Button, Box, Grid } from '@mui/material'
 import CoverImage from '../src/components/Image/CoverImage'
 import useBreakpoint from '../src/hooks/useBreakpoint'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
 export default function About({ post }) {
   const { t } = useTranslation('common')
@@ -18,34 +19,33 @@ export default function About({ post }) {
       <Head>
         <title>{CMS_NAME} | About</title>
         <meta name="description" content={t('whatWeDoDescript')} />
-        <meta property="og:title" content={post.title} />
+        <meta property="og:title" content={'Shareuhack| About Us'} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       <Grid container justifyContent="center">
         <Grid xs={12} md={6} item>
+          {/* <Typography component="h1" variant="h1">
+            {post.title}
+          </Typography> */}
           <CoverImage
             title={post.title}
-            alt={post.excerpt}
+            alt={'Shareuhack-hacks for the real life'}
             src={post.coverImage}
-            height={isDownMd ? 172 : 630}
+            height={isDownMd ? 172 : 627}
             width={isDownMd ? 330 : 1200}
             priority
           />
-          <Typography component="h1" fontSize={36} fontWeight={500}>
-            {post.title}
-          </Typography>
           <PostBody content={post.content} />
           <Box
             sx={{
               display: 'flex',
               justifyContent: 'center',
-              mt: 60,
-              mb: 60,
+              mt: 30,
             }}
           >
-            <Button color="primary" variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href="/">
-              Keep Exploring
+            <Button sx={{ fontWeight: 500, fontSize: 18 }} href="/" endIcon={<ArrowForwardIcon fontSize="small" />}>
+              Start Exploring
             </Button>
           </Box>
         </Grid>

@@ -57,7 +57,7 @@ export default function Header() {
             <Box
               sx={{
                 backgroundImage: {
-                  xs: 'url(/assets/brand/logo2.svg)',
+                  xs: 'url(/assets/brand/shareuhack2.svg)',
                   md: 'none',
                 },
                 backgroundSize: 'contain',
@@ -71,7 +71,7 @@ export default function Header() {
                 <Image
                   title="shareuhack brand logo"
                   aria-label="shareuhack brand logo"
-                  src={'/assets/brand/logo1.svg'}
+                  src={'/assets/brand/shareuhack1.svg'}
                   alt="shareuhack brand logo"
                   width={72}
                   height={48}
