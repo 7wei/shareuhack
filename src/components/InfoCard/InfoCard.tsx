@@ -23,10 +23,10 @@ export default function InfoCard(props: Props) {
     <Box
       sx={{
         backgroundColor: bgColor ?? 'transparent',
-        // padding: 15,
         borderRadius: '5px',
+        padding: '15px 0',
         '& ol': {
-          paddingLeft: 15,
+          pl: 15,
         },
       }}
     >
