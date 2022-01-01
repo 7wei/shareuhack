@@ -11,7 +11,6 @@ import Image from 'next/image'
 const Drawer = dynamic(() => import('./Drawer'))
 
 export default function Header() {
-  const { t } = useTranslation('common')
   const { locale } = useRouter()
   const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
@@ -60,15 +59,19 @@ export default function Header() {
               sx={{
                 backgroundImage: {
                   xs: 'url(/assets/brand/logo2.svg)',
-                  md: 'url(/assets/brand/logo1.svg)',
+                  md: 'none',
                 },
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
+                width: 72,
+                height: 48,
               }}
-              width={72}
-              height={48}
-            />
+            >
+              <Box sx={{ visibility: { xs: 'hidden', md: 'visible' } }}>
+                <Image src={'/assets/brand/logo1.svg'} alt="shareuhack" width={72} height={48} />
+              </Box>
+            </Box>
           </Link>
 
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
