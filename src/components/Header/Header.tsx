@@ -63,7 +63,10 @@ export default function Header() {
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                width: 72,
+                width: {
+                  xs: 120,
+                  md: 72,
+                },
                 height: 48,
               }}
             >
