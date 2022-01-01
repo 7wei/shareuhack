@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
     <>
       <Meta />
       <Header />
-      <Container maxWidth="md">
+      <Container maxWidth="md" sx={{ padding: { xs: '0 15px', md: 0 } }}>
         <Box paddingTop={15}>{children}</Box>
       </Container>
       <Container maxWidth="md">

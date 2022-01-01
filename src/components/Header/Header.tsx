@@ -27,8 +27,13 @@ export default function Header() {
       sx={{
         background: theme.palette.background.default,
         boxShadow: 'none',
-        height: theme.height.header,
+        height: {
+          xs: theme.height.mobileHeader,
+          md: theme.height.header,
+        },
         borderBottom: `1px solid rgba(0,0,0,0.1)`,
+        overflow: 'hidden',
+        padding: '0 15px',
       }}
     >
       <Container maxWidth="md">
@@ -36,16 +41,36 @@ export default function Header() {
           sx={{
             background: theme.palette.background.default,
             boxShadow: 'none',
-            minHeight: theme.height.header,
-            padding: '15px 15px',
             display: 'flex',
             justifyContent: 'space-between',
             borderBottom: theme.palette.text.secondary,
+            height: {
+              xs: theme.height.mobileHeader,
+              md: theme.height.header,
+            },
+            minHeight: {
+              xs: theme.height.mobileHeader,
+              md: theme.height.header,
+            },
+            padding: '0px !important',
           }}
         >
-          <Link href="/" locale={locale} color={theme.palette.text.primary} title="Shareuhack|Home">
-            <Image src="/assets/brand/logo.svg" width={86} height={58.5} />
+          <Link href="/" locale={locale} title="Shareuhack|Home">
+            <Box
+              sx={{
+                backgroundImage: {
+                  xs: 'url(/assets/brand/logo2.svg)',
+                  md: 'url(/assets/brand/logo1.svg)',
+                },
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+              }}
+              width={72}
+              height={48}
+            />
           </Link>
+
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
           </IconButton>
