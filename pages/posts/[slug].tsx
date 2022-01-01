@@ -119,7 +119,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               </Link>
             </Breadcrumbs>
           )}
-          <Typography component="h1" variant="h1" mt={8}>
+          <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
             {post.title}
           </Typography>
           <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
@@ -157,10 +157,10 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </Typography>
                 <Shares />
               </Box>
-              <Box display="flex" alignItems="center">
-                <Typography variant="body1" mt="15px" mb="10px" sx={{ transform: 'translateY(-8px)' }}>
-                  {t('subscribe')}
-                </Typography>
+              <Typography variant="body1" mt="15px">
+                {t('subscribe')}
+              </Typography>
+              <Box sx={{ '& .ml-form-embed': { width: '100%' } }}>
                 <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5224628:i3c0y2"></div>
               </Box>
             </Grid>
