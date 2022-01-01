@@ -17,7 +17,7 @@ export default function CommonStructuredData(props: Props) {
 
   const websiteName = 'Shareuhack'
   const websiteUrl = 'https://www.shareuhack.com'
-  const logoUrl = '/assets/brand.png'
+  const logoUrl = 'https://www.shareuhack.com/assets/brand/shareuhack.png'
   const keywords = 'Shareuhack, LifeHacks, LifeHacker'
   const description = t('whatWeDoDescript')
   const email = 'c@shareuhack.com'
