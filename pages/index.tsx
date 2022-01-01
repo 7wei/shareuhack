@@ -3,8 +3,7 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Grid, Box, Typography, useTheme } from '@mui/material'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
-import { CMS_NAME, Categories, Routes, HERO_POST_SLUG, HOME_OG_IMAGE_URL } from '../lib/constants'
-import InfoCard from '../src/components/InfoCard/InfoCard'
+import { CMS_NAME, Categories, HERO_POST_SLUG, HOME_OG_IMAGE_URL, Routes } from '../lib/constants'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
@@ -13,6 +12,7 @@ import Link from '../src/components/Link/Link'
 import PreviewRow from '../src/components/Post/PreviewRow'
 import CommonStructuredData from '../src/components/CommonStructuredData'
 import ReactLazyHydrate from 'react-lazy-hydration'
+import InfoCard from '../src/components/InfoCard/InfoCard'
 
 export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
   const isDownMd = useBreakpint('md')
@@ -34,15 +34,11 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       </Head>
       <CommonStructuredData type="home" />
       <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }}>
-        <Grid item sm={3} order={isDownMd ? 1 : 0}>
-          {!isDownMd && (
-            <InfoCard
-              title={t('whatWeDo')}
-              content={t('whatWeDoDescript')}
-              link={Routes.about}
-              linkText={`--${t('learnMore')}`}
-            />
-          )}
+        <Grid item xs={9}>
+          <HeroPost {...heroPost} relatedPosts={relatedPosts} />
+        </Grid>
+
+        <Grid item xs={3}>
           <Divider primary />
           <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
             {t('latest')}
@@ -60,41 +56,44 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             ))}
           </Box>
         </Grid>
-        <Grid item sm={6} order={isDownMd ? 0 : 1}>
-          {isDownMd && (
-            <InfoCard link={Routes.about} content={t('whatWeDoDescript')} linkText={`--${t('learnMore')}`} />
-          )}
-          <HeroPost {...heroPost} relatedPosts={relatedPosts} />
-        </Grid>
-        <Grid item sm={3} order={2}>
+        <Grid item xs={9}>
           <Divider primary />
-          <Typography variant="h6" mt="15px" mb="15px" component="h1" color="primary">
+          <Typography variant="h6" mt="15px" mb="15px" color="primary">
             {t('hottest')}
           </Typography>
-          <Box display="grid" gap="8px" mb="15px" sx={{ wordWrap: 'break-word' }}>
+          <Box display="grid" gap="8px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
               <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
                 <Typography component="h3" variant="h6">
                   {post.title}
                 </Typography>
+                <Box
+                  mr="10px"
+                  sx={{
+                    display: '-webkit-box',
+                    WebkitBoxOrient: 'vertical',
+                    WebkitLineClamp: 1,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                  }}
+                >
+                  <Typography variant="body2">{post.excerpt}</Typography>
+                </Box>
                 <Typography variant="body2" color={theme.palette.text.secondary}>
                   {formattedDate(post.date)}
                 </Typography>
               </Link>
             ))}
           </Box>
-          {!isDownMd && (
-            <>
-              <Divider primary />
-              <InfoCard
-                title={t('howWeDo')}
-                content={t('howWeDoDescript')}
-                link={Routes.about}
-                linkText={`--${t('learnMore')}`}
-                bgColor="transparent"
-              />
-            </>
-          )}
+        </Grid>
+        <Grid item xs={3}>
+          <Divider primary />
+          <InfoCard
+            title={t('whatWeDo')}
+            link={Routes.about}
+            linkText={`--${t('learnMore')}`}
+            content={t('whatWeDoDescript')}
+          ></InfoCard>
         </Grid>
       </Grid>
       {categories.map(({ key, posts, link }) => {
@@ -125,7 +124,6 @@ export async function getStaticProps({ locale }) {
   const hotPosts = getHotPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ key, link }) => {
-    // const category = Object.keys(Category).find((key) => Category[key] === title)
     const posts = getCategoryPosts(key, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
     return {
       key,

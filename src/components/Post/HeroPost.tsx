@@ -23,7 +23,7 @@ export default function HeroPost({
   const isDownMd = useBreakpoint('md')
 
   return (
-    <section>
+    <Box>
       <CoverImage
         title={title}
         src={coverImage}
@@ -38,14 +38,23 @@ export default function HeroPost({
           {title}
         </Typography>
       </Link>
-      <Box mb="15px">
-        <Grid container>
-          <Grid item sm={relatedPosts.length > 0 ? 7 : 12}>
-            <Box mr="10px">
-              <Typography variant="body1">{excerpt}</Typography>
-            </Box>
-          </Grid>
-          {relatedPosts.length > 0 && (
+      {/* <Box mb="15px"> */}
+      {/* <Grid container> */}
+      {/* <Grid item sm={relatedPosts.length > 0 ? 7 : 12}> */}
+      <Box
+        mr="10px"
+        sx={{
+          display: '-webkit-box',
+          WebkitBoxOrient: 'vertical',
+          WebkitLineClamp: 3,
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}
+      >
+        <Typography variant="body1">{excerpt}</Typography>
+      </Box>
+      {/* </Grid> */}
+      {/* {relatedPosts.length > 0 && (
             <Grid item sm={5}>
               <Box ml="10px" mt="7px">
                 <Divider primary />
@@ -68,9 +77,9 @@ export default function HeroPost({
                 </Box>
               </Box>
             </Grid>
-          )}
-        </Grid>
-      </Box>
-    </section>
+          )} */}
+      {/* </Grid> */}
+      {/* </Box> */}
+    </Box>
   )
 }

@@ -17,7 +17,6 @@ export default function InfoCard(props: Props) {
   const { title, content, linkText, link, bgColor, children } = props
   const theme = useTheme()
   const { locale } = useRouter()
-  const isDownMd = useBreakpoint('md')
 
   return (
     <Box
@@ -31,12 +30,12 @@ export default function InfoCard(props: Props) {
       }}
     >
       {title && (
-        <Typography mb={5} variant="h6">
+        <Typography mb={5} variant="h6" color="primary">
           {title}
         </Typography>
       )}
       {content && (
-        <Typography fontSize={isDownMd ? 12 : 14} component="div" variant="body1">
+        <Typography component="div" variant="body1" mt={15}>
           {content}
         </Typography>
       )}
