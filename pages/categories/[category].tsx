@@ -9,7 +9,6 @@ import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
 import { useTranslation } from 'next-i18next'
-import { useRouter } from 'next/router'
 
 export default function CategoryPage({ category, subCategories }) {
   const matches = useBreakpoint()
@@ -38,15 +37,13 @@ export default function CategoryPage({ category, subCategories }) {
           </Typography>
           <Typography fontSize={16}>{t(`categories.${category.key}.description`)}</Typography>
         </Grid>
-        {!matches && (
-          <Grid item sm={3}>
-            <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
-              {t('whatWeDoDescript')}
-            </InfoCard>
-          </Grid>
-        )}
+        <Grid item sm={3}>
+          <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+            {t('whatWeDoDescript')}
+          </InfoCard>
+        </Grid>
       </Grid>
-      <Grid mt={matches ? '15px' : 0} container spacing={30}>
+      <Grid container spacing={30}>
         <Grid item xs={12} md={9}>
           {subCategories.map((subCategory, idx) => (
             <Box key={idx} mb="15px">

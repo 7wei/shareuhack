@@ -1,6 +1,5 @@
 import { useCallback, useState } from 'react'
 import { Box, AppBar, Toolbar, IconButton, Container, useTheme } from '@mui/material'
-import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
 import { Menu, Close } from '@mui/icons-material'
@@ -69,7 +68,14 @@ export default function Header() {
               }}
             >
               <Box sx={{ visibility: { xs: 'hidden', md: 'visible' } }}>
-                <Image src={'/assets/brand/logo1.svg'} alt="shareuhack" width={72} height={48} />
+                <Image
+                  title="shareuhack brand logo"
+                  aria-label="shareuhack brand logo"
+                  src={'/assets/brand/logo1.svg'}
+                  alt="shareuhack brand logo"
+                  width={72}
+                  height={48}
+                />
               </Box>
             </Box>
           </Link>

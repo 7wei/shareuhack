@@ -15,10 +15,10 @@ export const Routes = {
 }
 
 export const Category = {
-  knowledge: 'knowledge',
   life: 'life',
-  money: 'money',
+  knowledge: 'knowledge',
   work: 'work',
+  money: 'money',
 }
 
 export const SubCategory = {
@@ -142,7 +142,7 @@ export const Locales = [
 export const HotPostSlugs = [
   'how-to-get-pmp-2021',
   'blinkist-an-efficient-way-to-get-key-ideas',
-  'use-time-matrix-to-make-life-easier',
+  'sense-of-ritual-best-practice',
   'how-to-become-a-frontend-engineer',
   'how-to-get-best-price-on-udemy-courses',
 ]

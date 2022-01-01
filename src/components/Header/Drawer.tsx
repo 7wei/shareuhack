@@ -110,7 +110,6 @@ export default function DrawerComponent(props: Props) {
               ))}
             </Box>
           </Box>
-
           <Divider primary />
           <Link
             href={Routes.about}
