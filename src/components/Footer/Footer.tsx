@@ -11,13 +11,13 @@ export default function Footer() {
   return (
     <Box
       sx={{
-        mt: 88,
+        mt: 30,
         height: theme.height.footer,
         pt: 30,
       }}
     >
-      <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'}>
-        <Typography variant="body2">Let's chat at</Typography>
+      <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'} mb={18}>
+        <Typography variant="body1">Let's chat at</Typography>
         <Socials primary />
       </Box>
 
