@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
@@ -128,18 +129,24 @@ export default function CommonStructuredData(props: Props) {
   }, [post])
 
   return (
-    <>
-      <Script type="application/ld+json">{JSON.stringify(structuredDataOrganization)}</Script>
-      <Script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</Script>
+    <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataOrganization) }}
+      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataWebsite) }} />
       {type === 'post' && structuredDataPost && (
-        <Script type="application/ld+json">{JSON.stringify(structuredDataPost)}</Script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataPost) }} />
       )}
       {type === 'post' && structuredDataBreadcrumb && (
-        <Script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataBreadcrumb) }}
+        />
       )}
       {type === 'post' && structuredDataFaq && (
-        <Script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</Script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFaq) }} />
       )}
-    </>
+    </Head>
   )
 }
