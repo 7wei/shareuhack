@@ -11,7 +11,7 @@ export default function Meta() {
   return (
     <Head>
       {locale && !localeWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
-      <link rel="shortcut icon" href="/assets/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon/favicon.ico" />
       {locales
         ?.filter((el) => el !== 'zh-TW')
         .map((locale) => (
