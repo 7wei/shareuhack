@@ -1,5 +1,5 @@
 import Footer from '../Footer/Footer'
-import Meta from '../Meta'
+import Meta from '../Meta/Meta'
 import Header from '../Header/Header'
 import React from 'react'
 import { useTheme, Container, Box } from '@mui/material'

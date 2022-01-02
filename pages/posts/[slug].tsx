@@ -22,6 +22,7 @@ import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import ReactLazyHydrate from 'react-lazy-hydration'
+import Script from 'next/script'
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -95,21 +96,17 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               post.keywords
                 .split(', ')
                 .map((keyword) => <meta key={keyword} property="article:tag" content={keyword} />)}
-
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-              var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-              f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-              var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-              _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-
-              var ml_account = ml('accounts', '3616085', 'z2m5d4m0k5', 'load');`,
-              }}
-            />
           </Head>
           <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
+          <Script>
+            {`(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+                var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+                f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+                var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+                _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
+                var ml_account = ml('accounts', '3616085', 'z2m5d4m0k5', 'load');`}
+          </Script>
           {category && subCategory && (
             <Breadcrumbs>
               <Link href={category?.link} locale={locale}>

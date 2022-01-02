@@ -1,7 +1,8 @@
-import Head from 'next/head'
+// import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
+import Script from 'next/script'
 
 interface Props {
   post?: any
@@ -128,24 +129,30 @@ export default function CommonStructuredData(props: Props) {
   }, [post])
 
   return (
-    <Head>
-      <script
+    <>
+      <Script type="application/ld+json">{JSON.stringify(structuredDataOrganization)}</Script>
+      <Script type="application/ld+json">{JSON.stringify(structuredDataWebsite)}</Script>
+
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataOrganization) }}
-      />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataWebsite) }} />
+      /> */}
+      {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataWebsite) }} /> */}
       {type === 'post' && structuredDataPost && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataPost) }} />
+        // <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataPost) }} />
+        <Script type="application/ld+json">{JSON.stringify(structuredDataPost)}</Script>
       )}
       {type === 'post' && structuredDataBreadcrumb && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataBreadcrumb) }}
-        />
+        // <script
+        //   type="application/ld+json"
+        //   dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataBreadcrumb) }}
+        // />
+        <Script type="application/ld+json">{JSON.stringify(structuredDataBreadcrumb)}</Script>
       )}
       {type === 'post' && structuredDataFaq && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFaq) }} />
+        // <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFaq) }} />
+        <Script type="application/ld+json">{JSON.stringify(structuredDataFaq)}</Script>
       )}
-    </Head>
+    </>
   )
 }
