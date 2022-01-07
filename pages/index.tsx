@@ -31,6 +31,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME} | ${t('pageTitle')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
+        <meta property="twitter:title" content={`${CMS_NAME} | ${t('pageTitle')}`} />
+        <meta property="twitter:description" content={t('whatWeDoDescript')} />
+        <meta property="twitter:card" content="summary" />
       </Head>
       <CommonStructuredData type="home" />
       <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }}>

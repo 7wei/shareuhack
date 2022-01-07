@@ -28,6 +28,11 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         <meta name="keywords" content={t(`categories.${category.key}.title`) + ', ' + getSubCategoryStr()} />
+        <meta property="twitter:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
+        <meta property="twitter:description" content={t(`categories.${category.key}.description`)} />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:image" content={HOME_OG_IMAGE_URL} />
+        <meta property="twitter:image:alt" content={t(`categories.${category.key}.description`)} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container spacing={30}>
