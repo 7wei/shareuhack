@@ -13,11 +13,11 @@ export default function Footer() {
       sx={{
         mt: 60,
         height: theme.height.footer,
-        pt: 30,
+        pb: 12,
       }}
       display="flex"
       flexDirection={matches ? 'column' : 'row'}
-      justifyContent={matches ? 'center' : 'space-between'}
+      justifyContent={matches ? 'space-between' : 'space-between'}
       alignItems="center"
       // mb={18}
     >
