@@ -55,23 +55,25 @@ export default function Header() {
             alignItems: 'center',
           }}
         >
-          <BrandLogo width={80} />
+          <BrandLogo width={isDownMd ? 80 : 100} />
 
-          <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
-            {Categories.map((link) => (
-              <Link
-                key={link.key}
-                href={link.link}
-                onClick={onClick}
-                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
-                disableUnderline
-              >
-                <Typography variant="body2" color={theme.palette.text.primary}>
-                  {t(`categories.${link.key}.title`)}
-                </Typography>
-              </Link>
-            ))}
-          </Box>
+          {!isDownMd && (
+            <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
+              {Categories.map((link) => (
+                <Link
+                  key={link.key}
+                  href={link.link}
+                  onClick={onClick}
+                  title={'Shareuhack|' + t(`categories.${link.key}.title`)}
+                  disableUnderline
+                >
+                  <Typography variant="body2" color={theme.palette.text.primary}>
+                    {t(`categories.${link.key}.title`)}
+                  </Typography>
+                </Link>
+              ))}
+            </Box>
+          )}
 
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
@@ -84,6 +86,7 @@ export default function Header() {
             display: 'flex',
             alignItems: 'center',
             flexDirection: 'row',
+            justifyContent: 'space-between',
             background: theme.palette.background.default,
             boxShadow: 'none',
             height: {
@@ -98,22 +101,27 @@ export default function Header() {
             },
           }}
         >
-          <BrandLogo width={100} />
-          <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
-            {Categories.map((link) => (
-              <Link
-                key={link.key}
-                href={link.link}
-                onClick={onClick}
-                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
-                disableUnderline
-              >
-                <Typography variant="body1" color={theme.palette.text.primary}>
-                  {t(`categories.${link.key}.title`)}
-                </Typography>
-              </Link>
-            ))}
-          </Box>
+          <BrandLogo width={isDownMd ? 100 : 108} />
+          {!isDownMd && (
+            <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
+              {Categories.map((link) => (
+                <Link
+                  key={link.key}
+                  href={link.link}
+                  onClick={onClick}
+                  title={'Shareuhack|' + t(`categories.${link.key}.title`)}
+                  disableUnderline
+                >
+                  <Typography variant="body1" color={theme.palette.text.primary}>
+                    {t(`categories.${link.key}.title`)}
+                  </Typography>
+                </Link>
+              ))}
+            </Box>
+          )}
+          <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+            {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
+          </IconButton>
         </AppBar>
       )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
