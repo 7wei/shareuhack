@@ -30,7 +30,7 @@ export default function Link(props: Props) {
           color: color || theme.palette.primary.main,
           textDecoration: 'none',
           '&:hover': {
-            color: disableHover ? color || theme.palette.primary.main : theme.palette.primary.main,
+            color: disableHover ? color || theme.palette.text.primary : theme.palette.primary.main,
             textDecoration: disableUnderline ? 'none' : 'underline',
           },
         }}

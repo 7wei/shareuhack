@@ -43,6 +43,8 @@ export default function Header() {
           sx={{
             background: theme.palette.background.default,
             height: 32,
+            boxShadow: 'none',
+            borderBottom: `1px solid rgba(0,0,0,0.1)`,
             padding: {
               xs: '0px 20px !important',
               md: '0px 80px !important',

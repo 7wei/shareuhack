@@ -28,13 +28,13 @@ export default function DrawerComponent(props: Props) {
     [locale]
   )
 
-  const setLocale = useCallback(
-    (locale: string) => {
-      document.cookie = `NEXT_LOCALE=${locale}; expires=Fri, 31 Dec 9999 23:59:59 GMT`
-      router.push(router.asPath, router.asPath, { locale: locale })
-    },
-    [locale, router.asPath]
-  )
+  // const setLocale = useCallback(
+  //   (locale: string) => {
+  //     document.cookie = `NEXT_LOCALE=${locale}; expires=Fri, 31 Dec 9999 23:59:59 GMT`
+  //     router.push(router.asPath, router.asPath, { locale: locale })
+  //   },
+  //   [locale, router.asPath]
+  // )
 
   return (
     <Drawer
@@ -52,8 +52,9 @@ export default function DrawerComponent(props: Props) {
       onClose={onClose}
       anchor="right"
     >
-      <Box padding={15} bgcolor={theme.palette.background.default}>
-        <Box pl="12px" display="flex" flexDirection="column" gap={12}>
+      <Box padding="48px 16px" bgcolor={theme.palette.background.default} flexDirection="column">
+        {/* <Box pl="12px" display="flex" flexDirection="column" gap={12}> */}
+        <Box mb={24}>
           <Link
             href={Routes.home}
             locale={locale}
@@ -65,7 +66,11 @@ export default function DrawerComponent(props: Props) {
               {t('home')}
             </Typography>
           </Link>
-          <Divider />
+        </Box>
+
+        <Divider />
+
+        <Box mt={16} mb={24} display="flex" flexDirection="column" gap="14px">
           {Categories.map((link) => (
             <Link
               key={link.key}
@@ -79,31 +84,48 @@ export default function DrawerComponent(props: Props) {
               </Typography>
             </Link>
           ))}
-          <Divider />
-          <Box>
-            <Typography variant="body1" color={theme.palette.text.primary}>
-              {t('selectLocale')}
-            </Typography>
-            <Box display="flex" flexDirection="column" alignItems="flex-start" mt={5}>
-              {locales?.map((loc) => (
-                <Button
-                  size="small"
+        </Box>
+
+        <Divider />
+        <Box mt={16} mb={24}>
+          {/* <Typography variant="body2" color={theme.palette.text.primary}>
+            {t('selectLocale')}
+          </Typography> */}
+          <Box display="flex" flexDirection="column" alignItems="flex-start" mt={16} gap={14}>
+            {locales?.map((loc) => (
+              <Typography variant="body2">
+                <Link
                   key={loc}
-                  onClick={() => setLocale(loc)}
-                  title={`Shareuhack|${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
+                  href={router.asPath}
+                  locale={loc}
+                  onClick={onClick}
+                  color={locale === loc ? theme.palette.primary.main : theme.palette.text.primary}
+                  title={'Shareuhack|' + `${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
+                  disableUnderline
                 >
-                  <Typography
-                    fontSize={10}
-                    fontWeight={loc === locale ? 700 : 400}
-                    color={loc === locale ? theme.palette.primary.main : theme.palette.text.primary}
-                  >
-                    {getLocaleData(loc).language}({getLocaleData(loc).region})
-                  </Typography>
-                </Button>
-              ))}
-            </Box>
+                  {getLocaleData(loc).language}({getLocaleData(loc).region})
+                </Link>
+              </Typography>
+
+              // <Button
+              //   size="small"
+              //   key={loc}
+              //   onClick={() => setLocale(loc)}
+              //   title={`Shareuhack|${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
+              // >
+              //   <Typography
+              //     fontSize={12}
+              //     fontWeight={loc === locale ? 700 : 400}
+              //     color={loc === locale ? theme.palette.primary.main : theme.palette.text.primary}
+              //   >
+              //     {getLocaleData(loc).language}({getLocaleData(loc).region})
+              //   </Typography>
+              // </Button>
+            ))}
           </Box>
-          <Divider />
+        </Box>
+        <Divider />
+        <Box mt={16}>
           <Link
             href={Routes.about}
             locale={locale}
@@ -115,9 +137,11 @@ export default function DrawerComponent(props: Props) {
               {t('about')}
             </Typography>
           </Link>
-          <Socials />
         </Box>
+
+        <Socials />
       </Box>
+      {/* </Box> */}
     </Drawer>
   )
 }
