@@ -90,6 +90,10 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="og:description" content={post.description || post.excerpt} />
             <meta property="og:image" content={post.ogImage.url} />
             <meta property="og:type" content="article" />
+            <meta property="twitter:title" content={post.title} />
+            <meta property="twitter:description" content={post.description || post.excerpt} />
+            <meta property="twitter:image" content={post.ogImage.url} />
+            <meta property="twitter:card" content="summary_large_image" />
 
             {post.keywords &&
               post.keywords !== '' &&
