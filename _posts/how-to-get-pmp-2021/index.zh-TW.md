@@ -1,5 +1,5 @@
 ---
-title: '2021 新版PMP證照考取攻略！'
+title: '準備PMP國際專案管理師證照，你必須知道的事'
 category: 'work'
 subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！'
