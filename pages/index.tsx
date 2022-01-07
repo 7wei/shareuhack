@@ -66,23 +66,21 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <Typography variant="h5" mt="15px" mb="15px" color="primary">
             {t('hottest')}
           </Typography>
-          <Box display="grid" gap="18px" sx={{ wordWrap: 'break-word' }}>
+          <Grid container spacing={18} sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
-              <div>
-                <Box sx={{ display: { xs: 'block', md: 'flex' } }} justifyContent="space-between">
-                  <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                    <Typography component="h3" variant="h3">
-                      {post.title}
-                    </Typography>
-                  </Link>
-                  <Typography variant="body2" color={theme.palette.text.secondary}>
-                    {formattedDate(post.date)}
+              <Grid item xs={12} md={6}>
+                <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
+                  <Typography component="h3" variant="h3">
+                    {post.title}
                   </Typography>
-                </Box>
+                </Link>
+                <Typography variant="body2" color={theme.palette.text.secondary} mt={6}>
+                  {formattedDate(post.date)}
+                </Typography>
 
                 <Box
                   mr="10px"
-                  mt="8px"
+                  mt="10px"
                   sx={{
                     display: '-webkit-box',
                     WebkitBoxOrient: 'vertical',
@@ -93,9 +91,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                 >
                   <Typography variant="body1">{post.excerpt}</Typography>
                 </Box>
-              </div>
+              </Grid>
             ))}
-          </Box>
+          </Grid>
         </Grid>
         <Grid item xs={12} md={3}>
           <Divider primary />
