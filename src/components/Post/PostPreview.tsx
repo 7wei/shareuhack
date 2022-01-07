@@ -36,26 +36,25 @@ export default function PostPreview({
       />
       <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
         <Box sx={{ wordWrap: 'break-word' }}>
-          <Typography fontWeight={500} mt="5px" component="h3" variant="h6">
+          <Typography fontWeight={500} mt="5px" component="h3" variant="h6" lineHeight={1.4}>
             {title}
           </Typography>
         </Box>
-
-        <Typography variant="body2" color={theme.palette.text.secondary}>
-          {formattedDate(date)}
-        </Typography>
-        <Box
-          sx={{
-            display: '-webkit-box',
-            WebkitBoxOrient: 'vertical',
-            WebkitLineClamp: 3,
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-          }}
-        >
-          {!simple && <Typography variant="body1">{excerpt}</Typography>}
-        </Box>
       </Link>
+      <Typography variant="body2" color={theme.palette.text.secondary} mt={8}>
+        {formattedDate(date)}
+      </Typography>
+      <Box
+        sx={{
+          display: '-webkit-box',
+          WebkitBoxOrient: 'vertical',
+          WebkitLineClamp: 3,
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}
+      >
+        {!simple && <Typography variant="body1">{excerpt}</Typography>}
+      </Box>
     </Box>
   )
 }

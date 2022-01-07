@@ -41,11 +41,13 @@ export default function InfoCard(props: Props) {
       )}
       {children}
       {link && linkText && (
-        <Link href={link} locale={locale} color={theme.palette.text.primary}>
-          <Typography variant="h6" color="primary" fontSize={12}>
-            {linkText}
-          </Typography>
-        </Link>
+        <Box display="flex" justifyContent="flex-end">
+          <Link href={link} locale={locale} color={theme.palette.text.primary}>
+            <Typography variant="h6" color="primary" fontSize={12}>
+              {linkText}
+            </Typography>
+          </Link>
+        </Box>
       )}
     </Box>
   )

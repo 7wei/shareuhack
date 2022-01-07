@@ -11,12 +11,17 @@ export default function Footer() {
   return (
     <Box
       sx={{
-        mt: 30,
+        mt: 60,
         height: theme.height.footer,
         pt: 30,
       }}
+      display="flex"
+      flexDirection={matches ? 'column' : 'row'}
+      justifyContent={matches ? 'center' : 'space-between'}
+      alignItems="center"
+      // mb={18}
     >
-      <Box display="flex" gap="12px" justifyContent={matches ? 'center' : 'flex-start'} mb={18}>
+      <Box display="flex" gap="12px">
         <Typography variant="body1">Let's chat at</Typography>
         <Socials primary />
       </Box>

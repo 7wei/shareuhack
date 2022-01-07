@@ -100,7 +100,7 @@ export const theme = {
       // secondary: 'rgba(255,255,255,0.6)',
       disabled: '#999999',
       primary: '#1C1C1F',
-      secondary: '#191919',
+      secondary: 'rgba(0,0,0,0.5)',
     },
     action: {
       disabledOpacity: 0.8,
@@ -154,7 +154,7 @@ export const theme = {
 // font-family: 'Noto Serif TC', serif;
 const FONTS = {
   title: 'Noto Serif TC, Noto Serif JP, Noto Serif SC, serif',
-  content: 'Noto Sans TC, Noto Sans JP, Noto Sans SC,, sans-serif',
+  content: 'Noto Sans TC, Noto Sans JP, Noto Sans SC, sans-serif',
 }
 
 export const override: any = {
@@ -271,6 +271,11 @@ export const override: any = {
       h1: {
         fontWeight: 700,
         fontSize: 40,
+        fontFamily: FONTS.title,
+      },
+      h3: {
+        fontWeight: 700,
+        fontSize: 18,
         fontFamily: FONTS.title,
       },
       h4: {

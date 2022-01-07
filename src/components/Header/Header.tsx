@@ -34,60 +34,53 @@ export default function Header() {
         padding: '0 15px',
       }}
     >
-      <Container maxWidth="md">
-        <Toolbar
-          sx={{
-            background: theme.palette.background.default,
-            boxShadow: 'none',
-            display: 'flex',
-            justifyContent: 'space-between',
-            borderBottom: theme.palette.text.secondary,
-            height: {
-              xs: theme.height.mobileHeader,
-              md: theme.height.header,
-            },
-            minHeight: {
-              xs: theme.height.mobileHeader,
-              md: theme.height.header,
-            },
-            padding: '0px !important',
-          }}
-        >
-          <Link href="/" locale={locale} title="Shareuhack|Home">
-            <Box
-              sx={{
-                backgroundImage: {
-                  xs: 'url(/assets/brand/shareuhack2.svg)',
-                  md: 'none',
-                },
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                width: {
-                  xs: 120,
-                  md: 72,
-                },
-                height: 48,
-              }}
-            >
-              <Box sx={{ visibility: { xs: 'hidden', md: 'visible' } }}>
-                <Image
-                  title="shareuhack brand logo"
-                  aria-label="shareuhack brand logo"
-                  src={'/assets/brand/shareuhack1.svg'}
-                  alt="shareuhack brand logo"
-                  width={72}
-                  height={48}
-                />
-              </Box>
-            </Box>
-          </Link>
+      <Toolbar
+        sx={{
+          background: theme.palette.background.default,
+          boxShadow: 'none',
+          display: 'flex',
+          justifyContent: 'space-between',
 
-          <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
-            {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
-          </IconButton>
-        </Toolbar>
-      </Container>
+          borderBottom: theme.palette.text.secondary,
+          height: {
+            xs: theme.height.mobileHeader,
+            md: theme.height.header,
+          },
+          minHeight: {
+            xs: theme.height.mobileHeader,
+            md: theme.height.header,
+          },
+          padding: {
+            xs: '0px 20px !important',
+            md: '0px 80px !important',
+          },
+        }}
+      >
+        <Link href="/" locale={locale} title="Shareuhack|Home">
+          <Box
+            sx={{
+              width: {
+                xs: 100,
+                md: 144,
+              },
+              height: 48,
+              position: 'relative',
+            }}
+          >
+            <Image
+              title="shareuhack brand logo"
+              aria-label="shareuhack brand logo"
+              src={'/assets/brand/shareuhack2.svg'}
+              alt="shareuhack brand logo"
+              layout="fill"
+            />
+          </Box>
+        </Link>
+
+        <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+          {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
+        </IconButton>
+      </Toolbar>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
     </AppBar>
   )

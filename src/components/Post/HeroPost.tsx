@@ -33,13 +33,20 @@ export default function HeroPost({
         alt={excerpt}
         priority
       />
-      <Link href={`/posts/${slug}`} locale={locale} color={theme.palette.text.primary} title={'Shareuhack|' + title}>
+      <Link
+        href={`/posts/${slug}`}
+        locale={locale}
+        color={theme.palette.text.primary}
+        title={'Shareuhack|' + title}
+        disableUnderline
+      >
         <Typography mt="8px" mb="8px" component="h3" variant="h1">
           {title}
         </Typography>
       </Link>
       <Box
         mr="10px"
+        mt="12px"
         sx={{
           display: '-webkit-box',
           WebkitBoxOrient: 'vertical',

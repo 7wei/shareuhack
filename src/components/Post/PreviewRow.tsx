@@ -40,8 +40,8 @@ export default function CategorySection({
           </Link>
         )}
       </Box>
-      <Typography mt={15}>{description}</Typography>
-      <Box mt="15px">
+      <Typography mt={6}>{description}</Typography>
+      <Box mt="30px">
         <Grid spacing={30} container>
           {posts &&
             posts.map((post) => (

@@ -36,56 +36,64 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
         <meta property="twitter:card" content="summary" />
       </Head>
       <CommonStructuredData type="home" />
-      <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }}>
+      <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }} mb={48}>
         <Grid item xs={12} md={9}>
           <HeroPost {...heroPost} relatedPosts={relatedPosts} />
         </Grid>
 
         <Grid item xs={12} md={3}>
           <Divider primary />
-          <Typography variant="h6" color="primary" mt="15px" mb="15px" component="h2">
+          <Typography variant={isDownMd ? 'h5' : 'h6'} color="primary" mt="15px" mb="15px" component="h2">
             {t('latest')}
           </Typography>
-          <Box display="flex" gap={8} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
+          <Box display="flex" gap={16} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography component="h3" variant="h6">
-                  {post.title}
-                </Typography>
-                <Typography color={theme.palette.text.secondary} variant="body2">
+              <div>
+                <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
+                  <Typography component="h3" variant="h6" lineHeight={1.2}>
+                    {post.title}
+                  </Typography>
+                </Link>
+                <Typography color={theme.palette.text.secondary} variant="body2" mt={5}>
                   {formattedDate(post.date)}
                 </Typography>
-              </Link>
+              </div>
             ))}
           </Box>
         </Grid>
         <Grid item xs={12} md={9}>
           <Divider primary />
-          <Typography variant="h6" mt="15px" mb="15px" color="primary">
+          <Typography variant="h5" mt="15px" mb="15px" color="primary">
             {t('hottest')}
           </Typography>
-          <Box display="grid" gap="8px" sx={{ wordWrap: 'break-word' }}>
+          <Box display="grid" gap="18px" sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
-              <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
-                <Typography component="h3" variant="h6">
-                  {post.title}
-                </Typography>
+              <div>
+                <Box sx={{ display: { xs: 'block', md: 'flex' } }} justifyContent="space-between">
+                  <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
+                    <Typography component="h3" variant="h3">
+                      {post.title}
+                    </Typography>
+                  </Link>
+                  <Typography variant="body2" color={theme.palette.text.secondary}>
+                    {formattedDate(post.date)}
+                  </Typography>
+                </Box>
+
                 <Box
                   mr="10px"
+                  mt="8px"
                   sx={{
                     display: '-webkit-box',
                     WebkitBoxOrient: 'vertical',
-                    WebkitLineClamp: 1,
+                    WebkitLineClamp: 2,
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  <Typography variant="body2">{post.excerpt}</Typography>
+                  <Typography variant="body1">{post.excerpt}</Typography>
                 </Box>
-                <Typography variant="body2" color={theme.palette.text.secondary}>
-                  {formattedDate(post.date)}
-                </Typography>
-              </Link>
+              </div>
             ))}
           </Box>
         </Grid>
@@ -94,7 +102,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <InfoCard
             title={t('whatWeDo')}
             link={Routes.about}
-            linkText={`--${t('learnMore')}`}
+            linkText={`${t('learnMore')}`}
             content={t('whatWeDoDescript')}
           ></InfoCard>
         </Grid>

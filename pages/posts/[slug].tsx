@@ -138,22 +138,22 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             priority
           />
 
-          <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 } }}>
-            <Grid item md={3} xs={12}>
+          <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 }, mb: 30 }}>
+            <Grid item md={2} xs={12}>
               <Divider primary />
               {post.credentials && post.credentials.length > 0 && (
                 <InfoCard title={t('beforewriting')}>
                   <ol>
                     {post.credentials?.map((credential, idx) => (
                       <li key={idx}>
-                        <Typography variant="body2">{credential}</Typography>
+                        <Typography variant="body1">{credential}</Typography>
                       </li>
                     ))}
                   </ol>
                 </InfoCard>
               )}
             </Grid>
-            <Grid item md={6} xs={12}>
+            <Grid item md={8} xs={12}>
               <PostBody content={post.content} />
               <Box display="flex" alignItems="center" gap={15}>
                 <Typography variant="body1" mt="15px" mb="10px">
@@ -168,7 +168,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5224628:i3c0y2"></div>
               </Box>
             </Grid>
-            <Grid item md={3} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
+            <Grid item md={2} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
               <Divider primary />
               {post.recommendations && post.recommendations.length > 0 && (
                 <InfoCard title={t('Recommendations')}>
@@ -182,7 +182,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           color={theme.palette.text.primary}
                           title={recommendation.title}
                         >
-                          <Typography variant="body2">
+                          <Typography variant="body1" mb={12}>
                             [{recommendation.src}] {recommendation.title}
                           </Typography>
                         </Link>
@@ -203,7 +203,9 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           color={theme.palette.text.primary}
                           title={reference.title}
                         >
-                          <Typography variant="body2">{reference.title}</Typography>
+                          <Typography variant="body1" mb={12}>
+                            {reference.title}
+                          </Typography>
                         </Link>
                       </li>
                     ))}
@@ -213,42 +215,41 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             </Grid>
           </Grid>
 
-          <ReactLazyHydrate whenVisible>
-            <Grid container spacing={30}>
-              <Grid item xs={12} md={9}>
-                <Divider primary />
+          <Divider primary />
+          <Grid container spacing={30}>
+            <Grid item xs={12} md={9}>
+              {/* <Divider primary /> */}
 
-                <Typography mb="15px" variant="h6" mt={30}>
-                  Related hacks
-                </Typography>
-                <Grid spacing={30} container>
-                  {relatedPosts.map((post) => (
-                    <Grid key={post.title} item xs={12} sm={4}>
-                      <PostPreview {...post} simple />
-                    </Grid>
-                  ))}
-                </Grid>
-              </Grid>
-              <Grid item xs={12} md={3}>
-                <Divider primary />
-                <Typography mb="15px" variant="h6" mt={30}>
-                  Discover More
-                </Typography>
-                <Grid spacing={10} container>
-                  {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
-                    <Grid item key={idx} xs={12}>
-                      <Link href={link.link}>
-                        <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
-                      </Link>
-                      <Typography mt={15} variant="body2">
-                        {t(`categories.${link.key}.description`)}
-                      </Typography>
-                    </Grid>
-                  ))}
-                </Grid>
+              <Typography mb="15px" variant="h6" mt={30}>
+                Related hacks
+              </Typography>
+              <Grid spacing={30} container>
+                {relatedPosts.map((post) => (
+                  <Grid key={post.title} item xs={12} sm={4}>
+                    <PostPreview {...post} simple />
+                  </Grid>
+                ))}
               </Grid>
             </Grid>
-          </ReactLazyHydrate>
+            <Grid item xs={12} md={3}>
+              {/* <Divider primary /> */}
+              <Typography mb="15px" variant="h6" mt={30}>
+                Discover More
+              </Typography>
+              <Grid spacing={24} container>
+                {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
+                  <Grid item key={idx} xs={12}>
+                    <Link href={link.link}>
+                      <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
+                    </Link>
+                    <Typography mt={6} variant="body1">
+                      {t(`categories.${link.key}.description`)}
+                    </Typography>
+                  </Grid>
+                ))}
+              </Grid>
+            </Grid>
+          </Grid>
         </>
       )}
     </>

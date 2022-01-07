@@ -40,10 +40,12 @@ export default function CategoryPage({ category, subCategories }) {
           <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`categories.${category.key}.title`)}
           </Typography>
-          <Typography fontSize={16}>{t(`categories.${category.key}.description`)}</Typography>
+          <Typography mt={12} fontSize={16}>
+            {t(`categories.${category.key}.description`)}
+          </Typography>
         </Grid>
         <Grid item sm={3}>
-          <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`--${t('learnMore')}`}>
+          <InfoCard title={t('whatWeDo')} link={Routes.about} linkText={`${t('learnMore')}`}>
             {t('whatWeDoDescript')}
           </InfoCard>
         </Grid>
@@ -65,13 +67,13 @@ export default function CategoryPage({ category, subCategories }) {
           <Typography mb="15px" variant="h6" mt={30}>
             Discover More
           </Typography>
-          <Grid spacing={10} container>
+          <Grid spacing={24} container>
             {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
               <Grid item key={idx} xs={12}>
                 <Link href={link.link}>
                   <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
                 </Link>
-                <Typography mt={15} variant="body2">
+                <Typography mt={6} variant="body1">
                   {t(`categories.${link.key}.description`)}
                 </Typography>
               </Grid>
