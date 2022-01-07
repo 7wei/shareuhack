@@ -32,7 +32,7 @@ export default function Meta() {
         property="og:url"
         content={locale === 'zh-TW' ? canonicalUrl : process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
       />
-      <meta property="og:image:alt" content="Shareuhack- Hacks for the real life" />
+      <meta property="og:image:alt" content="Shareuhack- Hacks for real life" />
       <meta name="twitter:site" content="@shareuhack" />
       <meta name="twitter:creator" content="@shareuhack" />
     </Head>

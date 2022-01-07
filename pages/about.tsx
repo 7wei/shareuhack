@@ -30,7 +30,7 @@ export default function About({ post }) {
           </Typography> */}
           <CoverImage
             title={post.title}
-            alt={'Shareuhack-hacks for the real life'}
+            alt={'Shareuhack-hacks for real life'}
             src={post.coverImage}
             height={isDownMd ? 172 : 627}
             width={isDownMd ? 330 : 1200}
