@@ -1,5 +1,5 @@
 ---
-title: '2021 How to become a competitive front-end engineer in 3 months'
+title: 'How to become a competitive front-end engineer in 3 months'
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: 'In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, have familiarity with a front-end framework, and be popular in the job market.'
