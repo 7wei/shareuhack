@@ -47,12 +47,7 @@ export default function TermsAndConditions() {
         <li>
           <p>
             <strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions
-            that form the entire agreement between You and the Company regarding the use of the Service. This Terms and
-            Conditions agreement has been created with the help of the
-            <a href="https://www.privacypolicies.com/blog/sample-terms-conditions-template/" target="_blank">
-              Terms and Conditions Template
-            </a>
-            .
+            that form the entire agreement between You and the Company regarding the use of the Service.
           </p>
         </li>
         <li>

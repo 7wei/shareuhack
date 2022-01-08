@@ -2,10 +2,12 @@ import { Box, Typography, useTheme } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import useBreakpoint from 'hooks/useBreakpoint'
 import Socials from 'components/Socials/Socials'
+import Link from 'components/Link/Link'
+import Divider from 'components/Divider/Divider'
 
 export default function Footer() {
   const { t } = useTranslation('common')
-  const matches = useBreakpoint()
+  const isDownMd = useBreakpoint()
   const theme = useTheme()
 
   return (
@@ -16,8 +18,8 @@ export default function Footer() {
         pb: 12,
       }}
       display="flex"
-      flexDirection={matches ? 'column' : 'row'}
-      justifyContent={matches ? 'space-between' : 'space-between'}
+      flexDirection={isDownMd ? 'column' : 'row'}
+      justifyContent={isDownMd ? 'space-between' : 'space-between'}
       alignItems="center"
       // mb={18}
     >
@@ -26,9 +28,16 @@ export default function Footer() {
         <Socials primary />
       </Box>
 
-      <Typography variant="body2" textAlign={matches ? 'center' : 'left'}>
-        {t('footer.copyright')}
-      </Typography>
+      <Box>
+        <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+          {t('footer.copyright')}
+        </Typography>
+
+        <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+          <Link href="/privacy-policy">Privacy Policy</Link> |{' '}
+          <Link href="terms-and-conditions">Terms and Conditions</Link>
+        </Typography>
+      </Box>
     </Box>
   )
 }

@@ -1,8 +1,9 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { Box } from '@mui/material'
 
 export default function PrivacyPolicy() {
   return (
-    <>
+    <Box>
       <h1>Privacy Policy</h1>
       <p>Last updated: January 08, 2022</p>
       <p>
@@ -11,12 +12,7 @@ export default function PrivacyPolicy() {
       </p>
       <p>
         We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection
-        and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the
-        help of the
-        <a href="https://www.privacypolicies.com/blog/privacy-policy-template/" target="_blank">
-          Privacy Policy Template
-        </a>
-        .
+        and use of information in accordance with this Privacy Policy.
       </p>
       <h1>Interpretation and Definitions</h1>
       <h2>Interpretation</h2>
@@ -179,16 +175,7 @@ export default function PrivacyPolicy() {
         <li>
           <strong>Flash Cookies.</strong> Certain features of our Service may use local stored objects (or Flash
           Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash
-          Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information
-          on how You can delete Flash Cookies, please read &quot;Where can I change the settings for disabling, or
-          deleting local shared objects?&quot; available at
-          <a
-            href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_"
-            rel="external nofollow noopener"
-            target="_blank"
-          >
-            https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_
-          </a>
+          Cookies are not managed by the same browser settings as those used for Browser Cookies.
         </li>
         <li>
           <strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic
@@ -201,14 +188,7 @@ export default function PrivacyPolicy() {
       <p>
         Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal
         computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web
-        browser. Learn more about cookies:
-        <a
-          href="https://www.privacypolicies.com/blog/privacy-policy-template/#Use_Of_Cookies_Log_Files_And_Tracking"
-          target="_blank"
-        >
-          Cookies by PrivacyPolicies Generator
-        </a>
-        .
+        browser.
       </p>
       <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
       <ul>
@@ -437,7 +417,7 @@ export default function PrivacyPolicy() {
       <ul>
         <li>By email: c@shareuhack.com</li>
       </ul>
-    </>
+    </Box>
   )
 }
 
