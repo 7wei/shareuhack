@@ -135,7 +135,13 @@ PMI會持續的觀察和分析專案經理的工作內容和方式，並回顧�
 
 目前為止，官方還是以第六版作為考試的[參考清單](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)，且 PMBOK 本來就只是其中一個參考的書目，放心依照下列方式準備即可。
 
-PMBOK 6和7主要的差別在於，相對於第六版著重於專案管理過程的十個知識領域(Integration、Scope、Schedule、Cost、Quality、Resource、Communications、Risk、Procurement、Stakeholder)，第七版改為強調整整體的成效(Team、Stakeholders、Life cycle、Planning、Uncertainty and ambiguity、Delivery、Performance、Project work)
+PMBOK 6和7主要的差別在於：
+
+1. 加入系統思考(Systems Thinking)，提升PM全局觀(holistic view)。
+
+2. 交付價值(value delivery)更勝於產出結果(outcomes)。
+
+3. 第六版強調十個知識領域(Integration、Scope、Schedule、Cost、Quality、Resource、Communications、Risk、Procurement、Stakeholder)，第七版則改為強調八大專案績效領域(Team、Stakeholders、Life cycle、Planning、Uncertainty and ambiguity、Delivery、Performance、Project work)
 
 ## 準備方法
 
