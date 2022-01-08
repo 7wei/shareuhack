@@ -52,7 +52,7 @@ export default function LanguageSelector() {
         </Box>
       </Button>
       <Dialog onClose={handleClose} open={open}>
-        <Box padding="15px 30px">
+        <Box padding="30px 48px">
           <Box display="flex" alignItems="center" gap={6}>
             <LanguageIcon />
             <Typography variant="h3">{t('selectLocale')}</Typography>
