@@ -1,7 +1,9 @@
 import theme from 'theme/index'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import EmailIcon from '@mui/icons-material/Email'
+import TwitterIcon from '@mui/icons-material/Twitter'
 import Link from '../../components/Link/Link'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { Box } from '@mui/material'
 
 export default function Socials({ primary }: { primary?: boolean }) {
@@ -13,9 +15,17 @@ export default function Socials({ primary }: { primary?: boolean }) {
         title="Shareuhack|Facebook Page"
         disableHover
         target="_blank"
-        rel="nofollow noopener noreferrer"
       >
-        <FacebookIcon fontSize="small" />
+        <FacebookIcon />
+      </Link>
+      <Link
+        color={primary ? theme.palette.primary.main : theme.palette.primary.contrastText}
+        href="https://twitter.com/shareuhack"
+        title="Shareuhack|Twitter"
+        disableHover
+        target="_blank"
+      >
+        <TwitterIcon />
       </Link>
       <Link
         color={primary ? theme.palette.primary.main : theme.palette.primary.contrastText}
@@ -23,9 +33,8 @@ export default function Socials({ primary }: { primary?: boolean }) {
         title="Shareuhack|Contact Email"
         disableHover
         target="_blank"
-        rel="nofollow noopener noreferrer"
       >
-        <EmailIcon fontSize="small" />
+        <EmailIcon />
       </Link>
     </Box>
   )
