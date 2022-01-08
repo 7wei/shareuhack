@@ -66,7 +66,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
           <Typography variant="h5" mt="15px" mb="15px" color="primary">
             {t('hottest')}
           </Typography>
-          <Grid container spacing={18} sx={{ wordWrap: 'break-word' }}>
+          <Grid container spacing={24} sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post) => (
               <Grid item xs={12} md={6}>
                 <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
@@ -77,10 +77,9 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                 <Typography variant="body2" color={theme.palette.text.secondary} mt={6}>
                   {formattedDate(post.date)}
                 </Typography>
-
                 <Box
                   mr="10px"
-                  mt="10px"
+                  mt="8px"
                   sx={{
                     display: '-webkit-box',
                     WebkitBoxOrient: 'vertical',
