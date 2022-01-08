@@ -8,6 +8,7 @@ import { Categories } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
+import LanguageSelector from 'components/LanguageSelector'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
@@ -119,9 +120,13 @@ export default function Header() {
               ))}
             </Box>
           )}
-          <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
-            {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
-          </IconButton>
+          {isDownMd ? (
+            <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
+              {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
+            </IconButton>
+          ) : (
+            <LanguageSelector />
+          )}
         </AppBar>
       )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
