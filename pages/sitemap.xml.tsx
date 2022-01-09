@@ -6,11 +6,11 @@ export const getServerSideProps = async (ctx) => {
   const slugs = getPostSlugs()
 
   const fields = slugs.map((slug) => {
-    const post = getPostBySlug(slug, ['date'], 'zh-TW')
+    const post = getPostBySlug(slug, ['updatedAt'], 'zh-TW')
 
     return {
       loc: `${process.env.NEXT_PUBLIC_BASE_URL}/${slug}`,
-      lastmod: new Date(post.date).toISOString(),
+      lastmod: new Date(post.updatedAt).toISOString(),
     }
   })
 

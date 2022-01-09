@@ -55,7 +55,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                   </Typography>
                 </Link>
                 <Typography color={theme.palette.text.secondary} variant="body2" mt={5}>
-                  {formattedDate(post.date)}
+                  {formattedDate(post.updatedAt)}
                 </Typography>
               </div>
             ))}
@@ -75,7 +75,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                   </Typography>
                 </Link>
                 <Typography variant="body2" color={theme.palette.text.secondary} mt={6}>
-                  {formattedDate(post.date)}
+                  {formattedDate(post.updatedAt)}
                 </Typography>
                 <Box
                   mr="10px"
@@ -127,12 +127,12 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
 }
 
 export async function getStaticProps({ locale }) {
-  const allPosts = getAllPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
+  const allPosts = getAllPosts(['title', 'category', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
-  const hotPosts = getHotPosts(['title', 'category', 'date', 'slug', 'author', 'coverImage', 'excerpt'], locale)
+  const hotPosts = getHotPosts(['title', 'category', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ key, link }) => {
-    const posts = getCategoryPosts(key, ['title', 'coverImage', 'date', 'excerpt', 'slug'], locale).slice(0, 3)
+    const posts = getCategoryPosts(key, ['title', 'coverImage', 'updatedAt', 'excerpt', 'slug'], locale).slice(0, 3)
     return {
       key,
       link,

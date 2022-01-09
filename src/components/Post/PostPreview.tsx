@@ -9,14 +9,14 @@ import useBreakpoint from 'hooks/useBreakpoint'
 export default function PostPreview({
   title,
   coverImage,
-  date,
+  updatedAt,
   excerpt,
   slug,
   simple,
 }: {
   title: string
   coverImage: string
-  date: string
+  updatedAt: string
   excerpt: string
   slug: string
   simple?: boolean
@@ -42,7 +42,7 @@ export default function PostPreview({
         </Box>
       </Link>
       <Typography variant="body2" color={theme.palette.text.secondary} mt={8}>
-        {formattedDate(date)}
+        {formattedDate(updatedAt)}
       </Typography>
       <Box
         sx={{

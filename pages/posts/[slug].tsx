@@ -127,7 +127,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             {post.title}
           </Typography>
           <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
-            Updated at {formattedDate(post.date)}
+            Updated at {formattedDate(post.updatedAt)}
           </Typography>
           <CoverImage
             title={post.title}
@@ -261,7 +261,8 @@ export async function getStaticProps({ params, locale }) {
     params.slug,
     [
       'title',
-      'date',
+      'publishedAt',
+      'updatedAt',
       'slug',
       'author',
       'content',
@@ -286,11 +287,11 @@ export async function getStaticProps({ params, locale }) {
   const category = Categories.find((category) => category.key === Category[post.category]) || null
   const subCategory = SubCategories.find((subCategory) => subCategory.key === SubCategory[post.subCategory]) || null
   const categoryPosts = category
-    ? getCategoryPosts(category.key, ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'], locale)
+    ? getCategoryPosts(category.key, ['title', 'coverImage', 'updatedAt', 'excerpt', 'slug', 'subCategory'], locale)
     : []
   const relatedPosts =
     post.related && post.related.length > 0
-      ? getPostsBySlugs(post.related, ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'], locale)
+      ? getPostsBySlugs(post.related, ['title', 'coverImage', 'updatedAt', 'excerpt', 'slug', 'subCategory'], locale)
       : categoryPosts.filter((el) => el.slug !== post.slug)
 
   return {

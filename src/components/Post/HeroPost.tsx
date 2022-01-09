@@ -40,7 +40,7 @@ export default function HeroPost({
         title={'Shareuhack|' + title}
         disableUnderline
       >
-        <Typography mt="8px" mb="8px" component="h3" variant="h1">
+        <Typography mt="8px" mb="8px" component="h3" variant="h2">
           {title}
         </Typography>
       </Link>

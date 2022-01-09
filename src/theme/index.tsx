@@ -273,6 +273,11 @@ export const override: any = {
         fontSize: 40,
         fontFamily: FONTS.title,
       },
+      h2: {
+        fontWeight: 700,
+        fontSize: 24,
+        fontFamily: FONTS.title,
+      },
       h3: {
         fontWeight: 700,
         fontSize: 18,

@@ -16,7 +16,7 @@ export default function CategorySection({
   posts: {
     title: string
     coverImage: string
-    date: string
+    updatedAt: string
     excerpt: string
     slug: string
   }[]

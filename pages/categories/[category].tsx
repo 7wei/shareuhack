@@ -89,7 +89,7 @@ export async function getStaticProps({ params, locale }) {
   const category = Categories.find((category) => category.key === Category[params.category])
   const categoryPosts = getCategoryPosts(
     params.category,
-    ['title', 'coverImage', 'date', 'excerpt', 'slug', 'subCategory'],
+    ['title', 'coverImage', 'updatedAt', 'excerpt', 'slug', 'subCategory'],
     locale
   )
 
