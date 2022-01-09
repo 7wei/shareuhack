@@ -23,7 +23,7 @@ export default function CoverImage({
   const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} priority={priority} />
   return (
     <div>
-      {slug ? (
+      {slug || href ? (
         <Link as={href ?? `/posts/${slug}`} href={href ?? `/posts/${slug}`}>
           <a aria-label={title}>{image}</a>
         </Link>

@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Grid, Box, Typography, useTheme } from '@mui/material'
-import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts } from '../lib/api'
-import { CMS_NAME, Categories, HERO_POST_SLUG, HOME_OG_IMAGE_URL, Routes } from '../lib/constants'
+import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts, getAbout } from '../lib/api'
+import { CMS_NAME, Categories, HOME_OG_IMAGE_URL, Routes } from '../lib/constants'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
@@ -14,7 +14,7 @@ import CommonStructuredData from '../src/components/CommonStructuredData'
 import ReactLazyHydrate from 'react-lazy-hydration'
 import InfoCard from '../src/components/InfoCard/InfoCard'
 
-export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, categories, locale }) {
+export default function Index({ allPosts, hotPosts, heroPost, categories, locale }) {
   const isDownMd = useBreakpint('md')
 
   const { t } = useTranslation('common')
@@ -131,7 +131,9 @@ export async function getStaticProps({ locale }) {
     ['title', 'category', 'publishedAt', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'],
     locale
   )
-  const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
+
+  const heroPost = getAbout(['title', 'updatedAt', 'excerpt', 'coverImage', 'ogImage'], locale)
+  // const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
   const hotPosts = getHotPosts(['title', 'category', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []
   const categories = Categories.map(({ key, link }) => {

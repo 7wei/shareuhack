@@ -10,13 +10,11 @@ export default function HeroPost({
   coverImage,
   excerpt,
   slug,
-  relatedPosts,
 }: {
   title: string
   coverImage: string
   excerpt: string
   slug: string
-  relatedPosts: Array<any>
 }) {
   const { locale } = useRouter()
   const isDownMd = useBreakpoint('md')

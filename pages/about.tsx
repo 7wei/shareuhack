@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import PostBody from '../src/components/Post/PostBody'
-import { getPostBySlug } from '../lib/api'
+import { getAbout } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
@@ -10,7 +10,7 @@ import CoverImage from '../src/components/Image/CoverImage'
 import useBreakpoint from '../src/hooks/useBreakpoint'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
-export default function About({ post }) {
+export default function About({ about }) {
   const { t } = useTranslation('common')
   const isDownMd = useBreakpoint('md')
 
@@ -29,14 +29,14 @@ export default function About({ post }) {
             {post.title}
           </Typography> */}
           <CoverImage
-            title={post.title}
+            title={about.title}
             alt={'Shareuhack| hacks for real life'}
-            src={post.coverImage}
+            src={about.coverImage}
             height={isDownMd ? 172 : 627}
             width={isDownMd ? 330 : 1200}
             priority
           />
-          <PostBody content={post.content} />
+          <PostBody content={about.content} />
           <Box
             sx={{
               display: 'flex',
@@ -55,29 +55,14 @@ export default function About({ post }) {
 }
 
 export async function getStaticProps({ locale }) {
-  const post = getPostBySlug(
-    'about-us',
-    [
-      'title',
-      'date',
-      'slug',
-      'author',
-      'content',
-      'ogImage',
-      'coverImage',
-      'credentials',
-      'recommendations',
-      'references',
-    ],
-    locale
-  )
-  const content = await markdownToHtml(post.content || '')
+  const about = getAbout(['title', 'updatedAt', 'excerpt', 'coverImage', 'content'], locale)
+  const content = await markdownToHtml(about.content || '')
 
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common'])),
-      post: {
-        ...post,
+      about: {
+        ...about,
         content,
       },
     },
