@@ -96,44 +96,44 @@ export const SubCategories = [
 
 export const Locales = [
   {
-    key: 'en-US',
+    key: 'en',
     language: 'English',
-    region: 'United State',
+    // region: 'United State',
   },
-  {
-    key: 'en-GB',
-    language: 'English',
-    region: 'United Kingdom',
-  },
-  {
-    key: 'en-SG',
-    language: 'English',
-    region: 'Singapore',
-  },
+  // {
+  //   key: 'en-GB',
+  //   language: 'English',
+  //   region: 'United Kingdom',
+  // },
+  // {
+  //   key: 'en-SG',
+  //   language: 'English',
+  //   region: 'Singapore',
+  // },
   {
     key: 'zh-TW',
     language: '繁體中文',
-    region: '台灣',
+    // region: '台灣',
   },
-  {
-    key: 'zh-MO',
-    language: '繁體中文',
-    region: '澳門',
-  },
-  {
-    key: 'zh-HK',
-    language: '繁體中文',
-    region: '香港',
-  },
+  // {
+  //   key: 'zh-MO',
+  //   language: '繁體中文',
+  //   region: '澳門',
+  // },
+  // {
+  //   key: 'zh-HK',
+  //   language: '繁體中文',
+  //   region: '香港',
+  // },
   {
     key: 'zh-CN',
     language: '简体中文',
-    region: '中国',
+    // region: '中国',
   },
   {
-    key: 'ja-JP',
+    key: 'ja',
     language: '日本語',
-    region: '日本',
+    // region: '日本',
   },
 ]
 

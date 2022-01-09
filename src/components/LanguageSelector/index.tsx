@@ -46,9 +46,7 @@ export default function LanguageSelector() {
       <Button onClick={handleOpen} color="primary">
         <Box display="flex" alignItems="center" gap={6}>
           <LanguageIcon fontSize="small" />
-          <Typography variant="body1">
-            {getLocaleData(locale).language}({getLocaleData(locale).region})
-          </Typography>
+          <Typography variant="body1">{getLocaleData(locale).language}</Typography>
         </Box>
       </Button>
       <Dialog onClose={handleClose} open={open}>
@@ -62,9 +60,7 @@ export default function LanguageSelector() {
               <Grid key={loc} item xs={12} md={6}>
                 <ListItem button onClick={() => onSelect(loc)} key={loc}>
                   <Box display="flex" alignItems="center" gap={6}>
-                    <Typography variant="body2">
-                      {getLocaleData(loc).language}({getLocaleData(loc).region})
-                    </Typography>
+                    <Typography variant="body2">{getLocaleData(loc).language}</Typography>
                     {locale === loc && <CheckCircleOutlineIcon fontSize="small" color="primary" />}
                   </Box>
                 </ListItem>

@@ -99,7 +99,7 @@ export default function DrawerComponent(props: Props) {
                   locale={loc}
                   onClick={onClick}
                   color={locale === loc ? theme.palette.primary.main : theme.palette.text.primary}
-                  title={'Shareuhack|' + `${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
+                  title={'Shareuhack|' + `${getLocaleData(loc).language}`}
                   disableUnderline
                 >
                   {getLocaleData(loc).language}({getLocaleData(loc).region})
