@@ -102,24 +102,9 @@ export default function DrawerComponent(props: Props) {
                   title={'Shareuhack|' + `${getLocaleData(loc).language}`}
                   disableUnderline
                 >
-                  {getLocaleData(loc).language}({getLocaleData(loc).region})
+                  {getLocaleData(loc).language}
                 </Link>
               </Typography>
-
-              // <Button
-              //   size="small"
-              //   key={loc}
-              //   onClick={() => setLocale(loc)}
-              //   title={`Shareuhack|${getLocaleData(loc).language}(${getLocaleData(loc).region})`}
-              // >
-              //   <Typography
-              //     fontSize={12}
-              //     fontWeight={loc === locale ? 700 : 400}
-              //     color={loc === locale ? theme.palette.primary.main : theme.palette.text.primary}
-              //   >
-              //     {getLocaleData(loc).language}({getLocaleData(loc).region})
-              //   </Typography>
-              // </Button>
             ))}
           </Box>
         </Box>
