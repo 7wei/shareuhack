@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import { useRouter } from 'next/router'
 
-const localeWhiteList = ['zh-TW', 'en-US', 'ja-JP', 'zh-CN']
+const localeWhiteList = ['zh-TW', 'en-US', 'zh-CN']
 
 export default function Meta() {
   const { locale, locales, asPath } = useRouter()
