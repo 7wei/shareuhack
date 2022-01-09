@@ -18,18 +18,6 @@ module.exports = {
         locale: false,
       },
       {
-        source: '/en-GB',
-        destination: '/en',
-        permanent: true,
-        locale: false,
-      },
-      {
-        source: '/en-SG',
-        destination: '/en',
-        permanent: true,
-        locale: false,
-      },
-      {
         source: '/en-US/posts/:slug',
         destination: '/en/posts/:slug',
         permanent: true,
