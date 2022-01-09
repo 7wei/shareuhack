@@ -2,7 +2,8 @@
 title: 'Shareuhackについて'
 # category: ''
 # subCategory: ''
-date: '2021-07-17'
+publishedAt: '2021-07-17'
+updatedAt: '2021-07-17'
 excerpt: '私たちは、すべてを効率的に行うために、実用的な技術とハックを調査、共有、テストすることに熱心です。 あなたがLifehackerになるのを手伝ってください！'
 coverImage: '/assets/brand/shareuhack.jpg'
 ogImage:

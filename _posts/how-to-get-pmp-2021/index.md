@@ -4,7 +4,8 @@ category: 'knowledge'
 subCategory: 'projectManagement'
 excerpt: "The PMP certification exam was last updated in 2021. Therefore, if you're trying to find information related to it, it's probably outdated. No worries. The article will guide you through the revision of PMP and help you prepare for the PMP exam!"
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
-date: '2021-07-18'
+publishedAt: '2021-07-18'
+updatedAt: '2021-07-18'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials:

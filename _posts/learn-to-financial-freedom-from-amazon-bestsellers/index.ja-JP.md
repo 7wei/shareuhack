@@ -2,7 +2,8 @@
 title: '普通の人があなた自身のお金と人生のマスターになるための最良のヒント | アマゾンファイナンスのベストセラーから学ぶ'
 category: 'money'
 subCategory: 'investment'
-date: '2021-08-15'
+publishedAt: '2021-08-15'
+updatedAt: '2021-08-15'
 excerpt: 'この記事では、富の自由の聖杯について説明する代わりに、Amazonの財務ベストセラーの評判の良い著者からの重要なメッセージを要約します。これにより、財務管理のより安定した概念と財務の自由への道が提供されることを願っています。'
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:

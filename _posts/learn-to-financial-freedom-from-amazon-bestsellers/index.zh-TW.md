@@ -2,7 +2,8 @@
 title: '樸實地成為自己金錢和生活的主宰 | 從Amazon暢銷書學習適合平凡人的財富自由之路'
 category: 'money'
 subCategory: 'investment'
-date: '2021-08-15'
+publishedAt: '2021-08-15'
+updatedAt: '2021-08-15'
 excerpt: '這篇文章不討論財富自由聖杯，希望藉由統整幾個 Amazon 暢銷書富有信譽的作者傳達的訊息，提供我們普羅大眾對於財務管理和通往財務自由，比較穩健的一些觀念。'
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:

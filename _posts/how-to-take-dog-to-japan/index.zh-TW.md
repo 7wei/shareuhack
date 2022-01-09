@@ -2,7 +2,8 @@
 title: '帶毛小孩出國玩！台灣>>日本申請流程全攻略'
 category: 'life'
 subCategory: 'travel'
-date: '2021-11-07'
+publishedAt: '2021-11-07'
+updatedAt: '2021-11-07'
 excerpt: '在防檢局的輸出犬貓注意事項中有明確說明「輸出犬貓應符合輸入國之規定」，因為台灣目前屬於狂犬病疫區國家，若要帶毛小孩前往像日本這些非狂犬病疫區國家需要比較多的事前準備及待機時間。此篇文章詳列帶毛小孩去日本的必要步驟：'
 coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 ogImage:

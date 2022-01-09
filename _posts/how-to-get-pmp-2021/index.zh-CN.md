@@ -4,7 +4,8 @@ category: 'work'
 subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 这个国际证照的人，应该有发现这个考试在2021改版，所以现在搜寻到关于分享 PMP考试的旧文章，可能会和最新状况有所出入。不过别担心，这篇文章将介绍改版的概要，以及新版PMP的考取攻略！'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
-date: '2021-07-18'
+publishedAt: '2021-07-18'
+updatedAt: '2021-07-18'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['访问2位考取PMP的项目经理', '阅读30+篇网路上的文章', '实际观看3+个线上课程']

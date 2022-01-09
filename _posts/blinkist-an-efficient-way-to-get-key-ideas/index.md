@@ -5,7 +5,8 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: "Reading is something you probably like, but do you sometimes feel that you don't have time to do it? Would you prefer to read nonfiction? In this article, we share a reading app called Blinkist, which allows you to read and absorb the knowledge of a whole book in just fifteen minutes."
 coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
-date: '2021-11-28'
+publishedAt: '2021-11-28'
+updatedAt: '2021-11-28'
 ogImage:
   url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
 credentials: ['Use Blinkist Premium for half a year','Use Blinkist to read at least one book every day', '3+ Blinkist user interviews']

@@ -4,7 +4,8 @@ category: 'life'
 subCategory: 'travel'
 excerpt: 'Due to the prevalence of independent travel, the demands of booking websites, services, and discounts are on the rise. How to use the websites, how do I find the hotel that best fits my needs? Following is an introduction to the four most popular online travel agencies (OTAs). We will compare their advantages and disadvantages to find the most suitable site to book a hotel with.'
 coverImage: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
-date: '2021-12-11'
+publishedAt: '2021-12-11'
+updatedAt: '2021-12-11'
 ogImage:
   url: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
 credentials: ['Hotel industry experience', 'Booking experience at platforms']

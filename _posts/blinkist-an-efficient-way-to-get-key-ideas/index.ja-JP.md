@@ -6,7 +6,8 @@ subCategory: 'education'
 excerpt: '読書が好きなら、時間が足りないと感じることがよくありますか？ノンフィクション作品を読むのが好きですか？この記事では、効率的な読書APP-Blinkistを共有しています。これにより、本全体の知識をわずか15分で読んで吸収することができます。
 '
 coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
-date: '2021-11-28'
+publishedAt: '2021-11-28'
+updatedAt: '2021-11-28'
 ogImage:
   url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
 credentials: ['Blinkist Premiumを半年間使用する','Blinkistを使用して毎日少なくとも1冊の本を読む','3回以上のBlinkistユーザーインタビュー']

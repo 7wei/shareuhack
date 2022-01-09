@@ -5,7 +5,8 @@ category: 'work'
 subCategory: 'projectManagement'
 excerpt: 'It is inevitable for many project managers to have many projects. Knowing how to control the schedule of each project is a topic worth learning. When a project schedule management tool is used, it can have a great impact on organizational efficiency, which will lead to a reduction of waste. Our article will introduce three project schedule management tools in order to help everyone manage the project schedule in an organized way.'
 coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
-date: '2021-12-19'
+publishedAt: '2021-12-19'
+updatedAt: '2021-12-19'
 ogImage:
   url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
 credentials: ['On-the-job PM sharing', 'Years of experience of using those tools']

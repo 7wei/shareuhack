@@ -2,7 +2,8 @@
 title: 'About Shareuhack'
 # category: ''
 # subCategory: ''
-date: '2021-07-17'
+publishedAt: '2021-07-17'
+updatedAt: '2021-07-17'
 excerpt: 'We are keen to research, share and test practical tech and hacks to help you do everything efficiently. Help you become lifehacker!'
 coverImage: '/assets/brand/shareuhack.jpg'
 ogImage:

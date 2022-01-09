@@ -2,7 +2,8 @@
 title: 'ペットを連れて海外で遊ぼう！台湾>>日本の申請プロセスのガイド'
 category: 'life'
 subCategory: 'travel'
-date: '2021-11-07'
+publishedAt: '2021-11-07'
+updatedAt: '2021-11-07'
 excerpt: '予防検疫局の犬と猫の輸出に関する注意事項には、「犬と猫の輸出は輸入国の規制に準拠する必要がある」と明記されています。台湾は現在、狂犬病の流行国であるため、猫を連れて行きたい場合は、日本のような非レイビー流行国への犬は、より多くの準備と待機時間が必要です。この記事では、猫と犬を日本に連れて行くために必要な手順について詳しく説明します。'
 coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
 ogImage:

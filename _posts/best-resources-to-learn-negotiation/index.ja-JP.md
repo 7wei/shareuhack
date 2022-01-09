@@ -4,7 +4,8 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: '交渉は人生に遍在しています。 売買、給与の交渉、商品やサービスの市場価値の評価、紛争の解決などには交渉が必要です。このより良い交渉方法を学んだら、人生をどれだけ飛躍できるでしょうか。 この記事では、2021年に交渉技術を学ぶための最も推奨されるリソースを要約しています。自習を通じて、交渉の専門家になることもできます。'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-date: '2021-07-31'
+publishedAt: '2021-07-31'
+updatedAt: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['10以上のコースを表示', '30以上の記事を読む', '3人の専門家へのインタビュー', '5冊の本を読む']

@@ -4,7 +4,8 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: '人生無處不是談判，舉凡買賣、談薪水、評估商品或服務的市場價值、解決衝突等等，都會需要談判的，若學會了這更好的談判方式，那人生將可以躍進多少？這片文章彙整了2021學習談判這個技術，最推薦的資源，透過自學，你也可以成為談判專家！'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-date: '2021-07-31'
+publishedAt: '2021-07-31'
+updatedAt: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['觀看10+線上課程', '閱讀30+篇網路上的文章', '訪談3位職場專家', '閱讀5本相關書籍']

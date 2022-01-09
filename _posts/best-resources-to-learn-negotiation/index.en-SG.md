@@ -4,7 +4,8 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: 'Negotiation is omnipresent in life. Negotiations are required for buying and selling, negotiating salaries, evaluating the market value of goods or services, resolving conflicts, etc. If you learn this better way of negotiation, how much can you leap forward in your life? This article summarises the most recommended resources for learning negotiation technology in 2021. Through self-study, you can also become a negotiation expert!'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-date: '2021-07-31'
+publishedAt: '2021-07-31'
+updatedAt: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['Viewed 10+ courses', 'Read 30+ articles', 'Interview with 3 experts', 'Read 5 books']

@@ -4,7 +4,8 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: '人生无处不是谈判，举凡买卖、谈薪水、评估商品或服务的市场价值、解决冲突等等，都会需要谈判的，若学会了这更好的谈判方式，那人生将可以跃进多少？这片文章汇整了2021学习谈判这个技术，最推荐的资源，透过自学，你也可以成为谈判专家！'
 coverImage: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
-date: '2021-07-31'
+publishedAt: '2021-07-31'
+updatedAt: '2021-07-31'
 ogImage:
   url: '/assets/posts/best-resources-to-learn-negotiation/cover.jpg'
 credentials: ['观看10+线上课程', '阅读30+篇网路上的文章', '访谈3位职场专家', '阅读5本相关书籍']

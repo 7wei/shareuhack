@@ -4,7 +4,8 @@ category: 'work'
 subCategory: 'projectManagement'
 excerpt: 'PMPの国際免許の取得に関心のある人は、2021年に試験が改訂されることを知っているはずです。そのため、PMP試験の共有に関する古い記事を検索することは、最新の状況とは異なる可能性があります。 しかし、心配しないでください。この記事では、改訂の概要と新しいPMP試験のガイドを紹介します。'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
-date: '2021-07-18'
+publishedAt: '2021-07-18'
+updatedAt: '2021-07-18'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['Interview with 2+ PMP', 'Read 30+ articles', 'viewed 3+ online courses']
