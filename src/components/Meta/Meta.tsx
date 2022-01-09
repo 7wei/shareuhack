@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import { useRouter } from 'next/router'
 
-const localeWhiteList = ['zh-TW', 'en-US', 'zh-CN']
+const indexWhiteList = ['zh-TW', 'zh-CN']
 
 export default function Meta() {
   const { locale, locales, asPath } = useRouter()
@@ -10,7 +10,7 @@ export default function Meta() {
 
   return (
     <Head>
-      {locale && !localeWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
+      {locale && !indexWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
       {locales
         ?.filter((el) => el !== 'zh-TW')
