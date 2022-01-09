@@ -9,13 +9,16 @@ module.exports = {
         source: '/zh-TW',
         destination: '/',
         permanent: true,
-        // locale: false,
       },
       {
         source: '/en-US',
         destination: '/en',
         permanent: true,
-        locale: false,
+      },
+      {
+        source: '/ja-JP',
+        destination: '/ja',
+        permanent: true,
       },
       {
         source: '/en-US/posts/:slug',
@@ -31,12 +34,6 @@ module.exports = {
         source: '/en-SG/posts/:slug',
         destination: '/en/posts/:slug',
         permanent: true,
-      },
-      {
-        source: '/ja-JP',
-        destination: '/ja',
-        permanent: true,
-        locale: false,
       },
       {
         source: '/ja-JP/posts/:slug',
