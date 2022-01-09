@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next'
 import useBreakpoint from 'hooks/useBreakpoint'
 import Socials from 'components/Socials/Socials'
 import Link from 'components/Link/Link'
-import Divider from 'components/Divider/Divider'
+import Script from 'next/script'
 
 export default function Footer() {
   const { t } = useTranslation('common')
@@ -11,33 +11,57 @@ export default function Footer() {
   const theme = useTheme()
 
   return (
-    <Box
-      sx={{
-        mt: 60,
-        height: theme.height.footer,
-        pb: 12,
-      }}
-      display="flex"
-      flexDirection={isDownMd ? 'column' : 'row'}
-      justifyContent={isDownMd ? 'space-between' : 'space-between'}
-      alignItems="center"
-      // mb={18}
-    >
-      <Box display="flex" gap="12px">
-        <Typography variant="body1">Let's chat at</Typography>
-        <Socials primary />
-      </Box>
+    <>
+      <Script>
+        {`(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
-      <Box>
-        <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
-          {t('footer.copyright')}
-        </Typography>
+        var ml_account = ml('accounts', '3616085', 'z2m5d4m0k5', 'load');`}
+      </Script>
 
-        <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
-          <Link href="/privacy-policy">Privacy Policy</Link> |{' '}
-          <Link href="/terms-and-conditions">Terms and Conditions</Link>
-        </Typography>
+      <Box
+        sx={{
+          mt: 60,
+          // height: theme.height.footer,
+          pb: 15,
+        }}
+      >
+        <Box width="100%" maxWidth={360} margin="0 auto">
+          {/* <Typography variant="body2" textAlign={'center'} mt={12}>
+            For future hacks.
+          </Typography> */}
+          <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5224628:i3c0y2"></div>
+          <Typography variant="h3" textAlign={'center'}>
+            {/* {t('subscribe')} */}
+            Let's keep in touch!
+          </Typography>
+        </Box>
+        <Box
+          mt={48}
+          display="flex"
+          flexDirection={isDownMd ? 'column' : 'row'}
+          justifyContent={isDownMd ? 'space-between' : 'space-between'}
+          alignItems="center"
+        >
+          <Box display="flex" gap="12px">
+            <Typography variant="body1">Let's chat at</Typography>
+            <Socials primary />
+          </Box>
+          <Box>
+            <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+              {t('footer.copyright')}
+            </Typography>
+
+            <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+              <Link href="/about">About Us</Link> | <Link href="/privacy-policy">Privacy Policy</Link> |{' '}
+              <Link href="/terms-and-conditions">Terms and Conditions</Link>
+            </Typography>
+          </Box>
+        </Box>
       </Box>
-    </Box>
+    </>
   )
 }
