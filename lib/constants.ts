@@ -1,7 +1,7 @@
 export const CMS_NAME = 'Shareuhack'
 export const HOME_OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/brand/shareuhack.jpg'
 
-export const HERO_POST_SLUG = 'how-to-get-pmp-2021'
+export const HERO_POST_SLUG = 'about-us'
 
 export const Routes = {
   home: '/',

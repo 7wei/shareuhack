@@ -8,13 +8,15 @@ export default function BrandLogo({ width }: { width: string | number }) {
   return (
     <Box width={width} height="100%" position="relative">
       <Link href="/" locale={locale} title="Shareuhack|Home">
-        <Image
-          title="shareuhack brand logo"
-          aria-label="shareuhack brand logo"
-          src={'/assets/brand/shareuhack2.svg'}
-          alt="shareuhack brand logo"
-          layout="fill"
-        />
+        <Box position="relative" height="100%">
+          <Image
+            title="shareuhack brand logo"
+            aria-label="shareuhack brand logo"
+            src={'/assets/brand/shareuhack2.svg'}
+            alt="shareuhack brand logo"
+            layout="fill"
+          />
+        </Box>
       </Link>
     </Box>
   )

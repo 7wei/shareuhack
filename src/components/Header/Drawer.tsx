@@ -93,9 +93,8 @@ export default function DrawerComponent(props: Props) {
           </Typography> */}
           <Box display="flex" flexDirection="column" alignItems="flex-start" mt={16} gap={14}>
             {locales?.map((loc) => (
-              <Typography variant="body2">
+              <Typography variant="body2" key={loc}>
                 <Link
-                  key={loc}
                   href={router.asPath}
                   locale={loc}
                   onClick={onClick}

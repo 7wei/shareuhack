@@ -38,7 +38,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
       <CommonStructuredData type="home" />
       <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }} mb={48}>
         <Grid item xs={12} md={9}>
-          <HeroPost {...heroPost} relatedPosts={relatedPosts} />
+          <HeroPost {...heroPost} />
         </Grid>
 
         <Grid item xs={12} md={3}>
@@ -47,8 +47,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             {t('latest')}
           </Typography>
           <Box display="flex" gap={16} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
-            {allPosts.slice(0, 5).map((post) => (
-              <div>
+            {allPosts.slice(0, 5).map((post, idx) => (
+              <Box key={idx}>
                 <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
                   <Typography component="h3" variant="h6" lineHeight={1.2}>
                     {post.title}
@@ -57,7 +57,7 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
                 <Typography color={theme.palette.text.secondary} variant="body2" mt={5}>
                   {formattedDate(post.updatedAt)}
                 </Typography>
-              </div>
+              </Box>
             ))}
           </Box>
         </Grid>
@@ -67,8 +67,8 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
             {t('hottest')}
           </Typography>
           <Grid container spacing={24} sx={{ wordWrap: 'break-word' }}>
-            {hotPosts.slice(0, 5).map((post) => (
-              <Grid item xs={12} md={6}>
+            {hotPosts.slice(0, 5).map((post, idx) => (
+              <Grid key={idx} item xs={12} md={6}>
                 <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
                   <Typography component="h3" variant="h3">
                     {post.title}
@@ -127,7 +127,10 @@ export default function Index({ allPosts, hotPosts, heroPost, relatedPosts, cate
 }
 
 export async function getStaticProps({ locale }) {
-  const allPosts = getAllPosts(['title', 'category', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'], locale)
+  const allPosts = getAllPosts(
+    ['title', 'category', 'publishedAt', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'],
+    locale
+  )
   const heroPost = getPostBySlug(HERO_POST_SLUG, ['title', 'slug', 'coverImage', 'excerpt', 'related'], locale)
   const hotPosts = getHotPosts(['title', 'category', 'updatedAt', 'slug', 'author', 'coverImage', 'excerpt'], locale)
   const relatedPosts = (heroPost.related && getPostsBySlugs(heroPost.related, ['title', 'slug'], locale)) || []

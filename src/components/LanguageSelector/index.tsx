@@ -59,7 +59,7 @@ export default function LanguageSelector() {
           </Box>
           <Grid container spacing={8} mt={14}>
             {locales?.map((loc) => (
-              <Grid item xs={12} md={6}>
+              <Grid key={loc} item xs={12} md={6}>
                 <ListItem button onClick={() => onSelect(loc)} key={loc}>
                   <Box display="flex" alignItems="center" gap={6}>
                     <Typography variant="body2">

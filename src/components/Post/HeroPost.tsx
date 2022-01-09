@@ -1,6 +1,5 @@
-import { Grid, Box, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import CoverImage from '../Image/CoverImage'
-import Divider from '../Divider/Divider'
 import { useRouter } from 'next/router'
 import Link from '../../components/Link/Link'
 import { theme } from 'theme'
@@ -28,13 +27,14 @@ export default function HeroPost({
         title={title}
         src={coverImage}
         slug={slug}
+        href={`/about`}
         height={isDownMd ? 172 : 308}
         width={isDownMd ? 330 : 590}
         alt={excerpt}
         priority
       />
       <Link
-        href={`/posts/${slug}`}
+        href={`/about`}
         locale={locale}
         color={theme.palette.text.primary}
         title={'Shareuhack|' + title}

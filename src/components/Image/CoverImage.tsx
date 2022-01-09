@@ -9,6 +9,7 @@ export default function CoverImage({
   width,
   alt,
   priority,
+  href,
 }: {
   title: string
   src: string
@@ -17,12 +18,13 @@ export default function CoverImage({
   width: string | number
   alt: string
   priority?: boolean
+  href?: string
 }) {
   const image = <Image src={src} alt={alt} layout="responsive" width={width} height={height} priority={priority} />
   return (
     <div>
       {slug ? (
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
+        <Link as={href ?? `/posts/${slug}`} href={href ?? `/posts/${slug}`}>
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (

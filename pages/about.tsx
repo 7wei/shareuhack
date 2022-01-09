@@ -24,13 +24,13 @@ export default function About({ post }) {
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
       <Grid container justifyContent="center">
-        <Grid xs={12} md={6} item>
+        <Grid xs={12} md={8} item>
           {/* <Typography component="h1" variant="h1">
             {post.title}
           </Typography> */}
           <CoverImage
             title={post.title}
-            alt={'Shareuhack-hacks for real life'}
+            alt={'Shareuhack| hacks for real life'}
             src={post.coverImage}
             height={isDownMd ? 172 : 627}
             width={isDownMd ? 330 : 1200}
