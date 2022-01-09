@@ -1,6 +1,7 @@
 // pages/sitemap.xml.js
 import { getServerSideSitemap } from 'next-sitemap'
 import { getPostSlugs, getPostBySlug } from '../lib/api'
+import { Categories } from '../lib/constants'
 
 export const getServerSideProps = async (ctx) => {
   const slugs = getPostSlugs()
@@ -8,15 +9,19 @@ export const getServerSideProps = async (ctx) => {
   const main = [
     {
       loc: process.env.NEXT_PUBLIC_BASE_URL,
-      lastmod: new Date('2022-01-09').toISOString(),
     },
     {
       loc: process.env.NEXT_PUBLIC_BASE_URL + '/about',
-      lastmod: new Date('2022-01-09').toISOString(),
     },
   ]
 
-  const PostFields = slugs.map((slug) => {
+  const categories = Categories.map((category) => {
+    return {
+      loc: process.env.NEXT_PUBLIC_BASE_URL + category.link,
+    }
+  })
+
+  const posts = slugs.map((slug) => {
     const post = getPostBySlug(slug, ['updatedAt'], 'zh-TW')
 
     return {
@@ -25,7 +30,7 @@ export const getServerSideProps = async (ctx) => {
     }
   })
 
-  const fields = [...main, ...PostFields]
+  const fields = [...main, ...categories, ...posts]
 
   return getServerSideSitemap(ctx, fields)
 }
