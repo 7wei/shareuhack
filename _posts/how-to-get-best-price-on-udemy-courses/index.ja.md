@@ -2,7 +2,7 @@
 title: 'Udemyコースを最高の価格で購入するにはどうすればよいですか？'
 category: 'knowledge'
 subCategory: 'education'
-excerpt: 'If you want to learn a new thing, the first online course platform may be Udemy. You can find almost any courses you can imagine here, such as: language, art, music, fitness, programming, business, Teaching, productivity, etc. So, how to buy Udemy courses in the cheapest way?'
+excerpt: '新しいことを学びたいのなら、最初のオンラインコースプラットフォームはUdemyかもしれません。 言語、アート、音楽、フィットネス、プログラミング、ビジネス、教育、生産性など、ここで想像できるほぼすべてのコースを見つけることができます。では、Udemyコースを最も安価に購入するにはどうすればよいでしょうか。'
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
 publishedAt: '2021-07-22'
 updatedAt: '2021-07-22'
