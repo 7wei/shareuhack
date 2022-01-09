@@ -17,7 +17,7 @@
   "References": "相关资料",
   "sharePost": "分享这篇文章",
   "selectLocale": "请选择语言和地区",
-  "pageTitle": "生活秘技、攻略和你想知道的事",
+  "pageTitle": "Hacks for real life",
   "categories": {
     "knowledge": {
       "title": "聪明学习",
@@ -38,12 +38,12 @@
   },
   "subCategories": {
     "softwareDevelopment": {
-      "title": "软体开发",
+      "title": "软件开发",
       "description": "敲敲键盘，改变世界！"
     },
     "projectManagement": {
-      "title": "专案管理",
-      "description": "专案管理是指在各种限制条件下，带领团队，合作并完成专案目标的过程"
+      "title": "项目管理",
+      "description": "项目管理是指在各种限制条件下，带领团队，合作并完成专案目标的过程"
     },
     "investment": {
       "title": "投资理财",
