@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
 import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
-import { Categories } from '../../../lib/constants'
+import { Categories, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
@@ -58,8 +58,8 @@ export default function Header() {
         >
           <BrandLogo width={isDownMd ? 80 : 100} />
 
-          {/* {!isDownMd && (
-            <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
+          {!isDownMd && (
+            <Box sx={{ display: 'flex', gap: 30, ml: 48, justifyContent: 'center', width: '100%' }}>
               {Categories.map((link) => (
                 <Link
                   key={link.key}
@@ -73,8 +73,19 @@ export default function Header() {
                   </Typography>
                 </Link>
               ))}
+              <Link
+                href={Routes.about}
+                onClick={onClick}
+                color={theme.palette.primary.contrastText}
+                title={'Shareuhack|About Us'}
+                disableUnderline
+              >
+                <Typography variant="body2" color={theme.palette.text.primary}>
+                  {t('about')}
+                </Typography>
+              </Link>
             </Box>
-          )} */}
+          )}
 
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
@@ -118,6 +129,17 @@ export default function Header() {
                   </Typography>
                 </Link>
               ))}
+              <Link
+                href={Routes.about}
+                onClick={onClick}
+                color={theme.palette.primary.contrastText}
+                title={'Shareuhack|About Us'}
+                disableUnderline
+              >
+                <Typography variant="body1" color={theme.palette.text.primary}>
+                  {t('about')}
+                </Typography>
+              </Link>
             </Box>
           )}
           {isDownMd && (
