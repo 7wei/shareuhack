@@ -1,6 +1,6 @@
 import { useCallback, useState, useEffect } from 'react'
 import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/material'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
 import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
@@ -59,7 +59,18 @@ export default function Header() {
           <BrandLogo width={isDownMd ? 80 : 100} />
 
           {!isDownMd && (
-            <Box sx={{ display: 'flex', gap: 30, ml: 48, justifyContent: 'center', width: '100%' }}>
+            <Box
+              sx={{
+                display: 'flex',
+                gap: 30,
+                ml: {
+                  xs: 0,
+                  md: 48,
+                },
+                justifyContent: 'center',
+                width: '100%',
+              }}
+            >
               {Categories.map((link) => (
                 <Link
                   key={link.key}
