@@ -12,32 +12,37 @@ module.exports = {
       },
       {
         source: '/en-US',
-        destination: '/en',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/ja-JP',
-        destination: '/ja',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/en-US/posts/:slug',
-        destination: '/en/posts/:slug',
+        destination: '/posts/:slug',
         permanent: true,
       },
       {
         source: '/en-GB/posts/:slug',
-        destination: '/en/posts/:slug',
+        destination: '/posts/:slug',
         permanent: true,
       },
       {
         source: '/en-SG/posts/:slug',
-        destination: '/en/posts/:slug',
+        destination: '/posts/:slug',
         permanent: true,
       },
       {
         source: '/ja-JP/posts/:slug',
-        destination: '/ja/posts/:slug',
+        destination: '/posts/:slug',
+        permanent: true,
+      },
+      {
+        source: '/zh-HK/posts/:slug',
+        destination: '/posts/:slug',
         permanent: true,
       },
     ]

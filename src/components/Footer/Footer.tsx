@@ -3,17 +3,18 @@ import { useTranslation } from 'next-i18next'
 import useBreakpoint from 'hooks/useBreakpoint'
 import Socials from 'components/Socials/Socials'
 import Link from 'components/Link/Link'
+import Head from 'next/head'
 
 export default function Footer() {
   const { t } = useTranslation('common')
   const isDownMd = useBreakpoint()
-  const theme = useTheme()
 
   return (
     <>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+      <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
           (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
             var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
             f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
@@ -22,8 +23,9 @@ export default function Footer() {
 
             var ml_account = ml('accounts', '3616085', 'z2m5d4m0k5', 'load');
             `,
-        }}
-      />
+          }}
+        />
+      </Head>
 
       <Box
         sx={{
