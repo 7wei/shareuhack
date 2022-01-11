@@ -86,12 +86,12 @@ export default function DrawerComponent(props: Props) {
           ))}
         </Box>
 
-        <Divider />
-        <Box mt={16} mb={24}>
-          {/* <Typography variant="body2" color={theme.palette.text.primary}>
+        {/* <Divider /> */}
+        {/* <Box mt={16} mb={24}> */}
+        {/* <Typography variant="body2" color={theme.palette.text.primary}>
             {t('selectLocale')}
           </Typography> */}
-          <Box display="flex" flexDirection="column" alignItems="flex-start" mt={16} gap={14}>
+        {/* <Box display="flex" flexDirection="column" alignItems="flex-start" mt={16} gap={14}>
             {locales?.map((loc) => (
               <Typography variant="body2" key={loc}>
                 <Link
@@ -106,8 +106,8 @@ export default function DrawerComponent(props: Props) {
                 </Link>
               </Typography>
             ))}
-          </Box>
-        </Box>
+          </Box> */}
+        {/* </Box> */}
         <Divider />
         <Box mt={16}>
           <Link

@@ -8,12 +8,12 @@ import { Categories } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
-import LanguageSelector from 'components/LanguageSelector'
+// import LanguageSelector from 'components/LanguageSelector'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
 export default function Header() {
-  const { locale } = useRouter()
+  // const { locale } = useRouter()
   const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
   const theme = useTheme()
@@ -58,7 +58,7 @@ export default function Header() {
         >
           <BrandLogo width={isDownMd ? 80 : 100} />
 
-          {!isDownMd && (
+          {/* {!isDownMd && (
             <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
               {Categories.map((link) => (
                 <Link
@@ -74,7 +74,7 @@ export default function Header() {
                 </Link>
               ))}
             </Box>
-          )}
+          )} */}
 
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
@@ -120,12 +120,10 @@ export default function Header() {
               ))}
             </Box>
           )}
-          {isDownMd ? (
+          {isDownMd && (
             <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
               {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
             </IconButton>
-          ) : (
-            <LanguageSelector />
           )}
         </AppBar>
       )}

@@ -1,7 +1,7 @@
 module.exports = {
   i18n: {
     defaultLocale: 'zh-TW',
-    locales: ['zh-TW', 'en', 'zh-CN', 'ja'],
+    locales: ['zh-TW'],
     localeDetection: false,
   },
   react: {
