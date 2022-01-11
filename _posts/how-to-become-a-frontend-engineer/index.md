@@ -38,17 +38,17 @@ references:
 # related: []
 ---
 
-In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, have familiarity with a front-end framework, and be popular in the job market.
+In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, famaliar with at least front-end framework, and is competitive in the human resource market.
 
 ## In-demand skills
 
-Check [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) and you can understand the complete roadmap of becoming a front-end engineer.
+Check [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) and you can learn the techniques you need to tackle for becoming a front-end engineer.
 
-In addition, can search for front-end engineers on the Human Bank website and found about 20 job vacancies. The ones that appeared repeatedly more than 10 times would be the necessary technologies for job vacancies, mainly HTML, CSS, JavaScript, Ajax, React, and Other tools such as boostrap, jQuery, etc.
+In addition, you can search for front-end job descriptions on the Human Resource website. The ones that appeared repeatedly would be the necessary technologies for applying for a frontent-end engineer position. Most of them are HTML, CSS, JavaScript, Ajax, React(or another framework) and other tools like bootstrap, jQuery, etc.
 
 ## Initial understanding of basic skills
 
-Then go to understand the purpose of these skills. If you find it difficult to digest the text, it is recommended to search on Youtube. You can find high-quality introduction teaching on Youtube for almost every technology, or go to [Udemy Free Learning Center](https://tinyurl.com/yfbaghja) Find free related courses, find the highest number of views, the highest number of likes, and the way the instructor meets your appetite.
+Try to understand the purpose of these skills first. If you find it difficult to digest the terms. You can check YouTube or [Udemy Free Learning Center](https://tinyurl.com/yfbaghja) for free related courses. Just find the courses/instructors that have the best views/likes, and meet your appetite.
 
 ## Start Learning
 
@@ -68,6 +68,6 @@ After learning, think about how to build a new work of your own through the tech
 
 ## Prepare for interviews
 
-At this point, you are already a very competitive entry-level front-end engineer in the market. Start writing your resume, organizing your work, and preparing for a successful transfer!
+With all the challenges completed, you are already a very competitive engineer on the market. Prepare your resume, organize your portfolio, and get ready for the next chapter of your career!
 
-At the same time, you can go back and see [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap), understand what you are now, what is missing. Also, as much as possible, understand everything that has been learned and the future should be learned, and the role of those technologies. This will be very helpful for continuous study and interview preparation.
+During this time, you can go back and check the [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) to see where you are and to determine what you must do to move forward. Make a detailed plan for continuous growth. Also, it would be very helpful for interview preparation.
