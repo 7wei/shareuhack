@@ -21,6 +21,16 @@ module.exports = {
         permanent: true,
       },
       {
+        source: '/zh-HK',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/en-GB',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/en-US/posts/:slug',
         destination: '/posts/:slug',
         permanent: true,
