@@ -3,7 +3,7 @@ title: 'Best tips for ordinary people to be the master of your own money and lif
 category: 'money'
 subCategory: 'investment'
 publishedAt: '2021-08-15'
-updatedAt: '2021-08-15'
+updatedAt: '2022-01-09'
 excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article summarizes the key messages from several reputable authors of Amazon’s investment bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.'
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
 ogImage:

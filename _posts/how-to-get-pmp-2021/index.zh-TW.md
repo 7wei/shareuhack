@@ -5,7 +5,7 @@ subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！'
 coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 publishedAt: '2021-07-18'
-updatedAt: '2021-07-18'
+updatedAt: '2021-01-11'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
@@ -82,7 +82,9 @@ faqs:
 
 ## 如何申請PMP考試？
 
-請注意，任何PMP報名相關的資訊，請一律先去[PMI 官方網站](https://www.pmi.org/)，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)，簡言之，會需要：
+任何PMP報名相關的資訊，一律先去[PMI 官方網站](https://www.pmi.org/)，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)，
+
+這邊做個簡單整理，你會需要：
 
 1. 確認是否有考試資格
 2. 到PMI註冊帳號
