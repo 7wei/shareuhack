@@ -25,7 +25,7 @@ export const getServerSideProps = async (ctx) => {
     const post = getPostBySlug(slug, ['updatedAt'], 'zh-TW')
 
     return {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/${slug}`,
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/posts/${slug}`,
       lastmod: new Date(post.updatedAt).toISOString(),
     }
   })
