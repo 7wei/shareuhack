@@ -18,10 +18,10 @@ export default function Custom404({ categories }) {
       </Head>
       <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" padding="90px 0">
         <Typography variant="h2" component="h1" fontSize={36}>
-          We lost this page
+          抱歉，此頁面不存在
         </Typography>
         <Typography variant="body2" fontSize={16} mt={14} mb={30}>
-          We might have removed the page when we redesigned our website.
+          我們可能在重新設計網頁時，移除或更新了網址。
         </Typography>
         <Box
           sx={{
@@ -38,8 +38,8 @@ export default function Custom404({ categories }) {
       {categories.map(({ key, posts, link }) => {
         if (posts.length > 0) {
           return (
-            <Box mb="15px" mt="15px">
-              <Divider color="#00000020" />
+            <Box mb="15px" mt="15px" key={key}>
+              <Divider />
               <PreviewRow
                 category={t(`categories.${key}.title`)}
                 description={t(`categories.${key}.description`)}
