@@ -4,11 +4,11 @@ slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'
 subCategory: 'projectManagement'
 excerpt: '多くのプロジェクトマネージャーが多くのプロジェクトを持つことは避けられません。各プロジェクトのスケジュールを制御する方法を知ることは学ぶ価値のあるトピックです。プロジェクトスケジュール管理ツールを使用すると、組織の効率に大きな影響を与える可能性があり、無駄の削減私たちの記事では、誰もが組織的な方法でプロジェクトスケジュールを管理できるように、3つのプロジェクトスケジュール管理ツールを紹介します。'
-coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
+coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
 publishedAt: '2021-12-19'
 updatedAt: '2022-01-09'
 ogImage:
-  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
+  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
 credentials: ['On-the-job PM sharing', 'Years of experience of using those tools']
 recommendations: [
     {

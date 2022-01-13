@@ -3,11 +3,11 @@ title: '準備PMP國際專案管理師證照，你必須知道的事'
 category: 'work'
 subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！'
-coverImage: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
+coverImage: '/assets/posts/how-to-get-pmp-2021.jpg'
 publishedAt: '2021-07-18'
 updatedAt: '2021-01-11'
 ogImage:
-  url: '/assets/posts/how-to-get-pmp-2021/cover.jpg'
+  url: '/assets/posts/how-to-get-pmp-2021.jpg'
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
 recommendations: [
     {

@@ -5,9 +5,9 @@ subCategory: 'investment'
 publishedAt: '2021-08-15'
 updatedAt: '2021-08-15'
 excerpt: '这篇文章不讨论财富自由圣杯，希望藉由统整几个 Amazon 畅销书富有信誉的作者传达的讯息，提供我们普罗大众对于财务管理和通往财务自由，比较稳健的一些观念。'
-coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 ogImage:
-  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 recommendations:
   [
     {

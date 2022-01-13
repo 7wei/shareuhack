@@ -5,9 +5,9 @@ subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
 updatedAt: '2021-11-18'
 excerpt: '「每天打卡上班，下班就待在家滑手机，我真的觉得日子好苦闷」你是否也是这样，每天醒来就是充满着厌世感？近几年，我们开始探讨身心灵上的抒发，仪式感这个名词开始慢慢在生活上出现，我们开始追求心灵的富足，而仪式感即是追求此精神的表现，让我们不再是仅仅为了生存，而是为了生活而生活。'
-coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:
-  url: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+  url: '/assets/posts/sense-of-ritual-best-practice.jpg'
 credentials: ['阅读30+篇网路上的文章', '访问5+对生活有仪式感认知的人', '亲身经历实践1+月']
 ---
 

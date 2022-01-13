@@ -5,9 +5,9 @@ subCategory: 'investment'
 publishedAt: '2021-08-15'
 updatedAt: '2021-08-15'
 excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article summarises the key messages from several reputable authors of Amazon’s investment bestsellers, hope it will provide us with a more stable concept of financial management and the path to financial freedom.'
-coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 ogImage:
-  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 recommendations:
   [
     {

@@ -7,9 +7,9 @@ updatedAt: '2021-11-18'
 excerpt: '「每天打卡上班，下班就待在家滑手機，我真的覺得日子好苦悶」你是否也是這樣，每天醒來就是充滿著厭世感？
 
 近幾年，我們開始探討身心靈上的抒發，儀式感這個名詞開始慢慢在生活上出現，我們開始追求心靈的富足，而儀式感即是追求此精神的表現，讓我們不再是僅僅為了生存，而是為了生活而生活。'
-coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:
-  url: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+  url: '/assets/posts/sense-of-ritual-best-practice.jpg'
 recommendations:
   [
     {

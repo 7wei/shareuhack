@@ -5,11 +5,11 @@ category: 'knowledge'
 subCategory: 'education'
 excerpt: '喜歡閱讀的你，是否常常覺得時間不夠用呢？你是否偏好閱讀非虛構類(Nonfiction)的作品呢？這篇文章分享一個高效閱讀的APP - Blinkist，讓你只要花十五分鐘，就可以閱讀並吸收一整本書的知識。
 '
-coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
+coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas.jpg'
 publishedAt: '2021-11-28'
 updatedAt: '2021-11-28'
 ogImage:
-  url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas/cover.jpg'
+  url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas.jpg'
 credentials: ['使用Blinkist Premium半年', '每天至少使用Blinkist閱讀一本書籍', '3+ Blinkist用戶訪談']
 # recommendations: [
 #     {

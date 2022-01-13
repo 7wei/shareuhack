@@ -5,9 +5,9 @@ subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
 updatedAt: '2022-01-09'
 excerpt: '「私は毎日仕事に出勤し、仕事を辞めた後は家にいて携帯電話をスライドさせています。人生はとても退屈だと感じています。」これはあなたにとっても同じです。毎日目を覚ますと世界が疲れますか？近年、私たちは肉体、心、魂の表現を探求し始めました。儀式感覚という用語は私たちの生活にゆっくりと現れてきました。私たちは精神的な豊かさを追求し始めました。儀式感覚はこの精神を追求するパフォーマンスです。生き残るためだけでなく、生きるために生きるためです。'
-coverImage: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:
-  url: '/assets/posts/sense-of-ritual-best-practice/cover.jpg'
+  url: '/assets/posts/sense-of-ritual-best-practice.jpg'
 credentials:
   [
     'インターネットで30以上の記事を読む',

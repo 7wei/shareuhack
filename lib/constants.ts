@@ -28,6 +28,7 @@ export const SubCategory = {
   lifePhilosophy: 'lifePhilosophy',
   education: 'education',
   managementAndLeadership: 'managementAndLeadership',
+  mindfulness: 'mindfulness',
 }
 
 export const Categories = [
@@ -92,14 +93,19 @@ export const SubCategories = [
     category: Category.work,
     link: `${subcategoryBasePath}/${SubCategory.managementAndLeadership}`,
   },
+  {
+    key: SubCategory.mindfulness,
+    category: Category.life,
+    link: `${subcategoryBasePath}/${SubCategory.mindfulness}`,
+  },
 ]
 
 export const Locales = [
-  {
-    key: 'en',
-    language: 'English',
-    // region: 'United State',
-  },
+  // {
+  //   key: 'en',
+  //   language: 'English',
+  // region: 'United State',
+  // },
   // {
   //   key: 'en-GB',
   //   language: 'English',
@@ -125,16 +131,16 @@ export const Locales = [
   //   language: '繁體中文',
   //   region: '香港',
   // },
-  {
-    key: 'zh-CN',
-    language: '简体中文',
-    // region: '中国',
-  },
-  {
-    key: 'ja',
-    language: '日本語',
-    // region: '日本',
-  },
+  // {
+  //   key: 'zh-CN',
+  //   language: '简体中文',
+  // region: '中国',
+  // },
+  // {
+  //   key: 'ja',
+  //   language: '日本語',
+  // region: '日本',
+  // },
 ]
 
 export const HotPostSlugs = [

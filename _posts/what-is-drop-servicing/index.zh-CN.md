@@ -6,9 +6,9 @@ publishedAt: '2021-10-26'
 updatedAt: '2021-10-26'
 excerpt: '你或许听过 Drop shipping，是一个不用实际囤货、处理物流的商业模式，卖家只需要专住在行销，就有机会创造高额的利润，这种方式已经流行了好几年。
 而现在，创业家们发现这样的商业模式，可以套用在任何的服务上，服务即产品，就像透过 drop shipping 贩售商品给消费者，Drop Servicing 则是贩售服务，无论是产品或服务，都不用创业者自己提供，仅仅扮演着「中间人」的角色，将「服务提供方」和「服务需求方」串连起来。'
-coverImage: '/assets/posts/what-is-drop-servicing/cover.jpg'
+coverImage: '/assets/posts/what-is-drop-servicing.jpg'
 ogImage:
-  url: '/assets/posts/what-is-drop-servicing/cover.jpg'
+  url: '/assets/posts/what-is-drop-servicing.jpg'
 credentials: ['访谈2+创业家', '实际建构了一个Drop Servicing事业']
 ---
 

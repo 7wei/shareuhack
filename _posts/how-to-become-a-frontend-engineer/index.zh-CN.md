@@ -3,11 +3,11 @@ title: '如何3个月转职成为有竞争力的前端工程师'
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: '这篇文章分享无经验菜鸟，如何转职成为一个前端工程师，这边定义的前端工程师．是必须要有一定的程式码品质，且熟悉一个前端框架，在求职市场上有一定竞争力的前端工程师。 '
-coverImage: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
+coverImage: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
 publishedAt: '2021-07-24'
 updatedAt: '2021-07-24'
 ogImage:
-  url: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
+  url: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
 credentials: ['观看10+Udemy课程', '阅读30+篇网路上的文章', '访问3+成功转职的前端工程师']
 recommendations:
   [
