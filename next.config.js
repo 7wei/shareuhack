@@ -61,6 +61,16 @@ module.exports = {
         permanent: true,
       },
       {
+        source: '/ja',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/en',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/zh-HK',
         destination: '/',
         permanent: true,
