@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
       <Meta />
       <Header />
       <Container maxWidth="lg" sx={{ padding: { xs: '0 15px', md: 0 } }}>
-        <Box paddingTop={15}>{children}</Box>
+        {children}
       </Container>
       <Container maxWidth="lg">
         <Footer />
