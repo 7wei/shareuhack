@@ -11,14 +11,6 @@ export default function Meta() {
   return (
     <Head>
       {locale && !indexWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
-      {/* <link rel="shortcut icon" href="/favicon/favicon.ico" /> */}
-
-      <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-      <link rel="manifest" href="/favicons/site.webmanifest" />
-      <link rel="mask-icon" href="/favicons/favicon.svg" color="#000000" />
-      <meta name="theme-color" content="#000000" />
 
       {locales
         ?.filter((el) => el !== 'zh-TW')
