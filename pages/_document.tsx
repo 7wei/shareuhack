@@ -72,8 +72,8 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.svg" />
           <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
           <link rel="manifest" href="/manifest.json" />
-          <link rel="mask-icon" href="/favicons/favicon.svg" color="#000000" />
-          <meta name="theme-color" content="#000000" />
+          <link rel="mask-icon" href="/favicons/favicon.svg" color="#ffffff" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
