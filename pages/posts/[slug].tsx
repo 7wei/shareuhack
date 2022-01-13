@@ -26,7 +26,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
   const { locale, asPath } = router
   const isDownMd = useBreakpoint('md')
-  const url = process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath
+  const url = process.env.NEXT_PUBLIC_BASE_URL + asPath
   const { t } = useTranslation('common')
   const theme = useTheme()
 
