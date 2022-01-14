@@ -3,11 +3,11 @@ title: '3個月轉職有競爭力的前端工程師'
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: '這篇文章分享無經驗菜鳥，如何轉職成為一個前端工程師，這邊定義的前端工程師．是必須要有一定的程式碼品質，且熟悉一個前端框架，在求職市場上有一定競爭力的前端工程師。'
-coverImage: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
+coverImage: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
 publishedAt: '2021-07-24'
 updatedAt: '2021-07-24'
 ogImage:
-  url: '/assets/posts/how-to-become-a-frontend-engineer/cover.jpg'
+  url: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
 credentials: ['觀看10+Udemy課程', '閱讀30+篇網路上的文章', '訪問3+成功轉職的前端工程師']
 recommendations:
   [

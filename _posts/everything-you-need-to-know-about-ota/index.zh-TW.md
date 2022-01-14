@@ -3,11 +3,11 @@ title: '四大OTA訂房平台(Agoda/Booking.com/Ctrip/Expedia)介紹與必需注
 category: 'life'
 subCategory: 'travel'
 excerpt: '自由行的盛行，因映需求訂房網站越來越多，由於每個人的訂房需求不同，每個網站所提供的服務及優惠也對於個人來說不同，究竟如何在五花八門的訂房網站中，找到最符合自己需求的飯店呢？我們將由下文從介紹目前最熱門的四大網路旅行社(OTA)每個訂房網站以及優缺點比較，藉此找到最符合自己的訂房平台'
-coverImage: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
+coverImage: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
 publishedAt: '2021-12-11'
 updatedAt: '2021-12-11'
 ogImage:
-  url: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
+  url: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
 credentials: ['飯店從業經驗', '親測四大平台訂房']
 recommendations: [
     {

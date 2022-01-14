@@ -5,9 +5,9 @@ subCategory: 'investment'
 publishedAt: '2021-08-15'
 updatedAt: '2022-01-09'
 excerpt: 'この記事では、富の自由の聖杯について説明する代わりに、Amazonの財務ベストセラーの評判の良い著者からの重要なメッセージを要約します。これにより、財務管理のより安定した概念と財務の自由への道が提供されることを願っています。'
-coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 ogImage:
-  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers/cover.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 recommendations:
   [
     {

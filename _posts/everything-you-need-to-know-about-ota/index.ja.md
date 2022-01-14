@@ -3,11 +3,11 @@ title: '最も人気のあるOTA（Agoda / Booking.com/Ctrip/Expedia）とあな
 category: 'life'
 subCategory: 'travel'
 excerpt: '個人旅行の普及により、ウェブサイトの予約、サービス、割引の需要が高まっています。ウェブサイトの使い方、自分のニーズに最適なホテルを見つけるにはどうすればよいですか？以下は、最も人気のある4つのホテルの紹介です。オンライン旅行代理店（OTA）。ホテルの予約に最適なサイトを見つけるために、それらの長所と短所を比較します。'
-coverImage: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
+coverImage: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
 publishedAt: '2021-12-11'
 updatedAt: '2022-01-09'
 ogImage:
-  url: '/assets/posts/everything-you-need-to-know-about-ota/cover.jpg'
+  url: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
 credentials: ['ホテル業界での経験', 'プラットフォームでの予約経験']
 recommendations: [
     {

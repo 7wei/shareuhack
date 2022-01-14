@@ -5,9 +5,9 @@ subCategory: 'entrepreneurship'
 publishedAt: '2021-10-26'
 updatedAt: '2021-10-26'
 excerpt: '你或許聽過Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。而現在，創業家們發現這樣的商業模式，可以套用在任何的服務上...'
-coverImage: '/assets/posts/what-is-drop-servicing/cover.jpg'
+coverImage: '/assets/posts/what-is-drop-servicing.jpg'
 ogImage:
-  url: '/assets/posts/what-is-drop-servicing/cover.jpg'
+  url: '/assets/posts/what-is-drop-servicing.jpg'
 credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
 widget: ['fiverr']
 keywords: 'Drop servicing, entrepreneurship, 創業, 一人公司'

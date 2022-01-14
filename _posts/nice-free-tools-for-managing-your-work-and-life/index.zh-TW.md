@@ -4,11 +4,11 @@ slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'
 subCategory: 'projectManagement'
 excerpt: '對於許多PM來說，身上有許多專案是不可避免的，要如何控管好每個專案的時程是一個值得學習的課題。當個人或團隊使用能明確控制專案時程的工具時，便能大大的提升團隊的效率，並且減少許多重工的浪費。今天文章將和大家介紹三個專案時程的管理工具，不僅能讓大家在專案的時程管理上更為輕鬆外，也能將事情管理的非常有條理。'
-coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
+coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
 publishedAt: '2021-12-19'
 updatedAt: '2021-12-19'
 ogImage:
-  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life/cover.jpg'
+  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
 credentials: ['現職PM分享', '多年實際使用trello/slack經驗']
 recommendations: [
     {

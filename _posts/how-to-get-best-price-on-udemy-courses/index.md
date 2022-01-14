@@ -3,11 +3,11 @@ title: 'How to buy Udemy courses at the best price?'
 category: 'knowledge'
 subCategory: 'education'
 excerpt: 'If you want to learn a new thing, the first online course platform may be Udemy. You can find almost any courses you can imagine here, such as: language, art, music, fitness, programming, business, Teaching, productivity, etc. So, how to buy Udemy courses in the cheapest way?'
-coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses.jpg'
 publishedAt: '2021-07-22'
 updatedAt: '2021-07-22'
 ogImage:
-  url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+  url: '/assets/posts/how-to-get-best-price-on-udemy-courses.jpg'
 credentials: ['Took 30+Udemy courses', 'Read 20+ articles']
 keywords: 'Udemy課程, 省錢技巧'
 recommendations:

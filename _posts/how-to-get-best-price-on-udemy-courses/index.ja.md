@@ -3,11 +3,11 @@ title: 'Udemyコースを最高の価格で購入するにはどうすればよ�
 category: 'knowledge'
 subCategory: 'education'
 excerpt: '新しいことを学びたいのなら、最初のオンラインコースプラットフォームはUdemyかもしれません。 言語、アート、音楽、フィットネス、プログラミング、ビジネス、教育、生産性など、ここで想像できるほぼすべてのコースを見つけることができます。では、Udemyコースを最も安価に購入するにはどうすればよいでしょうか。'
-coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses.jpg'
 publishedAt: '2021-07-22'
 updatedAt: '2022-01-09'
 ogImage:
-  url: '/assets/posts/how-to-get-best-price-on-udemy-courses/cover.jpg'
+  url: '/assets/posts/how-to-get-best-price-on-udemy-courses.jpg'
 credentials: ['Took 30+Udemy courses', 'Read 20+ articles']
 recommendations:
   [

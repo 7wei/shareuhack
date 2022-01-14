@@ -5,9 +5,9 @@ subCategory: 'travel'
 publishedAt: '2021-11-07'
 updatedAt: '2021-11-07'
 excerpt: '在防检局的输出犬猫注意事项中有明确说明「输出犬猫应符合输入国之规定」，因为台湾目前属于狂犬病疫区国家，若要带毛小孩前往像日本这些非狂犬病疫区国家需要比较多的事前准备及待机时间。此篇文章详列带毛小孩去日本的必要步骤：'
-coverImage: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
+coverImage: '/assets/posts/how-to-take-dog-to-japan.jpg'
 ogImage:
-  url: '/assets/posts/how-to-take-dog-to-japan/cover.jpg'
+  url: '/assets/posts/how-to-take-dog-to-japan.jpg'
 credentials: ['实际带狗狗去日本玩', '阅读20+网页和文章']
 references:
   [
