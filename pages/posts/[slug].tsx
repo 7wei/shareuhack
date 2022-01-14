@@ -129,17 +129,19 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
 
           <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 }, mb: 30 }}>
             <Grid item md={2} xs={12}>
-              <Divider primary />
               {post.credentials && post.credentials.length > 0 && (
-                <InfoCard title={t('beforewriting')}>
-                  <ol>
-                    {post.credentials?.map((credential, idx) => (
-                      <li key={idx}>
-                        <Typography variant="body1">{credential}</Typography>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
+                <>
+                  <Divider primary />
+                  <InfoCard title={t('beforewriting')}>
+                    <ol>
+                      {post.credentials?.map((credential, idx) => (
+                        <li key={idx}>
+                          <Typography variant="body1">{credential}</Typography>
+                        </li>
+                      ))}
+                    </ol>
+                  </InfoCard>
+                </>
               )}
             </Grid>
             <Grid item md={8} xs={12}>
