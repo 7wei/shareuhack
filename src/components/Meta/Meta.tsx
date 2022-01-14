@@ -25,6 +25,7 @@ export default function Meta() {
 
       <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
       <link rel="canonical" href={canonicalUrl} />
+      <meta name="facebook-domain-verification" content="dceupnte0sxdva9be8z49eqypav2kr" />
       <meta property="article:publisher" content="https://www.facebook.com/shareuhack" />
       <meta property="og:site_name" content="Shareuhack|Hacks for real life" />
       <meta property="og:locale" content={locale} />
