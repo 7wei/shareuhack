@@ -12,12 +12,12 @@ credentials: ['冥想親身經歷實踐約1年', '閱讀20+篇網路上的文章
 recommendations: [
     {
       title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
-      link: 'https://www.books.com.tw/products/0010734483?loc=P_br_60nq68yhb_D_2aabdc_C_2',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010734483?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
       src: '博客來',
     },
     {
       title: '十分鐘冥想',
-      link: 'https://www.books.com.tw/products/CN11709661',
+      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/CN11709661?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
       src: '博客來',
     },
   ]
