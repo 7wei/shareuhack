@@ -178,7 +178,7 @@ export const override: any = {
   MuiButton: {
     styleOverrides: {
       root: {
-        fontFamily: 'Noto Sans, sans-serif',
+        fontFamily: FONTS.content,
         color: theme.palette.primary.contrastText,
         fontWeight: 500,
         borderRadius: theme.shape.borderRadius,
