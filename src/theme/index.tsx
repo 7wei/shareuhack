@@ -153,8 +153,10 @@ export const theme = {
 // font-family: 'Noto Serif SC', serif;
 // font-family: 'Noto Serif TC', serif;
 const FONTS = {
-  title: 'Noto Serif TC, Noto Serif JP, Noto Serif SC, serif',
-  content: 'Noto Sans TC, Noto Sans JP, Noto Sans SC, sans-serif',
+  // title: 'Noto Serif TC, Noto Serif JP, Noto Serif SC, serif',
+  // content: 'Noto Sans TC, Noto Sans JP, Noto Sans SC, sans-serif',
+  title: 'Noto Serif TC, serif',
+  content: 'Noto Sans TC, sans-serif',
 }
 
 export const override: any = {
