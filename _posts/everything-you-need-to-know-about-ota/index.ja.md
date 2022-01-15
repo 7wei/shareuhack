@@ -1,4 +1,5 @@
 ---
+slug: 'everything-you-need-to-know-about-ota'
 title: '最も人気のあるOTA（Agoda / Booking.com/Ctrip/Expedia）とあなたが知る必要があるすべて'
 category: 'life'
 subCategory: 'travel'

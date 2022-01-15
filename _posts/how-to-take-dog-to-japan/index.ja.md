@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-take-dog-to-japan'
 title: 'ペットを連れて海外で遊ぼう！台湾>>日本の申請プロセスのガイド'
 category: 'life'
 subCategory: 'travel'

@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-become-a-frontend-engineer'
 title: 'How to become a competitive front-end engineer in 3 months'
 category: 'work'
 subCategory: 'softwareDevelopment'

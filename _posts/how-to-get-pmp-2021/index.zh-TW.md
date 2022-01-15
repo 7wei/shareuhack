@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-pmp-2021'
 title: '準備PMP國際專案管理師證照，你必須知道的事'
 category: 'work'
 subCategory: 'projectManagement'

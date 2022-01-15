@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-pmp-2021'
 title: '2021 PMP合格する最新のガイド、古いバージョンに別れを告げる！'
 category: 'work'
 subCategory: 'projectManagement'

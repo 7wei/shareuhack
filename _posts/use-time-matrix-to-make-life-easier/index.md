@@ -1,4 +1,5 @@
 ---
+slug: 'use-time-matrix-to-make-life-easier'
 title: 'Time Management matrix | Tips for the rookie manager'
 category: 'work'
 subCategory: 'managementAndLeadership'

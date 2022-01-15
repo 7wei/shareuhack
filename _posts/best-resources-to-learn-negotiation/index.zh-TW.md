@@ -1,4 +1,5 @@
 ---
+slug: 'best-resources-to-learn-negotiation'
 title: '如何學談判？盤點成為談判高手最佳學習資源'
 category: 'knowledge'
 subCategory: 'education'

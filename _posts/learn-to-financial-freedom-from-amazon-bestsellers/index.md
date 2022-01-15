@@ -1,4 +1,5 @@
 ---
+slug: 'learn-to-financial-freedom-from-amazon-bestsellers'
 title: 'Best tips for ordinary people to be the master of your own money and life | learning from Amazon investment bestsellers'
 category: 'money'
 subCategory: 'investment'

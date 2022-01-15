@@ -1,4 +1,5 @@
 ---
+slug: 'learn-to-financial-freedom-from-amazon-bestsellers'
 title: '普通の人があなた自身のお金と人生のマスターになるための最良のヒント | アマゾンファイナンスのベストセラーから学ぶ'
 category: 'money'
 subCategory: 'investment'

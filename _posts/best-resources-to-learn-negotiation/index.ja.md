@@ -1,4 +1,5 @@
 ---
+slug: 'best-resources-to-learn-negotiation'
 title: '2021交渉を学ぶための最良のリソース'
 category: 'knowledge'
 subCategory: 'education'

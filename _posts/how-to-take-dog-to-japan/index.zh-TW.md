@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-take-dog-to-japan'
 title: '帶毛小孩出國玩！台灣>>日本申請流程全攻略'
 category: 'life'
 subCategory: 'travel'

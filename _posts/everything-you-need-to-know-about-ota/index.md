@@ -1,4 +1,5 @@
 ---
+slug: 'everything-you-need-to-know-about-ota'
 title: 'Most popular OTAs(Agoda/Booking.com/Ctrip/Expedia) and everything you need to know'
 category: 'life'
 subCategory: 'travel'

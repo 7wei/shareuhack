@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-best-price-on-udemy-courses'
 title: 'Udemyコースを最高の価格で購入するにはどうすればよいですか？'
 category: 'knowledge'
 subCategory: 'education'

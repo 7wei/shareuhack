@@ -1,4 +1,5 @@
 ---
+slug: 'everything-you-need-to-know-about-ota'
 title: '四大OTA订房平台(Agoda/Booking.com/Ctrip/Expedia)介绍与必需注意的优惠陷阱'
 category: 'life'
 subCategory: 'travel'

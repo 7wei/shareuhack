@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-best-price-on-udemy-courses'
 title: '如何以最便宜的價格購買Udemy課程？'
 category: 'knowledge'
 subCategory: 'education'

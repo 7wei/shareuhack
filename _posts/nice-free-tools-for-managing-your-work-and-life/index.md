@@ -1,4 +1,5 @@
 ---
+slug: 'nice-free-tools-for-managing-your-work-and-life'
 title: 'Free and nice project management tools you must know-Slack/Trello/Todoist'
 slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'

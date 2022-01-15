@@ -1,4 +1,5 @@
 ---
+slug: 'meditation-101'
 title: '找回內心平靜的幸福感，給冥想初學者的5個指引'
 category: 'life'
 subCategory: 'mindfulness'

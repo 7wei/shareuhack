@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-take-dog-to-japan'
 title: 'How to take your pet to go abroad (Taiwan>>Japan)'
 category: 'life'
 subCategory: 'travel'

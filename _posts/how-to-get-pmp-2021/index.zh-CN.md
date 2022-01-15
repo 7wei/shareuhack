@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-pmp-2021'
 title: '准备PMP项目管理师证照，你必须知道的事'
 category: 'work'
 subCategory: 'projectManagement'

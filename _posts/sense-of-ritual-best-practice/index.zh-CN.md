@@ -1,4 +1,5 @@
 ---
+slug: 'sense-of-ritual-best-practice'
 title: '人生从生活仪式感开始转变—带你建立专属于自己的仪式感'
 category: 'life'
 subCategory: 'lifePhilosophy'

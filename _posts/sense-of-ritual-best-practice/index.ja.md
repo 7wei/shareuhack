@@ -1,4 +1,5 @@
 ---
+slug: 'sense-of-ritual-best-practice'
 title: '人生は人生の儀式の感覚から変化し始めます—あなたがあなたに属する儀式の感覚を構築するのを助けるために'
 category: 'life'
 subCategory: 'lifePhilosophy'

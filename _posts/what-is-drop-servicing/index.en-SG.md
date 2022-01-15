@@ -1,4 +1,5 @@
 ---
+slug: 'what-is-drop-servicing'
 title: 'What is Drop Servicing? The low-cost business model you must try!'
 category: 'money'
 subCategory: 'entrepreneurship'

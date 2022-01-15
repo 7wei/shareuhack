@@ -1,4 +1,5 @@
 ---
+slug: 'use-time-matrix-to-make-life-easier'
 title: '時間管理の4つの象限;新しい監督者のための緊急/重要なルール'
 category: 'work'
 subCategory: 'managementAndLeadership'

@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-become-a-frontend-engineer'
 title: '3個月轉職有競爭力的前端工程師'
 category: 'work'
 subCategory: 'softwareDevelopment'

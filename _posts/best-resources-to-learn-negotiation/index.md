@@ -1,4 +1,5 @@
 ---
+slug: 'best-resources-to-learn-negotiation'
 title: '2021 Best resources for learning negotiation'
 category: 'knowledge'
 subCategory: 'education'

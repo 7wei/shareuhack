@@ -1,4 +1,5 @@
 ---
+slug: 'what-is-drop-servicing'
 title: '什么是Drop Servicing? 你不能不知道的低成本创业模式'
 category: 'money'
 subCategory: 'entrepreneurship'

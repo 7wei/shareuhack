@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-best-price-on-udemy-courses'
 title: 'How to buy Udemy courses at the best price?'
 category: 'knowledge'
 subCategory: 'education'

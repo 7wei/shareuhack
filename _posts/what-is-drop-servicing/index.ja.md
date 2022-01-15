@@ -1,4 +1,5 @@
 ---
+slug: 'what-is-drop-servicing'
 title: 'ドロップサービスとは何ですか？あなたが助けずにはいられない低コストの起業家モデル'
 category: 'money'
 subCategory: 'entrepreneurship'

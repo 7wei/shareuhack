@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-become-a-frontend-engineer'
 title: '競争力のあるフロントエンドエンジニアになる方法'
 category: 'work'
 subCategory: 'softwareDevelopment'

@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-become-a-frontend-engineer'
 title: '如何3个月转职成为有竞争力的前端工程师'
 category: 'work'
 subCategory: 'softwareDevelopment'

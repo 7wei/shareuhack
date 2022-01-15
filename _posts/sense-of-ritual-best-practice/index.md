@@ -1,4 +1,5 @@
 ---
+slug: 'sense-of-ritual-best-practice'
 title: 'Life begins to change from the sense of ritual in life - Build one that belongs to you!'
 category: 'life'
 subCategory: 'lifePhilosophy'

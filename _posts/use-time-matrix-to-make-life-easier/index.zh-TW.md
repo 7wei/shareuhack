@@ -1,4 +1,5 @@
 ---
+slug: 'use-time-matrix-to-make-life-easier'
 title: '時間管理四象限；新手主管必修的急迫/重要法則'
 category: 'work'
 subCategory: 'managementAndLeadership'

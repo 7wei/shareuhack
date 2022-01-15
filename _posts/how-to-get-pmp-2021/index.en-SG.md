@@ -1,4 +1,5 @@
 ---
+slug: 'how-to-get-pmp-2021'
 title: '2021 How to crack the PMP exam!'
 category: 'work'
 subCategory: 'projectManagement'
