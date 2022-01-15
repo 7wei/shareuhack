@@ -23,7 +23,7 @@ export const getServerSideProps = ({ res }) => {
       .map((post) => {
         return `
           <url>
-            <loc>${process.env.NEXT_PUBLIC_BASE_URL + '/' + post.slug}</loc>
+            <loc>${process.env.NEXT_PUBLIC_BASE_URL + '/posts/' + post.slug}</loc>
             <lastmod>${post.updatedAt}</lastmod>
             <image:image>
               <image:loc>${process.env.NEXT_PUBLIC_BASE_URL + post.coverImage}</image:loc>
