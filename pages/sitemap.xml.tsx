@@ -4,7 +4,9 @@ import { Categories } from '../lib/constants'
 
 const Sitemap = () => {}
 export const getServerSideProps = ({ res }) => {
-  const posts = getAllPosts(['slug', 'updatedAt', 'coverImage', 'title'], 'zh-TW')
+  const posts = getAllPosts(['slug', 'updatedAt', 'coverImage', 'title'], 'zh-TW').sort((post1, post2) =>
+    post1.updatedAt > post2.updatedAt ? -1 : 1
+  )
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
