@@ -58,45 +58,43 @@ export default function Header() {
         >
           <BrandLogo width={isDownMd ? 80 : 100} />
 
-          {!isDownMd && (
-            <Box
-              sx={{
-                display: 'flex',
-                gap: 30,
-                ml: {
-                  xs: 0,
-                  md: 48,
-                },
-                justifyContent: 'center',
-                width: '100%',
-              }}
-            >
-              {Categories.map((link) => (
-                <Link
-                  key={link.key}
-                  href={link.link}
-                  onClick={onClick}
-                  title={'Shareuhack|' + t(`categories.${link.key}.title`)}
-                  disableUnderline
-                >
-                  <Typography variant="body2" color={theme.palette.text.primary}>
-                    {t(`categories.${link.key}.title`)}
-                  </Typography>
-                </Link>
-              ))}
+          <Box
+            sx={{
+              display: isDownMd ? 'none' : 'flex',
+              gap: 30,
+              ml: {
+                xs: 0,
+                md: 48,
+              },
+              justifyContent: 'center',
+              width: '100%',
+            }}
+          >
+            {Categories.map((link) => (
               <Link
-                href={Routes.about}
+                key={link.key}
+                href={link.link}
                 onClick={onClick}
-                color={theme.palette.primary.contrastText}
-                title={'Shareuhack|About Us'}
+                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
                 disableUnderline
               >
                 <Typography variant="body2" color={theme.palette.text.primary}>
-                  {t('about')}
+                  {t(`categories.${link.key}.title`)}
                 </Typography>
               </Link>
-            </Box>
-          )}
+            ))}
+            <Link
+              href={Routes.about}
+              onClick={onClick}
+              color={theme.palette.primary.contrastText}
+              title={'Shareuhack|About Us'}
+              disableUnderline
+            >
+              <Typography variant="body2" color={theme.palette.text.primary}>
+                {t('about')}
+              </Typography>
+            </Link>
+          </Box>
 
           <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
             {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
@@ -125,39 +123,40 @@ export default function Header() {
           }}
         >
           <BrandLogo width={isDownMd ? 100 : 108} />
-          {!isDownMd && (
-            <Box sx={{ flexGrow: 1, display: 'flex', gap: 30, ml: 48 }}>
-              {Categories.map((link) => (
-                <Link
-                  key={link.key}
-                  href={link.link}
-                  onClick={onClick}
-                  title={'Shareuhack|' + t(`categories.${link.key}.title`)}
-                  disableUnderline
-                >
-                  <Typography variant="body1" color={theme.palette.text.primary}>
-                    {t(`categories.${link.key}.title`)}
-                  </Typography>
-                </Link>
-              ))}
+          <Box sx={{ flexGrow: 1, gap: 30, ml: 48, display: isDownMd ? 'none' : 'flex' }}>
+            {Categories.map((link) => (
               <Link
-                href={Routes.about}
+                key={link.key}
+                href={link.link}
                 onClick={onClick}
-                color={theme.palette.primary.contrastText}
-                title={'Shareuhack|About Us'}
+                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
                 disableUnderline
               >
                 <Typography variant="body1" color={theme.palette.text.primary}>
-                  {t('about')}
+                  {t(`categories.${link.key}.title`)}
                 </Typography>
               </Link>
-            </Box>
-          )}
-          {isDownMd && (
-            <IconButton color="primary" aria-label="Menu" onClick={() => setOpenDrawer(!openDrawer)}>
-              {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
-            </IconButton>
-          )}
+            ))}
+            <Link
+              href={Routes.about}
+              onClick={onClick}
+              color={theme.palette.primary.contrastText}
+              title={'Shareuhack|About Us'}
+              disableUnderline
+            >
+              <Typography variant="body1" color={theme.palette.text.primary}>
+                {t('about')}
+              </Typography>
+            </Link>
+          </Box>
+          <IconButton
+            sx={{ display: isDownMd ? 'block' : 'none' }}
+            color="primary"
+            aria-label="Menu"
+            onClick={() => setOpenDrawer(!openDrawer)}
+          >
+            {openDrawer && isDownMd ? <Close fontSize="small" /> : <Menu fontSize="small" />}
+          </IconButton>
         </AppBar>
       )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
