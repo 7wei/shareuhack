@@ -163,7 +163,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                         <Link
                           href={recommendation.link}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="sponsored"
                           color={theme.palette.text.primary}
                           title={recommendation.title}
                         >

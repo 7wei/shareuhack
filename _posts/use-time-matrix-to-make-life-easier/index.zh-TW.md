@@ -52,7 +52,7 @@ recommendations:
 要留心的是，由於人類的惰性，往往越重要的事情越容易被拖延，拖延的人往往是焦慮的，對要做的事有不確定感和難以控制感，因而才會拖延。與拖延截然相反的是自控 ── 即自我控制的能力。
 
 要學習如何強化第二象限的辦事能力，可以參考這本書：
-[為什麼越重要的事越不想做？51 種克服拖延與分心，打造超級自控力的訓練計畫](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010885515?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111)
+[為什麼越重要的事越不想做？51 種克服拖延與分心，打造超級自控力的訓練計畫](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010885515?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111 "affiliate")
 
 新手主管要學習將重要但不緊急的事情分配在不同的時間逐步完成，但必須時刻管理事情完成的進度與內容，這也是作為管理學非常重要的一門課。可以善用各種專案管理工具，像是 Trello 或 Gantter 都是非常熱門的軟體，可以隨時關注執行的進度，讓自己不要疏忽工作的細節。
 
@@ -77,4 +77,4 @@ recommendations:
 作為風靡數十年的重要時間管理方法，先試著將手邊的工作歸類看看，如果遇到時間管理四象限法則也無法解決的問題，可以嘗試把它拆解成幾項不同的工作事項，也可以打造屬於你手邊特別工作的「第五象限」，將少量工作作為特殊例子看待，打造屬於你自己的時間管理法則！
 
 最後，推薦給大家一本書，
-[時間經濟學：最佳工作時序白金四原則， 讓時間價值極大化的「鬼速工作術」](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010803535?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111)，這本是介紹許多更進階的時間管理四象限法則，即使我們學會了基本的運用，上班時總是優先處理重要且緊急的工作。但工作卻依舊做不完，每天總是最後一個離開辦公室？書中介紹了進階使用的 4 個關鍵、6 種訣竅、10 大準則，幫助我們減少 60%工時，並且做到 120%效果。讓我們一起妥善運用時間管理，創造更好的工作成果與人生觀！
+[時間經濟學：最佳工作時序白金四原則， 讓時間價值極大化的「鬼速工作術」](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010803535?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111 "affiliate")，這本是介紹許多更進階的時間管理四象限法則，即使我們學會了基本的運用，上班時總是優先處理重要且緊急的工作。但工作卻依舊做不完，每天總是最後一個離開辦公室？書中介紹了進階使用的 4 個關鍵、6 種訣竅、10 大準則，幫助我們減少 60%工時，並且做到 120%效果。讓我們一起妥善運用時間管理，創造更好的工作成果與人生觀！

@@ -124,9 +124,9 @@ OTA是Online Travel Agency的簡寫，意指將開團、訂房、交通、收單
 3. 對商家而言，必須同時管理多個OTA平台
 4. 流量掌控在平台上，較難累積忠誠客戶，受制於平台訂的規則
 
-## [Agoda](https://tinyurl.com/y3o7l83o)
+## [Agoda](https://tinyurl.com/y3o7l83o "affiliate")
 
-[![agoda-logo](https://i.imgur.com/AC0aCWV.png)](https://tinyurl.com/y3o7l83o)
+[![agoda-logo](https://i.imgur.com/AC0aCWV.png)](https://tinyurl.com/y3o7l83o "affiliate")
 
 美國著名旅遊品牌 Priceline 旗下專業酒店預訂網站(2007年收購)，號稱亞洲最強訂房平台，業務範圍：中國、日本、韓國、澳大利亞等。
 
@@ -142,11 +142,11 @@ OTA是Online Travel Agency的簡寫，意指將開團、訂房、交通、收單
 (目前網站也提供現場支付，訂單會自動串聯至同集團的booking.com處理)
 2. 客服雖開通亞洲線，但非常難接通
 
-## [Booking.com](https://tinyurl.com/y3d9m8fk)
+## [Booking.com](https://tinyurl.com/y3d9m8fk "affiliate")
 
-[![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk)
+[![go-to-booking.com](https://i.imgur.com/5ri7YYY.png)](https://tinyurl.com/y3d9m8fk "affiliate")
 
-靠著超強跨國併購，分別於2004年和2007年年間併購ActiveHotels.com與[agoda](https://tinyurl.com/y3o7l83o)，這使booking.com成為全球最大的酒店預訂網站。
+靠著超強跨國併購，分別於2004年和2007年年間併購ActiveHotels.com與[agoda](https://tinyurl.com/y3o7l83o "affiliate")，這使booking.com成為全球最大的酒店預訂網站。
 
 ### Booking.com優點
 
@@ -159,11 +159,11 @@ OTA是Online Travel Agency的簡寫，意指將開團、訂房、交通、收單
 
 1. 現場付款須提供信用卡訂房擔保，防盜刷機制較不完善
 
-## [Ctrip](https://tinyurl.com/y2mzx952)
+## [Ctrip](https://tinyurl.com/y2mzx952 "affiliate")
 
-[![go-to-ctrip](https://i.imgur.com/pIuYjuf.png)](https://tinyurl.com/y2mzx952)
+[![go-to-ctrip](https://i.imgur.com/pIuYjuf.png)](https://tinyurl.com/y2mzx952 "affiliate")
 
-來自內地的訂房網站品牌，即為我們熟知的[Trip.com](https://tinyurl.com/y2mzx952)，特色為包羅萬象的旅遊代辦、機票等交通車票(Skyscanner)都可包辦，為所有訂房網站中功能性最高的。
+來自內地的訂房網站品牌，即為我們熟知的[Trip.com](https://tinyurl.com/y2mzx952 "affiliate")，特色為包羅萬象的旅遊代辦、機票等交通車票(Skyscanner)都可包辦，為所有訂房網站中功能性最高的。
 
 ### Ctrip優點
 
@@ -179,7 +179,7 @@ OTA是Online Travel Agency的簡寫，意指將開團、訂房、交通、收單
 
 [![go-to-expedia](https://i.imgur.com/ZYxOSpB.png)](https://www.expedia.com/)
 
-找飯店？Trivago! 這句家喻戶曉的廣告詞正是Expedia的廣告，旗下品牌包括[Hotels.com](https://tinyurl.com/yyg69zbt)、[Orbitz.com](https://www.orbitz.com/)、[Trivago](https://www.trivago.com.tw/)等。
+找飯店？Trivago! 這句家喻戶曉的廣告詞正是Expedia的廣告，旗下品牌包括[Hotels.com](https://tinyurl.com/yyg69zbt "affiliate")、[Orbitz.com](https://www.orbitz.com/)、[Trivago](https://www.trivago.com.tw/)等。
 
 ### Expeida優點
 

@@ -39,7 +39,7 @@ recommendations:
 ## The Total Money Makeover: A Proven Plan for Financial Fitness
 
 - 作者：Dave Ramsey
-- 連結：[博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F013215612?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108) | [Amazon](https://amzn.to/3iLlvUQ)
+- 連結：[博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F013215612?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate") | [Amazon](https://amzn.to/3iLlvUQ "affiliate")
 
 這本書提供 7 個簡單步驟，帶你扭轉你的財務頹勢，透過這些方式，可以重拾有財務保障的生活，並開始計劃未來，往舒適、有意義的生活和退休日子邁進。
 
@@ -64,7 +64,7 @@ recommendations:
 ## Money: Master the Game: 7 Simple Steps to Financial Freedom
 
 - 作者：Tony Robbins
-- 連結：[博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F013686859?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108) | [Amazon](https://amzn.to/3siebmQ)
+- 連結：[博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F013686859?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate") | [Amazon](https://amzn.to/3siebmQ "affiliate")
 
 只要努力、願意儲蓄、遵循紀律，即使起步很緩慢，所有人都可以達到財富自由。想辦法分散風險，多角化投資，向值得相信的人尋求建議，準備好適當的避險方式，應對不同的市場週期。
 
@@ -91,7 +91,7 @@ recommendations:
 ## The Psychology of Money: Timeless lessons on wealth, greed, and happiness
 
 - 作者：Housel, Morgan
-- 連結：[Amazon](https://amzn.to/3m37K5U) | [博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F016396356?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)
+- 連結：[Amazon](https://amzn.to/3m37K5U "affiliate") | [博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F016396356?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")
 
 在現實世界裡，人的財務的決定總是比想像中還要的不理性，許多的決定，例如當你將破產時，投注大量的樂透、開槓桿賭博等等，非常地不理性，但對個體而言，這個動作似乎又有點道理。投資也是一樣的道理，人們投資通常是受各自人生經驗、個性所左右，而不是對於市場時局的冷靜分析。例如：經歷過金融風暴的，和一入市市場就一直穩定、多頭的，對投資的策略、想法會大不相同。總總的決定其實牽扯著許多心理學的因素。
 

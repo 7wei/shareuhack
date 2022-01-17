@@ -73,17 +73,15 @@ faqs:
   ]
 ---
 
- <!-- zh-TW -->
-
 有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！
 
 ## 什麼是PMP？
 
-這邊不會贅述什麼是PMP，有興趣請直接看 PMI 官方的[介紹](https://www.pmi.org/certifications/project-management-pmp)。
+這邊不會贅述什麼是PMP，有興趣請直接看 PMI 官方的[介紹](https://www.pmi.org/certifications/project-management-pmp "PMI官方-PMP介紹")。
 
 ## 如何申請PMP考試？
 
-任何PMP報名相關的資訊，一律先去[PMI 官方網站](https://www.pmi.org/)，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)，
+任何PMP報名相關的資訊，一律先去[PMI官方網站](https://www.pmi.org/ "PMI官方網站")，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply "PMI官方-如何申請PMP")，
 
 這邊做個簡單整理，你會需要：
 
@@ -111,7 +109,7 @@ faqs:
 
 填表格或許很煩，但還是希望要考照的各位可以獨立遵循著網站的指示去申請，畢竟作為一個專業的專案經理，這應該是很基本的技能吧？
 
-其中值得一提的是，報名考試會需要填寫專案經驗，可參考PMI的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0)，作為資料準備的依據。
+其中值得一提的是，報名考試會需要填寫專案經驗，可參考PMI的[Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0 "PMI的PMP申請Checklist")，作為資料準備的依據。
 
 如果很確定要考取PMP證照，建議註冊帳戶後，也加入付費會員，會需要支付US$129/year的會員費用，還有US$10一次性申請費用，主要的好處是，會員的考試費用為US$405，而非會員要 US$555，因次加了會員，其實還是比較省一點，此外最重要的一點，會員可以免費下載PMBOK®Guide的pdf檔案。
 
@@ -121,7 +119,7 @@ faqs:
 
 PMI會持續的觀察和分析專案經理的工作內容和方式，並回顧考試的知識內容，是否已經過時、需要更新。比如說，舊版只專注於預測型(predictive)的waterfall模型，為更符合時宜，新版更加強調了敏捷式(agile)的管理，也在更新版的考試反應了這點。
 
-舊版的考試內容，比較侷限於專案管理的專案週期，強調五大流程、十大知識領域，各個子流程，欲了解可以參考[這篇文章](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb)
+舊版的考試內容，比較侷限於專案管理的專案週期，強調五大流程、十大知識領域，各個子流程，欲了解可以參考[這篇文章](https://chi-wei-huang.medium.com/%E6%88%91%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%80%8B%E6%9C%88%E5%85%A7%E5%8F%96%E5%BE%97pmp%E8%AD%89%E7%85%A7-project-management-professional-certification-544b2937adeb "一個月內考取PMP證照攻略，PMP實際上有用嗎？ by Chi-Wei Huang")
 
 新版的考試內容，會著重於以下三個domain:
 
@@ -137,7 +135,7 @@ PMI會持續的觀察和分析專案經理的工作內容和方式，並回顧�
 
 答案是，不需要。
 
-目前為止，官方還是以第六版作為考試的[參考清單](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552)，且 PMBOK 本來就只是其中一個參考的書目，放心依照下列方式準備即可。
+目前為止，官方還是以第六版作為考試的[參考清單](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552 "PMP官方參考清單")，且 PMBOK 本來就只是其中一個參考的書目，放心依照下列方式準備即可。
 
 PMBOK 6和7主要的差別在於：
 
@@ -155,21 +153,21 @@ PMBOK 6和7主要的差別在於：
 
 ### 準備材料
 
-1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668): PMP官方提供的考試大綱，這文件會告訴你考試到底會包含哪些內內容。
+1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668 "PMP官方提供的考試大綱"): PMP官方提供的考試大綱，這文件會告訴你考試到底會包含哪些內內容。
 
 2. PMI 官方的 PMBOK GUIDE 6： PMI專案管理知識體系的標準，PMI的會員可以免費下載 pdf檔案。
 
 3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)：Udemy上的Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得35PDUs，可以直接滿足報名PMP考試所需要的基本培訓需求。這位作者會持續的更新最新的PMP相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取PDUs，也對整個知識架構有個概觀。
 
-4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
+4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
 
-5. [深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
+5. [深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
 ### 準備方式
 
 1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668)，了解考試的大綱和範圍，若你有一定的專案經理經驗，看完你應該會鬆一口氣，你將會發現，這些問題都將難不了你。
 
-2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成1.5x速率來看完課程。每個人狀況不同，通常 1-2個月內可以完成這課程的學習
+2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成1.5x速率來看完課程。每個人狀況不同，通常 1-2個月內可以完成這課程的學習
 
 3. 把PMBOK再翻過一遍，其實看完課程後，對這套知識體系掌握的程度就很高了，看PMBOK不會花上太多時間。
 
@@ -179,8 +177,8 @@ PMBOK 6和7主要的差別在於：
 
 ### 免費模擬測試資源
 
-1. [pmppracticeexam.org](https://www.pmppracticeexam.org/)
+1. [pmppracticeexam.org](https://www.pmppracticeexam.org/ "PMP Practice Exam")
 
-2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx)
+2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx "Edwel Programs")
 
-3. [PM Exam Simulator](https://free.pm-exam-simulator.com/)
+3. [PM Exam Simulator](https://free.pm-exam-simulator.com/ "PM Exam Simulator")

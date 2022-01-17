@@ -85,17 +85,17 @@ keywords: '談判技巧, Negotiation, 線上學習'
 
 - [Harvard Negotiation Course](https://online.hbs.edu/courses/negotiation/)：Michael Wheeler 教授的談判課，這應該是世界上眾多學生夢想中的最棒談判課了吧，哈佛也提供了這談判課的線上課程，為期 8 週，但要價 1600USD。
 - [Successful Negotiation: Essential Strategies and Skills(Coursera)](https://www1.gamepark.com.tw/2qqTn?uid1=6&uid2=coursera)：密西根大學的 George Siedel 教授主講的課程，為期 7 週，每週 75 分鐘，這課程會把談判的過程拆解成 4 個步驟，從計劃策略開始，並找出關鍵因素，順利和平的完成談判，並評估談判的成效。
-- [Successful Negotiation: Master Your Negotiating Skills(Udemy)](https://tinyurl.com/yzr9k6nr)：短短 1.5H 的課程，但囊括了準備談判的基本技術，好好利用，可以幫助你克服焦慮，並成功完成談判，這堂課讓你可以很快地開始運用一些工具和技巧在現實生活中。
-- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/ygl3k6q6)：2 小時的課程，可以讓你精通 3 個達成雙贏談判得關鍵技術，並提供實際的練習範例。
-- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ydu698gg)：1.5 小時的課程，讓你學會如何做決策、如何在談判中更有力量、如何辨識和利用談判中的壓力點、如何應對不同的談判風格，以及最重要的，如何達到雙贏！
+- [Successful Negotiation: Master Your Negotiating Skills(Udemy)](https://tinyurl.com/yzr9k6nr "affiliate")：短短 1.5H 的課程，但囊括了準備談判的基本技術，好好利用，可以幫助你克服焦慮，並成功完成談判，這堂課讓你可以很快地開始運用一些工具和技巧在現實生活中。
+- [Negotiation Secrets for Master Negotiators(Udemy)](https://tinyurl.com/ygl3k6q6 "affiliate")：2 小時的課程，可以讓你精通 3 個達成雙贏談判得關鍵技術，並提供實際的練習範例。
+- [Negotiation Fundamentals: How To Negotiate Effectively(Udemy)](https://tinyurl.com/ydu698gg "affiliate")：1.5 小時的課程，讓你學會如何做決策、如何在談判中更有力量、如何辨識和利用談判中的壓力點、如何應對不同的談判風格，以及最重要的，如何達到雙贏！
 
 ## 書籍
 
 從課程吸收了大量知識，看看書沈澱一下吧，藉由了解更多實際案例，讓你對現實中的談判更有感覺，也可以順便整理一下思路，準備好做下一次的談判。
 
-- [鏡與窗談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
-- [華頓商學院最受歡迎的談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
-- [FBI 談判協商術](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108)：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
+- [鏡與窗談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
+- [華頓商學院最受歡迎的談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
+- [FBI 談判協商術](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
 
 ## 結語
 
