@@ -54,7 +54,7 @@ references:
 
 打開促銷活動通知，以確保不會漏掉折扣的機會，同時，也建議開啟註冊過課程講師的公告，好的講師通常會隨時更新最新的相關知識和消息，是個很好的電子報。
 
-![打開 Udemy 的促銷活動通知](https://i.imgur.com/NaVDSkb.png)
+![打開 Udemy 的促銷活動通知](https://i.imgur.com/NaVDSkb.png "打開 Udemy 的促銷活動通知")
 
 ### 5. 30 天無條件退款機制
 
