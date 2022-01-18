@@ -30,6 +30,13 @@ faqs:
                3. 好複製、門檻相對低'
     },
   ]
+references:
+  [
+    {
+      title: 'Drop Servicing: Everything You Wanted to Know and More',
+      link: 'https://learn.g2.com/drop-servicing',
+    },
+  ]
 ---
 
 你或許聽過 Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。

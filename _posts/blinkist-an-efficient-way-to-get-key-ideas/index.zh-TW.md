@@ -148,7 +148,7 @@ Blinkist目前收錄有5000本以上的Nonfiction書籍，涵蓋了27個類別�
 
 ## 價格
 
-[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o)
+[![blinkist-pricing](https://i.imgur.com/TzYuxvo.png)](https://blinkist.o6eiov.net/oeod0o "affiliate")
 
 你可以先[免費試用7天](https://blinkist.o6eiov.net/Ry2VmX "affiliate")，試用期後，可選擇一次訂閱一個月($14.99USD/月；$179.88USD/年)，或者一次訂閱一年($7.49USD/月；$89.88USD/年)。
 

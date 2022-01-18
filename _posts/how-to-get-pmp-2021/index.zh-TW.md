@@ -165,15 +165,15 @@ PMBOK 6和7主要的差別在於：
 
 ### 準備方式
 
-1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668)，了解考試的大綱和範圍，若你有一定的專案經理經驗，看完你應該會鬆一口氣，你將會發現，這些問題都將難不了你。
+1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668 "PMP官方提供的考試大綱")，了解考試的大綱和範圍，若你有一定的專案經理經驗，看完你應該會鬆一口氣，你將會發現，這些問題都將難不了你。
 
 2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成1.5x速率來看完課程。每個人狀況不同，通常 1-2個月內可以完成這課程的學習
 
 3. 把PMBOK再翻過一遍，其實看完課程後，對這套知識體系掌握的程度就很高了，看PMBOK不會花上太多時間。
 
-4. 開始練習模擬考題，網路上有不少免費的測試資源，下面我們也列出了一些，做模擬試題時不用太拘泥於每題的對錯，重點是你要看到這些題目，有明確的想法，若有模糊的部分，趕快回去翻 PMBOK，或者可以在 [Facebook](https://www.facebook.com/groups/839989579444112)、[Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP)相關社團提出討論，通常社群都會願意協助的。至於需要做多少題目呢？其實把本文學習資源的題目已是非常足夠，額外的練習，主要是用來增加信心，避免緊張。
+4. 開始練習模擬考題，網路上有不少免費的測試資源，下面我們也列出了一些，做模擬試題時不用太拘泥於每題的對錯，重點是你要看到這些題目，有明確的想法，若有模糊的部分，趕快回去翻 PMBOK，或者可以在 [Facebook](https://www.facebook.com/groups/839989579444112 "Facebook PMP Groups")、[Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP "Linkedin PMP Groups")相關社團提出討論，通常社群都會願意協助的。至於需要做多少題目呢？其實把本文學習資源的題目已是非常足夠，額外的練習，主要是用來增加信心，避免緊張。
 
-5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg)做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
+5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
 
 ### 免費模擬測試資源
 
