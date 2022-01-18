@@ -85,7 +85,7 @@ export default class MyDocument extends Document {
             }}
           /> */}
           <link rel="icon" href="/favicon.svg" />
-          <link rel="apple-touch-icon" href="/favicon.svg" />
+          <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
           <link rel="manifest" href="/manifest.json" />
           <link rel="mask-icon" href="/favicon.svg" color="#ffffff" />
           <meta name="theme-color" content="#ffffff" />
