@@ -60,7 +60,7 @@ export default function DrawerComponent(props: Props) {
               href={link.link}
               onClick={onClick}
               color={theme.palette.primary.contrastText}
-              title={'Category- ' + t(`categories.${link.key}.title`)}
+              title={t(`categories.${link.key}.title`)}
               type="nav"
             >
               <Typography variant="body1" color={theme.palette.text.primary}>

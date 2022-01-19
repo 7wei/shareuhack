@@ -9,21 +9,24 @@ export default function PostBody({ content }: { content: string }) {
     const postBody = document.getElementById('postBody')
     const anchors = postBody?.getElementsByTagName('a') || []
 
-    for (var i = 0; i < anchors.length; i++) {
-      anchors[i].addEventListener(
-        'click',
-        function (e) {
-          const target = e.target as HTMLAnchorElement
+    const clickEvent = (e: any) => {
+      const target = e.target as HTMLAnchorElement
+      event({
+        action: 'click',
+        category: target.rel === 'sponsored' ? 'affiliate' : 'external',
+        label: target.innerText,
+        value: Math.floor(Date.now() / 1000),
+      })
+    }
 
-          event({
-            action: 'click',
-            category: target.rel === 'sponsored' ? 'affiliate' : 'external',
-            label: target.innerText,
-            value: Math.floor(Date.now() / 1000),
-          })
-        },
-        false
-      )
+    for (var i = 0; i < anchors.length; i++) {
+      anchors[i].addEventListener('click', clickEvent)
+    }
+
+    return () => {
+      for (var i = 0; i < anchors.length; i++) {
+        anchors[i].removeEventListener('click', clickEvent)
+      }
     }
   }, [])
 

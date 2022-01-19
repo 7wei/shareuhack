@@ -128,7 +128,7 @@ export default function Header() {
                 key={link.key}
                 href={link.link}
                 onClick={onClick}
-                title={'Category- ' + t(`categories.${link.key}.title`)}
+                title={t(`categories.${link.key}.title`)}
                 disableUnderline
                 type="nav"
               >
