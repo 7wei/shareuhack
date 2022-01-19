@@ -167,7 +167,14 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           rel="sponsored"
                           color={theme.palette.text.primary}
                           title={recommendation.title}
-                          onClick={() => event({ action: 'click', category: 'aff', label: recommendation.title })}
+                          onClick={() =>
+                            event({
+                              action: 'click',
+                              category: 'aff',
+                              label: recommendation.title,
+                              value: Math.floor(Date.now() / 1000),
+                            })
+                          }
                         >
                           <Typography variant="body1" mb={12}>
                             [{recommendation.src}] {recommendation.title}
