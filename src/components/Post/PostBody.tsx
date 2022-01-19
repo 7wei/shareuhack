@@ -18,6 +18,9 @@ export default function PostBody({ content }: { content: string }) {
         value: Math.floor(Date.now() / 1000),
       })
     }
+    for (var i = 0; i < anchors.length; i++) {
+      anchors[i].removeEventListener('click', clickEvent)
+    }
 
     for (var i = 0; i < anchors.length; i++) {
       anchors[i].addEventListener('click', clickEvent)
