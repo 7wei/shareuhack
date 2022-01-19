@@ -31,7 +31,7 @@ export default function PostBody({ content }: { content: string }) {
         anchors[i].removeEventListener('click', clickEvent)
       }
     }
-  }, [])
+  }, [content])
 
   return (
     <Box
