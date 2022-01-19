@@ -18,14 +18,14 @@ interface Props {
 }
 
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover, category } = props
+  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover, type } = props
   const theme = useTheme()
 
   const handleClick = useCallback(() => {
     onClick
     event({
       action: 'click',
-      category: category,
+      category: type,
       label: title,
       value: Math.floor(Date.now() / 1000),
     })
