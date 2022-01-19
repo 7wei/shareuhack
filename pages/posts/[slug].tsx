@@ -21,6 +21,7 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
+import event from '../../lib/gtag'
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -166,6 +167,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           rel="sponsored"
                           color={theme.palette.text.primary}
                           title={recommendation.title}
+                          onClick={event({ event: 'click', category: 'aff', label: recommendation.title })}
                         >
                           <Typography variant="body1" mb={12}>
                             [{recommendation.src}] {recommendation.title}
