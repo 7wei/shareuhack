@@ -38,7 +38,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
 
   useEffect(() => {
     bindTrackingClicks()
-  }, [])
+  }, [post])
 
   const Shares = () => {
     return (
