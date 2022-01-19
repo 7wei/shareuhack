@@ -21,8 +21,6 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
-import { useEffect } from 'react'
-import { bindTrackingClicks } from '../../src/utils'
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -35,10 +33,6 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
-
-  useEffect(() => {
-    bindTrackingClicks()
-  }, [post])
 
   const Shares = () => {
     return (
@@ -110,10 +104,15 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
           {category && subCategory && (
             <Breadcrumbs>
-              <Link href={category?.link} locale={locale}>
+              <Link href={category?.link} locale={locale} title={t(`categories.${category?.key}.title`)} type="nav">
                 {t(`categories.${category?.key}.title`)}
               </Link>
-              <Link href={subCategory?.link} locale={locale}>
+              <Link
+                href={subCategory?.link}
+                locale={locale}
+                title={t(`subCategories.${subCategory?.key}.title`)}
+                type="nav"
+              >
                 {t(`subCategories.${subCategory?.key}.title`)}
               </Link>
             </Breadcrumbs>
@@ -172,6 +171,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           rel="sponsored"
                           color={theme.palette.text.primary}
                           title={recommendation.title}
+                          type="affiliate"
                         >
                           <Typography variant="body1" mb={12}>
                             [{recommendation.src}] {recommendation.title}
@@ -193,6 +193,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                           // rel="nofollow noopener noreferrer"
                           color={theme.palette.text.primary}
                           title={reference.title}
+                          type="external"
                         >
                           <Typography variant="body1" mb={12}>
                             {reference.title}
@@ -230,7 +231,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
               <Grid spacing={24} container>
                 {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
                   <Grid item key={idx} xs={12}>
-                    <Link href={link.link}>
+                    <Link href={link.link} title={t(`categories.${link.key}.title`)} type="nav">
                       <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
                     </Link>
                     <Typography mt={6} variant="body1">

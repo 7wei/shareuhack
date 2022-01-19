@@ -70,7 +70,7 @@ export default function CategoryPage({ category, subCategories }) {
           <Grid spacing={24} container>
             {Categories.filter((el) => el.key !== category.key).map((link, idx) => (
               <Grid item key={idx} xs={12}>
-                <Link href={link.link}>
+                <Link href={link.link} title={t(`categories.${link.key}.title`)} type="nav">
                   <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
                 </Link>
                 <Typography mt={6} variant="body1">

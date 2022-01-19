@@ -7,7 +7,7 @@ export default function BrandLogo({ width }: { width: string | number }) {
   const { locale } = useRouter()
   return (
     <Box width={width} height="100%" position="relative">
-      <Link href="/" locale={locale} title="Shareuhack|Home">
+      <Link href="/" locale={locale} title="Home" type="nav">
         <Box position="relative" height="100%">
           <Image
             title="shareuhack brand logo"

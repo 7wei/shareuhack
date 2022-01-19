@@ -33,7 +33,7 @@ export default function CategorySection({
           {category}
         </Typography>
         {link && (
-          <Link href={link} locale={locale} title={`Shareuhack|${category}`}>
+          <Link href={link} locale={locale} title={t('showAll')} type="nav">
             <Typography variant="h6" fontSize="12px">
               {t('showAll')}
             </Typography>

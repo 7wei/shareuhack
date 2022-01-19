@@ -42,7 +42,7 @@ export default function InfoCard(props: Props) {
       {children}
       {link && linkText && (
         <Box display="flex" justifyContent="flex-end">
-          <Link href={link} locale={locale} color={theme.palette.text.primary}>
+          <Link href={link} locale={locale} color={theme.palette.text.primary} title={linkText} type="nav">
             <Typography variant="h6" color="primary" fontSize={12}>
               {linkText}
             </Typography>

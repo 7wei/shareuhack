@@ -1,6 +1,5 @@
 import { useCallback, useState, useEffect } from 'react'
 import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/material'
-// import { useRouter } from 'next/router'
 import useBreakpint from 'hooks/useBreakpoint'
 import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
@@ -8,12 +7,10 @@ import { Categories, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
-// import LanguageSelector from 'components/LanguageSelector'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
 export default function Header() {
-  // const { locale } = useRouter()
   const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
   const theme = useTheme()
@@ -87,8 +84,9 @@ export default function Header() {
               href={Routes.about}
               onClick={onClick}
               color={theme.palette.primary.contrastText}
-              title={'Shareuhack|About Us'}
+              title={'About'}
               disableUnderline
+              type="nav"
             >
               <Typography variant="body2" color={theme.palette.text.primary}>
                 {t('about')}
@@ -129,8 +127,9 @@ export default function Header() {
                 key={link.key}
                 href={link.link}
                 onClick={onClick}
-                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
+                title={'Category- ' + t(`categories.${link.key}.title`)}
                 disableUnderline
+                type="nav"
               >
                 <Typography variant="body1" color={theme.palette.text.primary}>
                   {t(`categories.${link.key}.title`)}
@@ -141,8 +140,9 @@ export default function Header() {
               href={Routes.about}
               onClick={onClick}
               color={theme.palette.primary.contrastText}
-              title={'Shareuhack|About Us'}
+              title={'About'}
               disableUnderline
+              type="nav"
             >
               <Typography variant="body1" color={theme.palette.text.primary}>
                 {t('about')}

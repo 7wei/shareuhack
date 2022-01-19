@@ -13,7 +13,7 @@ export default function Disclosure() {
   return (
     <Typography textAlign="center" fontSize="14px" mb="48px" color={theme.palette.primary.main}>
       {t('disclosure') + ' '}
-      <Link href={Routes.about} locale={locale}>
+      <Link href={Routes.about} locale={locale} title="About" type="nav">
         --{t('learnMore')}
       </Link>
     </Typography>

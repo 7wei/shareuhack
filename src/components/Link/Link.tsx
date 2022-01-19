@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import NextLink from 'next/link'
 import { Link as MuiLink, useTheme } from '@mui/material'
+import { event } from '../../../lib/gtag'
 
 interface Props {
   href: string
@@ -10,21 +11,32 @@ interface Props {
   color?: string
   locale?: string
   onClick?: () => void
-  title?: string
+  title: string
   disableUnderline?: boolean
   disableHover?: boolean
+  type: 'affiliate' | 'external' | 'internal' | 'nav'
 }
 
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover } = props
+  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover, category } = props
   const theme = useTheme()
+
+  const handleClick = useCallback(() => {
+    onClick
+    event({
+      action: 'click',
+      category: category,
+      label: title,
+      value: Math.floor(Date.now() / 1000),
+    })
+  }, [])
 
   return (
     <NextLink href={href} locale={locale} passHref>
       <MuiLink
         target={target}
         rel={rel}
-        onClick={onClick}
+        onClick={handleClick}
         title={title}
         sx={{
           color: color || theme.palette.primary.main,

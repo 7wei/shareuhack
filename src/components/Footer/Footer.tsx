@@ -61,8 +61,17 @@ export default function Footer() {
             </Typography>
 
             <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
-              <Link href="/about">About Us</Link> | <Link href="/privacy-policy">Privacy Policy</Link> |{' '}
-              <Link href="/terms-and-conditions">Terms and Conditions</Link>
+              <Link href="/about" title="About" type="nav">
+                About Us
+              </Link>{' '}
+              |{' '}
+              <Link href="/privacy-policy" title="Privacy Policy" type="nav">
+                Privacy Policy
+              </Link>{' '}
+              |{' '}
+              <Link href="/terms-and-conditions" title="Terms and Conditions" type="nav">
+                Terms and Conditions
+              </Link>
             </Typography>
           </Box>
         </Box>

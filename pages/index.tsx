@@ -49,7 +49,14 @@ export default function Index({ allPosts, hotPosts, heroPost, categories, locale
           <Box display="flex" gap={16} flexDirection="column" sx={{ wordWrap: 'break-word' }}>
             {allPosts.slice(0, 5).map((post, idx) => (
               <Box key={idx}>
-                <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
+                <Link
+                  key={post.slug}
+                  href={`/posts/${post.slug}`}
+                  locale={locale}
+                  color={theme.palette.text.primary}
+                  title={post.title}
+                  type="internal"
+                >
                   <Typography component="h3" variant="h6" lineHeight={1.2}>
                     {post.title}
                   </Typography>
@@ -69,7 +76,14 @@ export default function Index({ allPosts, hotPosts, heroPost, categories, locale
           <Grid container spacing={24} sx={{ wordWrap: 'break-word' }}>
             {hotPosts.slice(0, 5).map((post, idx) => (
               <Grid key={idx} item xs={12} md={6}>
-                <Link key={post.slug} href={`/posts/${post.slug}`} locale={locale} color={theme.palette.text.primary}>
+                <Link
+                  title={post.title}
+                  key={post.slug}
+                  href={`/posts/${post.slug}`}
+                  locale={locale}
+                  color={theme.palette.text.primary}
+                  type="internal"
+                >
                   <Typography component="h3" variant="h3">
                     {post.title}
                   </Typography>

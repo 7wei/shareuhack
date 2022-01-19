@@ -35,8 +35,9 @@ export default function HeroPost({
         href={`/about`}
         locale={locale}
         color={theme.palette.text.primary}
-        title={'Shareuhack|' + title}
+        title={title}
         disableUnderline
+        type="internal"
       >
         <Typography mt="8px" mb="8px" component="h3" variant="h2">
           {title}

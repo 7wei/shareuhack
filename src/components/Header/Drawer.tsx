@@ -6,7 +6,6 @@ import Link from 'components/Link/Link'
 import Divider from 'components/Divider/Divider'
 import { useRouter } from 'next/router'
 import Socials from 'components/Socials/Socials'
-import { Locales } from '../../../lib/constants'
 
 interface Props {
   open: boolean
@@ -18,23 +17,7 @@ export default function DrawerComponent(props: Props) {
   const { open, onClose, onClick } = props
   const { t } = useTranslation('common')
   const theme = useTheme()
-  const { locale, locales } = useRouter()
-  const router = useRouter()
-
-  const getLocaleData = useCallback(
-    (locale?: string) => {
-      return Locales.find((el) => el.key === locale) || Locales[0]
-    },
-    [locale]
-  )
-
-  // const setLocale = useCallback(
-  //   (locale: string) => {
-  //     document.cookie = `NEXT_LOCALE=${locale}; expires=Fri, 31 Dec 9999 23:59:59 GMT`
-  //     router.push(router.asPath, router.asPath, { locale: locale })
-  //   },
-  //   [locale, router.asPath]
-  // )
+  const { locale } = useRouter()
 
   return (
     <Drawer
@@ -53,14 +36,14 @@ export default function DrawerComponent(props: Props) {
       anchor="right"
     >
       <Box padding="48px 16px" bgcolor={theme.palette.background.default} flexDirection="column">
-        {/* <Box pl="12px" display="flex" flexDirection="column" gap={12}> */}
         <Box mb={24}>
           <Link
             href={Routes.home}
             locale={locale}
             onClick={onClick}
             color={theme.palette.primary.contrastText}
-            title={'Shareuhack|Home'}
+            title={'Home'}
+            type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
               {t('home')}
@@ -77,7 +60,8 @@ export default function DrawerComponent(props: Props) {
               href={link.link}
               onClick={onClick}
               color={theme.palette.primary.contrastText}
-              title={'Shareuhack|' + t(`categories.${link.key}.title`)}
+              title={'Category- ' + t(`categories.${link.key}.title`)}
+              type="nav"
             >
               <Typography variant="body1" color={theme.palette.text.primary}>
                 {t(`categories.${link.key}.title`)}
@@ -86,28 +70,6 @@ export default function DrawerComponent(props: Props) {
           ))}
         </Box>
 
-        {/* <Divider /> */}
-        {/* <Box mt={16} mb={24}> */}
-        {/* <Typography variant="body2" color={theme.palette.text.primary}>
-            {t('selectLocale')}
-          </Typography> */}
-        {/* <Box display="flex" flexDirection="column" alignItems="flex-start" mt={16} gap={14}>
-            {locales?.map((loc) => (
-              <Typography variant="body2" key={loc}>
-                <Link
-                  href={router.asPath}
-                  locale={loc}
-                  onClick={onClick}
-                  color={locale === loc ? theme.palette.primary.main : theme.palette.text.primary}
-                  title={'Shareuhack|' + `${getLocaleData(loc).language}`}
-                  disableUnderline
-                >
-                  {getLocaleData(loc).language}
-                </Link>
-              </Typography>
-            ))}
-          </Box> */}
-        {/* </Box> */}
         <Divider />
         <Box mt={16}>
           <Link
@@ -115,7 +77,8 @@ export default function DrawerComponent(props: Props) {
             locale={locale}
             onClick={onClick}
             color={theme.palette.primary.contrastText}
-            title={'Shareuhack|About Us'}
+            title={'About'}
+            type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
               {t('about')}
@@ -125,7 +88,6 @@ export default function DrawerComponent(props: Props) {
 
         <Socials />
       </Box>
-      {/* </Box> */}
     </Drawer>
   )
 }

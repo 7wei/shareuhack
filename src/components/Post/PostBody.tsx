@@ -1,10 +1,35 @@
 import { Box, useTheme } from '@mui/material'
+import { useEffect } from 'react'
+import { event } from '../../../lib/gtag'
 
 export default function PostBody({ content }: { content: string }) {
   const theme = useTheme()
 
+  useEffect(() => {
+    const postBody = document.getElementById('postBody')
+    const anchors = postBody?.getElementsByTagName('a') || []
+
+    for (var i = 0; i < anchors.length; i++) {
+      anchors[i].addEventListener(
+        'click',
+        function (e) {
+          const target = e.target as HTMLAnchorElement
+
+          event({
+            action: 'click',
+            category: target.rel === 'sponsored' ? 'affiliate' : 'external',
+            label: target.innerText,
+            value: Math.floor(Date.now() / 1000),
+          })
+        },
+        false
+      )
+    }
+  }, [])
+
   return (
     <Box
+      id="postBody"
       sx={{
         '& blockquote': {
           color: theme.palette.text.secondary,
