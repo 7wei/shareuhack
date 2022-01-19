@@ -157,7 +157,7 @@ PMBOK 6和7主要的差別在於：
 
 2. PMI 官方的 PMBOK GUIDE 6： PMI專案管理知識體系的標準，PMI的會員可以免費下載 pdf檔案。
 
-3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g)：Udemy上的Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得35PDUs，可以直接滿足報名PMP考試所需要的基本培訓需求。這位作者會持續的更新最新的PMP相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取PDUs，也對整個知識架構有個概觀。
+3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")：Udemy上的Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得35PDUs，可以直接滿足報名PMP考試所需要的基本培訓需求。這位作者會持續的更新最新的PMP相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取PDUs，也對整個知識架構有個概觀。
 
 4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
 

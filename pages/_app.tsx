@@ -6,6 +6,7 @@ import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 import * as fbq from '../lib/fpixel'
+import { event } from '../lib/gtag'
 
 export function App({ Component, pageProps }) {
   const router = useRouter()
@@ -31,6 +32,27 @@ export function App({ Component, pageProps }) {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
   }, [router.events])
+
+  useEffect(() => {
+    const anchors = document.getElementsByTagName('a')
+
+    for (var i = 0; i < anchors.length; i++) {
+      anchors[i].addEventListener(
+        'click',
+        function (e) {
+          const target = e.target as HTMLAnchorElement
+
+          event({
+            action: 'click',
+            category: target.rel === 'sponsored' ? 'aff' : 'normal',
+            label: target.innerText,
+            value: Math.floor(Date.now() / 1000),
+          })
+        },
+        false
+      )
+    }
+  }, [])
 
   return (
     <React.Fragment>
