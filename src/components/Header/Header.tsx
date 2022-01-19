@@ -1,5 +1,5 @@
 import { useCallback, useState, useEffect } from 'react'
-import { Box, AppBar, Toolbar, IconButton, Typography, useTheme } from '@mui/material'
+import { Box, AppBar, IconButton, Typography, useTheme } from '@mui/material'
 import useBreakpint from 'hooks/useBreakpoint'
 import dynamic from 'next/dynamic'
 import Link from 'components/Link/Link'
@@ -72,8 +72,9 @@ export default function Header() {
                 key={link.key}
                 href={link.link}
                 onClick={onClick}
-                title={'Shareuhack|' + t(`categories.${link.key}.title`)}
+                title={t(`categories.${link.key}.title`)}
                 disableUnderline
+                type="nav"
               >
                 <Typography variant="body2" color={theme.palette.text.primary}>
                   {t(`categories.${link.key}.title`)}
