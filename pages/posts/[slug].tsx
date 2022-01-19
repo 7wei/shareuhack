@@ -21,6 +21,8 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
+import { useEffect } from 'react'
+import { bindTrackingClicks } from '../../src/utils'
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -33,6 +35,10 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
+
+  useEffect(() => {
+    bindTrackingClicks()
+  }, [])
 
   const Shares = () => {
     return (

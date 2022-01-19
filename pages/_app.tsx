@@ -6,10 +6,14 @@ import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 import * as fbq from '../lib/fpixel'
-import { event } from '../lib/gtag'
+import { bindTrackingClicks } from '../src/utils'
 
 export function App({ Component, pageProps }) {
   const router = useRouter()
+
+  useEffect(() => {
+    bindTrackingClicks()
+  }, [])
 
   useEffect(() => {
     // Remove the server-side injected CSS.
