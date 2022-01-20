@@ -27,7 +27,6 @@ export default function Link(props: Props) {
       action: 'click',
       category: type,
       label: title,
-      value: Math.floor(Date.now() / 1000),
     })
   }, [])
 

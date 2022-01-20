@@ -15,7 +15,6 @@ export default function PostBody({ content }: { content: string }) {
         action: 'click',
         category: target.rel === 'sponsored' ? 'affiliate' : 'external',
         label: target.innerText,
-        value: Math.floor(Date.now() / 1000),
       })
     }
     for (var i = 0; i < anchors.length; i++) {
