@@ -5,7 +5,7 @@ import { getPostBySlug, getAllPostPaths, getCategoryPosts, getPostsBySlugs } fro
 import { Grid, Box, styled, useTheme, Typography } from '@mui/material'
 import Link from '../../src/components/Link/Link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { EmailShareButton, FacebookShareButton, TwitterShareButton } from 'react-share'
+import { EmailShareButton, FacebookShareButton, TwitterShareButton, LineShareButton } from 'react-share'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import EmailIcon from '@mui/icons-material/Email'
 import TwitterIcon from '@mui/icons-material/Twitter'
@@ -21,6 +21,7 @@ import Breadcrumbs from '../../src/components/Breadcrumbs/Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
+import Image from 'next/image'
 
 export default function Post({ post, category, subCategory, relatedPosts }) {
   const router = useRouter()
@@ -37,7 +38,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
   const Shares = () => {
     return (
       <Box display="flex" gap="10px" alignItems="center" justifyContent={isDownMd ? 'center' : 'flex-start'}>
-        <EmailShareButton
+        {/* <EmailShareButton
           subject={`Shareuhack: ${post.title}`}
           body={`Shareuhack: ${post.title}`}
           separator=" --- "
@@ -48,7 +49,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           }}
         >
           <EmailIcon fontSize="medium" />
-        </EmailShareButton>
+        </EmailShareButton> */}
         <FacebookShareButton
           url={url}
           style={{
@@ -56,7 +57,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             alignItems: 'center',
           }}
         >
-          <FacebookIcon fontSize="medium" />
+          <Image src="/assets/icons/facebook.png" width="24px" height="24px" />
         </FacebookShareButton>
         <TwitterShareButton
           url={url}
@@ -65,8 +66,17 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             alignItems: 'center',
           }}
         >
-          <TwitterIcon fontSize="medium" />
+          <Image src="/assets/icons/twitter.png" width="24px" height="24px" />
         </TwitterShareButton>
+        <LineShareButton
+          url={url}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
+          <Image src="/assets/icons/line.png" width="24px" height="24px" />
+        </LineShareButton>
       </Box>
     )
   }
