@@ -8,8 +8,6 @@ declare global {
   }
 }
 
-window.instgrm = window.instgrm || {}
-
 export default function PostBody({ content }: { content: string }) {
   const theme = useTheme()
 
@@ -41,6 +39,7 @@ export default function PostBody({ content }: { content: string }) {
   }, [content])
 
   useEffect(() => {
+    window.instgrm = window.instgrm || {}
     window.instgrm.Embeds.process()
   }, [])
 
