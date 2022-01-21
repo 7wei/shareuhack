@@ -22,6 +22,7 @@ import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import { CSSProperties } from '@mui/styles'
+import { useEffect } from 'react'
 
 function LineIcon({ style }: { style?: CSSProperties }) {
   const theme = useTheme()

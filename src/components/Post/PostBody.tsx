@@ -32,6 +32,10 @@ export default function PostBody({ content }: { content: string }) {
     }
   }, [content])
 
+  useEffect(() => {
+    window.instgrm.Embeds.process()
+  }, [])
+
   return (
     <Box
       id="postBody"
