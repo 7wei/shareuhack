@@ -2,12 +2,6 @@ import { Box, useTheme } from '@mui/material'
 import { useEffect } from 'react'
 import { event } from '../../../lib/gtag'
 
-declare global {
-  interface Window {
-    instgrm: any
-  }
-}
-
 export default function PostBody({ content }: { content: string }) {
   const theme = useTheme()
 
@@ -37,11 +31,6 @@ export default function PostBody({ content }: { content: string }) {
       }
     }
   }, [content])
-
-  useEffect(() => {
-    window.instgrm = window.instgrm || {}
-    window.instgrm.Embeds.process()
-  }, [])
 
   return (
     <Box
