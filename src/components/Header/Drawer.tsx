@@ -71,7 +71,7 @@ export default function DrawerComponent(props: Props) {
         </Box>
 
         <Divider />
-        <Box mt={16}>
+        <Box mt={16} mb={8}>
           <Link
             href={Routes.about}
             locale={locale}
@@ -86,7 +86,7 @@ export default function DrawerComponent(props: Props) {
           </Link>
         </Box>
 
-        <Socials />
+        <Socials primary />
       </Box>
     </Drawer>
   )

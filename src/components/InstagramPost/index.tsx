@@ -6,29 +6,8 @@ interface Props {
   maxWidth: string | number
 }
 
-declare global {
-  interface Window {
-    instgrm: any
-    process: any
-  }
-}
-
 export default function InstagramPost(props: Props) {
   const { instagramId, maxWidth } = props
-
-  // useEffect(() => {
-  //   if (window) {
-  //     window.instgrm = window.instgrm || {}
-
-  //     window.onerror = function () {
-  //       return
-  //     }
-  //   }
-
-  //   if (window?.instgrm?.Embeds) {
-  //     window?.instgrm?.Embeds?.process()
-  //   }
-  // }, [])
 
   return (
     <>
