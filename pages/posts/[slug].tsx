@@ -234,7 +234,13 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                         top: 12,
                       }}
                     >
-                      <Link href={post.instagramUrl} title={`Instagram-${post.title}`} type="external" color="#000000">
+                      <Link
+                        href={post.instagramUrl}
+                        title={`Instagram-${post.title}`}
+                        target="_blank"
+                        type="external"
+                        color="#000000"
+                      >
                         <Box width="103px" height="29px" position="relative">
                           <Image src="/assets/icons/instagram.png" layout="fill" />
                         </Box>
