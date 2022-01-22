@@ -22,8 +22,7 @@ import { useTranslation } from 'next-i18next'
 import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import { CSSProperties } from '@mui/styles'
-import { useEffect } from 'react'
-import InstagramPost from '../../src/components/InstagramPost'
+// import InstagramPost from '../../src/components/InstagramPost'
 
 function LineIcon({ style }: { style?: CSSProperties }) {
   const theme = useTheme()
@@ -218,14 +217,14 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </Typography>
                 <Shares />
               </Box>
-              {post.instagramId && (
+              {/* {post.instagramId && (
                 <>
                   <Divider />
                   <Box width="100%" display="flex" justifyContent="center" pt={15}>
                     <InstagramPost instagramId={post.instagramId} maxWidth={isDownMd ? 390 : 300} />
                   </Box>
                 </>
-              )}
+              )} */}
             </Grid>
             <Grid item md={2} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
               <Divider primary />
