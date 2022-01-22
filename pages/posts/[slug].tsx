@@ -23,6 +23,9 @@ import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import { CSSProperties } from '@mui/styles'
 // import InstagramPost from '../../src/components/InstagramPost'
+import Carousel from '../../src/components/Carousel'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import Image from 'next/image'
 
 function LineIcon({ style }: { style?: CSSProperties }) {
   const theme = useTheme()
@@ -211,12 +214,56 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             </Grid>
             <Grid item md={8} xs={12}>
               <PostBody content={post.content} />
+              {post.slideUrls && post.slideUrls.length > 0 && (
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    mt: 30,
+                    mb: 30,
+                    position: 'relative',
+                  }}
+                >
+                  {post.instagramUrl && (
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        zIndex: 1,
+                        top: 12,
+                      }}
+                    >
+                      <Link href={post.instagramUrl} title={`Instagram-${post.title}`} type="external" color="#000000">
+                        <Box width="103px" height="29px" position="relative">
+                          <Image src="/assets/icons/instagram.png" layout="fill" />
+                        </Box>
+                      </Link>
+                    </Box>
+                  )}
+                  <Carousel urls={post.slideUrls} size={isDownMd ? 360 : 480} />
+                  <Link
+                    href={post.instagramUrl}
+                    title={`Instagram-${post.title}`}
+                    type="external"
+                    color="#000000"
+                    disableUnderline
+                  >
+                    <Box display="flex" alignItems="center" gap={6}>
+                      <Typography>View on</Typography>
+                      <InstagramIcon />
+                    </Box>
+                  </Link>
+                </Box>
+              )}
+
               <Box display="flex" alignItems="center" gap={15}>
                 <Typography variant="body1" mt="15px" mb="10px">
                   {t('sharePost')}
                 </Typography>
                 <Shares />
               </Box>
+
               {/* {post.instagramId && (
                 <>
                   <Divider />
@@ -340,7 +387,8 @@ export async function getStaticProps({ params, locale }) {
       'about',
       'faqs',
       'related',
-      'instagramId',
+      'slideUrls',
+      'instagramUrl',
     ],
     locale
   )

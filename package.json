@@ -14,6 +14,7 @@
     "@mui/styles": "^5.2.3",
     "date-fns": "2.16.1",
     "disqus-react": "^1.1.1",
+    "embla-carousel-react": "^6.1.1",
     "gray-matter": "4.0.2",
     "next": "latest",
     "next-i18next": "^8.5.5",

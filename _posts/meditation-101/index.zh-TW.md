@@ -49,6 +49,8 @@ about: '正念, 冥想, 冥想入門'
 faqs:
   []
 instagramId: 'CYwsC33hI30'
+slideUrls: ['/assets/slides/meditation-101/1.png', '/assets/slides/meditation-101/2.png', '/assets/slides/meditation-101/3.png', '/assets/slides/meditation-101/4.png', '/assets/slides/meditation-101/5.png', '/assets/slides/meditation-101/6.png']
+instagramUrl: 'https://www.instagram.com/p/CYwsC33hI30/'
 ---
 
 「冥想」簡單來說就像是「腦內大掃除」，是一種集中精神卻能達到放鬆心靈的過程，同時清除大腦裡的雜質、也讓煩躁的心回歸平靜。這篇文章提供初學者五個指引，教你如何成功的進行冥想，並進一步體會其帶來的改變！
