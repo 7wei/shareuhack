@@ -23,6 +23,7 @@ import PostPreview from '../../src/components/Post/PostPreview'
 import CommonStructuredData from '../../src/components/CommonStructuredData'
 import { CSSProperties } from '@mui/styles'
 import { useEffect } from 'react'
+import InstagramPost from '../../src/components/InstagramPost'
 
 function LineIcon({ style }: { style?: CSSProperties }) {
   const theme = useTheme()
@@ -190,6 +191,8 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             width={isDownMd ? 330 : 1200}
             priority
           />
+
+          <InstagramPost instagramId={'CYwsC33hI30'} />
 
           <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 }, mb: 30 }}>
             <Grid item md={2} xs={12}>

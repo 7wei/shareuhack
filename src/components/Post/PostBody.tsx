@@ -33,52 +33,54 @@ export default function PostBody({ content }: { content: string }) {
   }, [content])
 
   return (
-    <Box
-      id="postBody"
-      sx={{
-        '& blockquote': {
-          color: theme.palette.text.secondary,
-          borderLeft: `3px solid ${theme.palette.text.secondary}`,
-          paddingLeft: 9,
-          margin: 0,
-        },
-        '& p': {
-          fontSize: 18,
-          lineHeight: '26px',
-          opacity: 0.9,
-        },
-        '& h3': {
-          fontSize: 18,
-          lineHeight: '26px',
-          opacity: 0.9,
-        },
-        '& * a': {
-          color: theme.palette.text.primary,
-          fontWeight: 400,
-          textDecoration: 'underline',
-        },
-        '& * a:hover': {
-          color: theme.palette.primary.main,
-        },
-        '& hr': {
-          width: '60%',
-          height: 3,
-          backgroundColor: theme.palette.text.secondary,
-          border: 'none',
-          margin: '50px auto',
-        },
-        '& p img': {
-          width: '100%',
-        },
-        '& ul,ol': {
-          margin: 0,
-          paddingLeft: 18,
-          fontSize: 18,
-          lineHeight: '26px',
-          opacity: 0.9,
-        },
-      }}
-      dangerouslySetInnerHTML={{ __html: content }}
-    />
+    <>
+      <Box
+        id="postBody"
+        sx={{
+          '& blockquote': {
+            color: theme.palette.text.secondary,
+            borderLeft: `3px solid ${theme.palette.text.secondary}`,
+            paddingLeft: 9,
+            margin: 0,
+          },
+          '& p': {
+            fontSize: 18,
+            lineHeight: '26px',
+            opacity: 0.9,
+          },
+          '& h3': {
+            fontSize: 18,
+            lineHeight: '26px',
+            opacity: 0.9,
+          },
+          '& * a': {
+            color: theme.palette.text.primary,
+            fontWeight: 400,
+            textDecoration: 'underline',
+          },
+          '& * a:hover': {
+            color: theme.palette.primary.main,
+          },
+          '& hr': {
+            width: '60%',
+            height: 3,
+            backgroundColor: theme.palette.text.secondary,
+            border: 'none',
+            margin: '50px auto',
+          },
+          '& p img': {
+            width: '100%',
+          },
+          '& ul,ol': {
+            margin: 0,
+            paddingLeft: 18,
+            fontSize: 18,
+            lineHeight: '26px',
+            opacity: 0.9,
+          },
+        }}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+    </>
   )
 }
