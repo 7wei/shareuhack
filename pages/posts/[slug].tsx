@@ -256,7 +256,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                     color="#000000"
                     disableUnderline
                   >
-                    <Box display="flex" alignItems="center" gap={6}>
+                    <Box display="flex" alignItems="center" gap={6} mt={3}>
                       <Typography>View on</Typography>
                       <InstagramIcon />
                     </Box>
