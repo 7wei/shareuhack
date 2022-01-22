@@ -245,6 +245,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   <Link
                     href={post.instagramUrl}
                     title={`Instagram-${post.title}`}
+                    target="_blank"
                     type="external"
                     color="#000000"
                     disableUnderline
