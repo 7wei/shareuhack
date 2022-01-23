@@ -45,16 +45,18 @@ export default function Footer() {
           </Typography>
         </Box>
         <Box
-          mt={48}
+          mt={24}
           display="flex"
           flexDirection={isDownMd ? 'column' : 'row'}
           justifyContent={isDownMd ? 'space-between' : 'space-between'}
           alignItems="center"
+          gap={24}
         >
-          <Box display="flex" gap="12px">
+          {/* <Box display="flex" gap="12px">
             <Typography variant="body1">Let's chat at</Typography>
-            <Socials primary />
-          </Box>
+
+          </Box> */}
+          <Socials primary />
           <Box>
             <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
               {t('footer.copyright')}
