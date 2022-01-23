@@ -25,7 +25,7 @@ Shareuhack 是一個持續成長型的專案，我們會竭盡所能的確保Sha
 3. 我們會收集和各領域專家訪談所得到的回饋和資料，以確保資料的正確性。
 4. 我們會定期審核舊有的文章內容，並做適當的更新，確保與最新的事實符合
 
-## 瞭解更多關於 Shareuhack
+## 瞭解更多關於Shareuhack
 
 我們會不定期分享一些文章來紀錄這個Project的成長：
 
@@ -35,7 +35,7 @@ Shareuhack 是一個持續成長型的專案，我們會竭盡所能的確保Sha
 
 ## 歡迎來玩
 
-你可以再社群媒體聯絡到我們，有任何建議或問題也歡迎直接寄信至[c@shareuhack.com](mailto:c@shareuhack.com)，我們一定會在一天內回覆。
+你可以再社群媒體聯絡到我們，有任何建議或問題也歡迎直接寄信至[c@shareuhack.com](mailto:c@shareuhack.com)，我們通常會在一天內回覆。
 
 1. [Facebook](https://www.facebook.com/shareuhack/)
 
