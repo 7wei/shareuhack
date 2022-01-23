@@ -20,7 +20,7 @@ Shareuhack 是一個持續成長型的專案，我們會竭盡所能的確保Sha
 
 ## 內容方針
 
-目前Shareuhack的文章內容，會以團隊善擅長的、有經驗的以及有興趣的主題為主，確保我們可以更主動、積極的去提供有價值的內容，以下為目前Shareuhack的心智圖：
+Shareuhack的文章內容，會以團隊善擅長的、有經驗的以及有興趣的主題為主，確保我們可以更主動、積極的去提供有價值的內容，以下為目前Shareuhack的心智圖：
 
 ![shareuhack-mind-chart](/assets/images/shareuhack-mind.png)
 
