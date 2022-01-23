@@ -35,7 +35,7 @@ Shareuhack 是一個持續成長型的專案，我們會竭盡所能的確保Sha
 
 ## 歡迎來玩
 
-你可以再社群媒體聯絡到我們，有任何建議或問題也歡迎直接寄信至[c@shareuhack.com](mailto:c@shareuhack.com)，我們通常會在一天內回覆。
+你可以在社群媒體聯絡到我們，有任何建議或問題也歡迎直接寄信至[c@shareuhack.com](mailto:c@shareuhack.com)，我們通常會在一天內回覆。
 
 1. [Facebook](https://www.facebook.com/shareuhack/)
 
