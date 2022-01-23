@@ -64,7 +64,7 @@ export default function PostBody({ content }: { content: string }) {
           '& hr': {
             width: '60%',
             height: 3,
-            backgroundColor: theme.palette.text.secondary,
+            backgroundColor: 'rgba(0,0,0,0.1)',
             border: 'none',
             margin: '50px auto',
           },

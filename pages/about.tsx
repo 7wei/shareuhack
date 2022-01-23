@@ -43,7 +43,7 @@ export default function About({ about }) {
             sx={{
               display: 'flex',
               justifyContent: 'center',
-              mt: 30,
+              mt: 48,
             }}
           >
             <Button sx={{ fontWeight: 500, fontSize: 18 }} href="/" endIcon={<ArrowForwardIcon fontSize="small" />}>
