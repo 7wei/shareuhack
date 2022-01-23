@@ -17,9 +17,11 @@ export default function About({ about }) {
   return (
     <>
       <Head>
-        <title>{CMS_NAME} | About</title>
+        <title>
+          {CMS_NAME} | {t('about')}
+        </title>
         <meta name="description" content={t('whatWeDoDescript')} />
-        <meta property="og:title" content={'Shareuhack| About Us'} />
+        <meta property="og:title" content={`Shareuhack| ${t('about')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       </Head>
