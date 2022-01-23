@@ -14,6 +14,10 @@ export const getServerSideProps = ({ res }) => {
     <url>
       <loc>https://www.shareuhack.com</loc>
     </url>
+    <url>
+      <loc>https://www.shareuhack.com/about</loc>
+      <lastmod>2022-01-23</lastmod>
+    </url>
     ${Categories.map((category) => {
       return `
         <url>
