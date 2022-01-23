@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Box } from '@mui/material'
-import Image from 'next/image'
+import Image from 'components/Image'
 // import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight'
 // import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft'
 import IconButton from '@mui/material/IconButton'
 
 interface Props {
-  urls: React.ReactNode[]
+  urls: string[]
   size: string | number
 }
 

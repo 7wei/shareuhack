@@ -1,5 +1,5 @@
 import Link from 'components/Link/Link'
-import Image from 'next/image'
+import Image from 'components/Image'
 import { useRouter } from 'next/router'
 import { Box } from '@mui/material'
 

@@ -25,7 +25,7 @@ import { CSSProperties } from '@mui/styles'
 // import InstagramPost from '../../src/components/InstagramPost'
 import Carousel from '../../src/components/Carousel'
 import InstagramIcon from '@mui/icons-material/Instagram'
-import Image from 'next/image'
+import Image from '../../src/components/Image'
 
 function LineIcon({ style }: { style?: CSSProperties }) {
   const theme = useTheme()
@@ -242,7 +242,12 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                         color="#000000"
                       >
                         <Box width="103px" height="29px" position="relative">
-                          <Image src="/assets/icons/instagram.png" layout="fill" />
+                          <Image
+                            src="/assets/icons/instagram.png"
+                            layout="fill"
+                            alt={'instagram-shareuhack'}
+                            title={'instagram-shareuhack'}
+                          />
                         </Box>
                       </Link>
                     </Box>
