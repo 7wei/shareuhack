@@ -49,7 +49,7 @@ about: '正念, 冥想, 冥想入門'
 faqs:
   []
 instagramId: 'CYwsC33hI30'
-slideUrls: ['/assets/slides/meditation-101/1.png', '/assets/slides/meditation-101/2.png', '/assets/slides/meditation-101/3.png', '/assets/slides/meditation-101/4.png', '/assets/slides/meditation-101/5.png', '/assets/slides/meditation-101/6.png']
+slideUrls: ['/assets/slides/meditation-101/meditation-101-1.png', '/assets/slides/meditation-101/meditation-101-2.png', '/assets/slides/meditation-101/meditation-101-3.png', '/assets/slides/meditation-101/meditation-101-4.png', '/assets/slides/meditation-101/meditation-101-5.png', '/assets/slides/meditation-101/meditation-101-6.png']
 instagramUrl: 'https://www.instagram.com/p/CYwsC33hI30/'
 ---
 

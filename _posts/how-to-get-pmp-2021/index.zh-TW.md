@@ -71,6 +71,8 @@ faqs:
       answer: '1. 確認是否夠資格 2. 確認PMI提供的官方考試資訊 3. 成為PMI會員獲取免費PMBOK檔案 4. 透過線上課程獲取必要的35 PDUs 5. 多練習和做模擬試題 6. 詢問已經通過PMP考試的人'
     },
   ]
+slideUrls: ['/assets/slides/how-to-pmp/how-to-pmp-1.png', '/assets/slides/how-to-pmp/how-to-pmp-2.png', '/assets/slides/how-to-pmp/how-to-pmp-3.png', '/assets/slides/how-to-pmp/how-to-pmp-4.png', '/assets/slides/how-to-pmp/how-to-pmp-5.png', '/assets/slides/how-to-pmp/how-to-pmp-6.png']
+instagramUrl: 'https://www.instagram.com/p/CZD8nwglmXk/'
 ---
 
 有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！
