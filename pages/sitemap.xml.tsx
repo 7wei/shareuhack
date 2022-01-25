@@ -3,7 +3,7 @@ import { getAllPosts } from '../lib/api'
 import { Categories } from '../lib/constants'
 
 const Sitemap = () => {}
-export const getServerSideProps = ({ res }) => {
+export const getServerSideProps = async ({ res }) => {
   const posts = getAllPosts(['slug', 'updatedAt', 'coverImage', 'title'], 'zh-TW').sort((post1, post2) =>
     post1.updatedAt > post2.updatedAt ? -1 : 1
   )
