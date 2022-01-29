@@ -14,6 +14,23 @@ declare global {
 export default function BrandLogo({ width }: { width: string | number }) {
   const { locale } = useRouter()
   const isAmp = useAmp()
+
+  if (isAmp) {
+    return (
+      <div style={{ width: width, height: '60px' }}>
+        <a href="/" title="Home">
+          <amp-img
+            title="shareuhack brand logo"
+            src={'/assets/brand/shareuhack2.svg'}
+            alt="shareuhack brand logo"
+            width={width}
+            height={'60px'}
+          />
+        </a>
+      </div>
+    )
+  }
+
   return (
     <Box width={width} height="100%" position="relative">
       <Link href="/" locale={locale} title="Home" type="nav">

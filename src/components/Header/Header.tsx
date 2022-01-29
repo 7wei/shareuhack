@@ -39,9 +39,9 @@ export default function Header() {
   if (isAmp) {
     return (
       <header>
-        <Box height={60} width="100%" display="flex" justifyContent="center">
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', height: '60px' }}>
           <BrandLogo width={isDownMd ? 80 : 100} />
-        </Box>
+        </div>
       </header>
     )
   }

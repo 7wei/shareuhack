@@ -6,11 +6,13 @@ import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 import * as fbq from '../lib/fpixel'
+import { useAmp } from 'next/amp'
 
 export const config = { amp: 'hybrid' }
 
 export function App({ Component, pageProps }) {
   const router = useRouter()
+  const isAmp = useAmp()
 
   useEffect(() => {
     // Remove the server-side injected CSS.
@@ -33,6 +35,14 @@ export function App({ Component, pageProps }) {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
   }, [router.events])
+
+  if (isAmp) {
+    return (
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    )
+  }
 
   return (
     <React.Fragment>
