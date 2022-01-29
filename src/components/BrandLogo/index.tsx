@@ -18,8 +18,14 @@ export default function BrandLogo({ width }: { width: string | number }) {
   if (isAmp) {
     return (
       <div style={{ width: width, height: '60px' }}>
-        <a href="/" title="Home">
-          <amp-img src={'/assets/brand/shareuhack2.svg'} alt="shareuhack brand logo" width={width} height={'60px'} />
+        <a href="/">
+          <amp-img
+            title="shareuhack brand logo"
+            src={'/assets/brand/shareuhack2.svg'}
+            alt="shareuhack brand logo"
+            width={width}
+            height={'60px'}
+          />
         </a>
       </div>
     )
