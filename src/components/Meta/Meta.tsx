@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { FB_PIXEL_ID } from '../../../lib/fpixel'
 
 import { useRouter } from 'next/router'
 
@@ -36,6 +37,40 @@ export default function Meta() {
       <meta property="og:image:alt" content="Shareuhack | Hacks for real life" />
       <meta name="twitter:site" content="@shareuhack" />
       <meta name="twitter:creator" content="@shareuhack" />
+
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', { page_path: window.location.pathname });
+            `,
+        }}
+      />
+
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: 'none' }}
+          src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+        />
+      </noscript>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;700&display=swap"
+        rel="stylesheet"
+      />
+
+      <link rel="icon" href="/favicon.svg" />
+      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="mask-icon" href="/favicon.svg" color="#ffffff" />
+      <meta name="theme-color" content="#ffffff" />
     </Head>
   )
 }

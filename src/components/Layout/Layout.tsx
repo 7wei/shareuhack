@@ -10,12 +10,12 @@ export default function Layout({ children }: { children: JSX.Element }) {
 
   return (
     <>
-      <Meta />
       <Header />
       {isAmp ? (
         <div style={{ padding: '15px' }}>{children}</div>
       ) : (
         <>
+          <Meta />
           <Container maxWidth="lg" sx={{ padding: { xs: '0 15px', md: 0 } }}>
             {children}
           </Container>
