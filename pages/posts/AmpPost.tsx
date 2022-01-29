@@ -32,7 +32,7 @@ export default function AmpPost({ post }: { post: any }) {
           layout={'responsive'}
         />
       )}
-      <div dangerouslySetInnerHTML={{ __html: post.content.slice(0, 500) + '......' }} />
+      <p>{post.excerpt}</p>
 
       <a href={'/posts/' + post.slug}>點此繼續閱讀</a>
     </div>
