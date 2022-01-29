@@ -7,6 +7,14 @@ import { Button, Box } from '@mui/material'
 
 export const config = { amp: 'hybrid' }
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any
+    }
+  }
+}
+
 export default function AmpPost({ post }: { post: any }) {
   const isDownMd = useBreakpoint('md')
   const isAmp = useAmp()

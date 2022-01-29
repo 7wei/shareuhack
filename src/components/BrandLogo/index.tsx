@@ -4,6 +4,13 @@ import { useRouter } from 'next/router'
 import { Box } from '@mui/material'
 import { useAmp } from 'next/amp'
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any
+    }
+  }
+}
 export default function BrandLogo({ width }: { width: string | number }) {
   const { locale } = useRouter()
   const isAmp = useAmp()

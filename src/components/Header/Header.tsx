@@ -40,13 +40,6 @@ export default function Header() {
     return (
       <header>
         <Box height={60} width="100%" display="flex" justifyContent="center">
-          {/* <amp-img
-            title="shareuhack brand logo"
-            src={'/assets/brand/shareuhack2.svg'}
-            alt="shareuhack brand logo"
-            layout="fill"
-            width="80px"
-          /> */}
           <BrandLogo width={isDownMd ? 80 : 100} />
         </Box>
       </header>
