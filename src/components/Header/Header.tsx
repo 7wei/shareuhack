@@ -7,6 +7,7 @@ import { Categories, Routes } from '../../../lib/constants'
 import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
+import { useAmp } from 'next/amp'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
@@ -15,6 +16,7 @@ export default function Header() {
   const [openDrawer, setOpenDrawer] = useState(false)
   const theme = useTheme()
   const { t } = useTranslation('common')
+  const isAmp = useAmp()
 
   const onClick = useCallback(() => {
     setOpenDrawer(false)
@@ -33,6 +35,23 @@ export default function Header() {
       window.removeEventListener('scroll', onScroll)
     }
   }, [])
+
+  if (isAmp) {
+    return (
+      <header>
+        <Box height={60} width="100%" display="flex" justifyContent="center">
+          {/* <amp-img
+            title="shareuhack brand logo"
+            src={'/assets/brand/shareuhack2.svg'}
+            alt="shareuhack brand logo"
+            layout="fill"
+            width="80px"
+          /> */}
+          <BrandLogo width={isDownMd ? 80 : 100} />
+        </Box>
+      </header>
+    )
+  }
 
   return (
     <>

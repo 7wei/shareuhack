@@ -7,6 +7,8 @@ import { useRouter } from 'next/router'
 import Script from 'next/script'
 import * as fbq from '../lib/fpixel'
 
+export const config = { amp: 'hybrid' }
+
 export function App({ Component, pageProps }) {
   const router = useRouter()
 
