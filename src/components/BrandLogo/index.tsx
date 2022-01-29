@@ -35,22 +35,13 @@ export default function BrandLogo({ width }: { width: string | number }) {
     <Box width={width} height="100%" position="relative">
       <Box position="relative" height="100%">
         <Link href="/" locale={locale} title="Home" type="nav">
-          {isAmp ? (
-            <amp-img
-              title="shareuhack brand logo"
-              src={'/assets/brand/shareuhack2.svg'}
-              alt="shareuhack brand logo"
-              layout="fill"
-            />
-          ) : (
-            <Image
-              title="shareuhack brand logo"
-              aria-label="shareuhack brand logo"
-              src={'/assets/brand/shareuhack2.svg'}
-              alt="shareuhack brand logo"
-              layout="fill"
-            />
-          )}
+          <Image
+            title="shareuhack brand logo"
+            aria-label="shareuhack brand logo"
+            src={'/assets/brand/shareuhack2.svg'}
+            alt="shareuhack brand logo"
+            layout="fill"
+          />
         </Link>
       </Box>
     </Box>
