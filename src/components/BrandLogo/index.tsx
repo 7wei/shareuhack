@@ -33,8 +33,8 @@ export default function BrandLogo({ width }: { width: string | number }) {
 
   return (
     <Box width={width} height="100%" position="relative">
-      <Box position="relative" height="100%">
-        <Link href="/" locale={locale} title="Home" type="nav">
+      <Link href="/" locale={locale} title="Home" type="nav">
+        <Box position="relative" height="100%">
           <Image
             title="shareuhack brand logo"
             aria-label="shareuhack brand logo"
@@ -42,8 +42,8 @@ export default function BrandLogo({ width }: { width: string | number }) {
             alt="shareuhack brand logo"
             layout="fill"
           />
-        </Link>
-      </Box>
+        </Box>
+      </Link>
     </Box>
   )
 }
