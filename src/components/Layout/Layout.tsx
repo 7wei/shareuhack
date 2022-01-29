@@ -12,7 +12,10 @@ export default function Layout({ children }: { children: JSX.Element }) {
     <>
       <Header />
       {isAmp ? (
-        <div style={{ padding: '15px' }}>{children}</div>
+        <>
+          <div style={{ padding: '15px' }}>{children}</div>
+          <Footer />
+        </>
       ) : (
         <>
           <Meta />

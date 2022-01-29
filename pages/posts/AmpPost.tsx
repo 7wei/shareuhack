@@ -32,9 +32,7 @@ export default function AmpPost({ post }: { post: any }) {
           layout={'responsive'}
         />
       )}
-      <p>{post.excerpt}</p>
-
-      <a href={'/posts/' + post.slug}>點此繼續閱讀</a>
+      <div dangerouslySetInnerHTML={{ __html: post.ampContent }} />
     </div>
   )
 }

@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../src/components/Post/PostBody'
 import CoverImage from '../../src/components/Image/CoverImage'
-import markdownToHtml from '../../lib/markdownToHtml'
+import markdownToHtml, { markdownToHtmlAmp } from '../../lib/markdownToHtml'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
 import Divider from '../../src/components/Divider/Divider'
@@ -307,6 +307,7 @@ export async function getStaticProps({ params, locale }) {
     locale
   )
   const content = await markdownToHtml(post.content || '')
+  const ampContent = await markdownToHtmlAmp(post.content || '')
   const category = Categories.find((category) => category.key === Category[post.category]) || null
   const subCategory = SubCategories.find((subCategory) => subCategory.key === SubCategory[post.subCategory]) || null
   const categoryPosts = category
@@ -323,6 +324,7 @@ export async function getStaticProps({ params, locale }) {
       post: {
         ...post,
         content,
+        ampContent,
       },
       category,
       subCategory,

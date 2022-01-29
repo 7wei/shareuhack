@@ -13,25 +13,15 @@ export default function Footer() {
 
   if (isAmp) {
     return (
-      <Box pt={45} pb={15}>
-        <Typography variant="body2" textAlign={'center'}>
-          {t('footer.copyright')}
-        </Typography>
-
-        <Typography variant="body2" textAlign={'center'}>
-          <Link href="/about" title="About" type="nav">
-            About Us
-          </Link>{' '}
-          |{' '}
-          <Link href="/privacy-policy" title="Privacy Policy" type="nav">
-            Privacy Policy
-          </Link>{' '}
-          |{' '}
-          <Link href="/terms-and-conditions" title="Terms and Conditions" type="nav">
-            Terms and Conditions
-          </Link>
-        </Typography>
-      </Box>
+      <div
+        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 45, paddingBottom: 15 }}
+      >
+        <p style={{ lineHeight: 1 }}>{t('footer.copyright')}</p>
+        <div>
+          <a href="/about">About Us</a> | <a href="/privacy-policy">Privacy Policy</a> |{' '}
+          <a href="/terms-and-conditions">Terms and Conditions</a>
+        </div>
+      </div>
     )
   }
 
