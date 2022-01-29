@@ -30,7 +30,7 @@ export default function AmpPost({ post }: { post: any }) {
           layout={'responsive'}
         />
       )}
-      <PostBody content={post.content.slice(0, 300)} />
+      <PostBody content={post.content.slice(0, 500) + '......'} />
       <Box
         sx={{
           display: 'flex',
@@ -38,8 +38,8 @@ export default function AmpPost({ post }: { post: any }) {
           mt: 48,
         }}
       >
-        <Button sx={{ fontWeight: 500, fontSize: 18 }} href={process.env.NEXT_PUBLIC_BASE_URL + '/posts/' + post.slug}>
-          繼續閱讀
+        <Button variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href={'/posts/' + post.slug}>
+          點此繼續閱讀
         </Button>
       </Box>
     </>

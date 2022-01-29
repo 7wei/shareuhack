@@ -1,13 +1,39 @@
-import { Box, Typography, useTheme } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import useBreakpoint from 'hooks/useBreakpoint'
 import Socials from 'components/Socials/Socials'
 import Link from 'components/Link/Link'
 import Head from 'next/head'
+import { useAmp } from 'next/amp'
 
 export default function Footer() {
   const { t } = useTranslation('common')
   const isDownMd = useBreakpoint()
+  const isAmp = useAmp()
+
+  if (isAmp) {
+    return (
+      <Box pt={45} pb={15}>
+        <Typography variant="body2" textAlign={'center'}>
+          {t('footer.copyright')}
+        </Typography>
+
+        <Typography variant="body2" textAlign={'center'}>
+          <Link href="/about" title="About" type="nav">
+            About Us
+          </Link>{' '}
+          |{' '}
+          <Link href="/privacy-policy" title="Privacy Policy" type="nav">
+            Privacy Policy
+          </Link>{' '}
+          |{' '}
+          <Link href="/terms-and-conditions" title="Terms and Conditions" type="nav">
+            Terms and Conditions
+          </Link>
+        </Typography>
+      </Box>
+    )
+  }
 
   return (
     <>
@@ -52,10 +78,6 @@ export default function Footer() {
           alignItems="center"
           gap={24}
         >
-          {/* <Box display="flex" gap="12px">
-            <Typography variant="body1">Let's chat at</Typography>
-
-          </Box> */}
           <Socials primary />
           <Box>
             <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
