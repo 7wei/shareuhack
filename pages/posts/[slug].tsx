@@ -34,13 +34,11 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
   const { t } = useTranslation('common')
   const theme = useTheme()
   const isAmp = useAmp()
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/posts/' + post.slug
+  const amphtmlUrl = canonicalUrl + '.amp'
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
-  }
-
-  if (isAmp) {
-    return <AmpPost post={post} />
   }
 
   return (
@@ -65,6 +63,9 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:image" content={post.ogImage.url} />
             <meta property="twitter:image:alt" content={post.title} />
+            <link rel="canonical" href={canonicalUrl} />
+            <link rel="amphtml" href={amphtmlUrl} />
+            <meta property="og:url" content={canonicalUrl} />
 
             <meta property="article:section" content={t(`categories.${category?.key}.title`)} />
             {post.keywords &&
@@ -75,202 +76,214 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           </Head>
           <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
 
-          {category && subCategory && (
-            <Breadcrumbs>
-              <Link href={category?.link} locale={locale} title={t(`categories.${category?.key}.title`)} type="nav">
-                {t(`categories.${category?.key}.title`)}
-              </Link>
-              <Link
-                href={subCategory?.link}
-                locale={locale}
-                title={t(`subCategories.${subCategory?.key}.title`)}
-                type="nav"
-              >
-                {t(`subCategories.${subCategory?.key}.title`)}
-              </Link>
-            </Breadcrumbs>
-          )}
-          <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
-            {post.title}
-          </Typography>
-          <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
-            Updated at {formattedDate(post.updatedAt)}
-          </Typography>
-          <CoverImage
-            title={post.title}
-            alt={post.excerpt}
-            src={post.coverImage}
-            height={isDownMd ? 172 : 627}
-            width={isDownMd ? 330 : 1200}
-            priority
-          />
-
-          <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 }, mb: 30 }}>
-            <Grid item md={2} xs={12}>
-              {post.credentials && post.credentials.length > 0 && (
-                <>
-                  <Divider primary />
-                  <InfoCard title={t('beforewriting')}>
-                    <ol>
-                      {post.credentials?.map((credential, idx) => (
-                        <li key={idx}>
-                          <Typography variant="body1">{credential}</Typography>
-                        </li>
-                      ))}
-                    </ol>
-                  </InfoCard>
-                </>
+          {isAmp ? (
+            <AmpPost post={post} />
+          ) : (
+            <>
+              {category && subCategory && (
+                <Breadcrumbs>
+                  <Link href={category?.link} locale={locale} title={t(`categories.${category?.key}.title`)} type="nav">
+                    {t(`categories.${category?.key}.title`)}
+                  </Link>
+                  <Link
+                    href={subCategory?.link}
+                    locale={locale}
+                    title={t(`subCategories.${subCategory?.key}.title`)}
+                    type="nav"
+                  >
+                    {t(`subCategories.${subCategory?.key}.title`)}
+                  </Link>
+                </Breadcrumbs>
               )}
-              <Shares emailSubject={`Shareuhack: ${post.title}`} emailBody={`Shareuhack: ${post.title}`} url={url} />
-            </Grid>
-            <Grid item md={8} xs={12}>
-              <PostBody content={post.content} />
-              {post.slideUrls && post.slideUrls.length > 0 && (
-                <Box
-                  sx={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    mt: 30,
-                    mb: 30,
-                    position: 'relative',
-                  }}
-                >
-                  {post.instagramUrl && (
+              <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
+                {post.title}
+              </Typography>
+              <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
+                Updated at {formattedDate(post.updatedAt)}
+              </Typography>
+              <CoverImage
+                title={post.title}
+                alt={post.excerpt}
+                src={post.coverImage}
+                height={isDownMd ? 172 : 627}
+                width={isDownMd ? 330 : 1200}
+                priority
+              />
+              <Grid spacing={isDownMd ? 15 : 30} container sx={{ mt: { xs: 0, md: 30 }, mb: 30 }}>
+                <Grid item md={2} xs={12}>
+                  {post.credentials && post.credentials.length > 0 && (
+                    <>
+                      <Divider primary />
+                      <InfoCard title={t('beforewriting')}>
+                        <ol>
+                          {post.credentials?.map((credential, idx) => (
+                            <li key={idx}>
+                              <Typography variant="body1">{credential}</Typography>
+                            </li>
+                          ))}
+                        </ol>
+                      </InfoCard>
+                    </>
+                  )}
+                  <Shares
+                    emailSubject={`Shareuhack: ${post.title}`}
+                    emailBody={`Shareuhack: ${post.title}`}
+                    url={url}
+                  />
+                </Grid>
+                <Grid item md={8} xs={12}>
+                  <PostBody content={post.content} />
+                  {post.slideUrls && post.slideUrls.length > 0 && (
                     <Box
                       sx={{
-                        position: 'absolute',
-                        zIndex: 1,
-                        top: 12,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        mt: 30,
+                        mb: 30,
+                        position: 'relative',
                       }}
                     >
+                      {post.instagramUrl && (
+                        <Box
+                          sx={{
+                            position: 'absolute',
+                            zIndex: 1,
+                            top: 12,
+                          }}
+                        >
+                          <Link
+                            href={post.instagramUrl}
+                            title={`Instagram-${post.title}`}
+                            target="_blank"
+                            type="external"
+                            color="#000000"
+                          >
+                            <Box width="103px" height="29px" position="relative">
+                              <Image
+                                src="/assets/icons/instagram.png"
+                                layout="fill"
+                                alt={'instagram-shareuhack'}
+                                title={'instagram-shareuhack'}
+                              />
+                            </Box>
+                          </Link>
+                        </Box>
+                      )}
+                      <Carousel urls={post.slideUrls} size={isDownMd ? 360 : 480} />
                       <Link
                         href={post.instagramUrl}
                         title={`Instagram-${post.title}`}
                         target="_blank"
                         type="external"
                         color="#000000"
+                        disableUnderline
                       >
-                        <Box width="103px" height="29px" position="relative">
-                          <Image
-                            src="/assets/icons/instagram.png"
-                            layout="fill"
-                            alt={'instagram-shareuhack'}
-                            title={'instagram-shareuhack'}
-                          />
+                        <Box display="flex" alignItems="center" gap={6} mt={3}>
+                          <Typography>View on</Typography>
+                          <InstagramIcon />
                         </Box>
                       </Link>
                     </Box>
                   )}
-                  <Carousel urls={post.slideUrls} size={isDownMd ? 360 : 480} />
-                  <Link
-                    href={post.instagramUrl}
-                    title={`Instagram-${post.title}`}
-                    target="_blank"
-                    type="external"
-                    color="#000000"
-                    disableUnderline
-                  >
-                    <Box display="flex" alignItems="center" gap={6} mt={3}>
-                      <Typography>View on</Typography>
-                      <InstagramIcon />
-                    </Box>
-                  </Link>
-                </Box>
-              )}
 
-              <Box display="flex" alignItems="center" gap={15}>
-                <Typography variant="body1" mt="15px" mb="10px">
-                  {t('sharePost')}
-                </Typography>
-                <Shares emailSubject={`Shareuhack: ${post.title}`} emailBody={`Shareuhack: ${post.title}`} url={url} />
-              </Box>
-            </Grid>
-            <Grid item md={2} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
-              <Divider primary />
-              {post.recommendations && post.recommendations.length > 0 && (
-                <InfoCard title={t('Recommendations')}>
-                  <ol>
-                    {post.recommendations?.map((recommendation, idx) => (
-                      <li key={idx}>
-                        <Link
-                          href={recommendation.link}
-                          target="_blank"
-                          rel="sponsored"
-                          color={theme.palette.text.primary}
-                          title={recommendation.title}
-                          type="affiliate"
-                        >
-                          <Typography variant="body1" mb={12}>
-                            [{recommendation.src}] {recommendation.title}
-                          </Typography>
-                        </Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
-              )}
-              {post.references && post.references.length > 0 && (
-                <InfoCard title={t('References')}>
-                  <ol>
-                    {post.references?.map((reference, idx) => (
-                      <li key={idx}>
-                        <Link
-                          href={reference.link}
-                          target="_blank"
-                          // rel="nofollow noopener noreferrer"
-                          color={theme.palette.text.primary}
-                          title={reference.title}
-                          type="external"
-                        >
-                          <Typography variant="body1" mb={12}>
-                            {reference.title}
-                          </Typography>
-                        </Link>
-                      </li>
-                    ))}
-                  </ol>
-                </InfoCard>
-              )}
-            </Grid>
-          </Grid>
-
-          <Divider primary />
-          <Grid container spacing={30}>
-            <Grid item xs={12} md={9}>
-              {/* <Divider primary /> */}
-
-              <Typography mb="15px" variant="h6" mt={30}>
-                Related hacks
-              </Typography>
-              <Grid spacing={30} container>
-                {relatedPosts.map((post) => (
-                  <Grid key={post.title} item xs={12} sm={4}>
-                    <PostPreview {...post} simple />
-                  </Grid>
-                ))}
-              </Grid>
-            </Grid>
-            <Grid item xs={12} md={3}>
-              {/* <Divider primary /> */}
-              <Typography mb="15px" variant="h6" mt={30}>
-                Discover More
-              </Typography>
-              <Grid spacing={24} container>
-                {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
-                  <Grid item key={idx} xs={12}>
-                    <Link href={link.link} title={t(`categories.${link.key}.title`)} type="nav">
-                      <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
-                    </Link>
-                    <Typography mt={6} variant="body1">
-                      {t(`categories.${link.key}.description`)}
+                  <Box display="flex" alignItems="center" gap={15}>
+                    <Typography variant="body1" mt="15px" mb="10px">
+                      {t('sharePost')}
                     </Typography>
-                  </Grid>
-                ))}
+                    <Shares
+                      emailSubject={`Shareuhack: ${post.title}`}
+                      emailBody={`Shareuhack: ${post.title}`}
+                      url={url}
+                    />
+                  </Box>
+                </Grid>
+                <Grid item md={2} xs={12} display="flex" flexDirection="column" justifyContent="flex-end">
+                  <Divider primary />
+                  {post.recommendations && post.recommendations.length > 0 && (
+                    <InfoCard title={t('Recommendations')}>
+                      <ol>
+                        {post.recommendations?.map((recommendation, idx) => (
+                          <li key={idx}>
+                            <Link
+                              href={recommendation.link}
+                              target="_blank"
+                              rel="sponsored"
+                              color={theme.palette.text.primary}
+                              title={recommendation.title}
+                              type="affiliate"
+                            >
+                              <Typography variant="body1" mb={12}>
+                                [{recommendation.src}] {recommendation.title}
+                              </Typography>
+                            </Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </InfoCard>
+                  )}
+                  {post.references && post.references.length > 0 && (
+                    <InfoCard title={t('References')}>
+                      <ol>
+                        {post.references?.map((reference, idx) => (
+                          <li key={idx}>
+                            <Link
+                              href={reference.link}
+                              target="_blank"
+                              // rel="nofollow noopener noreferrer"
+                              color={theme.palette.text.primary}
+                              title={reference.title}
+                              type="external"
+                            >
+                              <Typography variant="body1" mb={12}>
+                                {reference.title}
+                              </Typography>
+                            </Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </InfoCard>
+                  )}
+                </Grid>
               </Grid>
-            </Grid>
-          </Grid>
+              <Divider primary />
+              <Grid container spacing={30}>
+                <Grid item xs={12} md={9}>
+                  {/* <Divider primary /> */}
+
+                  <Typography mb="15px" variant="h6" mt={30}>
+                    Related hacks
+                  </Typography>
+                  <Grid spacing={30} container>
+                    {relatedPosts.map((post) => (
+                      <Grid key={post.title} item xs={12} sm={4}>
+                        <PostPreview {...post} simple />
+                      </Grid>
+                    ))}
+                  </Grid>
+                </Grid>
+                <Grid item xs={12} md={3}>
+                  {/* <Divider primary /> */}
+                  <Typography mb="15px" variant="h6" mt={30}>
+                    Discover More
+                  </Typography>
+                  <Grid spacing={24} container>
+                    {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
+                      <Grid item key={idx} xs={12}>
+                        <Link href={link.link} title={t(`categories.${link.key}.title`)} type="nav">
+                          <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
+                        </Link>
+                        <Typography mt={6} variant="body1">
+                          {t(`categories.${link.key}.description`)}
+                        </Typography>
+                      </Grid>
+                    ))}
+                  </Grid>
+                </Grid>
+              </Grid>
+            </>
+          )}
         </>
       )}
     </>

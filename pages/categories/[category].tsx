@@ -11,8 +11,8 @@ import Divider from '../../src/components/Divider/Divider'
 import { useTranslation } from 'next-i18next'
 
 export default function CategoryPage({ category, subCategories }) {
-  const matches = useBreakpoint()
   const { t } = useTranslation('common')
+  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + '/categories/' + category.key
 
   const getSubCategoryStr = () =>
     subCategories.map((subCategory) => t(`subCategories.${subCategory.key}.title`)).join(', ')
@@ -33,6 +33,9 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:image" content={HOME_OG_IMAGE_URL} />
         <meta property="twitter:image:alt" content={t(`categories.${category.key}.description`)} />
+        <link rel="canonical" href={canonicalUrl} />
+        {/* <link rel="amphtml" href={amphtmlUrl} /> */}
+        <meta property="og:url" content={canonicalUrl} />
       </Head>
       {/* <Disclosure /> */}
       <Grid container spacing={30} pt={15}>

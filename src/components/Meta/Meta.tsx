@@ -7,13 +7,13 @@ const indexWhiteList = ['zh-TW', 'zh-CN']
 
 export default function Meta() {
   const { locale, locales, asPath } = useRouter()
-  const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + asPath
+  // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + asPath
 
   return (
     <Head>
       {locale && !indexWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
 
-      {locales
+      {/* {locales
         ?.filter((el) => el !== 'zh-TW')
         .map((locale) => (
           <link
@@ -22,18 +22,18 @@ export default function Meta() {
             hrefLang={locale}
             href={process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
           />
-        ))}
+        ))} */}
 
-      <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
-      <link rel="canonical" href={canonicalUrl} />
+      {/* <link rel="alternate" hrefLang="x-default" href={canonicalUrl} /> */}
+      {/* <link rel="canonical" href={canonicalUrl} /> */}
       <meta name="facebook-domain-verification" content="dceupnte0sxdva9be8z49eqypav2kr" />
       <meta property="article:publisher" content="https://www.facebook.com/shareuhack" />
       <meta property="og:site_name" content="Shareuhack | Hacks for real life" />
       <meta property="og:locale" content={locale} />
-      <meta
+      {/* <meta
         property="og:url"
         content={locale === 'zh-TW' ? canonicalUrl : process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
-      />
+      /> */}
       <meta property="og:image:alt" content="Shareuhack | Hacks for real life" />
       <meta name="twitter:site" content="@shareuhack" />
       <meta name="twitter:creator" content="@shareuhack" />
