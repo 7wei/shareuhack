@@ -39,7 +39,14 @@ export default function Header() {
   if (isAmp) {
     return (
       <header>
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', height: '60px' }}>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            width: '100%',
+            height: '60px',
+          }}
+        >
           <BrandLogo width={isDownMd ? 80 : 100} />
         </div>
       </header>

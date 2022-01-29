@@ -20,7 +20,7 @@ export default function AmpPost({ post }: { post: any }) {
   }
 
   return (
-    <>
+    <div style={{ maxWidth: '1040px', margin: '0 auto' }}>
       <h1>{post.title}</h1>
       {isAmp && (
         <amp-img
@@ -35,6 +35,6 @@ export default function AmpPost({ post }: { post: any }) {
       <div dangerouslySetInnerHTML={{ __html: post.content.slice(0, 500) + '......' }} />
 
       <a href={'/posts/' + post.slug}>點此繼續閱讀</a>
-    </>
+    </div>
   )
 }
