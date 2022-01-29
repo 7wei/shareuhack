@@ -8,15 +8,12 @@ import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
 import { useAmp } from 'next/amp'
-import { height } from '@mui/system'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
 export default function Header() {
   const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
-  // const theme = useTheme()
-  // const { t } = useTranslation('common')
   const isAmp = useAmp()
 
   const onClick = useCallback(() => {
