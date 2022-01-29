@@ -56,14 +56,12 @@ export default function Meta() {
           type="application/json"
           dangerouslySetInnerHTML={{
             __html: `
-              {
-                "vars": {
-                  "gtag_id": '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',
-                  "config" : {
-                    '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}': { "groups": "default" }
-                  }
-                }
+            "vars": {
+              "gtag_id": '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',
+              "config" : {
+                '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}': { "groups": "default" }
               }
+            }
           `,
           }}
         />
