@@ -108,7 +108,7 @@ export default function CommonStructuredData(props: Props) {
   }, [post, category, subCategory, locale])
 
   const structuredDataFaq = useMemo(() => {
-    if (!post?.faqs) {
+    if (!post?.faqs || post?.faqs.length === 0) {
       return null
     }
 
