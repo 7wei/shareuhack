@@ -33,8 +33,8 @@ export default function BrandLogo({ width }: { width: string | number }) {
 
   return (
     <Box width={width} height="100%" position="relative">
-      <Link href="/" locale={locale} title="Home" type="nav">
-        <Box position="relative" height="100%">
+      <Box position="relative" height="100%">
+        <Link href="/" locale={locale} title="Home" type="nav">
           {isAmp ? (
             <amp-img
               title="shareuhack brand logo"
@@ -51,8 +51,8 @@ export default function BrandLogo({ width }: { width: string | number }) {
               layout="fill"
             />
           )}
-        </Box>
-      </Link>
+        </Link>
+      </Box>
     </Box>
   )
 }
