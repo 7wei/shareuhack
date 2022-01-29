@@ -50,23 +50,6 @@ export default function Meta() {
         }}
       />
 
-      <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-      <amp-analytics type="gtag" data-credentials="include">
-        <script
-          type="application/json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              vars: {
-                gtag_id: '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',
-                config: {
-                  '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}': { groups: 'default' },
-                },
-              },
-            }),
-          }}
-        ></script>
-      </amp-analytics>
-
       <noscript>
         <img
           height="1"
