@@ -1,9 +1,5 @@
 import { useAmp } from 'next/amp'
-import { Typography, useTheme } from '@mui/material'
-import { formattedDate } from '../../src/utils'
 import useBreakpoint from '../../src/hooks/useBreakpoint'
-import PostBody from '../../src/components/Post/PostBody'
-import { Button, Box } from '@mui/material'
 
 export const config = { amp: 'hybrid' }
 
@@ -18,7 +14,6 @@ declare global {
 export default function AmpPost({ post }: { post: any }) {
   const isDownMd = useBreakpoint('md')
   const isAmp = useAmp()
-  const theme = useTheme()
 
   if (!post) {
     return null
@@ -26,12 +21,7 @@ export default function AmpPost({ post }: { post: any }) {
 
   return (
     <>
-      <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
-        {post.title}
-      </Typography>
-      <Typography color={theme.palette.text.secondary} mt="15px" mb="15px">
-        Updated at {formattedDate(post.updatedAt)}
-      </Typography>
+      <h1>{post.title}</h1>
       {isAmp && (
         <amp-img
           title={post.title}
@@ -42,18 +32,9 @@ export default function AmpPost({ post }: { post: any }) {
           layout={'responsive'}
         />
       )}
-      <PostBody content={post.content.slice(0, 500) + '......'} />
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          mt: 48,
-        }}
-      >
-        <Button variant="contained" sx={{ fontWeight: 500, fontSize: 18 }} href={'/posts/' + post.slug}>
-          點此繼續閱讀
-        </Button>
-      </Box>
+      <div dangerouslySetInnerHTML={{ __html: post.content.slice(0, 500) + '......' }} />
+
+      <a href={'/posts/' + post.slug}>點此繼續閱讀</a>
     </>
   )
 }
