@@ -20,6 +20,10 @@ export default function AmpPost({ post }: { post: any }) {
   const isAmp = useAmp()
   const theme = useTheme()
 
+  if (!post) {
+    return null
+  }
+
   return (
     <>
       <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
