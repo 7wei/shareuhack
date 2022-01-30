@@ -74,7 +74,7 @@ export default function Index({ allPosts, hotPosts, heroPost, categories, locale
             {t('hottest')}
           </Typography>
           <Grid container spacing={24} sx={{ wordWrap: 'break-word' }}>
-            {hotPosts.slice(0, 5).map((post, idx) => (
+            {hotPosts.slice(0, 6).map((post, idx) => (
               <Grid key={idx} item xs={12} md={6}>
                 <Link
                   title={post.title}
