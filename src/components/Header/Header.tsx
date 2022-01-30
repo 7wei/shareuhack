@@ -108,6 +108,7 @@ export default function Header() {
           openDrawer={openDrawer}
           height={32}
           navs={navs}
+          shadow
         />
       )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
@@ -122,12 +123,14 @@ function StyledAppBar({
   showLinks,
   sticky,
   navs,
+  shadow,
 }: {
   onClick: () => void
   height?: number
   openDrawer: boolean
   showLinks?: boolean
   sticky?: boolean
+  shadow?: boolean
   navs?: { key: string; title: string; url: string }[]
 }) {
   const theme = useTheme()
@@ -142,7 +145,7 @@ function StyledAppBar({
         flexDirection: 'row',
         justifyContent: 'center',
         background: theme.palette.background.default,
-        boxShadow: 'none',
+        boxShadow: shadow ? '0 0 5px 1px rgb(0 0 0 / 28%)' : 'none',
         height: {
           xs: height ?? theme.height.mobileHeader,
           md: height ?? theme.height.header,
