@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Grid, Box, Typography, useTheme } from '@mui/material'
 import { getAllPosts, getPostBySlug, getPostsBySlugs, getCategoryPosts, getHotPosts, getAbout } from '../lib/api'
-import { CMS_NAME, Categories, HOME_OG_IMAGE_URL, Routes } from '../lib/constants'
+import { CMS_NAME, Categories, OG_IMAGE_URL, Routes } from '../lib/constants'
 import Divider from '../src/components/Divider/Divider'
 import { formattedDate } from '../src/utils/index'
 import HeroPost from '../src/components/Post/HeroPost'
@@ -27,7 +27,7 @@ export default function Index({ allPosts, hotPosts, heroPost, categories, locale
           {CMS_NAME} | {t('pageTitle')}
         </title>
         <meta name="description" content={t('whatWeDoDescript')} />
-        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME}|${t('pageTitle')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />

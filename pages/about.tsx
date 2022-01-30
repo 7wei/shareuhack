@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import PostBody from '../src/components/Post/PostBody'
 import { getAbout } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
 import { Button, Box, Grid } from '@mui/material'
 import CoverImage from '../src/components/Image/CoverImage'
@@ -23,7 +23,7 @@ export default function About({ about }) {
         <meta name="description" content={t('whatWeDoDescript')} />
         <meta property="og:title" content={`Shareuhack| ${t('about')}`} />
         <meta property="og:description" content={t('whatWeDoDescript')} />
-        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
       </Head>
       <Grid container justifyContent="center">
         <Grid xs={12} md={8} item>

@@ -1,15 +1,13 @@
 export const CMS_NAME = 'Shareuhack'
-export const HOME_OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/brand/shareuhack.jpg'
+export const OG_IMAGE_URL = process.env.NEXT_PUBLIC_BASE_URL + '/assets/brand/shareuhack.jpg'
+const categoryPath = '/categories/'
+const subcategoryPath = '/subcategories/'
 
 export const Routes = {
   home: '/',
-  latest: '/latest',
-  knowledge: '/categories/knowledge',
-  health: '/categories/health',
-  money: '/categories/money',
-  work: '/categories/work',
   about: '/about',
-  life: '/categories/life',
+  category: '/categories/:category',
+  subCategory: '/subcategories/:subCategory',
 }
 
 export const Category = {
@@ -31,76 +29,38 @@ export const SubCategory = {
   mindfulness: 'mindfulness',
 }
 
-export const Categories = [
-  {
-    key: Category.knowledge,
-    link: Routes.knowledge,
-  },
-  {
-    key: Category.life,
-    link: Routes.life,
-  },
-  {
-    key: Category.money,
-    link: Routes.money,
-  },
-  {
-    key: Category.work,
-    link: Routes.work,
-  },
-]
+const CategoryMap = {
+  [SubCategory.softwareDevelopment]: Category.work,
+  [SubCategory.projectManagement]: Category.work,
+  [SubCategory.managementAndLeadership]: Category.work,
+  [SubCategory.investment]: Category.money,
+  [SubCategory.lifePhilosophy]: Category.life,
+  [SubCategory.education]: Category.knowledge,
+  [SubCategory.mindfulness]: Category.life,
+  [SubCategory.travel]: Category.life,
+}
 
-const subcategoryBasePath = '/subcategories'
+export const Categories = Object.keys(Category).map((key) => {
+  return {
+    key,
+    link: categoryPath + key,
+  }
+})
 
-export const SubCategories = [
-  {
-    key: SubCategory.softwareDevelopment,
-    category: Category.work,
-    link: `${subcategoryBasePath}/${SubCategory.softwareDevelopment}`,
-  },
-  {
-    key: SubCategory.projectManagement,
-    category: Category.work,
-    link: `${subcategoryBasePath}/${SubCategory.projectManagement}`,
-  },
-  {
-    key: SubCategory.investment,
-    category: Category.money,
-    link: `${subcategoryBasePath}/${SubCategory.investment}`,
-  },
-  {
-    key: SubCategory.entrepreneurship,
-    category: Category.money,
-    link: `${subcategoryBasePath}/${SubCategory.entrepreneurship}`,
-  },
-  {
-    key: SubCategory.travel,
-    category: Category.life,
-    link: `${subcategoryBasePath}/${SubCategory.travel}`,
-  },
-  {
-    key: SubCategory.lifePhilosophy,
-    category: Category.life,
-    link: `${subcategoryBasePath}/${SubCategory.lifePhilosophy}`,
-  },
-  {
-    key: SubCategory.education,
-    category: Category.knowledge,
-    link: `${subcategoryBasePath}/${SubCategory.education}`,
-  },
-  {
-    key: SubCategory.managementAndLeadership,
-    category: Category.work,
-    link: `${subcategoryBasePath}/${SubCategory.managementAndLeadership}`,
-  },
-  {
-    key: SubCategory.mindfulness,
-    category: Category.life,
-    link: `${subcategoryBasePath}/${SubCategory.mindfulness}`,
-  },
-]
+export const SubCategories = Object.keys(SubCategory).map((key) => {
+  return {
+    key,
+    link: subcategoryPath + key,
+    category: CategoryMap[key],
+  }
+})
 
 export const Locales = [
+  {
+    key: 'zh-TW',
+    language: '繁體中文',
+    // region: '台灣',
+  },
   // {
   //   key: 'en',
   //   language: 'English',
@@ -116,11 +76,7 @@ export const Locales = [
   //   language: 'English',
   //   region: 'Singapore',
   // },
-  {
-    key: 'zh-TW',
-    language: '繁體中文',
-    // region: '台灣',
-  },
+
   // {
   //   key: 'zh-MO',
   //   language: '繁體中文',

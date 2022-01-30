@@ -1,7 +1,7 @@
 import { Grid, Box, Typography, useTheme, Button } from '@mui/material'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
-import { Category, Categories, Routes, SubCategories, CMS_NAME, HOME_OG_IMAGE_URL } from '../../lib/constants'
+import { Category, Categories, Routes, SubCategories, CMS_NAME, OG_IMAGE_URL } from '../../lib/constants'
 import { getCategoryPosts, getAllCategoryPaths } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
@@ -26,12 +26,12 @@ export default function CategoryPage({ category, subCategories }) {
         <meta name="description" content={t(`categories.${category.key}.description`)} />
         <meta property="og:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
         <meta property="og:description" content={t(`categories.${category.key}.description`)} />
-        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="keywords" content={t(`categories.${category.key}.title`) + ', ' + getSubCategoryStr()} />
         <meta property="twitter:title" content={`${CMS_NAME}-${t(`categories.${category.key}.title`)}`} />
         <meta property="twitter:description" content={t(`categories.${category.key}.description`)} />
         <meta property="twitter:card" content="summary" />
-        <meta property="twitter:image" content={HOME_OG_IMAGE_URL} />
+        <meta property="twitter:image" content={OG_IMAGE_URL} />
         <meta property="twitter:image:alt" content={t(`categories.${category.key}.description`)} />
         <link rel="canonical" href={canonicalUrl} />
         {/* <link rel="amphtml" href={amphtmlUrl} /> */}
