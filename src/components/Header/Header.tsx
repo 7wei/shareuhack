@@ -53,29 +53,42 @@ export default function Header() {
 
   return (
     <>
-      <StyledAppBar
-        onClick={() => setOpenDrawer(!openDrawer)}
-        height={offset > 150 ? 32 : undefined}
-        openDrawer={openDrawer}
-      />
+      <StyledAppBar onClick={() => setOpenDrawer(!openDrawer)} openDrawer={openDrawer} slogan />
+      {offset > 150 && (
+        <StyledAppBar onClick={() => setOpenDrawer(!openDrawer)} showLinks sticky openDrawer={openDrawer} height={32} />
+      )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
     </>
   )
 }
 
-function StyledAppBar({ onClick, height, openDrawer }: { onClick: () => void; height?: number; openDrawer: boolean }) {
+function StyledAppBar({
+  onClick,
+  height,
+  openDrawer,
+  showLinks,
+  sticky,
+  slogan,
+}: {
+  onClick: () => void
+  height?: number
+  openDrawer: boolean
+  showLinks?: boolean
+  sticky?: boolean
+  slogan?: boolean
+}) {
   const theme = useTheme()
   const isDownMd = useBreakpint('md')
   const { t } = useTranslation('common')
 
   return (
     <AppBar
-      position="sticky"
+      position={sticky ? 'sticky' : 'static'}
       sx={{
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         background: theme.palette.background.default,
         boxShadow: 'none',
         height: {
@@ -88,49 +101,60 @@ function StyledAppBar({ onClick, height, openDrawer }: { onClick: () => void; he
           xs: '0px 20px !important',
           md: '0px 80px !important',
         },
-        transition: '0.5s',
+        transition: 'transition: top 1.5s ease-out;',
       }}
     >
       <BrandLogo width={isDownMd ? 100 : 120} />
-      <IconButton sx={{ display: isDownMd ? 'block' : 'none' }} color="primary" aria-label="Menu" onClick={onClick}>
+
+      <IconButton
+        sx={{ display: isDownMd ? 'block' : 'none', marginLeft: 'auto' }}
+        color="primary"
+        aria-label="Menu"
+        onClick={onClick}
+      >
         {openDrawer ? <Close fontSize="small" /> : <Menu fontSize="small" />}
       </IconButton>
-      <Box
-        sx={{
-          flexGrow: 1,
-          gap: 30,
-          ml: 48,
-          display: isDownMd ? 'none' : 'flex',
-          transition: '0.5s',
-        }}
-      >
-        {Categories.map((link) => (
+      {showLinks && (
+        <Box
+          sx={{
+            flexGrow: 1,
+            gap: 30,
+            ml: 48,
+            display: {
+              xs: 'none',
+              md: 'flex',
+            },
+            transition: '0.5s',
+          }}
+        >
+          {Categories.map((link) => (
+            <Link
+              key={link.key}
+              href={link.link}
+              onClick={onClick}
+              title={t(`categories.${link.key}.title`)}
+              disableUnderline
+              type="nav"
+            >
+              <Typography variant="body1" color={theme.palette.text.primary}>
+                {t(`categories.${link.key}.title`)}
+              </Typography>
+            </Link>
+          ))}
           <Link
-            key={link.key}
-            href={link.link}
+            href={Routes.about}
             onClick={onClick}
-            title={t(`categories.${link.key}.title`)}
+            color={theme.palette.primary.contrastText}
+            title={'About'}
             disableUnderline
             type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
-              {t(`categories.${link.key}.title`)}
+              {t('about')}
             </Typography>
           </Link>
-        ))}
-        <Link
-          href={Routes.about}
-          onClick={onClick}
-          color={theme.palette.primary.contrastText}
-          title={'About'}
-          disableUnderline
-          type="nav"
-        >
-          <Typography variant="body1" color={theme.palette.text.primary}>
-            {t('about')}
-          </Typography>
-        </Link>
-      </Box>
+        </Box>
+      )}
     </AppBar>
   )
 }
