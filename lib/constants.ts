@@ -106,4 +106,5 @@ export const HotPostSlugs = [
   'blinkist-an-efficient-way-to-get-key-ideas',
   'sense-of-ritual-best-practice',
   'how-to-become-a-frontend-engineer',
+  'best-resources-to-learn-negotiation',
 ]
