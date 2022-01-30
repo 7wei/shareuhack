@@ -36,7 +36,7 @@ export default function Index({ allPosts, hotPosts, heroPost, categories, locale
         <meta property="twitter:card" content="summary" />
       </Head>
       <CommonStructuredData type="home" />
-      <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }} mb={48} pt={15}>
+      <Grid container spacing={{ xs: 15, lg: 30, xl: 35 }} mb={48} pt={30}>
         <Grid item xs={12} md={9}>
           <HeroPost {...heroPost} />
         </Grid>

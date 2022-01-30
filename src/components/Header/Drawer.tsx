@@ -86,7 +86,7 @@ export default function DrawerComponent(props: Props) {
           </Link>
         </Box>
 
-        <Socials primary />
+        <Socials primary size={'small'} />
       </Box>
     </Drawer>
   )

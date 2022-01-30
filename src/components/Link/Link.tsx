@@ -15,10 +15,12 @@ interface Props {
   disableUnderline?: boolean
   disableHover?: boolean
   type: 'affiliate' | 'external' | 'internal' | 'nav'
+  fontSize?: number | string
 }
 
 export default function Link(props: Props) {
-  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover, type } = props
+  const { href, target, children, rel, locale, onClick, color, title, disableUnderline, disableHover, type, fontSize } =
+    props
   const theme = useTheme()
 
   const handleClick = useCallback(() => {
@@ -44,6 +46,7 @@ export default function Link(props: Props) {
             color: disableHover ? color || theme.palette.text.primary : theme.palette.primary.main,
             textDecoration: disableUnderline ? 'none' : 'underline',
           },
+          fontSize: fontSize || '14px',
         }}
       >
         {children}

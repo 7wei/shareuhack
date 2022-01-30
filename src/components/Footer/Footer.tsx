@@ -51,23 +51,12 @@ export default function Footer() {
         }}
       >
         <Box width="100%" maxWidth={360} margin="0 auto">
-          {/* <Typography variant="body2" textAlign={'center'} mt={12}>
-            For future hacks.
-          </Typography> */}
           <div className="ml-form-embed" data-account="3616085:z2m5d4m0k5" data-form="5224628:i3c0y2"></div>
           <Typography variant="h3" textAlign={'center'}>
-            {/* {t('subscribe')} */}
             Let's keep in touch!
           </Typography>
         </Box>
-        <Box
-          mt={24}
-          display="flex"
-          flexDirection={isDownMd ? 'column' : 'row'}
-          justifyContent={isDownMd ? 'space-between' : 'space-between'}
-          alignItems="center"
-          gap={24}
-        >
+        <Box mt={24} display="flex" flexDirection={'column'} alignItems="center" gap={24}>
           <Socials primary />
           <Box>
             <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>

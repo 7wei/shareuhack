@@ -1,4 +1,4 @@
-import { useCallback, useState, useEffect } from 'react'
+import { useCallback, useState, useEffect, useMemo } from 'react'
 import { Box, AppBar, IconButton, Typography, useTheme } from '@mui/material'
 import useBreakpint from 'hooks/useBreakpoint'
 import dynamic from 'next/dynamic'
@@ -15,6 +15,8 @@ export default function Header() {
   const isDownMd = useBreakpint('md')
   const [openDrawer, setOpenDrawer] = useState(false)
   const isAmp = useAmp()
+  const theme = useTheme()
+  const { t } = useTranslation('common')
 
   const onClick = useCallback(() => {
     setOpenDrawer(false)
@@ -51,11 +53,62 @@ export default function Header() {
     )
   }
 
+  const navs = useMemo(() => {
+    const categories = Categories.map((category) => {
+      return {
+        key: category.key,
+        title: t(`categories.${category.key}.title`),
+        url: category.link,
+      }
+    })
+    const about = {
+      key: 'about',
+      title: '關於我們',
+      url: Routes.about,
+    }
+
+    return [...categories, about]
+  }, [])
+
   return (
     <>
-      <StyledAppBar onClick={() => setOpenDrawer(!openDrawer)} openDrawer={openDrawer} slogan />
+      <StyledAppBar onClick={() => setOpenDrawer(!openDrawer)} openDrawer={openDrawer} />
+      {!isDownMd && (
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: 30,
+            height: 36,
+          }}
+        >
+          {navs.map((nav) => (
+            <Link
+              key={nav.key}
+              href={nav.url}
+              onClick={onClick}
+              title={nav.title}
+              disableUnderline
+              type="nav"
+              color={theme.palette.text.primary}
+              fontSize={12}
+            >
+              {nav.title}
+            </Link>
+          ))}
+        </Box>
+      )}
+
       {offset > 150 && (
-        <StyledAppBar onClick={() => setOpenDrawer(!openDrawer)} showLinks sticky openDrawer={openDrawer} height={32} />
+        <StyledAppBar
+          onClick={() => setOpenDrawer(!openDrawer)}
+          showLinks
+          sticky
+          openDrawer={openDrawer}
+          height={32}
+          navs={navs}
+        />
       )}
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} onClick={onClick} />
     </>
@@ -68,18 +121,17 @@ function StyledAppBar({
   openDrawer,
   showLinks,
   sticky,
-  slogan,
+  navs,
 }: {
   onClick: () => void
   height?: number
   openDrawer: boolean
   showLinks?: boolean
   sticky?: boolean
-  slogan?: boolean
+  navs?: { key: string; title: string; url: string }[]
 }) {
   const theme = useTheme()
   const isDownMd = useBreakpint('md')
-  const { t } = useTranslation('common')
 
   return (
     <AppBar
@@ -107,14 +159,20 @@ function StyledAppBar({
       <BrandLogo width={isDownMd ? 100 : 120} />
 
       <IconButton
-        sx={{ display: isDownMd ? 'block' : 'none', marginLeft: 'auto' }}
+        sx={{
+          right: {
+            xs: 20,
+            md: 80,
+          },
+          position: 'absolute',
+        }}
         color="primary"
         aria-label="Menu"
         onClick={onClick}
       >
         {openDrawer ? <Close fontSize="small" /> : <Menu fontSize="small" />}
       </IconButton>
-      {showLinks && (
+      {showLinks && navs && (
         <Box
           sx={{
             flexGrow: 1,
@@ -127,32 +185,20 @@ function StyledAppBar({
             transition: '0.5s',
           }}
         >
-          {Categories.map((link) => (
+          {navs.map((nav) => (
             <Link
-              key={link.key}
-              href={link.link}
+              key={nav.key}
+              href={nav.url}
               onClick={onClick}
-              title={t(`categories.${link.key}.title`)}
+              title={nav.title}
               disableUnderline
               type="nav"
+              color={theme.palette.text.primary}
+              fontSize={12}
             >
-              <Typography variant="body1" color={theme.palette.text.primary}>
-                {t(`categories.${link.key}.title`)}
-              </Typography>
+              {nav.title}
             </Link>
           ))}
-          <Link
-            href={Routes.about}
-            onClick={onClick}
-            color={theme.palette.primary.contrastText}
-            title={'About'}
-            disableUnderline
-            type="nav"
-          >
-            <Typography variant="body1" color={theme.palette.text.primary}>
-              {t('about')}
-            </Typography>
-          </Link>
         </Box>
       )}
     </AppBar>
