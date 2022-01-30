@@ -34,10 +34,11 @@ const CategoryMap = {
   [SubCategory.projectManagement]: Category.work,
   [SubCategory.managementAndLeadership]: Category.work,
   [SubCategory.investment]: Category.money,
+  [SubCategory.entrepreneurship]: Category.money,
+  [SubCategory.travel]: Category.life,
   [SubCategory.lifePhilosophy]: Category.life,
   [SubCategory.education]: Category.knowledge,
   [SubCategory.mindfulness]: Category.life,
-  [SubCategory.travel]: Category.life,
 }
 
 export const Categories = Object.keys(Category).map((key) => {
