@@ -59,11 +59,11 @@ export default function Footer() {
         <Box mt={24} display="flex" flexDirection={'column'} alignItems="center" gap={24}>
           <Socials primary />
           <Box>
-            <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+            <Typography variant="body2" textAlign={'center'}>
               {t('footer.copyright')}
             </Typography>
 
-            <Typography variant="body2" textAlign={isDownMd ? 'center' : 'left'}>
+            <Typography variant="body2" textAlign={'center'}>
               <Link href="/about" title="About" type="nav">
                 About Us
               </Link>{' '}
