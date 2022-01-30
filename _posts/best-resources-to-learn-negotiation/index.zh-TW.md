@@ -110,7 +110,7 @@ keywords: '談判技巧, Negotiation, 線上學習'
 
 ### 影集與文章
 
-真的開始投入學習之前，或許可以先看個影集輕鬆一下，例如，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是常常被提起作為例子的一部法律題材的影集，其背景是在紐約一家法律事務所，故事以Mike Ross陰錯陽差，闖入Harvey Specter面試的會場，並在沒有任何律師證照的狀況下，說服 Harvey Specter 錄取他做開頭。
+正式投入學習之前，或許可以先看個影集輕鬆一下，例如，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是常常被作為例子的一部法律題材的影集，其背景是在紐約一家法律事務所，故事以Mike Ross陰錯陽差，闖入Harvey Specter面試的會場，並在沒有任何律師證照的狀況下，說服Harvey Specter錄取他做開頭。
 
 這部影集主要的賣點還是各種的商業談判，以及Harvey Specter在談判中展現的氣場。雖然影集多少會偏離事實，但看Harvey Specter在談判桌上的各種表演，絕對會讓你對談判更有感覺。
 
