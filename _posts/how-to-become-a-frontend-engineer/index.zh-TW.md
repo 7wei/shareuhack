@@ -1,6 +1,6 @@
 ---
 slug: 'how-to-become-a-frontend-engineer'
-title: '3個月轉職有競爭力的前端工程師'
+title: '3個月轉職有市場競爭力的前端工程師'
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: '這篇文章分享無經驗菜鳥，如何轉職成為一個前端工程師，這邊定義的前端工程師．是必須要有一定的程式碼品質，且熟悉一個前端框架，在求職市場上有一定競爭力的前端工程師。'
@@ -42,7 +42,7 @@ keywords: 'Front-end development, 前端開發, 前端工程師, 前端課程'
 
 直接去查看[前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96 "前端 Frontend 路線圖")，你就可以了解成為前端工程師的完整路線圖。
 
-此外，也在人力銀行網站，搜尋前端工程師，大概看過20個職缺，重複出現10次以上的，就會是應徵職缺必要的技術，主要會是 HTML、CSS、JavaScript、Ajax、React，和其他library如boostrap、jQuery 等等。
+此外，也在人力銀行網站，搜尋前端工程師，大概看過20個職缺，重複出現10次以上的，就會是應徵職缺必要的技術，主要會是 HTML、CSS、JavaScript、Ajax、React，和其他library、框架如boostrap、Material-UI、Next JS等等。
 
 ## 初步了解基本技能
 
@@ -67,6 +67,10 @@ Hahow 的[動畫互動網頁程式入門 (HTML/CSS/JS)](https://tinyurl.com/ye77
 走到這裡，你已經是個在市場很有競爭力的初階前端工程師了，開始撰寫履歷、整理作品、準備成功轉職吧！
 
 同時，可以回去看看[前端 Frontend 路線圖](https://github.com/goodjack/developer-roadmap-chinese#%E5%89%8D%E7%AB%AF-frontend-%E8%B7%AF%E7%B7%9A%E5%9C%96)，了解現在的自己處於的位置，會了什麼，還缺什麼。也盡可能的了解每個已經該學會、未來該學會的東西，以及那些技術的作用。這對持續的學習和面試的準備都會很有幫助的。
+
+## 結語
+
+本文所述三個月轉職，絕對並非誇大，若你夠有毅力和決心，並搭配適當的學習資料，絕對很有機會贏得這個敲門磚，不過請注意，成為軟體工程師，就要有長期持續學習的覺悟，前端開發的技術更是變化飛快，若沒有持續精進成長，就會被淘汰。這篇文章列出了前端工程師的路線圖(RoadMap)，以及較廣被推薦的課程供參考，網路上有很多相近的資源，可以多方比較，選擇適合自己的課程，若有更推薦的資源或轉職心得，歡迎來信讓我們知道，我們也會適時的更新內容。
 
 <!-- ## Reference
 
