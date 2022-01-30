@@ -66,6 +66,8 @@ recommendations: [
   ]
 # related: []
 keywords: '談判技巧, Negotiation, 線上學習'
+slideUrls: ['/assets/slides/how-to-negotiate/how-to-negotiate-1.png', '/assets/slides/how-to-negotiate/how-to-negotiate-2.png', '/assets/slides/how-to-negotiate/how-to-negotiate-3.png', '/assets/slides/how-to-negotiate/how-to-negotiate-4.png', '/assets/slides/how-to-negotiate/how-to-negotiate-5.png', '/assets/slides/how-to-negotiate/how-to-negotiate-6.png', '/assets/slides/how-to-negotiate/how-to-negotiate-7.png', '/assets/slides/how-to-negotiate/how-to-negotiate-8.png']
+instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 ---
 
 很多人不知道，談判是一門學問，是一門像哈佛這類世界頂級的大學，會花一學期以上的時間教授的課程。人生無處不是談判，舉凡買賣、談薪水、評估市場價值、解決衝突等等，都會需要談判的，學會這個技巧，人生的旅程上將會更加的如魚得水？這片文章先列出盤判前後必須知道的既巧，並彙整了網路上學習談判最推薦的資源，透過自學，你也可以成為談判專家！
