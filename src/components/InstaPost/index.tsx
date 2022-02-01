@@ -29,7 +29,7 @@ export default function InstaPost({
         width: width || 360,
       }}
     >
-      <Box
+      {/* <Box
         sx={{
           position: 'absolute',
           zIndex: 1,
@@ -46,7 +46,7 @@ export default function InstaPost({
             />
           </Box>
         </Link>
-      </Box>
+      </Box> */}
       <Carousel urls={slideUrls} size={isDownMd ? 360 : 480} />
       <Link
         href={instagramUrl}
