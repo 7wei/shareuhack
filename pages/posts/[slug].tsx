@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useMemo } from 'react'
 import { CMS_NAME, Category, Categories, SubCategory, SubCategories } from '../../lib/constants'
 import { getPostBySlug, getAllPostPaths, getCategoryPosts, getPostsBySlugs } from '../../lib/api'
 import { Grid, Box, useTheme, Typography } from '@mui/material'
@@ -41,6 +42,16 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
     return <ErrorPage statusCode={404} />
   }
 
+  const categories = useMemo(() => {
+    return Categories.map((category) => {
+      return {
+        title: t(`categories.${category.key}.title`),
+        description: t(`categories.${category.key}.description`),
+        link: category.link,
+      }
+    })
+  }, [])
+
   return (
     <>
       {router.isFallback ? (
@@ -77,7 +88,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
           <CommonStructuredData post={post} category={category} subCategory={subCategory} type="post" />
 
           {isAmp ? (
-            <AmpPost post={post} />
+            <AmpPost post={post} relatedPosts={relatedPosts} categories={categories} />
           ) : (
             <>
               {category && subCategory && (
@@ -253,7 +264,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   {/* <Divider primary /> */}
 
                   <Typography mb="15px" variant="h6" mt={30}>
-                    Related hacks
+                    你可能也喜歡
                   </Typography>
                   <Grid spacing={30} container>
                     {relatedPosts.map((post) => (
@@ -266,16 +277,16 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 <Grid item xs={12} md={3}>
                   {/* <Divider primary /> */}
                   <Typography mb="15px" variant="h6" mt={30}>
-                    Discover More
+                    發現更多
                   </Typography>
                   <Grid spacing={24} container>
-                    {Categories.filter((el) => el.key !== category?.key).map((link, idx) => (
+                    {categories.map((category, idx) => (
                       <Grid item key={idx} xs={12}>
-                        <Link href={link.link} title={t(`categories.${link.key}.title`)} type="nav">
-                          <Typography variant="h6">{t(`categories.${link.key}.title`)}</Typography>
+                        <Link href={category.link} title={category.link} type="nav">
+                          <Typography variant="h6">{category.title}</Typography>
                         </Link>
                         <Typography mt={6} variant="body1">
-                          {t(`categories.${link.key}.description`)}
+                          {category.description}
                         </Typography>
                       </Grid>
                     ))}
