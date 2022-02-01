@@ -1,6 +1,5 @@
 import { Box, Typography } from '@mui/material'
 import Link from 'components/Link/Link'
-import Image from 'components/Image'
 import Carousel from 'components/Carousel'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import useBreakpoint from 'hooks/useBreakpoint'
@@ -12,6 +11,7 @@ export default function InstaPost({
   width,
   height,
   showInstagram,
+  postUrl,
 }: {
   instagramUrl: string
   title: string
@@ -19,6 +19,7 @@ export default function InstaPost({
   width?: string | number
   height?: string | number
   showInstagram?: boolean
+  postUrl?: string
 }) {
   const isDownMd = useBreakpoint('md')
 
@@ -62,11 +63,18 @@ export default function InstaPost({
           color="#000000"
           disableUnderline
         >
-          <Box display="flex" alignItems="center" gap={6} mt={3}>
+          <Box display="flex" alignItems="center" gap={6} mt={6}>
             <Typography>View on</Typography>
             <InstagramIcon />
           </Box>
         </Link>
+      )}
+      {postUrl && (
+        <Box mt={6}>
+          <Link href={postUrl} title={title} type="nav" color="#000000" disableUnderline>
+            View Detail
+          </Link>
+        </Box>
       )}
     </Box>
   )

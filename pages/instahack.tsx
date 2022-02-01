@@ -7,26 +7,29 @@ import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
 import useBreakpint from '../src/hooks/useBreakpoint'
 import InstaPost from '../src/components/InstaPost'
 
-export default function InstaHack({ instaPosts, locale }) {
-  const isDownMd = useBreakpint('md')
-
+export default function InstaHack({ instaPosts }) {
   const { t } = useTranslation('common')
-  const theme = useTheme()
 
   return (
     <>
       <Head>
         <title>{CMS_NAME} | InstaHack</title>
-        <meta name="description" content={t('whatWeDoDescript')} />
+        <meta name="description" content={'Get the idea instantly'} />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME} | InstaHack`} />
-        <meta property="og:description" content={t('whatWeDoDescript')} />
+        <meta property="og:description" content={'Get the idea instantly'} />
         <meta property="twitter:title" content={`${CMS_NAME} | InstaHack`} />
-        <meta property="twitter:description" content={t('whatWeDoDescript')} />
+        <meta property="twitter:description" content={'Get the idea instantly'} />
         <meta property="twitter:card" content="summary" />
       </Head>
-      <Grid container spacing={30} mt={24}>
+      <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
+        InstaHack
+      </Typography>
+      <Typography mt={12} fontSize={16} sx={{ opacity: 0.6 }} textAlign="center">
+        Get the idea instantly
+      </Typography>
+      <Grid container spacing={30} mt={8}>
         {instaPosts.map((post) => (
           <Grid item xs={12} md={4}>
             <Box display="flex" alignItems="center" flexDirection="column">
@@ -36,7 +39,8 @@ export default function InstaHack({ instaPosts, locale }) {
                 instagramUrl={post.instagramUrl}
                 width={360}
                 height={360}
-                showInstagram
+                postUrl={'/posts/' + post.slug}
+                // showInstagram
               />
               {/* <Typography variant="h3" mb={14} mt={18}>
                 {post.title}
@@ -53,7 +57,7 @@ export default function InstaHack({ instaPosts, locale }) {
 }
 
 export async function getStaticProps({ locale }) {
-  const allPosts = getAllPosts(['title', 'slideUrls', 'instagramUrl', 'excerpt'], locale)
+  const allPosts = getAllPosts(['title', 'slideUrls', 'instagramUrl', 'excerpt', 'slug'], locale)
   const instaPosts = allPosts.filter((el) => el?.slideUrls?.length > 0)
 
   return {
