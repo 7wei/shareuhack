@@ -8,6 +8,7 @@ export const Routes = {
   about: '/about',
   category: '/categories/:category',
   subCategory: '/subcategories/:subCategory',
+  instahack: '/instahack',
 }
 
 export const Category = {

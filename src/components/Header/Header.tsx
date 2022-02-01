@@ -61,13 +61,18 @@ export default function Header() {
         url: category.link,
       }
     })
+    const instahack = {
+      key: 'instahack',
+      title: 'InstaHack',
+      url: Routes.instahack,
+    }
     const about = {
       key: 'about',
-      title: '關於我們',
+      title: t('about'),
       url: Routes.about,
     }
 
-    return [...categories, about]
+    return [...categories, instahack, about]
   }, [])
 
   return (

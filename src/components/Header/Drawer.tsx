@@ -68,6 +68,18 @@ export default function DrawerComponent(props: Props) {
               </Typography>
             </Link>
           ))}
+          <Link
+            key={'instahack'}
+            href={Routes.instahack}
+            onClick={onClick}
+            color={theme.palette.primary.contrastText}
+            title={'InstaHack'}
+            type="nav"
+          >
+            <Typography variant="body1" color={theme.palette.text.primary}>
+              InstaHack
+            </Typography>
+          </Link>
         </Box>
 
         <Divider />
@@ -77,7 +89,7 @@ export default function DrawerComponent(props: Props) {
             locale={locale}
             onClick={onClick}
             color={theme.palette.primary.contrastText}
-            title={'About'}
+            title={t('about')}
             type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
