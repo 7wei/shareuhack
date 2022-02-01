@@ -24,6 +24,7 @@ import { useAmp } from 'next/amp'
 import Shares from './Shares'
 import AmpPost from './AmpPost'
 import { formattedDate } from '../../src/utils'
+import InstaPost from '../../src/components/InstaPost'
 
 export const config = { amp: 'hybrid' }
 
@@ -144,60 +145,14 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </Grid>
                 <Grid item md={8} xs={12}>
                   <PostBody content={post.content} />
-                  {post.slideUrls && post.slideUrls.length > 0 && (
-                    <Box
-                      sx={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        mt: 30,
-                        mb: 30,
-                        position: 'relative',
-                      }}
-                    >
-                      {post.instagramUrl && (
-                        <Box
-                          sx={{
-                            position: 'absolute',
-                            zIndex: 1,
-                            top: 12,
-                          }}
-                        >
-                          <Link
-                            href={post.instagramUrl}
-                            title={`Instagram-${post.title}`}
-                            target="_blank"
-                            type="external"
-                            color="#000000"
-                          >
-                            <Box width="103px" height="29px" position="relative">
-                              <Image
-                                src="/assets/icons/instagram.png"
-                                layout="fill"
-                                alt={'instagram-shareuhack'}
-                                title={'instagram-shareuhack'}
-                              />
-                            </Box>
-                          </Link>
-                        </Box>
-                      )}
-                      <Carousel urls={post.slideUrls} size={isDownMd ? 360 : 480} />
-                      <Link
-                        href={post.instagramUrl}
-                        title={`Instagram-${post.title}`}
-                        target="_blank"
-                        type="external"
-                        color="#000000"
-                        disableUnderline
-                      >
-                        <Box display="flex" alignItems="center" gap={6} mt={3}>
-                          <Typography>View on</Typography>
-                          <InstagramIcon />
-                        </Box>
-                      </Link>
-                    </Box>
-                  )}
+                  <Box display="flex" justifyContent="center">
+                    <InstaPost
+                      slideUrls={post.slideUrls}
+                      title={post.title}
+                      instagramUrl={post.instagramUrl}
+                      width={isDownMd ? 360 : 480}
+                    />
+                  </Box>
 
                   <Box display="flex" alignItems="center" gap={15}>
                     <Typography variant="body1" mt="15px" mb="10px">
