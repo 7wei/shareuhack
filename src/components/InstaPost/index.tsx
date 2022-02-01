@@ -10,11 +10,15 @@ export default function InstaPost({
   title,
   slideUrls,
   width,
+  height,
+  showInstagram,
 }: {
   instagramUrl: string
   title: string
   slideUrls: string[]
-  width: string | number
+  width?: string | number
+  height?: string | number
+  showInstagram?: boolean
 }) {
   const isDownMd = useBreakpoint('md')
 
@@ -26,7 +30,8 @@ export default function InstaPost({
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
-        width: width || 360,
+        width: width || '100%',
+        height: height || '100%',
       }}
     >
       {/* <Box
@@ -47,20 +52,22 @@ export default function InstaPost({
           </Box>
         </Link>
       </Box> */}
-      <Carousel urls={slideUrls} size={isDownMd ? 360 : 480} />
-      <Link
-        href={instagramUrl}
-        title={`Instagram-${title}`}
-        target="_blank"
-        type="external"
-        color="#000000"
-        disableUnderline
-      >
-        <Box display="flex" alignItems="center" gap={6} mt={3}>
-          <Typography>View on</Typography>
-          <InstagramIcon />
-        </Box>
-      </Link>
+      <Carousel urls={slideUrls} size={'100%'} />
+      {showInstagram && (
+        <Link
+          href={instagramUrl}
+          title={`Instagram-${title}`}
+          target="_blank"
+          type="external"
+          color="#000000"
+          disableUnderline
+        >
+          <Box display="flex" alignItems="center" gap={6} mt={3}>
+            <Typography>View on</Typography>
+            <InstagramIcon />
+          </Box>
+        </Link>
+      )}
     </Box>
   )
 }

@@ -39,8 +39,8 @@ export default function Carousel(props: Props) {
   }, [embla, setScrollSnaps, onSelect])
 
   return (
-    <Box className="embla" sx={{ overflow: 'hidden' }} width="fit-content">
-      <Box className="embla__viewport" ref={viewportRef} sx={{ position: 'relative' }}>
+    <Box className="embla" sx={{ overflow: 'hidden' }} width={size} height={size}>
+      <Box className="embla__viewport" ref={viewportRef} sx={{ position: 'relative' }} width={size} height={size}>
         <Box className="embla__container" display="flex" width={size} height={size}>
           {urls.map((url, idx) => {
             return (

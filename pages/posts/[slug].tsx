@@ -151,6 +151,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                       title={post.title}
                       instagramUrl={post.instagramUrl}
                       width={isDownMd ? 360 : 480}
+                      showInstagram
                     />
                   </Box>
 
