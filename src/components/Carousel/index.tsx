@@ -42,20 +42,22 @@ export default function Carousel(props: Props) {
     <Box className="embla" sx={{ overflow: 'hidden' }} width={size} height={size}>
       <Box className="embla__viewport" ref={viewportRef} sx={{ position: 'relative' }} width={size} height={size}>
         <Box className="embla__container" display="flex" width={size} height={size}>
-          {urls.map((url, idx) => {
-            return (
-              <Box
-                key={idx}
-                className="embla__slide"
-                sx={{
-                  position: 'relative',
-                  flex: '0 0 100%',
-                }}
-              >
-                <Image src={url} layout="fill" />
-              </Box>
-            )
-          })}
+          {urls &&
+            urls.length > 0 &&
+            urls.map((url, idx) => {
+              return (
+                <Box
+                  key={idx}
+                  className="embla__slide"
+                  sx={{
+                    position: 'relative',
+                    flex: '0 0 100%',
+                  }}
+                >
+                  <Image src={url} layout="fill" />
+                </Box>
+              )
+            })}
         </Box>
         <Box
           sx={{
