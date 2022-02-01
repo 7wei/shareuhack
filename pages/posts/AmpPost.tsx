@@ -40,13 +40,7 @@ export default function AmpPost({ post, relatedPosts, categories }: { post: any;
           <ol>
             {post.recommendations?.map((recommendation, idx) => (
               <li key={idx}>
-                <a
-                  href={recommendation.link}
-                  target="_blank"
-                  rel="sponsored"
-                  title={recommendation.title}
-                  type="affiliate"
-                >
+                <a href={recommendation.link} target="_blank">
                   <p>
                     [{recommendation.src}] {recommendation.title}
                   </p>
@@ -62,7 +56,7 @@ export default function AmpPost({ post, relatedPosts, categories }: { post: any;
           <ol>
             {post.references?.map((reference, idx) => (
               <li key={idx}>
-                <a href={reference.link} target="_blank" title={reference.title} type="external">
+                <a href={reference.link} target="_blank">
                   <p>{reference.title}</p>
                 </a>
               </li>
@@ -76,12 +70,7 @@ export default function AmpPost({ post, relatedPosts, categories }: { post: any;
           <ol>
             {relatedPosts.map((post, idx) => (
               <li key={idx}>
-                <a
-                  href={process.env.NEXT_PUBLIC_BASE_URL + '/posts/' + post.slug}
-                  target="_blank"
-                  title={post.title}
-                  type="external"
-                >
+                <a href={process.env.NEXT_PUBLIC_BASE_URL + '/posts/' + post.slug} target="_blank">
                   <p>{post.title}</p>
                 </a>
               </li>
@@ -95,7 +84,7 @@ export default function AmpPost({ post, relatedPosts, categories }: { post: any;
           <ol>
             {categories.map((category, idx) => (
               <li key={idx}>
-                <a href={category.link} target="_blank" title={category.title} type="external">
+                <a href={category.link} target="_blank">
                   <h4>{category.title}</h4>
                 </a>
                 <p>{category.description}</p>
