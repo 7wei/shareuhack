@@ -58,7 +58,7 @@ export default function InstaHack({ instaPosts }) {
 
 export async function getStaticProps({ locale }) {
   const allPosts = getAllPosts(['title', 'slideUrls', 'instagramUrl', 'excerpt', 'slug'], locale)
-  const instaPosts = allPosts.filter((el) => el?.slideUrls?.length > 0)
+  const instaPosts = allPosts.filter((el) => el.slideUrls && el.slideUrls.length > 0)
 
   return {
     props: {
