@@ -4,11 +4,11 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Grid, Box, Typography, useTheme } from '@mui/material'
 import { getAllPosts } from '../lib/api'
 import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
-import useBreakpint from '../src/hooks/useBreakpoint'
+// import useBreakpint from '../src/hooks/useBreakpoint'
 import InstaPost from '../src/components/InstaPost'
 
 export default function InstaHack({ instaPosts }) {
-  const { t } = useTranslation('common')
+  // const { t } = useTranslation('common')
 
   return (
     <>
