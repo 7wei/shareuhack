@@ -145,17 +145,16 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 </Grid>
                 <Grid item md={8} xs={12}>
                   <PostBody content={post.content} />
-                  {post.slideUrls && post.slideUrls.length > 0 && (
-                    <Box display="flex" justifyContent="center">
-                      <InstaPost
-                        slideUrls={post.slideUrls}
-                        title={post.title}
-                        instagramUrl={post.instagramUrl}
-                        width={isDownMd ? 360 : 480}
-                        showInstagram
-                      />
-                    </Box>
-                  )}
+                  <Box display="flex" justifyContent="center">
+                    <InstaPost
+                      slideUrls={post.slideUrls}
+                      title={post.title}
+                      instagramUrl={post.instagramUrl}
+                      height={isDownMd ? 360 : 480}
+                      width={isDownMd ? 360 : 480}
+                      showInstagram
+                    />
+                  </Box>
 
                   <Box display="flex" alignItems="center" gap={15}>
                     <Typography variant="body1" mt="15px" mb="10px">
