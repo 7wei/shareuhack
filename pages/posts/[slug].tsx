@@ -151,6 +151,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                         slideUrls={post.slideUrls}
                         title={post.title}
                         instagramUrl={post.instagramUrl}
+                        height={isDownMd ? 360 : 480}
                         width={isDownMd ? 360 : 480}
                         showInstagram
                       />
