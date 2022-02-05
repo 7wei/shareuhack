@@ -49,7 +49,7 @@ export default function Crypto({}) {
         <Grid item xs={12} md={3}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             <Box display="flex" alignItems="center" gap={15}>
-              <Image src={BtcLogo} />
+              <BtcLogo />
               <Typography fontSize={24} fontWeight={700}>
                 BTC
               </Typography>

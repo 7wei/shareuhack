@@ -3535,6 +3535,11 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
+"react-script@^2.0.5":
+  "integrity" "sha1-nawg+Xz/H7QPW0CE4/RLguMAFXI="
+  "resolved" "https://registry.npmjs.org/react-script/-/react-script-2.0.5.tgz"
+  "version" "2.0.5"
+
 "react-share@^4.4.0":
   "integrity" "sha512-POe8Ge/JT9Ew9iyW7CiYsCCWCb8uMJWqFl9S7W0fJ/oH5gBJNzukH0bL5vSr17KKG5h15d3GfKaoviI22BKeYA=="
   "resolved" "https://registry.npmjs.org/react-share/-/react-share-4.4.0.tgz"
