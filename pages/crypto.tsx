@@ -8,6 +8,10 @@ import Card from '../src/components/Card'
 import Image from '../src/components/Image'
 import BtcLogo from '../src/assets/btc.svg'
 
+const LineChart = dynamic(() => import('../src/components/Chart'), {
+  ssr: false,
+})
+
 export default function Crypto({}) {
   const graphContainer = useRef<HTMLDivElement>(null)
   const BTCPrice = usePrice('BTC')
@@ -15,10 +19,6 @@ export default function Crypto({}) {
   const theme = useTheme()
 
   const Chart = useMemo(() => {
-    const LineChart = dynamic(() => import('../src/components/Chart'), {
-      ssr: false,
-    })
-
     return priceSet ? (
       <LineChart
         lineColor="#18A0FB"
@@ -43,7 +43,7 @@ export default function Crypto({}) {
             Crypto Dashboard
           </Typography>
           <Typography mt={12} fontSize={16}>
-            一眼即可掌握加密貨幣的關鍵數據
+            一眼掌握加密貨幣的關鍵數據
           </Typography>
         </Grid>
         <Grid item xs={12} md={3}>
