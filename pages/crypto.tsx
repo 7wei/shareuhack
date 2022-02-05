@@ -81,6 +81,10 @@ export default function Crypto({}) {
             <Typography fontSize={24} fontWeight={700} mt={18}>
               {`${(+BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.value).toFixed(2)} USDT`}
             </Typography>
+            <Typography fontSize={14} fontWeight={400} sx={{ opacity: 0.5 }}>
+              Last Updated at{' '}
+              {dayjs(BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')}
+            </Typography>
           </Card>
         </Grid>
         <Grid item xs={12} md={9}>
