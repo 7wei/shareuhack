@@ -30,8 +30,8 @@ export default function InstaHack({ instaPosts }) {
         Get the idea instantly
       </Typography>
       <Grid container spacing={30} mt={8}>
-        {instaPosts.map((post) => (
-          <Grid item xs={12} md={4}>
+        {instaPosts.map((post, idx) => (
+          <Grid key={idx} item xs={12} md={4}>
             <Box display="flex" alignItems="center" flexDirection="column">
               <InstaPost
                 slideUrls={post.slideUrls}

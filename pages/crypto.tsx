@@ -15,9 +15,9 @@ const LineChart = dynamic(() => import('../src/components/Chart'), {
 export default function Crypto({}) {
   const theme = useTheme()
   const graphContainer = useRef<HTMLDivElement>(null)
-  const BTCPrice = usePrice('BTC')
   const BTCPriceSeriesData = usePriceSet('BTC', 1000)
   const FnGSeriesData = useFnG(1000)
+
   const mappedFnGSeriesData = FnGSeriesData.map((data) => {
     return {
       time: data.time,
@@ -61,15 +61,13 @@ export default function Crypto({}) {
 
   return (
     <>
-      <Grid container spacing={30}>
-        <Grid item xs={12}>
-          <Typography fontSize={36} fontWeight={700} component="h1">
-            加密貨幣數儀表板 Crypto Dashboard
-          </Typography>
-          <Typography mt={12} fontSize={16}>
-            一眼掌握加密貨幣的關鍵數據
-          </Typography>
-        </Grid>
+      <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
+        Crypto Dashboard
+      </Typography>
+      <Typography mt={12} fontSize={16} sx={{ opacity: 0.6 }} textAlign="center">
+        一眼掌握加密貨幣的關鍵數據
+      </Typography>
+      <Grid container spacing={30} pt={15}>
         <Grid item xs={12} md={3}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             <Box display="flex" alignItems="center" gap={15}>
@@ -80,7 +78,7 @@ export default function Crypto({}) {
             </Box>
 
             <Typography fontSize={24} fontWeight={700} mt={18}>
-              {`${(+BTCPrice).toFixed(2)} USDT`}
+              {`${(+BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.value).toFixed(2)} USDT`}
             </Typography>
           </Card>
         </Grid>
