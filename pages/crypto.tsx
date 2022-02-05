@@ -88,7 +88,7 @@ export default function Crypto({}) {
           </Card>
         </Grid>
         <Grid item xs={12} md={9}>
-          <Card padding={30} outlined color={theme.palette.primary.main}>
+          <Card padding={15} outlined color={theme.palette.primary.main}>
             {BTCPriceChart}
           </Card>
         </Grid>
@@ -109,7 +109,7 @@ export default function Crypto({}) {
           </Card>
         </Grid>
         <Grid item xs={12} md={9}>
-          <Card padding={30} outlined color={theme.palette.primary.main}>
+          <Card padding={15} outlined color={theme.palette.primary.main}>
             {FnGChart}
           </Card>
         </Grid>
