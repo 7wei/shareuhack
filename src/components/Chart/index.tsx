@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react'
-import { /*Paper,*/ Typography, Box, styled, useTheme, Divider } from '@mui/material'
+import { Typography, Box, styled, useTheme, Divider } from '@mui/material'
 import {
   createChart,
   CrosshairMode,
@@ -258,7 +258,7 @@ export default function LineChart({
       <Chart sx={{ ...style }} id={id + '-chart'}>
         {unit && (
           <Typography
-            sx={{ color: '#00000050', position: 'absolute', left: 8, top: -22 }}
+            // sx={{ color: '#00000050', position: 'absolute', left: 8, top: -22 }}
             fontSize={12}
             fontWeight={700}
           >
@@ -274,7 +274,7 @@ export default function LineChart({
           Date
         </Typography> */}
 
-        {strikeData && strikeLineLeft && strikeLineHeight ? (
+        {/* {strikeData && strikeLineLeft && strikeLineHeight ? (
           <>
             <Divider
               orientation="vertical"
@@ -319,7 +319,7 @@ export default function LineChart({
           >
             <Spinner size={60} />
           </Box>
-        )}
+        )} */}
 
         {/* <Paper
           ref={toolTipRef}
