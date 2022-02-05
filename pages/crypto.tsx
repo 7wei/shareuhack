@@ -90,13 +90,10 @@ export default function Crypto({}) {
         </Grid>
         <Grid item xs={12} md={3}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
-            <Box display="flex" alignItems="center" gap={15}>
-              <Typography fontSize={24} fontWeight={700}>
-                恐懼與貪婪指數 Fear & Greed Index
-              </Typography>
-            </Box>
-
-            <Typography fontSize={24} fontWeight={700} mt={18}>
+            <Typography fontSize={24} fontWeight={700}>
+              恐懼與貪婪指數 Fear & Greed Index
+            </Typography>
+            <Typography fontSize={24} fontWeight={700}>
               {FnGSeriesData[FnGSeriesData.length - 1]?.value}
             </Typography>
             <Typography fontSize={24} fontWeight={700} color={theme.palette.error.main}>
