@@ -8,12 +8,14 @@ import Card from '../src/components/Card'
 import BtcLogo from '../src/assets/btc.svg'
 import { useFnG } from '../src/hooks/useFnG'
 import dayjs from 'dayjs'
+import { useTranslation } from 'next-i18next'
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
 })
 
 export default function Crypto({}) {
+  const { t } = useTranslation('common')
   const theme = useTheme()
   const graphContainer = useRef<HTMLDivElement>(null)
   const BTCPriceSeriesData = usePriceSet('BTC', 1000)
@@ -63,7 +65,7 @@ export default function Crypto({}) {
   return (
     <>
       <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
-        Crypto 儀表板
+        {t('crypto')}
       </Typography>
       <Typography mt={12} fontSize={16} sx={{ opacity: 0.6 }} textAlign="center">
         一手掌握加密貨幣的關鍵數據
