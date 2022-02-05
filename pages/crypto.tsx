@@ -1,4 +1,5 @@
 import { useMemo, useRef } from 'react'
+import Head from 'next/head'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Typography, Grid, Box, useTheme } from '@mui/material'
 import Spinner from '../src/components/Spinner'
@@ -9,6 +10,7 @@ import BtcLogo from '../src/assets/btc.svg'
 import { useFnG } from '../src/hooks/useFnG'
 import dayjs from 'dayjs'
 import { useTranslation } from 'next-i18next'
+import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
@@ -64,11 +66,24 @@ export default function Crypto({}) {
 
   return (
     <>
+      <Head>
+        <title>
+          {CMS_NAME} | {t('crypto')}
+        </title>
+        <meta name="description" content={t('cryptoDescript')} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`${CMS_NAME} | ${t('crypto')}`} />
+        <meta property="og:description" content={t('cryptoDescript')} />
+        <meta property="twitter:title" content={`${CMS_NAME} | ${t('crypto')}`} />
+        <meta property="twitter:description" content={t('cryptoDescript')} />
+        <meta property="twitter:card" content="summary" />
+      </Head>
       <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
         {t('crypto')}
       </Typography>
       <Typography mt={12} fontSize={16} sx={{ opacity: 0.6 }} textAlign="center">
-        一手掌握加密貨幣的關鍵數據
+        {t('cryptoDescript')}
       </Typography>
       <Grid container spacing={30} pt={15}>
         <Grid item xs={12} md={3}>
@@ -84,8 +99,9 @@ export default function Crypto({}) {
               {`${(+BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.value).toFixed(2)} USDT`}
             </Typography>
             <Typography fontSize={14} fontWeight={400} sx={{ opacity: 0.5 }}>
-              Last Updated at{' '}
-              {dayjs(BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')}
+              {/* Last Updated at{' '} */}
+              {/* {dayjs(BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')} */}
+              Update every 5s
             </Typography>
           </Card>
         </Grid>
