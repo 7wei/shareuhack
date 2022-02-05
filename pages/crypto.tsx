@@ -15,17 +15,19 @@ const LineChart = dynamic(() => import('../src/components/Chart'), {
 export default function Crypto({}) {
   const graphContainer = useRef<HTMLDivElement>(null)
   const BTCPrice = usePrice('BTC')
-  const priceSet = usePriceSet('BTC', 14)
+  const priceSet = usePriceSet('BTC', 1000)
+  const BTCpriceSet = priceSet.slice(-14)
   const theme = useTheme()
   const fng = useFnG()[0]
+  const FngBTCpriceSet = priceSet.slice(0, 1000)
 
-  const Chart = useMemo(() => {
-    return priceSet ? (
+  const BTCPriceChart = useMemo(() => {
+    return BTCpriceSet ? (
       <LineChart
         lineColor="#18A0FB"
-        lineSeriesData={priceSet}
+        lineSeriesData={BTCpriceSet}
         unit="BTC"
-        id="incomeGraph"
+        id="btcPriceChart"
         height={graphContainer?.current?.offsetHeight ?? 280}
         // strikeData={strikeLineData}
       />
@@ -34,7 +36,24 @@ export default function Crypto({}) {
         <Spinner size={60} marginRight="auto" marginLeft="auto" />
       </Box>
     )
-  }, [priceSet])
+  }, [BTCpriceSet])
+
+  const FnGChart = useMemo(() => {
+    return BTCpriceSet ? (
+      <LineChart
+        lineColor="#18A0FB"
+        lineSeriesData={FngBTCpriceSet}
+        unit="BTC"
+        id="FnGChart"
+        height={graphContainer?.current?.offsetHeight ?? 280}
+        // strikeData={strikeLineData}
+      />
+    ) : (
+      <Box sx={{ height: '100%', display: 'flex', alignItems: 'center' }}>
+        <Spinner size={60} marginRight="auto" marginLeft="auto" />
+      </Box>
+    )
+  }, [BTCpriceSet])
 
   return (
     <>
@@ -56,14 +75,14 @@ export default function Crypto({}) {
               </Typography>
             </Box>
 
-            <Typography fontSize={24} fontWeight={500} mt={18}>
+            <Typography fontSize={24} fontWeight={700} mt={18}>
               {`${(+BTCPrice).toFixed(2)} USDT`}
             </Typography>
           </Card>
         </Grid>
         <Grid item xs={12} md={9}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
-            {Chart}
+            {BTCPriceChart}
           </Card>
         </Grid>
         <Grid item xs={12} md={3}>
@@ -77,9 +96,14 @@ export default function Crypto({}) {
             <Typography fontSize={24} fontWeight={700} mt={18}>
               {fng?.value}
             </Typography>
-            <Typography fontSize={24} fontWeight={500} color={theme.palette.error.main}>
+            <Typography fontSize={24} fontWeight={700} color={theme.palette.error.main}>
               {fng?.classification}
             </Typography>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={9}>
+          <Card padding={30} outlined color={theme.palette.primary.main}>
+            {FnGChart}
           </Card>
         </Grid>
       </Grid>

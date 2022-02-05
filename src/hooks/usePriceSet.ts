@@ -4,7 +4,7 @@ import { priceFormatter } from 'utils/fetch/price'
 import { Time } from 'lightweight-charts'
 
 export function usePriceSet(symbol: string | undefined, limit = 30) {
-  const [priceSet, setPriceSetList] = useState<LineSeriesData | undefined>(undefined)
+  const [priceSet, setPriceSetList] = useState<LineSeriesData>([])
   const price = usePrice(symbol)
 
   useEffect(() => {

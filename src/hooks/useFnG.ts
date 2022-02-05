@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { fngFormatter, formatedFngProps } from 'utils/fetch/fng'
 
-export function useFnG() {
+export function useFnG(limit = 1) {
   const [FnG, setFnG] = useState<formatedFngProps[]>([])
 
   useEffect(() => {
-    fetch(`https://api.alternative.me/fng/`, {
+    fetch(`https://api.alternative.me/fng/?limit=${limit}`, {
       method: 'GET',
       mode: 'cors',
       headers: {},

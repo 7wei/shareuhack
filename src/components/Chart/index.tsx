@@ -257,11 +257,7 @@ export default function LineChart({
     <>
       <Chart sx={{ ...style }} id={id + '-chart'}>
         {unit && (
-          <Typography
-            // sx={{ color: '#00000050', position: 'absolute', left: 8, top: -22 }}
-            fontSize={12}
-            fontWeight={700}
-          >
+          <Typography sx={{ position: 'absolute', left: 8, top: -22 }} fontSize={12} fontWeight={700}>
             {unit} Price
           </Typography>
         )}
