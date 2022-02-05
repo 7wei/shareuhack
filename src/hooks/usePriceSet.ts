@@ -20,6 +20,7 @@ export function usePriceSet(symbol: string | undefined, limit = 30) {
       })
       .then((json) => {
         const formatted = priceFormatter(json)
+        console.log(formatted)
         setPriceSetList(formatted)
       })
       .catch((e) => console.error(e))
