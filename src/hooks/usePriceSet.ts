@@ -3,14 +3,14 @@ import { LineSeriesData } from 'components/Chart'
 import { priceFormatter } from 'utils/fetch/price'
 import { Time } from 'lightweight-charts'
 
-export function usePriceSet(symbol: string | undefined) {
+export function usePriceSet(symbol: string | undefined, limit = 30) {
   const [priceSet, setPriceSetList] = useState<LineSeriesData | undefined>(undefined)
   const price = usePrice(symbol)
 
   useEffect(() => {
     if (!symbol) return
     // const id = setInterval(() => {
-    fetch(`https://api.binance.com/api/v3/klines?symbol=${symbol}USDT&interval=1d&limit=30`, {
+    fetch(`https://api.binance.com/api/v3/klines?symbol=${symbol}USDT&interval=1d&limit=${limit}`, {
       method: 'GET',
       mode: 'cors',
       headers: {},
