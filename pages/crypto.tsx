@@ -5,6 +5,8 @@ import Spinner from '../src/components/Spinner'
 import dynamic from 'next/dynamic'
 import { usePrice, usePriceSet } from '../src/hooks/usePriceSet'
 import Card from '../src/components/Card'
+import Image from '../src/components/Image'
+import BtcLogo from '../src/assets/btc.svg'
 
 export default function Crypto({}) {
   const graphContainer = useRef<HTMLDivElement>(null)
@@ -35,34 +37,33 @@ export default function Crypto({}) {
 
   return (
     <>
-      <Typography fontSize={36} fontWeight={700} component="h1">
-        Crypto Dashboard
-      </Typography>
-      <Typography mt={12} fontSize={16}>
-        一眼即可掌握加密貨幣的關鍵數據
-      </Typography>
-      <Card width={'fit-content'} padding={30} outlined color={theme.palette.primary.main}>
-        <Typography fontSize={16} fontWeight={700}>
-          BTC Price
-        </Typography>
-        <Typography fontSize={16} fontWeight={500}>
-          {`${(+BTCPrice).toFixed(2)} USDT`}
-        </Typography>
-      </Card>
+      <Grid container spacing={30}>
+        <Grid item xs={12}>
+          <Typography fontSize={36} fontWeight={700} component="h1">
+            Crypto Dashboard
+          </Typography>
+          <Typography mt={12} fontSize={16}>
+            一眼即可掌握加密貨幣的關鍵數據
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Card padding={30} outlined color={theme.palette.primary.main}>
+            <Box display="flex" alignItems="center" gap={15}>
+              <Image src={BtcLogo} />
+              <Typography fontSize={24} fontWeight={700}>
+                BTC
+              </Typography>
+            </Box>
 
-      <Grid container>
-        <Grid
-          item
-          xs={12}
-          // md={6}
-          sx={{
-            height: { xs: '300px', md: '100%', maxWidth: '100%', width: { xs: '100%', md: 'auto' } },
-          }}
-          // ref={graphContainer}
-        >
-          <Box width={'100%'} height={360}>
+            <Typography fontSize={24} fontWeight={500} mt={18}>
+              {`${(+BTCPrice).toFixed(2)} USDT`}
+            </Typography>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={9}>
+          <Card padding={30} outlined color={theme.palette.primary.main}>
             {Chart}
-          </Box>
+          </Card>
         </Grid>
       </Grid>
     </>
