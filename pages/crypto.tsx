@@ -8,7 +8,7 @@ import { usePrice, usePriceSet } from '../src/hooks/usePriceSet'
 export default function Crypto({}) {
   const graphContainer = useRef<HTMLDivElement>(null)
   const BTCPrice = usePrice('BTC')
-  const priceSet = usePriceSet('BTC')
+  const priceSet = usePriceSet('BTC', 14)
 
   const Chart = useMemo(() => {
     const LineChart = dynamic(() => import('../src/components/Chart'), {
@@ -41,11 +41,13 @@ export default function Crypto({}) {
           xs={12}
           // md={6}
           sx={{
-            height: { xs: '300px', md: '100%', maxWidth: '100%', width: { xs: '100%', md: '100%' } },
+            height: { xs: '300px', md: '100%', maxWidth: '100%', width: { xs: '100%', md: 'auto' } },
           }}
           // ref={graphContainer}
         >
-          <Box>{Chart}</Box>
+          <Box width={'100%'} height={360}>
+            {Chart}
+          </Box>
         </Grid>
       </Grid>
     </>
