@@ -89,7 +89,7 @@ export default function DrawerComponent(props: Props) {
             type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
-              加密貨幣
+              {t('crypto')}
             </Typography>
           </Link>
         </Box>
