@@ -71,8 +71,13 @@ export default function Header() {
       title: t('about'),
       url: Routes.about,
     }
+    const crypto = {
+      key: 'crypto',
+      title: t('crypto'),
+      url: Routes.crypto,
+    }
 
-    return [...categories, instahack, about]
+    return [...categories, instahack, crypto, about]
   }, [])
 
   return (

@@ -9,6 +9,7 @@ export const Routes = {
   category: '/categories/:category',
   subCategory: '/subcategories/:subCategory',
   instahack: '/instahack',
+  crypto: '/crypto',
 }
 
 export const Category = {

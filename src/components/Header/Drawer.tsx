@@ -80,6 +80,18 @@ export default function DrawerComponent(props: Props) {
               InstaHack
             </Typography>
           </Link>
+          <Link
+            key={'crypto'}
+            href={Routes.crypto}
+            onClick={onClick}
+            color={theme.palette.primary.contrastText}
+            title={'Crypto'}
+            type="nav"
+          >
+            <Typography variant="body1" color={theme.palette.text.primary}>
+              加密貨幣
+            </Typography>
+          </Link>
         </Box>
 
         <Divider />
