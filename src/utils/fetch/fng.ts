@@ -1,3 +1,4 @@
+import dayjs from 'dayjs'
 export interface FngProps {
   value: string
   value_classification: string
@@ -13,6 +14,7 @@ export interface formatedFngProps {
 export const fngFormatter = ({ data }: { data: FngProps[] }): formatedFngProps[] => {
   return data.map((item) => {
     return {
+      time: dayjs(+item.timestamp * 1000).format('YYYY-MM-DD'),
       value: item.value,
       classification: item.value_classification,
     }

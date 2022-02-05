@@ -33,7 +33,7 @@ export function usePriceSet(symbol: string | undefined, limit = 30) {
   useEffect(() => {
     if (price) {
       setPriceSetList((list) => {
-        if (!list) return list
+        if (!list || list.length === 0) return list
         list[list.length - 1].time = Date.now() as Time
         list[list.length - 1].value = +price
         return [...list]

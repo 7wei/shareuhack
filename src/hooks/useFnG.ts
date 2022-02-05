@@ -14,8 +14,7 @@ export function useFnG(limit = 1) {
         return r.clone().json()
       })
       .then((json) => {
-        const formatted = fngFormatter(json)
-        console.log(formatted)
+        const formatted = fngFormatter(json).reverse()
 
         setFnG(formatted)
       })

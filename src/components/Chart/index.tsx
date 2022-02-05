@@ -1,19 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import { Typography, Box, styled, useTheme, Divider } from '@mui/material'
-import {
-  createChart,
-  CrosshairMode,
-  IChartApi,
-  ISeriesApi,
-  LineStyle,
-  LineType,
-  // sMouseEventParams,
-  // isBusinessDay,
-  // BusinessDay,
-  Time,
-} from 'lightweight-charts'
+import { createChart, CrosshairMode, IChartApi, ISeriesApi, LineStyle, LineType, Time } from 'lightweight-charts'
 import dayjs from 'dayjs'
-import Spinner from 'components/Spinner'
 import useBreakpoint from 'hooks/useBreakpoint'
 
 export type LineSeriesData = Array<{
@@ -21,12 +9,6 @@ export type LineSeriesData = Array<{
   value: number
   rate?: string
 }>
-
-// type ToolTipInfo = Partial<Omit<MouseEventParams, 'seriesPrices'>> & {
-//   price?: string
-//   date?: Time
-//   price2?: string
-// }
 
 const Chart = styled('div')(({ theme }) => ({
   width: '100%',
@@ -43,42 +25,6 @@ const Chart = styled('div')(({ theme }) => ({
 }))
 
 const secondaryColor = '#F0B90B'
-// const toolTipMargin = 48
-
-// const tooltipFunction = ({
-//   series,
-//   series2,
-//   setToolTipInfo
-// }: {
-//   series: undefined | ISeriesApi<'Line'>
-//   series2?: undefined | ISeriesApi<'Line'>
-//   setToolTipInfo: (info: ToolTipInfo | undefined) => void
-// }) => (param: MouseEventParams) => {
-//   if (!series || !param || !param.point || param.time === undefined) {
-//     setToolTipInfo(undefined)
-//     return
-//   }
-
-//   function businessDayToString(businessDay: BusinessDay) {
-//     return businessDay.year + '-' + businessDay.month + '-' + businessDay.day
-//   }
-
-//   const date: Time = isBusinessDay(param.time)
-//     ? businessDayToString(param.time)
-//     : new Date(param.time).toUTCString().slice(4, 16)
-
-//   setToolTipInfo({
-//     time: param.time,
-//     point: param.point,
-//     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//     /* @ts-ignore */
-//     price: param.seriesPrices.get(series),
-//     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//     /* @ts-ignore */
-//     price2: series2 ? param.seriesPrices.get(series2) : undefined,
-//     date
-//   })
-// }
 
 export default function LineChart({
   style,
@@ -105,7 +51,7 @@ export default function LineChart({
   const [strikeLineLeft, setStrikeLineLeft] = useState<number | undefined>(undefined)
   const [strikeLineHeight, setStrikeLineHeight] = useState<number | undefined>(undefined)
   const [chart, setChart] = useState<IChartApi | undefined>(undefined)
-  const [priceLine, setPriceLine] = useState<ISeriesApi<'Line'> | undefined>(undefined)
+  // const [priceLine, setPriceLine] = useState<ISeriesApi<'Line'> | undefined>(undefined)
   const [lineSeries, setLineSeries] = useState<ISeriesApi<'Line'> | undefined>(undefined)
 
   const isDownMd = useBreakpoint('md')
@@ -165,7 +111,7 @@ export default function LineChart({
         secondsVisible: true,
         shiftVisibleRangeOnNewBar: true,
         tickMarkFormatter: (time: any) => {
-          return dayjs(time).format('DD MMM')
+          return dayjs(time).format('DD MMM, YYYY')
         },
       },
       crosshair: {
@@ -238,150 +184,24 @@ export default function LineChart({
     }
   }, [chart, handleStrikeLine, lineColor, lineSeries, lineSeriesData, strikeData, theme])
 
-  useEffect(() => {
-    if (!chart || !strikeData) return
-    if (!priceLine) {
-      const pl = chart?.addLineSeries({
-        lineType: LineType.Simple,
-        lineStyle: LineStyle.Dashed,
-        lineWidth: 1,
-        color: secondaryColor,
-        crosshairMarkerVisible: false,
-      })
-      setPriceLine(pl)
-    }
-    priceLine?.setData([strikeData])
-  }, [chart, handleStrikeLine, priceLine, strikeData])
+  // useEffect(() => {
+  //   if (!chart || !strikeData) return
+  //   if (!priceLine) {
+  //     const pl = chart?.addLineSeries({
+  //       lineType: LineType.Simple,
+  //       lineStyle: LineStyle.Dashed,
+  //       lineWidth: 1,
+  //       color: secondaryColor,
+  //       crosshairMarkerVisible: false,
+  //     })
+  //     setPriceLine(pl)
+  //   }
+  //   priceLine?.setData([strikeData])
+  // }, [chart, handleStrikeLine, priceLine, strikeData])
 
   return (
     <>
-      <Chart sx={{ ...style }} id={id + '-chart'}>
-        {unit && (
-          <Typography sx={{ position: 'absolute', left: 8, top: -22 }} fontSize={12} fontWeight={700}>
-            {unit} Price
-          </Typography>
-        )}
-        {/*
-        <Typography
-          sx={{ color: '#00000050', position: 'absolute', right: -12, bottom: 3, transform: 'translateX(100%)' }}
-          fontSize={12}
-          fontWeight={700}
-        >
-          Date
-        </Typography> */}
-
-        {/* {strikeData && strikeLineLeft && strikeLineHeight ? (
-          <>
-            <Divider
-              orientation="vertical"
-              sx={{
-                width: '1px',
-                top: 0,
-                position: 'absolute',
-                zIndex: 10,
-                borderColor: '#31B047',
-                height: strikeLineHeight,
-                left: strikeLineLeft,
-              }}
-            />
-            <Box
-              sx={{
-                position: 'absolute',
-                zIndex: 10,
-                top: 2,
-                left: strikeLineLeft,
-                transform: 'translate(-110%, 1px)',
-                // background: '#ffffff',
-                borderRadius: '100%',
-                color: (theme) => theme.palette.primary.main,
-              }}
-            >
-              <Typography align="right" noWrap fontSize={12} fontWeight={500}>
-                {dayjs(strikeData.time as number).format('DD MMM')}
-              </Typography>
-              <Typography align="right" noWrap fontSize={12} fontWeight={500}>
-                (Delivery Date)
-              </Typography>
-            </Box>
-          </>
-        ) : (
-          <Box
-            height="100%"
-            width="100%"
-            sx={{ background: '#ffffff50', position: 'absolute', zIndex: 3, top: 0 }}
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Spinner size={60} />
-          </Box>
-        )} */}
-
-        {/* <Paper
-          ref={toolTipRef}
-          id={id + 'chartToolTip'}
-          sx={{
-            display:
-              toolTipInfo &&
-              toolTipInfo.point &&
-              toolTipInfo.time &&
-              toolTipInfo.point.x >= 0 &&
-              toolTipInfo.point.y >= 0
-                ? 'block'
-                : 'none',
-            position: 'absolute',
-            zIndex: 10,
-            top: 0,
-            padding: '8px 12px',
-            boxShadow: '0px 1px 10px rgba(0, 0, 0, 0.1)',
-            '& *': { cursor: 'none' },
-            left: (() => {
-              if (!toolTipInfo || !toolTipInfo.time || !chart || !chart.timeScale()) return 0
-              const coordinate = chart?.timeScale()?.timeToCoordinate(toolTipInfo.time)
-              const val = coordinate === null ? 0 : coordinate ?? 0
-              return val + toolTipMargin
-              // +(toolTipRef?.current?.getBoundingClientRect().width ?? 0) + 'px'
-            })()
-          }}
-        >
-          <Box display="grid" gap="8px">
-            <Typography fontSize={10} sx={{ color: theme => theme.palette.text.secondary }}>
-              {toolTipInfo && toolTipInfo.date}
-            </Typography>
-            <Box display="flex" gap="8px" alignItems="center">
-              <Typography sx={{ color: theme => theme.palette.primary.main }}>{unit}</Typography>
-              <Typography fontSize={12}>$</Typography>
-              <Typography fontSize={12}>{toolTipInfo && toolTipInfo.price}</Typography>
-              {toolTipInfo && <Capsule val={lineSeriesData.find(el => el.time === toolTipInfo.time)?.rate ?? '0%'} />}
-            </Box>
-            {toolTipInfo && toolTipInfo.price2 && unit2 && (
-              <Box display="flex" gap="8px">
-                <Typography sx={{ color: secondaryColor }}>{unit2}</Typography>
-                <Typography fontSize={12}>$</Typography>
-                <Typography fontSize={12}>{toolTipInfo.price2}</Typography>
-              </Box>
-            )}
-          </Box>
-        </Paper> */}
-      </Chart>
+      <Chart sx={{ ...style }} id={id + '-chart'}></Chart>
     </>
   )
 }
-
-// function Capsule({ val }: { val: string }) {
-//   return (
-//     <Typography
-//       fontSize={12}
-//       sx={{
-//         minWidth: '56px',
-//         textAlign: 'center',
-//         padding: '5px 12px',
-//         borderRadius: 3,
-//         backgroundColor: theme => (val[0] === '-' ? theme.palette.error.light : theme.palette.secondary.main),
-//         color: theme => (val[0] === '-' ? theme.palette.error.main : theme.palette.secondary.light)
-//       }}
-//     >
-//       {val}
-//     </Typography>
-//   )
-// }

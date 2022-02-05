@@ -13,19 +13,23 @@ const LineChart = dynamic(() => import('../src/components/Chart'), {
 })
 
 export default function Crypto({}) {
+  const theme = useTheme()
   const graphContainer = useRef<HTMLDivElement>(null)
   const BTCPrice = usePrice('BTC')
-  const priceSet = usePriceSet('BTC', 1000)
-  const BTCpriceSet = priceSet.slice(-14)
-  const theme = useTheme()
-  const fng = useFnG()[0]
-  const FngBTCpriceSet = priceSet.slice(0, 1000)
+  const BTCPriceSeriesData = usePriceSet('BTC', 1000)
+  const FnGSeriesData = useFnG(1000)
+  const mappedFnGSeriesData = FnGSeriesData.map((data) => {
+    return {
+      time: data.time,
+      value: data.value,
+    }
+  })
 
   const BTCPriceChart = useMemo(() => {
-    return BTCpriceSet ? (
+    return BTCPriceSeriesData ? (
       <LineChart
         lineColor="#18A0FB"
-        lineSeriesData={BTCpriceSet}
+        lineSeriesData={BTCPriceSeriesData}
         unit="BTC"
         id="btcPriceChart"
         height={graphContainer?.current?.offsetHeight ?? 280}
@@ -36,16 +40,16 @@ export default function Crypto({}) {
         <Spinner size={60} marginRight="auto" marginLeft="auto" />
       </Box>
     )
-  }, [BTCpriceSet])
+  }, [BTCPriceSeriesData])
 
   const FnGChart = useMemo(() => {
-    return BTCpriceSet ? (
+    return BTCPriceSeriesData ? (
       <LineChart
-        lineColor="#18A0FB"
-        lineSeriesData={FngBTCpriceSet}
+        lineSeriesData={mappedFnGSeriesData}
         unit="BTC"
         id="FnGChart"
         height={graphContainer?.current?.offsetHeight ?? 280}
+        lineColor={theme.palette.primary.main}
         // strikeData={strikeLineData}
       />
     ) : (
@@ -53,7 +57,7 @@ export default function Crypto({}) {
         <Spinner size={60} marginRight="auto" marginLeft="auto" />
       </Box>
     )
-  }, [BTCpriceSet])
+  }, [mappedFnGSeriesData])
 
   return (
     <>
@@ -94,10 +98,10 @@ export default function Crypto({}) {
             </Box>
 
             <Typography fontSize={24} fontWeight={700} mt={18}>
-              {fng?.value}
+              {FnGSeriesData.slice(-1)[0]?.value}
             </Typography>
             <Typography fontSize={24} fontWeight={700} color={theme.palette.error.main}>
-              {fng?.classification}
+              {FnGSeriesData.slice(-1)[0]?.classification}
             </Typography>
           </Card>
         </Grid>
