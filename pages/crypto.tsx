@@ -5,8 +5,8 @@ import Spinner from '../src/components/Spinner'
 import dynamic from 'next/dynamic'
 import { usePrice, usePriceSet } from '../src/hooks/usePriceSet'
 import Card from '../src/components/Card'
-import Image from '../src/components/Image'
 import BtcLogo from '../src/assets/btc.svg'
+import { useFnG } from '../src/hooks/useFnG'
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
@@ -17,6 +17,7 @@ export default function Crypto({}) {
   const BTCPrice = usePrice('BTC')
   const priceSet = usePriceSet('BTC', 14)
   const theme = useTheme()
+  const fng = useFnG()[0]
 
   const Chart = useMemo(() => {
     return priceSet ? (
@@ -40,7 +41,7 @@ export default function Crypto({}) {
       <Grid container spacing={30}>
         <Grid item xs={12}>
           <Typography fontSize={36} fontWeight={700} component="h1">
-            Crypto Dashboard
+            加密貨幣數儀表板 Crypto Dashboard
           </Typography>
           <Typography mt={12} fontSize={16}>
             一眼掌握加密貨幣的關鍵數據
@@ -51,7 +52,7 @@ export default function Crypto({}) {
             <Box display="flex" alignItems="center" gap={15}>
               <BtcLogo />
               <Typography fontSize={24} fontWeight={700}>
-                BTC
+                BTC Price
               </Typography>
             </Box>
 
@@ -63,6 +64,22 @@ export default function Crypto({}) {
         <Grid item xs={12} md={9}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             {Chart}
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Card padding={30} outlined color={theme.palette.primary.main}>
+            <Box display="flex" alignItems="center" gap={15}>
+              <Typography fontSize={24} fontWeight={700}>
+                恐懼與貪婪指數 Fear & Greed Index
+              </Typography>
+            </Box>
+
+            <Typography fontSize={24} fontWeight={700} mt={18}>
+              {fng?.value}
+            </Typography>
+            <Typography fontSize={24} fontWeight={500} color={theme.palette.error.main}>
+              {fng?.classification}
+            </Typography>
           </Card>
         </Grid>
       </Grid>
