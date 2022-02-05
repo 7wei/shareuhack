@@ -66,7 +66,7 @@ export default function Crypto({}) {
         Crypto 儀表板
       </Typography>
       <Typography mt={12} fontSize={16} sx={{ opacity: 0.6 }} textAlign="center">
-        一眼掌握加密貨幣的關鍵數據
+        一手掌握加密貨幣的關鍵數據
       </Typography>
       <Grid container spacing={30} pt={15}>
         <Grid item xs={12} md={3}>
