@@ -1,11 +1,14 @@
 import { useEffect } from 'react'
-import Head from 'next/head'
+import { Typography } from '@mui/material'
+import Link from 'components/Link/Link'
 
 declare global {
   interface Window {
     trends?: any
   }
 }
+
+const GOOGLE_TREND_BASE_URL = 'https://trends.google.com/trends/explore'
 
 export default function Trendchart({
   id,
@@ -40,10 +43,21 @@ export default function Trendchart({
 
   return (
     <>
-      <Head>
-        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script>
-      </Head>
       <div id={id}></div>
+      <Typography sx={{ opacity: 0.5 }}>
+        *若此圖表沒有正常顯示，可能是你使用非Chrome的瀏覽器，或者是使用無痕模式，請
+        <Link
+          color="blue"
+          href={GOOGLE_TREND_BASE_URL + '?' + exploreQuery}
+          title={id}
+          disableHover
+          target="_blank"
+          type="external"
+        >
+          點擊
+        </Link>
+        直接至Google Trends瀏覽
+      </Typography>
     </>
   )
 }

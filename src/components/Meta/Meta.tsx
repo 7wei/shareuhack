@@ -49,6 +49,7 @@ export default function Meta() {
             `,
         }}
       />
+
       <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script>
 
       <noscript>
