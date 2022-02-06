@@ -118,7 +118,7 @@ export default function Crypto({}) {
         <Grid item xs={12} md={3}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             <Typography fontSize={24} fontWeight={700}>
-              恐懼與貪婪指數 Fear & Greed Index
+              恐懼與貪婪指數(FnG Index)
             </Typography>
             <Typography fontSize={24} fontWeight={700}>
               {FnGSeriesData[FnGSeriesData.length - 1]?.value}
