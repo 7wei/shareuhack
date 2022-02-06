@@ -45,7 +45,7 @@ export default function Trendchart({
     <>
       <div id={id}></div>
       <Typography sx={{ opacity: 0.5 }}>
-        *若沒有正常顯示，可能是你使用非Chrome瀏覽器或者無痕模式，請
+        *若沒有正常顯示，請
         <Link
           color="blue"
           href={GOOGLE_TREND_BASE_URL + '?' + exploreQuery}
