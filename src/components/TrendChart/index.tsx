@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Head from 'next/head'
 
 declare global {
   interface Window {
@@ -37,5 +38,12 @@ export default function Trendchart({
     )
   }, [])
 
-  return <div id={id}></div>
+  return (
+    <>
+      <Head>
+        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script>
+      </Head>
+      <div id={id}></div>
+    </>
+  )
 }

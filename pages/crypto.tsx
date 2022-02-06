@@ -82,7 +82,6 @@ export default function Crypto({}) {
         <meta property="twitter:title" content={`${CMS_NAME} | ${t('crypto')}`} />
         <meta property="twitter:description" content={t('cryptoDescript')} />
         <meta property="twitter:card" content="summary" />
-        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script>
       </Head>
       <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
         {t('crypto')}
