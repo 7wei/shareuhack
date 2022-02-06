@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import Head from 'next/head'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Typography, Grid, Box, useTheme } from '@mui/material'
@@ -11,6 +11,12 @@ import { useFnG } from '../src/hooks/useFnG'
 import dayjs from 'dayjs'
 import { useTranslation } from 'next-i18next'
 import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
+
+declare global {
+  interface Window {
+    trends?: any
+  }
+}
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
@@ -64,6 +70,54 @@ export default function Crypto({}) {
     )
   }, [mappedFnGSeriesData])
 
+  useEffect(() => {
+    const div1 = document.getElementById('trendDiv1')
+    const div2 = document.getElementById('trendDiv2')
+
+    if (!window.trends) {
+      return
+    }
+
+    div1.innerHTML = ''
+    div2.innerHTML = ''
+
+    window.trends.embed.renderExploreWidgetTo(
+      div1,
+      'TIMESERIES',
+      {
+        comparisonItem: [
+          { keyword: 'buy bitcoin', geo: '', time: 'today 3-m' },
+          { keyword: 'bitcoin crash', geo: '', time: 'today 3-m' },
+          { keyword: 'bitcoin usd', geo: '', time: 'today 3-m' },
+        ],
+        category: 0,
+        property: '',
+      },
+      {
+        exploreQuery: 'date=today%203-m&q=buy%20bitcoin,bitcoin%20crash,bitcoin%20usd',
+        guestPath: 'https://trends.google.com:443/trends/embed/',
+      }
+    )
+
+    window.trends.embed.renderExploreWidgetTo(
+      div2,
+      'TIMESERIES',
+      {
+        comparisonItem: [
+          { keyword: 'binance', geo: '', time: '2021-02-06 2022-02-06' },
+          { keyword: 'coinbase', geo: '', time: '2021-02-06 2022-02-06' },
+          { keyword: 'FTX', geo: '', time: '2021-02-06 2022-02-06' },
+        ],
+        category: 0,
+        property: '',
+      },
+      {
+        exploreQuery: 'q=binance,coinbase,FTX&date=today 12-m,today 12-m,today 12-m',
+        guestPath: 'https://trends.google.com:443/trends/embed/',
+      }
+    )
+  }, [])
+
   return (
     <>
       <Head>
@@ -78,6 +132,7 @@ export default function Crypto({}) {
         <meta property="twitter:title" content={`${CMS_NAME} | ${t('crypto')}`} />
         <meta property="twitter:description" content={t('cryptoDescript')} />
         <meta property="twitter:card" content="summary" />
+        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script>
       </Head>
       <Typography fontSize={36} fontWeight={700} component="h1" textAlign="center" mt={24}>
         {t('crypto')}
@@ -129,6 +184,29 @@ export default function Crypto({}) {
         <Grid item xs={12} md={9}>
           <Card padding={15} outlined color={theme.palette.primary.main}>
             {FnGChart}
+          </Card>
+        </Grid>
+        <Grid item xs={12}>
+          <Card padding={15} outlined color={theme.palette.primary.main}>
+            <Typography fontSize={24} fontWeight={700}>
+              趨勢分析：比特幣相關查詢
+            </Typography>
+            <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
+              「buy bitcoin」代表新加入市場的數量；「bitcoin
+              crash」代表了大眾對市場的猜疑和恐懼，或已發生的事實；「bitcoin usd」代表大眾對比特幣價錢的關注程度，
+            </Typography>
+            <div id="trendDiv1"></div>
+          </Card>
+        </Grid>
+        <Grid item xs={12}>
+          <Card padding={15} outlined color={theme.palette.primary.main}>
+            <Typography fontSize={24} fontWeight={700}>
+              趨勢分析：前三大交易所
+            </Typography>
+            <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
+              交易所關鍵字的搜索量，反映了欲嘗試、剛進入加密貨幣市場的投資者數量。
+            </Typography>
+            <div id="trendDiv2"></div>
           </Card>
         </Grid>
       </Grid>
