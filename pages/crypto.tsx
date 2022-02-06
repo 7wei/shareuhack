@@ -193,7 +193,7 @@ export default function Crypto({}) {
             </Typography>
             <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
               「buy bitcoin」代表新加入市場的數量；「bitcoin
-              crash」代表了大眾對市場的猜疑和恐懼，或已發生的事實；「bitcoin usd」代表大眾對比特幣價錢的關注程度，
+              crash」代表了大眾對市場的猜疑和恐懼，或已發生的事實；「bitcoin usd」代表大眾對比特幣價錢的關注程度
             </Typography>
             <div id="trendDiv1"></div>
           </Card>
@@ -204,7 +204,7 @@ export default function Crypto({}) {
               趨勢分析：前三大交易所
             </Typography>
             <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
-              交易所關鍵字的搜索量，反映了欲嘗試、剛進入加密貨幣市場的投資者數量。
+              交易所關鍵字的搜索量，反映了欲嘗試、剛進入加密貨幣市場的投資者數量
             </Typography>
             <div id="trendDiv2"></div>
           </Card>
