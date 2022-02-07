@@ -5,7 +5,6 @@ import { Category, Categories, Routes, SubCategories, CMS_NAME, OG_IMAGE_URL } f
 import { getCategoryPosts, getAllCategoryPaths } from '../../lib/api'
 import InfoCard from '../../src/components/InfoCard/InfoCard'
 import Link from '../../src/components/Link/Link'
-import useBreakpoint from '../../src/hooks/useBreakpoint'
 import PreviewRow from '../../src/components/Post/PreviewRow'
 import Divider from '../../src/components/Divider/Divider'
 import { useTranslation } from 'next-i18next'

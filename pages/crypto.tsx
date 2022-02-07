@@ -25,13 +25,13 @@ export default function Crypto({}) {
   const { t } = useTranslation('common')
   const theme = useTheme()
   const graphContainer = useRef<HTMLDivElement>(null)
-  const BTCPriceSeriesData = usePriceSet('BTC', 1000)
-  const FnGSeriesData = useFnG(1000)
+  const BTCPriceSeriesData = usePriceSet('BTC', 365)
+  const FnGSeriesData = useFnG(365)
 
-  const mappedFnGSeriesData = FnGSeriesData.map((data) => {
+  const mappedFnGSeriesData = FnGSeriesData.map(({ time, value }) => {
     return {
-      time: data.time,
-      value: data.value,
+      time,
+      value,
     }
   })
 
