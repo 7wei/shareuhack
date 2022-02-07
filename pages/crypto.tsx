@@ -21,12 +21,14 @@ const LineChart = dynamic(() => import('../src/components/Chart'), {
 //   ssr: false,
 // })
 
+const pastDays = 730
+
 export default function Crypto({}) {
   const { t } = useTranslation('common')
   const theme = useTheme()
   const graphContainer = useRef<HTMLDivElement>(null)
-  const BTCPriceSeriesData = usePriceSet('BTC', 365)
-  const FnGSeriesData = useFnG(365)
+  const BTCPriceSeriesData = usePriceSet('BTC', pastDays)
+  const FnGSeriesData = useFnG(pastDays)
 
   const mappedFnGSeriesData = FnGSeriesData.map(({ time, value }) => {
     return {

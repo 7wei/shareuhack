@@ -85,7 +85,7 @@ export default function DrawerComponent(props: Props) {
             href={Routes.crypto}
             onClick={onClick}
             color={theme.palette.primary.contrastText}
-            title={'Crypto'}
+            title={t('crypto')}
             type="nav"
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
