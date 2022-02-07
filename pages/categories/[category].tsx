@@ -38,7 +38,7 @@ export default function CategoryPage({ category, subCategories }) {
         <meta property="og:url" content={canonicalUrl} />
       </Head>
       {/* <Disclosure /> */}
-      <Grid container spacing={30} pt={15}>
+      <Grid container spacing={30} pt={30}>
         <Grid item sm={9}>
           <Typography fontSize={36} fontWeight={700} component="h1">
             {t(`categories.${category.key}.title`)}

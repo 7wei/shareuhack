@@ -11,14 +11,15 @@ import { useFnG } from '../src/hooks/useFnG'
 import dayjs from 'dayjs'
 import { useTranslation } from 'next-i18next'
 import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
+import TrendChart from '../src/components/TrendChart'
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
 })
 
-const TrendChart = dynamic(() => import('../src/components/TrendChart'), {
-  ssr: false,
-})
+// const TrendChart = dynamic(() => import('../src/components/TrendChart'), {
+//   ssr: false,
+// })
 
 export default function Crypto({}) {
   const { t } = useTranslation('common')
