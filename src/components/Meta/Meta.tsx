@@ -3,15 +3,13 @@ import { FB_PIXEL_ID } from '../../../lib/fpixel'
 
 import { useRouter } from 'next/router'
 
-const indexWhiteList = ['zh-TW', 'zh-CN']
-
 export default function Meta() {
   const { locale, locales, asPath } = useRouter()
   // const canonicalUrl = process.env.NEXT_PUBLIC_BASE_URL + asPath
 
   return (
     <Head>
-      {locale && !indexWhiteList.includes(locale) && <meta name="robots" content="noindex" />}
+      {/* {locale && !indexWhiteList.includes(locale) && <meta name="robots" content="noindex" />} */}
 
       {/* {locales
         ?.filter((el) => el !== 'zh-TW')
@@ -34,7 +32,7 @@ export default function Meta() {
         property="og:url"
         content={locale === 'zh-TW' ? canonicalUrl : process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
       /> */}
-      <meta property="og:image:alt" content="Shareuhack | Hacks for real life" />
+
       <meta name="twitter:site" content="@shareuhack" />
       <meta name="twitter:creator" content="@shareuhack" />
 
