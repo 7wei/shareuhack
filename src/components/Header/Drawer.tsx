@@ -69,18 +69,6 @@ export default function DrawerComponent(props: Props) {
             </Link>
           ))}
           <Link
-            key={'instahack'}
-            href={Routes.instahack}
-            onClick={onClick}
-            color={theme.palette.primary.contrastText}
-            title={'InstaHack'}
-            type="nav"
-          >
-            <Typography variant="body1" color={theme.palette.text.primary}>
-              InstaHack
-            </Typography>
-          </Link>
-          <Link
             key={'crypto'}
             href={Routes.crypto}
             onClick={onClick}
@@ -90,6 +78,18 @@ export default function DrawerComponent(props: Props) {
           >
             <Typography variant="body1" color={theme.palette.text.primary}>
               {t('crypto')}
+            </Typography>
+          </Link>
+          <Link
+            key={'instahack'}
+            href={Routes.instahack}
+            onClick={onClick}
+            color={theme.palette.primary.contrastText}
+            title={'InstaHack'}
+            type="nav"
+          >
+            <Typography variant="body1" color={theme.palette.text.primary}>
+              InstaHack
             </Typography>
           </Link>
         </Box>

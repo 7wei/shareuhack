@@ -77,7 +77,7 @@ export default function Header() {
       url: Routes.crypto,
     }
 
-    return [...categories, instahack, crypto, about]
+    return [...categories, crypto, instahack, about]
   }, [])
 
   return (
