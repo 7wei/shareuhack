@@ -30,9 +30,9 @@ export default function InstaPost({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        position: 'relative',
-        width: width || '100%',
-        height: height || '100%',
+        // position: 'relative',
+        // width: width || '100%',
+        // height: height || '100%',
       }}
     >
       {/* <Box
@@ -53,7 +53,16 @@ export default function InstaPost({
           </Box>
         </Link>
       </Box> */}
-      <Carousel urls={slideUrls} size={'100%'} />
+      <Box
+        sx={{
+          position: 'relative',
+          width: width || '100%',
+          height: height || '100%',
+        }}
+      >
+        <Carousel urls={slideUrls} size={'100%'} />
+      </Box>
+
       {showInstagram && (
         <Link
           href={instagramUrl}
