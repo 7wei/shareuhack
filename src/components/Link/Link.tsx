@@ -24,7 +24,7 @@ export default function Link(props: Props) {
   const theme = useTheme()
 
   const handleClick = useCallback(() => {
-    onClick
+    onClick && onClick()
     event({
       action: 'click',
       category: type,
