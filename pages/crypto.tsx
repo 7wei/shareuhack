@@ -12,6 +12,7 @@ import dayjs from 'dayjs'
 import { useTranslation } from 'next-i18next'
 import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
 import TrendChart from '../src/components/TrendChart'
+import Link from '../src/components/Link/Link'
 
 const LineChart = dynamic(() => import('../src/components/Chart'), {
   ssr: false,
@@ -110,6 +111,19 @@ export default function Crypto({}) {
               {/* {dayjs(BTCPriceSeriesData[BTCPriceSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')} */}
               Update every 5s
             </Typography>
+            <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
+              資料來源：
+              <Link
+                color="blue"
+                href={'https://accounts.binance.com/zh-TW/register?ref=46000887'}
+                title={'Binance'}
+                disableHover
+                target="_blank"
+                type="external"
+              >
+                幣安Binance
+              </Link>
+            </Typography>
           </Card>
         </Grid>
         <Grid item xs={12} md={9}>
@@ -129,7 +143,20 @@ export default function Crypto({}) {
               {FnGSeriesData[FnGSeriesData.length - 1]?.classification}
             </Typography>
             <Typography fontSize={14} fontWeight={400} sx={{ opacity: 0.5 }}>
-              Last Updated at {dayjs(FnGSeriesData[FnGSeriesData.length - 1]?.time).format('YYYY-MM-DD')}
+              Last Updated at {dayjs(FnGSeriesData[FnGSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')}
+            </Typography>
+            <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
+              資料來源：
+              <Link
+                color="blue"
+                href={'https://alternative.me/crypto/fear-and-greed-index/'}
+                title={'alternative.me'}
+                disableHover
+                target="_blank"
+                type="external"
+              >
+                alternative.me
+              </Link>
             </Typography>
           </Card>
         </Grid>
