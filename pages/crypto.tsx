@@ -119,7 +119,7 @@ export default function Crypto({}) {
                 title={'Binance'}
                 disableHover
                 target="_blank"
-                type="external"
+                type="affiliate"
               >
                 幣安Binance
               </Link>
