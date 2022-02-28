@@ -79,7 +79,7 @@ export default function Crypto({}) {
           {CMS_NAME} | {t('crypto')}
         </title>
         <meta name="description" content={t('cryptoDescript')} />
-        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta property="og:image" content={process.env.NEXT_PUBLIC_BASE_URL + '/assets/brand/shareuhack-crypto.jpg'} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${CMS_NAME} | ${t('crypto')}`} />
         <meta property="og:description" content={t('cryptoDescript')} />
