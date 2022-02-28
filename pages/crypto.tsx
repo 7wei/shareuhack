@@ -115,11 +115,11 @@ export default function Crypto({}) {
               資料來源：
               <Link
                 color="blue"
-                href={'https://accounts.binance.com/zh-TW/register?ref=46000887'}
+                href="https://www.binance.com/"
                 title={'Binance'}
                 disableHover
                 target="_blank"
-                type="affiliate"
+                type="external"
               >
                 幣安Binance
               </Link>
@@ -131,7 +131,7 @@ export default function Crypto({}) {
             {BTCPriceChart}
           </Card>
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid item xs={12}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             <Typography fontSize={24} fontWeight={700}>
               恐懼與貪婪指數(FnG Index)
@@ -142,6 +142,35 @@ export default function Crypto({}) {
             <Typography fontSize={24} fontWeight={700} color={theme.palette.error.main}>
               {FnGSeriesData[FnGSeriesData.length - 1]?.classification}
             </Typography>
+
+            <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
+              加密貨幣市場是非常情緒化的，當牛市時，人們容易產生FOMO情緒(Fear of missing
+              out)，貪婪買進，而在熊市時恐慌拋售，「別人恐懼我貪婪」，然而，何時是恐懼；何時是貪婪？這個恐懼與貪婪指數，是由
+              <Link
+                color="blue"
+                href={'https://alternative.me/crypto/fear-and-greed-index/'}
+                title={'alternative.me'}
+                disableHover
+                target="_blank"
+                type="external"
+              >
+                alternative.me
+              </Link>
+              依據下幾個資料來源，計算出的指標：1. 波動性 2. 市場動能/成交量 3. 社群媒體 4. 比特幣市值佔比(參考
+              <Link
+                color="blue"
+                href={'https://coinmarketcap.com/zh-tw/charts/'}
+                title={''}
+                disableHover
+                target="_blank"
+                type="external"
+              >
+                CoinMarketCap全球加密貨幣圖表
+              </Link>
+              ) 5. Google Trends，以量化的方式幫助你識別現在市場的情緒狀況，而非個人情緒觀感。
+            </Typography>
+
+            {FnGChart}
             <Typography fontSize={14} fontWeight={400} sx={{ opacity: 0.5 }}>
               Last Updated at {dayjs(FnGSeriesData[FnGSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')}
             </Typography>
@@ -160,11 +189,9 @@ export default function Crypto({}) {
             </Typography>
           </Card>
         </Grid>
-        <Grid item xs={12} md={9}>
-          <Card padding={15} outlined color={theme.palette.primary.main}>
-            {FnGChart}
-          </Card>
-        </Grid>
+        {/* <Grid item xs={12} md={9}>
+          <Card padding={15} outlined color={theme.palette.primary.main}></Card>
+        </Grid> */}
         <Grid item xs={12}>
           <Card padding={15} outlined color={theme.palette.primary.main}>
             <Typography fontSize={24} fontWeight={700}>
