@@ -98,14 +98,17 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   <Link href={category?.link} locale={locale} title={t(`categories.${category?.key}.title`)} type="nav">
                     {t(`categories.${category?.key}.title`)}
                   </Link>
-                  <Link
+                  {/* <Link
                     href={subCategory?.link}
                     locale={locale}
                     title={t(`subCategories.${subCategory?.key}.title`)}
                     type="nav"
                   >
                     {t(`subCategories.${subCategory?.key}.title`)}
-                  </Link>
+                  </Link> */}
+                  <Typography color={theme.palette.text.primary} fontWeight={500}>
+                    {t(`subCategories.${subCategory?.key}.title`)}
+                  </Typography>
                 </Breadcrumbs>
               )}
               <Typography component="h1" variant="h1" mt={8} sx={{ wordWrap: 'break-word' }}>
