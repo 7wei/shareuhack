@@ -33,7 +33,14 @@ export default function AmpPost({ post, relatedPosts, categories }: { post: any;
           layout={'responsive'}
         />
       )}
-      <div dangerouslySetInnerHTML={{ __html: post.ampContent }} />
+      <div
+        style={{
+          ['& * img']: {
+            width: '100%',
+          },
+        }}
+        dangerouslySetInnerHTML={{ __html: post.ampContent }}
+      />
       {post.recommendations && post.recommendations.length > 0 && (
         <>
           <h3>推薦資源</h3>
