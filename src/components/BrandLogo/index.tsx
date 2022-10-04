@@ -21,7 +21,7 @@ export default function BrandLogo({ width }: { width: string | number }) {
         <a href="/">
           <amp-img
             title="shareuhack brand logo"
-            src={'/assets/brand/shareuhack2.svg'}
+            src={'/assets/brand/shareuhack3.svg'}
             alt="shareuhack brand logo"
             width={width}
             height={'60px'}
@@ -38,7 +38,7 @@ export default function BrandLogo({ width }: { width: string | number }) {
           <Image
             title="shareuhack brand logo"
             aria-label="shareuhack brand logo"
-            src={'/assets/brand/shareuhack2.svg'}
+            src={'/assets/brand/shareuhack3.svg'}
             alt="shareuhack brand logo"
             layout="fill"
           />
