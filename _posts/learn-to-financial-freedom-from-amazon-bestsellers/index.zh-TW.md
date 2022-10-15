@@ -18,7 +18,7 @@ recommendations:
     # },
     {
       title: 'The Total Money Makeover Journal',
-      link: 'https://tinyurl.com/2f4xp7xr'
+      link: 'https://tinyurl.com/2f4xp7xr',
       src: '金石堂'
     },
     {

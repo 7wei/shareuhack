@@ -20,9 +20,9 @@ recommendations:
     # },
     {
       title: '生活需要儀式感',
-      link: 'https://tinyurl.com/2kj95ocl'
+      link: 'https://tinyurl.com/2kj95ocl',
       src: '金石堂'
-    }
+    },
     # {
     #   title: '日子過得美，生活就會好',
     #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010878300?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111',
