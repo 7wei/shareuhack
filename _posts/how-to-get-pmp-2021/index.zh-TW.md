@@ -21,11 +21,16 @@ recommendations: [
       link: 'https://tinyurl.com/yzgyqkyg',
       src: 'Udemy',
     },
+    # {
+    #   title: '深入淺出 PMP',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+    #   src: '博客來',
+    # },
     {
-      title: '深入淺出 PMP',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '博客來',
-    },
+      title: '深入淺出PMP',
+      link: 'https://tinyurl.com/2jbw33es',
+      src: '金石堂'
+    }
   ]
 references:
   [
@@ -163,7 +168,7 @@ PMBOK 6和7主要的差別在於：
 
 4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
 
-5. [深入淺出 PMP](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
+5. [深入淺出 PMP](https://tinyurl.com/2jbw33es "affiliate")：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
 ### 準備方式
 

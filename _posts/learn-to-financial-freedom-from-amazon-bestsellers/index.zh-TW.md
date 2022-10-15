@@ -11,10 +11,15 @@ ogImage:
   url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
 recommendations:
   [
+    # {
+    #   title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
+    #   link: 'https://amzn.to/3iLlvUQ',
+    #   src: 'Amazon',
+    # },
     {
-      title: 'The Total Money Makeover: A Proven Plan for Financial Fitness',
-      link: 'https://amzn.to/3iLlvUQ',
-      src: 'Amazon',
+      title: 'The Total Money Makeover Journal',
+      link: 'https://tinyurl.com/2f4xp7xr'
+      src: '金石堂'
     },
     {
       title: 'Money: Master the Game: 7 Simple Steps to Financial Freedom',
@@ -26,20 +31,25 @@ recommendations:
       link: 'https://amzn.to/3m37K5U',
       src: 'Amazon',
     },
+    # {
+    #   title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F016396356?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+    #   src: '博客來',
+    # },
     {
       title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F016396356?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '博客來',
+      link: 'https://tinyurl.com/2oveyv27',
+      src: '金石堂',
     },
   ]
 ---
 
 這篇文章不討論財富自由聖杯，希望藉由統整幾個 Amazon 暢銷書富有信譽的作者傳達的訊息，提供我們普羅大眾對於財務管理和通往財務自由，比較穩健的一些觀念。
 
-## The Total Money Makeover: A Proven Plan for Financial Fitness
+## The Total Money Makeover
 
 - 作者：Dave Ramsey
-- 連結：[博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F013215612?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate") | [Amazon](https://amzn.to/3iLlvUQ "affiliate")
+- 連結：[金石堂](https://tinyurl.com/2f4xp7xr "affiliate") | [Amazon](https://amzn.to/3iLlvUQ "affiliate")
 
 這本書提供 7 個簡單步驟，帶你扭轉你的財務頹勢，透過這些方式，可以重拾有財務保障的生活，並開始計劃未來，往舒適、有意義的生活和退休日子邁進。
 
@@ -91,7 +101,7 @@ recommendations:
 ## The Psychology of Money: Timeless lessons on wealth, greed, and happiness
 
 - 作者：Housel, Morgan
-- 連結：[Amazon](https://amzn.to/3m37K5U "affiliate") | [博客來](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/F016396356?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")
+- 連結：[Amazon](https://amzn.to/3m37K5U "affiliate") | [金石堂](https://tinyurl.com/2qpny7vt "affiliate")
 
 在現實世界裡，人的財務的決定總是比想像中還要的不理性，許多的決定，例如當你將破產時，投注大量的樂透、開槓桿賭博等等，非常地不理性，但對個體而言，這個動作似乎又有點道理。投資也是一樣的道理，人們投資通常是受各自人生經驗、個性所左右，而不是對於市場時局的冷靜分析。例如：經歷過金融風暴的，和一入市市場就一直穩定、多頭的，對投資的策略、想法會大不相同。總總的決定其實牽扯著許多心理學的因素。
 

@@ -12,15 +12,25 @@ ogImage:
 keywords: 'Time matrix, Management, 管理, 生產力'
 recommendations:
   [
+    # {
+    #   title: '為什麼越重要的事越不想做？51 種克服拖延與分心，打造超級自控力的訓練計畫',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010885515?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111',
+    #   src: '博客來',
+    # },
     {
       title: '為什麼越重要的事越不想做？51 種克服拖延與分心，打造超級自控力的訓練計畫',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010885515?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111',
-      src: '博客來',
+      link: 'https://tinyurl.com/2m27j8kx',
+      src: '金石堂',
     },
+    # {
+    #   title: '時間經濟學：最佳工作時序白金四原則， 讓時間價值極大化的「鬼速工作術」',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010803535?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111',
+    #   src: '博客來',
+    # },
     {
       title: '時間經濟學：最佳工作時序白金四原則， 讓時間價值極大化的「鬼速工作術」',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010803535?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202111',
-      src: '博客來',
+      link: 'https://tinyurl.com/2zu9jrgn',
+      src: '金石堂',
     },
   ]
 ---

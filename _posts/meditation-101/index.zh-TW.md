@@ -11,15 +11,25 @@ ogImage:
   url: '/assets/posts/meditation-101.jpg'
 credentials: ['冥想親身經歷實踐約1年', '閱讀20+篇網路上的文章', '看youtube相關影片10+', '閱讀相關書籍2+']
 recommendations: [
+    # {
+    #   title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010734483?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
+    #   src: '博客來',
+    # },
     {
       title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010734483?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
-      src: '博客來',
+      link: 'https://tinyurl.com/2ja4q2yg',
+      src: '金石堂',
     },
     {
       title: '十分鐘冥想',
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/CN11709661?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
       src: '博客來',
+    },
+    {
+      title: '超實踐！大腦意識訓練',
+      link: 'https://tinyurl.com/2n2lkyya',
+      src: '金石堂',
     },
   ]
 references:

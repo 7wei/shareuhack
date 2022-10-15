@@ -17,15 +17,25 @@ recommendations:
       link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010369914?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202202',
       src: '博客來',
     },
+    # {
+    #   title: '向宇宙下訂單－大膽要、放心收！秘密真人實證版',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010417780?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202202',
+    #   src: '博客來',
+    # },
     {
       title: '向宇宙下訂單－大膽要、放心收！秘密真人實證版',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010417780?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202202',
-      src: '博客來',
+      link: 'https://tinyurl.com/2fhqxgfl',
+      src: '金石堂',
     },
-    {
+    # {
+    #   title: '正能量心理學：科學版的「吸引力法則」，教你用行為改變思維，正向改變人生',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010797804?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202202',
+    #   src: '博客來',
+    # },
+      {
       title: '正能量心理學：科學版的「吸引力法則」，教你用行為改變思維，正向改變人生',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010797804?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202202',
-      src: '博客來',
+      link: 'https://tinyurl.com/2qz8xdmn',
+      src: '金石堂',
     },
   ]
 references:

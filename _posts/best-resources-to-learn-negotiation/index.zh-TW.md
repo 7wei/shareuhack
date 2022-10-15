@@ -47,22 +47,22 @@ recommendations: [
     # },
     {
       title: '鏡與窗談判課',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '博客來',
+      link: 'https://tinyurl.com/2r28j6lr',
+      src: '金石堂',
     },
     { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
-    # { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
-    {
-      title: '華頓商學院最受歡迎的談判課',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '博客來',
-    },
-    # { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
-    {
-      title: 'FBI談判協商術',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-      src: '博客來',
-    },
+    { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
+    # {
+    #   title: '華頓商學院最受歡迎的談判課',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+    #   src: '博客來',
+    # },
+    { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
+    # {
+    #   title: 'FBI談判協商術',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
+    #   src: '博客來',
+    # },
   ]
 # related: []
 keywords: '談判技巧, Negotiation, 線上學習'
