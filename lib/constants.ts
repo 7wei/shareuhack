@@ -103,9 +103,9 @@ export const Locales = [
 ]
 
 export const HotPostSlugs = [
+  'how-to-get-agoda-transaction-fee-back',
   'meditation-101',
   'how-to-get-pmp-2021',
-  'blinkist-an-efficient-way-to-get-key-ideas',
   'sense-of-ritual-best-practice',
   'how-to-become-a-frontend-engineer',
   'best-resources-to-learn-negotiation',
