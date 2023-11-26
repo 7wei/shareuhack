@@ -1,5 +1,5 @@
 ---
-title: '如何申請Agoda國外交易手續費退費？'
+title: '如何申請Agoda訂房國外交易手續費退費？'
 category: 'life'
 subCategory: 'travel'
 excerpt: '你知道，使用Agoda訂房所支付的國外交易手續費，是可以退的嗎？ 這篇文章教你如何向Agoda申請國外交易手續費退費。'
@@ -20,14 +20,14 @@ references:
   ]
 related:
   []
-keywords: 'Agoda, 海外交易手續費, 退費'
+keywords: 'Agoda, 海外交易手續費, 退費, 旅遊, 訂房, A金'
 description: '此篇文章介紹如何向Agoda申請國外交易手續費退費。'
-about: 'Agoda, 海外交易手續費'
+about: 'Agoda, 海外交易手續費, 訂房'
 faqs:
   []
 ---
 
-## 如何申請Agoda國外交易手續費退費？
+## 如何申請Agoda訂房國外交易手續費退費？
 
 你知道，使用 [Agoda](https://tinyurl.com/yqt6erwr)訂房所支付的國外交易手續費，是可以退的嗎？
 這篇文章教你如何向 Agoda申請國外手續費退費。
