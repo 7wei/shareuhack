@@ -10,6 +10,11 @@ ogImage:
   url: '/assets/posts/how-get-agoda-transaction-fee-back.jpg'
 credentials: ['實際申請成功經驗', 'Agoda資深用戶', '旅遊達人']
 recommendations: [
+    {
+      title: '官方優惠專區',
+      link: 'https://tinyurl.com/ytkuz3vu',
+      src: 'Agoda',
+    },
   ]
 references:
   [
@@ -27,13 +32,13 @@ faqs:
   []
 ---
 
-## 什麼？我被收了海外交易手續費？
+## 什麼？我被收了國外交易手續費？
+
+趕快確認一下信用卡帳單，使用 Agoda訂房是否有被收國外交易手續費！
 
 目前 [Agoda](https://tinyurl.com/yqt6erwr)屬於海外公司，在台灣沒有收款銀行，在Agoda，無論在國外或國內訂房，都會被刷一筆 1.5%的國外交易手續費，而這筆錢並非由 Agoda收取，而是由管理收付款項的銀行或金融機構收取，
 
 依據 [Agoda](https://tinyurl.com/yqt6erwr)目前的國外交易手續費補償規定，若該筆訂單是三個月內之訂單，可以申請退費，並以等值 A金補償在 Agoda預定時發卡銀行所收取的手續費。
-
-趕快確認一下信用卡帳單，使用 Agoda訂房是否有被收到這筆手續費！
 
 ## Agoda訂房國外交易手續費是可退還的！
 
