@@ -175,7 +175,7 @@ PMBOK 6和7主要的差別在於：
 
 5. [深入淺出 PMP](https://tinyurl.com/2jbw33es "affiliate")：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
 
-6. [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate")
+6. [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate")：針對PMBOK 7的模擬考題，可以提供更多AGILE/HYBRID/PREDICTIVE方面問題的練習。
 
 ### 準備方式
 
