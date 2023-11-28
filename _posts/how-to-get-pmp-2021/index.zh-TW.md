@@ -6,21 +6,26 @@ subCategory: 'projectManagement'
 excerpt: '有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！'
 coverImage: '/assets/posts/how-to-get-pmp-2021.jpg'
 publishedAt: '2021-07-18'
-updatedAt: '2022-01-11'
+updatedAt: '2023-11-28'
 ogImage:
   url: '/assets/posts/how-to-get-pmp-2021.jpg'
 credentials: ['訪問2位考取PMP的專案經理', '閱讀30+篇網路上的文章', '實際觀看3+個線上課程']
 recommendations: [
     {
-      title: 'PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs',
+      title: 'PMP Exam Prep Seminar - Complete Exam Coverage with 35 PDUs',
       link: 'https://tinyurl.com/yfen2p3g',
       src: 'Udemy',
     },
     {
-      title: 'PMP Exam Cram Session - Updated for the 2021 PMP Exam',
+      title: 'PMP Exam Cram Session - Updated for the current PMP Exam',
       link: 'https://tinyurl.com/yzgyqkyg',
       src: 'Udemy',
     },
+    {
+      title: 'PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)',
+      link: 'https://tinyurl.com/yn7bdabm',
+      src: 'Udemy',
+    }
     # {
     #   title: '深入淺出 PMP',
     #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
@@ -120,7 +125,7 @@ instagramUrl: 'https://www.instagram.com/p/CZD8nwglmXk/'
 
 如果很確定要考取PMP證照，建議註冊帳戶後，也加入付費會員，會需要支付US$129/year的會員費用，還有US$10一次性申請費用，主要的好處是，會員的考試費用為US$405，而非會員要 US$555，因次加了會員，其實還是比較省一點，此外最重要的一點，會員可以免費下載PMBOK®Guide的pdf檔案。
 
-## 2021年PMP考試到底改了哪些東西？為什麼要改版？
+## 2021年開始，PMP考試到底改了哪些東西？為什麼要改版？
 
 因為專案經理這個角色、專案管理的方式和思維，是隨著時間不段進化的。
 
@@ -162,30 +167,34 @@ PMBOK 6和7主要的差別在於：
 
 1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668 "PMP官方提供的考試大綱"): PMP官方提供的考試大綱，這文件會告訴你考試到底會包含哪些內內容。
 
-2. PMI 官方的 PMBOK GUIDE 6： PMI專案管理知識體系的標準，PMI的會員可以免費下載 pdf檔案。
+2. PMI 官方的 PMBOK 6 + 7 + APG (Agile Practice Guide) ：PMI的會員都可以免費下載 pdf檔案。
 
-3. [PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")：Udemy上的Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得35PDUs，可以直接滿足報名PMP考試所需要的基本培訓需求。這位作者會持續的更新最新的PMP相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取PDUs，也對整個知識架構有個概觀。
+3. [PMP Exam Prep Seminar - Complete Exam Coverage with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")：Udemy上的Joseph Phillips 課程，只要完成課程、作業和試驗，即可以獲得35PDUs，可以直接滿足報名PMP考試所需要的基本培訓需求。這位作者會持續的更新最新的PMP相關內容，所以不用擔心他的內容是過時的。我們實際檢視課程，這個課程講解算是清楚明瞭，即使沒有太強專業背景，也都可以有良好的吸收，但如果是經驗豐富的專案經理，可能會稍嫌無趣。還是建議快速看過此課程，獲取PDUs，也對整個知識架構有個概觀。
 
-4. [PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
+4. [PMP Exam Cram Session - Updated for the current PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")：同樣也是Joseph在Udemy上架的課程，有點像是考前衝刺班，裡面有附135題練習題。
 
 5. [深入淺出 PMP](https://tinyurl.com/2jbw33es "affiliate")：以視覺化較活潑生動的方式涵蓋PMBOK的內容，也提供生動的練習題，幫助掌握相關的知識，建議專案管理經驗尚淺的人、或者是只是想先瞭解專案管理知識，尚未去定要踏入這職業的人，可以先看這本書了解整個專案管理的基本知識和脈絡。也不失為一個優質的課外讀物。
+
+6. [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate")
 
 ### 準備方式
 
 1. 先看過一次[PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668 "PMP官方提供的考試大綱")，了解考試的大綱和範圍，若你有一定的專案經理經驗，看完你應該會鬆一口氣，你將會發現，這些問題都將難不了你。
 
-2. 完整的上完[PMP Exam Prep Seminar - 2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成1.5x速率來看完課程。每個人狀況不同，通常 1-2個月內可以完成這課程的學習
+2. 完整的上完[PMP Exam Prep Seminar - Complete Exam Coverage with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate")課程，學習整個知識框架、並獲得申請考試足夠的 PDUs，同時建議一起掃過PMBOK，若你是經驗豐富的專案經理，這些內容對你來說將是小菜一碟，但你還是會需要熟悉這套系統的術語，可以調整成1.5x速率來看完課程。每個人狀況不同，通常 1-2個月內可以完成這課程的學習
 
-3. 把PMBOK再翻過一遍，其實看完課程後，對這套知識體系掌握的程度就很高了，看PMBOK不會花上太多時間。
+3. 把官方資料快速再翻過一遍，其實看完課程後，對這套知識體系掌握的程度就很高了，不用太細看，後續做到題目或有問題實再參考即可。
 
 4. 開始練習模擬考題，網路上有不少免費的測試資源，下面我們也列出了一些，做模擬試題時不用太拘泥於每題的對錯，重點是你要看到這些題目，有明確的想法，若有模糊的部分，趕快回去翻 PMBOK，或者可以在 [Facebook](https://www.facebook.com/groups/839989579444112 "Facebook PMP Groups")、[Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP "Linkedin PMP Groups")相關社團提出討論，通常社群都會願意協助的。至於需要做多少題目呢？其實把本文學習資源的題目已是非常足夠，額外的練習，主要是用來增加信心，避免緊張。
 
-5. 考前再以[PMP Exam Cram Session - Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")做最後的複習，上完課程、做完測驗題，就可以從容上陣了。
+5. 考前再以[PMP Exam Cram Session - Updated for the current PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate")做最後的複習，搭配[PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate")刷模擬題，就可以從容上陣了。
 
-### 免費模擬測試資源
+### 模擬測試資源
 
-1. [pmppracticeexam.org](https://www.pmppracticeexam.org/ "PMP Practice Exam")
+1. [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate")(付費)
 
-2. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx "Edwel Programs")
+2. [pmppracticeexam.org](https://www.pmppracticeexam.org/ "PMP Practice Exam")(免費)
 
-3. [PM Exam Simulator](https://free.pm-exam-simulator.com/ "PM Exam Simulator")
+3. [Edwel Programs](https://www.edwel.com/Free-Resources/PMP-Certification-Practice-Exam.aspx "Edwel Programs")(免費)
+
+4. [PM Exam Simulator](https://free.pm-exam-simulator.com/ "PM Exam Simulator")(免費)
