@@ -62,17 +62,17 @@ faqs:
 
 趕快確認一下信用卡帳單，使用 Agoda訂房是否有被收國外交易手續費！
 
-目前 [Agoda](https://tinyurl.com/yqt6erwr)屬於海外公司，在台灣沒有收款銀行，在Agoda，無論在國外或國內訂房，都會被刷一筆 1.5%的國外交易手續費，而這筆錢並非由 Agoda收取，而是由管理收付款項的銀行或金融機構收取，
+目前 [Agoda](https://tinyurl.com/yqt6erwr "affiliate")屬於海外公司，在台灣沒有收款銀行，在Agoda，無論在國外或國內訂房，都會被刷一筆 1.5%的國外交易手續費，而這筆錢並非由 Agoda收取，而是由管理收付款項的銀行或金融機構收取，
 
-依據 [Agoda](https://tinyurl.com/yqt6erwr)目前的國外交易手續費補償規定，若該筆訂單是三個月內之訂單，可以申請退費，並以等值 A金補償在 Agoda預定時發卡銀行所收取的手續費。
+依據 [Agoda](https://tinyurl.com/yqt6erwr "affiliate")目前的國外交易手續費補償規定，若該筆訂單是三個月內之訂單，可以申請退費，並以等值 A金補償在 Agoda預定時發卡銀行所收取的手續費。
 
 ## Agoda訂房國外交易手續費是可退還的！
 
-其實 [Agoda](https://tinyurl.com/yqt6erwr)訂房所支付的國外交易手續費是可以退的！這篇文章教你如何向 Agoda申請國外手續費退費。請注意，[Agoda](https://tinyurl.com/yqt6erwr)，只受理三個月內的訂單，所以不要猶豫，趕快檢查一下是否有可以申請退費的訂單吧！
+其實 [Agoda](https://tinyurl.com/yqt6erwr "affiliate")訂房所支付的國外交易手續費是可以退的！這篇文章教你如何向 Agoda申請國外手續費退費。請注意，[Agoda](https://tinyurl.com/yqt6erwr "affiliate")，只受理三個月內的訂單，所以不要猶豫，趕快檢查一下是否有可以申請退費的訂單吧！
 
 ## 申請國外交易手續費補償步驟
 
-1. 點擊[查詢訂單](https://tinyurl.com/yqm3msm6)，確認飯店名稱和訂單編號。
+1. 點擊[查詢訂單](https://tinyurl.com/yqm3msm6 "affiliate")，確認飯店名稱和訂單編號。
 
 2. 點擊 [Agoda官方客服信箱](mailto:TW-SERVICE@agoda.com)，開始編輯信件。信件主旨填寫「申請國外交易手續費補償」，內容包含飯店名稱、訂單編號，並附上信用卡的帳單明細文件帳單文件上要可以清楚顯示以下資訊：持卡人姓名、銀行商標、信用卡卡號末四碼、商家名稱、交易日期、金額和幣別。
 
@@ -92,10 +92,10 @@ faqs:
 
 5. 完成付款並確認預訂
 
-如欲了解A金的更多資訊，請前往：[Agoda官方政策](https://tinyurl.com/yrfkv9qy)
+如欲了解A金的更多資訊，請前往：[Agoda官方政策](https://tinyurl.com/yrfkv9qy "affiliate")
 
 ## Agoda或成最大贏家？
 
-實測下來，[Agoda](https://tinyurl.com/yqt6erwr)針對海外交易手續費的處理是相當快速的，這種看似讓 Agoda賠錢的事情，為什麼可以處理這麼快呢？實則不然，Agoda使用「限制有效期限的A金」進行補貼的方式其實相當聰明，相當於用少少的成本，贏得客戶的回購，不過，只要是固定有在使用Agoda訂房的用戶，申請國外交易手續費補償用於下次的訂房，不無小補。
+實測下來，[Agoda](https://tinyurl.com/yqt6erwr "affiliate")針對海外交易手續費的處理是相當快速的，這種看似讓 Agoda賠錢的事情，為什麼可以處理這麼快呢？實則不然，Agoda使用「限制有效期限的A金」進行補貼的方式其實相當聰明，相當於用少少的成本，贏得客戶的回購，不過，只要是固定有在使用Agoda訂房的用戶，申請國外交易手續費補償用於下次的訂房，不無小補。
 
 無論如何，別跟錢過意不去，養成好習慣，每月收到信用卡帳單，確認一下是否有在 Agoda訂房而被收到國外交易手續費，立即申請，長期也是可以省到不小的一筆錢！
