@@ -25,7 +25,7 @@ recommendations: [
       title: 'PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)',
       link: 'https://tinyurl.com/yn7bdabm',
       src: 'Udemy',
-    }
+    },
     # {
     #   title: '深入淺出 PMP',
     #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010825895?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
