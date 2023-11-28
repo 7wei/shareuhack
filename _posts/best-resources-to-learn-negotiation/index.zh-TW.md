@@ -29,22 +29,6 @@ recommendations: [
       src: 'Udemy',
     },
     { title: 'Negotiation Secrets for Master Negotiators', link: 'https://tinyurl.com/ygl3k6q6', src: 'Udemy' },
-    # {
-    #   title: 'Negotiation Fundamentals: How To Negotiate Effectively',
-    #   link: 'https://tinyurl.com/ydu698gg',
-    #   src: 'Udemy',
-    # },
-    # { title: 'Ask for More: 10 Questions to Negotiate Anything', link: 'https://amzn.to/3g0SsLc', src: 'Amazon' },
-    # {
-    #   title: 'Getting More: How You Can Negotiate to Succeed in Work and Life',
-    #   link: 'https://amzn.to/37EUcVN',
-    #   src: 'Amazon',
-    # },
-    # {
-    #   title: 'Never Split the Difference: Negotiating As If Your Life Depended On It',
-    #   link: 'https://amzn.to/37EX3hA',
-    #   src: 'Amazon',
-    # },
     {
       title: '鏡與窗談判課',
       link: 'https://tinyurl.com/2r28j6lr',
@@ -52,17 +36,7 @@ recommendations: [
     },
     { title: '鏡與窗談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
     { title: '華頓商學院最受歡迎的談判課', link: 'https://tinyurl.com/yf8mbvte', src: '金石堂' },
-    # {
-    #   title: '華頓商學院最受歡迎的談判課',
-    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-    #   src: '博客來',
-    # },
     { title: 'FBI談判協商術', link: 'https://tinyurl.com/yj2p4529', src: '金石堂' },
-    # {
-    #   title: 'FBI談判協商術',
-    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108',
-    #   src: '博客來',
-    # },
   ]
 # related: []
 keywords: '談判技巧, Negotiation, 線上學習'
@@ -142,11 +116,11 @@ instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 
 從課程吸收了大量知識，看看書沈澱一下吧，藉由了解更多實際案例，讓你對現實中的談判更有感覺，也可以順便整理一下思路，準備好做下一次的談判。
 
-- [鏡與窗談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010873973?sloc=main&utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
+- [鏡與窗談判課](https://tinyurl.com/2r28j6lr "affiliate")：這本書主要是聊如何在談判中處理感受，談判中，一直會有感受的變動，而感受又會直接影響我們的決策和談判表現，「面對鏡子反思自己，望向窗外看懂他人」，這本書直得一讀！
 
-- [華頓商學院最受歡迎的談判課](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010773987?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
+- [華頓商學院最受歡迎的談判課](https://tinyurl.com/yf8mbvte "affiliate")：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
 
-- [FBI 談判協商術](https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010725672?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202108 "affiliate")：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
+- [FBI 談判協商術](https://tinyurl.com/yj2p4529 "affiliate")：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
 
 ## 結語
 
