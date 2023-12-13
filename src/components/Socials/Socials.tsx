@@ -1,7 +1,7 @@
 import theme from 'theme/index'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import EmailIcon from '@mui/icons-material/Email'
-import TwitterIcon from '@mui/icons-material/Twitter'
+// import TwitterIcon from '@mui/icons-material/Twitter'
 import Link from '../../components/Link/Link'
 import { Box } from '@mui/material'
 
@@ -18,7 +18,7 @@ export default function Socials({ primary, size }: { primary?: boolean; size?: '
       >
         <FacebookIcon fontSize={size === 'small' ? 'medium' : 'large'} />
       </Link>
-      <Link
+      {/* <Link
         color={primary ? theme.palette.primary.main : theme.palette.primary.contrastText}
         href="https://twitter.com/shareuhack"
         title="Twitter"
@@ -27,7 +27,7 @@ export default function Socials({ primary, size }: { primary?: boolean; size?: '
         type="external"
       >
         <TwitterIcon fontSize={size === 'small' ? 'medium' : 'large'} />
-      </Link>
+      </Link> */}
       <Link
         color={primary ? theme.palette.primary.main : theme.palette.primary.contrastText}
         href="https://www.instagram.com/shareuhack/"
