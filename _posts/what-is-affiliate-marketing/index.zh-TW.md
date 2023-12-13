@@ -1,5 +1,5 @@
 ---
-title: '利用聯盟行銷賺取被動收入，提早財財務自由'
+title: '利用聯盟行銷賺取被動收入，提早財務自由'
 category: 'money'
 subCategory: 'entrepreneurship'
 excerpt: '此篇文章介紹什麼是聯盟行銷，怎麼透過聯盟行銷網站賺錢。'
@@ -20,11 +20,6 @@ about: '聯盟行銷, Affiliate Marketing, 創業, 網路賺錢'
 faqs:
   []
 ---
-
-
-
-利用聯盟行銷賺取被動收入，提早財財務自由
-====
 
 此篇文章介紹什麼是聯盟行銷，怎麼透過聯盟行銷網站賺錢。
 
