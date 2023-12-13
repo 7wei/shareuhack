@@ -23,7 +23,6 @@ faqs:
 
 此篇文章介紹什麼是聯盟行銷，怎麼透過聯盟行銷網站賺錢。
 
-
 ## 什麼是聯盟行銷？
 
 聯盟行銷起源於1996年的Amazon，推廣者透過提供商品連結，當讀者透過連結購買時，推廣者獲得佣金。成效類型包括CPS、CPC、CPL和CPA，不同於廣告，聯盟行銷是基於實際成效計費。
@@ -36,9 +35,9 @@ faqs:
 
 你可以在以下找到聯盟行銷的品牌合作機會：
 
-* [聯盟網](https://vbtrax.com/track/affr/33896)：以亞洲為主的平台，涵蓋品牌廣泛。
+* [聯盟網](https://vbtrax.com/track/affr/33896 "affiliate")：以亞洲為主的平台，涵蓋品牌廣泛。
 * [通路王](https://affnotes.com/go/ichannels/)：以台灣為主，地域性強、實體商品為主的平台。
-* [蝦皮](https://shope.ee/6UxytQEdAj)的聯盟行銷：東南亞主要的電商平台。
+* [蝦皮](https://shope.ee/6UxytQEdAj "affiliate")的[聯盟行銷](https://shope.ee/3fdnVz0Tr6)：東南亞主要的電商平台。
 * [CJ Affiliate](https://www.cj.com/)：美國最大的聯盟行銷平台。
 * [Amazon聯盟行銷](https://affiliate-program.amazon.com/)：全球電商龍頭，高成交率。
 * [ShareASale](https://account.shareasale.com/newsignup.cfm)：主要市場在美國，提供多樣的獨家行銷方案。
