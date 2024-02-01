@@ -88,6 +88,6 @@ references:
 
 也就是創業最難的部分，你必須規劃讓客戶發現你、並轉化為付費客戶的方式，建議一開始可以先把形象網站(Landing Page)和接單的方式(例如表單、購物車)搭建起來，透過社群媒體(Facebook/Instagram)和廣告(Google/Facebook)多曝光來試試水溫。
 
-非常推薦看看這個課程[How to Start a Successful Drop Servicing Business](http://tinyurl.com/ykff2p8s "affiliate")，裡面會比較詳細的介紹各種會需要用到的工具，以及需要注意的地方。
+非常推薦看看[How to Start a Successful Drop Servicing Business](http://tinyurl.com/ykff2p8s "affiliate")這個課程，裡面會比較詳細的介紹各種會需要用到的工具，以及需要注意的地方。
 
 Drop Servicing 是一個非常容易建構好的商業模式，基本上，透過一個最簡單的 Landing Page、手機、通訊軟體、Email 等等，就可以開始新的事業，是個很好創立一人公司的方式，這種模式可以很簡單，也可以很複雜，而你，就是負責完成整個拼圖的人！
