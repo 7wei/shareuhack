@@ -6,38 +6,48 @@ subCategory: 'mindfulness'
 excerpt: '「冥想」簡單來說就像是「腦內大掃除」，是一種集中精神卻能達到放鬆心靈的過程，同時清除大腦裡的雜質、也讓煩躁的心回歸平靜。這篇文章提供初學者五個指引，教你如何成功的進行冥想，並進一步體會其帶來的改變！'
 coverImage: '/assets/posts/meditation-101.jpg'
 publishedAt: '2022-01-14'
-updatedAt: '2022-01-14'
+updatedAt: '2024-02-02'
 ogImage:
   url: '/assets/posts/meditation-101.jpg'
 credentials: ['冥想親身經歷實踐約1年', '閱讀20+篇網路上的文章', '看youtube相關影片10+', '閱讀相關書籍2+']
 recommendations: [
+    {
+      title: 'Heartfulness Meditation- Evolution of Consciousness w/ Daaji',
+      link: 'http://tinyurl.com/ytvfwswa',
+      src: 'Udemy',
+    },
+    {
+      title: 'Meditation Practitioner / Teacher Certification (ACCREDITED)',
+      link: 'http://tinyurl.com/yrtu2hbt',
+      src: 'Udemy',
+    },
     # {
     #   title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
     #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010734483?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
     #   src: '博客來',
     # },
-    {
-      title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
-      link: 'https://tinyurl.com/2ja4q2yg',
-      src: '金石堂',
-    },
-    {
-      title: '十分鐘冥想',
-      link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/CN11709661?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
-      src: '博客來',
-    },
-    {
-      title: '超實踐！大腦意識訓練',
-      link: 'https://tinyurl.com/2n2lkyya',
-      src: '金石堂',
-    },
+    # {
+    #   title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
+    #   link: 'https://tinyurl.com/2ja4q2yg',
+    #   src: '金石堂',
+    # },
+    # {
+    #   title: '十分鐘冥想',
+    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/CN11709661?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
+    #   src: '博客來',
+    # },
+    # {
+    #   title: '超實踐！大腦意識訓練',
+    #   link: 'https://tinyurl.com/2n2lkyya',
+    #   src: '金石堂',
+    # },
   ]
 references:
   [
-    {
-      title: 'NELUSAMA漫生活-該如何冥想？教你6個步驟 簡單冥想方法!',
-      link: 'https://slowlivinghk.com/how-to-meditation-in-6-steps/',
-    },
+    # {
+    #   title: 'NELUSAMA漫生活-該如何冥想？教你6個步驟 簡單冥想方法!',
+    #   link: 'https://slowlivinghk.com/how-to-meditation-in-6-steps/',
+    # },
     {
       title: '醫思維-冥想的10個好處',
       link: 'https://reurl.cc/44y402',
@@ -46,10 +56,10 @@ references:
       title: '動誌-曇花盛開15年的秘訣？詹姆斯使用冥想效果卓越',
       link: 'https://reurl.cc/zMbrRV',
     },
-    {
-      title: 'Better Leaf 好葉 -怎樣練習冥想【完整教學】- 動畫講解',
-      link: 'https://www.youtube.com/watch?v=NLJcwbpkiJ0&t=123s',
-    },
+    # {
+    #   title: 'Better Leaf 好葉 -怎樣練習冥想【完整教學】- 動畫講解',
+    #   link: 'https://www.youtube.com/watch?v=NLJcwbpkiJ0&t=123s',
+    # },
   ]
 related:
   []
@@ -119,3 +129,10 @@ NBA球星詹姆斯(LeBron James)是冥想愛好者之一，關於冥想，詹姆
 一直到現在，實踐冥想約一年時間，每周仍會固定冥想，特別是遇到低潮期或是壓力大時，冥想會讓自己更有自信面對當前處境或難題，也相信「冥想帶來的改變在每個練習當下已發生，持續練習才能累積為身體最終的能量」。
 
 因此不論每次練習時間是多久，只要持續練習並保有冥想習慣，一定會讓你親身體驗到冥想特別之處。
+
+## 學習資源
+
+若想要更深入進到冥想的世界，推薦試試看Udemy這兩個關於冥想的熱銷課程
+
+* [Heartfulness Meditation- Evolution of Consciousness w/ Daaji](http://tinyurl.com/ytvfwswa "affiliate")
+* [Meditation Practitioner / Teacher Certification (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
