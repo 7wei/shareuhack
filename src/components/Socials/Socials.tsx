@@ -48,7 +48,7 @@ export default function Socials({ primary, size }: { primary?: boolean; size?: '
       </Link>
       <Link
         color={primary ? theme.palette.primary.main : theme.palette.primary.contrastText}
-        href="mailto:c@shareuhack.com"
+        href="mailto:shareuhack@gmail.com"
         title="Email"
         disableHover
         target="_blank"

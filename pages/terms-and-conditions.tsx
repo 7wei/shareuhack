@@ -220,7 +220,7 @@ export default function TermsAndConditions() {
       <h1>Contact Us</h1>
       <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
       <ul>
-        <li>By email: c@shareuhack.com</li>
+        <li>By email: shareuhack@gmail.com</li>
       </ul>
     </>
   )

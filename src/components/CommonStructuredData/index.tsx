@@ -21,7 +21,7 @@ export default function CommonStructuredData(props: Props) {
   const logoUrl = 'https://www.shareuhack.com/assets/brand/shareuhack.png'
   const keywords = 'Shareuhack, LifeHacks, LifeHacker'
   const description = t('whatWeDoDescript')
-  const email = 'c@shareuhack.com'
+  const email = 'shareuhack@gmail.com'
 
   const structuredDataWebsite = useMemo(() => {
     return {
