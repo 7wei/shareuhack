@@ -12,6 +12,13 @@ ogImage:
 credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
 widget: ['fiverr']
 keywords: 'Drop servicing, entrepreneurship, 創業, 一人公司'
+recommendations: [
+  {
+    title: 'How to Start a Successful Drop Servicing Business',
+    link: 'http://tinyurl.com/ykff2p8s',
+    src: 'Udemy',
+  },
+]
 faqs:
   [
     {
@@ -77,8 +84,10 @@ references:
 
 你需要定義好你的目標客群，好好思考誰會需要你的服務，他們有什麼痛點，要怎麼去獲得他們的注意。採用 Drop Servicing，重點就是要主動發掘客戶的痛點，然後提供方便的方式讓他們去享受服務。你才有可能去賺取「服務提供者」和「服務需求者」中間的利潤。
 
-### 4. 開始開發客戶
+### 4. 開發客戶
 
 也就是創業最難的部分，你必須規劃讓客戶發現你、並轉化為付費客戶的方式，建議一開始可以先把形象網站(Landing Page)和接單的方式(例如表單、購物車)搭建起來，透過社群媒體(Facebook/Instagram)和廣告(Google/Facebook)多曝光來試試水溫。
+
+非常推薦看看這個課程[How to Start a Successful Drop Servicing Business](http://tinyurl.com/ykff2p8s "affiliate")，裡面會比較詳細的介紹各種會需要用到的工具，以及需要注意的地方。
 
 Drop Servicing 是一個非常容易建構好的商業模式，基本上，透過一個最簡單的 Landing Page、手機、通訊軟體、Email 等等，就可以開始新的事業，是個很好創立一人公司的方式，這種模式可以很簡單，也可以很複雜，而你，就是負責完成整個拼圖的人！
