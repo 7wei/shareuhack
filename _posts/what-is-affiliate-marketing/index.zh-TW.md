@@ -5,11 +5,27 @@ subCategory: 'entrepreneurship'
 excerpt: '此篇文章介紹什麼是聯盟行銷，怎麼透過聯盟行銷網站賺錢。'
 coverImage: '/assets/posts/what-is-affiliate-marketing.jpg'
 publishedAt: '2023-12-13'
-updatedAt: '2023-12-13'
+updatedAt: '2024-02-02'
 ogImage:
   url: '/assets/posts/what-is-affiliate-marketing.jpg'
 credentials: ['多年網路行銷背景', '網路創業達人']
-recommendations: []
+recommendations: [
+  {
+    title: 'Beginner Affiliate Marketing To Start In 1 Day - 2024',
+    link: 'http://tinyurl.com/ypa8e7xh',
+    src: 'Udemy',
+  },
+  {
+    title: 'ClickBank Success – Affiliate Marketing Without A Website',
+    link: 'http://tinyurl.com/yknevkmf',
+    src: 'Udemy',
+  },
+  {
+    title: 'SEO:Amazon Affiliate Marketing+SEO |250+ Videos |18.0 Hours',
+    link: 'http://tinyurl.com/ywm7zr8v',
+    src: 'Udemy',
+  },
+]
 references:
   []
 related:
@@ -56,5 +72,11 @@ faqs:
 如果你是一位具有價值內容創造能力的推廣者，有機會透過這樣的方式實現獲利。
 
 若你經常介紹或推薦商品，可考慮在聯盟網或其他平台註冊，探索是否有合作機會。這筆收入是由品牌原本預算中的行銷成本支付，推廣者獲得利潤，同時被推廣者找到適合的產品，實現雙贏。
+
+推薦去看看以下課程，海外的學習資源還是相對深入，可以提供你建立被動收入更多的靈感：
+
+* [Beginner Affiliate Marketing To Start In 1 Day - 2024](http://tinyurl.com/ypa8e7xh)
+* [ClickBank Success – Affiliate Marketing Without A Website](http://tinyurl.com/yknevkmf)
+* [SEO:Amazon Affiliate Marketing+SEO |250+ Videos |18.0 Hours](http://tinyurl.com/ywm7zr8v)
 
 然而，持續產生收益不是一件簡單的事。需要不斷尋找適合推廣的產品，創造有價值且能說服使用者的內容，並確保有足夠的曝光率。這需要一定的辛勤工作和時間積累。
