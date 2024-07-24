@@ -227,7 +227,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                   {/* <Divider primary /> */}
 
                   <Typography mb="15px" variant="h6" mt={30}>
-                    你可能也喜歡
+                    You Might Also Like
                   </Typography>
                   <Grid spacing={30} container>
                     {relatedPosts.map((post) => (
@@ -240,7 +240,7 @@ export default function Post({ post, category, subCategory, relatedPosts }) {
                 <Grid item xs={12} md={3}>
                   {/* <Divider primary /> */}
                   <Typography mb="15px" variant="h6" mt={30}>
-                    發現更多
+                    Explore More
                   </Typography>
                   <Grid spacing={24} container>
                     {categories.map((category, idx) => (
