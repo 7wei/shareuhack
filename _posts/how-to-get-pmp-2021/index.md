@@ -56,96 +56,104 @@ about: 'Project Management Professional'
 
 <!-- en-US -->
 
-The PMP certification exam was last updated in 2021. Therefore, if you're trying to find information related to it, it's probably outdated. No worries. The article will guide you through the revision of PMP and help you prepare for the PMP exam!
+Anyone interested in obtaining the PMP certification should be aware that the exam was revised in 2021. Therefore, older articles about the PMP exam may not reflect the latest information. Don’t worry, this article will introduce an overview of the revisions and provide a guide to obtaining the new PMP certification!
 
 ## What is PMP?
 
-It assumes you already know and is interested in this certification, so I won't go into too much detail about it. Those who are unfamiliar with this exam may want to consult the official PMI [Introduction](https://www.pmi.org/certifications/project-management-pmp).
+This article will not elaborate on what PMP is. If you’re interested, please refer directly to the PMI official [Introduction](https://www.pmi.org/certifications/project-management-pmp).
 
 ## How to apply for the PMP exam?
 
-Rules change. For the latest information, Please check the [PMI official website](https://www.pmi.org/). PMI has a [how-to guide]((https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply)) on how to apply for the PMP. In short, you need to:
+For any information related to PMP registration, always refer to the [PMI official website](https://www.pmi.org/) to ensure the information is up-to-date and accurate. You can refer to PMI’s [how-to guide](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply) for more details. 
 
-1. Confirm whether you are eligible for the exam
-2. Go to PMI to register an account and
-3. Start application
+Here is a simplified summary of what you will need:
 
-### Step 1 Check if you are eligible
+1. Confirm eligibility for the exam.
+2. Register an account on the PMI website.
+3. Start the application process.
 
-The following two sets of conditions can meet one of them:
+### Step 1: Confirm Eligibility
 
-First group:
+You must meet one of the following sets of criteria:
 
-1. Possess a 4-year bachelor's degree
-2. Have 36 months of experience in leading projects
-3. Received 35 hours of project management training
+First set:
 
-Second Group:
+1. A four-year bachelor’s degree.
+2. 36 months of leading project experience.
+3. 35 hours of project management education.
 
-1. Possess a high school diploma or Associates degree
-2. Has 60 months of experience in leading projects
-3. Received 35 hours of project management training
+Second set:
 
-### Step 2 Register an account at pmi.org and start the application process
+1. A high school diploma or an associate degree.
+2. 60 months of leading project experience.
+3. 35 hours of project management education.
 
-Although filling out the form may be bothersome, I still recommend all applicants follow the instructions on the website to apply independently. As a professional project manager, shouldn't this be a basic skill?
+### Step 2: Register an Account on pmi.org and Start the Application Process
+
+Filling out forms can be tedious, but I encourage all candidates to independently follow the website instructions to apply. After all, as a professional project manager, this should be a basic skill, right?
 
 
-Please note that you will need to fill in the project experience when registering for the exam. You can refer to PMI's [Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0), as the reference for data preparation.
+One thing worth mentioning is that you will need to document your project experience when applying for the exam. You can refer to PMI’s [Your PMP Application Checklist](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/your-pmp-application-checklist.pdf?v=598ade6b-8bd6-4ef5-a7d6-1d363a2b93d0) as a basis for preparing your materials.
 
-If you are sure you get to earn a PMP certification, it is recommended to join a paid member after registering an account. You will need to pay a membership fee of US$129/year and a one-time application fee of US$10. The main advantage is that the exam fee for members is US$405 For non-members, it costs US$555. It saves a little bit. In addition, members can download the pdf file of PMBOK®Guide, for free!
+If you are determined to obtain the PMP certification, it is recommended to join as a paying member after registering your account. The membership fee is US$129/year with a one-time application fee of US$10. The main benefit is that the exam fee for members is US$405, compared to US$555 for non-members, so joining as a member is actually more economical. Additionally, most importantly, members can download the PMBOK® Guide PDF for free.
 
-## What has changed in the PMP exam in 2021? Why does it need to be updated?
+## What Changes Were Made to the PMP Exam Starting in 2021 and Why?
 
-Because the role of the project manager and the way and the concept of project management has evolved.
+The role of project managers, as well as project management methods and thinking, are continuously evolving over time.
 
-PMI will continue to observe and analyze the work and methodology of the project manager and review whether the content of the exam is out of date. For example, the old version only focused on predictive waterfall models. To be more timely, the new version puts more focus on agile management, which is also reflected in the updated version of the exam.
+PMI continuously observes and analyzes the work content and methods of project managers and reviews whether the exam knowledge content is outdated and needs updating. For example, the old version focused only on the predictive waterfall model, but the new version emphasizes agile management more, reflecting this in the updated exam.
 
-Compare with the old version of the exam which is relatively limited to the project cycle of project management, emphasizing the five major processes, ten knowledge areas, and each sub-process, the new version of the exam content will focus on the following three domains:
+The old exam content was limited to the project lifecycle, emphasizing five processes, ten knowledge areas, and various sub-processes. The new exam content focuses on the following three domains:
 
-1. People (42%): Strong soft skills to lead the team to adapt to today's rapidly changing environment and embrace change!
-2. Process (50%): Emphasize the technology of project management
-3. Business Environment (8%): ​​Emphasize the link between the project and the organizational strategy
+1. People (42%): Emphasizes leadership soft skills to adapt to today’s fast-changing environment and embrace change!
+2. Process (50%): Emphasizes the techniques of managing projects.
+3. Business Environment (8%): Emphasizes the link between the project and organizational strategy.
 
-We are happy to see these changes. It's an agile era, what the new version focuses on is indeed much fit with the current status. We can expect that the new version of the exam will have more situational questions related to the above three domains, and there will also be more agile or hybrid concepts. According to the official statement, half of the questions will be predictive and the other half will be agile/ hybrid.
+This change is welcomed. Facing the dynamic changing environment, the new focus on these domains indeed reflects the current situation better. We can expect more scenario-based questions related to these three domains in the new exam, with more concepts related to agile or hybrid approaches. According to the official statement, half of the questions will be in a predictive manner, while the other half will be agile/hybrid.
 
-## PMBOK 6 vs PMBOK 7
+## PMBOK 6 vs. PMBOK 7
 
-You may have noticed that PMBOK 7 was officially published a few weeks ago. If it was originally prepared with PMBOK 6, what should I do to deal with it?
+The official PMBOK 7 has been published. What should you do if you prepared using PMBOK 6?
 
-The answer is, no.
+The answer is, nothing needs to be done.
 
-So far, the official still takes the sixth edition as the [reference list](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/pmp-exam-preparation/pmp-reference-list?utm_campaign=2021-07-19&utm_term=8912846&utm_content=educational&utm_source=email-sendgrid&utm_medium=979552), and PMBOK is originally just one of the reference books. You can prepare it in the following way.
+So far, the official exam reference list still uses the sixth edition. PMBOK has always been just one of the references. You can rest assured to follow the preparation methods below.
 
-The main difference between PMBOK 6 and 7 is that compared with the ten knowledge areas (Integration, Scope, Schedule, Cost, Quality, Resource, Communications, Risk, Procurement, Stakeholder) that focus on the project management process in the sixth edition, the seventh edition has changed To strengthen the overall performance adjustment (Team, Stakeholders, Life cycle, Planning, Uncertainty and ambiguity, Delivery, Performance, Project work)
+The main differences between PMBOK 6 and 7 are:
 
-## Preparation method
+1. Inclusion of Systems Thinking to enhance the holistic view of project management.
+2. Emphasis on value delivery over outcomes.
+3. The sixth edition emphasizes ten knowledge areas (Integration, Scope, Schedule, Cost, Quality, Resource, Communications, Risk, Procurement, Stakeholder), while the seventh edition emphasizes eight project performance domains (Team, Stakeholders, Life cycle, Planning, Uncertainty and ambiguity, Delivery, Performance, Project work).
 
-How to deal with the new version of the exam, how to prepare?
+## Preparation Methods
 
-There is not much difference for new participants between new and old versions. Just take the necessary courses and materials, and these materials will also align with the latest update of PMI. The following is the recommended preparation method:
+How should you prepare for the new exam?
 
-### Prepare materials
+For new candidates, the preparation methods are not significantly different. Attend the necessary courses and thoroughly read the materials. These materials will be updated according to the latest PMI rules. Here are the recommended preparation methods:
 
-1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668): PMP official exam outline, tell you what the exam will include.
+### Preparation Materials
 
-2. PMI official PMBOK GUIDE 6: PMI project management knowledge system standard, PMI members can download the pdf file for free.
+1. [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668): The official exam outline provided by PMP, which details the exam content.
 
-3. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g): Joseph Phillips course on Udemy, as long as you complete the course, assignments and tests, you can get 35 PDUs, which can be directly satisfied The basic training requirements required to register for the PMP exam. This author will continue to update the latest PMP related content, so don't worry about his content being out of date. We reviewed the course. The explanation of this course is clear. Even if you don't have a strong professional background, you can still have good absorption, but if you are an experienced project manager, it may be a little bit boring. It is still recommended to take this course quickly to get the PDUs and have an overview of the entire knowledge framework.
+2. PMI Official PMBOK 6 + 7 + APG (Agile Practice Guide): PMI members can download the PDF files for free.
 
-4. [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg): It is also a course listed by Joseph on Udemy. It is a bit like a sprint class before the exam with 135 exercises. question.
+3. [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g "affiliate"): Joseph Phillips’ course on Udemy. By completing the course, assignments, and tests, you can earn 35 PDUs, which meet the basic training requirements for applying for the PMP exam. The instructor continuously updates the latest PMP-related content, so there’s no need to worry about outdated information. After reviewing the course, it is clear and easy to understand, even for those without a strong professional background. However, experienced project managers might find it somewhat less engaging. It is recommended to quickly go through the course to gain PDUs and get an overview of the knowledge framework.
+
+4. [PMP Exam Cram Session-Updated for the current PMP Exam](https://tinyurl.com/yzgyqkyg "affiliate"): Another course by Joseph on Udemy, similar to a cram session, includes 135 practice questions.
+
+5. [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm "affiliate"): Simulation questions for PMBOK 7, providing more practice questions on AGILE/HYBRID/PREDICTIVE aspects.
 
 ### Preparation method
 
-1. Read [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668), understand the outline and scope of the exam. If you have some project management experience, you should feel relief after reading it. You will find that these questions will not be difficult for you.
+1. First, go through the [PMP Examination Content Outline](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=ef41743a-9156-4137-a9a6-fd31e19a9668) to understand the exam outline and scope. If you have some project management experience, you should feel relieved after reading it, realizing that these questions won’t be too challenging for you.
 
-2. Complete the [PMP Exam Prep Seminar-2021 Exam Content with 35 PDUs](https://tinyurl.com/yfen2p3g) course, learn the entire knowledge framework, and obtain enough PDUs to apply for the exam, and it is recommended to scan it together PMBOK, if you are an experienced project manager, these contents will be a piece of cake for you, but you still need to be familiar with the terms. You can adjust it to 1.5x speed to finish the course. It usually takes 1-2 months for you to complete the course
+2. Complete the [PMP Exam Prep Seminar - Complete Exam Coverage with 35 PDUs](https://tinyurl.com/yfen2p3g) course to learn the entire knowledge framework and earn enough PDUs to apply for the exam. It is also recommended to skim through the PMBOK. For experienced project managers, this content will be a breeze, but you still need to familiarize yourself with the system’s terminology. Adjust the course speed to 1.5x to finish it faster. Depending on individual circumstances, this course can typically be completed within 1-2 months.
 
-3. Go over the PMBOK again. In fact, after completing the course, you are already quite familiar with the knowledge framework. It will not take much time to watch PMBOK.
+3. Quickly review the official materials again. After completing the course, your grasp of the knowledge system should be strong. There’s no need to go into too much detail. Refer back to the materials as needed when practicing questions.
 
-4. Start practising mock exam questions. There are many free test resources on the Internet. We also list some below. When doing mock exam questions, you don’t need to be torn on the correctness of each question. The key is if you have clear ideas when seeing the questions. If there are uncertain parts, refer to PMBOK, or you can discuss in relevant community groups like [Facebook](https://www.facebook.com/groups/839989579444112), [Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP). Usually, the community is willing to help. How many questions need to be done? The learning resources mentioned in this article is quite enough. The additional exercises are mainly for bringing in more confidence.
+4. Start practicing simulation questions. There are many free test resources available online. Below are some listed resources. When practicing, don’t focus too much on whether each answer is correct. The key is to have a clear understanding of the questions. If there are unclear parts, refer back to the PMBOK or discuss in related [Facebook](https://www.facebook.com/groups/839989579444112) or [Linkedin](https://www.linkedin.com/search/results/groups/?keywords=PMP) groups. Communities are usually willing to help. As for how many questions you need to practice, the ones listed in this article’s learning resources are sufficient. Additional practice is mainly to boost confidence and reduce anxiety.
 
-5. Before the exam, take [PMP Exam Cram Session-Updated for the 2021 PMP Exam](https://tinyurl.com/yzgyqkyg) for the final sprint. After finishing the course and completing the quizzes, you are ready for the battle!
+5. Before the exam, do a final review with the [PMP Exam Cram Session - Updated for the current PMP Exam](https://tinyurl.com/yzgyqkyg) and practice with the [PMP Exam-PMI New Format 2024 Mock Simulator (PMBOK7 Updated)](https://tinyurl.com/yn7bdabm). This preparation will ensure you can take the exam confidently.
 
 ### Free simulation test resources
 

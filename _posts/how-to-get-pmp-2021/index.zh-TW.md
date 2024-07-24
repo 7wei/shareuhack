@@ -85,15 +85,15 @@ slideUrls: ['/assets/slides/how-to-pmp/how-to-pmp-1.png', '/assets/slides/how-to
 instagramUrl: 'https://www.instagram.com/p/CZD8nwglmXk/'
 ---
 
-有意考取 PMP 這個國際證照的人，應該有發現這個考試在2021改版，所以現在搜尋到關於分享 PMP考試的舊文章，可能會和最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版PMP的考取攻略！
+有意考取 PMP 這個國際證照的人，應該已經發現這個考試在 2021 年進行了改版，因此現在搜尋到關於 PMP 考試的舊文章，可能會與最新狀況有所出入。不過別擔心，這篇文章將介紹改版的概要，以及新版 PMP 的考取攻略！
 
 ## 什麼是PMP？
 
-這邊不會贅述什麼是PMP，有興趣請直接看 PMI 官方的[介紹](https://www.pmi.org/certifications/project-management-pmp "PMI官方-PMP介紹")。
+這邊不會贅述什麼是 PMP，有興趣請直接看 PMI 官方的[介紹](https://www.pmi.org/certifications/project-management-pmp "PMI官方-PMP介紹")。
 
 ## 如何申請PMP考試？
 
-任何PMP報名相關的資訊，一律先去[PMI官方網站](https://www.pmi.org/ "PMI官方網站")，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply "PMI官方-如何申請PMP")，
+任何 PMP 報名相關的資訊，請先訪問[PMI官方網站](https://www.pmi.org/ "PMI官方網站")，以確保資訊是最新、最正確的。可參考PMI官方的[How to Apply for the PMP](https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp/how-to-apply "PMI官方-如何申請PMP")，
 
 這邊做個簡單整理，你會需要：
 
