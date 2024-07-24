@@ -40,8 +40,6 @@ export default function LanguageSelector() {
     return data
   }
 
-  console.log(locale)
-
   return (
     <>
       <Button onClick={handleOpen} color="primary">
@@ -59,7 +57,7 @@ export default function LanguageSelector() {
           <Grid container spacing={8} mt={14}>
             {Locales?.map(({ key: loc }) => (
               <Grid key={loc} item xs={12} md={6}>
-                <ListItem onClick={() => onSelect(loc)} key={loc}>
+                <ListItem button onClick={() => onSelect(loc)} key={loc}>
                   <Box display="flex" alignItems="center" gap={6}>
                     <Typography variant="body2">{getLocaleData(loc).language}</Typography>
                     {locale === loc && <CheckCircleOutlineIcon fontSize="small" color="primary" />}

@@ -53,7 +53,7 @@ faqs:
     },
     {
       question: 'How to use Agoda Cash',
-      answer: '1. Log in to the Agoda website or app 2. Select the accommodation and room type you want to book, then click “Book” 3. On the payment page, the option to use “A-Cash” to offset the cost will appear on the right side of the webpage or at the bottom of the app page. 4. Choose the amount of A-Cash you want to use (you can offset the entire or partial cost of the booking) 5. Complete the payment and confirm the booking'
+      answer: ''
     },
   ]
 ---
