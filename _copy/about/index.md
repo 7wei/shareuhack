@@ -1,5 +1,3 @@
-Here's the revised and proofread version in Markdown format:
-
 ---
 title: 'About Shareuhack'
 publishedAt: '2021-07-17'
