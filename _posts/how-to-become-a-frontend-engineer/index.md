@@ -1,9 +1,9 @@
 ---
 slug: 'how-to-become-a-frontend-engineer'
-title: 'How to become a competitive front-end engineer in 3 months'
+title: 'How to Become a Competitive Front-End Engineer in 3 Months'
 category: 'work'
 subCategory: 'softwareDevelopment'
-excerpt: 'In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, have familiarity with a front-end framework, and be popular in the job market.'
+excerpt: 'In this article, we will cover how a rookie can become a competitive front-end engineer—an engineer with a certain level of code quality, familiarity with a front-end framework, and popularity in the job market.'
 coverImage: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
 publishedAt: '2021-07-24'
 updatedAt: '2022-01-11'
@@ -13,7 +13,7 @@ credentials:
   [
     'Took 10+ Udemy Courses',
     'Read 30+ articles',
-    'Interview with 3+ front-end engineers who have successfully transferred',
+    'Interviewed 3+ front-end engineers who successfully transitioned',
   ]
 recommendations:
   [
@@ -39,36 +39,36 @@ references:
 # related: []
 ---
 
-In this article, we will cover how a rookie can become a competitive front-end engineer - An engineer has a certain level of code quality, famaliar with at least front-end framework, and is competitive in the human resource market.
+In this article, we will cover how a rookie can become a competitive front-end engineer—an engineer with a certain level of code quality, familiarity with at least one front-end framework, and competitiveness in the job market.
 
-## In-demand skills
+## In-Demand Skills
 
-Check [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) and you can learn the techniques you need to tackle for becoming a front-end engineer.
+Check the [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) to learn the techniques you need to tackle to become a front-end engineer.
 
-In addition, you can search for front-end job descriptions on the Human Resource website. The ones that appeared repeatedly would be the necessary technologies for applying for a frontent-end engineer position. Most of them are HTML, CSS, JavaScript, Ajax, React(or another framework) and other tools like bootstrap, jQuery, etc.
+Additionally, you can search for front-end job descriptions on job websites. The skills that appear repeatedly are the necessary technologies for a front-end engineer position. Most often, these include HTML, CSS, JavaScript, Ajax, React (or another framework), and tools like Bootstrap, jQuery, etc.
 
-## Initial understanding of basic skills
+## Initial Understanding of Basic Skills
 
-Try to understand the purpose of these skills first. If you find it difficult to digest the terms. You can check YouTube or [Udemy Free Learning Center](https://tinyurl.com/yfbaghja) for free related courses. Just find the courses/instructors that have the best views/likes, and meet your appetite.
+First, try to understand the purpose of these skills. If you find it difficult to digest the terms, you can check YouTube or the [Udemy Free Learning Center](https://tinyurl.com/yfbaghja) for related courses. Look for courses/instructors with the best reviews and ratings that suit your learning style.
 
 ## Start Learning
 
-You may hear some sayings, learn HTML/CSS/JavaScript, just look at [MDN](https://developer.mozilla.org/en-US/) for yourself! Indeed, in the software world, most technologies are available Abundant resources are available for self-study, but as a novice, when you click in and look at the [MDN](https://developer.mozilla.org/en-US/) document, chances are you won’t see it for 30 minutes Just gave up.
+You may hear advice like "learn HTML/CSS/JavaScript by yourself on [MDN](https://developer.mozilla.org/en-US/)!" While it’s true that there are abundant resources available for self-study, as a novice, diving into the [MDN](https://developer.mozilla.org/en-US/) documentation might be overwhelming.
 
-It is recommended to let the lecturer lead you through the online course. The advantage of taking the course is that you can follow the instructor to operate and practice. In the process of implementation, you will accumulate a lot of sense of accomplishment. Seeing the pictures you make, you will have more ideas.
+It's recommended to follow an instructor through an online course. The advantage of taking a course is that you can follow along and practice. This hands-on experience helps you build a sense of accomplishment. Seeing what you create will inspire more ideas.
 
-[The Complete Web Developer in 2021: Zero to Mastery](https://tinyurl.com/ydv2xz2w) is currently one of the most recommended courses for learning front-end basic concepts. Those who are completely inexperienced can follow it comfortably. The learning curve is smooth. Compared with other courses, the rate of students completing the course is very high. Follow the course to learn and implement. After the course, you will have a certain understanding of HTML/CSS/JS.
+[The Complete Web Developer in 2021: Zero to Mastery](https://tinyurl.com/ydv2xz2w) is one of the most recommended courses for learning front-end basics. It's designed for complete beginners with a smooth learning curve. Many students successfully complete the course, which helps you gain a solid understanding of HTML, CSS, and JavaScript.
 
-After you have a certain understanding of HTML/CSS/JavaScript, you can continue to specialize in JavaScript. The most recommended on the Internet is [JavaScript: Understanding the Weird Parts](https://tinyurl.com/yemfgsgj), which is very suitable for people who want to understand JavaScript in-depth, and will talk about many advanced object prototypes, closures, etc. Ideas and many errors that JavaScript is easy to encounter, and how to avoid them. Through this course, you can have a solid understanding of the language features and underlying knowledge of JS, and you can also learn to build your own framework and understand the source code of well-known frameworks.
+Once you have a good grasp of HTML, CSS, and JavaScript, you can delve deeper into JavaScript. [JavaScript: Understanding the Weird Parts](https://tinyurl.com/yemfgsgj) is highly recommended for those who want to understand JavaScript in-depth. It covers advanced topics like object prototypes and closures, as well as common JavaScript errors and how to avoid them. This course will help you build a solid understanding of JavaScript’s features and underlying concepts.
 
-After laying the foundation, start to learn the front-end framework. If you have no idea, I suggest you learn React/Redux. [Stephen Grider](https://tinyurl.com/ydnr493j) is currently one of the most acclaimed lecturers, and his [Modern React with Redux](https://tinyurl.com/yehgynsv) is the most popular and must-buy Course. Through this course, you can quickly understand React and Redux, and you can quickly implement a small project, or you can design and implement your own work through the knowledge you have learned.
+After building a strong foundation, start learning a front-end framework. If you’re unsure where to start, I recommend React/Redux. [Stephen Grider](https://tinyurl.com/ydnr493j) is one of the most acclaimed instructors, and his course [Modern React with Redux](https://tinyurl.com/yehgynsv) is highly popular. This course will help you quickly understand React and Redux and allow you to implement a small project or design your own work using the knowledge you’ve gained.
 
-If you want to learn Vue, you can choose [Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs) from [Stephen Grider](https://tinyurl.com/yzp53825)
+If you prefer Vue, you can choose [Vue JS Essentials with Vuex and Vue Router](https://tinyurl.com/yjuz2mbs) by [Stephen Grider](https://tinyurl.com/yzp53825).
 
-After learning, think about how to build a new work of your own through the techniques you have learned. Start from scratch. Don't rely on the sample code provided by too many courses. At the same time, you will find that your CSS knowledge and concepts are not enough. Solid, it is recommended to strengthen this course through [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/ykyldr97), and try to use more advanced skills in the project.
+After completing these courses, think about how to build a new project using the skills you’ve learned. Start from scratch and avoid relying too much on sample code provided by the courses. You may find that your CSS knowledge needs reinforcement. To strengthen your CSS skills, consider taking [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://tinyurl.com/ykyldr97) and try to apply more advanced techniques in your project.
 
-## Prepare for interviews
+## Prepare for Interviews
 
-With all the challenges completed, you are already a very competitive engineer on the market. Prepare your resume, organize your portfolio, and get ready for the next chapter of your career!
+With all these skills under your belt, you will be a very competitive engineer in the job market. Prepare your resume, organize your portfolio, and get ready for the next chapter of your career!
 
-During this time, you can go back and check the [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) to see where you are and to determine what you must do to move forward. Make a detailed plan for continuous growth. Also, it would be very helpful for interview preparation.
+During this time, revisit the [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) to see where you stand and what you need to do to keep progressing. Make a detailed plan for continuous growth, which will also help in preparing for interviews.

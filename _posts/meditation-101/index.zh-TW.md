@@ -9,7 +9,7 @@ publishedAt: '2022-01-14'
 updatedAt: '2024-02-02'
 ogImage:
   url: '/assets/posts/meditation-101.jpg'
-credentials: ['冥想親身經歷實踐約1年', '閱讀20+篇網路上的文章', '看youtube相關影片10+', '閱讀相關書籍2+']
+credentials: ['冥想親身經歷實踐約3年以上']
 recommendations: [
     {
       title: 'Heartfulness Meditation- Evolution of Consciousness w/ Daaji',

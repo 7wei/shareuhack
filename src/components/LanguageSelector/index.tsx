@@ -29,7 +29,6 @@ export default function LanguageSelector() {
   const onSelect = (locale: string) => {
     setLocale(locale)
     setOpen(false)
-    console.log()
     router.push(router.asPath, router.asPath, { locale: locale })
   }
 
@@ -40,6 +39,8 @@ export default function LanguageSelector() {
     }
     return data
   }
+
+  console.log(locale)
 
   return (
     <>
@@ -56,9 +57,9 @@ export default function LanguageSelector() {
             <Typography variant="h3">{t('selectLocale')}</Typography>
           </Box>
           <Grid container spacing={8} mt={14}>
-            {locales?.map((loc) => (
+            {Locales?.map(({ key: loc }) => (
               <Grid key={loc} item xs={12} md={6}>
-                <ListItem button onClick={() => onSelect(loc)} key={loc}>
+                <ListItem onClick={() => onSelect(loc)} key={loc}>
                   <Box display="flex" alignItems="center" gap={6}>
                     <Typography variant="body2">{getLocaleData(loc).language}</Typography>
                     {locale === loc && <CheckCircleOutlineIcon fontSize="small" color="primary" />}

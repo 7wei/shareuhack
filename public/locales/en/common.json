@@ -1,6 +1,7 @@
 {
   "home": "Home Page",
   "about": "About Us",
+  "crypto": "Crypto Dashboard",
   "subscribe": "Subscribe Us",
   "disclosure": "Shareuhack is reader-supported. When you buy through links on our site, we may earn an affiliate commission.",
   "learnMore": "Learn More",
@@ -16,7 +17,7 @@
   "Recommendations": "Recommendations",
   "References": "References",
   "sharePost": "Share this post",
-  "selectLocale": "Please Select Language",
+  "selectLocale": "Select Language",
   "pageTitle": "Hacks for real life",
   "categories": {
     "knowledge": {

@@ -44,6 +44,4 @@ references:
   ]
 ---
 
-This article is currently only available for the following languages.
-
-1. [Chinese](/posts/how-to-take-dog-to-japan)
+This article is currently only available for Chinese.

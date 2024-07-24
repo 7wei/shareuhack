@@ -8,6 +8,7 @@ import { useTranslation } from 'next-i18next'
 import BrandLogo from 'components/BrandLogo'
 import { Menu, Close } from '@mui/icons-material'
 import { useAmp } from 'next/amp'
+import LanguageSelector from 'components/LanguageSelector'
 
 const Drawer = dynamic(() => import('./Drawer'))
 
@@ -170,7 +171,7 @@ function StyledAppBar({
       }}
     >
       <BrandLogo width={isDownMd ? 100 : 120} />
-
+      <LanguageSelector />
       <IconButton
         sx={{
           right: {

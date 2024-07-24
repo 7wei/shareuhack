@@ -64,11 +64,11 @@ export const Locales = [
     language: '繁體中文',
     // region: '台灣',
   },
-  // {
-  //   key: 'en',
-  //   language: 'English',
+  {
+    key: 'en',
+    language: 'English',
   // region: 'United State',
-  // },
+  },
   // {
   //   key: 'en-GB',
   //   language: 'English',
@@ -98,7 +98,7 @@ export const Locales = [
   // {
   //   key: 'ja',
   //   language: '日本語',
-  // region: '日本',
+  //   region: '日本',
   // },
 ]
 
