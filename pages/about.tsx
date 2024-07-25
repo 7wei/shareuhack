@@ -5,14 +5,16 @@ import { getAbout } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import { CMS_NAME, OG_IMAGE_URL } from '../lib/constants'
 import { useTranslation } from 'next-i18next'
-import { Button, Box, Grid } from '@mui/material'
+import { Button, Box, Grid, useTheme } from '@mui/material'
 import CoverImage from '../src/components/Image/CoverImage'
 import useBreakpoint from '../src/hooks/useBreakpoint'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
+import Link from '../src/components/Link/Link'
 
-export default function About({ about }) {
+export default function About({ about, locale }) {
   const { t } = useTranslation('common')
   const isDownMd = useBreakpoint('md')
+  const theme = useTheme()
 
   return (
     <>
@@ -46,9 +48,17 @@ export default function About({ about }) {
               mt: 48,
             }}
           >
-            <Button sx={{ fontWeight: 500, fontSize: 18 }} href="/" endIcon={<ArrowForwardIcon fontSize="small" />}>
-              Start Exploring
-            </Button>
+              <Link
+                    key={"start exploring"}
+                    href={"/"}
+                    locale={locale}
+                    title={"Start Exploring"}
+                    type="internal"
+                    disableUnderline
+                    fontSize={"18px"}
+                  >
+                    Start Exploring
+              </Link>
           </Box>
         </Grid>
       </Grid>
@@ -67,6 +77,7 @@ export async function getStaticProps({ locale }) {
         ...about,
         content,
       },
+      locale
     },
   }
 }
