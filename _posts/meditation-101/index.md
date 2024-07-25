@@ -3,7 +3,7 @@ slug: 'meditation-101'
 title: 'Rediscover Inner Peace: 5 Essential Tips for Beginner Meditation Practitioners'
 category: 'life'
 subCategory: 'mindfulness'
-excerpt: '“Meditation,” simply put, is like a “mental housecleaning.” It is a process of focusing your mind that can also achieve relaxation, clearing away mental clutter, and bringing a restless mind back to calm. This article provides five guidelines for beginners, teaching you how to meditate successfully and experience the transformative changes it can bring!'
+excerpt: "Meditation, simply put, is like a mental housecleaning. It is a process of focusing your mind that can also achieve relaxation, clearing away mental clutter, and bringing a restless mind back to calm. This article provides five guidelines for beginners, teaching you how to meditate successfully and experience the transformative changes it can bring!"
 coverImage: '/assets/posts/meditation-101.jpg'
 publishedAt: '2022-01-14'
 updatedAt: '2024-02-02'

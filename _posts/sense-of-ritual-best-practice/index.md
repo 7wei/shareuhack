@@ -5,9 +5,7 @@ category: 'life'
 subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
 updatedAt: '2021-11-18'
-excerpt: '"Every day I clock in at work and then stay at home scrolling through my phone. I feel so bored and disheartened." Do you feel the same, waking up every day filled with a sense of discontent?
-
-In recent years, we've started to explore ways to release our mind and spirit. The concept of "rituals" has begun to appear in our lives. We seek spiritual fulfillment, and rituals are an expression of this pursuit, allowing us to live not just for survival, but to truly live life.'
+excerpt: "In recent years, we've started to explore ways to release our mind and spirit. The concept of rituals has begun to appear in our lives. We seek spiritual fulfillment, and rituals are an expression of this pursuit, allowing us to live not just for survival, but to truly live life."
 coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:
   url: '/assets/posts/sense-of-ritual-best-practice.jpg'

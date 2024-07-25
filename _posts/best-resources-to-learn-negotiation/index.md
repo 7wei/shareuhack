@@ -3,7 +3,7 @@ slug: 'best-resources-to-learn-negotiation'
 title: '2021 Best resources for learning negotiation'
 category: 'knowledge'
 subCategory: 'education'
-excerpt: 'Many people don’t realize that negotiation is a science, and world-class universities like Harvard dedicate more than a semester to teaching it. Negotiations are a part of everyday life, whether it’s transactions, salary discussions, market value evaluations, or conflict resolution. Imagine how much your life could improve by mastering better negotiation techniques. This article summarizes the top recommended resources for learning negotiation skills in 2021. Through self-study, you too can become a negotiation expert!'
+excerpt: "Many people don’t realize that negotiation is a science, and world-class universities like Harvard dedicate more than a semester to teaching it. Negotiations are a part of everyday life, whether it’s transactions, salary discussions, market value evaluations, or conflict resolution. Imagine how much your life could improve by mastering better negotiation techniques. This article summarizes the top recommended resources for learning negotiation skills in 2021. Through self-study, you too can become a negotiation expert!"
 coverImage: '/assets/posts/best-resources-to-learn-negotiation.jpg'
 publishedAt: '2021-07-31'
 updatedAt: '2021-07-31'
