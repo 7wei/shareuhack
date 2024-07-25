@@ -1,17 +1,17 @@
 ---
 slug: 'sense-of-ritual-best-practice'
-title: 'Transform Your Life with Rituals: How to Create Your Own Sense of Ritual'
+title: '儀式で人生を変えよう：自分の儀式感を作る方法'
 category: 'life'
 subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
 updatedAt: '2021-11-18'
-excerpt: "In recent years, we've started to explore ways to release our mind and spirit. The concept of rituals has begun to appear in our lives. We seek spiritual fulfillment, and rituals are an expression of this pursuit, allowing us to live not just for survival, but to truly live life."
+excerpt: "近年、私たちは心と精神を解放する方法を模索し始めました。儀式の概念が私たちの生活に登場するようになりました。私たちは精神的な充足を求め、儀式はこの追求の表現です。儀式を通じて、単に生きるためでなく、本当に人生を生きることができます。"
 coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:
   url: '/assets/posts/sense-of-ritual-best-practice.jpg'
 recommendations:
   []
-credentials: ['Read 30+ online articles', 'Interviewed 5+ people with a sense of ritual', 'Personally practiced for 1+ month']
+credentials: ['30以上のオンライン記事を読んだ', '儀式感を持つ5人以上にインタビューした', '1ヶ月以上の個人実践経験']
 ---
 
 "Every day I clock in at work and then stay at home scrolling through my phone. I feel so bored and disheartened." Do you feel the same, waking up every day filled with a sense of discontent?

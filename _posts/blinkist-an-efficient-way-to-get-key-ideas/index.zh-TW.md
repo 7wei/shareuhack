@@ -11,13 +11,6 @@ updatedAt: '2021-11-28'
 ogImage:
   url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas.jpg'
 credentials: ['使用Blinkist Premium半年', '每天至少使用Blinkist閱讀一本書籍', '3+ Blinkist用戶訪談']
-# recommendations: [
-#     {
-#       title: 'title',
-#       link: 'https://example.com',
-#       src: 'Udemy',
-#     },
-#   ]
 references:
   [
     {
@@ -29,12 +22,6 @@ references:
       link: 'https://www.instagram.com/blinkist/?hl=en',
     },
   ]
-# related:
-#   [
-#     'related-post-slug-1',
-#     'related-post-slug-2',
-#     'related-post-slug-3',
-#   ]
 keywords: 'Blinkist, reading APP, 閱讀APP'
 description: 'APP評論: Blinkist-超高效率閱讀學習工具'
 about: '這篇文章介紹Blinkist - 一個可讓你花15分鐘，獲得一整本書精華的APP'
@@ -84,8 +71,6 @@ faqs:
     }
 ]
 ---
-
-<!-- zh-TW -->
 
 喜歡閱讀的你，是否常常覺得時間不夠用呢？你是否偏好閱讀非虛構類(Nonfiction)的作品呢？這篇文章分享一個高效閱讀的APP - Blinkist，讓你只要花十五分鐘，就可以閱讀並吸收一整本書的知識。
 
