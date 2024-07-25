@@ -44,4 +44,4 @@ references:
   ]
 ---
 
-This article is currently only available for Chinese.
+This article is currently only available in Chinese.
