@@ -9,9 +9,9 @@ excerpt: '你或許聽過Drop shipping，是一個不用實際囤貨、處理物
 coverImage: '/assets/posts/what-is-drop-servicing.jpg'
 ogImage:
   url: '/assets/posts/what-is-drop-servicing.jpg'
-credentials: ['訪談2+創業家', '實際建構了一個Drop Servicing事業']
+credentials: ['訪談 3+創業家', '實際建構了一個Drop Servicing事業']
 widget: ['fiverr']
-keywords: 'Drop servicing, entrepreneurship, 創業, 一人公司'
+keywords: '代銷服務, 服務外包, 在線業務, 被動收入, 業務流程外包, 客戶管理, 行銷策略, 利潤率, 自由職業者平台, 網絡行銷'
 recommendations: [
   {
     title: 'How to Start a Successful Drop Servicing Business',
@@ -44,6 +44,7 @@ references:
       link: 'https://learn.g2.com/drop-servicing',
     },
   ]
+description: '這篇文章介紹了drop servicing的概念，說明如何通過將服務外包給第三方來運營自己的業務。文章詳細討論了 drop servicing的優勢、潛在的挑戰以及如何開始這種業務模式，幫助讀者瞭解並掌握 drop servicing的運作方法。'
 ---
 
 你或許聽過 Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。

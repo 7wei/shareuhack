@@ -9,7 +9,7 @@ excerpt: 'Instead of discussing the Holy Grail of Wealth Freedom, this article s
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
 ogImage:
   url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
-keywords: 'wealth freedom, financial, financial management skills'
+keywords: 'Law of Attraction, Positive Thinking, Goal Setting, Law of Attraction Techniques, Vision Board, Law of Attraction Books, Mindset, Self-Improvement, Law of Attraction Examples, Personal Growth'
 recommendations:
   [
     {
@@ -28,6 +28,8 @@ recommendations:
       src: 'Amazon',
     },
   ]
+about: 'The article on Shareuhack discusses the Law of Attraction, emphasizing how positive thinking and goal setting can help manifest one’s desires. It provides techniques such as using a vision board and offers examples and books on the subject. The article aims to inspire personal growth and self-improvement by adopting a success mindset.'
+description: 'The article on Shareuhack discusses the Law of Attraction, emphasizing how positive thinking and goal setting can help manifest one’s desires. It provides techniques such as using a vision board and offers examples and books on the subject. The article aims to inspire personal growth and self-improvement by adopting a success mindset. '
 ---
 
 Instead of discussing the Holy Grail of Wealth Freedom, this article summarizes the key messages from several reputable authors of Amazon’s investment bestsellers, providing us with a more stable concept of financial management and the path to financial freedom.

@@ -49,7 +49,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
-keywords: 'PMP, Project Management, project manager, certification, PMI, PMBOK'
+keywords: 'PMP認定, プロジェクト管理, PMI, 試験準備, 学習リソース, PMBOKガイド, アジャイル手法, 模擬試験, PMPコース, PMP試験変更'
 description: 'この記事では、PMP試験に関する情報を共有します。1. 新しい試験内容 2. 準備方法 3. 学習と模擬試験のリソース'
 about: 'Project Management Professional'
 ---

@@ -9,7 +9,7 @@ excerpt: "この記事では、富の自由の聖杯を論じるのではなく�
 coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
 ogImage:
   url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
-keywords: '富の自由, 財務, 財務管理スキル'
+keywords: '引き寄せの法則, ポジティブ思考, 目標設定, 引き寄せの法則のテクニック, ビジョンボード, 引き寄せの法則の本, マインドセット, 自己改善, 引き寄せの法則の例, 精神的成長'
 recommendations:
   [
     {

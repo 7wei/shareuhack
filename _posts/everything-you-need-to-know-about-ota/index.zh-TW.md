@@ -45,7 +45,7 @@ related:
   [
     'how-to-get-agoda-transaction-fee-back'
   ]
-keywords: 'OTA, agoda, booking.com, ctrip, expedia, 旅遊訂房網站'
+keywords: '線上旅行社, OTA, Agoda, Booking.com, Ctrip, Expedia, 旅遊預訂, 酒店預訂, 機票預訂, 旅遊服務, 旅行平台'
 description: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
 about: '這篇文章介紹四大OTA平台、教你選擇理想訂房平台的秘訣，以及你需要注意的平台訂房陷阱。'
 faqs:

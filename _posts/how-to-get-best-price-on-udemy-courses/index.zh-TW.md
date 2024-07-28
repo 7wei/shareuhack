@@ -24,6 +24,7 @@ references:
     { title: 'Udemy使用條款', link: 'https://tinyurl.com/yzly7hek' },
   ]
 # related: []
+keywords: 'Udemy 課程, 最佳價格, 優惠券, 折扣, 特價, 在線學習, 教育平台, 課程促銷, 學習資源, 註冊優惠'
 ---
 
 如果你有想到要學一個新東西，第一個的線上課程平台或許就是[Udemy](https://tinyurl.com/yhdgtddt "affiliate")，幾乎你想像得到的課程，都可以在這邊找到，例如：語言、藝術、音樂、健身、程式設計、商業、教學、生產力等等。那麼，如何以最便宜的方式購買課程呢?

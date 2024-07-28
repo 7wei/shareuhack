@@ -9,7 +9,7 @@ excerpt: '從基層升上管理層之後，許多人面對手上做不完的工�
 coverImage: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
 ogImage:
   url: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
-keywords: 'Time matrix, Management, 管理, 生產力'
+keywords: '時間矩陣, 時間管理, 重要性與緊急性, 高效能人士, 生活簡化, 目標設定, 生產力, 優先級, 四象限法則, 自我提升'
 recommendations:
   [
     {
@@ -23,6 +23,7 @@ recommendations:
       src: '金石堂',
     },
   ]
+description: '這篇文章介紹了如何使用時間矩陣（重要性和緊急性）來簡化生活，提高效率。時間矩陣分為四個象限，幫助讀者識別和優先處理最重要的任務。文章還提供了實用技巧和策略，幫助讀者更好地管理時間，實現目標。'
 ---
 
 從基層升上管理層之後，許多人面對手上做不完的工作，還要分擔時間照顧部屬，忙得焦頭爛額。但偏偏公司的培訓制度通常不會教導你該如何做好時間管理，因為這是每個員工自己的功課。

@@ -21,7 +21,7 @@ references:
       link: 'https://www.instagram.com/blinkist/?hl=en',
     },
   ]
-keywords: 'Blinkist, reading APP, 読書アプリ'
+keywords: 'Blinkist, 効率的な読書, 重要なアイデア, 本の要約, 読書アプリ, 自己啓発, タイムマネジメント, 自己改善, 読書スキル, 速読'
 description: 'アプリレビュー: Blinkist-超効率的な読書学習ツール'
 about: 'この記事では、15分で1冊の本の要点を得ることができるアプリ「Blinkist」について紹介します。'
 faqs:

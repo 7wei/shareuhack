@@ -44,7 +44,7 @@ references:
   ]
 related:
   []
-keywords: 'OTA, Agoda, Booking.com, Ctrip, Expedia'
+keywords: 'オンライン旅行代理店, OTA, Agoda, Booking.com, Ctrip, Expedia, 旅行予約, ホテル予約, フライト予約, 旅行サービス, 旅行プラットフォーム'
 description: 'この記事では、4つの主要なOTAプラットフォームの概要を提供し、理想的な予約プラットフォームの選び方を教え、避けるべきプラットフォーム予約の落とし穴を強調します。'
 about: 'この記事では、4つの主要なOTAプラットフォームの概要を提供し、理想的な予約プラットフォームの選び方を教え、避けるべきプラットフォーム予約の落とし穴を強調します。'
 ---

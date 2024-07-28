@@ -22,7 +22,7 @@ references:
       link: 'https://www.instagram.com/blinkist/?hl=en',
     },
   ]
-keywords: 'Blinkist, reading APP, 閱讀APP'
+keywords: 'Blinkist, 高效閱讀, 關鍵想法, 書籍摘要, 閱讀應用程式, 個人發展, 時間管理, 自我提升, 閱讀技巧, 快速閱讀'
 description: 'APP評論: Blinkist-超高效率閱讀學習工具'
 about: '這篇文章介紹Blinkist - 一個可讓你花15分鐘，獲得一整本書精華的APP'
 faqs:

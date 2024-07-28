@@ -9,7 +9,9 @@ excerpt: 'You may have heard that drop shipping is a business model that does no
 coverImage: '/assets/posts/what-is-drop-servicing-en.jpg'
 ogImage: 
   url: '/assets/posts/what-is-drop-servicing-en.jpg'
-credentials: ['Interviewed 2+ entrepreneurs', 'Built a Drop Servicing business']
+credentials: ['Interviewed 3+ entrepreneurs', 'Built a Drop Servicing business']
+keywords: 'Drop Servicing, Service Outsourcing, Online Business, Passive Income, Business Process Outsourcing, Client Management, Marketing Strategies, Profit Margins, Freelancer Platforms, Digital Marketing'
+description: 'he article explains the concept of drop servicing, describing how to run a business by outsourcing services to third parties. It discusses the advantages, potential challenges, and steps to start this business model, helping readers understand and master drop servicing operations.'
 ---
 
 You may have heard that drop shipping is a business model where sellers do not stock goods or handle logistics. Sellers only need to focus on marketing to create high profits. This method has been popular for several years.

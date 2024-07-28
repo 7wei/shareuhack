@@ -33,8 +33,8 @@ export default function Meta() {
         content={locale === 'zh-TW' ? canonicalUrl : process.env.NEXT_PUBLIC_BASE_URL + '/' + locale + asPath}
       /> */}
 
-      <meta name="twitter:site" content="@shareuhack" />
-      <meta name="twitter:creator" content="@shareuhack" />
+      {/* <meta name="twitter:site" content="@shareuhack" />
+      <meta name="twitter:creator" content="@shareuhack" /> */}
 
       <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <script

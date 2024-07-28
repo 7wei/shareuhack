@@ -63,7 +63,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'blinkist-an-efficient-way-to-get-key-ideas',
   ]
-keywords: 'PMP, Project Management, 專案管理師, 證照, PMI, PMBOK'
+keywords: 'PMP 認證, 專案管理, PMI, 考試準備, 學習資源, PMBOK 指南, 敏捷方法, 模擬考試, PMP 課程, PMP 考試變化'
 description: '此篇文章分享關於PMP證照: 1.新版考試內容 2. 準備方法 3. 學習與模擬測試資源'
 about: 'Project Management Professional'
 faqs:

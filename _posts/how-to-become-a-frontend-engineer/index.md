@@ -37,6 +37,7 @@ references:
     { title: 'MDN', link: 'https://developer.mozilla.org/en-US/' },
   ]
 # related: []
+keywords: 'Front-End Engineer, Web Development, JavaScript, HTML, CSS, React, Angular, Vue.js, Coding Bootcamp, Programming Skills, UI/UX Design, Job Search, Developer Tools, Learning Resources, Career Path'
 ---
 
 In this article, we will cover how a rookie can become a competitive front-end engineer—an engineer with a certain level of code quality, familiarity with at least one front-end framework, and competitiveness in the job market.

@@ -36,6 +36,7 @@ references:
     { title: 'Frontend Roadmap', link: 'https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap' },
     { title: 'MDN', link: 'https://developer.mozilla.org/en-US/' },
   ]
+keywords: 'フロントエンドエンジニア, ウェブ開発, JavaScript, HTML, CSS, React, Angular, Vue.js, コーディングブートキャンプ, プログラミングスキル, UI/UXデザイン, 求職, 開発ツール, 学習リソース, キャリアパス'
 ---
 
 この投稿では、新人がどうやって競争力のあるフロントエンドエンジニアになるかを解説します。一定レベルのコード品質を持ち、フロントエンドフレームワークに精通し、就職市場で人気のあるエンジニアになるための方法を紹介します。

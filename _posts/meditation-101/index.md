@@ -31,9 +31,9 @@ references:
   []
 related:
   []
-keywords: 'meditation, beginner meditation, mindfulness, inner peace, mental clarity, meditation tips, relaxation, stress relief, mental health, mindfulness practice'
-description: 'This article introduces five guiding steps to lead beginners into the world of mindfulness and experience the transformative effects of meditation.'
-about: 'meditation, beginner meditation, mindfulness, inner peace, mental clarity, meditation tips, relaxation, stress relief, mental health, mindfulness practice'
+keywords: 'Meditation 101, Meditation Techniques, Mindfulness, Stress Management, Benefits of Meditation, Calmness, Beginner Meditation, Relaxation, Mental Health, Meditation Practices'
+description: 'The article introduces the basics of meditation, highlighting its benefits for stress reduction, mental health, and inner peace. It offers practical tips and techniques for beginners to easily start their meditation journey. '
+about: 'Meditation 101, Meditation Techniques, Mindfulness, Stress Management, Benefits of Meditation, Calmness, Beginner Meditation, Relaxation, Mental Health, Meditation Practices'
 faqs:
   []
 instagramId: 'CYwsC33hI30'

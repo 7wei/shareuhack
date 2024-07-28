@@ -24,6 +24,7 @@ references:
     { title: 'Udemy利用規約', link: 'https://tinyurl.com/yzly7hek' },
   ]
 # related: []
+keywords: 'Udemyコース, 最安値, クーポン, 割引, セール, オンライン学習, 教育プラットフォーム, コースプロモーション, 学習リソース, 登録特典'
 ---
 
 新しいことを学びたいと思ったら、まずは[Udemy](https://tinyurl.com/yhdgtddt "affiliate")を思い浮かべるでしょう。語学、アート、音楽、フィットネス、プログラミング、ビジネス、教育、生産性など、ほぼすべてのコースがここで見つかります。それでは、Udemyコースを最安値で購入する方法について見てみましょう。

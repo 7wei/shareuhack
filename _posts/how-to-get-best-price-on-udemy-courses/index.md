@@ -10,7 +10,7 @@ updatedAt: '2024-07-28'
 ogImage:
   url: '/assets/posts/how-to-get-best-price-on-udemy-courses-en.jpg'
 credentials: ['Took 30+ Udemy courses', 'Read 20+ articles']
-keywords: 'Udemy courses, money-saving tips'
+keywords: 'Udemy Courses, Best Price, Coupons, Discounts, Deals, Online Learning, Education Platform, Course Promotions, Learning Resources, Enrollment Offers'
 recommendations:
   [
     {

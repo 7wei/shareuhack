@@ -12,9 +12,9 @@ credentials: ['Proven the Law of Attraction through personal experience 5+ times
 recommendations: []
 references: []
 related: []
-keywords: 'Law of Attraction, Success Principles, Positive Thinking'
+keywords: 'Law of Attraction, Positive Thinking, Goal Setting, Law of Attraction Techniques, Law of Attraction Examples, Vision Board, Law of Attraction Books, Law of Attraction Exercises, Life Transformation, Success Mindset'
 description: 'This article introduces the Law of Attraction and three secrets to harnessing it.'
-about: 'Law of Attraction, Success Principles, Positive Thinking'
+about: 'Law of Attraction, Positive Thinking, Goal Setting, Law of Attraction Techniques, Law of Attraction Examples, Vision Board, Law of Attraction Books, Law of Attraction Exercises, Life Transformation, Success Mindset'
 faqs: []
 
 ---

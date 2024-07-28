@@ -49,7 +49,7 @@ related:
     'use-time-matrix-to-make-life-easier',
     'how-to-get-best-price-on-udemy-courses',
   ]
-keywords: 'PMP, Project Management, project manager, certification, PMI, PMBOK'
+keywords: 'PMP Certification, Project Management, PMI, Exam Preparation, Study Resources, PMBOK Guide, Agile Methodology, Practice Exams, PMP Courses, PMP Exam Changes'
 description: 'This article shares the information about the PMP exam: 1. The new version of the exam content 2. Preparation methods 3. Learning and simulation test resources'
 about: 'Project Management Professional'
 ---

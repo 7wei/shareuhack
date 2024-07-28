@@ -34,7 +34,7 @@ references:
 #'related-post-slug-2',
 #'related-post-slug-3',
 #]
-keywords: 'Blinkist, reading'
+keywords: 'Blinkist, Efficient Reading, Key Ideas, Book Summaries, Reading App, Personal Development, Time Management, Self-Improvement, Reading Skills, Speed Reading'
 description: 'APP Review: Blinkist - an app for efficient reading'
 about: 'Blinkist'
 ---
