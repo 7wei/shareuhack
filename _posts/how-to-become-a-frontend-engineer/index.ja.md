@@ -4,11 +4,11 @@ title: '3か月で競争力のあるフロントエンドエンジニアにな�
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: "この記事では、初心者が競争力のあるフロントエンドエンジニアになる方法について説明します。一定のコード品質、フロントエンドフレームワークへの習熟度、および求人市場での人気を持つエンジニアになるためのステップを紹介します。"
-coverImage: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
+coverImage: '/assets/posts/how-to-become-a-frontend-engineer-en.jpg'
 publishedAt: '2021-07-24'
 updatedAt: '2022-01-11'
 ogImage:
-  url: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
+  url: '/assets/posts/how-to-become-a-frontend-engineer-en.jpg'
 credentials:
   [
     '10以上のUdemyコースを受講',

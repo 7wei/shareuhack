@@ -4,7 +4,7 @@ title: 'Transform Your Life by Embracing Daily Rituals—Learn How to Create You
 category: 'life'
 subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
-updatedAt: '2021-11-18'
+updatedAt: '2024-07-28'
 excerpt: "In recent years, we've started exploring ways to liberate our minds and spirits. The concept of rituals has entered our lives, representing our quest for spiritual fulfillment. Through rituals, we can truly live life, not just exist."
 coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
 ogImage:

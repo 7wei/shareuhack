@@ -3,11 +3,11 @@ title: '3 Secrets of the Law of Attraction: Attract What You Love!'
 category: 'life'
 subCategory: 'lifePhilosophy'
 excerpt: 'Our thoughts emit a frequency that attracts similar frequencies. Just like a magnet, we attract what we think about into our lives. This is the Law of Attraction.'
-coverImage: '/assets/posts/law-of-attraction.jpg'
+coverImage: '/assets/posts/law-of-attraction-en.jpg'
 publishedAt: '2022-02-28'
 updatedAt: '2022-02-28'
 ogImage:
-  url: '/assets/posts/law-of-attraction.jpg'
+  url: '/assets/posts/law-of-attraction-en.jpg'
 credentials: ['Proven the Law of Attraction through personal experience 5+ times', 'Read 10+ online articles', 'Read 3+ related books']
 recommendations: []
 references: []

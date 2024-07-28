@@ -3,11 +3,11 @@ title: 'アフィリエイトマーケティングで受動的収入を得る: �
 category: 'money'
 subCategory: 'entrepreneurship'
 excerpt: "この記事では、アフィリエイトマーケティングとは何か、そしてアフィリエイトマーケティングのウェブサイトを通じて収益を上げる方法を紹介します。"
-coverImage: '/assets/posts/what-is-affiliate-marketing.jpg'
+coverImage: '/assets/posts/what-is-affiliate-marketing-en.jpg'
 publishedAt: '2023-12-13'
 updatedAt: '2024-02-02'
 ogImage:
-  url: '/assets/posts/what-is-affiliate-marketing.jpg'
+  url: '/assets/posts/what-is-affiliate-marketing-en.jpg'
 credentials: ['オンラインマーケティングの豊富な経験', 'インターネット起業の専門家']
 recommendations: [
   {

@@ -1,13 +1,13 @@
 ---
-title: 'Earning Passive Income Through Affiliate Marketing: Achieve Financial Freedom Early'
+title: 'Achieve Financial Freedom Early with Passive Income from Affiliate Marketing'
 category: 'money'
 subCategory: 'entrepreneurship'
 excerpt: 'This article introduces what affiliate marketing is and how to make money through affiliate marketing websites.'
-coverImage: '/assets/posts/what-is-affiliate-marketing.jpg'
+coverImage: '/assets/posts/what-is-affiliate-marketing-en.jpg'
 publishedAt: '2023-12-13'
-updatedAt: '2024-02-02'
+updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/what-is-affiliate-marketing.jpg'
+  url: '/assets/posts/what-is-affiliate-marketing-en.jpg'
 credentials: ['Years of experience in online marketing', 'Internet entrepreneurship expert']
 recommendations: [
   {

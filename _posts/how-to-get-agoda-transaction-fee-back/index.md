@@ -1,13 +1,13 @@
 ---
-title: 'How to Apply for a Refund of Agoda’s Foreign Transaction Fee?'
+title: 'How to Apply for a Refund of Agoda Foreign Transaction Fee?'
 category: 'life'
 subCategory: 'travel'
 excerpt: "Did you know that the foreign transaction fee paid when booking through Agoda can be refunded? This article will guide you on how to apply for a refund of Agoda’s foreign transaction fee."
-coverImage: '/assets/posts/how-get-agoda-transaction-fee-back.jpg'
+coverImage: '/assets/posts/how-get-agoda-transaction-fee-back-en.jpg'
 publishedAt: '2023-11-26'
-updatedAt: '2023-11-26'
+updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/how-get-agoda-transaction-fee-back.jpg'
+  url: '/assets/posts/how-get-agoda-transaction-fee-back-en.jpg'
 credentials: ['Successful Application Experience', 'Long-time Agoda User', 'Travel Expert']
 recommendations: [
   ]

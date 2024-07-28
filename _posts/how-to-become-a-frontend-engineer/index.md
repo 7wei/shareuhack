@@ -1,14 +1,14 @@
 ---
 slug: 'how-to-become-a-frontend-engineer'
-title: 'How to Become a Competitive Front-End Engineer in 3 Months'
+title: 'How to Land a Front-End Engineer Job in 3 Months'
 category: 'work'
 subCategory: 'softwareDevelopment'
 excerpt: 'In this article, we will cover how a rookie can become a competitive front-end engineer—an engineer with a certain level of code quality, familiarity with a front-end framework, and popularity in the job market.'
-coverImage: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
+coverImage: '/assets/posts/how-to-become-a-frontend-engineer-en.jpg'
 publishedAt: '2021-07-24'
 updatedAt: '2022-01-11'
 ogImage:
-  url: '/assets/posts/how-to-become-a-frontend-engineer.jpg'
+  url: '/assets/posts/how-to-become-a-frontend-engineer-en.jpg'
 credentials:
   [
     'Took 10+ Udemy Courses',

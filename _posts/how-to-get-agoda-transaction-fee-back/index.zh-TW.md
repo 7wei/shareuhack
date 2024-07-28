@@ -5,7 +5,7 @@ subCategory: 'travel'
 excerpt: '你知道，使用Agoda訂房所支付的國外交易手續費，是可以退的嗎？ 這篇文章教你如何向Agoda申請國外交易手續費退費。'
 coverImage: '/assets/posts/how-get-agoda-transaction-fee-back.jpg'
 publishedAt: '2023-11-26'
-updatedAt: '2023-11-26'
+updatedAt: '2024-07-28'
 ogImage:
   url: '/assets/posts/how-get-agoda-transaction-fee-back.jpg'
 credentials: ['實際申請成功經驗', 'Agoda資深用戶', '旅遊達人']

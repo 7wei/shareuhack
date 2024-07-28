@@ -4,11 +4,11 @@ slug: 'nice-free-tools-for-managing-your-work-and-life'
 category: 'work'
 subCategory: 'projectManagement'
 excerpt: 'For many PMs, managing multiple projects is inevitable. Learning how to control the timeline of each project is a valuable lesson. When individuals or teams use tools that clearly control project timelines, they can greatly improve team efficiency and reduce a lot of rework. This article will introduce three project timeline management tools that will not only make managing project timelines easier but also help organize tasks very systematically.'
-coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
+coverImage: '/assets/posts/nice-free-tools-for-managing-your-work-and-life-en.jpg'
 publishedAt: '2021-12-19'
-updatedAt: '2021-12-19'
+updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life.jpg'
+  url: '/assets/posts/nice-free-tools-for-managing-your-work-and-life-en.jpg'
 credentials: ['Current PM sharing', 'Years of practical experience using Trello/Slack']
 recommendations: [
     {

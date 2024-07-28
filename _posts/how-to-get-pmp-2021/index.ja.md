@@ -4,11 +4,11 @@ title: 'PMP試験を突破する方法！'
 category: 'knowledge'
 subCategory: 'projectManagement'
 excerpt: "PMP認定試験は2021年に改訂されました。そのため、試験に関する情報を探している場合、それはおそらく古い情報です。心配しないでください。この記事では、PMPの改訂内容について説明し、PMP試験の準備方法をガイドします！"
-coverImage: '/assets/posts/how-to-get-pmp-2021.jpg'
+coverImage: '/assets/posts/how-to-get-pmp-2021-en.jpg'
 publishedAt: '2021-07-18'
-updatedAt: '2021-07-18'
+updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/how-to-get-pmp-2021.jpg'
+  url: '/assets/posts/how-to-get-pmp-2021-en.jpg'
 credentials:
   [
     'PMP試験に合格した2人のプロジェクトマネージャーを訪問',
