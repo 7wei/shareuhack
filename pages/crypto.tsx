@@ -112,7 +112,7 @@ export default function Crypto({}) {
               Update every 5s
             </Typography>
             <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
-              資料來源：
+              Source:
               <Link
                 color="blue"
                 href="https://www.binance.com/"
@@ -121,7 +121,7 @@ export default function Crypto({}) {
                 target="_blank"
                 type="external"
               >
-                幣安Binance
+                Binance
               </Link>
             </Typography>
           </Card>
@@ -134,7 +134,7 @@ export default function Crypto({}) {
         <Grid item xs={12}>
           <Card padding={30} outlined color={theme.palette.primary.main}>
             <Typography fontSize={24} fontWeight={700}>
-              恐懼與貪婪指數(FnG Index)
+              Fear & Greed Index (FnG Index)
             </Typography>
             <Typography fontSize={24} fontWeight={700}>
               {FnGSeriesData[FnGSeriesData.length - 1]?.value}
@@ -144,8 +144,7 @@ export default function Crypto({}) {
             </Typography>
 
             <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
-              加密貨幣市場是非常情緒化的，當牛市時，人們容易產生FOMO情緒(Fear of missing
-              out)，貪婪買進，而在熊市時恐慌拋售，「別人恐懼我貪婪」，然而，何時是恐懼；何時是貪婪？這個恐懼與貪婪指數，是由
+            The cryptocurrency market is highly emotional. During bull markets, people often experience FOMO (Fear of Missing Out) and buy greedily, while in bear markets, they panic sell. The saying goes, “Be greedy when others are fearful.” But how do you know when fear or greed is present? The Fear and Greed Index by
               <Link
                 color="blue"
                 href={'https://alternative.me/crypto/fear-and-greed-index/'}
@@ -156,18 +155,7 @@ export default function Crypto({}) {
               >
                 alternative.me
               </Link>
-              依據下幾個資料來源，計算出的指標：1. 波動性 2. 市場動能/成交量 3. 社群媒體 4. 比特幣市值佔比(參考
-              <Link
-                color="blue"
-                href={'https://coinmarketcap.com/zh-tw/charts/'}
-                title={''}
-                disableHover
-                target="_blank"
-                type="external"
-              >
-                CoinMarketCap全球加密貨幣圖表
-              </Link>
-              ) 5. Google Trends，以量化的方式幫助你識別現在市場的情緒狀況，而非個人情緒觀感。
+              calculates this using five data sources: 1. Volatility, 2. Market momentum/volume, 3. Social media, 4. Bitcoin dominance (via CoinMarketCap), and 5. Google Trends. This quantifies market sentiment objectively, rather than relying on personal feelings.
             </Typography>
 
             {FnGChart}
@@ -175,7 +163,7 @@ export default function Crypto({}) {
               Last Updated at {dayjs(FnGSeriesData[FnGSeriesData.length - 1]?.time).format('YYYY-MM-DD HH:mm:ss')}
             </Typography>
             <Typography mt={12} mb={18} fontSize={16} sx={{ opacity: 0.6 }}>
-              資料來源：
+              Source:
               <Link
                 color="blue"
                 href={'https://alternative.me/crypto/fear-and-greed-index/'}
@@ -192,7 +180,7 @@ export default function Crypto({}) {
         {/* <Grid item xs={12} md={9}>
           <Card padding={15} outlined color={theme.palette.primary.main}></Card>
         </Grid> */}
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <Card padding={15} outlined color={theme.palette.primary.main}>
             <Typography fontSize={24} fontWeight={700}>
               趨勢分析：比特幣相關查詢
@@ -230,7 +218,7 @@ export default function Crypto({}) {
               ]}
             />
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
     </>
   )
