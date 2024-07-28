@@ -6,7 +6,7 @@ subCategory: 'mindfulness'
 excerpt: '「冥想」簡單來說就像是「腦內大掃除」，是一種集中精神卻能達到放鬆心靈的過程，同時清除大腦裡的雜質、也讓煩躁的心回歸平靜。這篇文章提供初學者五個指引，教你如何成功的進行冥想，並進一步體會其帶來的改變！'
 coverImage: '/assets/posts/meditation-101.jpg'
 publishedAt: '2022-01-14'
-updatedAt: '2024-02-02'
+updatedAt: '2024-07-28'
 ogImage:
   url: '/assets/posts/meditation-101.jpg'
 credentials: ['冥想親身經歷實踐約3年以上']
@@ -21,33 +21,24 @@ recommendations: [
       link: 'http://tinyurl.com/yrtu2hbt',
       src: 'Udemy',
     },
-    # {
-    #   title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
-    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/0010734483?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
-    #   src: '博客來',
-    # },
-    # {
-    #   title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
-    #   link: 'https://tinyurl.com/2ja4q2yg',
-    #   src: '金石堂',
-    # },
-    # {
-    #   title: '十分鐘冥想',
-    #   link: 'https://www.books.com.tw/exep/assp.php/cwhuang0523/products/CN11709661?utm_source=cwhuang0523&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202201',
-    #   src: '博客來',
-    # },
-    # {
-    #   title: '超實踐！大腦意識訓練',
-    #   link: 'https://tinyurl.com/2n2lkyya',
-    #   src: '金石堂',
-    # },
+    {
+      title: '感覺累了就冥想吧：冥想10分鐘等於熟睡二小時',
+      link: 'https://tinyurl.com/2ja4q2yg',
+      src: '金石堂',
+    },
+    {
+      title: '超實踐！大腦意識訓練',
+      link: 'https://tinyurl.com/2n2lkyya',
+      src: '金石堂',
+    },
+    {
+      title: 'Headspace',
+      link: 'https://www.headspace.com/',
+      src: 'Official',
+    },
   ]
 references:
   [
-    # {
-    #   title: 'NELUSAMA漫生活-該如何冥想？教你6個步驟 簡單冥想方法!',
-    #   link: 'https://slowlivinghk.com/how-to-meditation-in-6-steps/',
-    # },
     {
       title: '醫思維-冥想的10個好處',
       link: 'https://reurl.cc/44y402',
@@ -56,10 +47,6 @@ references:
       title: '動誌-曇花盛開15年的秘訣？詹姆斯使用冥想效果卓越',
       link: 'https://reurl.cc/zMbrRV',
     },
-    # {
-    #   title: 'Better Leaf 好葉 -怎樣練習冥想【完整教學】- 動畫講解',
-    #   link: 'https://www.youtube.com/watch?v=NLJcwbpkiJ0&t=123s',
-    # },
   ]
 related:
   []
@@ -83,23 +70,35 @@ instagramUrl: 'https://www.instagram.com/p/CYwsC33hI30/'
 
 ## 冥想的好處，連名人也推崇
 
-科學研究發現，長期冥想，可增加前額葉腦皮層和右前腦皮層的厚度，這些區域是控制注意力和感知能力的地方，使大腦敏捷，容易產生靈感。此外還可強化自我意識，舒緩壓力、提高抗壓與記憶力並時刻保持內心的平靜。
+科學研究發現，長期冥想可增加前額葉腦皮層和右前腦皮層的厚度，這些區域控制注意力和感知能力，使大腦敏捷，容易產生靈感。此外，冥想還能強化自我意識，舒緩壓力，提高抗壓與記憶力，並時刻保持內心的平靜。
 
-NBA球星詹姆斯(LeBron James)是冥想愛好者之一，關於冥想，詹姆斯說:「一開始會有些奇怪沒錯，因為這是一種全新的做法，需要把自己抽離，但是冥想確實讓我感到內在更加舒適、精神與能量也更充沛。」微軟創辦人比爾蓋茲(Bill Gates)、脫口秀主持名人歐普拉（Oprah Gail Winfrey）也都是冥想實踐者。Google甚至將「冥想」列為員工的正式課程之一，是不是更好奇冥想帶來的力量!
+### 名人推崇
+NBA球星勒布朗·詹姆斯（LeBron James）是冥想的愛好者之一。他說：「一開始會有些奇怪，因為這是一種全新的做法，需要把自己抽離，但冥想確實讓我感到內在更加舒適，精神與能量也更充沛。」微軟創辦人比爾·蓋茲（Bill Gates）和脫口秀主持人歐普拉（Oprah Winfrey）也都是冥想實踐者。
+
+### 職場應用
+Google甚至將冥想列為員工的正式課程之一，以提高員工的專注力和創造力。冥想的這些益處不僅有助於個人的身心健康，還能提升工作效率和生活品質。
+
+### 增強免疫系統
+研究表明，定期冥想可以增強免疫系統，使身體更能抵禦疾病和感染。這是因為冥想能降低壓力激素水平，促進免疫細胞的活動。
+
+### 改善情緒和心理健康
+冥想有助於減少焦慮和抑鬱，提升整體情緒。通過專注於當下，冥想可以幫助我們更好地應對生活中的挑戰和壓力，從而保持心理健康。
+
+這些顯著的好處讓冥想成為越來越多人日常生活的一部分。無論是提升專注力、增強免疫力，還是改善情緒健康，冥想都是一個簡單而強大的工具，值得每個人去嘗試和體驗。
 
 現在就跟著下面五個指引步驟，一起練習冥想吧!
 
 ## 給冥想初學者的5個指引步驟
 
-1. 冥想地點:找一個安靜且確保不會被打擾的環境，自己感受舒服安心即可。可以是房間的床上、客廳的沙發、空曠的草地。記得關掉所有會干擾你的設備及噪音(電視畫面、手機訊息通知)。
+1. 冥想地點: 找一個安靜且確保不會被打擾的環境，自己感受舒服安心即可。可以是房間的床上、客廳的沙發、空曠的草地。記得關掉所有會干擾你的設備及噪音(電視畫面、手機訊息通知)。使用墊子或椅子來支撐你的姿勢。
 
 2. 冥想姿勢: 冥想的姿勢很多種，站著、坐在椅子上，盤腿坐，甚至躺著都可以。初學者建議以坐在椅子上或雙腿盤坐姿開始練習。雙腿盤坐時，背部打直不可靠牆(避免冥想過程睡著)，雙手輕放大腿上。閉上眼睛可讓自己更容易凝神進入靜心狀態當中。
 
 3. 冥想時間長度:初學者可以每次5分鐘為練習，隨著練習次數慢慢增長時間，至多20分鐘即可。冥想前設定好計時器，讓過程中可更專注於呼吸，忽略時間存在。
 
-4. 開始冥想:初學者可練習最容易上手的「觀察式冥想」，只要閉上眼睛，從「專注呼吸」開始! 由鼻子深呼吸及緩吐氣3~4次後，讓身體感到放鬆，即可順應自然的呼吸節奏，進入冥想。冥想時，僅需感受鼻息的變化及一吸一吐間腹部的起伏，專注於自己的呼吸。以"觀察者"的角度，不帶任何情緒的感受每次呼吸的當下，直到時間終止。
+4. 開始冥想，專注於呼吸:初學者可練習最容易上手的「觀察式冥想」，只要閉上眼睛，從「專注呼吸」開始! 由鼻子深呼吸及緩吐氣3~4次後，讓身體感到放鬆，即可順應自然的呼吸節奏，進入冥想。冥想時，僅需感受鼻息的變化及一吸一吐間腹部的起伏，專注於自己的呼吸。以"觀察者"的角度，不帶任何情緒的感受每次呼吸的當下，直到時間終止。
 
-5. 適合冥想的時段:每日上班前及睡前都非常適合冥想，可在此時段養成固定冥想練習。上班前的冥想有助於當天工作更集中精神、提高效率;睡前的冥想則是能淨空當日腦中所有雜念，如同電腦關機般，讓心回歸平靜中庸情緒，有助於睡眠。
+5. 適合冥想的時段:每日上班前及睡前都非常適合冥想，可在此時段養成固定冥想練習。上班前的冥想有助於當天工作更集中精神、提高效率;睡前的冥想則是能淨空當日腦中所有雜念，如同電腦關機般，讓心回歸平靜中庸情緒，有助於睡眠。可嘗試每天在相同的時間冥想，以建立習慣。
 
 ## 成功的冥想你只需要做到「這件事」
 
@@ -130,9 +129,19 @@ NBA球星詹姆斯(LeBron James)是冥想愛好者之一，關於冥想，詹姆
 
 因此不論每次練習時間是多久，只要持續練習並保有冥想習慣，一定會讓你親身體驗到冥想特別之處。
 
-## 學習資源
+## 推薦資源
 
-若想要更深入進到冥想的世界，推薦試試看Udemy這兩個關於冥想的熱銷課程
+冥想是一種可以改善您生活各個方面的變革性練習。通過從小處開始、保持一致並利用推薦資源，您可以建立一個充實的冥想練習。無論您選擇使閱讀書籍、線上課程、或是APP，關鍵是找到最適合您的方法，並堅持您的旅程。
 
+### 書籍
+* [覺累了就冥想吧：冥想10分鐘等於熟睡2小時](https://tinyurl.com/2ja4q2yg)
+* [超實踐！大腦意識訓練](https://tinyurl.com/2n2lkyya)
+* [The Miracle of Mindfulness: An Introduction to the Practice of Meditation](https://www.amazon.com/Miracle-Mindfulness-Introduction-Practice-Meditation/dp/0807012394)
+* [Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life》](https://www.amazon.com/Wherever-You-There-Are-Mindfulness/dp/1401307787)
+
+### Udemy 課程
 * [Heartfulness Meditation- Evolution of Consciousness w/ Daaji](http://tinyurl.com/ytvfwswa "affiliate")
 * [Meditation Practitioner / Teacher Certification (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
+
+### APP
+* [Headspace](https://www.headspace.com/)
