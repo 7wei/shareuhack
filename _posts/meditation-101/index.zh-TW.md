@@ -144,4 +144,8 @@ Google甚至將冥想列為員工的正式課程之一，以提高員工的專�
 * [Meditation Practitioner / Teacher Certification (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
 
 ### APP
-* [Headspace](https://www.headspace.com/)
+* [Headspace](https://www.headspace.com/)：提供各種引導冥想和正念練習。
+
+### 網站
+* [Mindful](https://www.mindful.org/)：提供豐富的冥想文章和資源。
+* [Insight Timer](https://insighttimer.com/)：提供免費的引導冥想和正念課程。

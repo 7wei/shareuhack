@@ -93,9 +93,21 @@ NBAスターのレブロン・ジェームズは瞑想の愛好者です。ジ�
 
 したがって、各練習の時間がどれくらいであっても、継続して練習し、瞑想の習慣を保つことで、瞑想の特別な効果を体験できることは間違いありません。
 
-## 学習資源
+## 推奨リソース
 
-瞑想の世界をより深く探求したい方には、Udemyでの以下の2つの人気瞑想コースをお勧めします。
+瞑想は、あなたの人生のさまざまな側面を向上させる変革的な練習です。小さく始め、一貫性を持ち、推奨されるリソースを使用することで、充実した瞑想習慣を築くことができます。アプリを使う、本を読む、オンラインコースを受講するなど、自分に合った方法を見つけ、旅を続けることが鍵です。
 
-* [Heartfulness Meditation- Evolution of Consciousness w/ Daaji](http://tinyurl.com/ytvfwswa "affiliate")
-* [Meditation Practitioner / Teacher Certification (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
+### 書籍
+* [『奇跡のマインドフルネス』](https://www.amazon.com/Miracle-Mindfulness-Introduction-Practice-Meditation/dp/0807012394)
+* [『どこへ行っても、あなたはそこにいる』](https://www.amazon.com/Wherever-You-There-Are-Mindfulness/dp/1401307787)
+
+### オンラインコース
+* [ハートフルネスメディテーション - 意識の進化](http://tinyurl.com/ytvfwswa "affiliate")
+* [瞑想プラクティショナー/教師認定コース (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
+
+### アプリ
+* [Headspace](https://www.headspace.com/): 様々なガイド付き瞑想とマインドフルネスの練習を提供します。
+
+### ウェブサイト
+* [Mindful](https://www.mindful.org/): 瞑想に関する豊富な記事とリソースを提供します。
+* [Insight Timer](https://insighttimer.com/): 無料のガイド付き瞑想とマインドフルネスコースを提供します。

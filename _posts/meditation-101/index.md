@@ -111,4 +111,8 @@ Meditation is a transformative practice that can improve various aspects of your
 * [Meditation Practitioner / Teacher Certification (ACCREDITED)](http://tinyurl.com/yrtu2hbt "affiliate")
 
 ### APP
-* [Headspace](https://www.headspace.com/)
+* [Headspace](https://www.headspace.com/): Offers various guided meditations and mindfulness exercises.
+
+### Websites
+* [Mindful](https://www.mindful.org/): Provides a wealth of articles and resources on meditation.
+* [Insight Timer](https://insighttimer.com/): Offers free guided meditations and mindfulness courses.
