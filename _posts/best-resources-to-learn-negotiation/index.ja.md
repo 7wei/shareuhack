@@ -4,11 +4,11 @@ title: '成功交渉のテクニックと最高のオンライン学習リソー
 category: 'knowledge'
 subCategory: 'education'
 excerpt: "多くの人が知らないことですが、交渉は学問であり、ハーバードなどの世界トップクラスの大学では、一学期以上を費やして教えられる科目です。人生には交渉が至る所にあり、売買、給与交渉、市場価値の評価、紛争解決など、すべてにおいて交渉が必要です。このスキルを学ぶことで、人生の旅がよりスムーズに進むでしょう。この記事では、交渉の前後に知っておくべきスキルを紹介し、オンラインで学べる最もおすすめのリソースをまとめています。自学を通じて、あなたも交渉の専門家になることができます！"
-coverImage: '/assets/posts/best-resources-to-learn-negotiation.jpg'
+coverImage: '/assets/posts/best-resources-to-learn-negotiation-en.jpg'
 publishedAt: '2021-07-31'
 updatedAt: '2022-01-30'
 ogImage:
-  url: '/assets/posts/best-resources-to-learn-negotiation.jpg'
+  url: '/assets/posts/best-resources-to-learn-negotiation-en.jpg'
 credentials: ['10以上のオンラインコースを視聴', '30以上の記事を読了', '3人の専門家へのインタビュー', '5冊の関連書籍を読了']
 references: [
     {
@@ -80,23 +80,9 @@ instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 
 以下に、成功する交渉に必要なスキルを学ぶための方法を列挙します：
 
-1. ドラマや記事
+1. 書籍
 2. オンラインコース
-3. 書籍
-
-### ドラマや記事
-
-本格的に学び始める前に、リラックスしてドラマを見てみてください。例えば、[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)は法律を題材とした人気のドラマです。舞台はニューヨークの法律事務所で、Mike Rossが誤ってHarvey Specterの面接に飛び込み、弁護士資格がないにもかかわらず、見事に彼を説得して採用されるところから始まります。
-
-このドラマの見どころは、様々なビジネス交渉と、Harvey Specterの交渉時のカリスマ性です。ドラマは多少事実と異なるかもしれませんが、Harvey Specterの交渉テーブルでのパフォーマンスを見ると、交渉についての感覚がつかめるでしょう。
-
-また、インターネット上にはHarveyのように交渉を学ぶ方法を紹介する多くの記事があります。例えば：
-
-- [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
-- [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
-- [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
-
-実際に交渉に関する記事やビデオは無数にありますが、ここでは一例を挙げてリラックスしていただければと思います。
+3. ドラマや記事
 
 ### オンラインコース
 
@@ -121,6 +107,20 @@ instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 - [華頓商學院最受歡迎的談判課](https://tinyurl.com/yf8mbvte "affiliate")：主要な12の交渉技術を議論し、様々なケーススタディを提供しています。構造が非常に明確で理解しやすいです。
 
 - [FBI 談判協商術](https://tinyurl.com/yj2p4529 "affiliate")：この本は比較的読みやすく、感情が決定に与える重要な影響を説明しています。交渉の過程で、自分と相手の感情を理解し、掌握する方法が非常に重要です。
+
+### ドラマや記事
+
+本格的に学び始める前に、リラックスしてドラマを見てみてください。例えば、[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)は法律を題材とした人気のドラマです。舞台はニューヨークの法律事務所で、Mike Rossが誤ってHarvey Specterの面接に飛び込み、弁護士資格がないにもかかわらず、見事に彼を説得して採用されるところから始まります。
+
+このドラマの見どころは、様々なビジネス交渉と、Harvey Specterの交渉時のカリスマ性です。ドラマは多少事実と異なるかもしれませんが、Harvey Specterの交渉テーブルでのパフォーマンスを見ると、交渉についての感覚がつかめるでしょう。
+
+また、インターネット上にはHarveyのように交渉を学ぶ方法を紹介する多くの記事があります。例えば：
+
+- [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
+- [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
+- [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
+
+実際に交渉に関する記事やビデオは無数にありますが、ここでは一例を挙げてリラックスしていただければと思います。
 
 ## 結論
 

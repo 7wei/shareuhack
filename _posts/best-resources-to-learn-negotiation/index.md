@@ -1,14 +1,14 @@
 ---
 slug: 'best-resources-to-learn-negotiation'
-title: '2021 Best resources for learning negotiation'
+title: 'Best resources for learning negotiation'
 category: 'knowledge'
 subCategory: 'education'
 excerpt: "Many people don’t realize that negotiation is a science, and world-class universities like Harvard dedicate more than a semester to teaching it. Negotiations are a part of everyday life, whether it’s transactions, salary discussions, market value evaluations, or conflict resolution. Imagine how much your life could improve by mastering better negotiation techniques. This article summarizes the top recommended resources for learning negotiation skills in 2021. Through self-study, you too can become a negotiation expert!"
-coverImage: '/assets/posts/best-resources-to-learn-negotiation.jpg'
+coverImage: '/assets/posts/best-resources-to-learn-negotiation-en.jpg'
 publishedAt: '2021-07-31'
-updatedAt: '2021-07-31'
+updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/best-resources-to-learn-negotiation.jpg'
+  url: '/assets/posts/best-resources-to-learn-negotiation-en.jpg'
 credentials: ['Viewed 10+ courses', 'Read 30+ articles', 'Interview with 3 experts', 'Read 5 books']
 recommendations:
   [
@@ -46,21 +46,7 @@ references: []
 # tags: ['negotiation', 'negotiation skill', 'Books on Negotiation', 'Suits TV Series', 'Career Growth', 'Online Courses', 'Soft Skills]
 ---
 
-Many people don’t realize that negotiation is a science, and world-class universities like Harvard dedicate more than a semester to teaching it. Negotiations are a part of everyday life, whether it’s transactions, salary discussions, market value evaluations, or conflict resolution. Imagine how much your life could improve by mastering better negotiation techniques. This article summarizes the top recommended resources for learning negotiation skills in 2021. Through self-study, you too can become a negotiation expert!
-
-## TV Series and articles
-
-Before you dive into learning, consider relaxing with a TV series. [SUITS](https://www.imdb.com/title/tt1632701/) is a legal drama set in a New York law firm. The story begins with Mike Ross, who, without a law license, impressively convinces Harvey Specter to hire him after crashing an interview.
-
-The main attraction of the show is the various business negotiations and the commanding presence Harvey Specter displays. While the series may deviate from reality, watching Harvey’s performances at the negotiating table will definitely give you a sense of effective negotiation techniques.
-
-If you don’t have time to watch the series, there are many articles online that share insights on how to negotiate like Harvey. For example:
-
-* [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
-* [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
-* [6 Negotiation Lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
-
-There are countless articles and videos related to negotiations. Many of them list guidelines that might seem obvious. You might think, “Huh? Isn’t this common sense?” Yes, much of it may seem like common sense, but do you really consider these guidelines and knowledge when you negotiate?
+Many people don’t realize that negotiation is a science, and world-class universities like Harvard dedicate more than a semester to teaching it. Negotiations are a part of everyday life, whether it’s transactions, salary discussions, market value evaluations, or conflict resolution. Imagine how much your life could improve by mastering better negotiation techniques. This article summarizes the top recommended resources for learning negotiation skills in 2024. Through self-study, you too can become a negotiation expert!
 
 ## Online Courses
 
@@ -85,6 +71,20 @@ After absorbing a lot of knowledge from the courses, reading books can help soli
 - [Getting More: How You Can Negotiate to Succeed in Work and Life](https://amzn.to/37EUcVN)： This book discusses 12 main negotiation skills and provides various case simulations. The structure is clear and easy to understand.
 
 - [Never Split the Difference: Negotiating As If Your Life Depended On It](https://amzn.to/37EX3hA): This approachable book emphasizes that emotions are crucial in decision-making. Understanding and mastering both your own emotions and those of the other party during negotiations is very important.
+
+## TV Series and articles
+
+Before you dive into learning, consider relaxing with a TV series. [SUITS](https://www.imdb.com/title/tt1632701/) is a legal drama set in a New York law firm. The story begins with Mike Ross, who, without a law license, impressively convinces Harvey Specter to hire him after crashing an interview.
+
+The main attraction of the show is the various business negotiations and the commanding presence Harvey Specter displays. While the series may deviate from reality, watching Harvey’s performances at the negotiating table will definitely give you a sense of effective negotiation techniques.
+
+If you don’t have time to watch the series, there are many articles online that share insights on how to negotiate like Harvey. For example:
+
+* [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
+* [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
+* [6 Negotiation Lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
+
+There are countless articles and videos related to negotiations. Many of them list guidelines that might seem obvious. You might think, “Huh? Isn’t this common sense?” Yes, much of it may seem like common sense, but do you really consider these guidelines and knowledge when you negotiate?
 
 ## Conclusion
 

@@ -4,7 +4,7 @@ title: '什麼是Drop Servicing? 你不能不知道的低成本創業模式'
 category: 'money'
 subCategory: 'entrepreneurship'
 publishedAt: '2021-10-26'
-updatedAt: '2024-02-02'
+updatedAt: '2024-07-28'
 excerpt: '你或許聽過Drop shipping，是一個不用實際囤貨、處理物流的商業模式，賣家只需要專住在行銷，就有機會創造高額的利潤，這種方式已經流行了好幾年。而現在，創業家們發現這樣的商業模式，可以套用在任何的服務上...'
 coverImage: '/assets/posts/what-is-drop-servicing.jpg'
 ogImage:

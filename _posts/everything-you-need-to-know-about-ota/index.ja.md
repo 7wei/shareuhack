@@ -4,11 +4,11 @@ title: '人気のOTA（Agoda/Booking.com/Ctrip/Expedia）と知っておくべ�
 category: 'life'
 subCategory: 'travel'
 excerpt: "個人旅行の人気が高まる中、予約サイト、サービス、割引の需要が増えています。これらのサイトをどのように使うのか？あなたのニーズに最適なホテルをどう見つけるのか？この記事では、最も人気のある4つのオンライン旅行代理店（OTA）を紹介し、それぞれの利点と欠点を比較して、最適な予約サイトを見つけるお手伝いをします。"
-coverImage: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
+coverImage: '/assets/posts/everything-you-need-to-know-about-ota-en.jpg'
 publishedAt: '2021-12-11'
 updatedAt: '2021-12-11'
 ogImage:
-  url: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
+  url: '/assets/posts/everything-you-need-to-know-about-ota-en.jpg'
 credentials: ['ホテル業界の経験', '様々なプラットフォームでの予約経験']
 recommendations:
     [

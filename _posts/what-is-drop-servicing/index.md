@@ -4,11 +4,11 @@ title: 'What is Drop Servicing? The Low-Cost Business Model You Must Try!'
 category: 'money'
 subCategory: 'entrepreneurship'
 publishedAt: '2021-10-26'
-updatedAt: '2021-10-26'
+updatedAt: '2024-07-28'
 excerpt: 'You may have heard that drop shipping is a business model that does not stock goods and handle logistics. Sellers only need to focus on marketing to create high profits. This method has been popular for several years. Now, entrepreneurs realize that this business model can be applied to any service...'
-coverImage: '/assets/posts/what-is-drop-servicing.jpg'
+coverImage: '/assets/posts/what-is-drop-servicing-en.jpg'
 ogImage: 
-  url: '/assets/posts/what-is-drop-servicing.jpg'
+  url: '/assets/posts/what-is-drop-servicing-en.jpg'
 credentials: ['Interviewed 2+ entrepreneurs', 'Built a Drop Servicing business']
 ---
 

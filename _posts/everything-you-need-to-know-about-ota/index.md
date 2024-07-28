@@ -4,11 +4,11 @@ title: 'Most Popular OTAs (Agoda/Booking.com/Ctrip/Expedia) and Everything You N
 category: 'life'
 subCategory: 'travel'
 excerpt: "With the rise of independent travel, the demand for booking websites, services, and discounts is increasing. How do you use these websites? How do you find the hotel that best fits your needs? This article introduces the four most popular online travel agencies (OTAs) and compares their advantages and disadvantages to help you find the most suitable site for booking a hotel."
-coverImage: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
+coverImage: '/assets/posts/everything-you-need-to-know-about-ota-en.jpg'
 publishedAt: '2021-12-11'
 updatedAt: '2021-12-11'
 ogImage:
-  url: '/assets/posts/everything-you-need-to-know-about-ota.jpg'
+  url: '/assets/posts/everything-you-need-to-know-about-ota-en.jpg'
 credentials: ['Hotel industry experience', 'Booking experience at various platforms']
 recommendations:
     [

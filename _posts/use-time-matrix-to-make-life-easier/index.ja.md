@@ -6,9 +6,9 @@ subCategory: 'managementAndLeadership'
 publishedAt: '2021-11-13'
 updatedAt: '2021-11-13'
 excerpt: "下級職から管理職に昇進すると、多くの人は無限のタスクと部下の管理の責任に圧倒されます。残念ながら、企業の研修プログラムは効果的なタイムマネジメントを教えないことが多く、この重要なスキルは個人の責任とされます。"
-coverImage: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
+coverImage: '/assets/posts/use-time-matrix-to-make-life-easier-en.jpg'
 ogImage:
-  url: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
+  url: '/assets/posts/use-time-matrix-to-make-life-easier-en.jpg'
 keywords: 'タイムマトリックス, マネジメント, 生産性'
 recommendations:
   []

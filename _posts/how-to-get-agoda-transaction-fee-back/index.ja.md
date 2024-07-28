@@ -3,11 +3,11 @@ title: 'Agodaの外国取引手数料の返金申請方法'
 category: 'life'
 subCategory: 'travel'
 excerpt: "Agodaでの予約時に支払った外国取引手数料が返金されることをご存知ですか？この記事では、Agodaの外国取引手数料の返金申請方法についてご紹介します。"
-coverImage: '/assets/posts/how-get-agoda-transaction-fee-back-2.jpg'
+coverImage: '/assets/posts/how-get-agoda-transaction-fee-back-en.jpg'
 publishedAt: '2023-11-26'
 updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/how-get-agoda-transaction-fee-back-2.jpg'
+  url: '/assets/posts/how-get-agoda-transaction-fee-back-en.jpg'
 credentials: ['成功した申請経験', '長期のAgodaユーザー', '旅行の専門家']
 recommendations: [
   ]

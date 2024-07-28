@@ -1,14 +1,14 @@
 ---
 slug: 'use-time-matrix-to-make-life-easier'
-title: 'The Time Management Quadrant: A Must-Learn for New Managers'
+title: 'The Time Management Quadrant: Make the Most of Your Time'
 category: 'work'
 subCategory: 'managementAndLeadership'
 publishedAt: '2021-11-13'
 updatedAt: '2021-11-13'
 excerpt: 'After being promoted from a lower-level position to management, many people find themselves overwhelmed with endless tasks and the added responsibility of managing subordinates. Unfortunately, corporate training programs often do not teach effective time management, as it is considered a personal skill...'
-coverImage: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
+coverImage: '/assets/posts/use-time-matrix-to-make-life-easier-en.jpg'
 ogImage:
-  url: '/assets/posts/use-time-matrix-to-make-life-easier.jpg'
+  url: '/assets/posts/use-time-matrix-to-make-life-easier-en.jpg'
 keywords: 'Time matrix, Management, Productivity'
 recommendations:
   []
@@ -18,7 +18,7 @@ After being promoted from a junior position to management, many find themselves 
 
 Some people have mastered time management from their student days, while others struggle with it even in middle age. This article introduces the four quadrants of basic time management to help you take the first step toward effective time management.
 
-## Time Management: A Crucial Skill for New Managers
+## Time Management: A Crucial Skill for Managers
 
 The four-quadrant time management method, proposed by [Stephen Richards Covey](https://en.wikipedia.org/wiki/Stephen_Covey), is especially relevant for new managers. They need to handle pressure from superiors while managing subordinates' workload and progress. Mastering time management is essential.
 

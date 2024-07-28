@@ -4,11 +4,11 @@ title: 'ドロップサービスとは？あなたが試すべき低コストの
 category: 'money'
 subCategory: 'entrepreneurship'
 publishedAt: '2021-10-26'
-updatedAt: '2021-10-26'
+updatedAt: '2024-07-28'
 excerpt: "あなたは、在庫を置かずに物流を処理しないビジネスモデルであるドロップシッピングについて聞いたことがあるかもしれません。売り手はマーケティングに集中するだけで高い利益を創造できます。この方法は数年間人気がありました。今や起業家たちはこのビジネスモデルがどんなサービスにも適用できることに気づいています..."
-coverImage: '/assets/posts/what-is-drop-servicing.jpg'
+coverImage: '/assets/posts/what-is-drop-servicing-en.jpg'
 ogImage: 
-  url: '/assets/posts/what-is-drop-servicing.jpg'
+  url: '/assets/posts/what-is-drop-servicing-en.jpg'
 credentials: ['インタビューした起業家2+名', 'ドロップサービスビジネスを構築']
 ---
 

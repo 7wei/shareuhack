@@ -4,11 +4,11 @@ slug: 'blinkist-an-efficient-way-to-get-key-ideas'
 category: 'knowledge'
 subCategory: 'education'
 excerpt: "読書が好きなあなた、時間が足りないと感じることはありませんか？ノンフィクション作品を読むのが好きですか？この記事では、15分で1冊の本の知識を読み取り吸収できる高効率な読書アプリ「Blinkist」について紹介します。"
-coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas.jpg'
+coverImage: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas-en.jpg'
 publishedAt: '2021-11-28'
 updatedAt: '2021-11-28'
 ogImage:
-  url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas.jpg'
+  url: '/assets/posts/blinkist-an-efficient-way-to-get-key-ideas-en.jpg'
 credentials: ['使用Blinkist Premium半年', '毎日少なくとも1冊の本をBlinkistで読む', '3+ Blinkistユーザーインタビュー']
 references:
   [

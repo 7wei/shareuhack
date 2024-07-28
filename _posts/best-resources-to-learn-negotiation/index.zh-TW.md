@@ -80,23 +80,9 @@ instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 
 以上條列了我們認為一個成功的談判，必須知道的技巧，而這些技巧，可以透過以下的方式進行學習：
 
-1. 影集與文章
-2. 線上課程
-3. 書籍
-
-### 影集與文章
-
-正式投入學習之前，或許可以先看個影集輕鬆一下，例如，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是常常被作為例子的一部法律題材的影集，其背景是在紐約一家法律事務所，故事以Mike Ross陰錯陽差，闖入Harvey Specter面試的會場，並在沒有任何律師證照的狀況下，說服Harvey Specter錄取他做開頭。
-
-這部影集主要的賣點還是各種的商業談判，以及Harvey Specter在談判中展現的氣場。雖然影集多少會偏離事實，但看Harvey Specter在談判桌上的各種表演，絕對會讓你對談判更有感覺。
-
-網路上也很多文章，分享如何學習像 Harvey 一樣談判。例如：
-
-- [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
-- [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
-- [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
-
-其實跟談判有關的文章和影片不勝枚舉，此處僅舉一例，讓大家輕鬆一下。
+1. 線上課程
+2. 書籍
+3. 影集與文章
 
 ### 線上課程
 
@@ -121,6 +107,20 @@ instagramUrl: 'https://www.instagram.com/p/CZWaznrFwJH/'
 - [華頓商學院最受歡迎的談判課](https://tinyurl.com/yf8mbvte "affiliate")：主要是討論 12 個主要談判技巧，有提供各種案例模擬，書的架構非常清楚好懂。
 
 - [FBI 談判協商術](https://tinyurl.com/yj2p4529 "affiliate")：這本書相對平易近人，主要闡述情緒是影響類做決定的重要因素，所以談判的過程中，如何了解、掌握自己和對方的情緒，非常關鍵！
+
+### 影集與文章
+
+正式投入學習之前，或許可以先看個影集輕鬆一下，例如，[SUITS 無照律師](https://www.imdb.com/title/tt1632701/)是常常被作為例子的一部法律題材的影集，其背景是在紐約一家法律事務所，故事以Mike Ross陰錯陽差，闖入Harvey Specter面試的會場，並在沒有任何律師證照的狀況下，說服Harvey Specter錄取他做開頭。
+
+這部影集主要的賣點還是各種的商業談判，以及Harvey Specter在談判中展現的氣場。雖然影集多少會偏離事實，但看Harvey Specter在談判桌上的各種表演，絕對會讓你對談判更有感覺。
+
+網路上也很多文章，分享如何學習像 Harvey 一樣談判。例如：
+
+- [How To Negotiate Like Harvey Specter Part I](https://www.linkedin.com/pulse/20140814142934-347559225-how-to-negotiate-like-harvey-specter/)
+- [How To Negotiate Like Harvey Specter Part II](https://www.linkedin.com/pulse/20141204130253-347559225-how-to-negotiate-like-harvey-specter-part-ii/)
+- [6 Negotiation lessons from Harvey Specter of ‘Suits’](https://www.scotwork.com.au/negotiation-blog/2018/6-negotiation-lessons-from-harvey-spectre-of-suits/)
+
+其實跟談判有關的文章和影片不勝枚舉，此處僅舉一例，讓大家輕鬆一下。
 
 ## 結語
 

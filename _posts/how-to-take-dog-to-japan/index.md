@@ -1,15 +1,15 @@
 ---
 slug: 'how-to-take-dog-to-japan'
-title: 'How to take your pet to go abroad (Taiwan>>Japan)'
+title: 'How to Take Your Pet Abroad from Taiwan to Japan'
 category: 'life'
 subCategory: 'travel'
 publishedAt: '2021-11-07'
 updatedAt: '2022-01-09'
 excerpt: '
 The precautions for exporting dogs and cats of the Bureau of Prevention and Quarantine clearly stated that "exporting dogs and cats should comply with the regulations of the importing country." Because Taiwan is currently a rabies-endemic country, it takes more advances to travel to non-rabies-endemic countries like Japan. Preparation and standby time.'
-coverImage: '/assets/posts/how-to-take-dog-to-japan.jpg'
+coverImage: '/assets/posts/how-to-take-dog-to-japan-en.jpg'
 ogImage:
-  url: '/assets/posts/how-to-take-dog-to-japan.jpg'
+  url: '/assets/posts/how-to-take-dog-to-japan-en.jpg'
 credentials: ['Actually take the dog to Japan', 'Read 20+ web pages and articles']
 references:
   [

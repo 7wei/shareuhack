@@ -6,9 +6,9 @@ subCategory: 'investment'
 publishedAt: '2021-08-15'
 updatedAt: '2022-01-09'
 excerpt: "この記事では、富の自由の聖杯を論じるのではなく、Amazonの投資ベストセラーの著者たちからの重要なメッセージをまとめ、より安定した財務管理の概念と財務的自由への道を提供します。"
-coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
+coverImage: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
 ogImage:
-  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers.jpg'
+  url: '/assets/posts/learn-to-financial-freedom-from-amazon-bestsellers-en.jpg'
 keywords: '富の自由, 財務, 財務管理スキル'
 recommendations:
   [

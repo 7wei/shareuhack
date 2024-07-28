@@ -1,14 +1,14 @@
 ---
 slug: 'sense-of-ritual-best-practice'
-title: 'Transform Your Life by Embracing Daily Rituals—Learn How to Create Your Own Meaningful Practices'
+title: 'Transform Your Life with Daily Rituals: Learn to Create Meaningful Practices'
 category: 'life'
 subCategory: 'lifePhilosophy'
 publishedAt: '2021-11-18'
 updatedAt: '2024-07-28'
 excerpt: "In recent years, we've started exploring ways to liberate our minds and spirits. The concept of rituals has entered our lives, representing our quest for spiritual fulfillment. Through rituals, we can truly live life, not just exist."
-coverImage: '/assets/posts/sense-of-ritual-best-practice.jpg'
+coverImage: '/assets/posts/sense-of-ritual-best-practice-en.jpg'
 ogImage:
-  url: '/assets/posts/sense-of-ritual-best-practice.jpg'
+  url: '/assets/posts/sense-of-ritual-best-practice-en.jpg'
 recommendations:
   []
 credentials: ['Read over 30 online articles', 'Interviewed more than 5 people who practice rituals', 'Over a month of personal practice experience']

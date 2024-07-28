@@ -3,11 +3,11 @@ title: '引き寄せの法則の3つの秘密: 好きなものを引き寄せる
 category: 'life'
 subCategory: 'lifePhilosophy'
 excerpt: "私たちの思考は同じような周波数を発し、それを引き寄せます。磁石のように、私たちは考えていることを自分の人生に引き寄せるのです。これが引き寄せの法則です。"
-coverImage: '/assets/posts/law-of-attraction.jpg'
+coverImage: '/assets/posts/law-of-attraction-en.jpg'
 publishedAt: '2022-02-28'
 updatedAt: '2022-02-28'
 ogImage:
-  url: '/assets/posts/law-of-attraction.jpg'
+  url: '/assets/posts/law-of-attraction-en.jpg'
 credentials: ['引き寄せの法則を個人的に5回以上実証', '10以上のオンライン記事を読破', '関連書籍3冊以上を読了']
 recommendations: []
 references: []
