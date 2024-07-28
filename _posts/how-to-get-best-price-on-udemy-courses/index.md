@@ -6,7 +6,7 @@ subCategory: 'education'
 excerpt: 'If you want to learn something new, the first online course platform you might think of is Udemy. You can find almost any course imaginable here, such as language, art, music, fitness, programming, business, teaching, productivity, and more. So, how can you buy Udemy courses at the cheapest price?'
 coverImage: '/assets/posts/how-to-get-best-price-on-udemy-courses-en.jpg'
 publishedAt: '2021-07-22'
-updatedAt: '2021-07-22'
+updatedAt: '2024-07-28'
 ogImage:
   url: '/assets/posts/how-to-get-best-price-on-udemy-courses-en.jpg'
 credentials: ['Took 30+ Udemy courses', 'Read 20+ articles']
