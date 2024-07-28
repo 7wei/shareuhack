@@ -4,11 +4,11 @@ title: '内なる平和を再発見する：初心者のための瞑想の5つ�
 category: 'life'
 subCategory: 'mindfulness'
 excerpt: "瞑想とは簡単に言えば、心の掃除のようなものです。心を集中させる過程であり、リラックスを達成し、心の雑念を取り除き、不安な心を穏やかに戻すことができます。この記事では、初心者のための5つのガイドラインを提供し、瞑想を成功させ、瞑想がもたらす変革的な変化を体験する方法を教えます！"
-coverImage: '/assets/posts/meditation-101.jpg'
+coverImage: '/assets/posts/meditation-101-2.jpg'
 publishedAt: '2022-01-14'
 updatedAt: '2024-02-02'
 ogImage:
-  url: '/assets/posts/meditation-101.jpg'
+  url: '/assets/posts/meditation-101-2.jpg'
 credentials: ['3年以上の個人的な瞑想実践と経験']
 recommendations: [
     {

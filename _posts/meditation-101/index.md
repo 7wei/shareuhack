@@ -4,11 +4,11 @@ title: 'Rediscover Inner Peace: 5 Essential Tips for Beginner Meditation Practit
 category: 'life'
 subCategory: 'mindfulness'
 excerpt: "Meditation is a powerful practice that can bring calm, clarity, and balance to your life. Whether you’re new to meditation or looking to deepen your practice, understanding the best practices and utilizing the right resources is crucial. In this article, we will explore the benefits of meditation, offer practical tips for getting started, and recommend resources to help you along your journey."
-coverImage: '/assets/posts/meditation-101.jpg'
+coverImage: '/assets/posts/meditation-101-2.jpg'
 publishedAt: '2022-01-14'
 updatedAt: '2024-07-28'
 ogImage:
-  url: '/assets/posts/meditation-101.jpg'
+  url: '/assets/posts/meditation-101-2.jpg'
 credentials: ['3+ years of personal meditation practice and experience']
 recommendations: [
     {
